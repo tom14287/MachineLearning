@@ -1,0 +1,26 @@
+re: leopard or snow l?on wed, 12 mai 2010, eeri kask - eeri.kask@inf.tu-dresden.de wrote:
+
+> (1)  doe it make sens to upgrad tiger to leopard run on a
+> g4-powerbook-12" laptop?
+
+i run 10.5 on such a powerbook as well as a 1ghz g4 emac. if anyth 
+perform overal wa improv over 10.4. on have 1gb of ram the other 
+3/4 gb. the onli downsid wa that at some point there wa an updat to 
+10.5 where my firewir enclosur becam unreli. it seem to affect 
+certain id to fw bridg chip in hard drive enclosur and i wa unlucki. 
+i can usual power cycl the drive and try again successfulli. it matter 
+not which cabl and drive i us, i have three enclosur, and onc is the 
+culprit.
+
+with regard to x11, the grow pain ar mostli over for me. i do us 
+xvnc for 8-bit though. thi mai be improv in later version of x11 
+though. the kei option to xvnc ar -cc 3 -depth 8
+
+mz
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

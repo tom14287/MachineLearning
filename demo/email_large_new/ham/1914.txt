@@ -1,0 +1,47 @@
+re: go wireless* on 2010 09 apr 09:40 -0500, lisi wrote:
+
+> > wicd and network-mangler also have curs interfac, but it is
+> > imposs to us them for advanc setup like radiu, ...
+> 
+> +1 for wicd if you want an easi life.  but you mai need to us the backport 
+> version if you ar run lenni.  in my experi, network mangler live 
+> well up to it nicknam. :-( .
+
+i'm gener a fan of wicd and have promot it.  now with my laptop
+run linux mint 8 the version of wicd in the archiv (1.6.1-3ubuntu)
+ha a real heartach go from on of my wpa network to the other wpa
+network by get into a state where it sai "no wireless network
+found" and onli a reboot seem to clear it (i wa too lazi/rush to
+try variou thing like reload the kernel driver, etc.)  i've now
+given network manag a try again and it just work (tm) and let me
+roam from on network to the other through suspend seemlessli.
+
+tong, if your laptop ha an athero base card (ar5212 chipset) it will
+us the ath5k driver which work veri veri well.  i've been us an
+athero base card and the laptop i've had have been athero base for
+sever year.  it's probabl the best support chipset out there. 
+onc you enjoi the freedom of movement that wireless offer, you'll
+wonder why you didn't try it sooner.
+
+feel free try to kill time set up the low level tool manual. 
+i suggest that if you're run on of the desktop environ
+(gnome, kde, xfce, etc.) then you'll be better serv just us
+network manag or wicd as both ar easi to us and make deal with
+multipl wireless network veri easi.
+
+- nate >>
+
+-- 
+
+"the optimist proclaim that we live in the best of all
+possibl world.  the pessimist fear thi is true."
+
+ham radio, linux, bike, and more: http://n0nb.us/index.html
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100410125145.ge2198@n0nb.us
+
+

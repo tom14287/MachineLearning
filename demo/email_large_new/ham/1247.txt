@@ -1,0 +1,30 @@
+re: us umlaut work in consol, not in citrix clienton 29/04/2010 11:16, benedict verheyen wrote:
+
+
+>
+> thank, it's worth a try.
+> i'm not sure the java environ ar the same.
+> on both machin thei were instal with aptitud instal default-jre
+>
+> i'll try the backport of java & us firefox instead of iceweasel.
+>
+> regard,
+> benedict
+>
+>
+
+firefox crash unfortun and i spent alreadi to much time on thi.
+so we'll have to go with ubuntu in thi case :(
+
+thank for the help & idea.
+
+regard,
+benedict
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hregeb$7k3$1@dough.gmane.org
+
+

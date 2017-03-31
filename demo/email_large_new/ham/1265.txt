@@ -1,0 +1,28 @@
+re: chromium in sidfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on fri,21.mai.10, 08:32:56, jeremi jozwik wrote:
+=20
+> question, on lenni is there a differ repositori for chromium? just
+> did a apt search to find chromium.
+
+accord to http://packag.debian.org/chromium-browser [1] it is onli=20
+avail in sid/unstabl. backport.org usual carri newer version=20
+of packag compil for stabl, but the polici is to have onli packag=20
+=66rom test.
+
+[1] i could have told you the same with
+'apt-cach polici chromium-browser', but i do have sourc for all three=20
+releas ;)
+
+you could also try to backport it yourself or just compil from sourc. =20
+the upstream provid deb i don't like, becaus of the wai thei handl=20
+updat.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

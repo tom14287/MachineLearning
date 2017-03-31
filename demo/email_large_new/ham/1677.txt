@@ -1,0 +1,67 @@
+re: re: password mess up>   come in late to thi thread, but if your k desktop is ok,
+> then you actual have thi problem quit well isol to someth
+> in the kdm log-in process. it's not x, and it's not your desktop
+> itself.
+> 
+>   by the time kdm ha switch over to you, it's write error
+> into a file, ".xession-error", in your home directori -- you can
+> check thi for clue to what's go on.
+> 
+>   anoth option is to blitz kdm's config file, and re-configur
+> or re-instal the packag.  i'm not familiar with how sid 
+> doe thi, but you can do "dpkg -l kdm", and look for file in
+> the /etc directori -- for the current debian stabl it's
+> /etc/kde3/kdm.  i suggest re-name the analog directori
+> (don't delet it, you might want it back), and then do
+> "apt-get instal --reinstal kdm", or whatev the analog
+> oper is in aptitud or synapt, if that's your prefer,
+> which should re-build the configur section.  that's like
+> to fix it, at the cost of un-do ani custom you've
+> done.
+> 
+>   if blitz and re-build the kdm config fail, then it's
+> probabl some kind of interact between kdm and someth els...
+> 
+> 				-- a.
+> -- 
+> andrew reid / reidac@bellatlant.net
+
+hi andrew,
+
+thank for jump in here.  i've tri the follow:
+
+1. i have no ".xsession-error" (or ".xession-error") in my home 
+directori or that of ani other user.
+
+2. it appear the configur file for kde4 ar found under 
+"/usr/share/kde4/config" and also "/etc/kde4/kdm/".  i tri move the 
+"config" directori to an obscur locat and the do the "apt-get 
+instal --reinstal kdm".  it regener the config directori but no 
+chang in login.
+
+3. i found that under /user/bin (when do the dpkg -l kdm) there is a 
+file "genkdmconf" which look promis.  read the help file for it 
+and execut "genkdmconf -no-old", the file under /etc/kde4/kdm were 
+back up and new on regener.  now, i get a differ login screen 
+background, but the action is still the same -- doe not accept my 
+password.  i can still us the "consol login" option of that screen and 
+get to the cli login and do so still allow me to startx and get 
+thing go.
+
+so it appear that your last paragraph appli.  i'll be glad to try 
+(almost) anyth you or anyon els suggest on thi.
+
+(i am also, per my previou messag, start anoth thread for the 
+symbol not found problem i have in try to get some applic 
+run (synapt, iceap, geani to name a few).)
+
+regard,
+don
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be75d6d.3010200@noark.net
+
+

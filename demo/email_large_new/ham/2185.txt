@@ -1,0 +1,30 @@
+re: question about raid 6on wed april 28 2010 18:51:18 stan hoeppner wrote:
+> you seem to poss knowledg of these thing that is 180 degre opposit
+> of fact.  oltp, or onlin transact process, is typifi by retail or
+> web point of sale transact or call log by telco.  oltp databas
+> ar typic much more write than read heavi.  olap, or onlin analyt
+> process, is exclus read, made up entir of search queri.
+> why/how would you think oltp is mostli read?
+
+if all you're do is append to a log file then you're write-intens.
+for exampl, some inn server us cycbuff ar write-intens if thei can
+forward the articl out to the peer befor thei disappear from cach.
+
+oltp databas have indic (or hash tabl or whatev) that need to be
+read even when write a new record.  then of cours, the data that ha been
+written need to be us for someth such as fulfil and analysi.
+both ar mostli read.  backup from the live db is all read.
+
+i typic saw about 90% read in oltp databas.
+
+i think thi is get off-topic for debian-user.
+
+--mike bird
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004281917.14982.mgb-debian@yosemit.net
+
+

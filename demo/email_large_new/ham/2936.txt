@@ -1,0 +1,37 @@
+re: error: read from socket fail: connect reset by peerfrom nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset=us-ascii
+
+hi,
+
+thi is the output of scp -vv
+
+$ scp -vv file.tar.gz root@192.168.1.11:/root/desktop
+execut: program /usr/bin/ssh host 192.168.1.11, user root, command scp -v -t /root/desktop
+openssh_5.1p1 debian-5, openssl 0.9.8g 19 oct 2007
+debug1: read configur data /etc/ssh/ssh_config
+debug1: appli option for *
+debug2: ssh_connect: needpriv 0
+debug1: connect to 192.168.1.11 [192.168.1.11] port 22.
+debug1: connect establish.
+debug1: ident file /home/user/.ssh/ident type -1
+debug1: ident file /home/user/.ssh/id_rsa type -1
+debug1: ident file /home/user/.ssh/id_dsa type -1
+debug1: remot protocol version 2.0, remot softwar version openssh_5.1p1 debian-5
+debug1: match: openssh_5.1p1 debian-5 pat openssh*
+debug1: enabl compat mode for protocol 2.0
+debug1: local version
+ string ssh-2.0-openssh_5.1p1 debian-5
+debug2: fd 3 set o_nonblock
+debug1: ssh2_msg_kexinit sent
+read from socket fail: connect reset by peer
+lost connect
+
+i get thi not matter which file i try to copi.
+
+
+
+
+
+
+
+      

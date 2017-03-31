@@ -1,0 +1,28 @@
+re: [ot] ubuntu vs debian forum (wa recompil the kernel with a
+ differ version name)on thu, 8 apr 2010 13:13:22 -0400 (edt), bob mcgowan wrote:
+> 
+> i run ubuntu on my laptop, becaus i got tire of the manual nvidia
+> setup everi time the kernel chang.
+
+i have been a regular on thi forum for sever month now, and i
+know from experi that the topic of the proprietari nvidia driver
+ha come up as a topic of frustrat mani time.  i have a coupl
+of machin at home with nvidia card in them, and i plan to do
+some research in thi area and publish my find on a web page,
+assum that i can find someth us to sai.
+
+but first, i've got to get my tax done!
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/255649179.1925261270748527351.javamail.root@md01.wow.synacor.com
+
+

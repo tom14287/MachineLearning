@@ -1,0 +1,34 @@
+re: instal lenni packag in squeezeboyd stephen smith jr. wrote:
+> on wednesdai 28 april 2010 20:35:29 rob owen wrote:
+>> if i were to instal a bare-bone squeez system, then add lenni
+>> repositori and declar lenni to be the default-releas in apt.conf,
+>> can i expect to have mani problem instal a full desktop environ
+>> from the lenni repo?  (gnome, lxde, or fluxbox, most like).
+
+
+> thi type of setup is neither test nor support.  sinc a number of librari 
+> transit have alreadi gone into squeez, i would expect issu, though i 
+> don't know what.
+
+
+i'm us the squeez+kde4 version of debian live instal and it seem
+to be lenni upgrad to squeez, it's definit broken becaus the
+weather widget will not config, i've seen the problem befor on everi
+lenni upgrad and it's the onli problem i can find, on that system i've
+been abl to upgrad the kernel with no problem.
+
+i would not recommend debian live to anyon look for a usabl system.
+-- 
+jimmi johnson
+
+simplymepi 8.5 at sda9
+regist linux user #380263
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bda3506.8010303@csmine.org
+
+

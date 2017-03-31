@@ -1,0 +1,44 @@
+re: submit my java web start applic to appl downloadsgabriel,
+
+tell us your success, thi would be interest to sever!
+
+paul
+
+
+le 07-avr.-10 =e0 18:43, mike swingler a =e9crit :
+
+> on mar 28, 2010, at 10:25 am, gabriel kahlout wrote:
+>
+>> hello,
+>>
+>> i'd like to submit my jw applic memorizeasi to appl download,
+>> howev it requir a zip folder download link, while i distribut it
+>> as jnlp, as in these link:
+>>
+>> http://memorizeasi.mysimpatico.com
+>> http://mac.softpedia.com/get/educ/memorizeeasi.shtml
+>>
+>> doe anyon know if i still must provid a zip (of the jnlp file) for
+>> submit, or submit the jnlp would be accept?
+>
+> you could creat a desktop shortcut of your applic (and ensur =20=
+
+> the full url to your jnlp is correct in it's info.plist), wrap up =20
+> the shortcut, and submit that. i think that would provid a more mac-=20=
+
+> like experi for your custom come from =
+ >.
+>
+> regard,
+> mike swingler
+> java runtim engin
+> appl inc.
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

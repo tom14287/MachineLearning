@@ -1,0 +1,26 @@
+re: faq: taint warn from sa in /etc/procmailrcfrom nobodi sun sep 18 20:45:27 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on wed, aug 28, 2002 at 12:14:24am +0100, justin mason wrote:
+> actual, i think procmail support thi directli. us droppriv=3dye
+> at the top of the /etc/procmailrc.
+
+hei, look at that!
+
+       droppriv   if  set  to	`ye'  procmail  will drop all privileg
+		   it might have had (suid or sgid).  thi is onli
+		   us if you want to guarante that the bottom half
+		   of  the /etc/procmailrc file is execut on behalf
+		   of the recipi.
+
+of cours, remov setuid/gid bit on program that don't need it is
+alwai a good idea.  a gener rule of system administr: don't give
+out permiss unless you absolut need to.   ;)
+
+--=20
+randomli gener taglin:
+"the cardin rule at our school is simpl. no shoot at teacher. if
+ you have to shoot a gun, shoot it at a student or an administr."
+                 - "word smart ii", from princeton review pub.

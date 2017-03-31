@@ -1,0 +1,83 @@
+re: lilo remov in squeez (or, "pleas test grub2")on sat, 22 mai 2010 23:39:52 -0400 (edt), william pitcock wrote:
+> 
+> after some discuss about lilo on #debian-devel in irc, it ha pretti
+> much been determin that kernel size have cross the line past where
+> lilo can reliabl determin the payload size.
+> 
+> thi bug *can* be fix, but not without a signific rewrit of the
+> wai that lilo's stage2 loader code work.  given that there is no activ
+> upstream and that the debian lilo packag carri mani patch for bug
+> fix that ar allevi by standard on grub2, thi seem like the
+> best option for debian.
+> 
+> thi mean that user should *test grub2 extens* befor squeez is
+> releas so that ani issu can be resolv now.
+> 
+> as for remov, the follow thing need to be done:
+> 
+> (1) the releas note need to be updat to reflect that lilo is no
+> longer a bootload option;
+> (2) the debian-instal team need to remov the lilo-instal udeb;
+> (3) the ftpmaster need to remov lilo from unstabl (which will be done
+> us the appropri bug file onc the abov step ar made);
+> (4) user need to test grub2 now.
+
+first of all, forgiv me for cross-post, which is gener a no-no.
+but if you can cross-post, i can cross-repli.
+
+second, unless you repli to debian-user, to which i am subscrib, pleas
+cc me.  i am not subscrib to ani of the other list.
+
+i am not a debian packag maintain or a debian develop.  i am just an
+ordinari system administr.  so i'm sure that my opinion will not count
+for much.  but i am oppos to the remov of lilo.  both grub-legaci and
+grub-pc us sector on the hard disk outsid of the master boot record
+(cylind 0, head 0, sector 1).  in other word thei us cylind 0, head 0,
+sector 2 and possibl subsequ sector on cylind 0 head 0.  thi break
+the design of the backup softwar that my employ us.  thi backup softwar
+back up the master boot record and all partit; but sinc the extra
+sector us by grub-legaci and grub-pc ar outsid the master boot record
+and ar not part of ani partit, thei don't get back up.  consequ,
+if we have a hard drive failur and restor from a backup, we have an
+unboot machin.  lilo us onli the master boot record.  a lilo-boot
+machin can be back up and restor with our exist backup softwar
+just fine.  given these requir, i wouldn't us grub-pc even if it
+were bug free and well document.  (but neither is the case!)
+
+as for the claim that kernel ar too big now, i find that hard to
+believ, especi now that we have the larg-memori option avail.
+the standard stock debian kernel imag file that i us for squeez,
+vmlinuz-2.6.32-3-686, is current 2234080 byte.  ar you try to tell
+me that there's no room for a 2m kernel below the start of the ebda?
+
+i am abl to load *both* the kernel *and* the initi ram filesystem
+below the ebda (i.e. the larg-memori option is not us) if i us
+modul=dep instead of modul=most in the initi ram filesystem
+under lenni.  i'll bet i can do it with squeez too.
+
+i realiz that lilo doesn't work for everyon, and i'm not suggest
+that it be the default bootload; but to get rid of it entir is
+unaccept.  as far as i know, it's the onli bootload that meet
+all of my requir, and i will not voluntarili give it up.
+
+no doubt you will tell me that i am welcom to maintain it myself.
+unfortun, i do not have the requisit skill to do so.  all i
+can do is to appeal in the name of reason that it not be drop.
+
+also, pleas excus my ignor, but what exactli is thi
+"payload size" to which you refer?  is that the same thing as the
+size of the kernel?  or is it someth els?
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/698259750.358730.1274641482395.javamail.root@md01.wow.synacor.com
+
+

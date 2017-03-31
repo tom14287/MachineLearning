@@ -1,0 +1,37 @@
+re: null data from wmv with flip4mac - load delai?on fri, mai 21, 2010 3:54 am, quicktim-api-request@list.appl.com wrote:
+
+> i have a wmv file.
+>
+> if ([qtmovi caninitwithfil:path])
+> {
+>   qtmovi = [qtmovi moviewithfil:path error:nil];
+>   if (qtmovi)
+>   {
+>       nsvalu*   naturals =
+>       [qtmovi attributeforkei:qtmovienaturalsizeattribut];
+>
+>       nssize     pixels;
+>
+>       [naturals getvalu:&pixels;];
+>    }
+> }
+>
+> i alwai end up with pixel size of zero for both width and height.
+>
+> i am guess the data is not load yet. how can i find thi inform
+> but not load the entir movi... just enough to get non-zero data?
+
+you need to pai attent to the load state of the qtmovi. detail have
+been present on thi list befor and ar in the qtkit document.
+
+tim monro
+quicktim engin
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,30 @@
+re: java-dev digest, vol 7, issu 112on apr 22, 2010, at 1:06 pm, emmanuel puybaret wrote:
+
+> i tri your applic at http://driveweb.com/tech/ap/v3/dw.jnlp=20
+> onc instal it work off-line with no problem on my system (mac os =
+x 10.6.3 / java version "1.6.0_17"), either from the download =
+"dw.jnlp" file, or from it "drive.web savvi.app" shortcut.
+> by off-line, i mean no connect at all to internet.
+
+the bug manifest when there is an activ tcp/ip connect (or =
+connect) but no internet access.  it affect 1.6.0_19 (and mayb =
+1.6.0_18).  it is fix in 1.6.0_20 (as test on window).
+
+
+> can't you get ani consol messag from your user after a time-out?
+
+it seem to just hang forev with no messag.
+
+here's the bug webpag again: =
+
+
+
+- nick=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

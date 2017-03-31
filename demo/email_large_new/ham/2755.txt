@@ -1,0 +1,58 @@
+re: java web start offlin problemshttp://memorizeasi.mysimpatico.com
+
+it's actual 2 jnlp, on setup and on launch.
+
+should it not work offlin with you, pl let me know. i'm awar that
+it doe work (i've test that some time ago, and just now,  but ...).
+
+i also verifi that your doesn't launch offlin.
+
+
+2010/4/16, nick how :
+> on apr 16, 2010, at 11:18 am, gabriel kahlout wrote:
+>
+>>> launch without an internet connect caus the applic to
+>>> "hang".
+>>
+>> in the case of my applic thi doesn't happen. must be specif to
+>> some case.
+>
+> thank for that inform.
+>
+> mayb it's someth about our jnlp file
+> .  could you mayb share the jnlp
+> file for the case that doesn't hang?
+>
+>
+> - nick
+
+
+--=20
+regard,
+k. gabriel
+
+--- unchang sinc 25/1/10 ---
+p.s. unless a notif (lon), pleas repli either with an answer
+or with " ack" append to thi subject within 48 hour. otherwis, i
+might resend.
+in(lon, thi) =e2=88=a8 in(48h, timenow) =e2=88=a8 =e2=88=83x. in(x, myinbo=
+x) =e2=88=a7 isanswerto(x,
+thi) =e2=88=a8 (in(subject(thi), subject(x)) =e2=88=a7 in(ack, subject(x)=
+) =e2=88=a7
+=c2=acisanswerto(x,thi)) =e2=87=92 =c2=aciresend(thi).
+
+also note that correspond mai be receiv onli from specifi a
+priori sender, or if the subject of thi email end with a code, eg.
+-licht01x, then also from sender whose repli contain it.
+=e2=88=80x. in(x, myinbox) =e2=87=92 in(senderaddress(x), mysafesenderlist)=
+ =e2=88=a8 (=e2=88=83y.
+in(y, subject(thi) ) =e2=88=a7 in(y,x) =e2=88=a7 iscodelik(y, -licht01x) =
+).
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

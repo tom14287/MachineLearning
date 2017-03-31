@@ -1,0 +1,46 @@
+re: java for mac os x 10.6 updat 2 and 10.5 updat 7 ar liveon mai 22, 2010, at 9:30 am, paul libbrecht wrote:
+
+> le 22-mai-10 =e0 17:36, mike swingler a =e9crit :
+>=20
+>>> i don't think thi wa mention but the mac beta of the chrome =
+browser will now run applet which i gather is depend on thi java =
+upgrad.
+>>>=20
+>>> (not that i am in ani wai suggest mac user should us anyth =
+other than safari themselv, but if on produc web site that contain =
+java applet it is obvious someth which on ha to be awar of.)
+>>=20
+>> thi is becaus the out-of-process plugin2 is now present in =
+/librari/internet plug-in by default, and is pick up automat by =
+browser that support it.
+>=20
+> which browser is that?
+> my java prefer indic i wish jdk 1.6 but browserspi confirm =
+i'm run 1.5:
+> 	http://browserspi.dk/java.php
+> (for safari and camino at least)
+
+off the top of my head:
+
+safari will pickup plugin2 if plugin1 is not present - which java =
+prefer toggl
+chrome pick up plugin2 onli
+firefox is hardwir to plugin1 with the jep/mrj, unless you remov it =
+them from (app)/content/maco/plugin
+camino is also hardwir with the jep/mrj, but doe not pick up plugin2 =
+if thei ar disabl (not sure why)
+opera seem to alwai die on launch for me
+
+regard,
+mike swingler
+java runtim engin
+appl inc.
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

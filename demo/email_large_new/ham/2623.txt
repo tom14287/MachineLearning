@@ -1,0 +1,19 @@
+[satalk] sa cgi configur scriptsi have been try to research via sa mirror and search engin if a can
+script exist give client access to their user_pref option via a
+web-base cgi interfac. numer isp provid thi featur to client, but
+so far i can find noth. our configur us amavi-postfix and clamav
+for viru filter and procmail with spamassassin for spam filter. i
+would prefer not to have to write a script myself, but will appreci ani
+suggest.
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

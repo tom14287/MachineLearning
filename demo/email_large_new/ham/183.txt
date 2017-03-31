@@ -1,0 +1,34 @@
+re: hptalx is buggi onc calcul is plug and linkedon fri, 07 mai 2010 19:36:36 +0200, merciadri luca wrote:
+
+> camalón write:
+> 
+>> just a wild guess, but try to launch the applic as "root" user.
+>> mayb it's a devic permiss issu :-?
+
+> i had thought about it. i had not tri it, and, to my decept,
+> exactli the same fact happen. when i us hptalx for the first time as
+> root, i configur the calcul, i `save' but when i click `connect'
+> bug buddi pop. :-(
+
+wow...
+
+how about...?
+
+1/ press "o.k", instead "save", it will keep your set onli for the
+current session but it just to test if it work :-?
+
+2/ look at "~/.hptalx" file and check if the previous save set 
+seem right (port connect point to /dev/ttyusb0, and so on...).
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.07.18.12.32@csmine.org
+
+

@@ -1,0 +1,37 @@
+re: temporari deconnect from the internet when too much page
+ ar loadedfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+ron johnson wrote:
+> on 2010-04-15 06:38, merciadri luca wrote:
+> [snip]
+>
+> hmph...
+>
+> befor open the page, start captur packet (us wireshark if
+> you must, or tshark from the cli).
+i will try thi.
+>
+> your symptom *probabl* happen to me, but i just accept it as part of
+> firefox's poor thread.
+>
+> for exampl, if i "kill -15" the iceweasel pid then exit the gui to
+> apt-get upgrad and then restart xfce and iceweasel, all the (4 or 5)
+> window and (total of 20-50) tab restor.  it take 3-4 minut for
+> all of them to complet load.
+that is a good exampl of a massiv tab load. if i have so mani tab
+open, and that i kill the resp. pid, i can restor the tab, just as
+you do, and then the whole connect stall. noth load, and each
+url keep it name, not the page's titl.
+
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+
+

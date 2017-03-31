@@ -1,0 +1,49 @@
+re: epiphani browser continu to get wors and worseon sat apr 17, 2010 at 15:00:15 -0400, stephen powel wrote:
+
+> >  "thei" probabl haven't fix it sinc it hasn't been report as
+> > a bug.
+>
+> as for the download problem, i didn't report a bug becaus someon els
+> got there first: debian bug report number 563056.
+
+  your messag initi didn't have that link; so thank for provid
+ it.
+
+  i think i over-react becaus i'm us to see peopl give
+ list of alleg problem in softwar, but without enough detail to
+ allow anybodi els to confirm them, or investig.
+ sometim you'll get lucki and somebodi els will report it; but post
+ to the user mail list thing like:
+
+    * i us softwar xx but it is buggi and now i us someth els
+
+  just feel like a random rant, not the start of a us or product
+ discuss.  (which is pretti much what you did.)
+
+> as for the repli bug, i just notic it todai; and no, i haven't
+> report a bug yet.  i'm not sure i'm go to.  i alreadi said why.
+
+  inde.  still if it affect on site it probabl affect other,
+ unless it is caus by a particularli malform
+ html/javascript/whatev that site us behind the scene.
+
+  on that basi it us to report, if onli so that other user
+ of that particular site can see it.
+
+  even without that perhap save the page, and associ media
+ to your local machin might still trigger it. if that is the case you
+ can trim down the page(s) a lot and see if you can find out what caus
+ it yourself.  (assum you're familiar with html & so on.)
+
+steve
+--
+debian gnu/linux system administr
+http://www.debian-administr.org/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100417201651.ga17362@steve.org.uk
+
+

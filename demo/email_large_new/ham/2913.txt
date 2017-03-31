@@ -1,0 +1,55 @@
+vlc will lag when read local video, whatev the codec-----begin pgp sign messag-----
+hash: sha1
+
+hi,
+
+when watch video local, with vlc, it often lag at some part of
+the video, and the follow kind of messag ar displai at the
+consol:
+
+==
+[some time] main video output error: pictur [hexadecim ref.] refcount is -1
+overflow in spectral rle, ignor
+==
+
+the [some time] refer ar often ~40 time separ, i.e. i could
+get
+
+==
+[00000010] main video output error: pictur [hexadecim ref.] refcount is -1
+[00000050] main video output error: pictur [hexadecim ref.] refcount is -1
+.
+.
+.
+==
+
+it doe not onli happen with Матрёшка file (.mkv). (i here
+test if gnu support cyril out-of-the-box.)
+
+is it normal? doe it happen often with video? what would it be due
+to? ar thei corrupt?
+
+thank.
+
+- -- 
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+- -- 
+
+luck is what happen when prepar meet opportun. (luciu annaeu seneca)
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: process by mailcrypt 3.5.8 
+
+ieyearecaayfakvthfgacgkqm0llzlt8mhz+cwcfq/zbm/a/yq6ba00vak/haw
+vwsaokwkvxabmxa8aewguc1kt7njlfwf
+=7pcf
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87eihewg.fsf@merciadriluca-station.merciadriluca
+
+

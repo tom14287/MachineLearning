@@ -1,0 +1,27 @@
+re: [ot] home up (wa  filesystem recommend)owen@netptc.net put forth on 4/29/2010 2:26 pm:
+
+> also i might have an issu with stan's us of and.  while surg
+> protect of printer is a good idea, most up vendor advis
+> against connect the printer to the up for power protect
+> larri
+
+most inkjet on a up ar fine (for small job), laser no--too much current
+draw heat up the fuser.  i've never print dure a power outag but i
+could if i realli need to.  the odd of that ar terribl low though.
+
+them main reason for plug all my equip into the up is that the mov
+in ups ar usual much larger and of better qualiti than those found in
+surg protector power strip.  for those who do not know, an mov or metal
+oxid varistor, is the devic that suck up the excess voltag and current
+that frequent enter line dure a light strike.
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bda3c34.206@hardwarefreak.com
+
+

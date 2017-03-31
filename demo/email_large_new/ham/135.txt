@@ -1,0 +1,15 @@
+re: java is for kiddi>>>>> "r" == robert harlei  write:
+
+    r> depend who write it.  on gui will write a bug everi 5 line,
+    r> anoth everi 5000 line.  put them both on a project and that
+    r> will averag out to a bug everi 4.995 line.  
+
+and a java program, due to the extens class librari, will weigh
+in at 10% the number of line of the equival c program.  qed.
+
+-- 
+gari lawrenc murphi  teledynam commun inc
+ busi advantag through commun softwar : http://www.teledyn.com
+"comput ar useless.  thei can onli give you answer."(pablo picasso)
+
+

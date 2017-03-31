@@ -1,0 +1,19 @@
+re: problem with iwl3954from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=utf-8
+content-disposit: inlin
+
+jame brown wrote at 2010-04-13 07:59 -0500:
+> i had the dmesg messag that i need us iwllwifi-3945-2 instead
+> iwlwifi-3945-1.
+> i find the packeg firmwar-iwlwifi-0.23~bpo50+1 and instal that
+> instead 0.14+lenni2.
+> now i have the next record in dmesg:
+>  [   49.170257] iwl3945 0000:02:00.0: firmwar: request
+> iwlwifi-3945-2.ucod
+> [   49.272362] iwl3945 0000:02:00.0: load firmwar version 15.32.2.9
+>  is it wrong?!
+
+look fine to me.
+
+read:
+aptitud show firmwar-iwlwifi

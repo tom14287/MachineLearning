@@ -1,0 +1,24 @@
+re: acroread not see printerson thu, 2010-04-15 at 07:25 -0500, ron johnson wrote:
+> on 2010-04-15 04:56, john a. sullivan iii wrote:
+> > hello, all.  we've instal acroread 8.1.7-0.1 from debian-multimedia.
+> > it is not see ani of the printer on our cup print server.  it just
+> > show the custom lpr printer.  how do we get it to see our printer like
+> > all the other applic in our kde setup do? we ar run lenni +
+> > backport.  thank - john
+> > 
+> 
+> semi-ot from your question, but v8.1.7 is *realli* old.  make that 
+> realli *realli* old.  if you're run stabl and that's what's in 
+> the stabl repo, then remov it an go directli to adob to get the 
+> latest version.
+
+i thought about do that but it look like the onli deb is a 32 bit
+on and we ar run 64 bit :(
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1271339566.4177.19.camel@famili.pacifera.com
+
+

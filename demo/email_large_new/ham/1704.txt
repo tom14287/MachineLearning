@@ -1,0 +1,90 @@
+re: horribl mc colorschemegodo wrote:
+> hugo vanwoerkom wrote:
+>> hugo vanwoerkom wrote:
+>>> hi,
+>>>
+>>> i just made the mistak of my life and upgrad mc from 
+>>> 2:4.6.2~git20080311-4 to 3:4.7.0.1-1.
+>>>
+>>> and the new color scheme is enough to caus instant blind :-(
+>>> no kid!
+>>>
+>>> how do i get back to what i had?
+>>> anybodi?
+>>>
+>>
+>> so what happen is that start with 4.7.0 mc support skin.
+>>
+>> there ar 5 skin ship with mc:
+>>
+>> darkfar - black background
+>> default - the old default: blue background
+>> doubl-line - like default but with doubl line. couldn't get that 
+>> to work
+>> featur - like doubl-line
+>> gotar - black backround
+>>
+>> i found 2 skin googl:
+>>
+>> elit_command - unread with black backround
+>> bluemoon - black background.
+>>
+>> i found no skin anywher with my choic for year: white background.
+>>
+>> so it's back to the old blue default becaus it take dai of diddl 
+>> to make up a skin.
+>>
+>> hugo
+>>
+>>
+> hi,
+> i wa just download and open elit_command skin.
+> i think if in:
+> [core]
+>     _default_=grai;
+> 
+> chang to white
+> [core]
+>     _default_=white;
+> it should be white background.
+> i don't have mc so i can't try, but it seem easi to modifi.
+
+hi goran,
+
+i just post a followup with my complaint on the mc user list:
+http://mail.gnome.org/archiv/mc/2010-april/msg00024.html
+
+it's not that simpl as i mention there: when you chang that default 
+option all the directori entri turn bright white and in mcedit the 
+entri turn black on white with a blue background which look ridicul.
+
+the problem is that thei chang a major function without fallback and 
+without a spectrum of option.
+
+too bad but it's wait until skin get develop or pin mc to 
+prevent 4.7.0.1 from instal.
+
+hugo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hqfnap$nib$1@dough.gmane.org
+
+

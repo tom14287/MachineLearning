@@ -1,0 +1,10 @@
+re: re: lenni - gnome ftp connect to serverfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain
+content-transfer-encod: 7bit
+
+not with a differ server, but i have test it with a differ
+client - command line ftp - , it work in text and binari mode and i can
+upload file to the server. i cannot figur why in gui mode it doe not
+work while in command line it doe.
+-- 
+toma kral 

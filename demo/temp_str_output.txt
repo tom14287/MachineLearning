@@ -1,0 +1,17 @@
+这	S
+是	S
+一	B
+个	E
+基	B
+于	E
+C	B
+R	M
+F	E
+的	S
+中	B
+文	E
+分	B
+词	M
+器	E
+.	S
+

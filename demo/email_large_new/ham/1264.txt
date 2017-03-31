@@ -1,0 +1,29 @@
+re: server certif ha expiredon 05/18/2010 03:32 pm, merciadri luca wrote:
+> eduardo m kalinowski wrote:
+>    
+>> on ter, 18 mai 2010, merciadri luca wrote:
+>>      
+>>> well, thi is effect icedov 2.0.0.22 (20090706). how did you
+>>> manag to, under th. 3?
+>>>        
+>> i don't rememb exactli, but i believ somewher the wa an option to
+>> accept the secur except perman.
+>>      
+> thank. i just verifi, and it is sure not implement in my
+> icedov's version. i should get the new on (which is not in stabl
+> branch, evid).
+>
+>    
+you ar better off us the upstream tarbal of thunderbird then try 
+to backport icedov from squeez/lenni. instal to your homedir or /opt. 
+as long as your user ha write perm to file, it ha an updat manag 
+that can upgrad itself (somewhat elimin the need for packag 
+manag).
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf2ef3a.6070109@csmine.org
+
+

@@ -1,0 +1,32 @@
+hash sum mismatchwhen i try to instal simutran game with aptitud i got
+thi error and wa not abl to instal it:
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│e: fail to fetch cdrom:[lenni dvd                                       │
+│   3]/pool/main/s/simutran/simutran-data_100.0+ds1-4_all.deb: hash sum  │
+│   mismatch                                                               │
+│                                    [ ok ]                                │
+└──────────────────────────────────────────────────────────────────────────┘
+
+a few dai ago same thing happend when instal hgsvn:
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│e: fail to fetch cdrom:[lenni dvd                                       │
+│   3]/pool/main/h/hgsvn/hgsvn_0.1.6-2_all.deb: hash sum mismatch          │
+│                                    [ ok ]                                │
+└──────────────────────────────────────────────────────────────────────────┘
+
+i have origin dvd. content of /cdrom/.disk/info is:
+debian gnu/linux 5.0.4 "lenni" - offici i386 dvd binari-3 20100131-19:16
+
+ani idea why thi is so?
+
+martin
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100421132759.ga2635@alfa
+
+

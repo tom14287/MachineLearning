@@ -1,0 +1,21 @@
+migrat os to smaller =?utf-8?q?drive=3f?=what's the best mechan to migrat a work bootabl system from on
+drive to a smaller capac drive?
+
+e.g. take thi 226g filesystem
+
+df -h
+filesystem            size  us avail us% mount on
+/dev/sdb1             226g  4.1g  210g   2% /
+tmpf                 3.0g     0  3.0g   0% /lib/init/rw
+udev                  3.0g  244k  3.0g   1% /dev
+tmpf                 3.0g     0  3.0g   0% /dev/shm
+
+and transfer it onto sai a 32g drive?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/3cc33b52b344d44be33167a82fe301fe@192.168.0.66
+
+

@@ -1,0 +1,52 @@
+mr. hibodi 70% less to pai
+
+
+
+newslett
+
+<!--
+a:link
+{ color: #8f3bcf; }
+
+a:visit
+{ color: #f58cec; text-decor: underlin; }
+
+a:hover
+{ color: #f0646b; text-decor: none; }
+
+oucydawaa
+{
+ margin-top: 0px;
+ margin-bottom: 6.5pt;
+ line-height: 13px;
+ font-famili: tahoma;
+ font-size: 11px;
+ color: #8ea759;
+}
+-->
+
+
+
+
+
+
+to view thi email as a webpag, go here.
+      
+
+
+
+
+
+
+ thi email wa sent to: hibodi@csmine.org
+thi email wa sent by: lyjepa compani 7869 xihiib street, 289
+	ada, bl 38498  usa
+go here to remov your address. 
+go here
+      to modifi your email address and other subscrib inform and prefer.
+we respect your right to privaci. view our mail host's privaci polici.
+
+
+
+
+

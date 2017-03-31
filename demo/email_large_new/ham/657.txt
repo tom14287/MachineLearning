@@ -1,0 +1,16 @@
+re: broken debian's test migrat (grave bug in modul-init-tool)on 2010-04-19 12:43 +0200, vincent lefevr wrote:
+
+> ar bug which ar mark as done taken into account befor a
+> releas?
+
+ye, thei ar.
+
+sven
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87sk6r6yem.fsf@turtl.gmx.de
+
+

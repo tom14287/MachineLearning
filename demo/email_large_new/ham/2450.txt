@@ -1,0 +1,40 @@
+how to plai 3gp audio file?i'm look for a wai to plai *.3gp audio file from the command line.
+mplayer doesn't seem to work:
+
+    % mplayer some-audio-file.3gp
+    [...]
+    plai some-audio-file.3gp.
+    libavformat file format detect.
+    [lavf] audio stream found, -aid 0
+    ==========================================================================
+    open audio decod: [ffmpeg] ffmpeg/libavcodec audio decod
+    cannot find codec 'libamr_nb' in libavcodec...
+    adecod init fail :(
+    adecod init fail :(
+    cannot find codec for audio format 0x726d6173.
+    read doc/html/en/codec.html!
+    audio: no sound
+    video: no video
+
+ani suggest for altern approach, pointer on how & what to
+instal in term of a codec, or mayb a wai to convert these file
+(ideal without transcod degrad)?
+
+these audio file were creat by the android app "voic record".
+
+tia for ani help,
+
+john
+
+
+-- 
+john magolsk
+http://b79.net/contact
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100416190000.ga12338@s70206.gridserv.com
+
+

@@ -1,0 +1,28 @@
+re: why ar there no latest book written for debian system?on mondai 26 april 2010 16:48:01 stephen powel wrote:
+> on mon, 26 apr 2010 11:26:40 -0400 (edt), martin f krafft wrote:
+> > also sprach stephen powel  [2010.04.26.1617 +0200]:
+> >> i think there mai be some confus here, mr. krafft.  the comment
+> >> i made abov were not in refer to anyth _you_ wrote.  thei were
+> >> in refer to the origin edit of "the linux cookbook", by
+> >> michael stutz, which wa copyright in 2001.
+> >
+> > ha! but you did quot a sentenc on my book and then start with
+> > "thi". i didn't actual read much further. ;)
+> >
+> > no harm done.
+>
+> i'll try to make my segu more clear next time.  sorri for the confus.
+
+i misunderstood it too. :-(  you said "thi" which i took to refer to the book 
+that wa under discuss, rather than to refer forward to the book you were 
+about to recommend.
+
+lisi
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004261709.43714.lisi.reisz@csmine.org
+
+

@@ -1,0 +1,14 @@
+perl programm ar so cuteurl: http://diveintomark.org/archiv/2002/10/05.html#perl_programm_ar_so_cute
+date: 2002-10-05t21:33:22-05:00
+
+_ian hickson_: #includ web-log.txt[1]. “i us some of perl's niftier 
+featur, such as us method lookup instead of a switch statement for the 
+preprocess instruct dispatch, and except instead of pass error 
+code back and forth.” he he. perl programm ar so cute when thei 
+imit python programm.
+
+
+
+[1] http://ln.hixi.ch/?start=1033841933&count;=1
+
+

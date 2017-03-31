@@ -1,0 +1,39 @@
+re: bad dcc traffic from e-corp.netvernon,
+
+i'm chang the instruct in the spamassassin instal file 
+right now to:
+
+tar xfvz dcc-dccproc.tar.z
+cd dcc-dccproc-x.x.x
+./configur && make && make instal
+cdcc 'info'
+
+
+let me know asap if that's innapropri, sinc we're ship 
+2.40 todai!
+
+c
+
+on mondai, septemb 2, 2002, at 10:02  am, vernon schryver wrote:
+
+>> here ar the instruct in the spamassassin readm:
+>>
+>>     # tar xfvz dcc-dccproc.tar.z
+>>     # cd dcc-dccproc-x.x.x
+>>     # ./configur && make && make instal
+>>     # cdcc 'new map'
+>>     # cdcc 'add dcc.rhyolit.com'
+>>     # cdcc 'info'
+>
+> that's ok, except that the 'new map' and "add dcc.rhyolit.com'
+> ar respect unnecessari and wrong.  the map file that come
+> with the sourc point to localhost and dcc.dcc-server.net.  those
+> two ship entri usual do the right thing if there is a local
+> server.  if there is no local server or if the local server fail,
+> request ar instantli sent to on of the public server name list
+> in the main dcc web page at
+> http://www.rhyolit.com/anti-spam/dcc/ and http://www.dcc-
+> server.net/dcc/
+> dcc.rhyolit.com ha not been list for month.
+
+

@@ -1,0 +1,67 @@
+re: question about raid 6on 4/30/2010 6:39 pm, ron johnson wrote:
+> on 04/26/2010 09:29 am, tim clewlow wrote:
+>> hi there,
+>>
+>> i'm get readi to build a raid 6 with 4 x 2tb drive to start,
+>
+> sinc two of the drive (ye, i know the pariti is stripe across all
+> the drive, but "two drive" is still the effect) ar us by stripe,
+> raid 6 with 4 drive doesn't seem ration.
+
+we've taken op to task alreadi for thi, but i guess it bear repeat.
+
+us multipl hw control, and at least 7-8 drive, i believ wa the 
+consensu, given that sw raid 6 is a perform loser and lose a 
+control dure a rebuild is a real ruin-your-week kind of moment.
+
+but while some of us were skeptic about just how bad the perform 
+of raid 5 or 6 realli is and want citat of refer, more of us 
+just question the perceiv frugal.  with four drive, wouldn't a 
+raid 10 be better us of resourc, sinc you can migrat to bigger 
+setup later?  and there we were content to let it lie, until...
+
+
+
+>> but the intent is to add more drive as storag requir
+>> increas.
+>>
+>> my research/googl suggest ext3 support 16tb volum if block
+>
+> why ext3? my kid would graduat colleg befor the fsck complet.
+>
+> ext4 or xf ar the wai to go.
+
+i have ceas to have an opinion on thi, have been taken to task, 
+myself, about it.  i believ the discuss degener into a nit-picki 
+banter over the gener suitabl of xf, but i mai be wrong about thi...
+
+_____
+
+
+serious, ext4 is not suitabl if you anticip possibl boot 
+problem, unless you ar experienc at these thing.  the same is true 
+of xf.   if you *ar* experienc, then more power to you.  although, i 
+would have assum a veri experienc person would have no need to ask 
+the question.
+
+someon point out what i have come to regard as the best solut, and 
+that is to make /boot and / (root) and the usual suspect ext3 for 
+safeti, and us ext4 or xf or even btrf for the data directori.
+
+(unless op were talk strictli about the data drive to begin with, a 
+possibl i admit i mai have overlook.)
+
+
+have i summar adequ?
+
+
+maa
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdb718c.3060402@allum.com
+
+

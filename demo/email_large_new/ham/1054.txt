@@ -1,0 +1,31 @@
+re: kernel updat (wa: keyboard get stuck when close ppp)on fri, 9 apr 2010 14:32:14 -0400 (edt), rodolfo medina wrote:
+> 
+> when i close a ppp connect with `c-c', the keyboard get stuck and i have to
+> reboot the system.  the problem is report here:
+> 
+> http://bug.debian.org/cgi-bin/bugreport.cgi?bug=508589
+> 
+> in the hope of fix it by updat the kernel, i want to instal a freshli
+> new on from the backport repositori.  can anyon suggest the exact packag
+> name?  i have lenni on an old pentium iii.
+> 
+> thank for ani help
+> rodolfo
+
+i would suggest linux-imag-2.6.32-bpo.3-686
+
+that appear to be the closest to what is in squeez right now.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/970515686.2201551270842290414.javamail.root@md01.wow.synacor.com
+
+

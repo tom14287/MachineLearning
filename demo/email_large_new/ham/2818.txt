@@ -1,0 +1,130 @@
+re: [ilug] instal lilo on anoth disk.on tue, jul 30, 2002 at 03:47:40pm +0100 or so it is rumour hereabout, 
+niall o broin thought:
+> i'm instal warm standbi disk on a number of box. these disk will be
+> the same size (sometim bigger) than the main disk. the idea is that everi
+> night i'll rsync the partit on the main disk to the standbi disk so that
+> in the case of disast, the first port of call, befor the tape, is the
+> standbi disk. (we did consid run linux md raid on the disk but raid
+> give you no protect against slip of the finger)
+> 
+> so, in the event of finger slip we can mount the relev partit and
+> retriev the banjax file. in the case of a disk crash, the plan is that
+> we'll put the standbi disk in place of the main disk and the workstat
+> will be back up asap. then we can deal with replac the disk without the
+> pressur of a broken box on our back.
+> 
+> howev, i'm stump as to how to instal lilo on the backup disk. let's sai
+> the master disk is /dev/hda and the backup disk is /dev/hdb. lilo.conf
+> current look like thi:
+> 
+> boot    = /dev/hda
+> chang-rule
+> reset
+> read-onli
+> menu-scheme = wg:kw:wg:wg
+> lba32
+> prompt
+> timeout = 80
+> messag = /boot/messag
+> 
+>   imag  = /boot/vmlinuz
+>   label  = linux
+>   root   = /dev/hda3
+>   vga    = 791
+>   initrd = /boot/initrd
+> 
+> 
+> 
+> there ar a coupl more boot stanza, but thei're not german. as you can
+> see, / is on /dev/hda3 and /boot is on /dev/hda1. so if for instanc i had
+> boot from a cd and want to re-instal lilo on thi disk i'd do someth
+> like
+> 
+> mount /dev/hda3 /mnt
+> mount /dev/hda1 /mnt/boot
+> lilo -r /mnt
+> 
+> which is ok becaus i'm instal lilo on /dev/hda and i want it to boot
+> from /dev/hda so it'll plug in all the right number.
+> 
+> howev, in the case of the standbi disk, i'll have to do someth like
+> 
+> mount /dev/hdb3 /mnt
+> mount /dev/hdb1 /mnt/boot
+> lilo -r /mnt
+> 
+> but i'm obvious go to have to do someth differ here becaus i
+> want to instal onto /dev/hdb in such a wai that the disk will boot when it
+> becom /dev/hda after a disast (like the on i had thi morn :-( -
+> shut the stabl door wa on the to-do list, but the bloodi hors decid
+> to do a bunk earli). the machin alreadi ha it spare disk - just hadn't
+> yet been us :-(
+> 
+> i thought perhap i should just do   lilo -b /dev/hdb -r /mnt  but i think
+> that -b is analog to the boot keyword in lilo.conf. or will thi just
+> work automag ?  i.e. boot = /dev/hda tell lilo what number to poke
+> where, and it figur out where the disk is from the -r ?
+
+ from the hard disk upgrad mini howto :
+
+8. prepar lilo to boot the new disk
+
+   (thank to rick master for help with thi.)
+
+   we're  assum  that lilo is instal on the hard disk's master boot
+   record (mbr); thi seem to be the most common configur. you want
+   to  instal  lilo  on  what's  present the second hard disk but will
+   becom the first hard disk.
+
+   edit the file /new-disk/etc/lilo.conf as follow:
+
+        disk=/dev/hdb bio=0x80       # tell lilo to treat the second
+                                      # disk as if it were the first
+                                      # disk (bio id 0x80).
+        boot=/dev/hdb                 # instal lilo on second hard
+                                      # disk.
+        map=/new-disk/boot/map        # locat of "map file".
+        instal=/new-disk/boot/boot.b # file to copi to hard disk's
+                                      # boot sector.
+        prompt                        # have lilo show "lilo boot:"
+                                      # prompt.
+        timeout=50                    # boot default system after 5
+                                      # second. (valu is in tenth of
+                                      # second.)
+        imag=/new-disk/boot/vmlinuz  # locat of linux kernel. the
+                                      # actual name mai includ a version
+                                      # number, for exampl
+                                      # "vmlinuz-2.0.35".
+            label=linux               # label for linux system.
+            root=/dev/hda1            # locat of root partit on
+                                      # new hard disk. modifi thi as
+                                      # appropri for your system.
+                                      # note that you must us the name
+                                      # of the futur locat, onc the
+                                      # old disk ha been remov.
+            read-onli                 # mount partit read-onli at
+                                      # first, to run fsck.
+
+conor
+
+ps.  um, what doe 
+
+> menu-scheme = wg:kw:wg:wg
+
+do?
+-- 
+conor dali 
+
+domest sysadmin :-)
+---------------------
+faenor.cod.ie
+  6:04pm  up 69 dai,  3:22,  0 user,  load averag: 0.00, 0.00, 0.00
+hobbiton.cod.ie
+  5:50pm  up 12 dai, 27 min,  1 user,  load averag: 0.00, 0.00, 0.00
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

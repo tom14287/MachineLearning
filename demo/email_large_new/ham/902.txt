@@ -1,0 +1,117 @@
+re: network setup questionon thu, mai 6, 2010 at 10:12 pm, mile fidelman
+ wrote:
+> thank to all who repli. =a0i'm start to zero in on thi now.
+>
+> a few more detail:
+>
+[snip]
+
+>
+> on server 1:
+> eth0: inet addr:207.154.13.48 =a0bcast:207.154.13.63 =a0mask:255.255.255.=
+224
+> (first netblock)
+> server1:/home/milesf# rout
+> kernel ip rout tabl
+> destin =a0 =a0 gatewai =a0 =a0 =a0 =a0 genmask =a0 =a0 =a0 =a0 flag=
+ metric ref =a0 =a0us
+> ifac
+> localnet =a0 =a0 =a0 =a0* =a0 =a0 =a0 =a0 =a0 =a0 =a0 255.255.255.224 u =
+=a0 =a0 0 =a0 =a0 =a00 =a0 =a0 =a0 =a00 eth0
+> default =a0 =a0 =a0 =a0 207.154.13.33 =a0 0.0.0.0 =a0 =a0 =a0 =a0 ug =a0 =
+=a00 =a0 =a0 =a00 =a0 =a0 =a0 =a00 eth0
+> server1:/home/milesf# arp -a
+> ? (207.154.13.33) at 00:d0:03:b3:18:00 [ether] on eth0
+>
+> on server 2:
+> eth0: net addr:207.154.59.130 =a0bcast:207.154.59.159 =a0mask:255.255.255=
+.224
+> (2nd netblock)
+> server2:/home/milesf# rout
+> kernel ip rout tabl
+> destin =a0 =a0 gatewai =a0 =a0 =a0 =a0 genmask =a0 =a0 =a0 =a0 flag=
+ metric ref =a0 =a0us
+> ifac
+> localnet =a0 =a0 =a0 =a0* =a0 =a0 =a0 =a0 =a0 =a0 =a0 255.255.255.224 u =
+=a0 =a0 0 =a0 =a0 =a00 =a0 =a0 =a0 =a00 eth0
+> default =a0 =a0 =a0 =a0 207.154.59.129 =a00.0.0.0 =a0 =a0 =a0 =a0 ug =a0 =
+=a00 =a0 =a0 =a00 =a0 =a0 =a0 =a00 eth0
+> server2:/home/milesf# arp -a
+> ? (207.154.59.129) at 00:d0:03:b3:18:00 [ether] on eth0
+>
+> from box 1 -> box 2
+> tracerout to 207.154.59.130 (207.154.59.130), 30 hop max, 40 byte pack=
+ts
+> =a01 =a0207.154.13.33 (207.154.13.33) =a00.418 ms =a00.429 ms =a00.481 ms
+> =a02 =a0server2.neighborhood.net (207.154.59.130) =a00.299 ms =a00.317 m=
+s =a00.309 ms
+>
+> from box 2 -> box 1
+> server2:/home/milesf# tracerout 207.154.13.48
+> tracerout to 207.154.13.48 (207.154.13.48), 30 hop max, 40 byte packet
+> =a01 =a0207.154.13.33 (207.154.13.33) =a00.352 ms =a00.369 ms =a00.436 ms
+> =a02 =a0server1.neighborhood.net (207.154.13.48) =a00.292 ms =a00.295 ms=
+ =a00.302 ms
+>
+> the traffic is definit go through the datacent's router
+> (207.154.13.33).
+>
+> i'm think that ad someth like:
+>
+> server 1: rout add -net 207.154.13.128 netmask 255.255.255.244 dev eth0
+> server 2: rout add -net 207.154.13.32 netmask 255.255.255.244 dev eth0
+
+why not just limit it to the ip address you want current onli 2
+
+server 1: ip rout add 207.154.59.130 dev eth0  src 207.154.13.48
+server 2: ip rout add 207.154.13.48 dev eth0 src 207.154.59.130
+
+just put in rout statement for the ip's that you need
+
+>
+>
+> on of the machin is a product machin, so i want to be fairli sure =
+of
+> thi befor start to plai with the rout tabl.
+>
+> ani more comment?
+>
+> and... anybodi know if the "rout" command persist across reboot, and i=
+f
+> so, where it store the inform?
+
+iprout is the new rout
+
+place them in /etc/network/interfac as post-up command don't forget
+|| true at the end of the command
+
+
+>
+> thank again,
+
+answer agan
+
+>
+> mile
+>
+> --
+> in theori, there is no differ between theori and practic.
+> in =a0practic, there is. =a0 .... yogi berra
+>
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org with a subj=
+ect
+> of "unsubscrib". troubl? contact listmast@list.debian.org
+> archiv: http://list.debian.org/4be2b248.7080507@meetinghous.net
+>
+>
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/u2w836a6dcf1005062058qd3b61a7dx5fb98b79a742344f@mail.csmine.org
+
+

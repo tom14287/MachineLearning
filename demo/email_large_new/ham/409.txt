@@ -1,0 +1,19 @@
+[ilug] track nf user
+let sai we have an nf server with nfsd run realli high load. nfsstat
+will tell you roughli how much traffic is go through with access,
+getattr with either client or server but it won't tell you who is do
+it. is there ani wai on server side to determin what client is caus
+the most usag, and on the client side, is there a wai to determin which
+process?
+
+-- 
+mel gorman
+msc student, univers of limerick
+http://www.csn.ul.ie/~mel
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

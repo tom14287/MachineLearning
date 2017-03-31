@@ -1,0 +1,27 @@
+re: [satalk] get singl-user spam assassin to work in freebsd
+    default instal
+"clark c . evan" said:
+
+> hello.  i'm host on a freebsd box where i can't modifi the
+> local perl instal.  i download and instal procmail
+> in my home directori, and now i'm try to get spamassassin to work...
+> 
+> bash-2.05$ perl makefil.pl prefix=/home/cce sysconfdif=/home/cce/etc
+> warn: prerequisit html::parser 0 not found at (eval 1) line 219.
+> warn: prerequisit pod::usag 0 not found at (eval 1) line 219.
+> 'sysconfdif' is not a known makemak paramet name.
+
+sysconfdir.
+
+--j.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

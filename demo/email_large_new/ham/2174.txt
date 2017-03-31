@@ -1,0 +1,59 @@
+strang behaviour: scanner and netbeanshi all
+
+=46rom time to time i have to assess flash project, and to assist my =
+mark a few year ago i wrote a program which us a scanner to open =
+the .fla file and read it on a "line by line" basi.  although thi is =
+realli stretch what a scanner should do, it ha proven surprisingli =
+us over the year.
+
+my origin version of the softwar wa written with an "old" xcode =
+style project us the now deprec jam.  recent i decid i need =
+to make some chang to it and i thought it would be a good move to =
+transfer it to netbean --- and it didn't work!  the scanner wouldn't =
+read a .fla file when run from netbean, but it would when run from =
+xcode, us either a jam or ant type project.  it would also work if i =
+navig to the netbean "dist" folder and doubl click the jar =
+directli. =20
+
+the follow code show the problem:
+
+      string fullfilenam =3d "/user/boblang1/desktop/xxx.fla";
+     =20
+      try {
+        scanner in =3d new scanner (new file (fullfilenam));
+        while (in.hasnextlin ()) {
+          string line =3d in.nextlin ();
+          system.out.println (line);
+        }
+      }
+      catch (except e) {
+        system.out.println ("except read file: " + fullfilenam);
+        system.out.println (e);
+      }
+
+when run insid xcode or by doubl click the jar, the scanner read =
+the .fla file.  when run insid netbean, it appear to open the file =
+but won't return ani line (the while loop termin earli).  there ar =
+no except report. =20
+
+btw, the problem onli seem to happen with .fla file.  i can read .txt =
+file quit successfulli.
+
+i'm run fulli up to date snow leopard, with the latest develop =
+preview java. as far as i can tell, i don't have ani older version of =
+java on my comput.  all the version in /system/librari appear to link =
+to java 1.6.=20
+
+ani idea?
+
+bob
+
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

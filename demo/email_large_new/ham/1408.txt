@@ -1,0 +1,36 @@
+re: middl button click brokenon sun, 18 apr 2010, jeremi huddleston wrote:
+
+> on apr 18, 2010, at 10:06, pierr bagui wrote:
+>
+>> i tri to logout and it made no differ. reboot solv the issu.
+>>
+>> in the other machin where i instal xquartz, not even a logout wa necessari. everyth went smoothli and the updat wa appli right awai.
+>
+> i suspect someth els wa go on outsid of x11... the symptom you were describ were veri odd and not someth a reboot would effect in x11.
+>
+
+thi is exactli the problem i saw when i updat x11 to 2.5.0 (mous 
+button 2 send leav/notifi instead of buttonpress or buttonreleas), and 
+as a matter of fact i went so far as to open a ticket on it.  it wa 
+mark invalid a short while later when i report that the problem went 
+awai with a reboot.
+
+
+
+sinc that ticket wa close, i have seen the same problem on a second 
+system run 10.5.8 (a powerbook g4 15").  a reboot also solv the 
+problem on the second system.  unfortun i haven't seen the problem 
+appear again on either of my two system, so i can't offer ani help in 
+root caus it.
+
+mike
+-- 
+mike thornburg
+mthorn@cisco.com
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

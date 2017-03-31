@@ -1,0 +1,56 @@
+re: troubl set environ variableson thu, mai 13, 2010 at 06:49:35pm +0300, jason filipp wrote:
+> hi,
+> 
+> i've been try to set my path and classpath environ variabl so that
+> thei point to my jdk's bin and some java sourc file respect and thi
+> is what i've written in my .profil file:
+> 
+> # path should also includ the latest jdk "bin" directori
+> path="/usr/lib/jvm/java-6-sun-1.6.0.20/bin:$path"
+> 
+>  # set the classpath variabl to includ anyth i do with java
+>  classpath="/home/jason/code/java:$classpath"
+> 
+> yet i don't seem to have much luck, sinc "echo" both environ
+> variabl give me the old valu of path for path and noth for classpath:
+> 
+> jason@debian:~$ echo $path
+> /usr/lib/eclips6.0/bin/i386_linux:/home/jason/bin:/usr/local/bin:/usr/bin:/bin:/usr/game
+> jason@debian:~$ echo $classpath
+> 
+> jason@debian:~$
+> 
+> thi is strang, especi for path, becaus earlier in my .profil i've
+> written:
+> 
+> # set path so it includ the eclips bin directori
+>   path="/usr/lib/eclips6.0/bin/i386_linux:$path"
+> 
+> and if you notic the output produc by "echo", thi directori is well
+> under the scope of path.
+
+perhap the eclips directori is ad to path elsewher (eg, in 
+.profil in your home directori) or there is a separ "export" line 
+in /etc/profil.
+
+> 
+> what am i do wrong? do i need to "export" someth?
+
+certainli.  
+
+export path=...
+export classpath=...
+
+> 
+> thank.
+
+cheer,
+david
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100513201922.ga1830@genn.augarten
+
+

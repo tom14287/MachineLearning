@@ -1,0 +1,25 @@
+re: resourc for learn linuxmoniqu y. mudama wrote:
+> thei us to sai - you're not a real linux admin until you've
+> complet bork your system and had to wipe and reinstal from
+> scratch at least onc.
+>    
+and then recov all your user data, from your hopefulli good backup.  
+it get realli entertain when a raid arrai fail in an odd wai.  (i 
+still cring about how i learn that md softwar raid doe not alwai 
+kick bad disk out of an arrai - if a drive is go bad, and just take 
+lot of tri to read data, everyth just slow waaa....aaaai down.  
+and then unravel logic volum on top of softwar raid can get veri 
+interest.)  you learn a lot from such experi.  sigh....
+
+-- 
+in theori, there is no differ between theori and practic.
+in  practic, there is.   .... yogi berra
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd63945.1050005@meetinghous.net
+
+

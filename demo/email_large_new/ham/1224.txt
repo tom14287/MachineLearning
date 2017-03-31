@@ -1,0 +1,28 @@
+re: c program questionon 2010-04-13 17:16, stephen powel wrote:
+> i realiz that thi is not a c forum, per se, but thi is a debian-specif
+> c question.  i am try to add support to the part util for cm-format
+[snip]
+> 
+> i know how to do thi in pl/i, but despit have spent the last two hour
+> page through a c languag refer manual, i couldn't find ani exampl
+> of overlai two structur.  i did find refer to someth call
+> a union, but i don't have enough knowledg to know what to do.  doe
+> anyon know how to do thi?
+> 
+
+union is exactli what you need.
+
+"i'm feel lucki" sampl c code union
+
+http://www.wellho.net/resourc/ex.php4?item=c209/union.c
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc4f05f.6060809@cox.net
+
+

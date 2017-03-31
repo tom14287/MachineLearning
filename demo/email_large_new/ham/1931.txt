@@ -1,0 +1,135 @@
+re: c program questionfrom nobodi sun sep 18 20:45:31 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+on thursdai 15 april 2010 13:56:00 stephen powel wrote:
+> on wed, 14 apr 2010 23:10:55 -0400 (edt), boyd stephen smith jr. wrote:
+> > on tuesdai 13 april 2010 17:16:03 stephen powel wrote:
+> >> what i need to do is to have two structur overlai each other; so that
+> >>  thei occupi the same storag.  to be specif, here is a structur
+> >> which describ the volum label for an os-format disk:
+> >>
+> >> struct __attribut__ ((pack)) volum_label {
+> >>         char volkei[4];         /* volum kei =3d volum label */
+> >> ...
+> >> };
+> >>
+> >> and here is a structur which describ the volum label for a
+> >>  cm-format disk:
+> >>
+> >> struct __attribut__ ((pack)) cm_label {
+> >>         char label_id[4];       /* label identifi */
+> >> ...
+> >> };
+> >
+> > union ani_label {
+> > 	struct volum_label vl;
+> > 	struct cm_label    cl;
+> > };
+> >
+> >> note that both structur have as their first member a charact
+> >> variabl of length 4.  in the case of the "volum_label" structur it =
+is
+> >> "volkei" and in the case of the "cm_label" structur it is "label_id"=
+=2e=20
+> >> if the valu of thi variabl is "vol1" (in ebcdic) then it is the fir=
+st
+> >> structur which map the storag.  if the valu of thi variabl is
+> >> "cm1" (in ebcdic) then it is the second structur which map the
+> >> storag.
+> >
+> > union ani_label *label =3d /* initi somehow */;
+> > struct volum_label *mayb_vl =3d &label-;>vl;
+> > struct cm_label *mayb_cl =3d &label-;>cl;
+> >
+> > if (strncmp(mayb_vl->volkei, "vol1", 4) =3d=3d 0) {
+> >     mayb_cl =3d null;
+> >     /* us mayb_vl all you want, e.g. */
+> >     mayb_vl->secur =3d 0xff;
+> > } els if (strncmp(mayb_cl->label_id, "cm1", 4) =3d=3d 0) {
+> >     mayb_vl =3d null;
+> >     /* us mayb_cl all you want, e.g. */
+> >     printf("%lu\n", (unsign long) mayb_cl->disk_offset);
+> > } els {
+> >     assert(("unrecogn disk!", 0));
+> > }
+>=20
+> thank, boyd.  your respons come the closest so far to what i'm look
+> for.  base on what i know from other program languag, i don't think
+> it's go to be necessari to explicitli declar a union.
+
+it's possibl, but i would gener do it for clariti.  i like us the=20
+type of variabl/argument as document, so i would store ani data wh=
+er=20
+the real type wa unknown in the union.  then access it though a "struct=20
+cm_label *" or "struct volum_label *" on i had determin the correct ty=
+pe.
+
+sinc c union ar not tag, a c union is the same size as it's largest=20
+member.  (nb: not realli sure how __attribut__((__pack__)) chang thing=
+s,=20
+if at all; it's possibl you need it on the union to prevent pad from=20
+be ad after the space occupi by the largest member.)
+
+> in short, i need to (a) declar "cm_label" as a base structur,
+
+(abov; timm)
+
+> (b)
+> declar a pointer variabl call  "cm_ptr" and associ it with the
+> "cm_label" structur,
+
+struct cm_label *cm_ptr;
+
+initi option, but recommend.
+
+> (c) make sure that the compil doe not attempt
+> to alloc ani storag for the "cm_label" structur,
+
+sinc you ar declar a pointer to a structur, and not declar an obj=
+ct=20
+with type "struct cm_label", no space will be alloc for a cm_label.
+
+> (d) make sure that
+> the compil automat acquir storag for the "cm_ptr" pointer
+> variabl itself,
+
+make your declar a definit and that'll be handl.  (declar a=
+nd=20
+definit look veri similar for non-function type; the code given abov =
+is=20
+actual a definit if it is not within a struct/union type.)
+
+> (e) assign the address of the "volum_label" structur
+> to the "cm_ptr" pointer variabl at an appropri point in the code,
+> and
+
+struct volum_label vl;
+struct cm_label *cm_ptr;
+
+/* load data into vl */
+/* determin that the data is actual a cm_label */
+cm_ptr =3d (void *) &vl;
+
+or, in your specif case, you should be abl to do someth like:
+
+struct cm_label *cm_ptr =3d (void *) disk_specif->anchor->vlabel;
+
+sinc you ar alreadi deal with a "struct volum_label *", there's no ne=
+ed=20
+for the address-of oper (&).
+
+> (f) make refer to the member of the cm_label structur.
+
+cm_ptr->label_id; /* or ani other member. */
+
+> how do i do thi?  (man, i wish i knew c!)
+
+exampl abov good?  pleas let me know if i can provid further assistanc=
+e.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

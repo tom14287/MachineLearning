@@ -1,0 +1,38 @@
+re: doe qtvisualcontextcopyimagefortim block?
+on apr 30, 2010, at 9:09 pm, matt slot  wrote:
+
+> i'm iter a movi frame by frame from a secondari thread. rather  
+> than poll/spin on qtvisualcontextisnewimageavail() for  
+> each frame, can i just copyimagefortim() and let it block until the  
+> data is avail? the altern is to instal a hook via  
+> qtvisualcontextsetimageavailablecallback() and trigger a semaphor,  
+> but block on the copi call would be much more straightforward.
+
+if you ar us setmovietim and  
+qtvisualcontextsetimageavailablecallback  you can do everyth on the  
+secondari thread, after attach the movi to thi thread.
+
+if you ar plai the movi you need to plai it on the main thread.
+
+normal you would us a displai link callback which call the  
+qtvisualcontextisnewimageavail/qtvisualcontextcopyimagefortim  
+combo. kind of smart poll.
+
+if you don't want to poll you can us an imageavailablecallback and  
+and an input queue but i don't see much benefit from that. the  
+overhead of the displai link is small and if you suspect that your  
+movi ha a higher frame rate than the displai refresh time you can  
+alwai call qtvisualcontextisnewimageavail multipl time until it  
+return fals. either you can keep up with the input or els you ar  
+go to drop frame. the imageavailablecallback won't  help you there.
+
+jan e.
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

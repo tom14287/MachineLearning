@@ -1,0 +1,38 @@
+zero bright post snow leopard upgradeon my white macbook (2007 eta) that i recent upgrad from leopard  
+to snow leopard. i have instal all current updat.
+
+now, and not befor, i notic that frequent when i start to re-us  
+the machin that it ha zero bright when it power up. the  
+'increas bright' control ha no effect (but other kei do work).  
+if i close the lid but then reopen it befor the machin goe to sleep  
+that usual doe the trick and i have medium(ish) bright and can  
+turn bright up or down.
+
+i am test if thi is relat to x11/xquartz so thought i would ask  
+here if anybodi els ha experi thi problem.
+
+i can provid more h/w detail later.
+
+thank, m
+
+
+dr. michael k bane
+senior develop offic
+research comput servic
+devonshir hous
+precinct centr
+the univers of manchest
+manchest
+m13 9pl
+
+www.rc.manchest.ac.uk
+www.twitter.com/mkbane_mcr
+www.facebook.com/group.php?gid=73597922129
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

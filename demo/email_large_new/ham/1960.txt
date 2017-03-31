@@ -1,0 +1,23 @@
+blank page after everi page when print pdf with evinc - debian
+ lenni, cup, hp paintjet (pj)i have notic that when print multi-page pdf file from evinc on 
+the gnome desktop, us cup under debian lenni, i get a blank page
+after everi page.  my printer is an hp paintjet.  thi wast paper and
+is veri annoi.  i have search the internet, of cours, but i did
+not find ani solut.  the closest i found wa debian bug report 316392,
+but hi work-around doesn't work for me.  my ppd file alreadi specifi
+letter instead of a4 for page size.  doe anyon know a work-around for
+thi?  sure someon ha run across thi befor.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/125291308.289438.1272137255091.javamail.root@md01.wow.synacor.com
+
+

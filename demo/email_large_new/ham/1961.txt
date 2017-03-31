@@ -1,0 +1,22 @@
+two new amphetadesk hacksurl: 4538e94b3b2c6b19041756b37b1f9916
+date: not suppli
+
+sinc the amphetadesk sourc code is so easili modifi on ani platform, i've 
+been see some interest hack and modif late. the most power 
+of them is l.m. orchard's newest templat[1], which provid an insan amount 
+of new featur, includ hide old item, click count, and an outlin 
+base format. more than like, a revis version of hi hack will appear as a 
+select templat in the next version (amphetadesk v0.94). 
+
+also of interest is brian cantoni's ftpstore[2]: _"ftpstore is a slight 
+addit to the amphetadesk new aggreg. the modifi code will retriev 
+the person channel list from an ftp locat dure startup and store it back 
+to the same locat dure shutdown. thi provid a simpl method to keep 
+your save channel in a network locat. if you us amphetadesk at home and 
+at work, for exampl, thi featur will let you keep your list of channel in 
+sync."_ it's a major improv for amphetadesk user with multipl machin.
+
+[1] http://www.decafbad.com/new_archiv/000228.phtml
+[2] http://www.cantoni.org/softwar/amphetadesk.html
+
+

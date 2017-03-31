@@ -1,0 +1,22 @@
+re: ditch mutton 2010-04-08 22:36, green wrote:
+[snip]
+> 
+> i am us mutt.  i had procmail set up to drop messag in differ maildir 
+> box.  then i switch to mailfilt.  and becaus it is such a pain when a 
+> new mail list is ad (or whatev), 
+
+??????
+
+it take 30 second to pull up ~/.mailfilt in vim, duplic an 
+if-block and modifi it.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbeb45b.1080806@cox.net
+
+

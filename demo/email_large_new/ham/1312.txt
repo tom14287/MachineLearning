@@ -1,0 +1,19 @@
+re: backup apt tree?on 2010-04-21 06:58, b. alexand wrote:
+[snip]
+> 
+> i leav /var in a separ partit, onli becaus i cut my teeth on 
+> unix/linux back in the dai when fill / or /var would caus a system 
+> crash.
+
+it still can.  but disk aren't 300mb anymor.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bcf39ef.6070503@cox.net
+
+

@@ -1,0 +1,19 @@
+re: odditi ?merl reinhart wrote:
+> the 'box' show up if you us xev -rv.  so my guess is that it is there, but just white on white (i'm us the default sl x11 2.3.5).
+
+thi is true. even if you don't see the box, move the mous over it 
+invis border show correspond event.
+
+look like a bug, but not in xev, becaus run xev via ssh on a 
+remot machin doesn't show the box either. i am run standard sl 
+10.6.3 x11 "xquartz 2.3.5 (xorg-server 1.4.2-appl53)".
+
+-- 
+martin
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

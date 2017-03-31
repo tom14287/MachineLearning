@@ -1,0 +1,47 @@
+mail deliveri failurethi messag wa creat automat by mail deliveri
+softwar. a messag that you sent could not be deliv
+to all of it recipi.
+
+the follow messag, address to 'meow1p654@epoq.demon.co.uk',
+fail becaus it ha not been collect after 30 dai
+
+here is a copi of the first part of the messag, includ
+all header.
+
+---- start of return messag ----
+receiv: from punt-2.mail.demon.net by mailstor for meow1p654@epoq.demon.co.uk
+          id 1024819224:20:29436:23; sun, 23 jun 2002 08:00:24 gmt
+receiv: from dogma.slashnul.org ([212.17.35.15]) by punt-2.mail.demon.net
+           id aa2004348; 23 jun 2002 8:00 gmt
+receiv: (from yyyi@localhost)
+	by dogma.slashnul.org (8.11.6/8.11.6) id g5n80gr10697
+	for meow1p654@epoq.demon.co.uk; sun, 23 jun 2002 09:00:16 +0100
+date: sun, 23 jun 2002 09:00:16 +0100
+messag-id: <200206230800.g5n80gr10697@dogma.slashnul.org>
+from: yyyi@spamassassin.taint.org (justin mason)
+subject: awai from my mail
+preced: junk
+
+[thi mail is automat gener by the 'vacat' program]
+
+i will not be read my mail for a while -- in fact, i will be read my mail
+veri intermitt until june, as i'm travel around the world.
+your mail regard "immedi attract women          .                pvwpj" will be read at that point.
+
+if you're write about someth netnot-relat, pleas contact nicola
+mcdonnel .  
+
+spamassassin-relat contact should be direct to the spamassassin-talk
+mail list , or to craig hugh
+.
+
+sitescoop-relat mail should go to .
+webmak-relat stuff goe to, you guess it,  ;)
+
+i will (probabl) read your mail eventu... but it will take a while.
+see you in june!
+
+--j.
+---- end of return messag ----
+
+

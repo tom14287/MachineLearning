@@ -1,0 +1,38 @@
+re: need help instal an "altern"on 2010-04-08 20:38, cameron hutchison wrote:
+> ron johnson  write:
+> 
+>> # updat-altern --instal x-www-browser firefox \
+>>                                        /usr/local/firefox/firefox 3
+>> updat-altern: error: altern link is not absolut as it 
+>> should be: x-www-browser
+> 
+>> what am i do wrong?
+> 
+> the easiest wai to see how thi stuff work is to look at a postinst
+> script that alreadi doe it. pick an exist altern and look at
+> /var/lib/dpkg/info/$packag.postinst.
+
+excel idea.
+
+> i think you want thi:
+> 
+> # updat-altern --instal x-www-browser /usr/bin/x-www-browser \
+> 	/usr/local/firefox/firefox 3
+> 
+> that set up /usr/local/firefox/firefox as an altern for
+> /usr/sbin/x-www-browser .
+> 
+
+unfortun, that's wrong.  peek into iceap-browser.postinst, 
+though, gave me the answer.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbe8c22.80008@cox.net
+
+

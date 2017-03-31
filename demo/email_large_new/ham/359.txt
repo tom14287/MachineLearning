@@ -1,0 +1,19 @@
+re: how to flush cach of certain disk?alexand batischev wrote:
+> but all you said made me hard think about the wai i mount and
+> unmount my remov media. mayb i should forget about sync and us
+> 'umount /mnt/sd[a-z]' instead, or even write littl script which will
+> ask me which devic i want to unmount… [snip]
+
+which is what eject(1) is.  it will search mountpoint in /dev, /media and 
+/mnt by default btw, so it's just "eject sd[a-z]" for your exampl.  you 
+might want to us /media and volum name instead.
+
+-thib
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be473cc.1040808@stam.net
+
+

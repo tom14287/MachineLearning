@@ -1,0 +1,36 @@
+re: badatom x11 error with fpguipleas try start x11.app first.  =46rom the consol:
+
+open -a x11
+(wait a few second for it to appear in the dock as launch)
+./helloworld
+
+doe that work as expect?
+
+
+on apr 16, 2010, at 16:12, schindler karl-michael wrote:
+
+> hi
+>=20
+> am 17.04.2010 um 00:42 schrieb jeremi huddleston:
+>=20
+>> ar you run your applic while x11 is alreadi run (launch =
+x11.app but don't start an xterm), or ar you us it to launch x11 =
+(from termin.app us the launchd $displai socket)?
+>=20
+>=20
+> i start the fpgui program (helloworld) from termin.app with the =
+termin command "./helloworld". thi start x11.app but without an =
+xterm window or ani other window and helloworld get the error. the same =
+if x11 is alreadi start. if anoth x11 program, for exampl xterm or =
+someth els, is run, helloworld get it window and all seem =
+fine.
+>=20
+> michael.
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

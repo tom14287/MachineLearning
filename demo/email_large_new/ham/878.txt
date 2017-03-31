@@ -1,0 +1,39 @@
+re: 64-bit netbook with debian linuxon sun, mai 02, 2010 at 12:17:54pm -0700, peter tenenbaum wrote:
+> i've been think about get a netbook and i'd like to instal debian
+> linux on it when / if i do.  i'd also like to get on which us an
+> amd64-class processor.  doe anyon have ani suggest?  the gatewai lt21
+> look like just what i want in term of hardwar (ie, fairli low-end but
+> 64-bit); ha anyon got ani posit / neg experi instal debian
+> on thi comput?
+
+no specif suggest. a caution: go to a store and make
+sure your futur netbook support acpi. i've had bad
+experi with my cheap toshiba satellit l305 seri
+laptop: the fan control (and most other acpi regist) do
+noth.
+
+it seem either toshiba or the bio maker insyd h2o ha
+chosen non-standard ssdt/dsdt tabl valu, with the result
+that onli microsoft's os know where to twiddl.
+
+there ar report that the omnibook modul will correctli
+handl insyd h2o bio'ed notebook. have yet to test here.
+
+good luck,
+
+joel
+
+ 
+> thank in advanc,
+> -pt
+
+-- 
+joel roth
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100504000114.ga2112@sprite
+
+

@@ -1,0 +1,42 @@
+re: java is for kiddieson sun, 1 sep 2002, reza b'far (ebuilt) wrote:
+
+> 2.  c and c++ forc the develop to solv problem such as memori
+> manag over and over again.  imho, java is superior becaus the problem
+> of program in the futur is not about 0's and 1's, make the compil
+> 2% faster, or make your code take 5% less memori... it's about design
+> pattern, architectur, high level stuff...
+
+consid 90% of the fake job post i see ar for embed system or
+devic driver - c still rule the world.
+
+> 3.  java is not just a program languag! it's also a platform... there
+> is noth like the standard api's in java in c and c++.  everyon defin
+> their own api's, peopl end up solv the same problem ten differ wai
+
+the problem is the problem you're try to solv is never the same. java
+will soon suffer api-rot (alot of poepl ar alreadi complain about it),
+it's just new. c wa clean in the begin too. api-rot is pure a
+function of ag.
+
+> 4.  if you have a program of ani type of high complex written in c, you
+> can't possibl think that you could port it to differ platform within
+> the same magnitud of cost as java....
+
+i do thi all the time, it's alot easier then you think if the origin
+programm had a clue at all... java doe remov the clue requir tho,
+just add a huge test requir, qa gui aren't as cheap ;)
+
+> 5.  make no sens for a scientif or a busi project to depend on a
+> person... java, imho, reduc the depend of these entiti on the
+> individu develop as it is much easier to revers engin java as it is
+> to revers engin c (larg applic).
+
+no it's not, but you can hire team of javit for cheap at your local high
+school. java is about cut cost and commodit program - and it's
+work!
+
+- adam l. "duncan" beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.com
+
+

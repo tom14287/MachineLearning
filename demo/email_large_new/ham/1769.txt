@@ -1,0 +1,30 @@
+re: udev & /dev/sdax & lenni2squeezeon mon, 12 apr 2010 07:59:19 -0400 (edt), ionel mugurel ciob=c3=aec=c4=83 w=
+rote:
+>=20
+> my previou post wa prematur, if i restor /dev/sdax us tar,
+> i can onli us the consol. x can't make us of the keyboard or mous.
+> /edv/eth0 also doesn't exist, althought the interfac is up, etc.
+> it look like all /dev/ is screw up!
+>=20
+> so i will instal from scratch.
+
+onc again, as i suggest in a previou post, i'd us the latest
+"daili-build" instal to directli instal squeez, such as
+
+http://peopl.debian.org/~joeyh/d-i/imag/daili/netboot/mini.iso for i386 =
+or
+http://d-i.debian.org/daili-imag/amd64/daili/netboot/mini.iso for amd64
+
+--=20
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/323399407.2667121271092511339.javamail.root@md01.wow.synacor.com
+
+

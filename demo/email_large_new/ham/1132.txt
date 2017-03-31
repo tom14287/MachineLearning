@@ -1,0 +1,12 @@
+apt repositori for irssiseem like irssi.org also ha an apt-rpm repositori for snapshot of irssi:
+
+rpm http://ninja.no/apt 7.3/i386 irssi
+rpm-src http://ninja.no/apt 7.3/i386 irssi
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

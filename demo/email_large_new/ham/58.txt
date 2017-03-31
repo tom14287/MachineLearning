@@ -1,0 +1,22 @@
+re: anybodi know what thi is all about?  [re: anacron job 'cron.weekli' on whitemac]on 2010-05-17 20:07 +0200, rick thoma wrote:
+
+> on mai 16, 2010, at 7:59 am, anacron wrote:
+>
+>> /etc/cron.weekli/apt-xapian-index:
+>> traceback (most recent call last):
+>>  file "/usr/sbin/updat-apt-xapian-index", line 71, in 
+>>    warn.filterwarn("ignor","")
+>> nameerror: name 'warn' is not defin
+>> run-part: /etc/cron.weekli/apt-xapian-index exit with return code 1
+
+http://bug.debian.org/581736
+
+sven
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87mxvy1h46.fsf@turtl.gmx.de
+
+

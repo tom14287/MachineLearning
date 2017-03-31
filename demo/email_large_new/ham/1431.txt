@@ -1,0 +1,19 @@
+upcom etch point releasehi,
+
+the next point releas for the "etch" oldstabl distribut, 4.0r9, is
+schedul for saturdai, 22nd mai.
+
+thi will be the final point releas for etch, which will be move to
+archiv.debian.org in the near futur.
+
+regard,
+
+adam
+
+
+-- 
+to unsubscrib, email to debian-secur-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1273775215.6385.453.camel@kaa.jungl.aubergin.my-net-space.net
+
+

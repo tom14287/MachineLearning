@@ -1,0 +1,22 @@
+gnome crash when .xsession file is present.if i creat an empti (0 length) .xsession or an .xsession file
+contain on line, sai, echo hello, world, i get thi error when i
+try to log into gnome.
+
+your session last less than 10 second. if you have not log out
+yourself thi could mean there is some instal problem or that you
+mai be out of disk space. try log in with on of the failsaf
+session to see if you can fix the problem.
+
+there aren't ani error in .xsession-error when i try to log in with
+the 0 length .xsession file. in case of the .xsession file with echo
+hello, world, i see just 'hello, world' in the .xsession-error file.
+
+why doe thi happen?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/k2q308d4701004140621ibf159f8dycc2bb534b1aeb7bd@mail.csmine.org
+
+

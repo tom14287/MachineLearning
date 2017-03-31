@@ -1,0 +1,45 @@
+re: [ilug] look for a file / directori in zip file-----begin pgp sign messag-----
+
+justin maccarthi wrote:
+| is there a wai to look for a particular file or directori in 100's of zip
+| file??
+| someth like zgrep but for the filenam instead of a word
+|
+| thank justin
+|
+|
+
+probabl there ar more eleg solut, but if your zip ar in on
+directori you can do someth like
+
+for i in *.zip
+do
+if unzip -v $i | grep -q fileyouw
+then
+~  echo $i
+fi
+done
+
+cheer,
+waider.
+- --
+waider@waider.ie / ye, it /is/ veri person of me
+-----begin pgp signatur-----
+version: gnupg v1.0.6 (gnu/linux)
+comment: us gnupg with mozilla - http://enigmail.mozdev.org
+
+iqevawubpw5amahbxyzzsab3aqh+qqga1vnujjuwgda1ycrqd3vzanhkcf0kdbba
+o9myq4cug9cezkalktyzu4eoprhl50reaicuglmmec5htu9zove4f+csuvbakkhl
+nx7xa6kk2v+lfnw6hwpdqolcat+4igzzbdfwmynawb/ireyb0r4gp05sitdol5u
+rrlzysm3iuydrypduux7ta7blvsdc1ppwsqy/wxphnih7bs2+eb9eraujuqi6vjo
+mbichyb3f3tevcqubxtcamowjpmv/xm3gdulgrufbpc2o7447xi5udfrexzzdojt
+hlf6oo2zqzcmrtuyegsfyqpaf1wud38jofpa2tmsyx74bbhx8ecw==
+=kycm
+-----end pgp signatur-----
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

@@ -1,0 +1,33 @@
+re: shutdown problem -- cron job relat?from nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+
+on sun, mai 9, 2010 at 01:22, david baron  wrote:
+
+> at certain time, seem fridai noontim, i am unabl to shutdown the
+> system.
+> instead of the usual script to kill all process, unmount
+> everyth
+> and will now halt, goodbi, i get:
+>
+> process run pstree (or someth like that)
+> shutdown abort
+>
+> at thi point, the system (or at least ani consol or ui) is dead.
+>
+> what it thi?
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact
+> listmast@list.debian.org
+> archiv: http://list.debian.org/201005082252.52352.d_baron@012.net.il
+>
+>
+just see which process is run pstree.
+"ps -eaf | grep pstree"
+you could find the parent pid of pstree (second column).
+look at the parent of pstree, and the process start thi on.
+if you go back that wai, final you will reach init, but befor that you
+could
+find which system process start these process.

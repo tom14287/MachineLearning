@@ -1,0 +1,44 @@
+re: replac hardwar without reinstal debian lennyon tue, 11 mai 2010 12:59:00 +0100, lisi wrote:
+
+> on tuesdai 11 mai 2010 12:34:13 tom h wrote:
+
+>> > i am sure someon will correct me if i have got thi wrong, so if
+>> > noon doe so i have probabl rememb correctli.
+>>
+>> i don't rememb a thread on debian-user about uuid chang with
+>> chang hardwar (i could be wrong though!) but there wa a thread in
+>> march on ubuntu-user where a gui wa duplic disk for a rollout
+>> and he wa convinc that the bio of the box into which he wa
+>> plug in the duplic hd wa chang the uuid of the disk'
+>> partit becaus he wa unabl to boot from those disk unless he
+>> chang the fstab to us /dev/sdax devic. i point out that the idea
+>> that a bio could chang a filesystem's superblock didn't make ani
+>> sens and that it could not be a uuid problem becaus he could boot
+>> box with intel mobo but not box with anoth manufactur's mobo
+>> (i assum that he could have repli that the other mobo were chang
+>> the uuid and the intel on not...).
+> 
+> thank, tom - i mai be get confus with that.
+
+no, lisi, you ar right. here is the thread:
+
+***
+question about fstab in squeez and uuid
+http://list.debian.org/debian-user/2010/03/msg01026.html
+***
+
+but us "label" can lead to anoth problem. i'm afraid there is no 
+"on size fit all" here :-/
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.11.13.47.27@csmine.org
+
+

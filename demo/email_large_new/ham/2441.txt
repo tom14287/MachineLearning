@@ -1,0 +1,15 @@
+iiu post from emailharvest@email.com requir approvala list administr, your author is request for the
+follow mail list post:
+
+    list:    iiu@iiu.taint.org
+    from:    emailharvest@email.com
+    subject: harvest lot of e-mail address quickli !
+    reason:  post by non-member to a member-onli list
+
+at your conveni, visit:
+
+    http://iiu.taint.org/mailman/admindb/iiu
+        
+to approv or deni the request.
+
+

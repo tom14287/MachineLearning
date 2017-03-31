@@ -1,0 +1,21 @@
+re: backup apt tree?on wed, 21 apr 2010 14:14:54 +0200, sjoerd hardeman wrote:
+
+> downgrad is not support... it will *not* fix your problem. you can 
+> of cours uninstal the packag and reinstal a previou version 
+> directli from it deb.
+
+and most often, after a major upgrad, the previou version can't be 
+instal or not function properli ani more.
+
+-- 
+tong (remov underscor(s) to repli)
+  http://xpt.sourceforg.net/techdoc/
+  http://xpt.sourceforg.net/tool/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hqn5oe$ipm$2@dough.gmane.org
+
+

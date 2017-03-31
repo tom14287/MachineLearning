@@ -1,0 +1,59 @@
+md subsystem is not loadedhi,
+
+
+when i instal a kernel i get "md subsystem is not load" as a warn:
+
+...
+/usr/srcthu mai 13-13:50:50sdb6# dpkg -i linux-imag-2.6.33.4-hvw_1_i386.deb
+select previous deselect packag linux-imag-2.6.33.4-hvw.
+(read databas ... 133008 file and directori current instal.)
+unpack linux-imag-2.6.33.4-hvw (from 
+linux-imag-2.6.33.4-hvw_1_i386.deb) ...
+examin /etc/kernel/preinst.d/done.
+set up linux-imag-2.6.33.4-hvw (1) ...
+run depmod.
+examin /etc/kernel/postinst.d.run-part: execut 
+/etc/kernel/postinst.d/initramf
+w: mdadm: /etc/mdadm/mdadm.conf defin no arrai.
+w: mkconf: md subsystem is not load, thu i cannot scan for arrai.
+w: mdadm: fail to auto-gener temporari mdadm.conf file.
+w: mdadm: no configur file avail.
+run-part: execut /etc/kernel/postinst.d/initramf-tool
+run-part: execut /etc/kernel/postinst.d/pm-util
+run postinst hook script updat-grub.
+search for grub instal directori ...
+found: /boot/grubsearch for default file ...
+found: /boot/grub/defaulttest for an exist grub menu.lst file ...
+found: /boot/grub/menu.lst
+search for splash imag ... none found, skip ...
+found kernel: /boot/vmlinuz-2.6.33.4-hvw
+found kernel: /boot/vmlinuz-2.6.33.3-hvw
+found kernel: /boot/vmlinuz-2.6.32-3-686
+updat /boot/grub/menu.lst ... done
+...
+
+
+googl that i get zip, more or less.
+
+how doe on load the md subsystem?
+
+i have mdadm:
+hugo@debian:~$ dpkg -l mdadm
+desir=unknown/instal/remov/purg/hold
+| 
+statu=not/inst/cfg-file/unpack/fail-cfg/half-inst/trig-await/trig-pend
+|/ err?=(none)/reinst-requir (statu,err: uppercas=bad)
+||/ name                   version                descript
++++-======================-======================-============================================================
+ii  mdadm                  3.1.1-1                tool to administ 
+linux md arrai (softwar raid)
+
+hugo
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hsjl89$ciq$1@dough.gmane.org
+
+

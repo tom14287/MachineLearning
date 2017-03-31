@@ -1,0 +1,11 @@
+re: datapow announc xml-in-siliconon 27 aug 2002 at 15:00, rohit khare wrote:
+
+> datapow deliv xml acceler devic
+> by scott tyler shafer
+> august 27, 2002 5:46 am pt
+> 
+intel also had a similar devic a coupl of year ago (netstructur).  thei have, afaik, abandon it.
+
+intel is still in the xml hardwar game though.  on 8/19 thei spun off a compani name tarari.   tarari develop hardwar to check the header of ip packet. tarari call 
+thi layer 7 process (atop the osi model).    from what i can tell, tarari plan to combin viru scan and xml acceler into a singl hardwar devic.
+

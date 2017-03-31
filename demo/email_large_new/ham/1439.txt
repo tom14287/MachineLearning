@@ -1,0 +1,40 @@
+re: [ilug] expand a string multipl timeskevin lyda wrote:
+> on mon, aug 19, 2002 at 10:27:57am +0100, padraig bradi wrote:
+> 
+>>>on fri, aug 16, 2002 at 05:26:33pm +0100, padraig bradi wrote:
+>>>
+>>>>how can i repeat a string an arbitrari number
+>>>>of time in bash/sed/...
+>>>>
+>>>>i.e. i'm miss the repeat in the follow:
+>>>>
+>>>>string="> "
+>>>>number=3
+>>>>prefix=repeat $string $number
+>>>>echo $prefix
+>>>
+> 
+> huh?  i miss all thi.  do you want the string all on on line?
+> 
+> the string repeat over and over, but with linebreak in between,
+> thi work:
+> 
+>     ye "$string" | head -"$number"
+> 
+> us sed to remov the newlin i guess if you want.  the util ye,
+> head and sed ar on pretti much everi unix.
+
+good. i actual look at `ye` but i wa in
+slow mode on fridai and didn't consid combin with `head`
+
+to remov newlin then handiest is: tr -d '\n'
+
+thank,
+pádraig.
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

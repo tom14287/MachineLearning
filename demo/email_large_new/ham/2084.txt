@@ -1,0 +1,55 @@
+re: recompil the kernel with a differ version nameon wed, apr 07 2010, stephen powel wrote:
+
+> on wed, 7 apr 2010 14:54:53 -0400 (edt), celejar wrote:
+>> on wed, 7 apr 2010 13:48:18 -0400 (edt), stephen powel wrote:
+>>>
+>>> ...
+>>>
+>>> note: you must alwai issu "make-kpkg clean" after run "make menuconfig"
+>>> or after run "make-kpkg" with ani target other than "clean".  otherwis,
+>>> version and revis number will not work as expect.  assum that you
+>> 
+>> ar you sure that thi is current requir?  from the changelog:
+>> 
+>> kernel-packag (12.016) unstabl; urgenc=low
+>> 
+>>   * [4df65e7]: remov obsolet warn about run make-clean
+>>     with the new facil to regener ./debian, all the old strictur
+>>     about run make clean after anyth that might chang the version
+>>     number have beenmad obsolet, so remov from man page.  
+>>     bug fix: "is the --append-to-version section still accur?", thank
+>>     to frédéric brière. short answer: no.                  (close: #534743).
+>> 
+>>  -- manoj srivastava   sun, 28 jun 2009 15:31:12 -0500
+>
+> i must confess i did not look at the chang log.  but the readm file
+> (/usr/share/doc/kernel-packag/readm.gz) still document it as necessari.
+> as to whether thi is out of date or not, i do not know.
+> but there is on thing i *do* know: the --revis flag he wa us wa
+> not take effect, as evidenc by the name of the packag file produc.
+> and i also know that when i us "make-kpkg clean" befor build the kernel
+> packag, i never have ani troubl.  note also that the comment abov talk
+> about chang the version number, not the revis number.  thei aren't
+> the same.
+
+        the readm is out of date. i'll try and rememb to fix thi
+ (feel free to file a bug report to remind me). 
+
+        i am not sure why the revis flag wa not take effect (i
+ have not had time to look into the mail yet), but the +drm3 is come
+ from the kernel code (someth is set .localvers or the ilk).
+
+        manoj
+-- 
+guard against physic unruli. be restrain in bodi. abandon
+physic wrong do, lead a life of physic well do. 231
+manoj srivastava    
+4096r/c5779a1c e37e 5ec5 2a01 da25 ad20  05b6 cf48 9438 c577 9a1c
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/877hojkm99.fsf@anzu.intern.golden-gryphon.com
+
+

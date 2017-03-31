@@ -1,0 +1,34 @@
+re: k3bjess keat wrote:
+
+>on fri, 04 oct 2002 01:14:28 +0200
+>vincent  wrote:
+>
+># hello,
+># 
+># i'm look for the packag k3b for the redhat 8.0, doe anyon know
+># 
+># where to get it ? i tri to compil but it did an error messag:
+>
+>i've been work on a .src.rpm for it.  their rpm and spec file is
+>veri dirti, so i"m clean it up.  i think i have all the build-req's
+>and the instal req's sort out, but i need more tester.
+>
+>http://geek.j2solut.net/rpm/k3b/
+>
+>pleas try it.
+>
+>  
+>
+if i get troubl with the .tar.gz sourc file compil, will it work 
+with the .src.rpm sourc file compil ?
+if it will, how do i manag with a .src.rpm file, sorri, i don't remeb :(
+
+thank.
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

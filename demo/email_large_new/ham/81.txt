@@ -1,0 +1,13 @@
+debian instal iso: custom with new packag=0a hi,=0a=0a i would like to add two packag to the netiso instal. i h=
+av found thi link, but i think i need more detail instruct:=0a=0aht=
+tp://wiki.debian.org/debianinstal/modifi/cd=0a=0a do you know a web reso=
+urc that describ the necessari step to creat a new debian instal is=
+o includ new packag?=0a=0a regard,=0a=0a=0a      
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/893812.89466.qm@web28411.mail.ukl.yahoo.com
+
+

@@ -1,0 +1,54 @@
+re: how to trick my debian in think that a packag is not
+ installedon tue, apr 27 at 10:32, boyd stephen smith jr. pen:
+> on tuesdai 27 april 2010 08:48:48 daniel burrow wrote:
+> 
+> > essenti, it caus held packag to be ad to the root set
+> > (and that's the best implement, i think: modifi aptitud's
+> > custom root set function to includ held packag).
+> 
+> you lost me, but i haven't delv into the aptitud sourc code.  my
+> approach would have been just make the 'hold' action also clear
+> the 'automat instal' flag; essenti "institution"
+> the temporari solut.  but, i defer to your solut as it sound
+> more flexibl.
+
+i'm also not familiar with the implement, but i would prefer that
+automat instal packag stai automat instal, so that
+thei have the possibl of be automat remov when no longer
+need.
+
+i us "hold" liber to weather sid storm.  there ar two case i
+see crop up: on, aptitud suggest remov packag without an
+obviou replac.  two, aptitud mark thing as broken that have
+been work just fine.  in either case, i start slam the "=" kei
+until packag will no longer be remov, and noth is mark
+broken.  thi work 99.99% of the time.  at some later period when i
+suspect the storm ha pass, i test the water by unhold the
+packag and gaug aptitud's reaction.
+
+i also us "hold" when apt-listbug + some investig lead me to
+believ i'm better off with the current version.  (there's some reason
+i don't us forbid-version, but i don't recal.  mayb it wasn't
+persist between session?  but that would have been year ago.)
+
+all of which is to sai, just becaus i've mark a packag on hold
+doesn't mean that i want it on my system forev.  but if that's the
+onli wai to deal with the problem, then i can certainli manag.  my
+system is ancient, and there ar alreadi plenti of packag on it whose
+presenc i can't easili explain.  what's the harm in a few more?
+
+if thi is a misus of "hold" and there's a better wai, though, i'm
+all ear.  reread, it seem like "forbid-version" would be the
+right call for most of what i'm do, assum it doe persist
+between aptitud session.
+
+-- 
+moniqu
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100427155919.gb30298@mail.bounceswoosh.org
+
+

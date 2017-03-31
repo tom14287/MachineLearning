@@ -1,0 +1,36 @@
+rdf reduxurl: http://diveintomark.org/archiv/2002/10/02.html#rdf_redux
+date: 2002-10-02t09:42:39-05:00
+
+i think i'm go to becom on of _those_ peopl. you know, on of those 
+peopl who ha a “semant web” categori on their weblog. thi will 
+be a geek puriti test question somedai. onward: 
+
+- _phil ringnalda_: fun with rdf[1]. “rdf can actual be fun, as long as 
+you don't foolishli invest too much ego in try to store rss 1.0, or wander 
+off into flame war.” from which we find: 
+- _shellei power_: the rdf queri-o-matic[2], and the rdf queri-o-matic 
+explain[3]. “the queri-o-matic accept the name of an rdf file (ani 
+valid rdf file), and an rdfql (rdf queri languag) queri, and will print out a 
+test valu found as a result of that queri.” 
+- _marcu campbel_: “my foaf autocr script is move along nice
+[4]. it's now loop through my opml blogrol file, check the first load of 
+bite in peopl's page for head link foaf file, grab certain element 
+from these file (if thei have on) and spit them out into a brand new foaf 
+file for me.” 
+- _joe gregorio_: the well-form web[5]. “after spend some time 
+badger poor bill kearnei for a concret benefit of have rdf in rss 1.0 and 
+not get a realli satisfactori answer i went back and read paul ford's essai 
+again. i want to get that old religi feel back again. it didn't work. 
+the magic wa gone.” 
+
+
+
+
+
+[1] http://philringnalda.com/archiv/002336.php
+[2] http://weblob.burningbird.net/servic/queri.htm
+[3] http://weblog.burningbird.net/archiv/000564.php
+[4] http://www.ninjakitten.net/digiboi/2002_09.php#post000545
+[5] http://bitwork.org/wellform.html
+
+

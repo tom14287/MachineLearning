@@ -1,0 +1,19 @@
+re: [ilug] vpn implementationon septemb 2, kialllist@redpi.com said:
+> os-x is linux
+> 
+
+er, no it's not. it's kinda bsd-relat, but it's definit not
+linux.
+
+waider.
+-- 
+waider@waider.ie / ye, it /is/ veri person of me.
+
+"sinc i am project leader, i must not be permit to go insan."
+                                                                - theo de radt
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

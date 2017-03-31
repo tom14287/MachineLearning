@@ -1,0 +1,62 @@
+re: syslog-ng log output corruptedon tue, mai 04, 2010 at 11:08:12am +0200, imr vida wrote:
+>=20
+> a few dai ago syslog-ng stop work properli on my=20
+> laptop.
+>=20
+> it output consist onli of error report line such as the follow:
+> mai  3 06:35:16 sharp syslog-ng[4361]: log statist; process=3d'desti=
+nation(d_error)=3d249', process=3d'cent er(receiv)=3d0', process=3d's=
+rc.intern(s_src#1)=3d206', stamp=3d'src.intern(s_src#1)=3d1272860716', =
+process=3d 'destin(d_syslog)=3d206', process=3d'destin(d_xcon=
+sole)=3d268', process=3d'destin(d_newscrit)=3d0', process=3d'desti=
+nation(d_auth)=3d74', process=3d'destin(d_daemon)=3d77', process=
+=3d'global(payload_realloc s)=3d0', process=3d'global(msg_clone)=3d0', p=
+rocess=3d'destin(d_mail)=3d1354', process=3d'destin(d_cron)=
+=3d36', process=3d'destin(d_kern)=3d243', process=3d'destin(d=
+_uucp)=3d0', process=3d'destin(d_debu g)=3d36', process=3d'destina=
+tion(d_lpr)=3d0', process=3d'destin(d_user)=3d16', process=3d'cent=
+er(queu)=3d0', process=3d'global(sdata_updat)=3d0', process=3d'dest=
+inat(d_newsnotic)=3d0', process=3d'destin(d_conso le_all)=3d268'=
+, process=3d'destin(d_consol)=3d1', process=3d'sourc(s_src)=3d20=
+42', process=3d'destin(d _newserr)=3d0'
+> =20
+> thi start when the /var partit fill up due to an=20
+> updat (without clean up old deb befor). in an 'emerg'
+> clean up i delet also old, compress log file (as i usual do).
+>=20
+> thi ha happen befor without an consequ, but now what ever=20
+> i try (de/reinstal, pure/reinstal) the problem persist.
+>=20
+> i switch to sysklogd which work absolut fine.
+>=20
+> i wonder if anybodi could give me a hint what went wrong=20
+> and how could i fix thi.
+>=20
+> mani thank=20
+>=20
+> imr
+>=20
+> run:
+> debian test
+> kernel 2.6.31.6
+> (compil from sourc)
+>=20
+
+--=20
+imr vida, m.d., ph.d.
+neurosci and molecular pharmacolog
+fbl, univers of glasgow=20
+west medic build=20
+glasgow, g12 8qq, u.k.
+tel.: 0044 141 330 5143
+fax.: 0044 141 330 5481
+email: i.vida@bio.gla.ac.uk
+--
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100504095002.ga25888@bio.gla.ac.uk
+
+

@@ -1,0 +1,34 @@
+re: advic on 7.3.92 to 7.3.93, and apt compil (oh joi)on mon, 2002-08-19 at 22:34, angl puglisi wrote:
+> matthia saou (matthia@egwn.net) wrote*:
+> >then why bother : the new red hat linux beta "(null)" is now avail and
+> >should be announc anytim now. it contain rpm 4.1-0.81.
+> 
+> ahhh ... thi is funni. last night i upgrad to limbo ii (.93).
+> 
+> instal limbo ii kernel, instal libstdc++ from rawhid (rpm -ivh) so the
+> newer apt would work, told apt it is ok to have multipl of libstdc++, copi
+> the actual rawhid "libstdc++.so.5.0.0" file to anoth directori, remov that
+> rawhid libstdc++ packag, instal (rpm -ivh ) the limbo ii libstdc++ packag
+> (new apt doe not like it), make that symlink "libstdc++.so.5" point to that
+> rawhid file i move earlier.
+
+you can just recompil the apt sourc rpm, if it's the newer on. (such
+as mine). there's no depend on libstdc++ other than binari on.
+
+current on releas dwd2, which i'm us on my home rawhid box.
+(obvious not product, sinc the old apt work fine on product
+box).
+
+now... doe anyon know of a good wai to delet "old" rpm from a
+directori contain both "new" and "old" rpm? sai i have
+blurb-0.1.0-1.i386.rpm, blurb-0.1.0-2.i386.rpm, and
+blurb-0.1.1-1.i386.rpm, and want to remov the blurb-0.1.0-* becaus of
+the presenc of blurb-0.1.1-1? anyon have a conveni script?
+
+dave.
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

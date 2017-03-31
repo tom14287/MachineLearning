@@ -1,0 +1,29 @@
+re: kde 3.5 ...from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+content-transfer-encod: quot-printabl
+
+hi dotan,
+
+> thi is what i'd like to know! it is veri subject, but kde 3 wa
+> veri intuit in some aspect. tell me what is not intuit in kde
+> 4.4 and i will file the bug. thank, thi is an import on! i
+> agre that mani thing ar _not_ intuit.
+
+the thing i miss most in kde4 is: paus the cursor over a music
+file in konq (file manag, icon view) and hear the content.
+thi wa such an awesom featur that microsoft ha copi it for
+window 7; and it's disappear from konq/dolphin. i ask about it
+onc, and got  back.
+
+otherwis, i'm a happi kde4.4 user (on a number of distro).
+
+ani chanc?
+
+--=20
+trish fraser, jd9r rq2d
+52.4161n,16.9303e
+do mei  6 19:16:30 cest 2010
+gnu/linux 1997-2010 #283226 counter.li.org
+andromeda up 1 hour(s), 3 min.
+kernel 2.6.31.13-desktop-1mnb
+--

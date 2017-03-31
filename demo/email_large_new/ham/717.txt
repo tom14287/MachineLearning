@@ -1,0 +1,28 @@
+re: mplayeronc upon a time, roi wrote :
+
+> the new spec didn't even want to build the packag
+> someth with config.mak
+
+now that is weird! :-/
+
+> also thi new spec look like the old on, it got libdv and libdv-devel
+> in the buildrequir so i just us the normal spec and remov it
+> manulli.
+
+inde, my boo-boo :-( fix now.
+
+btw, about the "mplayer -vo sdl" black screen problem you report, i wa
+unabl to reproduc it on my hom 8.0 comput, it work as expect.
+
+matthia
+
+-- 
+clean custom red hat linux rpm packag : http://freshrpm.net/
+red hat linux releas 7.3 (valhalla) run linux kernel 2.4.18-10
+load : 0.10 0.15 0.16, ac on-line, batteri charg: 100% (1:47)
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

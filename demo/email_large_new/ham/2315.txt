@@ -1,0 +1,20 @@
+re: 64-bit netbook with debian linuxon 5/5/2010 8:49 am, camalón wrote:
+> btw, my shuttl box ha also a ram limit of 2 gib (and current
+> us onli 1 gib) but ha instal "amd64". it run fine, without
+> notic drawback.
+
+
+a concern wa "futur-proof".  more than on gb is not need now. 
+what about later?
+
+
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be1d665.8010201@allum.com
+
+

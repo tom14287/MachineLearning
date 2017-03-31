@@ -1,0 +1,262 @@
+augd: infomanag for mondai, april 19, 2010infomanag for mondai, april 19, 2010
+-------------------------------------------------------------------
+by lynn weglei, infomanag, with coeditor fred showker
+
+what's here:
+01  ugnn salut the mac group
+02  appl app store threat
+03  mac malwar alert
+04  top ten coolest ipad app
+05  adob cs5 get vjoon
+06  paper scanner to go
+07  bulk mail on mac
+08  mac usenet
+09  houdahgeo 2.5
+10  goodread for ipad
+11  printcentr 1.2 for ipad
+12  googl voic explain
+13  foodessenti- iphon app
+14  speak of threat
+15  quot: all about simplic
+
+* follow and be follow: http://twitter.com/ugnnet
+
+subscrib / unsubscrib:
+http://dtgnew.com/mailman/listinfo/infomanag_dtgnew.com
+
+-------------------------------------------------------------------
+
+01  ugnn salut the mac group
+
+      the mac group bring top-drawer support to mac user in
+the dayton oh area; montgomeri and green counti as
+well as all of southwest ohio
+
+http://www.ugnn.com/2010/04/ugnn-salut-the-mac/
+
+-------------------------------------------------------------------
+
+02  appl app store threat
+
+      i've been track "appl" in thetrap for the past
+ten dai and find the phisher and cyber-crook activ
+pursu mac user' account at the app store.
+
+http://www.ugnn.com/2010/04/appl-app-store-threat/
+
+-------------------------------------------------------------------
+
+03  mac malwar alert
+
+      do not clickaustin base intego ha discov a new variant
+of a malwar for mac, call hellrt. when instal on comput
+run mac os x, hellrt open a backdoor that allow remot
+user to take control of infect mac and
+perform action on them.
+
+http://www.ugnn.com/2010/04/mac-malwar-alert/
+
+-------------------------------------------------------------------
+
+04  top ten coolest ipad app
+
+      retrevo send in their top ten coolest ipad app, and we
+agre with them -- amongst other. these ar sure fire to
+get you start on top of the resid, built-in app
+
+http://www.ugnn.com/2010/04/top-ten-coolest-ipad-app/
+
+-------------------------------------------------------------------
+
+05  adob cs5 get vjoon
+
+      vjoon's new cross-media publish platformvjoon's new
+cross-media publish platform k4 version 6 will be
+compat with adob creativ suit 5 in q2 of 2010.
+
+http://www.ugnn.com/2010/04/adob-cs5-get-vjoon/
+
+-------------------------------------------------------------------
+
+06  paper scanner to go
+
+      doxi, the modern paper scannerdoxi, the modern paper
+scanner that scan directli to the cloud, is now ship.
+for home and small busi
+
+http://www.ugnn.com/2010/04/paper-scanner-to-go/
+
+-------------------------------------------------------------------
+
+07  bulk mail on mac
+
+      mail is a full featur applic for batch email
+mail is a full featur applic for batch email
+that deliv ani web page or plain text document with
+attach to multipl recipi for market,
+new announc, product updat etc.
+
+http://www.ugnn.com/2010/04/bulk-mail-on-mac/
+
+-------------------------------------------------------------------
+
+08  mac usenet
+
+      back in my appl //e dai, i had a subcript to islenet
+in honolulu. islenet gave us acess to the earli version of
+the internet call usenet. it wa great us usenet becaus
+it gave you access to real expert on arpnet. sinc most
+peopl on usenet were affili with univers and
+defens industri, mostli research.
+
+http://www.ugnn.com/2010/04/mac-usenet/
+
+-------------------------------------------------------------------
+
+09  houdahgeo 2.5
+
+      houdah softwar last fridai announc releas of houdahgeo 2.5,
+the photo geocod solut for the mac. houdahgeo is tightli
+integr with iphoto'09 and apertur place. it offer a
+myriad of wai to geocod and publish photo. the latest
+of which is geocod from iphoto refer photo.
+
+http://www.ugnn.com/2010/04/houdahgeo-2-5/
+
+-------------------------------------------------------------------
+
+10  goodread for ipad
+
+      on fridai, good.iwar's ipad version of goodread wa
+announc. it now offer full support for appl's document
+share. goodread, which ha toggl between the #1 and
+#2 overal best-sell ipad app, now offer two-wai share
+of document with other app that support document share.
+
+http://www.ugnn.com/2010/04/goodread-for-ipad/
+
+-------------------------------------------------------------------
+
+11  printcentr 1.2 for ipad
+
+      on saturdai, 4/17, eurosmartz, the appl' ipad & iphon
+applic develop compani, announc that hot on the
+heel of the releas of the printcentr app two week ago,
+version 1.2 of the app contain major enhanc to the
+wai user can handl document both from within printcentr
+as well as from other app.
+
+http://www.ugnn.com/2010/04/printcentr-1-2-for-ipad/
+
+-------------------------------------------------------------------
+
+12  googl voic explain
+
+      i have been a user of what is now googl voic for sever
+year. (origin heard about it from david pogu when it
+wa call "grand central."
+
+http://www.ugnn.com/2010/04/googl-voic-explain/
+
+-------------------------------------------------------------------
+
+13  foodessenti- iphon app
+
+      by now, you have probabl heard of red laser, which save
+you monei when shop, but foodessenti is an app for
+improv your health.
+
+http://www.ugnn.com/2010/04/foodessenti-iphon-app/
+
+-------------------------------------------------------------------
+
+14  speak of threat
+
+      i got a facebook alert from a friend the other dai, but it
+look a littl suspect. it said "look at you in thi video, ha, ha!"
+
+in the first place, she would never have written "ha, ha"
+-- and the second point, the url lead to an unfamiliar domain.
+
+you did read my alert piec abov, right? so, i immedi wrote
+her at her email address and alert her that the facebook
+account had been compromis. a dai later she wrote:
+
+   > i have been told by our is depart that thi is a
+   >  veri bad worm.  if you were also hijack be sure to monitor
+   >  your credit card and bank account regularli.
+   >  never click on ani link in the futur.  thi ha been a
+   >  viciou attack and thei had to go back two week on my
+   > work pc and we still found at least 6 object (worm.koobfac)
+   > through malwarebyt and sybot scan.
+
+need i sai more?
+
+-------------------------------------------------------------------
+
+15  quot: all about simplic
+
+beauti of style and harmoni and grace and good rhythm
+depend on simplic.
+       -- plato
+
+everyth should be made as simpl as possibl,
+but not simpler.
+       -- albert einstein
+
+-------------------------------------------------------------------
+
+14  for april 19, have a great week!
+
+      rememb, i invit all user group to us thi column in full
+or in piec in your newslett. or add a link to their web site.
+
+         pau
+
+see last week's infomanag
+* http://www.ugnn.com/2010/04/infomanag-april-12/
+
+* particip:
+    http://www.ugnn.com/post-your-articl/
+   * follow and be follow: http://twitter.com/ugnnet
+   * subscrib:
+         http://dtgnew.com/mailman/listinfo/infomanag_dtgnew.com
+   -------------------------------------------------------------------
+
+   ** the info manag
+   a weekli column from the mice of lynn weglei and fred showker.
+
+   lynn is a ugn veteran (aol user group forum) and user group network.
+he's been a support and volunt on mani, mani ugnet and user
+group academi project. as a long time user group member, he's
+been a volunt from honolulu to boston and beyond.
+
+current work primarili the with the cowtown mug of ft. worth
+but also work with the appl corp of dalla and is a lifetim
+member of tum the tulsa user of macintosh societi).
+
+fred ha been user group gui sinc 1986, through the aol
+ug forumdai, then out onto the web.
+
+-------------------------------------------------------------------
+copyright 2010, all right reserv. affili user group ar
+grant permiss to reprint the infomanag column or excerpt
+thereof so long as proper credit is given, and a clearli
+state web url link to: http://www.ugnn.com
+
+subscrib or unsubscrib:
+http://dtgnew.com/mailman/listinfo/infomanag_dtgnew.com
+pleas note:  if a link is disconnect due to your email client's
+wrap of text, remov the return charact or space separ
+the part of the link and past it into your browser.
+thank for read! we'll leav the modem on for'ya!
+
+-------------------------------------------------------------------
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+augd mail list      (augd@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/augd/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

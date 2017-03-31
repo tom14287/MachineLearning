@@ -1,0 +1,39 @@
+re: how to setup my environ variabl for vim ?from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on sat,24.apr.10, 16:15:46, jordan metzmeier wrote:
+> > try put thi in ~/.bashrc:
+> >
+> > export editor=3d/usr/bin/vim
+>=20
+> you can also make it a system wide configur with
+> "updat-altern --config editor". i have not tri it shell
+> other than bash but i assum it is portabl.
+
+yep:
+
+# updat-altern --config editor
+there ar 3 choic for the altern editor (provid /usr/bin/editor).
+
+  select    path                    prioriti   statu
+------------------------------------------------------------
+  0            /usr/bin/vim.nox         40        auto mode
+  1            /usr/bin/mcedit-debian   25        manual mode
+* 2            /usr/bin/vim.nox         40        manual mode
+  3            /usr/bin/vim.tini        10        manual mode
+
+press enter to keep the current choic[*], or type select number:=20
+
+but it won't work if ncftp reli on $editor:
+
+$ echo $editor
+
+$
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

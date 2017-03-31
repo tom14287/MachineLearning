@@ -1,0 +1,5 @@
+veri import
+
+
+
+shep g3niric.nic qpull$

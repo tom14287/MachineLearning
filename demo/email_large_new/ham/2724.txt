@@ -1,0 +1,50 @@
+re: flash is open?on thu, 13 mai 2010 19:31:47 -0400, celejar wrote:
+
+> adob claim that thei publish the flash spec:
+> 
+(...)
+ 
+> http://www.adob.com/choic/openmarket.html
+
+mmmm, and there ar other that think thi is not enough:
+
+***
+http://www.openmedianow.org/?q=node/21
+
+"(...) on reason for the lack of excit over the project in the free 
+softwar world is that it omit "huge amount" of inform need for 
+a complet implement of flash. in particular, savoy point out that 
+the announc contain no mention of the real time messag protocol
+(rtmp) that is requir for the flash media server. nor doe it mention 
+the sorenson spark codec that is us for video encod in flash 6 and 
+7, and remain the choic of some user still for flash video becaus 
+other format convert easili to it. both mai be encumb by patent 
+but, without them, the inform that adob ha releas is of limit 
+us."
+
+> i alwai thought that the reason for all the troubl with flash on linux
+> is that flash wa a close standard.  if the spec is publish, why ar
+> the floss player so far behind adob's player?  is it just that
+> difficult to design a good player?
+
+as per the abov link, it seem not all the spec have been releas or 
+made publicli avail. there ar also some concern about softwar 
+patent (for us -and distribut- mp3 codec or flv).
+
+anywai, i agre with your "hidden demand" ;-)
+
+look at pdf. pdf becam a iso/iec standard but we (at linux) still lack 
+for a pdf editor that can compet with acrobat profession.
+ 
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.14.06.52.05@csmine.org
+
+

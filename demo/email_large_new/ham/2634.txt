@@ -1,0 +1,47 @@
+badatom x11 error with fpguihi,
+
+when run pascal program base on fpgui, an x11 base interfac =
+packag, i get an error if the applic need to creat the top level =
+(root?) x11 window. but onli then. if there is alreadi a toplevel =
+window, for exampl becaus xterm run, then the applic open it =
+window and everyth behav as expect.
+
+the problemat call is thi:
+
+xgetwmprotocol(fdisplai, awindow, @protocol, @count);
+
+gdb show these valu (if there is an x11 window, the valu ar =
+exactli the same):
+
+4: count =3d 0
+3: protocol =3d 0x0
+2: awindow =3d 6291457
+1: thi->fdisplai =3d 0x803a00
+
+thi call produc thi x11 error:
+
+x error of fail request:  badatom (invalid atom paramet)
+ major opcod of fail request:  18 (x_changeproperti)
+ atom id in fail request:  0x0
+ serial number of fail request:  103
+ current serial number in output stream:  104
+
+system: mac os x 10.6.3
+
+x11 version:
+michael% x -version
+x.org releas 7.3
+x.org x server 1.4.2-appl53
+build date: 20100211
+
+someon suggest  xsync and xinteratom , but i am fairli clueless, when =
+it come to x11. so could you give me direct how to resolv thi?
+
+michael=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

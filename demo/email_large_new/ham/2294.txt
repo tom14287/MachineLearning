@@ -1,0 +1,31 @@
+re: download .jnlp won't openon tue, apr 27, 2010 at 12:01:45pm -0500, boyd stephen smith jr. wrote:
+> on tuesdai 27 april 2010 11:51:35 john o laoi wrote:
+> > > cat /proc/sy/net/ipv6/bindv6onli
+> > > if output is 1 then:
+> > > echo 0 > /proc/sy/net/ipv6/bindv6onli
+> > 
+> > that fix it.
+> > 
+> > anybodi know what wa the problem?
+> 
+> default kernel set where chang.  java applic and some other 
+> applic ar now bind to ipv6 onli, instead of ipv4 and ipv6.  there's 
+> an open bug about it, iirc.
+> 
+> i think it wa chang in order to allow commun to/from ipv4-embed-
+> in-ipv6 address over ipv6, which might be requir from some environ to 
+> function correctli / optim.  i'm veri sketchi on the detail becaus i 
+> haven't hit the bug myself.
+
+http://list.debian.org/debian-devel/2010/04/thread.html#00422
+
+-- 
+chri.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100428112749.gb18522@fischer
+
+

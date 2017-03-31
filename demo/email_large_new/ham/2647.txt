@@ -1,0 +1,25 @@
+re: should be easyon sun, 02 mai 2010 18:08:23 -0400, mark neidorff wrote:
+
+> i'm run updat lenni.  i just got a droid phone and want to mount
+> it on my lenni box.  so, i plug the usb cabl into the droid and the
+> comput. i expect to see an sd? devic show up with partit (like
+> sdb1, sdb2, etc.) but thei don't show up.  my primari hd show up as
+> sda1-7.  there ar entri for sdb,c,d,e and sdf, but no partit to
+> mount.
+> 
+> what do i have to do to mount the droid under lenni?
+
+after connect the phone, type "dmesg" to see what is go on.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.03.05.51.48@csmine.org
+
+

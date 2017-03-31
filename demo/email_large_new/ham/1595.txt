@@ -1,0 +1,25 @@
+re: bad focu/click behaviour    date:        fri, 13 sep 2002 11:26:30 +1000
+    from:        toni nugent 
+    messag-id:  <200209130126.g8d1quf21470@hobbit.linuxwork.com.au.nospam>
+
+  | i can cut'n'past from exmh's messag displai window into spawn
+  | gvim process, but not into anyth els.
+
+that's odd.  i cut & past between all kind of window (exmh into
+mozilla, xterm, anoth wish script of mine i us for dn task (but
+that on i guess is to be expect) netscap (when i us to us it,
+but i suppos it and mozilla ar the same codebas, approx) - in fact
+i can't thing of anyth it fail for, that i have notic.
+
+what is an exampl of an "anyth els" that it fail for for you?
+
+kre
+
+
+
+_______________________________________________
+exmh-user mail list
+exmh-user@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-user
+
+

@@ -1,0 +1,42 @@
+re: grub hard disk errorjozsi vadkan wrote:
+> i've got two pendriv.
+> 
+> i want to instal a debian on them. raid1.
+> 
+> ok...
+> 
+> ...
+> 
+> after i instal it in raid1, it work perfectli, ok! :)
+> 
+> when i pull out on of the pendriv [good pendriv], it still boot up,
+> hurrah :)
+> 
+> but: ...
+> 
+> when i pull out the other pendriv [i plug in the first on i tri] it
+> sai's:
+> 
+> grub hard disk error
+> 
+> what can i do?
+
+
+differ uuid?
+
+in the consol as root type "blkid" to get uuid of your partit then 
+setup /etc/fstab accordingli, you also mai need to chang the kernel 
+syntax too.
+-- 
+jimmi johnson
+
+simplymepi 8.5 at sda9
+regist linux user #380263
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf783be.5080203@csmine.org
+
+

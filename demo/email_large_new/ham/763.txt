@@ -1,0 +1,19 @@
+how to debug jni in xcodehi,
+
+i have a jni program that crash, but don't know how to us xcode to debug it.
+
+is it possibl to start the java code in xcode and debug the *.mm code
+and if so how do i go about do that?
+
+or do i have to start the program and then attach the debugg and if
+so how do i do that?
+
+david
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

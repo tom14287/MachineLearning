@@ -1,0 +1,16 @@
+aptitud and held packagesi just upgrad apt and aptitud to the latest test version. although
+'aptitud -s safe-upgrad' tell me that '172 not upgrad' it no longer
+list them. is thi a bug or an intent chang?
+
+-- 
+"pai less attent to what men sai. just watch what thei do."
+	-- dale carnegi
+    rick pasotto    rick@niof.net    http://www.niof.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100426142906.gl17245@niof.net
+
+

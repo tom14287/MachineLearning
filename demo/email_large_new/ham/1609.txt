@@ -1,0 +1,18 @@
+re: apt 0.5.7 on rh 7.xhi.
+
+matthia saou  wrote:
+> my main concern is that when rebuild the recent packag i've made
+> for psych on valhalla, i'd need to lower the "releas:" tag (to keep an
+> upgrad work), and that would f*ck up my cv repositori which is on
+> my valhalla box
+
+sorri, i don't get it. what's wrong with a releas tag of fr1?
+
+-- 
+do i look like a freakin' peopl person?
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

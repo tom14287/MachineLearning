@@ -1,0 +1,23 @@
+re: ever make your own fstab from scratch?from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+on tuesdai 27 april 2010 02:44:20 thoma pomber wrote:
+> you realli gotta know your hardwar!
+
+i don't find that to be true at all.  for non-remov media except / you =
+can=20
+simpli us uuid everyth should be fine.  for / you can gener us a=
+=20
+uuid, too.  remov media can be handl in a varieti of wai.  i prefer=
+=20
+us udev to fill in ani gap; write udev rule doesn't realli requir=20
+familiar with hardwar (udev will tell you everyth us) and there =
+ar=20
+some descent guid avail.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

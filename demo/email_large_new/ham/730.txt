@@ -1,0 +1,30 @@
+re: xine src packg still give errorsonc upon a time, roi wrote :
+
+> rpm build error:
+>     user dude doe not exist - us root
+>     user dude doe not exist - us root
+>     user dude doe not exist - us root
+>     user dude doe not exist - us root
+>     user dude doe not exist - us root
+
+thi i would guess is normal, but don't you get it at the veri begin of
+the build? isn't thi at the end just a remind?
+
+>     file not found: /var/tmp/xine-root/usr/bin/aaxin
+
+argh, i forgot to exclud aaxin from the %file when us "--without
+aalib" :-(
+the current "fr6.1" spec file fix thi...
+
+matthia
+
+-- 
+clean custom red hat linux rpm packag : http://freshrpm.net/
+red hat linux releas 7.3 (valhalla) run linux kernel 2.4.18-10acpi
+load : 0.02 0.03 0.00
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

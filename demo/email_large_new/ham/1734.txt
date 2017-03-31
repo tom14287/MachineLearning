@@ -1,0 +1,32 @@
+re: [satalk] german spam corpu / foreign languag spam
+on thursdai, august 22, 2002, at 09:36  am, justin mason wrote:
+
+>
+> "craig r.hugh" said:
+>
+>> i thought we'd sort of decid that after 2.40 we'd switch the
+>> mean of the "lang" prefix to actual mean "run these rule
+>> if languag match", where "languag" is what textcat spit out
+>> for a messag, as oppos to us the local which is how
+>> thing current work.
+>
+> ah, right -- i'd forgotten that.  :(
+>
+> doesn't help with the find-broken-rule qa case though...
+
+it doe, if you have a corpu of german spam and nonspam to feed 
+it, and you're not in a de local.
+
+c
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

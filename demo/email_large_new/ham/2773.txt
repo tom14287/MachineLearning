@@ -1,0 +1,38 @@
+re: how to manag multipl internet connect?on sat, 15 mai 2010 16:32:05 +0200, merciadri luca wrote:
+
+> `bond' seem to achiev what i want to do. thank.
+
+sure? i don't think so :-)
+
+"bond" is for ethernet devic, noth to do with us your 
+"router's bandwith". ethernet bond is like hard disk raid: it will 
+prevent for a "link" go down and you can us it to increas 
+throughput but what you want to achiev is not done with that, as you 
+will be still face the problem on how/where to rout packag.
+
+also, bond requir at least 2 ethernet adapt. 
+
+a veri good bond tutori:
+
+http://www.linuxfound.org/collabor/workgroup/network/bond
+
+but you mai need someth like thi:
+
+how to: load balanc & failov with dual/ multi wan / adsl / cabl 
+connect on linux
+http://blog.taragana.com/index.php/archiv/how-to-load-balanc-failov-with-dual-multi-wan-adsl-cabl-connect-on-linux/
+
+and i advanc you is not an easi task :-p
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.15.15.03.31@csmine.org
+
+

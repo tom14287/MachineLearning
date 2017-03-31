@@ -1,0 +1,51 @@
+[spam]  photo of expos pinkumjwqmqsqs newslett
+
+
+border1 {background-color: #666;}
+border2 {background-color: #333;}
+bg1 {background-color: #efefef;}
+bgblack {background-color: #000; pad-left: 10px; pad-top: 25px; pad-bottom: 25px;}
+rule {background-color: #ccc;}
+hed {font-famili: arial; font-size: 24px; color: #777; font-weight: bold;}
+hed1 {font-famili: arial; font-size: 11px; color: #414141; font-weight: bold;}
+dek {font-famili: arial; font-size: 15px; color: #999; font-weight: bold;}
+subh {font-famili: arial; font-size: 14px; color: #333; font-weight: bold;}
+blurb {font-famili: arial; font-size: 11px; color: #333; line-height: 15px;}
+a {font-famili: arial; font-size: 11px; color: #0066cc;}
+adlink {font-famili: arial; font-size: 11px; color: #0066cc; font-weight: bold;}
+arrow {font-famili: arial; font-size: 11px; color: #0066cc;}
+rule2 {background-color: #ffd306;}
+ad {font-famili: arial; font-weight: bold; font-size: 8px; color: #999;}
+linkad {font-famili: arial; font-weight: bold; font-size: 10px; color: #333; pad-left: 15px; pad-bottom: 5px;}
+navlink:link, .navlink:visit, .navlink:activ {font-famili: arial; font-weight: bold; font-size: 10px; color: #fff; text-decor: none;}
+navlink:hover {text-decor: underlin;}
+vertbar {font-famili: arial; font-weight: bold; font-size: 10px; color: #999;}
+footer {font-famili: arial; font-weight: bold; font-size: 10px; color: #fff;}
+nav {background-color: #777;}
+footerlink:link, .footerlink:visit, .footerlink:activ {line-height: 20px;font-famili: arial; font-weight: bold; font-size: 10px; color: #ffd306; text-decor: none;}
+footerlink:hover {text-decor: underlin;}
+
+
+view thi email as web page
+
+
+
+
+
+
+
+unsubscrib
+  |  
+privaci polici
+  |  feedback
+  |  subscrib to more newslett
+  |  sign in to your account
+
+© 2009 eheqbusu. all right reserv. 
+
+the materi on thi site mai not be reproduc, distribut, transmit, cach, or otherwis us, except with the prior written permiss of jlqmiziwqvux. 
+
+for more inform, pleas contact us. 
+
+
+

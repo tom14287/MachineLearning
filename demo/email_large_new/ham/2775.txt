@@ -1,0 +1,106 @@
+re: [ilug] newbi seek advic - suse 7.2< >
+> i download a driver from the nvidia websit and instal it us rpm.
+> then i ran sax2 (as wa recommend in some post i found on the net),
+but
+> it still doesn't featur my video card in the avail list. what next?
+
+
+hmmm.
+
+peter.
+
+open a termin and as root type
+lsmod
+you want to find a modul call
+nvdriver.
+
+if it isn't load then load it.
+#insmod nvdriver.o
+oh and ensur you have thi modul load on boot.... els when you reboot
+you might be in for a nasti surpris.
+
+onc the kernel modul is load
+
+#vim /etc/x11/xf86config
+
+in the section mark
+driver i have "neomag"
+you need to have
+driver "nvidia"
+
+here is part of my xf86config
+
+also note that us the card you ar us you 'should' be abl to safe
+us the fbbpp 32 option .
+
+section "modul"
+ load  "extmod"
+ load  "xie"
+ load  "pex5"
+ load  "glx"
+ subsect "dri"    #you don't need to load thi peter.
+  option     "mode" "666"
+ endsubsect
+ load  "dbe"
+ load  "record"
+ load  "xtrap"
+ load  "speedo"
+ load  "type1"
+endsect
+
+#plu the modelin for your monitor should be singfinicantli differ.
+
+section "monitor"
+ identifi   "monitor0"
+ vendornam   "monitor vendor"
+ modelnam    "monitor model"
+ horizsync    28.00-35.00
+ vertrefresh  43.00-72.00
+        modelin "800x600" 36 800 824 896 1024 600 601 603 625
+ modelin "1024x768" 49 1024 1032 1176 1344 768 771 777 806
+endsect
+
+section "devic"
+
+ identifi  "card0"
+ driver      "neomag" #chang thi to "nvidia"... make sure the modul
+ar in the correct path
+ vendornam  "neomag" # "nvidia"
+ boardnam   "nm2160"
+ busid       "pci:0:18:0"
+endsect
+
+section "screen"
+ identifi "screen0"
+ devic     "card0"
+ monitor    "monitor0"
+ defaultdepth 24
+ subsect "displai"
+  depth     1
+ endsubsect
+ subsect "displai"
+  depth     4
+ endsubsect
+ subsect "displai"
+  depth     8
+ endsubsect
+ subsect "displai"
+  depth     15
+ endsubsect
+ subsect "displai"
+  depth     16
+ endsubsect
+ subsect "displai"
+  depth     24
+  #fbbpp   32 #ie you should be abl lto uncom thi line
+  mode   "1024x768" "800x600" "640x480" # and add in higher resulut as
+desir.
+ endsubsect
+endsect
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

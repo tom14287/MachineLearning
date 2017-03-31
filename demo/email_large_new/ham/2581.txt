@@ -1,0 +1,42 @@
+re: [ilug] 3c509 & 2.4.19 problemsy need to run the do setup program for the 3c509 and turn off plug 'n' plai in the card's firmwar i think you will find.
+
+bod
+
+> 
+> hi folk,
+> 
+> i decid to upgrad the kernel on a machin at home from 2.2.18pre21 to the latest from kernel.org which is 2.4.19.
+> 
+> howev i have encount on problem, my network card now dosent work, well kind of dosent work...
+> 
+> instead of on eth0 on irq 10 i now get:
+> aug  4 11:31:51 mira kernel: eth0: 3c5x9 at 0x220, 10baset port, address  00 10 5a 3e 0e 48, irq 5.
+> aug  4 11:31:51 mira kernel: 3c509.c:1.18 12mar2001 becker@scyld.com
+> aug  4 11:31:51 mira kernel: http://www.scyld.com/network/3c509.html
+> aug  4 11:31:51 mira kernel: eth1: 3c5x9 at 0x300, 10baset port, address  00 10 5a be 0e 48, irq 10.
+> aug  4 11:31:51 mira kernel: 3c509.c:1.18 12mar2001 becker@scyld.com
+> aug  4 11:31:51 mira kernel: http://www.scyld.com/network/3c509.html
+> 
+> thi result in the interfac(s) come up but while packet can go out thei can not come in.
+> 
+> i've tri not load the 3c509 mdule on bootup and then `modload 3c509 irq=10` bit it still get load as abov, on irq 5 and 10. on 2.2 it load to irq 10.
+> 
+> anyon got ani suggest on what to do here? it a debian 3.0 distro. thi work fine when boot to 2.2 so the hardwar/bio etc seem ok, so it seem to be 2.4 spacif. have i miss some kernel set?
+> 
+> cheer,
+> ~al
+> 
+> -- 
+> irish linux user' group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+> list maintain: listmast@linux.ie
+> 
+
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

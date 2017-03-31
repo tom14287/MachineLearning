@@ -1,0 +1,105 @@
+re: re (5): xorg-server fail on ibm netvista with intel 82815
+ videoon fri, 21 mai 2010 13:07:26 -0400 (edt), peter easthop wrote:
+>
+> run ok.  these line appear on the consol.
+>   xserver-xorg-video-intel 2:2.9.1-3
+>     ...
+
+:-)
+
+>   updat-initramf: gener /boot/initrd.img-2.6.32-3-686
+> 
+
+thi should also have caus lilo to be run, if the custom
+is correct.  there ar onli two or three line of output from
+lilo; so it's easi to overlook.
+
+> the first seem promis but no such luck.
+
+:-(
+
+> under the 
+> 2.6.32-3 kernel x still shut down with the messag 
+> "error set mtrr ... inappropri ioctl for devic (25)".
+
+i found thi thread on the internet.  i don't know if it's
+your problem, but it's worth look at.  i alwai us gnome,
+so i have no experi with mess with .xinitrc:
+
+http://www.linuxquest.org/question/linux-softwar-2/lxde-error-808065/
+
+> stephen powel wrote:
+>> if everyth wa custom correctli, the symlink should
+>> be automat updat and lilo should be automat run.
+> 
+> lilo continu to work and all appear well.
+> 
+> dalton:/# ll /boot/i*
+> lrwxrwxrwx 1 root root      23 mai 12 15:07 /boot/initrd.img -> initrd.img-2.6.32-3-686
+> -rw-r--r-- 1 root root 7369012 mai 11 15:53 /boot/initrd.img-2.6.30-2-686
+> -rw-r--r-- 1 root root 7368816 mai  5 09:01 /boot/initrd.img-2.6.30-2-686.bak
+> -rw-r--r-- 1 root root 8191597 mai 21 08:00 /boot/initrd.img-2.6.32-3-686
+> -rw-r--r-- 1 root root 7915734 mai 12 15:07 /boot/initrd.img-2.6.32-3-686.bak
+> lrwxrwxrwx 1 root root      23 mai 12 08:34 /boot/initrd.img.old -> initrd.img-2.6.30-2-686
+> dalton:/# ll /boot/v*
+> lrwxrwxrwx 1 root root      20 mai 12 15:07 /boot/vmlinuz -> vmlinuz-2.6.32-3-686
+> -rw-r--r-- 1 root root 2024144 sep 25  2009 /boot/vmlinuz-2.6.30-2-686
+> -rw-r--r-- 1 root root 2234080 feb 25 00:59 /boot/vmlinuz-2.6.32-3-686
+> lrwxrwxrwx 1 root root      20 mai 12 08:33 /boot/vmlinuz.old -> vmlinuz-2.6.30-2-686
+> dalton:/#
+>
+> stephen powel wrote:
+>>
+>> you will normal want to manual purg ani older kernel that ar
+>> still instal to save disk space *after* the upgrad.
+> 
+> will do.  
+
+at thi point, you onli have two kernel instal; so there's noth to
+purg right now.  but be sure to add the option flag to the linuxold
+section in /etc/lilo.conf.  without it, lilo will gener an error if
+there ar not at least two kernel instal.
+> 
+> ani chanc of you post the custom instruct on 
+> your web site?
+
+well, i alreadi have, sort of.  the troubl is that it's buri in a
+larger document on custom kernel build.  peopl see that and think,
+"oh, i'm not build a custom kernel; so i don't need to read thi."
+but step 10 on my kernel build page
+
+   http://www.wowwai.com/~zlinuxman/kernel.htm
+
+talk about custom the kernel instal environ, and that
+part is applic to both stock and custom kernel.  the instruct
+for custom the lenni environ work for squeez also, provid
+that you us *onli* stock kernel.  the minut you introduc a custom
+kernel, you *must* us the hook script, as document in the squeez
+section.
+
+> stephen powel wrote:
+>> there is a newer kernel avail in squeez now, 2.6.32-5.
+> 
+> sid isn't it?  but if thi is a kernel bug, it is worthi  
+> of fix for squeez.  but no harm in try the sid 
+> kernel i suppos.
+
+as i explain in anoth post, ye, it is in sid.  if you need
+instruct for how to pull in the sid kernel without upgrad
+your whole system to sid, let me know and i can provid that.
+also, you might try disabl acpi and try the vesa driver,
+as explain in anoth post.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1211541152.323977.1274465212079.javamail.root@md01.wow.synacor.com
+
+

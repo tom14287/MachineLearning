@@ -1,0 +1,25 @@
+re: unabl to connect to debian btson 2010-04-08 06:40, Γιώργος Πάλλας wrote:
+> the last few dai, when us reportbug, i get (from two machin, on 
+> two differ network):
+> 
+> queri debian bt for report on linux-2.6 (sourc)...
+> unabl to connect to debian bt; continu [y|n|?]?
+> 
+> except some veri rare case.
+> 
+> anybodi els have the same problem?
+> 
+
+i just tri it from the southern us, and it work like a charm.
+
+-- 
+"histori doe not long entrust the care of freedom to the weak
+or the timid."  dwight eisenhow
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbdd4ff.6050105@cox.net
+
+

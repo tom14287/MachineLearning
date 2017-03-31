@@ -1,0 +1,70 @@
+re: java for mac os x 10.6 updat 2 and 10.5 updat 7 ar livethi updat appear to have broken the sunpkc11 provid... sort of.
+
+attempt to us an altern pkc11 provid while the on while
+
+secur.provid.1=3dsun.secur.pkc11.sunpkc11 =
+${java.home}/lib/secur/sunpkc11-macosx.cfg
+
+is present in java.secur result in thing like thi (an exampl from =
+jarsign):
+
+jarsign error: java.secur.invalidkeyexcept: privat kei must be =
+instanc of rsapriv(crt)kei or have pkc#8 encod
+
+replac secur.provid.1 with an instanc of bouncycastl (or =
+remov it and renumb all of the other entri) is a work-around.
+
+on mai 18, 2010, at 1:35 pm, mike swingler wrote:
+
+> java develop,
+>=20
+> the latest java softwar updat for both mac os x 10.6 and 10.5 ar =
+now live and avail to all mac os x custom via softwar updat. if =
+you instal ani of the develop preview, run softwar updat =
+will automat bring you up to date with the final gm version.
+>=20
+> manual download link:
+> java for mac os x 10.6 updat 2: 
+> java for mac os x 10.5 updat 7: 
+>=20
+>=20
+> like the last pair of releas, all of the javadoc api jar, sourc =
+jar, nativ framework header, and tool document is in a =
+separ doc packag. be sure to instal thi packag to keep your id =
+in sync with the java platform sourc. we've made a number of addit =
+to the eawt, so you mai also want to check out the appledoc.jar if you =
+haven't look at it in a while.
+>=20
+> java for mac os x 10.6 updat 2 develop document:
+> =
+
+>=20
+> java for mac os x 10.5 updat 7 develop document:
+> =
+
+>=20
+>=20
+> the team send their thank to everyon who instal the develop =
+preview and help to make thi a great releas.
+>=20
+> warm regard,
+> mike swingler
+> java runtim engin
+> appl inc.
+>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list      (java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/java-dev/nsayer%40kfu.com
+>=20
+> thi email sent to nsayer@kfu.com
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

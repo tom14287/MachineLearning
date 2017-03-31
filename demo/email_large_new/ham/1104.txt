@@ -1,0 +1,58 @@
+re: overcom the 32k object limit is ext3 - which file system to 
+	us?on fri, apr 23, 2010 at 8:13 pm, siju georg  wrote:
+> hi,
+>
+> ext3 can have onli 32000 file/folder under a folder and i hit that limit.
+>
+
+hi,
+
+sorri for the ambigu.
+
+by file/folder i meant the number of object insid a directori.
+
+but mike show there is no such limit for file/folder and other
+show me there is such a limit for folder.
+
+folder=directori.
+
+i work in a mix environ of bsd linux mac os x and a few ms
+window server but the develop mostli us ms window as desktop
+and ms languag is what i us commonli in offic so that is the reason
+to us folder :-)
+
+i rare us ext3. thi wa a server instal by some bodi els.
+
+the folder limit wa reach some time back.
+
+as a temporari solut some directori were remov .
+thei will be fit new drive tomorrow so i guess i will format them
+to xf and us that.
+
+sinc ext4 also ha a limit an jf also ha a limit of 64000 i guess
+i will us xf which allow 2^32 directori under a directori.
+
+my inclin to us jf wa becaus that is the file system that ha
+prove stabl for me dure numer crash due to power failur back
+at home more than ani other :-)
+
+thank you so much all of you for all the info.
+
+--siju
+> which file system can i us to over come it?
+> i am plan for jf
+>
+> doe anybodi ha ani recommend?
+>
+> thank
+>
+> --siju
+>
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/v2ib713df2c1004250804ga202e09cx75384535a15dde8f@mail.csmine.org
+
+

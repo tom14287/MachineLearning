@@ -1,0 +1,34 @@
+re: what need to improv in kde 4?on 11 mai 2010 00:20, facundo aguilera  wrote:
+> el lune 10 mayo 2010 11:08:40 dotan cohen  escribi=
+=c3=b3:
+>> pleas tell us what problem, bug, or issu kde 4 that make it
+>> difficult to us. pleas be veri specif so that bug can be file
+>> and the softwar can be fix. gener statement such as "kde4 sux"
+>> ar not welcom, as thei do not give ani indic as to what can be
+>> fix.
+>
+> the old problem us proxi with kopet and kmail. thei do not us the
+> gener set in systemset and can't be configur in ani other w=
+ay.
+>
+
+thank, facundo. it seem that the proxi configur is onli for kio slav=
+es:
+http://bug.kde.org/show_bug.cgi?id=3d186872
+
+but that bug request that the kde proxi configur appli to all
+app. pleas comment there. thank.
+
+--=20
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktinnstarggk504qqsoh_9fpd1dzbyc4irv59ir0t@mail.csmine.org
+
+

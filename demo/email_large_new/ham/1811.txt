@@ -1,0 +1,52 @@
+re: unabl to connect to my home wireless-----origin messag-----
+from: jame zuelow 
+to: debian-user@list.debian.org 
+subject: re: unabl to connect to my home wireless
+date: thu, 20 mai 2010 15:13:35 -0800
+
+> i hope at least the first part of the mail would be help 
+> to someon have 
+> the same problem. i found a few post with the same error 
+> dure the last, but 
+> no answer so far.
+> 
+> > imo complaint should go to bug.debian.org,
+> > not necessarili here.
+> 
+> note.
+> 
+> th.
+
+in thoma' defens, i notic the same thing and had much the same reaction.  
+
+the squeez kde 4.4 updat thi week pull down network-manag as a depend.  in my case i much prefer wicd to handl my wireless.  
+
+the updat had them both run simultan, which i didn't like at all.  i wa plug into my wire network, which wicd had set up as default, and network-manger connect to on of the wireless network i had configur.  both interfac up, even two default rout.  yuk.
+
+i didn't like the fact that the kde updat ignor my current instal of wicd to instal network-manag, and when i purg network-manag kde work (and continu to work) just fine.
+
+so the "depend" on network-manag seem to be mere a prefer of the kde team.  to me that mean i should not have seen network-manag if i alreadi had wicd instal.  thi is veri similar to the variou packag that insist thei need avahi-daemon to work, and yet purg avahi-daemon doesn't break anyth not us mdn.
+
+so while thoma could file a bug, i don't think it's not german to complain about dd put everyth under the sun into a depend list.  here's the place for the commun to decid whether we realli need to forc an instal of network-manag (or avahi) when thei're not realli need, or decid that becaus some case might requir it everyon should have it.
+
+anywai, just my 2c
+
+jame ------------------------------------ 
+
+onli time i have incur thi is when i have prefer set to
+includ "recommend" file as "depend" therebi pass control
+of the upgrad to the system. not a good idea btw!! i us synapt most
+of the time & i suspect aptitud ha a similar set. command line
+updat do not have thi issu.:-)
+
+
+-- 
+john foster
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1274417163.21582.3.camel@brutu
+
+

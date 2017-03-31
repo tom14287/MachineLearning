@@ -1,0 +1,37 @@
+re: chromium in sid* on 2010 22 mai 06:42 -0500, osamu aoki wrote:
+ 
+> pleas understand releas big packag such as thi on so frequenli will
+> stress mani port effort for no obviou gain.
+> 
+> there ar mani other packag which we ar realli behind.
+
+just a person percept here, it seem as though openoffic get
+updat, mostli advanc of debian version, quit frequent.
+sometim frequent enough that i get a bit annoi at it while some
+other packag seem to languish.  again thi is just a person
+percept.  i know that some packag have veri activ maintain(s)
+and other not.
+
+i've not check it out close, but is alioth.debian.org similar to
+ubuntu's launchpad where commun member can set up their own person
+archiv?  it seem as though someon who show a person interest and
+(pardon the pun) aptitud with packag could thu gain some
+recognit and becom a maintain with a bit more effort.   perhap i
+am all wrong.
+
+- nate >>
+
+-- 
+
+"the optimist proclaim that we live in the best of all
+possibl world.  the pessimist fear thi is true."
+
+ham radio, linux, bike, and more: http://n0nb.us/index.html
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100522120426.ga3108@n0nb.us
+
+

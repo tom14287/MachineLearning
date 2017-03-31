@@ -1,0 +1,18 @@
+re: what happen to 'permiss.rule?' [re: why doe /dev/rtc0 belong to group audio in lenni but not in sid?]on 2010-05-12 16:43 +0200, rick thoma wrote:
+
+> sid doe not seem to have anyth that correspond to lenni's /etc/
+> udev/rule.d/*permiss.rule
+>
+> ani idea why?  ani idea what ha replac it.
+
+read /usr/share/doc/udev/new.debian.gz.
+
+sven
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87hbmdw3rj.fsf@turtl.gmx.de
+
+

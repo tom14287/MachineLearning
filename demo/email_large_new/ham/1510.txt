@@ -1,0 +1,31 @@
+how to stop firefox from displai larg favicon?greet;
+
+i have look for wai to fix thi problem sever time in 
+the pass few month and have had no success.
+
+recent sever compani have start displai a larg 
+favicon in the address bar when you go to their site. in 
+sever case it take up over half of the space in the 
+address bar and make it extrem difficult to read the url.
+
+on site even claim that thi is a "secur featur" as 
+it would enabl the user to tell thei were realli on the 
+bank's site and not some scammer of phisher site. sure! like 
+nobodi els could figur out how to do that!
+
+anywai, can anyon tell me how to get rid of these eyesor?
+i have alreadi set browser.chrome.favicon and 
+browser.chrome.site_icon to fals and 
+browser.chrome.imag_icon.max_size to 0, but no differ!
+
+tia for ani help!
+
+denni
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be2e2df.7070307@mgssub.com
+
+

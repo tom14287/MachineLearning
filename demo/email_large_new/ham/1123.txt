@@ -1,0 +1,54 @@
+re: problem with me modem huawei on debian lennyon 26 april 2010 17:30, christian simo  wrote:
+> hi
+>
+> thank you for your respons.
+> befor try all thi solut.
+> pleas found attach all follow command shell:
+>
+> script start on sun 25 apr 2010 23:25:36 sast
+> gaell:/media/tux-for-kom# lsusb
+> bu 005 devic 001: id 1d6b:0002 linux foundat 2.0 root hub
+> bu 004 devic 001: id 1d6b:0001 linux foundat 1.1 root hub
+> bu 003 devic 001: id 1d6b:0001 linux foundat 1.1 root hub
+> bu 002 devic 003: id 1267:0103 logic3 / spectravideo plc g-720 keyboard
+> bu 002 devic 002: id 045e:001e microsoft corp. intellimous explor
+> bu 002 devic 001: id 1d6b:0001 linux foundat 1.1 root hub
+> bu 001 devic 005: id 12d1:1446 huawei technolog co., ltd. e1552
+> (hspa modem)
+> bu 001 devic 003: id 058f:6387 alcor micro corp. transcend jetflash
+> flash drive
+> bu 001 devic 001: id 1d6b:0001 linux foundat 1.1 root hub
+> gaell:/media/tux-for-kom# exit
+> exit
+>
+
+hi,
+
+your usbid look total differ to mine for e1762. mayb your ha
+differ chipset?
+
+# lsusb
+....
+bu 001 devic 042: id 12d1:1003 huawei technolog co., ltd. e220
+hsdpa modem / e270 hsdpa/hsupa modem
+....
+
+also a quick googl[1] of the usbid for your dongl result in some
+interest howto
+
+regard
+dale
+
+[1] http://www.googl.com/search?q=12d1%3a1446&ie;=utf-8&oe;=utf-8&aq;=t&rl;=org.mozilla:en-us:unoffici&client;=iceweasel-a
+-- 
+[www] http://quail.southernvaleslug.org/
+"the signific problem we face cannot be solv at the same level
+of think we were at when we creat them" - albert einstein
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/l2p9b3004971004261753j2711a79ap35e26c7ea402d421@mail.csmine.org
+
+

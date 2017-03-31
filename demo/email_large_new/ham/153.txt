@@ -1,0 +1,12 @@
+lxde doe not log out.i am run lxde on squeez and am keep it up to date.  i recent notic that i can not log out of a session.  try to do so result in no respons at all.  i can shut down, or reboot without ani problem, but logout doe noth.  i don't know if thi start after the full-upgrad that i did last mondai (which caus other lxde problem) or not, as i don't think i had tri to do a logout on thi system befor then.  thi isn't a big issu, as it is on my laptop, on which i am the onli user and i am usual either log in and work, or the system is shut down.  i am primarili worri that thi is a symptom of some other problem that i have not yet notic.  ani idea what could be caus thi?
+
+ marc shapiro
+mshapiro_42@yahoo.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/278444.52480.qm@web55507.mail.re4.yahoo.com
+
+

@@ -1,0 +1,21 @@
+re: mplayer not work for meonc upon a time, roi wrote :
+
+> mplayer work with dga (if i am root) and work with x11
+> and alwai work with sdl (but not now with redhat 8)
+> now it give black screen window and plai the music of the movi.
+
+strang, becaus as i said in an earlier post, it work for me. mayb
+you're miss the sdl_imag or someth? :-/
+
+matthia
+
+-- 
+clean custom red hat linux rpm packag : http://freshrpm.net/
+red hat linux releas 7.3 (valhalla) run linux kernel 2.4.18-10acpi
+load : 0.28 0.17 0.13
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

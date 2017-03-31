@@ -1,0 +1,24 @@
+no core dump.hi all,
+
+i am us dsl [ damn small linux ] which is branch from debain.
+i am try to us gcc, gdb.  abl to instal both of them.
+
+i am do follow
+     - run a helloworld.c program whic ha a while loop.  so while
+run, it stuck in while.
+     - anoth shell, "kill -11 pid" [ pid of the ./a.out ]
+after kill, i get segment fault.  but core is not dump. [ i
+expect a print ( core dump ) ]
+
+anyon face thi ??? pleas help.
+
+thank
+- avinash
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktimx6s-mqkkzx7znyc5xnivc6stjhfrh7ts6rxuc@mail.csmine.org
+
+

@@ -1,0 +1,46 @@
+re: webkit2 (wa re: epiphani browser continu to get wors and
+ wors)on 4/20/2010 4:18 pm, ron johnson wrote:
+> on 2010-04-20 10:41, mark allum wrote:
+>> on 4/19/2010 11:24 pm, mark allum wrote:
+>>> on 4/19/2010 10:20 pm, ron johnson wrote:
+>>>> on 2010-04-19 21:47, mark allum wrote:
+>>>> [snip]
+>>>>>
+>>>>> webkit 2.0 is immin. perhap thei ar consid move to it.
+>>>>> accord to variou sourc, it is the bee's knee.
+>>>>>
+>>>>
+>>>> beyond crude process separ, what ar it's benefit over v1?
+>>>>
+>>>
+>>> i don't know. i read the blurb (slashdot) but wa too disinterest to
+>>> read the articl. saw similar blurb in about six other place.
+>>> *somebodi's* excit.
+>>>
+>>> maa
+>>>
+>>> (it must be good, it's 2.0!)
+>>
+>>
+>> let me amend: i forget. i knew the answer to your question when i read
+>> it in the blurb, but i'm no longer young, and the reason for 2.0 have
+>> escap me.
+>>
+>
+> even though i'm an offici grumpi old man, the know the reason for
+> "2.0". it's just that now i know that most of them ar scream pile
+> of hors manur.
+>
+
+
+that won't stop them from move to it.
+
+maa
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bce26b5.1000409@allum.com
+
+

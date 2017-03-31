@@ -1,0 +1,45 @@
+re: clone lenni os partit: bump into hibern and grub2 issueson sat, mai 22, 2010 at 8:08 am, klistvud  wrote:
+>
+> i've recent swap the hard drive on my box, after clone my lenni (and
+> other) partit(s) from the old drive that wa becom too small. i just
+> did dd if=/dev/hda2 of=/dev/hdb2
+>
+> after chang the uuid of the new partit and manual make some minor
+> adjust to /boot/grub/grub.cfg and /etc/fstab, the system boot ok, but
+> there ar two glitch i can't seem to sort out:
+>
+> 1. hibern bail out with the messag "cannot find swap devic",
+> although there is a big enough, and activ us swap partit on the new
+> drive; and
+>
+> 2. updat-grub still refer to the os partit by the old uuid, which is no
+> longer correct. in order to boot, i must manual edit grub.cfg, but i'd
+> like thi fix *properli*.
+>
+> i suspect both issu ar relat to the chang uuid of both the swap and
+> the os partit.
+>
+> now, my question to the savant out there:
+> 1. how do i tell the hibern script that there is a swap devic, but
+> with anoth uuid?
+> 2. where do the grub2 script get their uuid from, so i can replac the
+> wrong uuid with the right on?
+
+re 1. your swap partit's uuid must be differ. check
+"/etc/initramf-tool/". there is a "resum" file (in that dir or in a
+subdir) that will have your swap partit's uuid.
+
+re 2. what do you mean by "after chang the uuid of the new
+partit"? after "dd...", did your run "tune2fs -u ..." on your root
+partit (or the equival for xf, ...; i am assum that you have
+just on partit)? if you didn't, your root partit still ha the
+same uuid and updat-grub is pick it up correctli (in which case, i
+have no idea idea how you ar boot up!).
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktin0jzlssk1lqvkkf3r5_yjtynon5gxp6wh5ykdv@mail.csmine.org
+
+

@@ -1,0 +1,49 @@
+re: epiphani browser continu to get wors and worseon sat, 17 apr 2010 16:16:51 -0400 (edt), steve kemp wrote:
+> i think i over-react becaus i'm us to see peopl give
+> list of alleg problem in softwar, but without enough detail to
+> allow anybodi els to confirm them, or investig.
+> sometim you'll get lucki and somebodi els will report it; but post
+> to the user mail list thing like:
+> 
+>    * i us softwar xx but it is buggi and now i us someth els
+> 
+> just feel like a random rant, not the start of a us or product
+> discuss.  (which is pretti much what you did.)
+
+i see your point.  i'll try to give more detail next time.
+
+> stephen powel wrote:
+>> as for the repli bug, i just notic it todai; and no, i haven't
+>> report a bug yet.  i'm not sure i'm go to.  i alreadi said why.
+> 
+> inde.  still if it affect on site it probabl affect other,
+> unless it is caus by a particularli malform
+> html/javascript/whatev that site us behind the scene.
+> on that basi it us to report, if onli so that other user
+> of that particular site can see it.
+> 
+> even without that perhap save the page, and associ media
+> to your local machin might still trigger it. if that is the case you
+> can trim down the page(s) a lot and see if you can find out what caus
+> it yourself.  (assum you're familiar with html & so on.)
+
+ok, i'll tell you what.  sinc i know that a newer version which fix
+at least on bug i'm experienc is wait in the wing in sid,
+and sinc squeez hasn't frozen yet, i'll wait until the new version
+migrat to squeez.  (let's hope that squeez doesn't freez first.)
+and then i'll try again.  and if i still get the same error, i'll
+at least *try* to come up with a test case.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/712849440.105092.1271557302610.javamail.root@md01.wow.synacor.com
+
+

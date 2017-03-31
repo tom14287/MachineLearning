@@ -1,0 +1,113 @@
+[spambay] understand high fals neg rate>>>>> "tp" == tim peter  write:
+
+  >> the fals posit rate is 0-3%.  (final!  i had to scrub a
+  >> bunch of previous unnot spam from my inbox.)  both
+  >> collect have about 1100 messag.
+
+  tp> doe thi mean you train on about 1100 of each?
+
+the total collect ar 1100 messag.  i train with 1100/5
+messag. 
+
+  tp> can't guess.  you're in a good posit to start ad more
+  tp> header into the analysi, though.  for exampl, an easi start
+  tp> would be to uncom the header-count line in token()
+  tp> (look for "anthoni").  like the most valuabl thing it's
+  tp> miss then is some special pars and tag of receiv
+  tp> header.
+
+i tri the "anthoni" stuff, but it didn't make ani appreci
+differ that i could see from stare at the fals neg rate.
+the number ar big enough that a quick eyebal suffic.
+
+then i tri a dirt simpl token for the header that token the
+word in the header and emit like thi "%s: %s" % (hdr, word).
+that work too well :-).  the receiv and date header help the
+classifi discov that most of my spam is old and most of my ham is
+new.
+
+so i tri a slightli more complex on that skip receiv, data,
+and x-from_, which all contain timestamp.  i also skip the x-vm-
+header that my mail reader ad:
+
+class mytoken(token):
+
+    skip = {'receiv': 1,
+            'date': 1,
+            'x-from_': 1,
+            }
+
+    def token_header(self, msg):
+        for k, v in msg.item():
+            k = k.lower()
+            if k in self.skip or k.startswith('x-vm'):
+                continu
+            for w in subject_word_re.findal(v):
+                for t in token_word(w):
+                    yield "%s:%s" % (k, t)
+
+thi did moder better.  the fals neg rate is 7-21% over the
+test perform so far.  thi is versu 11-28% for the previou test
+run that us the timtest header token.
+
+it's interest to see that the best descrimin ar all ham
+discrimin.  there's not a singl spam-indic in the list.
+most of the discrimin ar header field.  on thing to note is
+that the presenc of mailman-gener header is a strong non-spam
+indic.  that match my intuit: i got an aw lot of
+mailman-gener mail, and those list ar pretti good at surpress
+spam.  the other thing is that i get a lot of ham from peopl who us
+xemac.  that's probabl barri, guido, fred, and me :-).
+
+on final note.  it look like mani of the fals posit ar from
+peopl i've never met with question about shakespear.  thei often
+start with stuff like:
+
+> dear sir/madam,
+> 
+> mai i pleas take some of your preciou time to ask you to help me to find a
+> solut to a problem that is worri me greatli. i am old scienc student
+
+i guess that read a lot like spam :-(.
+
+jeremi
+
+
+238 ham & 221 spam
+    fals posit: 2.10084033613
+    fals neg: 9.50226244344
+    new fals posit: []
+    new fals neg: []
+
+    best discrimin:
+        'x-mailscann:clean' 671 0.0483425
+        'x-spam-statu:in_rep_to' 679 0.01
+        'deliv-to:skip:s 10' 691 0.0829876
+        'x-mailer:lucid' 699 0.01
+        'x-mailer:xemac' 699 0.01
+        'x-mailer:patch' 699 0.01
+        'x-mailer:under' 709 0.01
+        'x-mailscann:found' 716 0.0479124
+        'cc:zope.com' 718 0.01
+        "i'll" 750 0.01
+        'refer:skip:1 20' 767 0.01
+        'rossum' 795 0.01
+        'x-spam-statu:skip:s 10' 825 0.01
+        'van' 850 0.01
+        'http0:zope' 869 0.01
+        'email addr:zope' 883 0.01
+        'from:python.org' 895 0.01
+        'to:jeremi' 902 0.185401
+        'zope' 984 0.01
+        'list-archiv:skip:m 10' 1058 0.01
+        'list-subscrib:skip:m 10' 1058 0.01
+        'list-unsubscrib:skip:m 10' 1058 0.01
+        'from:zope.com' 1098 0.01
+        'return-path:zope.com' 1115 0.01
+        'wrote:' 1129 0.01
+        'jeremi' 1150 0.01
+        'email addr:python' 1257 0.01
+        'x-mailman-version:2.0.13' 1311 0.01
+        'x-mailman-version:101270' 1395 0.01
+        'python' 1401 0.01
+

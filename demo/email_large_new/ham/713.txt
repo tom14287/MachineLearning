@@ -1,0 +1,34 @@
+[ilug] mutt repli hook
+hi all,
+
+i have 3 or 4 email address (which get us for differ
+reason), and i'd prefer not to mix them up. so i wa wonder
+if anyon know of a wai that i can have mail (apart from list
+mail, which i have alreadi sort) which arriv to a certain
+e-mail address have the from: header in the repli automat
+set to the address it came to.
+
+for exampl, sai i have a compani, and sale@compani.com,
+info@compani.com and tech@compani.com arriv in the same mailbox.
+i don't want to repli to sale@compani.com mail with the from:
+set to dave@compani.com, i would like the mail to come from
+sale@compani.com.
+
+is there ani wai to do thi? bear in mind that mail can arriv
+with my email in the to or cc field (and bcc?), and it might be
+buri in a coupl of dozen other recipi...
+
+cheer,
+dave.
+
+-- 
+       david neari,
+    marseil, franc
+  e-mail: bolsh@gimp.org
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

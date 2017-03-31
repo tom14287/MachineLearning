@@ -1,0 +1,39 @@
+re: fwd: re: kde 3.5 ...freeman wrote:
+
+> on mon, mai 10, 2010 at 10:40:51pm -0700, evenso wrote:
+>> on tue, mai 11, 2010 at 02:43:32am +0200, delopt wrote:
+>> 
+>>  . . .
+>> 
+>> > 
+>> > when is squeez becom stabl??
+>> > 
+>> 
+>> accord to officialdom, approxim when the number of r-c bug hit
+>> 300. that is the green line here:
+>> http://bug.debian.org/releas-critic/ . process trump schedul.
+>> 
+> 
+> ok, start look around and found a better answer. :-)
+> 
+> http://list.debian.org/debian-devel-announc/2010/05/msg00000.html
+> 
+
+thank a lot realli us.
+
+i did instal yesterdai sid 4.4 .... it's a headach ... so i'll wait until
+it work at least half the wai.
+i'll try squeez (kde4.3) but i think it wa told that it's not pretti food
+yet.
+
+so to me it look like we can safe us kde3 the next 2-3 year.
+
+regard
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hsbasj$bv6$3@dough.gmane.org
+
+

@@ -1,0 +1,41 @@
+re: how to trick my debian in think that a packag is not installedon tue, apr 20, 2010 at 05:44:20pm -0600, "moniqu y. mudama"  wa heard to sai:
+> for some reason, thi just now trigger a memori for me.  i think
+> sometim when aptitud is make suggest to resolv conflict, it
+> will un-hold packag.  i wonder if thi is how your explicit hold get
+> remov.
+
+  just so thi isn't left hang, the reason i sai thi shouldn't
+happen is that it *us* to happen and i fix it.  there were two wai
+you could get broken hold, and i fix on in version 0.4.11:
+
+  * the aptitud depend resolv will now refus to adjust held
+    packag or instal forbidden version unless you manual allow
+    it to.  thi behavior can be disabl by set
+    aptitud::problemresolv::allow-break-hold to "fals".
+
+    aptitud will still break hold when packag ar be
+    automat instal; there is a pend patch against apt that
+    elimin thi behavior.
+
+  and the other in 0.5.9rc1:
+
+  + [all] aptitud now us the new hook in apt to prevent the greedi
+          resolv from remov packag or break hold.
+
+          (close: #177374, #205049, #374353, #376802, #406506,
+                   #430816, #434731, #442420, #452589)
+
+  i am not, at present, awar of ani other circumst where aptitud
+wrongli break hold.  that said, i don't put packag on hold veri
+often, so i depend on user to send bug report if thei're see that
+behavior.
+
+  daniel
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100423141629.ga29441@emurlahn.burrow.local
+
+

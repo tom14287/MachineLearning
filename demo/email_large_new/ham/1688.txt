@@ -1,0 +1,72 @@
+re: nil messag statement in "cocoa fundiment guid"
+	mislead?on fri, mai 21, 2010 at 1:44 am, john engelhart
+ wrote:
+> on thu, mai 20, 2010 at 3:23 pm, quincei morri
+>  wrote:
+>>
+>> on mai 20, 2010, at 11:50, greg parker wrote:
+>>
+>> > "the object-c program languag" includ a section that documen=
+ts
+>> > the well-defin nil return type. other document should point ba=
+ck to
+>> > that.
+>>
+>> interestingli, the section you refer to includ the follow statement=
+:
+>>
+>> > "if the method return ani pointer type, ani integ scalar of size le=
+ss
+>> > than or equal to sizeof(void*), a float, a doubl, a long doubl, or a=
+ long
+>> > long, then a messag sent to nil return 0."
+>>
+>> thi make me wonder what the answer is for an integ scalar of size
+>> *greater* than sizeof(void*) that isn't a long long.
+>
+> 6.3.1.1 arithmet operand
+> 1) the rank of long long int shall be greater than the rank of long int,
+> which shall be greater than the rank of int, which shall be greater than =
+the
+> rank of short int, which shall be greater than the rank of sign char.
+> the fact that the document explicitli call out "long long" mean th=
+at
+> the statement "ani integ scalar of size less than or equal to
+> sizeof(void*)" is redund becaus the "long long" type is, by definitio=
+n,
+> the largest of the "standard integ type".
+
+there is no guarante that (void*) is the same size as *ani* of the
+standard integ type.
+
+>
+>>
+>> for exampl, if the architectur ha sizeof(long) > sizeof(void*), the
+>> abov definit would rule out long, but rule in long long. odd.
+>
+> nope. =c2=a0by definit, long is a subset of long long-
+> 6.2.5 type
+> 8) for ani two integ type with the same signed and differ integ=
+er
+> convers rank (see 6.3.1.1), the rang of valu of the type with small=
+er
+> integ convers rank is a subrang of the valu of the other type.
+
+that, in no wai, mean that (long) cannot be larger than (void*). that
+said, i do believ that the intent is that all of the standard integ
+type can be assum to be zero when return from a messag sent to
+nil, even if the word leav the potenti for a gap on unusu
+architectur (such as where long is larger than void*).
+
+
+--=20
+clark s. cox iii
+clarkcox3@csmine.org
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

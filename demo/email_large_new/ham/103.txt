@@ -1,0 +1,46 @@
+re: event not be dispatch when have nativ cocoa compon
+ in modal jdialogon 04/07/2010 06:48 pm, mike swingler wrote:
+> on mar 27, 2010, at 3:11 pm, martin nedbal wrote:
+>
+>    
+>> hi,
+>> i have a simpl jni-base code for embed webkit into swing gui (i
+>> can post sourc if need). it work fine while in regular swing jframe
+>> but it fail to work when ad to modal jdialog - event ar block
+>> appar. webkit view show properli, but if i request a page to be
+>> load into it it's not load and frameloaderdeleg doe not get
+>> didfinishloadforfram nor didfail* call.
+>>
+>> i wasn't abl to find much about thi issu in googl/appl mail
+>> list. the onli thing i found wa a thread from 2005 discuss nasti
+>> workaround base on have non-modal dialog with block loop after
+>> setvis() call.
+>>
+>> it can be reproduc on snow leopard with latest java6 instal but it
+>> doe not realli seem to be depend on version that much.
+>>
+>> ani idea how to solv thi problem in a clean wai?
+>>      
+> i think the problem is that when an awt-base dialog is up, the runloop is be run in a privat java-modal mode that doesn't let webkit "event" occur the same wai it let kei, mous, and other event through. but that's just a guess.
+>
+> if you have reproduc test case, can you submit it to, and we can take a look and see if there isn't someth we can do from within the awt.
+>
+> thank,
+> mike swingler
+> java runtim engin
+> appl inc.
+>    
+sure, no problem.
+
+i'll prepar simpl exampl and file it to bugreport.
+
+best regard,
+   martin
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

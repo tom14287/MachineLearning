@@ -1,0 +1,90 @@
+[secur] [dsa 2039-1] new cacti packag fix miss input sanitis-----begin pgp sign messag-----
+hash: sha1
+
+- ------------------------------------------------------------------------
+debian secur advisori dsa-2039-1                  secur@debian.org
+http://www.debian.org/secur/                          thij kinkhorst
+april 23, 2010                        http://www.debian.org/secur/faq
+- ------------------------------------------------------------------------
+
+packag        : cacti
+vulner  : miss input sanitis
+problem type   : remot
+debian-specif: no
+debian bug     : 578909
+
+it wa discov that cacti, a frontend to rrdtool for monitor
+system and servic miss input sanitis, make an sql inject
+attack possibl.
+
+for the stabl distribut (lenni), thi problem ha been fix in
+version 0.8.7b-2.1+lenni2.
+
+for the unstabl distribut (sid), thi problem will be fix soon.
+
+we recommend that you upgrad your cacti packag.
+
+upgrad instruct
+- --------------------
+
+wget url
+        will fetch the file for you
+dpkg -i file.deb
+        will instal the referenc file.
+
+if you ar us the apt-get packag manag, us the line for
+sourc.list as given below:
+
+apt-get updat
+        will updat the intern databas
+apt-get upgrad
+        will instal correct packag
+
+you mai us an autom updat by ad the resourc from the
+footer to the proper configur.
+
+debian gnu/linux 5.0 alia lenni
+- --------------------------------
+
+sourc archiv:
+
+  http://secur.debian.org/pool/updat/main/c/cacti/cacti_0.8.7b-2.1+lenni2.diff.gz
+    size/md5 checksum:    37338 16b43e80a447a185f5372372836104ed
+  http://secur.debian.org/pool/updat/main/c/cacti/cacti_0.8.7b.orig.tar.gz
+    size/md5 checksum:  1972444 aa8a740a6ab88e3634b546c3e1bc502f
+  http://secur.debian.org/pool/updat/main/c/cacti/cacti_0.8.7b-2.1+lenni2.dsc
+    size/md5 checksum:     1408 468d418ebedfd326081cbb159c159b55
+
+architectur independ packag:
+
+  http://secur.debian.org/pool/updat/main/c/cacti/cacti_0.8.7b-2.1+lenni2_all.deb
+    size/md5 checksum:  1826020 b88356b2559091ae8444b93b5234e881
+
+
+  these file will probabl be move into the stabl distribut on
+  it next updat.
+
+- ---------------------------------------------------------------------------------
+for apt-get: deb http://secur.debian.org/ stabl/updat main
+for dpkg-ftp: ftp://secur.debian.org/debian-secur dist/stabl/updat/main
+mail list: debian-secur-announc@list.debian.org
+packag info: `apt-cach show ' and http://packag.debian.org/
+-----begin pgp signatur-----
+version: gnupg v1.4.10 (gnu/linux)
+
+iqecbaebagagbqjl0fvtaaojeciioqcmvaacek0h/jud0egrdrnk4lwd2io8jytr
+mjmuyrvrska4dndd4y62xshpqkuvc9fs4mbqb4an8aninytr9m6csqf5qs1t6oat
+zcvsnddetj3h/wqj24t3oupcadnu7fnubpj0vljqzl4g7nuhqxoyvpekdyybjiub
+abqgjwsg7rxiugbnpscrzcp2aasath4iq2gelcsz50tqxw+1v+ghneqjawshyi4n
+cpo+sumkz5k6opewzkpqm9ja3e3rz/kb7sogdvexceh7sbzg2n2fo6ocv8t8pvpw
+zyi2pgmzxvtsau/zebbxvdox7byfachkqfrrbzryhuvodyn5/ifav8fogmqxbk=
+=0ixh
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-secur-announc-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100423200002.6fe7a32678c@morgana.loeki.tv
+
+

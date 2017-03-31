@@ -1,0 +1,67 @@
+re: [razor-user] what's wrong with the razor server now?> -----origin messag-----
+> from: razor-user-admin@exampl.sourceforg.net
+> [mailto:razor-user-admin@list.sourceforg.net]on behalf of craig
+> r.hugh
+> on thursdai, august 8, 2002, at 02:28  pm, vipul ved prakash wrote:
+>
+> i'm not sure i understand.  let's sai i am an honest
+> razor-submitt, and i submit lot of stuff that everyon agre
+> is spam.
+
+great, that is veri nice of you.
+
+> now i get some opt-in mail which look to me like
+> spam.  i hit "thi is spam".  my trust rate plummet --
+
+good! your opinion of what is spam is unreli, and therefor, i don't
+*want* to trust you. imho, that is exactli the case that the trust system is
+suppos to sort out. peopl who incorrectli submit non-spam bulk mail to
+razor.
+
+> assum most other peopl recogn that it wa in fact
+> someth thei'd request.  now pictur that thi happen to
+> lot of peopl in the system.
+
+then those lot of peopl ar unreli, and therefor will all have
+minim trust, but the peopl with a decent reliabl and therefor trust
+level will help us all...
+
+> again, it might not be a problem, but i don't think we know
+> yet.  it will probabl take a littl while for there to be
+> enough data in the trust system for it to equilibri (or ha
+> it been initi base on all the submiss/revoc
+> gather befor it wa switch on?).  i suppos we'll know onc
+> it's equilibri.  certainli as of right now, peopl don't
+> think spamnet is work veri well at all, where it had been
+> work great a week ago.
+
+imho, due to the number of messag you ar send, and the wai you ar
+discuss te, (consid that you know *noth* about it), certainli
+look like you ar simpli try to throw doubt/neg onto razor.
+
+person, i haven't us razor for a few month now becaus i want to
+integr it into qmail-scanner *without* spam assassin, but haven't had the
+time to do that, so even i can't comment on razor at all.....
+
+vipul & co, i think it would be great if there wa more transpar in the
+whole server process, ie, if you know there is a problem, then tell all of
+us, thi will avoid all the stupid "oh, it isn't work again, and it took
+me 324 dai to work it out" etc...
+
+just my $1 worth...
+
+regard,
+adam
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

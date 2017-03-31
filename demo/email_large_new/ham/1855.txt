@@ -1,0 +1,22 @@
+re: [ilug] mutt repli hookshi,
+
+on tue, 30 jul 2002, gavin mccullagh wrote:
+
+> set altern = "kbeditor@linuxcar.com|coolapp@linuxcar.com"
+> set revers_name
+
+ps make sure not to have a line like thi:
+
+	send-hook .  'my_hdr from: gavin mccullagh "
+
+which will onli overrid it and caus pain and suffer.
+
+gavin
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

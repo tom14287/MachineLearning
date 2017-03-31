@@ -1,0 +1,16 @@
+re: new sequenc windowfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+
+on wed, 21 aug 2002 15:01:07 +0700, robert elz said:
+
+> hmm - i've been us mh for a long time (sinc well befor there were
+> sequenc) and i don't think i've ever seen a "pseq" ...
+
+my bad - i had 'previou-sequenc: pseq' in my .mh_profil from long ago and
+far awai.
+
+-- 
+				valdi kletniek
+				comput system senior engin
+				virginia tech
+

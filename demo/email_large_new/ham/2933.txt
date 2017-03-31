@@ -1,0 +1,15 @@
+re: redhat 8.0 and hi own freetypematthia haas wrote:
+> the bytecod-interpret *is* disabl on rh8, defin at line 3 in
+> the specfil of the srpm.
+
+right you ar.  the srpm includ a patch to enabl it, but then the
+specfil default to not appli that patch.  i saw the former but
+miss the later.  egad, what a convolut maze.
+
+sorri for the misinform!
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

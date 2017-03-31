@@ -1,0 +1,60 @@
+re: kde issu under "squeez"adrian von bidder wrote, on 25/04/10 23:22:
+> hi,
+>
+> on sundai 25 april 2010 05.49:44 lrhorer wrote:
+>> kde is much more stabl, but still ha problem.
+>
+> hmm.
+>
+> us kde 4 for month now; current 4.4 from experiment.  if that's
+> what'll end up in squeez i wouldn't sai "it ha problem" in gener.  kde
+> certainli is far from bug-free, but it's veri usabl as an everydai desktop.
+> ( sune&  co: you can consid thi a gener reportbug --kudo :-)
+>
+> lrhorer: i recommend you updat to the packag that ar current in
+> experiment and check if the problem ar still there.  i'm sure bug
+> report ar welcom.  if you can be bother to do the necessari work and
+> separ report packag issu to the debian bt and kde 4.4 issu to
+> the kde bug report sysstem, then all the better..
+>
+> cheer
+> -- vbi
+>
+
+agre, but where do i file a bug in debian to sai that instruct on 
+how to report a bug upstream and how to mark the bug origin report 
+in debian ha been forward upstream ar lack?
+
+i've just attempt to do thi with icedov ( 
+http://bug.debian.org/cgi-bin/bugreport.cgi?bug=579095 ) but how doe 
+on do thi for the gener case?
+
+i found the instruct on mark a debian bug as forward upstream 
+not via the debian wiki or ani packag's instruct on report bug 
+with packag upstream, but by a googl search which lead to:
+http://www.debian.org/bug/server-control
+
+mani packag do *not* list the upstream site for the packag or how to 
+report bug upstream anywher within /usr/share/doc/ but 
+ideal thei should be list:
+
+- in the manual page for the program/configur file for that packag
+
+- in /usr/share/doc/
+
+and in the reportbug script for that packag.
+
+i do appreci all the work of the debian develop/packag/releas 
+peopl, but pleas help "fill in the gap" or "connect the dot" on how 
+to go about report bug that mai affect both debian user and the 
+upstream packag.
+
+arthur.
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/ge0ea7-1d2.ln1@ppp121-45-136-118.ln11.adl6.internod.on.net
+
+

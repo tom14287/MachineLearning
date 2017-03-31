@@ -1,0 +1,28 @@
+re: [ot] home up (wa filesystem recommend)from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=iso-8859-1
+
+on thu, apr 29, 2010 at 1:07 pm, kelli clower wrote:
+
+>
+> for me, it is onli partli about my hardwar. it is also about my data.
+> i have backup, but i didn't us to, and i would just as soon not
+> have to go through a restor process. and even a simpl power
+> outag that wouldn't harm hardwar might at least produc the
+> need for a fsck (not as much of a problem with ext4, but again
+> i would rather avoid the situat entir).
+>
+
+i figur i would pipe up here, becaus i have a kind of differ
+perspect here. i have a 42u data center rack in my basement, and about
+half a dozen realli old server. thei aren't realli worth much from a
+financi standpoint, but at the same time, i us them as a sort of test
+lab. and i have a tripp lite 1000va and an apc backup 1000 (just replac
+the batteri) in the rack. i also have a backup 350 for my workstat.
+
+it's not about the cost of the hardwar (as i said, almost everyth is 32
+bit piii/p4 class hardwar that ha littl to no valu in most busi
+environ (which is how i came by it, by and larg), but my data? that a
+whole nother kettl of fish. it mai onli be import to me, but the point
+is that it *is* import to me.
+
+--b

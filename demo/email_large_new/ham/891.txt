@@ -1,0 +1,46 @@
+re: [volatil] updat clamav-relat packag avail fortest-----begin pgp sign messag-----
+hash: sha1
+
+hi,
+
+jason self wrote/schrieb @ 15.04.2010 21:52:
+
+> kurt roeckx  wrote ..
+>  
+>> what doe thi mean exactli?
+>
+> it mean that you need to be run least version 0.95 of clamav, and 
+> prefer alwai the latest & greatest version, to be protect. outdat anti-
+> viru softwar is not effect.
+
+& you have to exchang the packag build on clamav, too, as mention
+in abov announc.
+
+deb http://volatil.debian.org/debian-volatil \
+lenni-propos-updat/volatil main contrib non-free
+
+/me just learn it the hard wai (dansguardian), as everybodi wa
+claim that there is no web access :(.
+
+thx to adam for the announc and the volatil team for the updat
+packag. dansguardian (i386) from volatil lenni-propos-updat ha
+no problem here.
+
+- -- 
+br - maik
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (mingw32)
+comment: signatur of maik holtkamp
+
+ieyearecaayfakvigwoacgkqz3bq6aadmi919acglwsr1nl4aj523gvnd4jdjae0
+rx4aokkbeqqoh4frknirvzuqx+kufa8z
+=8gq9
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-secur-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc8196a.3090601@medic-citi.de
+
+

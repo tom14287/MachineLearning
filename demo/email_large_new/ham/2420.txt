@@ -1,0 +1,126 @@
+re: rh 8 no dma for dvd driveon mon, 2002-10-07 at 08:59, matthia saou wrote:
+> onc upon a time, alvi wrote :
+> 
+> > thank, i seem to be have problem with rebuild transcod from src
+> > it get confus from previou error and give up.
+> 
+> could you give the output of the error?
+>
+
+thi is onli the last part of it.i us 'rpmbuild --rebuild --without avifil transcod.0.6.1-fr2.src.rpm'.
+af6_decor.cpp:305: 'waveformatex' is us as a type, but is not defin
+as a
+   type.
+af6_decor.cpp:306: pars error befor `if'
+af6_decor.cpp:308: syntax error befor `->' token
+af6_decor.cpp:313: `wvfmt' wa not declar in thi scope
+af6_decor.cpp:313: `avm_wave_format_name' wa not declar in thi
+scope
+af6_decor.cpp:314: `wvfmt' wa not declar in thi scope
+af6_decor.cpp:315: `wvfmt' wa not declar in thi scope
+af6_decor.cpp:316: `wvfmt' wa not declar in thi scope
+af6_decor.cpp:316: iso c++ forbid declar of `fprintf' with no
+type
+af6_decor.cpp:316: redefinit of `int fprintf'
+af6_decor.cpp:161: `int fprintf' previous defin here
+af6_decor.cpp:316: initi list be treat as compound
+express
+af6_decor.cpp:317: 'waveformatex' is us as a type, but is not defin
+as a
+   type.
+af6_decor.cpp:318: syntax error befor `->' token
+af6_decor.cpp:321: `fmt' wa not declar in thi scope
+af6_decor.cpp:321: `avm_wave_format_name' wa not declar in thi
+scope
+af6_decor.cpp:322: `fmt' wa not declar in thi scope
+af6_decor.cpp:323: `fmt' wa not declar in thi scope
+af6_decor.cpp:324: `fmt' wa not declar in thi scope
+af6_decor.cpp:324: iso c++ forbid declar of `fprintf' with no
+type
+af6_decor.cpp:324: redefinit of `int fprintf'
+af6_decor.cpp:316: `int fprintf' previous defin here
+af6_decor.cpp:324: initi list be treat as compound
+express
+af6_decor.cpp:327: pars error befor `if'
+af6_decor.cpp:330: syntax error befor `->' token
+af6_decor.cpp:349: iso c++ forbid declar of `sampl' with no
+type
+af6_decor.cpp:349: conflict type for `int sampl'
+af6_decor.cpp:290: previou declar as `unsign int sampl'
+af6_decor.cpp:349: `fmt' wa not declar in thi scope
+af6_decor.cpp:350: iso c++ forbid declar of `buffer_size' with no
+type
+af6_decor.cpp:350: conflict type for `int buffer_size'
+af6_decor.cpp:288: previou declar as `unsign int buffer_size'
+af6_decor.cpp:350: `fmt' wa not declar in thi scope
+af6_decor.cpp:351: iso c++ forbid declar of `buffer' with no type
+af6_decor.cpp:351: conflict type for `int buffer'
+af6_decor.cpp:291: previou declar as `char*buffer'
+af6_decor.cpp:351: invalid convers from `char*' to `int'
+af6_decor.cpp:352: pars error befor `if'
+af6_decor.cpp:354: syntax error befor `->' token
+af6_decor.cpp:359: iso c++ forbid declar of `fflush' with no type
+af6_decor.cpp:359: redefinit of `int fflush'
+
+af6_decor.cpp:288: previou declar as `unsign int buffer_size'
+af6_decor.cpp:350: `fmt' wa not declar in thi scope
+af6_decor.cpp:351: iso c++ forbid declar of `buffer' with no type
+af6_decor.cpp:351: conflict type for `int buffer'
+af6_decor.cpp:291: previou declar as `char*buffer'
+af6_decor.cpp:351: invalid convers from `char*' to `int'
+af6_decor.cpp:352: pars error befor `if'
+af6_decor.cpp:354: syntax error befor `->' token
+af6_decor.cpp:359: iso c++ forbid declar of `fflush' with no type
+af6_decor.cpp:359: redefinit of `int fflush'
+af6_decor.cpp:208: `int fflush' previous defin here
+af6_decor.cpp:359: invalid convers from `_io_file*' to `int'
+af6_decor.cpp:360: `ipip' wa not declar in thi scope
+af6_decor.cpp:360: `sync_str' wa not declar in thi scope
+af6_decor.cpp:360: `sync_str' wa not declar in thi scope
+af6_decor.cpp:360: iso c++ forbid declar of `p_write' with no
+type
+af6_decor.cpp:360: redefinit of `int p_write'
+af6_decor.cpp:209: `int p_write' previous defin here
+af6_decor.cpp:360: initi list be treat as compound
+express
+af6_decor.cpp:363: pars error befor `while'
+af6_decor.cpp:368: syntax error befor `->' token
+make[3]: *** [af6_decor.lo] error 1
+make[3]: leav directori
+`/usr/src/redhat/build/transcod-0.6.1/import'
+make[2]: *** [all-recurs] error 1
+make[2]: leav directori
+`/usr/src/redhat/build/transcod-0.6.1/import'
+
+
+> > us trancod rpm i can't get transcod command line arg to
+> > work.although it's been a while sinc i us it - mayb i forgot how!
+>
+thi wa a dumb mistak on my part. i did'nt have libdvdcss-devel, the
+transcod command line arg work fine now, but not so for dvd::rip.
+thank for help
+alvi
+ 
+> i'm encod a dvd to divx4 right now on my home comput, and it work
+> fine. my current red hat 8.0 build of transcod ha avifil support
+> disabl, that mai be your problem? it's becaus gcc 3.2 isn't current
+> abl to recompil avifil... :-/
+> 
+> matthia
+> 
+> -- 
+> clean custom red hat linux rpm packag : http://freshrpm.net/
+> red hat linux releas 7.3 (valhalla) run linux kernel 2.4.18-10acpi
+> load : 0.09 0.12 0.21
+> 
+> _______________________________________________
+> rpm-list mail list 
+> http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

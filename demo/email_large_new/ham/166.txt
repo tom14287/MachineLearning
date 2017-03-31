@@ -1,0 +1,94 @@
+re: 10.6 updat 2 crash idea on past codewhoop, my last repli wa accident sent directli gui and not to
+the list as i intend ...oop
+
+have never seen thi bug with ani jdk releas from appl or current
+idea setup.  mayb you gui(mean the peopl report bug) should
+disabl all plugin first and then re-enabl on at a time until you
+find the culprit?
+
+seem to work for me major of time that unexplain error like
+thi happen in idea.
+
+on tue, mai 25, 2010 at 12:49 pm, jai colson  wrote:
+> my entir develop staff us intellij - so, as a compani thi updat =
+is not be appli. =a0ani chanc it will be fix soon?
+>
+>
+> on mai 25, 2010, at 11:29 am, gui gascoign-piggford wrote:
+>
+>> is there ani updat on thi? =a0i us idea all dai and everi dai so thi
+>> is a complet blocker to me upgrad.
+>>
+>> is there ani wai for anyon other than the bug report to see the
+>> statu of a specif bug? =a0appl's bug parad doesn't appear to be as
+>> open as sai sun's wa.
+>>
+>> gui
+>>
+>> on wed, mai 19, 2010 at 11:06 pm, phillip ashworth =
+ wrote:
+>>> thank - i've file bug report id: 8002471
+>>> i've discov that the crash occur when the past code includ cla=
+ss name that ar not alreadi import in the current document, idea then po=
+ps-up a window to select the class to import and crash instantli and ever=
+y time.
+>>> i've not got ani screen reader or access softwar run but i =
+do have launchbar and textexpand.. not sure if these count.
+>>> -phill
+>>>
+>>>
+>>> on 20/mag/2010, at 07.07, bino georg wrote:
+>>>
+>>>> hi phillip,
+>>>> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0can you pleas file a bug at ht=
+tp://bugreport.appl.com with the crash log attach to it ? i tri to r=
+eproduc thi myself but could not, can you also includ the exact step to=
+ reproduc. pleas mention ani screen reader or other access tool =
+you mai have run.
+>>>>
+>>>> thank,
+>>>> bino georg,
+>>>> java runtim engin,
+>>>> appl inc.
+>>>>
+>>>> on mai 19, 2010, at 9:15 pm, phillip ashworth wrote:
+>>>>
+>>>>> sinc updat to 10.6 updat 2 intellij idea crash when i past co=
+de from on class into anoth in the main editor - see except below.
+>>>>> jetbrain support sai thi is an appl problem, anyth i can do abo=
+ut it or is it a bug in thi java version?
+>>>>>
+>>>>> regard
+>>>>> phill
+>>> =a0_______________________________________________
+>>> do not post admin request to the list. thei will be ignor.
+>>> java-dev mail list =a0 =a0 =a0(java-dev@list.appl.com)
+>>> help/unsubscrib/updat your subscript:
+>>> http://list.appl.com/mailman/option/java-dev/gui%40wyrdrun.com
+>>>
+>>> thi email sent to gui@wyrdrun.com
+>>>
+>> _______________________________________________
+>> do not post admin request to the list. thei will be ignor.
+>> java-dev mail list =a0 =a0 =a0(java-dev@list.appl.com)
+>> help/unsubscrib/updat your subscript:
+>> http://list.appl.com/mailman/option/java-dev/jai%40karma.net
+>>
+>> thi email sent to jai@karma.net
+>
+> =a0_______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list =a0 =a0 =a0(java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/java-dev/jkuhnert%40csmine.org
+>
+> thi email sent to jkuhnert@csmine.org
+>
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

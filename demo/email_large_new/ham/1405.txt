@@ -1,0 +1,37 @@
+re: new sequenc windowfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+
+> from:  brent welch 
+> date:  wed, 28 aug 2002 10:32:42 -0700
+>
+> 
+> >>>robert elz said:
+>  > mh_sequenc also goe and reread the file (.mh_sequenc and the
+>  > context file) but i'm not sure how frequent that on is call.
+> 
+> in some place i maintain cach of file by check their modifi time,
+> but the sequenc file ar soo small that by the time you stat them to
+> check their date stamp, you could just read them again.
+
+do you realli think thi is true?  i ad a modifi time check think that 
+it would make an improv sinc we were read it a *lot* more time in 
+the new code becaus we're try to us the sequenc.
+
+on the other hand, the sequenc file ar probabl be read out of cach 
+when that happen anywai.
+
+even with a small file, i'd think that the time taken to do a 
+[file mtime $filenam] would be worth it.  my code is in proc mhreadseq.
+
+chri
+
+-- 
+chri garrigu                 http://www.deepeddi.com/~cwg/
+vircio                          http://www.vircio.com
+716 congress, suit 200
+austin, tx  78701		+1 512 374 0500
+
+  world war iii:  the wrong-doer vs. the evil-doer.
+
+
+

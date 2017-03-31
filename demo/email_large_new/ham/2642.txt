@@ -1,0 +1,48 @@
+re: increas number of conflictsfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+
+on tue, apr 20, 2010 at 8:07 pm, john hasler  wrote:
+
+> b. alexand wrote:
+> > i've got an issu with a sid box that i have been maintain for a
+> > while. thi is my workstat, and i have notic a grow number of
+> > broken packag, unmet depend and conflict. i have been us
+> > safe-upgrad for month now, hope that it would work itself out over
+> > time. howev, thi hasn't happen.
+>
+> no, of cours not.  sid is constantli undergo the sort of chang
+> that take place when you upgrad from on releas to the next and which
+> full-upgrad is design to handl (and which safe-upgrad block):
+> transit, remov of obsolet packag, major version chang that
+> requir new librari version that mai be incompat with other
+> packag, etc.  sid is often also in an inconsist state when, for
+> exampl, a packag is upload in advanc of it depend.  by
+> repeatedli run safe-upgrad you have forc these thing to pile
+> up.
+>
+> > so what can i do to fix the problem without lose function?
+>
+> "aptitud full-upgrad" and then patient sort through the result
+> mess.  it might be simplest to write down all the propos remov, let
+> it do it thing, and then instal the remov packag.
+>
+
+ye. i need to block out some time and do just thi.
+
+
+>  > no problem. most of my debian instal at home run sid, with the rest
+> > run test...except my firewal, which run stabl for the first
+> > 6 month or so (until critic packag start get long in the
+> > tooth), then i upgrad it to test and run until the next stabl
+> > releas.
+>
+> i'm have troubl imagin what packag appropri to a firewal
+> could get long in the tooth.
+>
+
+ssh, ssl, iptabl, snort, etc. i don't have an extens larg packag
+list on my firewal, especi compar to a workstat, but sinc it is
+on the sharp end of my network, i try to keep it as up to date as is
+feasabl.
+
+--b

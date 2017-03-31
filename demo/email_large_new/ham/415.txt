@@ -1,0 +1,49 @@
+re: dash-as-bin-shfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=iso-8859-1
+
+hi, boyd!
+
+on tue, apr 20, 2010 at 11:18 am, boyd stephen smith jr. <
+bss@iguanasuicid.net> wrote:
+
+>
+> not portabl.  it might be possibl by pars ($shell -v -c 'exit 123') or
+> ($shell --version -c 'exit 123').
+>
+
+sai, that's a clever approach, thank for suggest it.
+
+sorri, i don't even see a good wai to tell if a function with a particular
+> name is defin, but less list all the function in the current shell
+> environ.
+>
+
+can you clarifi?  list all the function in the current shell environ
+solv my issu perfectli.. but less is just a pager, no?  oh, wait, did you
+mean "much less list"?   in which case, we're in the same boat, but i'm
+hope there is a solut i'm not awar of (even though my hope ar dim :)
+)
+
+
+> bash is still an essenti packag last i check.  you might simpli us
+> /bin/bash and whatev bash-ism you like.
+>
+>
+that would work pretti much everywher except bone-stock solari, where i
+have no possibl of recoveri -- "/bin/bash: bad interpret: no such file
+or directori".  at least if i us /bin/sh as my interpret, i can alwai at
+the veri least output an error messag.
+
+i suppos my other altern is roughli  [ -x /bin/bash ] && /bin/bash $0
+$* && exit $?, and assum that everywher-but-solari ha /bin/bash. hmm.
+if debian keep bash around as a default packag, even when dash-is-bin-sh,
+then i guess i'm in fairli safe territori in that regard.
+
+thank,
+we
+
+-- 
+weslei w. garland
+director, product develop
+pagemail, inc.
++1 613 542 2787 x 102

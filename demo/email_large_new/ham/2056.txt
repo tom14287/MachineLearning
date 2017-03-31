@@ -1,0 +1,58 @@
+re: dual channel memori questionaioanei rare put forth on 4/15/2010 7:06 pm:
+
+>> ar you gui displac ubuntu user who land on debian-user after a
+>> tornado came through kansa?  ;)
+
+i guess you've never seen "the wizard of oz".
+
+> you made me dig my latest mobo's manual :) [gigabyt ga-m56s-s3], which
+> sai plainli : "the four ddr2 memori socket ar divid into two
+> channel and each channel ha two memori socket as follow :
+> channel 0 : ddrii_1, ddrii_3
+> channel 2 : ddrii_1, ddrii_4"
+
+you typo'd that.  it should be:
+
+channel 0 : ddrii_1, ddrii_3
+channel 1 : ddrii_2, ddrii_4
+
+> pleas refrain from make such "wise" comment as , even if you're
+> right, you're damag debian's imag and your.
+
+i'm not sure how you come to that, but, ok..
+
+gigabyt ha screw up the dimm slot color code on the ga-m56s-s3, at
+least accord to the manual.  i just look at intel, asu, and other
+gigabyt board and thei all follow the correct altern color pattern.
+
+aioanei, you've base your entir argument on your knowledg of a singl
+main board.  thi board wa incorrectli manufactur, or the manual text is
+incorrect.  ye, manufactur do make mistak.  look at the ata_horkag
+blacklist section in libata-core.c to see list of hard drive the
+manufactur screw up.  all of the goliath ar in there, hitachi,
+maxtor, seagat, western digit.  thei're all ship drive that don't
+meet on spec or anoth.  if these goliath can screw up, i guarante you a
+tini compani like gigabyt can, and probabl doe so far more often.
+
+now, go look at the dimm socket color and layout pattern on the intel,
+asu, and ye, other gigabyt board to see what the proper color code for
+dual channel memori socket is, and look at the text descript of the
+slot and channel number.  thi ga board is an anomali, and is flaw in
+thi regard.
+
+take a look at the rh of my email address.  that's my person domain.
+thei call me thehardwarefreak for a reason. ;)
+
+the odd against me make a factual incorrect statement here about
+hardwar ar so high you should place a stand bet with your local booki. :p
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc7bdde.40503@hardwarefreak.com
+
+

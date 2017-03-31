@@ -1,0 +1,63 @@
+re: flash is open?on fri, mai 14, 2010 at 3:28 pm, camal=f3n  wrote:
+> on fri, 14 mai 2010 07:32:10 -0500, ron johnson wrote:
+>
+>> on 05/14/2010 07:04 am, camal=f3n wrote:
+>
+>>>> http://en.wikipedia.org/wiki/open_specif
+>>>>
+>>>> "an open specif is not control by a singl compani or
+>>>> individu or by a group with discriminatori membership criteria.
+>>>> copi of open specif ar avail free of charg or for a
+>>>> moder fee and can be implement under reason and non
+>>>> discriminatori licens (rand) term by all interest parti."
+>>>
+>>> so that mean...?
+>>>
+>>> a/ that i can modifi the code of flash without ani fear of adob be
+>>> su me :-)
+>>
+>> pai attent, for god's sake!
+>>
+>> their *code* is proprietari, their file spec ar not.
+>
+> sorri, but ianal. "proprietari code" is what we (linux commun) avoid
+> the most, so, what i am miss here?
+>
+> or put in anoth word, what "code" ar you refer to?
+>
+> the question is still unansw.
+>
+> can we (we=3dpeopl) make our own flash implement by us adob fla=
+sh
+> spec?
+
+ye. "develop ar now free to implement what is document in the
+specif without restrict from adob."
+
+i think you might separ the descript of file format (free) and
+the code itself (proprietari). so you can write your flash player
+us the document but you cannot get the code of adob flash
+player.
+
+>>> sorri, but i do cannot fulli trust adob nor ani compani behind a
+>>> product with such "ters" licens model...
+>>
+>> no on is hold your feet to the fire while simultan
+>> waterboard you, sai "trust adob!!"
+>
+> oh, no, but... if w3c doe not trust "flash" technolog to be includ as
+> on of their recommend standard, why should i? that is the point.
+
+linux, freebsd, osx and other oss includ in that w3c standard? i
+think the answer is no... do you have trust in them?
+
+bye,
+a
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktil7z7jgyva3eaz5wke1ytuf0ewhtfndwofl_h@mail.csmine.org
+
+

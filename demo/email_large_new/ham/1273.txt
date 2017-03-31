@@ -1,0 +1,52 @@
+re: asignar hora a pcon wed, 28 apr 2010 09:28:23 -0400, stephen powel wrote:
+
+> on wed, 28 apr 2010 02:16:20 -0400 (edt), camalón wrote:
+
+>> after some attemp to try to contact the user (he also write into the
+>> spanish list), i reach the follow conclus:
+>> 
+>> 1/ the user doe not receiv mani of the e-mail come from the list.
+>> 
+>> 2/ he cannot receiv e-mail from the outsid (mayb is behind a proxi
+>> or firewal or ani kind of filter system that reject extern
+>> e-mail).
+> 
+> that is inde strang.  i have never heard of an e-mail system that
+> allow e-mail out but not in.  (except for spam setup, of cours!)  
+
+look at hi e-mail address :-/
+
+thi won't be the first time i see problem with user come from some 
+restrict network. 
+
+> he must have *some* wai of receiv repli, such as view the 
+> mail list archiv via a browser.  otherwis, why would he ask a 
+> question to which he know that he cannot receiv repli? and if 
+> memori serv me correctli, thi user ha been repeatedli told that 
+> debian-user is for english onli.  i must therefor conclud that he is 
+> either (a) stupid, (b) careless, or (c) obnoxi. and none of those 
+> altern speak well of him or motiv peopl to help him.
+
+there is still anoth option: "d) other" :-)
+
+mani cuban user ar not abl to brows the web (thei have internet but 
+onli e-mail access, no web brows) so if that is the case, he cannot 
+review the mail list post us web archiv and if he is not 
+receiv e-mail come from extern user (non *.cu address), he is 
+then stuck.
+
+but i'm just guess, true is that in the spanish mail list there ar 
+some post come from him, but *not* repli.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.28.14.03.15@csmine.org
+
+

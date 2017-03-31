@@ -1,0 +1,20 @@
+aptitud stucktodai's run of 'aptitud -s safe-upgrad' had been run for over an
+hour and wa us half my memori when i kill it. the statu line wa:
+
+open: 107756; close: 119093; defer: 107181; conflict: 167
+
+there's evid some situat it can't resolv. how can i figur out
+what packag(s) caus the problem?
+
+-- 
+if tyranni and oppress come to thi land, it will be in the guis
+of fight a foreign enemi. -- jame madison
+    rick pasotto    rick@niof.net    http://www.niof.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100430133128.ga30106@niof.net
+
+

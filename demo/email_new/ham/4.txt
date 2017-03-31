@@ -1,0 +1,3 @@
+yo.  i've been work on my run websit.  i'm us jqueri and the jqplot plugin.  i'm not too far awai from have a prototyp to launch.  
+
+you us jqplot right?  if not, i think you would like it.

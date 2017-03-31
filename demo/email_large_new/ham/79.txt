@@ -1,0 +1,29 @@
+re: ~/.xsession-error file grow wai too bigfrom nobodi sun sep 18 20:45:27 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+on thursdai 20 mai 2010 23:38:42 t o n g wrote:
+> on wed, 19 mai 2010 11:33:02 -0500, boyd stephen smith jr. wrote:
+> >> i took a look, the reason and cure is veri simpl -- have x to trunk
+> >> it each time when start
+> >> (http://bug.debian.org/cgi-bin/bugreport.cgi?bug=3d287876) wherea
+> >> current, my ~/.xsession-error kept log back to stone ag.
+> >=20
+> > for what reason can't you simpli modifi you xsession file to do as you
+> > like? it is a conffil, so your chang would be preserv through
+> > upgrad.
+>=20
+> read the abov url again, carefulli. the answer is right there befor you
+> ey. you don't agre with it?
+
+the url?  i don't see anyth special about it.
+
+the content of the document avail at that locat?  i tend to agre w=
+ith=20
+the dd that alreadi repli.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

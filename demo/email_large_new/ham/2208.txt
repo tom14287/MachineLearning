@@ -1,0 +1,48 @@
+re: flash is open?from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=iso-8859-1
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+hello mark allum,
+
+am 2010-05-14 07:39:47, hacktest du folgend herunt:
+> flash mai not be a prioriti, sens it perform two function.  on,
+> it act as the standard web video player.  two, it tri to be a
+> standard web program interfac and sdk.
+>=20
+> the former is becom moot by the advent of html5.  the latter is
+> bore, sinc there ar 1000s of other wai to write program that
+> run in web browser, e.g., javascript.  no on realli want flash to
+> be the go-to standard for program, even if it offer a few shini
+> gewgaw. don't you hate flash-base site?  i know i do.
+
+=2e..and i hate websit us a 200 kbyte javascript,  suck  500 mbyte
+of memori and  consum  100%  cpu  resourc  to  implement  the  same
+function as the adob flash-pluge.
+
+ye, i know a bunch of websit claim there ar  flash-free...  us
+javascript for thi purpos is the same crap as us flash.
+
+thank, greet and nice dai/even
+    michel konzack
+
+--=20
+##################### debian gnu/linux consult ######################
+   develop of intranet and embed system with debian gnu/linux
+
+itsystem@tdnet franc eurl       itsystem@tdnet ug (limit liabil)
+owner michel konzack            owner michel konzack
+
+apt. 917 (homeoffic)
+50, rue de soultz                 kinzigstra=dfe 17
+67100 strasbourg/franc           77694 kehl/germani
+tel: +33-6-61925193 mobil         tel: +49-177-9351947 mobil
+tel: +33-9-52705884 fix
+
+ 
+ 
+
+jabber linux4michel@jabber.ccc.de
+icq    #328449886
+
+linux-user #280138 with the linux counter, http://counter.li.org/

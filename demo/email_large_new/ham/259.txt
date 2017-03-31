@@ -1,0 +1,42 @@
+re: dual monitor twin view on nvidiaon possibl solut is us the "nvidia-set"-tool.
+you can configur your displai-set in a gui and save it  
+perman to an xorg file.
+i'm us thi method sinc year and it work veri well and flawlessli.
+
+[screenshot]
+http://ourcraft.file.wordpress.com/2009/12/nvidia-set.png
+
+
+-
+sebastian
+
+
+
+zitat von jame allsopp :
+
+> hi,
+> i've a small 4:3 monitor which wa work fine with debian at about
+> 1152x864 (vga connect) on a nvidia 9500gt with the proprietari driver
+> (sorri want to experi with cuda so non-free wasn't an option). howev,
+> i've just bought a new 1080p tv and connect it to the comput via hdmi.
+> thi unfortun ha perman knock the resolut down on the
+> monitor to 800x600, which is next to unus. would anyon with a similar
+> configur be will to share an xorg.conf or share some advic on thi.
+> i think i'd like the monitor to be either 1280x960, 1152x864, 1024x768 and
+> the tv to work at 1600x900 1366x768 or 1280x720.
+>
+>
+> thank for ani help!
+> jim
+>
+
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100518122107.112868rwr08lxasc@webmail.df.eu
+
+

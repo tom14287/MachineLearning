@@ -1,0 +1,16 @@
+re: lenni-volatil updat for clamav-relat packagesfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+
+> as a debian maintain, i can't upload to volatil. the current klamav from test should work fine if someon care to upload it.
+>
+
+[...]
+
+scott, we'll need to bump the version number; if you keep the packag in some
+vc it might make sens if you prepar an updat packag; otherwis i can take
+care of that.
+
+best,
+michael
+

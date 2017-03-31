@@ -1,0 +1,17 @@
+re: onli output the nth lineon wed mai 12 2010 09:58:57 jozsi vadkan wrote:
+> sed -n '1,2p;4p' file.txt
+>
+> doesn't work.
+
+work for me in lenni.  what output do you see?  what version
+of sed do you have?
+
+--mike bird
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005121011.44506.mgb-debian@yosemit.net
+
+

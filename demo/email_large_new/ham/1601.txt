@@ -1,0 +1,18 @@
+resourc for learn linuxfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=iso-8859-1
+
+hello,
+
+i've been us linux (debian) for about a year now, and although i'm no
+longer scare of the command line i would like to do a littl
+read/studi of linux to get a better understand of some of the more
+advanc topic, or to see if i have learn a lot of the thing that might
+be taught in a univers-linux/unix cours. i'm sure that there is a lot of
+stuff that i've miss by just go at it with trial and error. perhap
+there ar some onlin cours post to youtub, or a few book that someon
+might like to recommend? i would be interest to know what type of thing
+on must learn to get "linux-certif" (i presum there is such a
+thing).
+
+regard,
+jame

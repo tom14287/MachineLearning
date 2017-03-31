@@ -1,0 +1,64 @@
+re: arrrghhh had gpg work, now it doesnt.if you haven't alreadi, you should enabl the debug log under
+hack support prefer and look for clue there.
+
+>>>reg clemen said:
+ > > hi,
+ > > 
+ > > on sun, 01 sep 2002 00:05:03 mdt reg clemen wrote: 
+ > >   
+ > > [...]
+ > > > in messag with gnupg signatur.  but punch the line alwai
+ > > > give
+ > > > 
+ > > >         signatur made thu aug 29 00:27:17 2002 mdt us dsa kei id bdd
+     f997a
+ > > >         can't check signatur: public kei not found
+ > > > 
+ > > > so, someth els is miss.
+ > > 
+ > > ye, the public kei of the signatur you want to check :-).
+ > > 
+ > > ar you realli sure that you have the public kei of the messag's
+ > > signatur? if not, try download it or try to check a signatur from
+ > > which you know you have the public kei.
+ > > 
+ > > 
+ > > 
+ > 
+ > ah, sorri for not make that clearer.
+ > but no.
+ > previous (v1.0.6 of gnupg) there would be a slight paus at thi point whi
+     le
+ > it went out to get the public kei from a keyserv.
+ > now, whether i have the kei or not, i get the failur messag.
+ > 
+ > it as if it cant find gpg to execut it (but i fix that path), so there
+ > must be someth els that i am miss...
+ > 
+ > 
+ > -- 
+ >                                         reg.clemen
+ >                                         reg@dwf.com
+ > 
+ > 
+ > 
+ > 
+ > _______________________________________________
+ > exmh-user mail list
+ > exmh-user@redhat.com
+ > http://listman.redhat.com/mailman/listinfo/exmh-user
+
+--
+brent welch
+softwar architect, panasa inc
+pioneer the world's most scalabl and agil storag network
+www.panasa.com
+welch@panasa.com
+
+
+
+_______________________________________________
+exmh-user mail list
+exmh-user@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-user
+

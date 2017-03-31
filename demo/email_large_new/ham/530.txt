@@ -1,0 +1,39 @@
+re: [solv] debian-multimedia break mplayer .mov playback on lenni?on 2010-04-19 16:19, clive mcbarton wrote:
+[snip]
+> 
+> how come there is no link anywher on debian.org point to
+> debian-multimedia.org? anyth to establish a chain of trust. as it is,
+> i look and look but didn't find. even when search for
+> "multimedia" on debian.org, it doe not mention debian-multimedia.org at
+> all. not even when search for "debian-multimedia". everi new debian
+> user try to verifi the credibilitii of debian-multimedia.org would
+> have given up at thi point for sure.
+
+googl is pretti darn ubiquit, and ha been for 8+ year.
+
+put "debian plai" in the ff/iw search bar auto-complet "debian 
+plai encrypt dvd", and each of the first 5 link mention d-mm.o.
+
+> with the inform that marillat is a debian develop (and the
+> precis spell of hi name) i wa actual abl to go to the
+> develop's page on debian org, find him, and see a link to d-m. so in a
+> veri roundabout wai, d-m is actual endors by debian.org.
+
+"mention" doe *not* mean "endors".  never ha, never will.
+
+>                                                              but how
+> would anybodi find out about thi in a reason amount of time?
+
+d-mm.o is not an offici debian site, so it's nor mention 
+anywher  except hi person page and the list archiv.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bcccc25.9000401@cox.net
+
+

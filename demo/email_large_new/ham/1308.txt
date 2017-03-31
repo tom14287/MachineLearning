@@ -1,0 +1,68 @@
+re: 64-bit netbook with debian linuxon 5/3/2010 4:29 pm, peter tenenbaum wrote:
+> hi, everyon --
+>
+> i guess i should clarifi my desir for 64-bit.  there ar two thing
+> here.  first, i intend to build a home comput which will run linux,
+> and it will be 64-bit; sinc i'm quit new to maintain my own linux
+> comput, i'd rather limit the number of differ between the home
+> machin and my portabl.  second is just a desir to avoid earli
+> obsolesc in the portabl, sinc at some point i expect 64 bit to
+> becom the standard and 32-bit to fade into the past.  that dai mai not
+> be near, and in ani event it mai be crazi to worri about obsolesc of
+> a comput which cost less than an ipod, but that's just the wai i roll.
+>
+> it also sound like the respndent to my first messag ar underwhelm
+> by netbook in gener and recommend that i look at a low-end notebook /
+> laptop comput instead.  i confess that the distinct is a bit blurri
+> to me.
+>
+> in ani event, with those caveat, perhap i should ask more gener
+> for recommend of netbook or smallish laptop which peopl
+> recommend as be compat with debian linux.
+>
+> thank again,
+> -pt
+
+
+i wa a respond who question the netbook rout, but i see now that 
+there mai be good reason to prefer on.
+
+howev, most netbook ar deliber crippl, such as allow onli 
+1 or 2 gb of memori when there is no technic reason why 4 gb shouldn't 
+work.  it is a matter of segment a market, and manufactur want 
+netbook to have specif capabl for market reason, not 
+technic on.
+
+i want to suggest that you choos a machin base on your need, and i 
+want you to question your initi assumpt.
+
+howev, i see you have done some think about it, and futur-proof 
+*doe* seem like a good reason to get a dual-core, 64-bit machin.
+
+with 64 bit, you will need more memori, so i suggest you look for a 
+machin that can us 4 gb of memori.
+
+i suggest also that you make sure that the machin you get can us 
+solid-state storag devic.  in time, the advantag of ssd will make 
+them compel, though now thei ar too expens.  that is, you will 
+probabl bui a machin with a standard notebook hd, but if you ever need 
+to replac it, be abl to replac it with an ssd give you anoth 
+option.  thi also is in the area of futur-proof.
+
+
+just a coupl of suggest.  i would like to hear more from other 
+peopl.  (i am also contempl a portabl comput purchas.)
+
+
+maa
+
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdf47c6.7080503@allum.com
+
+

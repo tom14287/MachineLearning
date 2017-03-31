@@ -1,0 +1,30 @@
+re: kde 3.5 ...on thu, 2010-05-06 at 16:52 -0700, kelli clower wrote:
+> on thu, mai 6, 2010 at 16:38, john a. sullivan iii
+>  wrote:
+> >> >
+> >>
+> >> fix for kde 4.5:
+> >> http://bug.kde.org/show_bug.cgi?id=172766
+> > 
+> > is 4.5 or even 4.4 even make into squeez?
+> 
+> 4.4 is in sid now, and we aren't frozen or anyth, so i don't know why
+> it wouldn't be in squeez. for futur version, i imagin it just depend
+> on when debian decid to freez.
+> 
+> 
+thank.  i had misinterpret on of the debian blog post about 4.4.
+i see now that it is expect the next stabl will ship with 4.4.4.  ha
+there been ani word about when 4.4.x will be move to test? i'm
+realli hesit to introduc all the librari that will be drag in
+if i instal kde from unstabl into a product environ.  i even
+hesit with test but we ar so desper to make kontact work with
+zimbra that we would take a chanc - john
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1273198085.21138.16.camel@famili.pacifera.com
+
+

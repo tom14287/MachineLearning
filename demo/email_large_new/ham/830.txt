@@ -1,0 +1,22 @@
+re: [volatil] updat clamav-relat packag avail for
+ testingfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on sat, apr 17, 2010 at 08:46:55am +1000, tomasz ciolek wrote:
+> will the packag me migrat from lenni-propos-updat/volatil to
+> lenni/volatil in near futur?
+> > pleas report ani problem (or success) with test the packag to
+> > the debian-volatil list.
+
+as you quot we're wait for problem and/or success report.  so far
+there were too few.
+
+kind regard,
+philipp kern
+--=20
+ .''`.  philipp kern                        debian develop
+: :' :  http://philkern.de                         stabl releas manag
+`. `'   xmpp:phil@0x539.de                         wanna-build admin
+  `-    finger pkern/kei@db.debian.org

@@ -1,0 +1,58 @@
+re: can't determin affect packagefrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+then, you might follow boyd stephen smith jr.'s recommend.
+
+tadziu wrote:
+> ye i've got the same hardwar as mention in bug report,
+> and test suspens on debian as well as ubuntu, mint,
+> fedora, and sabayon. problem persist distro independ,
+> and kernel version indeped
+>
+> 2010/5/25 merciadri luca :
+>  =20
+>> ar you us `exactli' (in some sens) the same config?
+>>
+>> --
+>> merciadri luca
+>> see http://www.student.montefior.ulg.ac.be/~merciadri/
+>> i us pgp. if there is an incompat problem with your mail
+>> client, pleas contact me.
+>>
+>>
+>>
+>>
+>>
+>> tadziu wrote:
+>>    =20
+>>> it's a simpl reproduct of thi bug:
+>>>
+>>> http://bug.launchpad.net/ubuntu/+sourc/linux/+bug/329645
+>>>
+>>> i've got the same problem either on lenni/squeez/sid and all possibl=
+e
+>>> kernel up to 2.6.34 (not test yet). can someon tell mi how to
+>>> send a bug report in that case? launchpad servic seem littl
+>>> easier sinc it doesn't reqiur exact packag ;)
+>>>
+>>> thank in advanc and all the best
+>>> t.
+>>>
+>>>
+>>>
+>>>      =20
+>
+>
+>  =20
+
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+
+

@@ -1,0 +1,31 @@
+re: bluetooth and runloop in a dedic thread.> i have an old project that i am restart, and under snow leopard it is
+> broke. the problem didn't have a well document solut in older os. =
+i
+> am hope to get some guidanc.=a0i would like to have a dedic thread=
+ for
+> everi=a0iobluetoothdevic/iobluetoothrfcommchannel pair.
+> the runloop below exit immedi.=a0iobluetoothvalidatehardwar us t=
+o
+> perform enough side-effect magic to keep the runloop run. what
+> should=a0startbluetooththread look like?
+
+to my knowledg, no part of the bluetooth framework document
+sai anyth about thread safeti, and for that reason you must assum
+that it is onli safe to us from the main thread.
+
+also, a thread's run loop will onli run if it ha either run loop
+sourc or timer attach; the fact that nsrunloop's -run ever
+return mean that it ha neither. thi is what i would expect base
+on your -startbluetooththread: method, as it doesn't appear to creat
+a sourc or timer. if you want to keep the thread aliv, i would
+attach a dummi timer to the run loop that fire after some
+extraordinari amount of time. (assum you're not us the bluetooth
+api on the thread...)
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+bluetooth-dev mail list      (bluetooth-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/bluetooth-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

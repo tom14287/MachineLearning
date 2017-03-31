@@ -1,0 +1,22 @@
+re: 64 bit-flash fail site (wa: what to choos for core i5 64 bit?)jordan metzmeier wrote:
+
+>> --
+>> camalón
+>>
+> 
+> http://hulu.com is an exampl. afaik it onli avail to peopl with
+> u.s. ip.
+> 
+
+i'm in europ and it's work fine, though it said that it can not show
+video becaus of 64bit limit on linux.
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hsbp94$3lg$2@dough.gmane.org
+
+

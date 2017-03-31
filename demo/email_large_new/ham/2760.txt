@@ -1,0 +1,33 @@
+re: [ilug] how to copi some fileson fri, jul 19, 2002 at 08:48:40pm +0100, ronan cunniff wrote:
+> quot ronan waid :
+> 
+> > sure, but soft link would do the same. to be honest, i'm try to
+> > think of a us us of hard link right now, and i'm a littl
+> > stump. there's gotta be some benefit that i'm miss that's
+> > immedi obviou to everyon.
+> 
+> us niall's exampl - singl set of file but >1 namespac, and suppos that
+> you want to delet some item from the set accord to rule appli to the
+> namespac.  with soft link you need an *extra* namespac the other refer to,
+> and after filter the namespac, you have to do a manual refer count to
+> decid what goe and what stai.  with hard link, you just unlink and delet
+> is automat.
+
+couldn't have put it better myself, but that's not go to stop me try :-) 
+the abov situat occur precis becaus of the major function differ
+between symbol link (aka soft link, or symlink to their friend) and hard
+link. two hard link to the same file ar exactli equival - on is no more
+the file "real" directori entri than is the other. otoh a symlink is a special
+thing which is a link to a real file, and when the file link to is eras, you
+end up with a broken symbol link - you can't have a broken hard link (except
+of cours in the case of a banjax filesystem).
+
+
+niall
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

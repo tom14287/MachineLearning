@@ -1,0 +1,59 @@
+re: migrat os to smaller drive?on 2010-04-11 15:54, sjoerd hardeman wrote:
+> ron johnson schreef:
+>> on 2010-04-11 08:11, clive mcbarton wrote:
+>>> sjoerd hardeman wrote:
+>>>> mount the new devic (mount -odev /dev/newdevic), and do a
+>>>>  rsync -ax / /media/newdevic.
+>>> what exactli is the advantag of thi approach over "cp -a" or "mv"?
+>>>
+>>> i would have suggest mv. it ha the us properti that you can
+>>> easili spot abort transfer by the fact that the origin devic is
+>>> not empti afterward.
+>> on note is that i've had issu where symlink remain point to the 
+>> old drive.  (that wa a long time ago, though, and mayb i did someth
+>> wrong.)
+> i thought symlink keep point via a file locat memo, like "look at
+> /usr/share/the/file/you/want", which is the old locat just after
+> copi, but the new locat when you boot from your new devic and
+> that becom root.
+> 
+
+note how at the bottom or thi exampl bar/shoe still point to 
+../snuffl/shoe/.  when you try to "cp -axv / /some/new/root" the 
+same thing will happen.   in /usr/bin all the symlink to 
+/etc/altern will still point to the *current* 
+/etc/altern not to /some/new/root/etc/altern.
+
+$ mkdir foo/snaggl snuffl/shoe
+$ cd foo
+$ ln -sf ../snuffl/shoe .
+$ dir
+total 44
+drwxr-xr-x   3 me me  4096 2010-04-11 17:12:44 ./
+drwxr-xr-x 206 me me 36864 2010-04-11 17:12:04 ../
+lrwxrwxrwx   1 me me    15 2010-04-11 17:12:44 shoe -> ../snuffl/shoe/
+drwxr-xr-x   2 me me  4096 2010-04-11 17:12:04 snaggl/
+
+$ cd ..
+$ cp -av foo bar
+`foo' -> `bar'
+`foo/snaggl' -> `bar/snaggl'
+`foo/shoe' -> `bar/shoe'
+
+$ dir bar
+total 44
+drwxr-xr-x   3 me me  4096 2010-04-11 17:12:44 ./
+drwxr-xr-x 207 me me 36864 2010-04-11 17:13:54 ../
+lrwxrwxrwx   1 me me    15 2010-04-11 17:12:44 shoe -> ../snuffl/shoe/
+drwxr-xr-x   2 me me  4096 2010-04-11 17:12:04 snaggl/
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc24b54.5060804@cox.net
+
+

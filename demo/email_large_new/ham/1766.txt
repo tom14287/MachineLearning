@@ -1,0 +1,36 @@
+re: ar bad develop librari the problem with m$ softwar?
+i don't know how on can expect better and more secur code from the
+commun when thi be a secur list some post like thi show
+clearli no knowledg of c.
+
+on fri, nov 22, 2002 at 10:27:53pm +0500, ali saifullah khan wrote:
+> here is a test done on the return of size by sizeof() us pointer.
+> 
+> #includ 
+> 
+> int main(void) {
+>  char *testbuff[1024];
+   ^^^^^^^^^^^^^^^^^^^^
+
+read it like thi: new arrai with 1024 element of type pointer to char.
+as a pointer occupi the natur word size (32 bit or 64bit), no wonder
+you get 4*1024 (sizeof(char *) * numer_of_element).
+
+>  int len = sizeof(testbuff);
+>  cout << len << "\n";
+>  return 0;
+> }
+
+> us " int len = sizeof((char*)testbuff); "
+sizeof return the size of type. you can us it with var (and then the
+normal form is sizeof var, not sizeof(var)), but if you're chang the
+type with the var with a cast, of cours you'll get the size of that new
+type.
+
+regard,
+luciano rocha
+
+-- 
+conscious: that annoi time between nap.
+
+

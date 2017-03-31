@@ -1,0 +1,24 @@
+re: chromium in sidon 2010-05-21 17:42 +0200, steve fishpast wrote:
+
+> i'd be happi to contribut in ani wai i can, but the question is why
+> is it so old when ubuntu is keep up-to-date daili?!
+
+note that ubuntu is do that in a ppa, not in their develop
+releas.  i suspect that chromium 6 ha to wait for libvpx to leav new,
+and the effort to build with the system ffmpeg also take quit a lot of
+time.
+
+sven
+
+-- 
+googl is fork exist foss code bit for chromium like a rabbit
+make babi: frequent, and usual, without much thought.
+-- tom callawai
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/874oi1b5w4.fsf@turtl.gmx.de
+
+

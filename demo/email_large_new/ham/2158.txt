@@ -1,0 +1,32 @@
+re: kde 3.5 ...from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+on thursdai 06 mai 2010, richard hartmann wrote:
+> on thu, mai 6, 2010 at 23:08, mark purcel  wrote:
+> > thi is free softwar, nobodi is forc to do anyth.
+>=20
+> not 100% true. a plain user who want to keep on us kde 3
+> will not be abl to do so forev. a year or two ar certainli possibl
+> even though peopl will need a differ browser for secur &
+> html 5 & css reason.
+> but realist speak, kde 3's dai ar number and there
+> ar a lot of peopl who can do noth about it.
+
+if there's such a mass of user want to keep kde3 go, it is=20
+theoret possibl to collect fund a developp to do the work you=
+=20
+want done.=20
+
+quanta and freenet ar 2 exampl of program for whom such a thing ha bee=
+n=20
+done
+
+that ofc assum that:
+a) there's a suffici mass of user that want to keep kd3 go in at=20
+least mainten mode
+b) thei care enough to chip in a littl bit=20
+
+=2d-=20
+cheer, cobaco (aka bart corn)

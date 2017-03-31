@@ -1,0 +1,24 @@
+re: k3bcheck build system type... i686-pc-linux-gnu
+check host system type... i686-pc-linux-gnu
+check target system type... invalid configur
+`athalon-redhat-linux': machin `athalon-redhat' not recogn
+configur: error: /bin/sh admin/config.sub athalon-redhat-linux fail
+error: bad exit statu from /home/dale/rpmbuild/tmp/rpm-tmp.26673
+(%prep)
+
+
+rpm build error:
+    user jkeat doe not exist - us root
+    group jkeat doe not exist - us root
+    user jkeat doe not exist - us root
+    group jkeat doe not exist - us root
+    bad exit statu from /home/dale/rpmbuild/tmp/rpm-tmp.26673 (%prep)
+[dale@gandalf dale]$
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,38 @@
+microsoft redesignurl: http://diveintomark.org/archiv/2002/10/03.html#microsoft_redesign
+date: 2002-10-03t14:42:29-05:00
+
+_jeffrei zeldman_: parti like it's 1997[1]. “microsoft ha redesign. 
+it new layout us font tag and other deprec junk straight out of the 
+mid-1990s. ... when a w3c member compani that help creat xhtml and css 
+ignor or misus those web standard on it corpor site, you have to 
+wonder who didn't get the memo.” 
+
+the new design also fail even the most basic access test[2]; the home 
+page contain 80 instanc of imag without alt text. thi is the same basic 
+fail for which the sydnei organ committe for the olymp game wa 
+successfulli su in 2000[3]. 
+
+here is what microsoft.com look like in a text-onli browser[4]. (to better 
+understand the experi, take a piec of paper and cover your entir monitor 
+except for the top line, then scroll the window slowli so you can onli read on 
+line at a time.) while noth is technic lock out (all the link ar 
+regular link, noth requir javascript to function properli), all the 
+un-alt-enhanc imag (which ar mostli spacer imag and imag-as-bullet) 
+add so much clutter to the page that it's veri difficult to navig. 
+
+meanwhil, i don't want to imagin what it would sound like through a screen 
+reader. want to find the search box? that's “1pttran dot gif 1pttran 
+dot gif search for 1pttran dot gif 1pttran dot gif form edit box 1pttran dot 
+gif submit button go 1pttran dot gif link advanc search 1pttran dot gif 
+...” and i hope you weren't look for microsoft's access home 
+page[5]; it's the 76th link on the page (out of 76).
+
+
+
+[1] http://www.zeldman.com/daili/0902b.html#princ
+[2] http://bobbi.watchfir.com/bobbi/bobbyservlet?advanc=true&url;=http%3a%2f%2fwww.microsoft.com%2f&gl;=wcag1-a&text;=text&line;=line&an;_err=an_err&stealth;=bobbi%2f3.3&output;=submit
+[3] http://www.contenu.nu/socog.html
+[4] http://diveintomark.org/public/microsoft_lynx_output.txt
+[5] http://www.microsoft.com/enabl/
+
+

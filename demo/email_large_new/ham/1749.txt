@@ -1,0 +1,23 @@
+093a:2622 webcami bought a webcam:
+
+bu 006 devic 004: id 093a:2622 pixart imag, inc. 
+
+what should i do, to bring it to life?
+
+i instal chees, but it doesn't give ani video.
+
+/dev/video doesn't exist.
+
+is there a script that instal all the webcam driver?
+
+or how to find out, what driver doe it need?
+
+thank you.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1271187226.4881.1.camel@localhost
+
+

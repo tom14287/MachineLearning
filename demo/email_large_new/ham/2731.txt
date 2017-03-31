@@ -1,0 +1,30 @@
+shouldn't apt-get upgrad, you know, upgrad ?
+hi all,
+
+i wa have some problem with ooffic so i did "apt-get updat" and
+then ran "apt-get upgrad" to see if ooffic wa among the packag to
+be upgrad.  it wasn't, but i tri "apt-get instal ooffic"
+anywai, and presto it start upgrad ooffic.
+
+so i look at the man-page:
+
+ upgrad
+is us to instal the newest version of all packag current
+instal on the system
+
+i did, in fact, have ooffic instal so i'm not clean on why upgrad
+alon did seem to want to upgrad the packag.
+
+ani idea ?
+
+thank,
+
+brian
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100405213737.0656411a@windi.deldotd.com
+
+

@@ -1,0 +1,24 @@
+re: python 2.2 site lib?on fri, 4 oct 2002, mark derricutt wrote:
+
+> anyon know where on could get rpm for alot of the python librari for 
+> 2.2?
+> 
+> it darn annoi the wai rh ship python 1.5.2 and python 2.2 (as python2) 
+> and lib that onli work with on or the other :(
+> 
+> esp. the pgdb and xml modul.
+> 
+> anyon know why red hat insist on stick with python 1.5.2?
+
+thei want to preserv binari compat for all .x releas. red hat 
+8.0 ha python 2.2 as default.
+
+-- 
+	- panu -
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

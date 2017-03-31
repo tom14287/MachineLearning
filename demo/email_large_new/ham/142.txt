@@ -1,0 +1,53 @@
+re: [razor-user] re: what's wrong with the razor server now?isn't ebai trust the feedback?
+
+----- origin messag -----
+from: "chip paswat" 
+to: "patrick" 
+cc: 
+sent: wednesdai, august 14, 2002 9:51 pm
+subject: re: [razor-user] re: what's wrong with the razor server now?
+
+
+> > > it's not my desir to second-guess you vipul (howev much my missiv
+> > > mai appear otherwis) or question the hard work you and the other
+> > > develop have put into the system, howev it seem that everi
+request
+> > > for such inform ha been met with silenc.
+> >
+> > there ar no plan for releas detail about te. befor the
+> > releas of razor2, i'd point out that razor2 backend (special
+> > te) will be close.
+>
+> thank for the clarif. guess it's time to find someth that is
+> open.
+>
+> good luck.
+
+why do the detail of the backend need to be open?
+
+i don't think that ebai publish it's proprietari trust backend, why
+should razor?
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+

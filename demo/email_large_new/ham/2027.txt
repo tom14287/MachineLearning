@@ -1,0 +1,71 @@
+re: linux compat mainboard-----begin pgp sign messag-----
+hash: sha1
+
+kelli clower wrote:
+
+
+
+> i don't know specif about buggi bios, but in gener, foxconn
+> is not a brand associ with qualiti, while gigabyt, asu and intel ar.
+
+asid from the qualiti issu, two+ year ago there wa consider
+internet chatter about bios on some foxconn model that were
+unfriendli to linux.  accord to the foxconn articl in the wikipedia
+foxconn wa forc by some of the compani which us foxconn board in
+their own brand to fix those bios.  in ani event if the inform
+in that articl is even half true, foxconn is a manufactur to avoid.
+
+
+
+> intel chipset make sens for intel motherboard, the dai when you
+> need to look to via or someon els to provid the need featur
+> ar mostli gone (nvidia is, for now, still the best for more power
+> integr graphic with intel cpu. but linux user probabl don't
+> want nvidia graphic anywai).
+
+as i mention in my "anoth thought" post, i am plan to us a
+nvidia gpu anywai, mainli in order to have two monitor.
+
+
+> driver-wise it isn't realli a matter of the north- or south- bridg, it is
+> about the individu chip that need driver. thing like ata control
+> and wire ethernet control ar gener a non-issu nowadai.
+> the biggest thing you need to look at ar the gpu (all intel gpu
+> except the mobil gma500 have good support), and wireless 802.11
+> chipset (not usual built in on desktop, of cours)
+
+good to know.
+
+> in the case of the ga-g41m-es2h, the southbridg is old (ich7; ich11
+> will be out soon), and the realtek audio and ethernet chip aren't the
+> greatest. nonetheless, thei do the job and shouldn't have ani major
+> compat problem with recent kernel. it should be note that
+> board with newer ich and someth other than realtek ar a
+> fair bit more expens.
+
+in view of your comment i look further into what is avail
+local.  the model i wa origin look at wa a ga-g31m-es2l for
+ca$59.00.  i found howev a ga-ep43-ud3l with the ich10 and mani other
+more advanc featur includ better realtek audio for ca$83.00.  as
+i am us an extern gpu which gpu intern chipset is provid is not
+realli an issu for me. i think the latter model is better valu for the
+price.
+
+regard, ken heard
+
+-----begin pgp signatur-----
+version: gnupg v2.0.9 (gnu/linux)
+comment: us gnupg with mozilla - http://enigmail.mozdev.org
+
+ieyearecaayfakvpwf4acgkqlnljzokjmtfrcacggue10nsliuzclah/s4lxqt
+vw8an0dph6rxxttf5f5zoagufto4lkh5
+=iwk/
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bcfc1ff.9090103@heard.name
+
+

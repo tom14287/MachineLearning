@@ -1,0 +1,33 @@
+re: re: help need: error boot to btrf filesystemon fri, apr 23 at 20:34, eugen dedu pen:
+> 
+> well, /boot is on the same filesystem as / (onli on fs), so it is
+> btrf.  doe not grub2 boot linux from btrf?  i have seen web page
+> sai that it boot...
+
+i just us googl to search "grub2 btrf", and the result don't look
+promis.  
+
+not that you ask, but btrf is still in develop; i wouldn't think
+that support it is anyon's top prioriti.  if you ar plan to
+keep anyth import on thi system, i'd think twice about us
+a filesystem that's still in flux:
+
+http://btrf.wiki.kernel.org/index.php/main_page
+
+"btrf is under heavi develop, but everi effort is be made to
+keep the filesystem stabl and fast. as of 2.6.31, we onli plan to
+make forward compat disk format chang, and mani user have been
+experi with btrf on their system with good result. pleas
+email the btrf mail list if you have ani problem or question
+while us btrf."
+
+-- 
+moniqu
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100423191825.gx30298@mail.bounceswoosh.org
+
+

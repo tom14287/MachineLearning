@@ -1,0 +1,23 @@
+how to manag logmailshello,
+
+we have sever server which gener logmail everi dai.
+how do you manag these if sever peopl should have access? 
+with a logmail-mailbox, a share mailbox or a special softwar?
+
+thx
+
+moritz
+
+
+-- 
+wissen ist da einzig gut, da sich vermehrt, wenn man es teilt.
+--
+http://www.lagerkochbuch.ch
+
+
+-- 
+to unsubscrib, email to debian-isp-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100409071939.gf23814@aletschhorn.itd.ch
+
+

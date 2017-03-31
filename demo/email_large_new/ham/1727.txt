@@ -1,0 +1,61 @@
+re: java for mac os x 10.6 updat 2 and 10.5 updat 7 ar liveaft log in as somebodi with administr privileg, i *wa*
+abl to select the 'in their own process' prefer, and safari then
+work as advertis. i wa also then abl to chang thi prefer
+from my own account (without admin privileg).
+
+re the lack of two-finger scroll in chrome own-process applet,
+thi turn out to occur onli when the browser window is on my
+secondari displai(!) (plug into my macbook), and appli to safari
+as well. thi i describ in a bug report i've just submit.
+
+on sat, mai 22, 2010 at 2:19 pm, rob dicken  wrote:
+> sorri - meant to includ a link to the applet (which contain a scroll pa=
+ne):
+>
+> http://lafro.com/demo/gui/tab/1.1/tabsdemo.html
+>
+> on sat, mai 22, 2010 at 2:17 pm, rob dicken  wrot=
+e:
+>> thank for mention thi. i wa particularli interest to see what
+>> would happen here on my 32-bit macbook, where i don't seem to have the
+>> option of select the 'in their own process' prefer--the radio
+>> button ar grei-out--which appear to be requir in order to avoid
+>> the flicker seen on resiz the browser window.
+>>
+>> lo and behold, there is no flicker! :-d
+>>
+>> howev, on the downsid, two-finger scroll (insid the applet) is
+>> not support (as it is in safari) :-(
+>>
+>> rob
+>>
+>> on sat, mai 22, 2010 at 12:34 pm, david leader
+>>  wrote:
+>>> i don't think thi wa mention but the mac beta of the chrome browser=
+ will
+>>> now run applet which i gather is depend on thi java upgrad.
+>>>
+>>> (not that i am in ani wai suggest mac user should us anyth oth=
+r
+>>> than safari themselv, but if on produc web site that contain java
+>>> applet it is obvious someth which on ha to be awar of.)
+>>>
+>>> david
+>>> _______________________________________________
+>>> do not post admin request to the list. thei will be ignor.
+>>> java-dev mail list =a0 =a0 =a0(java-dev@list.appl.com)
+>>> help/unsubscrib/updat your subscript:
+>>> http://list.appl.com/mailman/option/java-dev/robcdicken%40csmine.org
+>>>
+>>> thi email sent to robcdicken@csmine.org
+>>>
+>>
+>
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

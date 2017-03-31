@@ -1,0 +1,55 @@
+re: [ilug] lcd monitor and linuxon fri, aug 02, 2002 at 08:40:10pm +0100 or so it is rumour hereabout, 
+niall o broin thought:
+> on fri, aug 02, 2002 at 05:21:22pm +0100, conor dali wrote:
+> 
+> > my 17" crt monitor have drown in a flood (10cm squar of burn 
+> > circuit board urgh!) , i'm think of a 15" lcd as a replac.  
+> > what with me go to the contin and all next week, i might wait and 
+> > bui on there (for a reason price (dave neari!  ani good sourc?)).
+> 
+> conor - it's a rather larg contin - peopl might need to know where you
+> ar go to suggest sourc. and if you're bui abroad, make sure you get
+> to test it - mani place won't have facil for you to do that.
+
+um yeah, i suppos that'd be us info...  western franc, la rochel
+area.  test as in test with linux or just turn on and see that it work?
+
+> > question is: can i just plug in _ani_ lcd monitor and expect it to work?  
+> > ar there special incant need for xfree86 to work.  needless to
+> > sai, it'll be a bit difficult to bring it back to the shop onc i'm home 
+> > in dublin and find it doesn't work!
+> 
+> ani monitor should just work - thei all have vga connector and ani half
+> decent brand will be know about by xfree setup program in modern
+> distribut. howev, if you have the budget (insur pai for the
+> dead monitor, perhap ? - and where wa your monitor that it got caught in a
+
+bathroom upstair, comput desk downstair, got drip into, start
+click rapidli and smoke befor it wa notic and unplug...
+
+> flood ?) get a monitor with a dvi input is best. of cours, you'll need
+> a dvi out video card then, too. dvi provid a much better pictur than vga
+
+i guess that requir someth more in the wai of budget then...  given
+that thi monitor wa serv as the singl monitor for 4 boxen (via a
+4-wai vga kvm switch), i'd be look at invest in 4 dvi card along
+with anoth kvm to suit while a vga version _should_ just plug into
+place. 
+
+conor
+-- 
+conor dali 
+
+domest sysadmin :-)
+---------------------
+faenor.cod.ie
+  5:20pm  up 72 dai,  2:37,  0 user,  load averag: 0.08, 0.02, 0.01
+hobbiton.cod.ie
+  5:19pm  up 14 dai, 23:42,  1 user,  load averag: 0.01, 0.04, 0.00
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

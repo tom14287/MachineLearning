@@ -1,0 +1,36 @@
+re: drag imag from googl chrome crash onto java applic
+	crash it
+on 5. apr. 2010, at 19.34, doug zwick wrote:
+
+> i put an addit try/catch around the code interpret the =
+x-java-imag flavour. if that attempt fail, i fall back to on of the =
+file path or url string flavour. it's ugli, and onli realli practic =
+becaus the code ha to be abl to handl drag sourc that onli put an =
+url or file path in the transfer.=20
+
+that doe of cours work, but you might run into issu with protect =
+resourc, as you won't be abl to share credenti/session/etc with =
+the browser (unless you get a path to the browser local cach =
+version of the resourc).=20
+
+i did some extra test on thi topic, and found there ar more thing =
+go wrong: the "imag/x-pict" flavor, which should contain a tiff =
+encod version of the imag, instead contain onli a null-termin =
+string "unsupport type". it's probabl caus by the same underli =
+problem that lead to the error in the "imag/x-java-imag" case though, =
+but might help locat the bug.=20
+
+
+best regard,
+
+--=20
+harald k
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

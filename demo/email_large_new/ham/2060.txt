@@ -1,0 +1,37 @@
+re: overcom the 32k object limit is ext3 - which file system to us?on sat april 24 2010 07:00:37 camal=c3=b3n wrote:
+> well, i admit my english is not the veri best it could be, but for sure
+> the op concern wa "32000 file/folder under a folder" and if i read
+>                                 ^^^^^^^^^^^^^^^^^^^^^^
+> that in a correctli manner, it sai someth about *folder under a
+> folder*... i hope "subdirectori =3d folder" is still valid.
+
+hi camal=c3=b3n,
+
+in english the slash is understood to mean "or".  there is no limit of
+32000 file or folder under a folder in ext3.
+
+there is a limit of 31998 directori under a directori.  thi is caus by
+the ext3 hard link count limit be 32000.  two link ar need for the
+parent directori entri and the current directori's ".", leav onli
+31998 link avail for ".." link from subdirectori.
+
+thi limit is rare encount in practic becaus it is so much more
+effici to us multipl directori level, e.g.:
+
+parent-
+  a-
+    abl
+    alf
+  b-
+    beta
+    bravo
+
+=2d-mike bird
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004240717.24641.mgb-debian@yosemit.net
+
+

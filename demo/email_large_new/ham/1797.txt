@@ -1,0 +1,48 @@
+re: mount dvd.  what am i do wrong?on sat, 01 mai 2010 14:08:21 -0500, ron johnson wrote:
+
+> on 05/01/2010 02:03 pm, camalón wrote:
+
+>> your perm ar miss the "x" flag for the owner so no access is
+>> allow. i recal a similar situat in anoth mail list...
+>>
+>>
+> i don't want to *execut* the file, i want to *read* them.
+
+don't you need exec perm for list directori? ;-)
+
+***
+sm01@stt008:~$ mkdir desktop/test
+
+sm01@stt008:~$ ls -l desktop | grep test
+drwxr-xr-x 2 sm01 sm01    48 mai  1 21:14 test
+
+sm01@stt008:~$ ls -afl desktop/test
+total 1
+drwxr-xr-x  2 sm01 sm01  48 mai  1 21:14 ./
+drwxr-xr-x 10 sm01 sm01 752 mai  1 21:19 ../
+
+sm01@stt008:~$ chmod -x desktop/test
+
+sm01@stt008:~$ ls -l desktop | grep test
+drw-r--r-- 2 sm01 sm01    48 mai  1 21:14 test
+
+sm01@stt008:~$ ls -afl desktop/test
+ls: no se pued acced a desktop/test/.: permiso denegado
+ls: no se pued acced a desktop/test/..: permiso denegado
+total 0
+?????????? ? ? ? ?            ? .
+?????????? ? ? ? ?            ? ..
+***
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.01.19.25.07@csmine.org
+
+

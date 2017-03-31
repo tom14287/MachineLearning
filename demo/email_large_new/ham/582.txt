@@ -1,0 +1,39 @@
+re: still can't read dvd/cdsfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=iso-8859-1
+
+on mon, mai 17, 2010 at 7:01 am, zoran kolic  wrote:
+
+> > > *what i'm do to mount the media: *
+> > > root@debian:/home/stuckei# mount /dev/sr0
+> > > mount: block devic /dev/sr0 is write-protect, mount read-onli
+> > > mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+> > >        miss codepag or helper program, or other error
+> > >        (could thi be the id devic where you in fact us
+> > >        id-scsi so that sr0 or sda or so is need?)
+> > >        in some case us info is found in syslog - try
+> > >        dmesg | tail  or so
+> > is thi a data or audio cd (audio cd can't be mount, onli plai)? is
+> > it possibl to test with anoth os on the same hardwar?
+>
+> as anoth poster point, the devic could be wrongli pick up.
+> also, i'm not sure for udf, made on win. best bet would be to
+> mount it by the hand, try all devic out. further, help to us
+> dvd/cd that work as a charm previous.
+> do you notic ani chang in /dev directori after insert op-
+> tical media in the devic?
+> best regard
+>
+>                                 zoran
+>
+>
+sometim i'll get "mount: no medium found on /dev/sr0" or it will mount, or
+it will give me the other error messag i post.
+
+i just put a disc in, tri to mount it three time, and got three differ
+result. now it is mount and /dev look like
+http://past.debian.net/73572/
+
+now i've taken the disc out and dev look like:
+http://past.debian.net/73573/
+
+thei look the same to me.

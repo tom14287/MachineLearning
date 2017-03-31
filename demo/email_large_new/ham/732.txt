@@ -1,0 +1,28 @@
+how doe the finder decid that two drive ar on the same
+	partit?when i make two "local" disk via macfus and i try to eject on of them =
+the finder insist on warn me that there ar two drive on the same =
+partit, and give me the option to unmount all of them or just the =
+on i tri to. thi is veri inconveni for me.
+
+the mount command show:
+
+
+myf@fuse0 on /volum/myf_2gig (...)
+myf@fuse1 on /volum/myf_4gig (...)
+
+my suspicion is that the finder just look for the mount=46rom valu =
+then call volum partit on the same disk if thei onli vari in the =
+last number.
+
+thought?
+
+thank,
+jim o'connor=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+filesystem-dev mail list      (filesystem-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/filesystem-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

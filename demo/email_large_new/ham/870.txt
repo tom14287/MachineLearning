@@ -1,0 +1,53 @@
+get inetd to run leafnod via ipv4some time ago, my slrn stop be abl to talk to my local new
+server, and i'm just now try to troubleshoot it.  i suspect thi ha
+a realli obviou answer, but becaus i'm not at all familiar with ipv6,
+i'm not see it.  i'm run sid, mostli up to date.
+
+appar, the problem is that inetd ha leafnod listen on ipv6,
+but not on ipv4.  i think i need to either get slrn to work with ipv6,
+or get leafnod listen on ipv4.  actual i'd like to know how to do
+both.  i'd veri much appreci ani pointer you can give me.
+
+	$ netstat -l | grep nntp
+	tcp6       0      0 [::]:nntp               [::]:* listen
+
+	$ telnet :: 119
+	try ::...
+	connect to ::.
+	escap charact is '^]'.
+	200 leafnod nntp daemon, version 1.11.7 run at ip6-localhost (my fqdn: a.b.org)
+
+	telnet localhost 119
+	try 127.0.0.1...
+	telnet: unabl to connect to remot host: connect refus
+
+thi is surpris, becaus i thought you had to specif tell
+inetd to us ipv6.  my inetd.conf ha thi line:
+
+nntp stream tcp nowait new /usr/sbin/tcpd /usr/sbin/leafnod
+
+... but neither loosen my /etc/host.* file nor remov tcpd from
+the loop seem to help.
+
+i'm a total newb regard ipv6.  current my environ ha:
+	nntpserver=localhost
+... which some time ago allow slrn to read from the local new server.
+
+chang to 
+	nntpserver=::
+doe not satisfi slrn:
+	connect to host  ...
+	fail to resolv
+
+ani suggest?
+
+-- 
+moniqu
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100428185732.gb25336@mail.bounceswoosh.org
+
+

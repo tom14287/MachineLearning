@@ -1,0 +1,59 @@
+re: lilo remov in squeez (or, "pleas test grub2")stephen powel  write:
+
+> on mon, 24 mai 2010 13:38:55 -0400 (edt), ferenc wagner wrote:
+>> stephen powel  write:
+>>> on mon, 24 mai 2010 05:29:56 -0400 (edt), ferenc wagner wrote:
+>>>> stephen powel  write:
+>>>>> both grub-legaci and grub-pc us sector on the hard disk outsid of
+>>>>> the master boot record [...]
+>>>>
+>>>> you mai want to try extlinux, it work much like lilo in thi respect.
+>>>
+>>> thank for the tip.  that mai be an option.  i look at the document
+>>> onlin, and there doe not appear to be an option equival to lilo's
+>>> vga option, though, which i us a lot, especi sinc svgatextmod
+>>> ha alreadi been pull from squeez.
+>> 
+>> i'm not sure what you're after, i haven't us lilo for ag.  but
+>> type vmlinuz-2.6.32 vga=0xf07 at the pxelinux boot prompt give me a
+>> 80x60 consol.  the other variant us the same code.
+>
+> interest.  at on point, the kernel itself had de-support the
+> vga boot option, reli on the boot loader to set the video mode
+> befor transfer control to the kernel.  and now you're sai
+> it's back.  hmm.  accord to document/svga.txt in the kernel
+> sourc tree:
+>
+>    thi small document describ the "video mode select" featur which
+>    allow the us of variou special video mode support by the video bio.
+>    due to usag of the bio, the select is limit to boot time (befor
+>    the kernel decompress start) and work onli on 80x86 machin.
+>
+> note the word "befor the kernel decompress start".  that to me
+> impli "done by the bootload", becaus the bootload decompress
+> the kernel (if it is compress) befor transfer control to it,
+> doe it not?
+
+it doe not, the kernel is sort of a self-decompress binari.
+howev, the vga= paramet is inde pars by the bootload and
+pass to the kernel by a special protocol.  it's then us befor the
+kernel pars it command line.
+
+> i'm go to have to try instal squeez us extlinux as the boot
+> loader.  (no doubt i'll have to chang bootload after instal,
+> as the debian instal won't offer that option.)
+
+ye, you'll have to back out of grub instal, start a shell, chroot
+into /target, and instal exlinux.  take care to have /boot on an ext2
+partit.
+-- 
+good luck!
+feri.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87iq6dytpl.fsf@tac.ki.iif.hu
+
+

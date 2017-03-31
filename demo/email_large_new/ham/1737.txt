@@ -1,0 +1,68 @@
+re: question about avoid duplic ip addresson mon, mai 10, 2010 at 12:49 pm, camal=c3=b3n  wrote:
+> on mon, 10 mai 2010 11:57:35 +0200, israel garcia wrote:
+>
+>> on mon, mai 10, 2010 at 10:41 am, camal=c3=b3n wrote:
+>>
+>>> doe thi help?
+>>>
+>>> ***
+>>> http://wiki.xensourc.com/xenwiki/xennetwork#head-
+> d5446face7e308f577e5aee1c72cf9d156903722
+>
+>> i could be possibl for me to configur thi on everi dom0 and setup an
+>> dhcp server for all host. but, it's a littl complic. i'd prefer to
+>> look for other solut to see how can i protect my ip server if a
+>> newon get an us ip. i wa take a look at thi
+>> http://sourceforg.net/project/ipwatchd/, but i've to make my own test.
+>>
+>> is there someth similar tp ipwatchd insid debian os?
+>
+> it's avail in sid:
+>
+> http://packag.debian.org/sid/ipwatchd-gnotifi
+>
+> but, ar you sure you want such a solut for your xen dom? :-?
+no, i'm not. :-)
+>
+> that tool seem to be focus for desktop user and just for alert
+> purpos, i mean, what is intend to do when it detect a ip conflict?
+ ipwatchd v1.2 ha some chang, is sai "it protect your host befor
+ip takeov by answer gratuit arp request receiv from
+conflict system"
+>
+> you can us a network scanner (nmap, arp-scan, netdiscov...) to prevent
+> assign a duplic ip address to the host but i'm not sure thi is
+> your goal.
+>
+i know, but somtim manual error come when setup a new domu's network.
+
+thank
+regard
+israel.
+> greet,
+>
+> --
+> camal=c3=b3n
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact listmast@list.debian=
+.org
+> archiv: http://list.debian.org/pan.2010.05.10.10.49.45@csmine.org
+>
+>
+
+
+
+--=20
+regard;
+israel garcia
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktilggev17cjaclqhnt25523umv7tl2krn9vzggde@mail.csmine.org
+
+

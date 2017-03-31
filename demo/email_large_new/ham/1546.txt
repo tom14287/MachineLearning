@@ -1,0 +1,17 @@
+mail error or attack?i get a zillion of these, everi singl dai, about everi 5 minut or so:
+
+2010-05-24 15:05:38 smtp call from localhost (dovidhalevi) [127.0.0.1] 
+drop: too mani syntax or protocol error (last command wa "mail 
+from: size=8814")
+
+i am run exim4 heavi on a sid box.
+
+exim show no stuck messag or such. how can i stop thi?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005241931.12558.d_baron@012.net.il
+
+

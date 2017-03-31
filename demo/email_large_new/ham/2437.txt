@@ -1,0 +1,18 @@
+re: vm softwar for person us?on 4/24/2010 4:56 pm, b. alexand wrote:
+. even with it's vboxheadless function,
+> it [vbox is] still a bit too dodgi for a group of machin that need to stai up.
+
+
+i would have said that about xen.
+
+(op did sai "person us", so i assum desktop.)
+
+maa
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd3e137.6050806@allum.com
+
+

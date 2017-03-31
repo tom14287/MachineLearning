@@ -1,0 +1,11 @@
+a non-integ power function on the pixel shaderurl: http://www.newsisfre.com/click/-4,6436947,159/
+date: 2002-08-01t09:04:55+01:00
+
+thi featur, excerpt from wolfgang engel's shaderx book from wordwar 
+publish, present a simpl shader trick that perform a good per pixel 
+approxim of a non-integ power function. the techniqu work for input 
+valu between 0 and 1 and support larg expon. the present shader doe 
+not requir ani textur look-up and is scalabl, make it possibl to spend 
+more instruct in order to decreas the error or to reach greater expon.
+
+

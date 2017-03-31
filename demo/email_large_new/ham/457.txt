@@ -1,0 +1,33 @@
+[sadev] [bug 1049] pathnam for "triplet.txt" is incorrect.http://www.hugh-famili.org/bugzilla/show_bug.cgi?id=1049
+
+felic@kluge.net chang:
+
+           what    |remov                     |ad
+----------------------------------------------------------------------------
+             statu|new                         |resolv
+         resolut|                            |fix
+
+
+
+------- addit comment from felic@kluge.net  2002-10-03 13:26 -------
+hmmm, my last messag doesn't seem to have made it into bugzilla yet.
+
+i've commit a patch to fix thi problem in both head and b2_4_0.  the last
+messag explain what the problem wa and what the patch doe to fix it.
+
+
+
+------- you ar receiv thi mail becaus: -------
+you ar the assigne for the bug, or ar watch the assigne.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-devel mail list
+spamassassin-devel@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-devel
+
+

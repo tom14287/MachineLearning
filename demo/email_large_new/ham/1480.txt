@@ -1,0 +1,37 @@
+re: pdf is block for print, etc. ok for acroread (it behav
+ as expect), but kpdf allow me to print it, even if it is	protect! why?from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+johann wiedersich wrote:
+> merciadri luca wrote:
+> > gunnar wolf wrote:
+> >> merciadri luca dijo [tue, apr 20, 2010 at 02:00:13pm +0200]:
+> >>  =20
+> >>
+> >> yet, you sai in your previou repli thei would be abl to remov the=
+
+> >> watermark from the document. that is clearli more complic.
+> >>  =20
+> > sure, but i think that pdf ar compos `in layer,' aren't thei? if=
+
+> > `layer' were not merg togeth, it might still be possibl to remo=
+ve
+> > the watermark.
+>
+> gunnar did not suggest not to merg the layer, did he?
+he did not, as you said.
+> just us a grei-by-dot watermark for black text, merg the layer
+> and it will
+> be rather difficult to remov the watermark.
+i did not merg the layer befor send it to them. problemat?
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+a woman is like a cup of tea; you'll never know how strong she is until
+she boil.
+

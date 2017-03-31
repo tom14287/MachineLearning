@@ -1,0 +1,29 @@
+pinentri window?from nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="us-ascii"
+content-transfer-encod: quot-printabl
+
+heyho!
+
+=2e.. and, send the last mail: is it a debian specif issu, or some lo=
+cal=20
+featur of my kde profil, or a kde bug: recent (4.3 to 4.4, but i'm not=
+=20
+sure exactli which updat trigger it), the pinentri window alwai come=
+=20
+up behind the kmail window when i sign email.  confus me a bit at=20
+first... (luckili it is still modal rel to the kmail window, so the=20
+kmail compos get grei out, indic that the pinentri might be=20
+somewher...)
+
+mostli everyth relat to kde is experiment or qt-kde repositori.=20
+pinentri-qt4 is 0.8.0-1.
+
+cheer
+=2d- vbi
+
+=2d-=20
+develop code can brick your network adapt,
+scrambl your filesystem, open up sever secur
+hole, or save your document as ooxml
+        -- jonathan corbet, linux weekli new

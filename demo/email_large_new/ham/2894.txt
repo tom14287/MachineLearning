@@ -1,0 +1,27 @@
+re: [ilug] us normal id devic with a dell latitud cpx laptopdarren kenni wrote:
+> hi,
+> 
+> i've got an normal 3.5" cd-rw id drive that i'd like to be abl to us 
+> with a dell latitud cpx laptop that i've got. doe anyon know ani wai 
+ > enabl thi, for exampl through the us of a special cabl for the
+ > modular bai (where cd-rom or floppi drive is normal).
+
+there is absolut no wai to us a convent 3.5" drive with a
+laptop directli. howev, you can get an extern firewir or usb
+cradl and attach it to the laptop like that, and ani 3.5" drive
+will work in that case.
+
+exampl :
+
+http://www.microsens.com/usb_35_combo.asp
+
+regard,
+
+vin
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

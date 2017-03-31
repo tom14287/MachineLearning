@@ -1,0 +1,46 @@
+re: xterm colory ar hardcod the :0 displai there... you ar probabl just get =
+a differ on... you should realli look into ssh tunnel x11 =
+instead...
+
+--jeremi
+
+on mai 25, 2010, at 01:42, william chop westfield wrote:
+
+>=20
+> on apr 29, 2010, at 9:27 am, jeremi huddleston wrote:
+>=20
+>>> also, thi is anoth newbi question, but
+>>> if i us ssh to connect to my desktop,
+>>> i cannot forward ani x11 applic into
+>>> my laptop. i tri xhost + and noth happen.
+>>=20
+>> 'xhost +' enabl connect without authent from other =
+system over tcp/ip and ha noth to do with ssh tunnel.  make sure =
+you're sshing to the remot system us 'ssh -y' and that the remot =
+system allow ssh tunnel in it /etc/sshd_config.
+>=20
+> i also recent got the latest system updat for 10.5.8 and had to =
+instal x11-2.5.1_rc1 over that to get work again (not unexpect.)
+>=20
+> howev, i no longer seem to be abl to start xwindow remot on my =
+desktop (not via ssh tunnel; just ssh to the host with no tunnel, =
+and do "xterm -displai mymac:0")  it fail with 'cannot connect" issu, =
+in spite of either xhost +remotesystem or even just "xhost +"  i don't =
+see ani relat messag on the mac-side consol...
+>=20
+> is thi someth in x, or someth in the secur updat?  i can =
+still ssh to my mac, so the firewal hasn't cut everyth out.  by the =
+firewal panel doe look differ than i rememb it.
+>=20
+> ani idea?
+> thank
+> bill w
+>=20
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,62 @@
+how do i get the mbr packag to do it job quietli?i have been experi with the mbr packag.  (mbr is a depend for
+the lilo packag; so if you have lilo instal you have mbr packag instal
+too.)  i usual instal lilo to the master boot record (boot=/dev/hda
+specifi in /etc/lilo.conf).  but in certain situat it is advantag to
+instal lilo to the boot sector of a primari partit (boot=/dev/hda1) and
+instal a do-like master boot record program in the master boot record,
+make the partit contain the lilo boot loader the activ partit.
+
+for exampl, on some of our dell server on can bring up a "boot menu" via
+the bio setup program by press f12 dure the post process.  (thi is dure
+post and befor the actual boot process.)  upon complet of post, the "bio
+boot menu" (not to be confus with the boot menu of ani boot loader) will
+be displai.  on of the choic in thi bio boot menu is "boot to util
+partit", or someth like that.  thi boot a mainten partit
+contain some hardwar test program suppli by dell.  thi work fine
+if the master boot record is a standard do/window-style master boot record,
+but doe not work with linux-style boot loader, such as grub or lilo.
+of cours, i can alwai add the mainten partit to the lilo boot
+menu, but our non-linux-profici technician aren't us to thi.  i
+want a linux box to look just like a window box as view by a servic
+technician.
+
+i could us do or window to instal it master boot record program
+with "fdisk /mbr" or fixmbr, or whatev, depend on the releas of
+do or window, and set the linux partit activ, and that work.  but
+microsoft mai claim that thi mean that our box requir a licens
+for do or window.  i'd hate to burn a window licens just to get it
+master boot record instal, when that's all i'm us.  it would seem that
+the mbr packag in debian gnu/linux is just the ticket for thi sort of
+problem.  i have run the "instal-mbr" program, and it work just as
+expect.  there is just on littl nit left that i would like to take
+care of.  lilo advertis itself by print out "lilo" on the screen
+prior to boot the linux kernel.  that's fine.  i want to see that.
+mbr also advertis itself by print out "mbr" on the screen when it
+boot.  so what i see at boot time is someth like thi:
+
+   mbr
+
+   lilo 22.8 load linux
+   bio data check success
+
+and then the linux kernel boot messag.  that's toler, but i'd
+like that "mbr" advertis to be elimin.  i read the man page
+for instal-mbr, and i can see how to elimin the boot prompt,
+which i have done, but i couldn't find a wai to suppress the mbr
+advertis.  the do/window mbr program is total silent, a trick
+that i would like to teach thi program.  doe anyon know of a wai
+to accomplish thi?  or is thi just someth i have to live with?
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1287129746.1654901270657281956.javamail.root@md01.wow.synacor.com
+
+

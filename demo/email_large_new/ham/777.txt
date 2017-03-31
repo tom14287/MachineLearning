@@ -1,0 +1,21 @@
+assign keycod to copi and pastear there keycod for cut, copi and past? i tri us the
+"obviou" xf86copi and xf86past guess but those did not work. for
+that matter, where can on find a list of all avail code? i have
+googl for variou combin of "linux debian keycod scancod
+list" but found no such list!
+
+thank.
+
+-- 
+dotan cohen
+
+http://gibberish.co.il
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktin6bqghd8sy-u7awekim7zjjlou7k-kfvmddkmy@mail.csmine.org
+
+

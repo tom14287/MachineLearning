@@ -1,0 +1,59 @@
+re: recent mobo recommendationon 2010-04-15 13:55, hugo vanwoerkom wrote:
+> ron johnson wrote:
+>> on 2010-04-14 11:12, hugo vanwoerkom wrote:
+>>> ron johnson wrote:
+>>>> on 2010-04-13 15:53, hugo vanwoerkom wrote:
+>>>>> hi,
+>>>>>
+>>>>> anybodi instal a recent motherboard that thei ar happi with?
+>>>>> i am due for an upgrad and there ar too mani choic.
+>>>>>
+>>>>
+>>>> come on, man...  you should know the drill.
+>>>>
+>>>> specifi:
+>>>>
+>>>> o budget
+>>>> o need featur
+>>>> o prefer featur
+>>>>
+>>>
+>>> budget - ani
+>>>
+>>> need featur - desktop configur, at least 2 pci express slot 
+>>> - atx form factor
+>>>
+>>> prefer featur - run with debian
+>>>
+>>
+>> atx mean you'll get lot of built-in featur.  i like my gigabyt 
+>> ga-ma780g-ud3h mobo with am2+/am2 socket.
+>>
+>> 8gm ram, 6 sata, 1 (or 2, i forget) rear esata, lot of usb, a front 
+>> and rear firewir and decent on-board audio.  on-board ati video with 
+>> separ video ram, but i instal a fanless nvidia card becaus the 
+>> driver situat is *simpl*, and it's fast.
+>>
+> 
+> too bad it's a newegg outofstock item:
+> http://www.newegg.com/product/product.aspx?item=n82e16813128382
+> 
+
+probabl supersed by a newer model.
+
+do you need/want:
+o on-board video?
+o latest/greatest cpu?
+o intel or amd?
+o to bui new ram?
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc7798c.401@cox.net
+
+

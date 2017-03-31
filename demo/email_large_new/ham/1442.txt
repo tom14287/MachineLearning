@@ -1,0 +1,18 @@
+re: hi how to escap under ` ` in shon wed, apr 21, 2010 at 2:01 pm, nick douma  wrote:
+>>>
+> when us singl quot ('), everyth in the string is liter, so no escap is requir. you onli need escap when us doubl quot (").
+>
+
+it is not quot '' but `` :-)
+
+thank
+
+--siju
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/i2nb713df2c1004210141vc61462aaqd9add3d8934a6cae@mail.csmine.org
+
+

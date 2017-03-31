@@ -1,0 +1,76 @@
+re: timezon for kontact serious broken in lennyon sun, 2010-04-18 at 11:42 +0000, camal=c3=b3n wrote:
+> on sat, 17 apr 2010 16:58:19 -0400, john a. sullivan iii wrote:
+>=20
+> > hello, all.  we have some client eager to migrat from
+> > exchang/outlook/window to debian lenni.  zimbra is work well on th=
+e
+> > back end but is lack as an outlook replac - great web interfac
+> > but still lack some essenti featur.  evolut doe not support
+> > address book from zimbra so that leav us with kontact.  kontact is
+> > great except it seem serious broken in sever regard specif
+> > korgan.  the kde respons is to upgrad to kde4. =20
+>=20
+>=20
+> the fact is that upstream kde develop have stop the develop of=20
+> kde 3.5.x branch, so no more improv ar ad to the exist=20
+> program. i think onli critic bug ar still watch and fix.
+>=20
+>=20
+> > sinc we ar on
+> > lenni, we ar on kde 3.5 and we'd like to keep it that wai until kde4
+> > matur a bit more.  how ar lenni user handl the crippl bug?=20
+>=20
+>=20
+> i wa a kde 3.5.x user for long time (2003-2010) but switch to gnome as=
+=20
+> soon as the first kde 4.0 came to scene (it wa not intend for end-
+> user but *we had* to deal with it and the result wa mani peopl=20
+> search anoth altern, me includ).
+>=20
+> but now, kde sc 4.4 ha noth to do with that time. last time i test=
+=20
+> i found it stabl enough for daili us. so the advic of updat to kde=20
+> 4 (if you still want to us kde) is now valid.
+>=20
+>=20
+> > i did not see anyth in backport.  here's what we ar see:
+> >=20
+> > timezon: ani appoint synchron with korgan from zimbra ar=
+e
+> > interpret as utc.  thu, all appoint ar offset by our offset
+> > from utc.  thi is the bug which is render it unus and is
+> > appar well known.  i can't believ thi is broken in a product
+> > system.
+> >=20
+> > malform uri: calendar request via imap ar request
+> > myserv.mycompani.com:993calend instead of
+> > myserv.mycompani.com:993/calend.  we can work around thi by us
+> > webdav instead.
+> >=20
+> > thi is crippl us on a potenti huge lenni deploy.  ani know
+> > fix? thank - john
+>=20
+>=20
+> dunno how to manag thi in debian :-? but there is a dedic list=c2=
+=b9=20
+> that mai provid you more accur help about thi.
+>=20
+> =c2=b9 http://list.debian.org/debian-kde/
+
+ah, thi is so deepli frustrat! kde 4.4 sound great but it is
+nowher to be found in debian but in experiment and it sound like it
+is nowher near readi for product.  3.5.10 is truli and complet,
+unus broken for calendar other than in a standalon world.
+
+it look like evolut ha introduc webdav support for contact in
+2.24 and we can grab 2.28 from test.  that sound better than
+experiment so mayb we need to abandon kmail (sigh) and think about
+evolut instead.  thank, all - john
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1271730517.4308.2.camel@localhost
+
+

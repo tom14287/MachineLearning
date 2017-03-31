@@ -1,0 +1,15 @@
+re: [ilug] suse 8 disk? (thread chang slightli)on mon, 2002-08-12 at 19:26, rick moen wrote:
+> non-freeli redistribut app (in box set):
+> -----------------------------------------------
+> sap databas
+
+the same on as provid on www.sapdb.org? 
+which is releas under the gpl/lgpl?
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

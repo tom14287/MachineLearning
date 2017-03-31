@@ -1,0 +1,46 @@
+[ilug] re: mutt + outboxsaw thi on mutt user.  might be a handi trick for those of with
+hyperact archiv gene...  :)
+
+thi might work better in thi long run though:
+
+   set record='~/mail/outbox-`date "+%y-%m"`'
+
+on sat, jul 27, 2002 at 07:08:57pm +0200, rocco rutt wrote:
+> hi,
+> 
+> * dean richard benson [02-07-27 19:05:49 +0200] wrote:
+> 
+> [...]
+> > so in my mutt config file i have thi:
+> > set record=mail/outbox
+> 
+> > ..that work a treat, except that it start to grow a
+> > littl (after 4 month), and i think mayb the abil to
+> > have an outbox folder and then for the abov command to
+> > auto-assign to the correct month?
+> 
+> what about:
+> 
+>   set record='~/mail/outbox-`date "+%m"`'
+> 
+> you could also leav it as it current is and us the
+>  function to view onli mail within a specif 
+> date rang.
+> 
+>    bye, rocco
+> 
+
+kevin
+
+-- 
+kevin@suber.net     that a believ is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspac place: home       than a sober on. the happi of credul is a
+http://ie.suber.net/~kevin   cheap & danger qualiti -- g.b. shaw
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

@@ -1,0 +1,20 @@
+re: how to find a printer driver?from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+content-transfer-encod: quot-printabl
+
+on mon, 10 mai 2010 21:59:56 +0100
+brad roger  wrote:
+
+hello brad,
+
+> hplip-data packag from there, or wait for it to migrat.
+
+oop!  it mai also be in hpij-ppd.  i didn't check close.
+
+--=20
+ regard  _
+         / )           "the blindingli obviou is
+        / _)rad        never immedi appar"
+
+i ain't got no time for intellectu music, e.g. hergest ridg
+alberto y lost trio paranoia

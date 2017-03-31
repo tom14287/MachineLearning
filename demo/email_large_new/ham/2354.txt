@@ -1,0 +1,29 @@
+re: 64-bit netbook with debian linuxon 05/03/2010 06:20 pm, delopt wrote:
+> mark allum wrote:
+>
+>> with 64 bit, you will need more memori, so i suggest you look for a
+>> machin that can us 4 gb of memori.
+>>
+>
+> i also found that peopl underestim the import of l2/3 cach. i'm
+> compil veri often and it's realli faster on my develop's notebook with
+> 4m cach then on faster cpu with 512k. the differ is in the term of
+> 4-8 time.
+> i've notic that there is onli 512k cach in the most netbook which make
+> then unsuit for develop. atm thi is stop me from bui on.
+> do you know if there ar some with larger cach?
+>
+
+just as a mini cooper isn't a dragster or a lorri, netbook ar not 
+*design* for heavi comput abil.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdf7e7c.5070304@cox.net
+
+

@@ -1,0 +1,28 @@
+re: [ilug] [ot] oceanfre dial-up numberactu, thei do; though thei aren't case sensit. it seem to have some 
+troubl wtih pap/chap authent  as well; you might have to do it by 
+script?
+
+on fridai 26 juli 2002 12:37, liam bedford wrote:
+> on fri, 26 jul 2002 12:23:24 +0100
+>
+> hamilton,david (hp-ireland,ex2) claim to think:
+> > hi all,
+> >
+> > i am try to find the oceanfre isdn dialup number for dublin.
+> > http://iiu.taint.org/ appear to be down, or at least i can't get to it,
+> > and i don't want to pai oceanfre ¤10 per second for tech support :-).
+>
+> 01-2434321
+> usernam: oceanfre
+> password: oceanfre
+>
+> don't think the usernam and password matter much though.
+>
+> l.
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

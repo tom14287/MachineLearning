@@ -1,0 +1,75 @@
+re: no core dump.thank !!! thi work.
+i did
+ ulimit -c unlimit.
+
+i tri track ulimit.  if i do
+which ulimit, i am not get anyth. [ i expect the path of thi binari=
+ ]
+
+is it a built in bash command or someth like that ????
+
+on sun, mai 23, 2010 at 6:35 am, anand sivaram  wrote:
+>
+>
+> on sat, mai 22, 2010 at 23:07, aioanei rare 
+> wrote:
+>>
+>> on 05/22/2010 08:10 pm, avinash h.m. wrote:
+>>>
+>>> hi all,
+>>>
+>>> i am us dsl [ damn small linux ] which is branch from debain.
+>>> i am try to us gcc, gdb. =a0abl to instal both of them.
+>>>
+>>> i am do follow
+>>> =a0 =a0 =a0- run a helloworld.c program whic ha a while loop. =a0so wh=
+il
+>>> run, it stuck in while.
+>>> =a0 =a0 =a0- anoth shell, "kill -11 pid" [ pid of the ./a.out ]
+>>> after kill, i get segment fault. =a0but core is not dump. [ i
+>>> expect a print ( core dump ) ]
+>>>
+>>> anyon face thi ??? pleas help.
+>>>
+>>> thank
+>>> - avinash
+>>>
+>>>
+>>>
+>>
+>> first, compil your program with -g, then take a look at man core. not
+>> everi program that ha receiv
+>> a segfault signal dump core. =a0look at gcore to see how to gener it=
+.
+>>
+>>
+>> --
+>> to unsubscrib, email to debian-user-request@list.debian.org with a
+>> subject of "unsubscrib". troubl? contact listmast@list.debian.org
+>> archiv: http://list.debian.org/4bf81657.7060002@csmine.org
+>>
+>
+> normal core dump is disabl. =a0you could find the maximum size of cor=
+e
+> file creat us "ulimit -a", normal that is 0.
+> increas it us
+> ulimit -c 
+>
+
+
+
+--=20
+knowledg is power,  share it.
+
+birth is joy, death is pleasant, but it the transit which is troubl=
+some.
+
+with warm regard, avinash
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktincxyjpxn2wqcmulghbizinbnkf8dm7hz9xfgpf@mail.csmine.org
+
+

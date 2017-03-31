@@ -1,0 +1,22 @@
+re: vm softwar for person us?hi, richard,
+
+i am run window xp 32 bit, window xp pro 64 bit, and, at the
+moment, ubuntu 10.04 in virtual box. everi "just work", includ the
+web, usb attach, etc.. i recommend it.
+
+thi is the non-free sun version, though, as i didn't have a lot of
+luck (it wa some time ago) with the packag version.
+
+ymmv
+
+hth
+
+terenc
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/y2mc7e110fe1004230945qd8d3d37zc5a50d60a3e8b961@mail.csmine.org
+
+

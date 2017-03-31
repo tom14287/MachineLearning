@@ -1,0 +1,23 @@
+debian at berkeleytip-global meet on sundai april 18 12n-3p, & april
+ 27come discuss debian. :)  join via voip or come to berkelei
+http://site.googl.com/site/berkeleytip/voic-voip-conferenc
+fscafe at moffitt at ucberkelei, open 1pm, but can connect from outsid
+at 12n.
+
+hot topic: ubuntu 10.04, free culutur, voip, set up the web server &
+mail list & asterisk/freeswitch on the btip box with ubuntu 10.04?
+
+tue april 27 5-6p voip onlin meet also.
+
+http://site.googl.com/site/berkeleytip/
+
+join the mail list, tell us what you're interest in.
+http://site.googl.com/site/berkeleytip/mail-list
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1271567709.19399.1370527791@webmail.messagingengin.com
+
+

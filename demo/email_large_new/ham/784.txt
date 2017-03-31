@@ -1,0 +1,34 @@
+re: [ilug] rpm dependencieson sat, oct 05, 2002 at 06:06:14pm +0100, padraig bradi mention:
+> ok i'm upgrad vorbi on my machin and i'm get
+> the follow:
+> 
+> # rpm -u libvorbi-* vorbi-tool-1.0-1.i386.rpm
+> error: fail depend:
+> 	libvorbisfil.so.0   is need by sdl_mixer-1.2.0-4
+> 	libvorbisfil.so.0   is need by xmm-1.2.5-7
+> 	libvorbisfil.so.0   is need by tuxrac-0.61-5
+> 
+> thi is becaus the new libvorbi.rpm onli ha libvorbisfil.so.3
+> so is thi a problem in the other packag depend on
+> a specif version (libvorbisfil.so.0) rather than on the
+> gener libvorbi.so ?
+
+ thi is a pain. 
+
+ the onli wai you can resolv thi, to my knowledg is to download the
+origin libvorbi rpm and the new on. remov the old on, then do:
+
+ rpm -uvh libvorbi-*
+
+ rpm then assum that you want both version instal at the same time,
+and doe so. why you can't do thi after you have on librari alreadi
+instal is beyond me.
+
+kate
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

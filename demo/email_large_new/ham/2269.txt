@@ -1,0 +1,23 @@
+re: mous/keyboard "hook"?on thu, apr 29, 2010 at 3:19 pm, luke scott  wrote:
+
+> is quartz "the option" or "on of the option" for captur keyboard and
+> mous event? if it's on of the option, i would be interest in know
+> what the other option ar.
+
+the support modern wai is via the cgevent api...
+
+
+
+... the best list for thi api is like ...
+
+
+
+-shawn
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

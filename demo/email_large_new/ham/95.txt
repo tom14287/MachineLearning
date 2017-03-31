@@ -1,0 +1,38 @@
+[us perl] stori for 2002-10-01us perl daili newslett
+
+in thi issu:
+    * thi week on perl5-porter (23-29 septemb 2002)
+
++--------------------------------------------------------------------+
+| thi week on perl5-porter (23-29 septemb 2002)                  |
+|   post by rafael on mondai septemb 30, @17:26 (summari)      |
+|   http://us.perl.org/articl.pl?sid=02/09/30/2151221              |
++--------------------------------------------------------------------+
+
+thi wa a nice week, with lot of discuss, on variou interest
+topic. read on for strang bug, strang fix, strang error messag,
+and as alwai, the ongo effort made to improv perl 5.
+
+thi stori continu at:
+    http://us.perl.org/articl.pl?sid=02/09/30/2151221
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/09/30/2151221
+
+
+
+copyright 1997-2002 pudg.  all right reserv.
+
+
+======================================================================
+
+you have receiv thi messag becaus you subscrib to it
+on us perl.  to stop receiv thi and other
+messag from us perl, or to add more messag
+or chang your prefer, pleas go to your user page.
+
+	http://us.perl.org/my/messag/
+
+you can log in and chang your prefer from there.
+
+

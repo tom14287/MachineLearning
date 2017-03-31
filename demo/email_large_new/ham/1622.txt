@@ -1,0 +1,24 @@
+re: how do i fsck and xf file system in "squeez"from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on fri,21.mai.10, 19:19:13, mark allum wrote:
+=20
+> doe touch /forcefsck (as root) work?
+
+$ grep forcefsck /etc/init.d/*
+/etc/init.d/checkf.sh:		if [ -f /forcefsck ] || grep -s -w -i "forcefsck" =
+/proc/cmdline
+/etc/init.d/checkf.sh:	rm -f /fastboot /forcefsck 2>/dev/null
+/etc/init.d/checkroot.sh:		if [ -f /forcefsck ] || grep -s -w -i "forcefsck=
+" /proc/cmdline
+
+both script don't seem gener enough to me. fscking for xf should=20
+work as long as you have the relev tool instal.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

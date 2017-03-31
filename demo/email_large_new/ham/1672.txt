@@ -1,0 +1,43 @@
+re: debian sy admin train / certificationth info you gui share is much appreci - thi give me a good
+idea of direct and what rout to take.
+
+
+thank you,
+
+abraham
+
+
+
+
+
+on thu, apr 8, 2010 at 6:44 pm, carlo mennen  wrote:
+> on thu, apr 8, 2010 at 4:34 pm, abraham chaffin  wrote:
+>> what train / certif cours would you gui recommend for sy admin
+>> / secur admin train or certif for debian?
+>> is the lpic a good rout? go with red hat certif? or what do you all
+>> suggest?
+>
+> certif ar realli noth special these dai. back in 2001
+> thei might have held water but i don't think thi is the case ani
+> longer. as for your question, i recommend you start 1st with the
+> comptia linux+ certif exam. after that i can onli recommend the
+> rhct / rhce red hat exam. it's industri respect and veri us for
+> career advanc and person satisfact.
+>
+> good luck!
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+> archiv: http://list.debian.org/y2sd80f793f1004081844r61d3e2f0z8d8d480be79b6f96@mail.csmine.org
+>
+>
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/i2sd82d32e1004090748y8eacd3aaj9e598346cc905d57@mail.csmine.org
+
+

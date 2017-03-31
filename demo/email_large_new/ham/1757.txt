@@ -1,0 +1,46 @@
+re: [razor-user] empti mail is spamm?razor won't filter empti email. what version of the agent ar you us?
+
+cheer,
+vipul.
+
+on mon, sep 16, 2002 at 04:16:31pm +0300, raido kurel wrote:
+> hi,
+> 
+> is it possibl to us razor without filter empti mail as spamm?
+> an mail with an attach is consid spamm. is thi normal?
+> or i mysqlf like to send email to myself where all import is said in
+> subject and bodi is empti (for remain smth).
+> 
+> thank,
+> raido kurel
+> 
+> 
+> 
+> 
+> -------------------------------------------------------
+> thi sf.net email is sponsor by:thinkgeek
+> welcom to geek heaven.
+> http://thinkgeek.com/sf
+> _______________________________________________
+> razor-user mail list
+> razor-user@list.sourceforg.net
+> http://list.sourceforg.net/list/listinfo/razor-user
+
+-- 
+
+vipul ved prakash          |   "the futur is here, it's just not 
+softwar design artist     |    wide distribut."
+http://vipul.net/          |              -- william gibson
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

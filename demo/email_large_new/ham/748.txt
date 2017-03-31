@@ -1,0 +1,29 @@
+strang issu after upgrad to latest 10.6.3hi folk,
+
+i *think* thi happen after upgrad to 10.6.3, but i also recal
+there wa a secur patch, i apolog becaus i wa sort of
+absentmindedli updat myself which i hadn't done in a while.  so...er,
+not exactli sure what the caus is.  but, the issu is thi:
+
+when i'm us x11/xquartz (i've just tri the default xterm as well as
+rxvt i instal via macport), what seem to happen is that i can open
+a termin and us it for a littl while, but if i leav x11, that is if
+it loos focu, and then i come back, i can no longer switch between
+window, enter anyth with the keyboard, click and select window with
+my mous, etc.  all input to x11 seem to be dead.  i have to kill it
+and then restart it again to get it to work at all, and then the same
+thing happen.  i've tri reinstal it but that hasn't help.
+
+doe thi behavior ring a bell to anyon?  ani help would be greatli
+appreci, i live in rxvt and don't like us termin.app veri much!
+
+thank--
+
+dave
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

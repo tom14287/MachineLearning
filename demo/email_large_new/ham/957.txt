@@ -1,0 +1,29 @@
+/home/dudehi,
+
+some time now the follow messag were haunt me:
+
+     automount[11593]: attempt to mount entri /home/dude
+
+it just came to my attent, that onli freshrpm benefit host show thi
+up. i grep through the binari and found referr to /home/dude.
+
+# grep /home/dude /usr/bin/*
+binari file /usr/bin/aaxin match
+binari file /usr/bin/gentoo match
+binari file /usr/bin/gphoto2 match
+binari file /usr/bin/gtkam match
+...
+
+i am now relax again ;), and pass thi info on. probabl matthia saou
+himself is "dude", and some packag ha hardwir a path in hi build
+directori. it would be nice to find out which and fix it, but i am us too
+mani of the freshrpm suit to narrow it down.
+
+regard, axel.
+-- 
+axel.thimm@physik.fu-berlin.de
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

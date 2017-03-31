@@ -1,0 +1,39 @@
+re: filesystem recommend
+ron johnson  wrote:
+> b. alexand wrote:
+> > ron johnson  wrote:
+
+> [snip]
+
+> >> xf is the canon fs for when you have lot of big file.  i've
+> >> also seen simpl benchmark on thi list show that it's faster
+> >> than ext3/ext4.
+
+> > that cool. what about lot of littl file? that wa anoth of the draw
+> > of reiser3. i have a space i mount on /media/archiv, which ha everyth
+> > from mp3/ogg and movi, to book to a bunch of tini file. thi will
+> > probabl be the first victim for the xf test partit.
+>
+> that same unoffici benchmark show surpris small-file speed by
+> xf.
+
+would you happen to have ani link to such benchmark, unoffici or
+otherwis?
+
+my experi ha been that whenev i look at filesystem benchmark,
+thei skip the mani-small-file case.  i've alwai had the feel that
+most of the big filesystem care a lot about scale up in file-size,
+but not too much about anyth els.
+
+i'm a reiser3 user myself, and i've never had ani problem with it.
+
+(the troubl with it be "long in the tooth" is mostli hypothet,
+isn't it?)
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004291917.o3tjhsig000473@kzsu.stanford.edu
+
+

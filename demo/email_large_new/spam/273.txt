@@ -1,0 +1,444 @@
+[spam]  no idea too?
+
+
+health monitor newslett
+
+bodi {
+   background-color: #ffffff;
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #4c4c4c;
+   margin: 0;
+   pad: 0;
+}
+a, a:activ, a:visit {
+   color: #2591be;
+   text-decor: none;
+}
+td.header p {
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #ffffff;
+   margin: 0;
+   pad: 0;
+   text-align: left;
+}
+td.header p a {
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #ffffff;
+   text-decor: none;
+}
+td.spacer_header {
+   pad: 4px 0 4px 0;
+}
+td.subhead {
+   background-color: #000000;
+   pad: 4px 10px 4px 10px;
+}
+td.link {
+   text-align: right;
+   font-size: 11px;
+	pad-top: 2px;
+}
+td.subhead p.titl {
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: bold;
+   color: #ffffff;
+   text-align: left;
+}
+td.subhead p.link {
+   text-align: right;
+}
+td.subhead p a {
+   font-famili: arial;
+   font-size: 11px;
+   font-weight: normal;
+   color: #a9a9a9;
+   text-decor: none;
+}
+td.bodi {
+   pad: 30px 20px 20px 20px;
+}
+td.subbodi {
+   pad: 0 0 20px 0;
+}
+td.bodi p.titl {
+   font-famili: georgia;
+   font-size: 28px;
+   font-weight: normal;
+   color: #000000;
+   pad: 0 0 15px 0;
+   margin: 0;
+   text-align: left;
+}
+td.bodi p.titl a {
+   color: #000000;
+   text-decor: none;
+   font-famili: georgia;
+   font-size: 28px;
+   font-weight: normal;
+   pad: 0 0 15px 0;
+   margin: 0;
+   text-align: left;
+}
+td.bodi p.titl a:hover {
+   text-decor: underlin;
+}
+td.bodi p.subtitl {
+   font-famili: arial;
+   font-size: 14px;
+   font-weight: bold;
+   color: #2591be;
+   margin: 0;
+   pad: 0 0 6px 0;
+   text-align: left;
+}
+td.bodi p.subtitl a {
+   font-famili: arial;
+   font-size: 14px;
+   font-weight: bold;
+   color: #2591be;
+   text-decor: none;
+}
+td.bodi p.desc {
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #4c4c4c;
+   line-height: 18px;
+   pad: 0;
+   margin: 0;
+   text-align: left;
+}
+td.bodi p a {
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: bold;
+   color: #2591be;
+}
+td.spacer {
+   pad: 20px 0 20px 0;
+}
+td.updat {
+   pad: 14px 20px 20px 20px;
+   background-color: #ececec;
+}
+p.updat {
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: bold;
+   color: #5e5e5e;
+   text-align: left;
+   margin: 5px 0 12px 0;
+   pad: 0;
+}
+td.lblock {
+   pad: 0 16px 0 0;
+}
+td.rblock p.left {
+   text-align: left;
+}
+td.lblock p.subupd {
+   text-align: left;
+   font-famili: georgia;
+   font-size: 16px;
+   font-weight: normal;
+   color: #2591be;
+   text-align: left;
+}
+td.rblock p.subupd {
+   text-align: left;
+   font-famili: georgia;
+   font-size: 16px;
+   font-weight: normal;
+   color: #2591be;
+}
+td.lblock p.subupd a {
+   text-align: left;
+   font-famili: georgia;
+   font-size: 16px;
+   font-weight: normal;
+   color: #2591be;
+   text-decor: none;
+}
+td.rblock p.subupd a {
+   text-align: left;
+   font-famili: georgia;
+   font-size: 16px;
+   font-weight: normal;
+   color: #2591be;
+   text-decor: none;
+}
+td.lblock p.desc {
+   text-align: left;
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #4c4c4c;
+   line-height: 18px;
+}
+td.rblock p.desc {
+   text-align: left;
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #4c4c4c;
+   line-height: 18px;
+}
+p.specialtitl {
+   text-align: left;
+   font-famili: georgia;
+   font-size: 28px;
+   font-weight: normal;
+   color: #2591be;
+   text-align: left;
+   margin: 0 0 12px 0;
+   pad-top: 5px;
+}
+p.specialdesc {
+   text-align: left;
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #4c4c4c;
+   line-height: 19px;
+   margin: 0 0 8px 0;
+}
+td.address {
+   pad: 3px 0 16px 0;
+   line-height: 18px;
+}
+td.social {
+   pad: 0 0 20px 0;
+   line-height: 18px;
+}
+td.bodi p.address {
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #b1b1b1;
+   text-align: left;
+}
+td.unsub {
+   pad: 30px 20px 20px 20px;
+}
+td.unsub p {
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #4c4c4c;
+   line-height: 18px;
+   pad: 0;
+   margin: 0;
+   text-align: left;
+}
+td.unsub p.unsub {
+   pad: 0 0 14px 0;
+}
+td.unsub p a {
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #6f9f2d;
+   text-decor: none;
+}
+td.social p a {
+   font-famili: arial;
+   font-size: 12px;
+   font-weight: normal;
+   color: #4ab9ff;
+   text-decor: none;
+}
+td.unsub p.socialtitl, td.social p.socialtitl {
+	font-size: 10px;
+	text-transform: uppercas;
+	pad: 0 0 5px 0;
+	margin: 0;
+	text-align: left;
+}
+td.mini_spacer {
+   pad: 0 0 14px 0;
+}
+td.specialupd {
+	border: 4px solid #f4e6a6;
+	background-color: #fff7d5;
+	pad:20px;
+}
+td.specialupd h3 {
+	font-famili: arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #47453e;
+	text-decor: none;
+	margin: 0 0 15px 0;
+	pad: 0;
+}
+td.specialupd p {
+	font-famili: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #494846;
+	text-decor: none;
+	line-height: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+thi issu
+
+
+
+
+
+								 reveal your full male power
+
+
+
+
+
+								 unlimit sensual power
+
+
+
+
+
+								 solut to excel other men
+
+
+
+
+
+								 small pilul, strong desir
+
+
+
+
+
+								 load her with more come
+
+
+
+
+
+
+
+
+
+
+
+
+
+						health monitor septemb newslett
+forward  |  unsubscrib  |  view in browser
+
+
+
+
+
+
+
+
+
+
+						final, when you think you're total out of lovemak
+						sport,
+
+
+
+						our pilul will prepar your gloriou come-back. you'll
+						do it like a young stud, caus girl' "peak" and hot
+						moan. order now and
+						enjoi super satisfact.
+
+
+
+
+
+
+
+
+
+
+						know how everybodi call it?
+
+						the weekend pilul.
+
+						   why? becaus just on littl thing is enough for
+						   do your girl the whole weekend. needless to have
+						   break. our product make you a non-stop love
+						   champion. amaz her.
+						   pleas her. hump her!
+
+ 
+
+
+
+
+
+
+thank for read, see you again next month.
+
+				  - the health monitor team
+
+
+
+
+
+
+
+
+
+
+who ar you? what is thi?
+you're receiv thi newslett becaus you're a super cool
+						   health monitor custom, or subscrib via our site. just not that into us ani more? unsubscrib instantli.
+know how we can serv you better? we'd love to hear your feedback on what we can improv.
+
+
+
+
+
+want to hang out?
+
+
+follow us on twitter
+
+
+becom  fan on facebook
+
+
+
+
+
+
+								  
+
+
+
+								 health monitor eat cater lunch at 404/3-5 stapleton av, sydnei, australia.
+
+
+
+
+
+
+
+
+
+
+
+
+

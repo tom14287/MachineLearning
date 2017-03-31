@@ -1,0 +1,40 @@
+re: [satalk] re: [sadev] file::spec and v2.41on wed, sep 11, 2002 at 01:46:19pm -0700, david raistrick wrote:
+> on wed, 11 sep 2002, stephan lentz wrote:
+> 
+> > => i face a similar problem with the freebsd when try to 
+> > instal spamassassin through the port on my fresh freebsd 4.6.2. 
+> > i had to defin perl5lib with some given order of directori
+> > so that the latest file::spec modul get us. 
+> 
+> good to hear it's not just me.  mind tell me how you set perl5lib
+> specificli? i've tri a few thing (setenv in the shell, as well as
+> $perl5lib == ...insid the makefil.pl, even on the perl command
+> line..) with no success.
+> 
+- presum your run bash  :
+note the directori list 
+#  perl -e 'map { print "$_\n" } @inc'
+then set up the shell variabl perl5lib variabl (and put it in some .bashrc 
+for futur us)
+# export perl5lib="directori1:directori2:directori3:directori4"
+then try to instal the softwar
+
+perl5lib is explain perlrun(1) : do 
+# man perlrun for more inform
+
+regard, 
+
+sl/
+---
+stephan lentz / alcanet intern - internet servic
+
+
+-------------------------------------------------------
+in remembr
+www.osdn.com/911/
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

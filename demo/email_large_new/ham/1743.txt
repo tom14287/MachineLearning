@@ -1,0 +1,36 @@
+re: aptitud from testingfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="iso-8859-15"
+content-transfer-encod: quot-printabl
+
+on fridai 14 mai 2010 14:36:44 boyd stephen smith jr. wrote:
+> doe it annoi anyon els that the 'aptitud' packag no longer provid =
+an
+> 'aptitud' binari?
+>=20
+> type 'aptitud-curs' is a littl annoi.  i'm assum the renam is
+> becaus of work on aptitud-gtk and aptitud-qt.  if so, wouldn't us t=
+he
+> altern system for an 'aptitud' symlink make sens?
+
+i think i mai have been hit by bug 575137.  i am us btrf, and there wer=
+e=20
+some issu dure the instal, but i do not believ i have suffer ani fi=
+le=20
+system corrupt in the dpkg databs or the aptitud packag.
+
+in particular, (debsum -a aptitud) report all the file ar in good=20
+condit.  (updat-altern --displai aptitud) show:
+no altern for aptitud.
+
+i initi instal 0.4.11.11-1~lenni1 on thi system, but have sinc=20
+upgrad to 0.6.1.5-3.  is there a good wai for me to establish an alternat=
+iv=20
+that will not mess up on the next upgrad?  or, is thi problem supposedli=
+=20
+fix in 0.6.2.1-2 and i should just upgrad now?
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

@@ -1,0 +1,24 @@
+bind problem with current cv codei've had thi bind in my ~/.exmh/exmhbind for year:
+
+set {bind(kei,flist_findunseen 1 ; inc_presortfinish)} 
+
+after updat to the current code in cv i get "bad kei f" when 
+i hit the "f" kei.  i can open the bind... command window 
+and defin the bind.  it then work until i restart exmh.
+
+i suspect a pars problem/chang.  i'll try to look into thi 
+tomorrow unless someon know where the problem might be.
+
+--hal
+
+
+
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+
+

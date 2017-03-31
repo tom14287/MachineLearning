@@ -1,0 +1,21 @@
+re: opportunist apt sourc?on mon, apr 19, 2010 at 00:52, ron johnson  wrote:
+
+> i'd us symlink, where sourc.list point to either sourc.list.home,
+> sourc.list.work or sourc.list.internet, and a short script to flip
+> between them.
+
+that mean i would need to bend the link and run apt-get updat everi
+time, though. i ponder someth like that, but it's hardli
+opportunist.
+
+
+thank for your repli,
+richard
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/m2n2d460de71004190100y5f22ee34m6b68af2d887e2696@mail.csmine.org
+
+

@@ -1,0 +1,26 @@
+re: [satalk] how'd thi on slip through?rose, bobbi wrote:
+> ouch ;-)  although i'm not readi to give up razor just yet, i'd like to
+> see a pyzor check in sa.  i don't think it even need to be written in
+> perl.  sa is actual call razor-check and razor-report as well as
+> dccproc for those check so it should be noth more than duplic
+> of code to add pyzor. 
+
+the problem is that python ha a much longer startup time than perl 
+(though thi mai have chang recent, i don't know). thi is partli 
+why python wa never veri popular for cgi.
+
+matt.
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

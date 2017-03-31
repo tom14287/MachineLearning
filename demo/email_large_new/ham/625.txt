@@ -1,0 +1,33 @@
+re: [razor-user] can't find razor/client.pmon tue, jul 23, 2002 at 06:16:02pm -0400, tabor j. well wrote:
+> it's there. scroll down on the download page. howev you might
+> consid go the other wai and instal spamassassin's 2.40
+> bleed-edg code as razor v2 ha a lot of nice featur over v1.
+
+to paraphras someth i heard onc:
+unless you like look for a new job, never instal a non-releas or
+develop-onli version of softwar anywher where the result of such
+code ar import.
+
+ie: don't run develop code on a product machin. :)
+
+
+the problem isn't sa anywai, it look for razor1 and just keep on
+go if it can't find it.  someth came up about amavi on the sa
+list where it look for razor itself...
+
+-- 
+randomli gener taglin:
+"duct tape is like the forc; it ha a light side & a dark side, and it
+ hold the univers togeth." - zen muse
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

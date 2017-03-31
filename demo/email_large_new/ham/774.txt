@@ -1,0 +1,61 @@
+re: flash is open?on fri, 14 mai 2010 20:39:58 +0200, artifex maximu wrote:
+
+> on fri, mai 14, 2010 at 4:58 pm, camalón wrote:
+>> on fri, 14 mai 2010 15:45:36 +0200, artifex maximu wrote:
+>>
+>>> on fri, mai 14, 2010 at 3:28 pm, camalón wrote:
+>>
+>>>> oh, no, but... if w3c doe not trust "flash" technolog to be
+>>>> includ as on of their recommend standard, why should i? that is
+>>>> the point.
+>>>
+>>> linux, freebsd, osx and other oss includ in that w3c standard? i
+>>> think the answer is no... do you have trust in them?
+>>
+>> "linux, freebsd, osx and other oss" all of them includ their own
+>> licenc model, whatev it is (close or open sourc), so i can us
+>> the softwar know beforehand what i can (or can't) do with it.
+> 
+> you've talk about w3c recommend standard and not about licens.
+
+"licens" and/or patent ar veri import if you want to distribut 
+your work and w3c should care about recommend a technolog or 
+specif that mai have a non-clear licens or make us of hidden 
+patend softwar.
+
+i still rememb the eola issu that hit internet explor ;-)
+
+>> do not get me wrong, i'm onli sai that if i were a develop, i
+>> would have mani doubt in choos a flash format for ani of my work.
+> 
+> develop never forc to us flash/swf or ani other standard. if you
+> have ani doubt in swf just us other format.
+
+what i want to sai is that in the event i had to choos a format for 
+deliv my work, i -for sure- wouldn't go for flash, although adob 
+claim is "open".
+
+otoh, as mani other have point out, flash format mayb now open, but 
+"player" ar still in a veri bad shape (and i am not talk about gnash/
+swfdec, but adob's own flash player for linux). it's crappi and buggi.
+
+so the realiti is that anyon want to view a flash base site ha to 
+have adob flash player instal as is the onli on abl to fulli 
+support all the featur list in their "open" spec.
+
+and the same situat goe for adob reader for linux. i dunno what is 
+go on with adob but true is that i dislik the path is take that 
+compani :-/
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.14.19.06.05@csmine.org
+
+

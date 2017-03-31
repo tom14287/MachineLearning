@@ -1,0 +1,38 @@
+re: kde 4.4.3 in unstablefrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="iso-8859-15"
+content-transfer-encod: quot-printabl
+
+on fridai 07 mai 2010 05:53:57 martin steigerwald wrote:
+> am freitag 07 mai 2010 schrieb boyd stephen smith jr.:
+> > revert to kdepim 4.3 is an option, as is ship an akonadi that
+> > doesn't  requir mysql.  i know kdepim 4.3 work in a mostli kde sc
+> > 4.4 environ (that's my current setup).  i'll bet that
+> > pre-akonadi-integr kmail could work with the rest of kdepim
+> > 4.4.  there ar a lot of wai to address my issu, and i don't demand
+> > that you address it at all.
+>=20
+> where did you get that akonadi from kdepim 4.3 doe not requir mysql?
+> afaik that just not true. akonadi alwai *requir* mysql. mayb it won't
+> in kde 4.5, but until then.
+
+kmail from kdepim 4.3 did not requir mysql becaus it didn't requir akona=
+di.
+kmail from kdepim 4.4 doe requir mysql becaus akonadi form kde sc 4.4=20
+requir mysql.
+kmail from kdepim 4.5 might not requir mysql becaus akonadi from kde sc 4=
+=2e5=20
+might not requir mysql.
+
+my concern is the kmail -> mysql relationship.  there ar quit a few wai =
+to=20
+fix that.  i think i'm go to focu my effort on get akonadi/sqlite=
+=20
+readi for a releas that is compat with kde sc 4.4 but occur befor th=
+e=20
+freez date, as well as document how to us it.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

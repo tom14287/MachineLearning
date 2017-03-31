@@ -1,0 +1,28 @@
+re: [ilug-social] complet silent pcon sat, jul 20, 2002 at 12:06:35pm +0100, greg farrel wrote:
+> 
+> > an old laptop would probabl be ideal.  that wai, it come with it own 
+> > up (the batteri).
+> d'oh. i ment to sai that i cant us a laptop, as i have a pci wireless
+> card and the cabl for it (about 180 dollar). so it ha to be a pc, with
+> a pci 2.2 connector (ie some pentium, and anyth abov)
+> 
+>  > 
+> > some peopl strip down old 486 box, take out the hard drive, disabl
+> > the fan, and run the thing from just a floppi drive or a cdr you've
+> > burn for the purpos.  
+> i'd do that with my 166, but the psu ha a fan. and a 486 wont support my
+> wireless card :( i know. i'm awkward,
+
+try www.quietpc.com.  don't know if thei have fanless psu but thei claim
+to have realli, realli quiet on.
+
+later,
+kenn
+
+
+-- 
+irish linux user' group social event: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

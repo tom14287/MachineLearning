@@ -1,0 +1,34 @@
+[ilug] am i crack?well you know what i mean.
+
+i notic 2 connect from my
+(freshli instal rh7.3) machin to
+port 80 of the follow address.
+
+216.145.20.5
+216.254.17.87
+
+both resolv to cytocin.hubb.net
+us ccom.net & speakeasi.net dn
+server respect.
+
+both connect last about 20
+second and were about 2 minut apart.
+ani idea?
+
+i didn't see what process thei came from,
+but i'm keep a close ey now.
+
+thank,
+pádraig.
+
+p.s. i'm can't subscrib to the list
+at the moment for some reason? so pleas
+repli directli.
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

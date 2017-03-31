@@ -1,0 +1,41 @@
+re: how to trick my debian in think that a packag is not installedon wed, apr 21, 2010 at 03:27:28pm +0000, t o n g  wa heard to sai:
+> on tue, 20 apr 2010 22:33:14 -0700, daniel burrow wrote:
+> >   can you provid ani more inform about thi?  it shouldn't happen
+> > in ani recent version of aptitud.
+> 
+> i can onli give you partial inform. 
+> 
+> thi is what i've been do
+> 
+>  aptitud --purg-unus purg durep
+>  dpkg -i /linux/linux_bin/deb-pkg/durep_0.8.1-7.1_all.deb 
+>  aptitud instal durep=
+> 
+> for how it happen, i need direct for where to look for such 
+> "more inform". 
+
+  if you see "aptitud safe-upgrad" try to upgrad durep, i'd like
+to see the output of these command (after you type control-c at the
+aptitud prompt, of cours):
+
+aptitud show durep
+aptitud -sy --show-resolv-action safe-upgrad
+
+> it is not the first time such thing happen, i agre with moniqu's 
+> oberv, "when aptitud is make suggest to resolv conflict, it 
+> will un-hold packag."
+
+  that shouldn't be possibl.  if it is happen, someth is veri
+wrong.  my own guess is that someth is clear your hold flag.  for
+instanc, it wa recent point out to me that "aptitud keep-all"
+clear hold flag (probabl wrongli).
+
+  daniel
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100422030648.ga18182@emurlahn.burrow.local
+
+

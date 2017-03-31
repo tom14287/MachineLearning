@@ -1,0 +1,31 @@
+re: disabl server so it doe not start on reboot (even after 
+	upgrad)?from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=iso-8859-1
+
+on fri, mai 14, 2010 at 04:29, stan hoeppner  wrote:
+
+> allan wind put forth on 5/13/2010 10:13 am:
+> > i us insserv to boot my laptop and us `updat-rc.d apach2
+> > remov` to indic that i do not want apach2 to start on
+> > reboot.  inde thi work fine for while.  either an apach2
+> > (apach2.2-common upgrad) or some other packag instal/upgrad
+> > then seem to revert my choic and apach is onc again start
+> > in reboot.
+> >
+> > is there a better wai to disabl server from start?
+>
+> i just remov the apach link in /etc/rc*.d
+>
+> --
+> stan
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact
+> listmast@list.debian.org
+> archiv: http://list.debian.org/4bec846a.7020103@hardwarefreak.com
+>
+>
+you could also updat /etc/init.d/apach2, chang
+the run level to defaut-stop

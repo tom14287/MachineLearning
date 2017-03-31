@@ -1,0 +1,17 @@
+re: upgrad from lenni to sid with kde instal (second attempt)andrei popescu wrote:
+
+> man invok-rc.d
+
+so it mean that the packag doe not handl the return valu correctli?
+
+what can be done for thi?
+
+regard
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/htdkge$br3$1@dough.gmane.org
+
+

@@ -1,0 +1,10 @@
+exim4 administrationi us to be abl to do certain thing like remov troublesom messag and 
+such us webmin. is there ani other wai?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005180954.41976.d_baron@012.net.il
+
+

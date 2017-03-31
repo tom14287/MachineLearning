@@ -1,0 +1,39 @@
+re: overcom the 32k object limit is ext3 - which file system
+ to us?on 04/26/2010 07:58 am, tzafrir cohen wrote:
+> on sat, apr 24, 2010 at 07:17:22am -0700, mike bird wrote:
+> 
+>> in english the slash is understood to mean "or".  there is no limit of
+>> 32000 file or folder under a folder in ext3.
+>>
+>> there is a limit of 31998 directori under a directori.  thi is caus by
+>> the ext3 hard link count limit be 32000.  two link ar need for the
+>> parent directori entri and the current directori's ".", leav onli
+>> 31998 link avail for ".." link from subdirectori.
+>>
+>> thi limit is rare encount in practic becaus it is so much more
+>> effici to us multipl directori level, e.g.:
+>>
+>> parent-
+>>    a-
+>>      abl
+>>      alf
+>>    b-
+>>      beta
+>>      bravo
+> 
+> hmm... what happen if you have a program that behav that wai, but
+> suddenli need to start also us chines charact? :-)
+> 
+
+um, well, us the first chines charact as a sub-directori name.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd59030.2050408@cox.net
+
+

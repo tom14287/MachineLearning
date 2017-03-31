@@ -1,0 +1,36 @@
+re: server certif ha expiredfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+eduardo m kalinowski wrote:
+> on ter, 18 mai 2010, merciadri luca wrote:
+>> hi,
+>>
+>> i am get some thunderbird messag for an imap account of mine. thi=
+s
+>> messag tell me that the server's certif associ to the imap
+>> account ha expir sinc ... 2007. i know, it's alreadi far from here=
+,
+>> but i cannot chang the server's certif. how can i get rid of thi=
+s
+>> messag? it annoi me, as there is no box that i could check so that i=
+t
+>> doe not appear anymor.
+>>
+>> i have contact the ml relat to the server, but i do not even tell
+>> you who own the server!
+>
+> is that thunderbird 2 or 3? in 2 i could not find a wai to perman
+> accept problemat certif, but thi ha chang in version 3.
+well, thi is effect icedov 2.0.0.22 (20090706). how did you
+manag to, under th. 3?
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+
+

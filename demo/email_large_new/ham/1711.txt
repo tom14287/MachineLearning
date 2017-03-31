@@ -1,0 +1,35 @@
+re: middl button click brokenjust when you said that you "have the same", i thought thi wa the full setup, that is gnome includ. anywai, it doe not matter, i tri other window manag in the problemat machin, other user account too, and alwai strang behavior with the middl click. it seem to be deepli root somewher in the system. as a last resort, i reboot the machin, and... problem solv!
+
+should we reboot after updat x11?
+
+thank,
+pierr
+
+
+
+
+----- origin messag ----
+from: harald hanch-olsen 
+to: pbagui@yahoo.com
+cc: jeremyhu@appl.com; x11-user@list.appl.com
+sent: sun, april 18, 2010 3:54:48 pm
+subject: re: middl button click broken
+
++ pierr bagui :
+
+> i am wonder if gnome is to blame (but then harald had not issu).
+
+oh, wait. i don't us gnome. i don't think i said i did, or at least i did not mean to impli it. of cours, you could try switch back to quartz-wm and see if the problem persist.
+
+- harald
+
+
+
+      
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

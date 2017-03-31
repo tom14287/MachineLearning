@@ -1,0 +1,82 @@
+re: is acroread blind, or ps2pdf danger?from nobodi sun sep 18 20:45:27 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+sven joachim wrote:
+> on 2010-05-13 17:04 +0200, merciadri luca wrote:
+>
+>  =20
+>> when compil ani .tex document us the rout latex -> dvip ->
+>> ps2pdf, i get a pdf.
+>>    =20
+>
+> thi is a rather clumsi wai these dai.  why don't you us pdflatex?
+>
+>  =20
+>> normal, but the problem is that if i the pdf is
+>> alreadi open (e.g. becaus i wa read the version of the document=
+
+>> befor have modifi and compil it) when the compil and the
+>> whole process end, the open pdf is blank, i.e. the current page
+>> becom white, and everi page i go at is white.
+>>    =20
+>
+> the chang in the file seem to confus acroread.  at least it doe not=
+
+> crash.
+>
+>  =20
+>> if i then re-open the
+>> document, i find the new version of my pdf.
+>>    =20
+>
+> a smart reader would have an option to detect chang to the file and
+> reload it automat.  sinc i haven't us acroread for ag i don'=
+t
+> know whether it ha such an option.
+>
+>  =20
+>> i would like to know how thi process actual work. for me, it look=
+
+>> like the ps2pdf tool creat the pdf from scratch, and overwrit the
+>> old pdf.
+>>    =20
+>
+> a quick experi show that thi doe not seem to be the case, ps2pdf=
+
+> write to the exist file.
+>
+>  =20
+>> but why am i receiv no warn messag from acroread?
+>>    =20
+>
+> ask adob=e2=80=a6
+>
+>  =20
+>> anywai, acroread seem not to be lock the file, or, if so, ps2pdf
+>> forc the write.
+>>    =20
+>
+> i would be rather annoi if a reader lock a file that it doe not
+> even open for write.
+>  =20
+thank for thi answer. there ar *mani* reason not to us pdflatex.
+thei do not enter in the scope of thi mail list, but i am pretti
+sure you will find them directli on the internet. for exampl, pdflatex
+encourag on to us directli jpg, etc., for the inclus in the
+document, which is pretti bad. there ar also mani incompat
+with differ packag.
+
+note that, under window, i rememb that acrord32.ex alwai block
+the file for write, even if it wa onli be read by acrord32.ex.
+okai, it's window. bad memori.
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+what doesn't kill you will make you stronger. (friedrich nietzsch)
+

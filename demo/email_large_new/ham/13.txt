@@ -1,0 +1,25 @@
+re: what to choos for core i5 64 bit?>>> if you have other i386 machin around, it mai be conveni for you to
+>>> keep the same architectur so you can share the download bandwidth of
+>>> debian updat, and thing like that.
+> on the other hand, now might be a good time to begin the migrat to the
+> futur.  32-bit will be around for a long time, but it will increasingli be
+> releg to older hardwar and nich applic, such as embed
+> processor or cell phone and the like.  64-bit is go to be the
+> "current" architectur for desktop, server, and the like for a good while
+> to come.
+
+that's true.  i us to sai and think that ... back around 1992 when
+i start to us dec alpha machin.  but now that 2gb is about as
+littl ram as you can get in a new machin, the push to move to 64bit is
+veri real.
+
+
+        stefan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/jwviq6q48n9.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

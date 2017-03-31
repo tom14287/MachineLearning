@@ -1,0 +1,45 @@
+shoe horn kde3.5 systemhi 
+it sound a bit weird but it pretti close to what i need to do.
+as you can see from my footer i us mandriva and i like it.
+i have howev an app which doe not.
+it need qt3 and kde3.5 to run, anfd it ha to be run in a kde dm. it crash
+when run on gnome.i have made space in the middl of on of the two sata drive.
+there's about 100 gb it can us.
+i have gone back on mandriva releas and 2008.0 wa the last to sole us
+kde3.5, if piklab find a kde4 lib it crash, and from mdv2008.1 thei merg.
+mdv 2008.0 would be ok but it won't recognis sata hd.
+i tri ubuntu to try and load it in that 100 gb gap, but it want all of the
+drive, even when told us unus space.
+i know debian is stabl, will the instal if told instal it self on to an
+unus section of the sata hd and put it bootload at the start of the rott
+partit , ie" /", not /root.
+is the a version that us kde3.5, qt3 that will work on a sata hd, will the 32
+bit version run on a 64 bit or must i us the amd_64 version.
+ar the ani problem with the kernel suppli with what ever version is
+suggest with rtl8111/8168b pci express ethernet card, on mdv certain kernel
+in 2009 had problem with the driver for that card.
+
+a quick repli would realli be appreci, i've been try to get thi app to
+run for the last coupl of dai without ani luck.
+
+tia
+
+-- 
+best wish
+
+richard bown g8jvm
+
+###################################################################################
+regist linux user 36561
+os: mandriva 2010.0 powerpack on an amd dual athlon 64 +4400: 8 gb ram ddr2
+ham call: g8jvm , qra io82sp, interest microwav 1.3 ghz,2.3 ghz & 5.7ghz & 10
+ghz
+###################################################################################
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100518194221.4344b180@blueyond.co.uk
+
+

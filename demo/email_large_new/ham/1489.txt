@@ -1,0 +1,49 @@
+kde-core list should be updat (live-helper)hello all,
+
+i just receiv a notif that meta-kde 5:59 ha enter unstabl/sid.
+with that, the meta packag kde-minim doe no longer exist, so /usr/share/live-helper/list/kde-
+core should be updat and possibl again when 5:59 get into test/squeez.
+
+thi is the content of that file now (primairili for debian-kde list):
+#if distribut lenni
+kde-core
+#endif
+#if distribut squeez sid
+kde-minim
+#endif
+
+kdm
+desktop-base
+
+
+i think the follow chang should correct the chang in the meta-packag:
+#if distribut squeez sid
+kde-minim
+#endif
+
+becom:
+
+#if distribut squeez
+kde-minim
+#endif
+#if distribut sid
+kde-plasma-desktop
+#endif
+
+and when 5:59 get into test it should becom:
+#if distribut squeez sid
+kde-plasma-desktop
+#endif
+
+i'm cc-ing debian-kde list, sinc thei probabl can add sth us to thi.
+
+regard,
+   diederik
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005021238.43613.didi.debian@cknow.org
+
+

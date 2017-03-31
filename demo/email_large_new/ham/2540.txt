@@ -1,0 +1,40 @@
+re: recompil the kernel with a differ version nameon wed, 7 apr 2010 13:17:30 -0400 (edt), lorenzo bettini wrote:
+> i tri also with --revis, e.g.,
+> 
+> fakeroot make-kpkg --revis=lore01 --initrd 
+> --append-to-version=-recompil kernel-imag kernel-header
+>
+> but i cannot seem to get rid of that +drm33.1 string:
+> 
+> linux-header-2.6.32.10+drm33.1-recompil_2.6.32.10+drm33.1-recompil-10.00.custom_i386.deb
+
+"10.00.custom" is the
+default valu for --revis.  the fact that you see it in the packag
+file name mean that it did not recogn the option.  try it thi wai:
+
+   fakeroot make-kpkg clean
+   fakeroot make-kpkg --append-to-version -recompil --revis x.x.xxx \
+    --initrd kernel_imag kernel_header
+
+note: you must alwai issu "make-kpkg clean" after run "make menuconfig"
+or after run "make-kpkg" with ani target other than "clean".  otherwis,
+version and revis number will not work as expect.  assum that you
+ar us offici debian kernel sourc, you will want to make the valu
+for --revis match the "version" of the linux-sourc-2.6.32 packag.
+i know the web page i point you to is long and bore.  but the answer to
+all of your problem ar in there.  where did you get your kernel sourc,
+by the wai?  and why ar you compil a custom kernel in the first place?
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1843272845.1680871270662498861.javamail.root@md01.wow.synacor.com
+
+

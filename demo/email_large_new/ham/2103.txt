@@ -1,0 +1,20 @@
+jeremi zawodni who work at yahoo financ offer an rss 0.91 feed
+    for everyurl: http://scriptingnew.userland.com/backissu/2002/09/23#when:12:45:28pm
+date: mon, 23 sep 2002 19:45:28 gmt
+
+jeremi zawodni[1] who work at yahoo financ offer an rss 0.91 feed for everi 
+stock. it's a beta featur. here's the feed for microsoft[2] and on for 
+marimba[3]. thank to jon udel[4] for the pointer. nice. jon also note that 
+microsoft doesn't show up too strong in the weblog world and describ[5] a 
+convers with john montgomeri about thi. what a small world. john and i 
+got to know each other when we did the work on soap in the late 90s, and weblog 
+softwar is on of the major reason we were interest in soap. so close, but 
+so far. but it's never too late!
+
+[1] http://jeremi.zawodni.com/blog/archiv/000187.html
+[2] http://rss.financ.yahoo.com/rss/get?ticker=msft
+[3] http://rss.financ.yahoo.com/rss/get?ticker=mrba
+[4] http://weblog.infoworld.com/udel/2002/09/23.html#a422
+[5] http://weblog.infoworld.com/udel/2002/09/23.html#a421
+
+

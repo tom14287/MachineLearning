@@ -1,0 +1,18 @@
+re: autom updat in lennyfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on sat,10.apr.10, 08:51:16, clive mcbarton wrote:
+=20
+> certainli so. what i meant to ask is what to do if you (like the op)
+> want automat upgrad (download and instal without the admin
+> present) but (unlik the op) onli us aptitud and never apt-get.
+
+it doesn't matter. mix apt-get and aptitud is not a problem anymor.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

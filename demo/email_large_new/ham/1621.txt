@@ -1,0 +1,162 @@
+re: icmdecompressionsessiondecodefram() is not workinghi
+
+you need to fill out the imagedescript befor creat the =
+decompress session, us eg getmediasampledescript.
+
+there is document and a coupl of icmdecompressionsess sampl =
+in xcode.
+
+best of luck - t
+
+on 1 mai 2010, at 02:42, bo peng wrote:
+
+> hi all,
+>=20
+> i forgot to tell you gui the error code. the return valu of
+> icmdecompressionsessiondecodefram() function call is alwai -50,
+> which mean error in user paramet list.
+>=20
+> i am stuck in the quicktim api icmdecompressionsessiondecodefram()
+> for a while, and i could not find ani other resourc or ani other
+> sampl code. could ani bodi help me out, and ani suggest
+> appreci.
+>=20
+> i want to import a movi file from local drive, get the compress
+> video frame, decod them, and encapsul them into our own
+> uncvideounit format.
+> right now we have alreadi got the compress video frame, but when we
+> ar try to decod them, we have got some problem. here is our
+> sourc code, could ani bodi tell me if there is someth wrong in our
+> code.
+>=20
+>=20
+> // initi callback structur
+> icmdecompressiontrackingcallbackrecord callrecord;
+> callrecord.decompressiontrackingcallback =3d writeframetobitmap;
+> callrecord.decompressiontrackingrefcon =3d null;
+>=20
+> // add attribut for pixel buffer that come out
+> cfmutabledictionaryref pixelbufferattribut =3d null;
+> pixelbufferattribut =3d cfdictionarycreatemut( null, 0,
+> &kcftypedictionarykeycallback;, &kcftypedictionaryvaluecallback; );
+>=20
+> ostyp format =3d k24rgbpixelformat;
+> cfnumberref pformat =3d cfnumbercr( null, kcfnumbersint32type, =
+&format; );
+> cfdictionaryaddvalu( pixelbufferattribut,
+> kcvpixelbufferpixelformattypekei, pformat );
+> cfreleas( pformat );
+>=20
+> int width =3d 1280;
+> cfnumberref pwidth =3d cfnumbercr( null, kcfnumberinttyp, &width; =
+);
+> cfdictionaryaddvalu( pixelbufferattribut, kcvpixelbufferwidthkei, =
+pwidth );
+> cfreleas( pwidth );
+>=20
+> int height =3d 720;
+> cfnumberref pheight =3d cfnumbercr( null, kcfnumberinttyp, =
+&height; );
+> cfdictionaryaddvalu( pixelbufferattribut, kcvpixelbufferheightkei, =
+pheight );
+> cfreleas( pheight );
+>=20
+> //  set up decompress session
+> icmdecompressionsessionref decompressionsess;
+> imagedescriptionhandl descript =3d
+> (imagedescriptionhandl)newhandleclear(sizeof(imagedescript));
+> osstatu nstatu =3d icmdecompressionsessioncr ( null, =
+descript,
+> null, pixelbufferattribut, &callrecord;, &decompressionsess;);
+> cfreleas( pixelbufferattribut );
+>=20
+>=20
+> // get video frame from movi file and decod each frame
+> timevalu64 starttim
+> =3dgetmediaadvancedecodetim(gettrackmedia(track));     // for =
+start
+> time of each frame
+> timevalu64 durationpersampl =3d 0;               // fro durat of =
+each frame
+> int count =3d 0;
+> while(true)
+> {
+>       bytecount size =3d 0;
+>       uint8 *adata =3d new unsign char[maxdatas];
+>       nerr =3d getmediasampl2(videomedia, adata, maxdatas, &size;,
+> starttim, nil, &durationpersampl;, nil, nil, nil, 1, nil, nil);
+>=20
+>       osstatu nstatu =3d icmdecompressionsessiondecodefram(
+> decompressionsess, (const uint8*)adata, size, null, null, (void
+> *)&count; );
+>=20
+>       count++;
+>       starttim +=3d durationpersampl;
+>=20
+>       if(nerr !=3d noerr)
+>            break;
+>=20
+>        delet [] adata;}
+> }
+>=20
+>=20
+> here is the definit for the callback funtion:
+>=20
+> static void writeframetobitmap(
+>                       void *decompressiontrackingrefcon,
+>                       osstatu result,
+>                       icmdecompressiontrackingflag =
+decompressiontrackingflag,
+>                       cvpixelbufferref pixelbuff,
+>                       timevalu64 displaytim,
+>                       timevalu64 displaydur,
+>                       icmvalidtimeflag validtimeflag,
+>                       void *reserv,
+>                       void *sourceframerefcon )
+> {
+>       // when we get decod frame, print it out to bitmap
+>       if ( (result =3d=3d noerr) && (decompressiontrackingflag &
+> kicmdecompressiontrack_emittingfram) && pixelbuff )
+>       {
+>               char num[16];
+>               sprintf_s(num, 16, "%d", *((int *)sourceframerefcon));
+>               std::string strfilepath =3d std::string("bitmap0") +
+> std::string(num);
+>=20
+>               boost::share_ptr pmyimag =3d
+> stillimag::createinst();
+>               size_t size =3d cvpixelbuffergetdatas(pixelbuff);
+>               byte *mem_buffer =3d (byte*)malloc(size * sizeof(byte));
+>               strcpy((char*)mem_buffer, (char
+> *)cvpixelbuffergetbaseaddress(pixelbuff));
+>               pmyimag->loadimag(mem_buffer, size);
+>               pmyimag->saveimag(strfilepath.c_str(), bmp);
+>       }
+>=20
+>=20
+> }
+>=20
+>=20
+> thank veri much.
+>=20
+> bo peng
+> softwar engin
+> capella system, llc
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> quicktim-api mail list      (quicktim-api@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> =
+http://list.appl.com/mailman/option/quicktim-api/bangnois%40csmine.org=
+
+>=20
+> thi email sent to bangnois@csmine.org
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

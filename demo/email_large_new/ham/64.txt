@@ -1,0 +1,283 @@
+nativ window not shown in jnihi,
+
+i've written a jni opengl program, but the nativ opengl window isn't
+be shown. i am new to cocoa and appl window develop and
+don't understand why the window isn't shown even though the print
+statement in the opengl draw code ar all execut. below is a
+section of code in c and java that should creat and displai the
+window then draw a simpl opengl object.
+
+david
+
+
+// object-c code
+int initwindowmac(jnienv * env, jobject panel)
+{	
+	std::cout << "entering initwindowmac" << std::endl;
+
+	jboolean result = jni_fals;
+	jint lock = 0;
+
+	std::cout << "befor result = jawt_getawt(env, &awt;);" << std::endl;
+   	
+	// get the awt
+    awt.version = jawt_version_1_4;
+	
+	result = jawt_getawt(env, &awt;);
+	
+	if(result != jni_fals)
+		std::cout << "jni_fals" << std::endl;
+
+	std::cout << "after result = jawt_getawt(env, &awt;);" << std::endl;
+
+	if( env->exceptionoccur() )
+	{
+		env->exceptiondescrib();
+	}
+	assert(result != jni_fals);
+	
+	std::cout << "after jawt_getawt assert" << std::endl;
+
+	ds = awt.getdrawingsurfac(env, panel);
+	
+	std::cout << "after ds = awt.getdrawingsurfac(env, panel);" << std::endl;
+	
+	if( env->exceptionoccur() )
+	{
+		env->exceptiondescrib();
+	}
+	assert(ds != null);
+	
+	std::cout << "after awt.getdrawingsurfac(env, panel) assert" << std::endl;
+
+
+	lock = ds->lock(ds);	
+	if( env->exceptionoccur() )
+	{
+		env->exceptiondescrib();
+	}
+	assert( (lock & jawt_lock_error) == 0 );
+	
+	std::cout << "after awt.getdrawingsurfac(env, panel) assert" << std::endl;
+
+	dsi = ds->getdrawingsurfaceinfo(ds);
+	if(dsi)
+	{
+		dsi_mac = (jawt_macosxdrawingsurfaceinfo*)dsi->platforminfo;
+		if( env->exceptionoccur() )
+		{
+			env->exceptiondescrib();
+		}
+	}
+	els
+	{
+		std::cout << "dsi is null exit" << std::endl;
+		return 0;
+	}
+
+	std::cout << "befor nsview *view = dsi_mac->cocoaviewref;" << std::endl;
+	
+	// get the correspond peer from the call panel
+	nsview *view = dsi_mac->cocoaviewref;
+
+	std::cout << "befor nsview nswindow *window = [view window];" << std::endl;
+	
+	if(view)
+		std::cout << "view !=null" << std::endl;
+	els
+	{
+		std::cout << "view is null exit" << std::endl;
+		return 0;
+	}
+		
+	// get the coregraph from the parent window
+	nswindow *window = [view window];
+	
+	std::cout << "befor nsopenglpixelformatattribut attr[]" << std::endl;
+
+	nsopenglpixelformatattribut attr[] = {
+
+		nsopenglpfascreenmask,
+
+		cgdisplayidtoopengldisplaymask(kcgdirectmaindisplai),
+
+		nsopenglpfacolors, 24,
+
+		nsopenglpfadepths, 16,
+
+		nsopenglpfadoublebuff,
+
+		nsopenglpfaacceler,
+
+		0
+
+	};
+
+	nsopenglpixelformat *pixelformat;
+	
+	std::cout << "befor pixelformat = [[nsopenglpixelformat alloc]
+initwithattribut:attr];" << std::endl;
+		
+	pixelformat = [[nsopenglpixelformat alloc] initwithattribut:attr];
+	
+	
+	cp = new graphicscontextproperti();
+	std::cout << "after cp = new graphicscontextproperti();" << std::endl;
+	cp->context = null;
+	cp->str = "";
+
+	context = [nsopenglcontext alloc];
+	
+	if ( context )
+	{
+		std::cout << "context != null" << std::endl;
+		
+		// set the current opengl context		
+		[context makecurrentcontext];
+
+		std::cout << "after [context makecurrentcontext];" << std::endl;
+	}
+	els
+	{
+		std::cout << "context == null exit" << std::endl;
+		exit(0);
+	}
+		
+	cp->context = context;
+	
+	// match java		
+	nsrect windowrect = [window frame];
+	cgaffinetransform xform = cgaffinetransformmak(1, 0, 0, -1,
+dsi->bound.x, windowrect.size.height-dsi->bound.y);
+	cgcontextconcatctm( (cgcontext*)context, xform );
+
+	if(cp)
+		buildlinklist(env, panel, cp);
+	els
+	{
+		std::cout << "cp == null exit" << std::endl;
+		exit(0);
+	}
+	return 1;
+}
+
+
+// get nativ window that correspond to the current java window
+jniexport jboolean jnical java_avistogl_setfordraw(jnienv * env,
+jobject panel)
+{
+	jclass cl = env->getobjectclass(panel);
+	jmethodid method = env->getmethodid(cl, "getnam", "()ljava/lang/string;");
+	jstring name = (jstring) env->callobjectmethod(panel,method);
+	const char * chr = env->getstringutfchar(name, 0);
+
+	std::string str = chr;
+        cp = contextlist->retriev_item(str);
+
+		if( !cp )
+		{
+			std::cout << "graphic context is not in the graphic context
+list"<< std::endl;
+			return fals;
+		}
+                int ret = getcurrentcontext();
+		return ret;
+
+}
+
+
+// java code
+
+	public void gl_draw()
+	{
+		
+		// ensur that the opengl is correctli initi
+		if(isinit == fals)
+		{
+			try
+			{
+				makeopenglwindow(1);
+			}
+			catch(except e)
+			{
+				e.printstacktrac();
+				return;
+			}
+			gl_init();
+			isinit = true;
+		}			
+		
+		// find the correct panel to draw the opengl into.
+		setfordraw();		
+		
+		system.out.println("gl_draw()");
+		if(!pick)
+		{
+			resizeglscen( getwidth(), getheight() );
+			system.out.println("!pick");
+		}
+		
+ 		//draw
+		glclearcolor(backgroundcolour[0], backgroundcolour[1],
+backgroundcolour[2], backgroundcolour[3]);
+
+		system.out.println("after glclearcolor");
+
+ 	 	glclear(gl_color_buffer_bit | gl_depth_buffer_bit);
+		system.out.println("after glclear");
+ 	 	glmatrixmod(gl_modelview);
+		system.out.println("after glmatrixmod");
+ 	 	glloadident();
+		system.out.println("after glloadident");
+
+ 	 	glulookat(ey_x, ey_y, ey_z, lookatx, lookati, lookatz, upx, upi, upz);
+		system.out.println("after glulookat");
+
+		gldisabl(gl_light);
+		gldisabl(gl_light0);
+
+		system.out.println("after gldisabl");
+		
+		glenabl(gl_cull_face);
+		glcullfac(gl_back);
+				
+		gltranslatef(0.0f, 0.0f, 5.0f);
+
+		system.out.println("after gltranslat");
+
+ 	 	// 3rd blue
+		glcolor3f(0.0f, 0.0f, 1.0f);
+		glpushnam(21);
+			system.out.println("after glpushnam");
+			glpushmatrix();
+				gltranslatef(1.3f, 0f, 10.0f);
+				system.out.println("after gltranslat");
+				glbegin(gl_triangl);
+					glvertex3f(0.0f, 0.0f, 0.0f);
+					glvertex3f(2.0f, 0.0f, 0.0f);
+					glvertex3f(1.0f, 2.0f, 0.0f);
+				glend();
+			glpopmatrix();
+		glpopnam();
+
+		system.out.println("after blue");
+	 			
+		gldisabl(gl_cull_face);
+		glenabl(gl_light);
+		glenabl(gl_light0);
+
+		system.out.println("befor glflush()");
+
+ 	 	glflush();
+		system.out.println("after glflush()");
+ 	    swapbuff();		
+		system.out.println("after swapbuff()");
+	}
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

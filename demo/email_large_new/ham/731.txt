@@ -1,0 +1,72 @@
+re: re: password mess upi post thi earlier todai but did not see it come across in email, so 
+i am re-post.  excus if thi is a duplic!  thank...
+
+-------- origin messag --------
+subject: re: re: password mess up
+date: fri, 07 mai 2010 15:13:14 -0500
+from: don 
+to: debian-user@list.debian.org
+refer: 
+
+ > at login screen, jump to a tty consol and login as root (or with your
+ > usual user). then, run "startx" and check for the output.
+
+thank again for your repli camalón.
+
+i boot up and got the login gui screen.  then us the choic of
+consol login, and us my usual user name, log in with the cli.
+then run "startx" ... and lo and behold get my kde4 main screen!
+
+so i conclud that the problem li with the gui kde login.
+
+although some might be interest in figur out exactli the problem, i
+take on the role of a "user" here and wish to figur out how to make my
+system well again.  (of cours, anyon read thi who want to delv
+into why thi is happen, i'd assist.)
+
+if you, or anyon els, could tell me what i can try to do to fix
+thing, i'd appreci it.  i know i can do a clean instal of
+everyth, but i would be hope that less drastic thing might work.
+  ani chanc of fix thing by do a reinstal or particular
+packag?  if so, not onli tell me which packag to try, but also a
+littl guidanc with exactli *how* to do it would be appreci.
+
+at least at thi point, i can get back to most of my old system program
+and data, so the urgenc is abat.
+
+i want to throw on other thing in here, just in case it ring a bell or
+someon see some relationship to thi password/login problem.  i
+mention in my origin post that i had other problem.  back in march,
+just befor my emerg 1-week resid in a hospit, i suddenli
+start have problem with certain program i regularli us (date wa
+probabl around march 14).  the program i believ all us gtk.  some
+ar: iceap, synapt, geani.  and here ar the result when i try
+run them from the command line:
+
+don@kali:~$ sudo synapt
+synapt: symbol lookup error: /usr/lib/libgdk-x11-2.0.so.0: undefin
+symbol: g_malloc_n
+don@kali:~$ iceap
+/usr/lib/iceap/iceap-bin: symbol lookup error:
+/usr/lib/libgdk-x11-2.0.so.0: undefin symbol: g_malloc_n
+don@kali:~$ geani
+geani: symbol lookup error: /usr/lib/libgdk-x11-2.0.so.0: undefin
+symbol: g_malloc_n
+don@kali:~$
+
+unless there is some relat to my password/login problem of thi
+thread, i'll start a new thread with the abov problem.
+
+thank, and if anyon ha more idea on fix my password/login
+problem, pleas help!
+
+regard,
+don
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be4bb25.6060004@noark.net
+
+

@@ -1,0 +1,33 @@
+re: x11 just froze, and /var/log/syslog (dmesg)'s output seem to
+ mean somethingon tue, 18 mai 2010 18:08:24 +0200, merciadri luca wrote:
+
+> i realiz that my comput (thi on, debian lenni, w. k.
+> 2.6.26-2-686-bigmem) wa frozen. i tri escap from the screensav,
+> but noth work, except launch anoth tty, and restart gdm.
+> here is the interest output i obtain by look at /var/log/syslog
+> and dmesg:
+> 
+> ==
+> [24892.623421] atkbd.c: unknown kei press (translat set 2, code 0xbb
+> on isa0060/serio0).
+
+(...)
+
+that seem to be unrel with a x freez. look like a keyboard kei 
+map error but noth seriou.
+
+just review your "/var/log/xorg.0.log". if x crash there must someth 
+there :-?
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.18.17.20.50@csmine.org
+
+

@@ -1,0 +1,12 @@
+default to show plaintext version of e-mailswhat's the trick again to have it default to show text/plain instead of
+html?
+
+--harlan
+
+
+
+_______________________________________________
+exmh-user mail list
+exmh-user@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-user
+

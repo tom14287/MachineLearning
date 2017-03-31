@@ -1,0 +1,28 @@
+re: chromium in sidon fri, mai 21, 2010 at 08:23, steve fishpast
+ wrote:
+> good morn folk.
+>
+> why is the chromium-browser in sid so old? chromium ha been on the
+> 6.x branch for a coupl of week now and debian is still us the 5.x
+> branch.
+>
+> in my opinion we should keep up with the new releas at least weekli.
+> is thi on the agenda to do?
+
+what's wrong with googl's repo?
+deb http://dl.googl.com/linux/deb/ test non-free
+
+it work fine on my sid, and "googl-chrome-unstabl" ha been at 6.0.x for
+some time.
+
+
+cheer,
+kelli clower
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktinwgd-t-wfc92k2rvkihta4psfyrnr-stzogxj3@mail.csmine.org
+
+

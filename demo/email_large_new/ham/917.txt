@@ -1,0 +1,46 @@
+re: minor whoop with glimps supportther ar some case like thi with "incomplet ftoc".  these ar sure old
+bug that appear after i ad the abil to onli scan the tail of the ftoc
+if for some reason the scan modul decid it cannot easili merg the newli
+scan (scan unseen) into the tail of the cach scan list.  hmm - i poke
+around a bit. glimps.tcl us msg_chang, which ha code in it to try and
+deal with show a messag that isn't in the ftoc:
+        exmh_statu "cannot find msg $msgid - rescan?"
+is that messag hide in your log?  perhap there should be a return from
+msg_chang that glimps.tcl can us to decid what to do next.
+
+>>>valdi.kletniek@vt.edu said:
+ > scenario:
+ > 
+ > inbox ha a "dirti" ftoc, onli the last 100 entri (3500-last or so).
+ > 
+ > go to search... glimps.   glimps find a hit in inbox/3448 (which
+ > isn't
+ > in the ftoc).  click on that on result in a find tool be
+ > launch
+ > *on the current item* (which of cours miss, sinc the search string
+ > isn't in that item - i wasn't even in 'inbox' at the time.  we don't
+ > chang
+ > folder to inbox or displai the messag that got hit.
+ > 
+ > click on anoth 'glimps' hit that wa an item that wa in a
+ > non-dirti
+ > ftoc work as expect - folder chang and that mail displai, and
+ > the search tool found the hit.
+ > 
+ > /valdi
+
+--
+brent welch
+softwar architect, panasa inc
+pioneer the world's most scalabl and agil storag network
+www.panasa.com
+welch@panasa.com
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+
+

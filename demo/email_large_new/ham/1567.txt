@@ -1,0 +1,317 @@
+[lockergnom tech specialist]  concret geekitud
+
+<!--
+ bodi      { background-imag: url(http://imag.lockergnom.com/imag/issu/top-right.gif); color: #331f30 }
+ a:link    { color: #331f30; text-decor: underlin; font-weight: normal }
+ a:visit { color: #331f30; text-decor: underlin; font-weight: normal }
+ a:activ  { color: grai; text-decor: none }
+ a:hover   { color: grai; text-decor: none }
+ p.titl   { background: #c69ebf; border-bottom: #4f2f4a 4px solid; border-left: #e7d5e4 4px solid; border-right: #4f2f4a 4px solid; border-top: #e7d5e4 4px solid; color: #331f30; font-famili: comic san ms, trebuchet ms, helvetica, arial; font-size: 14pt; font-weight: normal }
+ p.sidebar { background: #e7d5e4; border-bottom: #c69ebf 3px solid; border-left: #ffffff 3px solid; border-right: #c69ebf 3px solid; border-top: #ffffff 3px solid; color: #331f30; font-famili: comic san ms, trebuchet ms, helvetica, arial; font-size: 10pt; font-weight: bold; text-align: center } 
+ .url      { font-size: 8pt; font-famili: verdana, tahoma, arial }
+-->
+20020722 lockergnom tech specialist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  07.22.2002 gnomereport 
+
+
+50 tip to make window more us 
+do you have to deal with window on a daili basi? might as well 
+maxim your time with it. you'll find that some of these tip 
+will appli to other oper system, too. the world of comput 
+isn't so mysteri onc you understand how it work. with thi 
+gnometom, you'll begin to work faster - and smarter. 
+download window product tip now!  
+
+i did a lot thi weekend, but i didn't realli get much done, 
+ya know? my knee ar kill me from haul stuff out of 
+the basement for storag up in the attic, but the pile onli 
+made it as far as the kitchen. then i strip and paint 
+the floor where that collect of stuff wa previous 
+store, and erect some shelv so i'd have room for more 
+stuff. i woke up the next morn discov a veri sick 
+ferret, like from the fume that leech into the next 
+room over despit the ventil i had setup to prevent the 
+migrat of bad air. so, i end up dismantl the ferret 
+cage to move it upstair for a week or so until i'm sure 
+it's safe. thankfulli, all critter ar do well now.
+
+i also start in on replac the cheapo rust screw 
+with stainless steel deck screw out back, but found that 
+the on i pick up ar too weak, leav me with strip 
+out head and bent shaft. that project stop after bare 
+get start. the front step ar also in need of rust-
+proof screw, but thei ar made from much softer wood, so i 
+move the tool to the other side of the hous. two-third 
+of the wai through the first row, i found that the extra 
+1/2" on the screw i purchas wa too much and i began 
+run into the top of the old concret step underneath. 
+figur. live and learn. 
+
+oh well, it wa entir too hot to work outsid anywai. 
+back down to the basement i went to geek out instead. 
+roughli an hour into geekitud, i glanc over and realiz 
+it wa 78.7 degre in the basement and i wa virtual 
+stuck to my chair from the sweat. i shut off as much as i 
+realli could and still work on a coupl of project, but it 
+didn't help the heat situat much. it wa just too hot 
+outsid for the air condition to keep up with the ad 
+heat from the comput. that left me in need of a shower 
+and with onli the notebook in the live room for the 
+balanc of the weekend. i clean out a lot of ancient 
+email, which wa nice, but noth realli got accomplish 
+otherwis. boi, am i tire. and the weekend is so far awai.
+
+hei, the second season of m*a*s*h come out on dvd 
+tomorrow! that should put me in better spirit. i could 
+watch m*a*s*h for hour on end. in fact, i often do just 
+that. the onli kink is that the episod don't plai back-to-back 
+from dvd. i'm go to plai with applescript on the mac 
+to see if i can custom how the individu disc plai. in 
+theori, i should be abl to make a disc plai all the wai 
+through. if i succe, i'll be sure to share the script 
+techniqu in the applecor newslett. too bad i can't do that with a stand-alon dvd player.
+
+see you in august,              randi nieland       
+
+ gnomenetwork
+slow file save dialog box
+point out by ian hargreav
+
+http://support.microsoft.com/default.aspx?scid=kb;en-us;q321126
+i've hate thi on for a long time, and now we have a 
+hotfix and a workaround, so take your pick as to which will 
+work best. i often map drive letter to specif network 
+share, and if i happen to have a system turn off, i'll 
+notic a signific delai when click the drop-down box 
+in open, look in or save in/as dialog box. window 2000 
+attempt to reconnect to map resourc befor show you 
+the list, and depend on how mani drive you have map 
+and how mani of those resourc ar unavail, it can take 
+eon just to save a file. a workaround is to us the my 
+network place function instead of map drive 
+letter. fine for some, but i prefer have drive letter 
+map for mani thing, be that i work at a command 
+prompt quit a bit, and it's easier to navig that wai. 
+altern, a hotfix is now avail, but you'll have to 
+contact microsoft to obtain the fix if that's the rout you 
+choos.
+
+
+ gnomesystem
+custom 9x/me blue screen error
+http://www.vsre.com/blscrn/
+we've all seen 'em. those annoyingli incoher blue 
+screen indic a system error of some sort, but provid 
+no real help in solv the problem. if you're a programm 
+that ha had to deal with error condit produc by 
+window 95/98/me, then thi might be a better wai to handl 
+them within your applic. blue screen v1.21 is an 
+activex control that us the standard window system error 
+function, but provid a wai to pass along text and 
+respons option you design. note that thi is not 
+function on window nt/2000/xp, which handl system error 
+in an entir differ manner.
+
+gamer bewar of intel 845g chipset
+http://www.theinquir.net/?articl=4532
+http://www.theinquir.net/?articl=4513
+discount the amd hype and return vollei from intel when 
+read up on all of thi, but on thing is painfulli clear. 
+the intel 845g chipset and p4 celeron processor realli 
+don't provid an accept game experi. not onli is 
+perform subject to ridicul, but compat is also 
+look to be a seriou matter. intel ha never claim that 
+celeron were high-end desktop processor, but thei have 
+typic provid a decent enough experi that thei can 
+make for accept machin for the more budget-mind 
+consum. the compat issu with thi particular 
+version of celeron and the 845g chipset ar someth to 
+watch out for. onc the celeron is move to the .13 micron 
+core, i suspect the perform concern won't remain, but 
+the 845g alon seem to have it's own problem without 
+ad the celeron miseri. the lesson in know what 
+hardwar you're bui is what's import here.
+
+
+
+ gnomealertz
+todai's top 5 kbalertz
+
+q296133 - wd2002: record macro to creat right-to-left style record paragraph align incorrectli (q296133)
+q292152 - wd2002: macro to modifi current select text doe not work correctli (q292152)
+q292150 - wd2002: undo command doe not remov list style link to paragraph style (q292150)
+q292094 - wd2002: error messag: microsoft mail local fax is not instal on your system (q292094)
+q292078 - wd2002: new document creat by macro while word is minim open in restor state (q292078)
+
+
+
+clean your system add/remov plu! 2002 offer a new and better wai 
+to uninstal program you no longer want on your comput. all you have to do 
+is doubl-click on a desktop icon call "uninstal program", quickli find 
+the program you want to uninstal and click a button. add/remov plu! 2002, 
+unlik the standard window uninstal featur (the control panel add/remov 
+program applet), will uninstal the program and remov it from the list. 
+get your copi of add/remov plu now!
+
+
+recommend it!
+ gnomeassist
+test drive compaq server
+http://www.testdriv.compaq.com/
+compaq (ok, hp) offer a set of server run variou 
+*nix oper system, as well as oracl 9i, for test 
+drive. just regist for an account and you can tinker 
+around with linux, freebsd or even tru64 unix run on an 
+alpha server, but without the hassl and expens of 
+obtain your own toi. i love the idea of have a pre-
+configur environ that let you kick the tire without 
+caus ani perman damag. 
+
+
+ gnomestuff
+too cool
+http://www.pcworld.com/new/articl/0,aid,102779,00.asp
+thi wa just too interest not to mention. water-cool 
+system ar all-the-rage among overclock and those 
+that seem to need brag right over their friend' comput 
+system. hitachi is take a chapter from that tome and 
+appli the concept where it's truli need - notebook 
+comput. believ me when i sai that these sucker get veri 
+hot. i spend half my life with notebook plant on lap, and 
+i have to put someth between the two surfac to avoid my 
+own littl heat stroke. fan and the mini water cool 
+system hitachi is implement provid roughli the same heat 
+mitig effici, but without the nois. the concept of 
+a water-cool notebook sound a littl odd, but i would 
+welcom the elimin of the turbin drone with open 
+arm.
+
+
+
+
+
+
+recommend it!
+
+
+
+http://www.lockergnom.com/issu/techspecialist/20020722.html
+your subscrib e-mail address is: [qqqqqqqqqq-lg@spamassassin.taint.org] - to unsubscrib or chang your deliveri address, pleas visit the subscript manag page. for further inform, pleas refer to the gnomecredit in the sidebar.
+
+
+
+
+
+look over here
+
+ download tip ebook
+
+ latest window daili
+ latest digit media
+ latest tech specialist
+ latest penguin shell
+ latest appl core
+ latest web weekli
+ latest bit & byte
+ latest audio show
+
+ low price search
+ our tech confer
+
+ microsoft offic tip
+ pc product tip
+ cool internet tip
+ window 2000 tip
+ window xp tip
+
+ tell a friend about us!
+ suggest a featur
+ advertis with us
+ high-tech job search
+ chat with gnomi
+ watch the webcam
+ comput power user
+
+ read past issu
+ download x-setup
+ about lockergnom
+ our privaci polici
+ view more option
+ our xml / rss feed
+ syndic our tip
+ link to lockergnom
+ get chri's book
+
+
+ e-mail a suggest
+ your rant / rave
+ gener feedback
+ the editor's blog
+ e-mail the editor
+ sound system
+yamaha rx-v1200
+soni davc900
+harman kardon	avr520
+denon	avr5803
+pioneer vsxd811s
+pioneer elit	vsx49tx
+soni htddw840
+yamaha htr5560
+bose ls122bk
+soni davc450
+
+ gnomespeci
+ manag your workgroup
+ form pilot
+ sai the time 5.0
+ boomer - stream now
+ creat web/cd catalog
+ easi web editor
+ kleptomania
+ tag&renam
+ pretti good solitair
+ visual color combo
+ firststop websearch
+ ecobuild
+ book collector
+get list here
+question: which group is 250,000+ strong and alwai look for stuff to make their person and profession live run smoother? 
+
+
+ 
+
+
+click here to zoom
+
+ 
+look it up
+
+
+
+
+
+ 
+byte me now
+
+©2002, lockergnom llc. issn: 1095-3965. all right reserv. pleas read our term of servic. our web site is host by digitaldaz. domain regist at dn central.
+
+
+
+
+

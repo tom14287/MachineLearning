@@ -1,0 +1,24 @@
+[sadev] spam-assassin nightli build 22-8-02hello all,
+i get problem with the latest nightli build from spamassassin with
+vmailmgr + omail-admin. 
+it scan the mail and give it an :
+
+        x-spam-statu: no, hit=11.4 requir=7.0
+
+can someon look at the code for it? mayb becaus option -f is gone?
+
+
+greet
+erik rudolf
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-devel mail list
+spamassassin-devel@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-devel
+

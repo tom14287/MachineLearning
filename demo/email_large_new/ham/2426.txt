@@ -1,0 +1,38 @@
+re: instal intermedi certsand now i see that's suppos to be lower-case "secur."
+
+on apr 23, 2010, at 01:33:12, rick mann wrote:
+
+> there ha been an ongo problem with appl's product push =
+notif feedback server, in that thei requir us to instal =
+entrust root cert. for some reason, appl chose to sign cert for the =
+product push, sand box push, and sandbox feedback server with =
+well-known root cert, but the product feedback server cert is sign =
+with unknown root cert.
+>=20
+> someon suggest i instal these intermedi cert on the system, =
+but i don't know where to instal them. he point to =
+$java_home/lib/secur/cacert, but i see no such directori under 1.6.
+>=20
+> where do these go? where do thei go in more tradit java (open =
+solari java)?
+>=20
+> tia,
+> rick
+>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list      (java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> =
+http://list.appl.com/mailman/option/java-dev/rmann%40latencyzero.com
+>=20
+> thi email sent to rmann@latencyzero.com
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

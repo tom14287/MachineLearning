@@ -1,0 +1,44 @@
+re: [ilug] email list manag howto-----begin pgp sign messag-----
+
+vincent cunniff wrote:
+| justin maccarthi wrote:
+|
+|> i think i'll ask thi question again, as i sent on fridai afternoon.
+  :-)
+|
+|
+| mailman ;-)
+|
+| trust me, you do *not* want to run your own mail list
+| on your own softwar.
+|
+| you'll wind up cry in a dark room look for someth
+| high-voltag to stick your finger into.
+
+all thing consid, i get that effect with mailman, but the viabl
+altern ar ezmlm, which is loonwar and i'm avoid on principl,
+and majordomo, which seem to have stagnat. oh, and there's appar
+someth call smartlist which is a bitch to set up.
+
+waider.
+- --
+waider@waider.ie / ye, it /is/ veri person of me
+-----begin pgp signatur-----
+version: gnupg v1.0.6 (gnu/linux)
+comment: us gnupg with mozilla - http://enigmail.mozdev.org
+
+iqevawubpxn16hbxyzzsab3aqh2kqf/xqeomahnxalzbmgd5iyd9vqaagwar2dq
+kdpz0nbecr2os7pjoli9lspkgnshpjcdzirsxjvxmfp5yrnq0ayp0hggwrvwgjgb
+0n9hg/rgez7s5rhu79rauhpfb9xo1xzmi0gskdhsgefqsuoaz69vzvllsiriyhfi
+4u+vrpvtp0ryr7hax41jxu42gvwft2k2ddfftaimqgcsjnu2mxcmi/ptq1rtxhxd
+wzhxcr+fawirek8yz9drl8+gjl0yjqfsowumqzqlkkutx1ljvv7os4ydjgraqpxm
+jmq8lifudzayccbixx7zcxmslpp4c45wj5xjsyw8rcju1bgxtqhmbq==
+=eg8x
+-----end pgp signatur-----
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

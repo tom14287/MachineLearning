@@ -1,0 +1,39 @@
+re: make onscreen font read-abl[wa:new monitor, how to chang 
+	screen resolut?]from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+on fri, apr 30, 2010 at 10:15 am, camal=f3n  wrote:
+
+> on fri, 30 apr 2010 10:05:42 +0200, jame stuckei wrote:
+>
+> >> can you pleas upload a snapshot so we can see what you get?
+> >>
+> >>
+> > http://www.jhstuckei.com/1080.jpeg
+> >
+> > doe that look right to you?
+>
+> mmmm, ye, noth strang :-?. i bit "big" for my tast...
+>
+> do you find the font of the toolbar is still "small"? then instead 96dpi
+> set to 120dpi, that will make thing "bigger".
+>
+> greet,
+>
+> --
+> camal=f3n
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact
+> listmast@list.debian.org
+> archiv: http://list.debian.org/pan.2010.04.30.08.15.37@csmine.org
+>
+>
+do "xrandr --dpi 120", log out of wmii and log back in doesn't
+chang anyth.
+
+mayb the problem i perceiv in the text on screen is just how the monitor
+displai.

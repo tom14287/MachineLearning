@@ -1,0 +1,130 @@
+re: question about raid 6disclaim:  i'm partial to xf
+
+tim clewlow put forth on 5/1/2010 2:44 am:
+
+> my retic to us ext4 / xf ha been due to long cach befor
+> write time be claim as danger in the event of kernel lockup
+> / power outag. 
+
+thi is a problem with the linux buffer cach implement, not ani on
+filesystem.  the problem isn't the code itself, but the fact it is a trade
+off between perform and data integr.  no journal filesystem will
+prevent the loss of data in the linux buffer cach when the machin crash.
+ what thei will do is zero out or delet ani file that were not fulli
+written befor the crash in order to keep the fs in a consist state.  you
+will alwai lose data that's in flight, but your fs won't get corrupt due
+to the journal replai after reboot.  if you ar serious concern about
+loss of write data that is in the buffer cach when the system crash, you
+should mount your filesystem with "-o sync" in the fstab option so all
+write get flush to disk without be queu in the buffer cach.
+
+> there ar also report (albeit perhap somewhat
+> date) that ext4/xf still have a few small but import bug to be
+> iron out - i'd be veri happi to hear if peopl have experi
+> demonstr thi is no longer true. my prefer would be ext4
+> instead of xf as i believ (just my opinion) thi is most like to
+> becom the successor to ext3 in the futur.
+
+i can't speak well to ext4, but xf ha been fulli product qualiti for
+mani year, sinc 1993 on irix when it wa introduc, and sinc ~2001 on
+linux.  there wa a bug identifi that result in fs inconsist after a
+crash which wa fix in 2007.  all bug fix work sinc ha dealt with minor
+issu unrel to data integr.  most of the code fix work for quit
+some time now ha been cleanup work, optim, and write better
+document.  read the post to the xf mail list is veri
+inform as to the qualiti and perform of the code.  xf ha some
+realli sharp dev.  most ar current or former sgi engin.
+
+> i have been want to know if ext3 can handl >16tb fs.  i now know
+> that delai alloc / write can be turn off in ext4 (among
+> other tune option i'm look at), and with ext4, fs size ar no
+> longer a question. so i'm realli hope that ext4 is the wai i can
+> go.
+
+xf ha even more tune option than ext4--pretti much everi fs for that
+matter.  with xf on a 32 bit kernel the max fs and file size is 16tb.  on a
+64 bit kernel it is 9 exabyt each.  xf is a better solut than ext4 at
+thi point.  ted t'so admit last week that on function call in ext4 is in
+terribl shape and will a lot of work to fix:
+
+"on my todo list is to fix ext4 to not call write_cach_page() at all.
+we ar serious abus that function atm, sinc we're not actual
+write the page when we call write_cach_page().  i won't go into
+what we're do, becaus it's too embarass, but suffic it to sai
+that we end up call pagevec_lookup() or pagevec_lookup_tag()
+*four*, count them *four* time while try to do writeback.
+
+i have a simpl patch that give ext4 our own copi of
+write_cach_page(), and then simplifi it a lot, and fix a bunch
+of problem, but then i discard it in favor of fundament redo
+how we do writeback at all, but it's go to take a while to get
+thing complet right.  but i am work to try to fix thi."
+
+> i'm also hope that a cpu/motherboard with suitabl grunt and fsb
+> bandwidth could reduc perform problem with softwar raid6. if
+> i'm serious mistaken then i'd love to know beforehand. my
+> retic to us hw raid is that it seem like ad on more point
+> of possibl failur, but i could be easili be paranoid in dismiss
+> it for that reason.
+
+good hardwar raid card ar realli nice and give you some featur you
+can't realli get with md raid such as true "just yank the drive trai out"
+hot swap capabl.  i've not tri it, but i've read that md raid doesn't
+like it when you just yank an activ drive.  fault led drive, audibl
+warn, ar also nice with hw raid solut.  the other main advantag is
+perform.  decent hw raid is almost alwai faster than md raid, sometim
+by a factor of 5 or more depend on the disk count and raid level.
+typic good hw raid realli trounc md raid perform at level such as
+5, 6, 50, 60, basic anyth requir pariti calcul.
+
+sound like you're more of a casual user who need lot of protect disk
+space but not necessarili absolut blaze speed.  linux raid should be fine.
+
+take a closer look at xf befor make your decis on a fs for thi
+arrai.  it's got a whole lot to like, and it ha featur to exactli tune
+xf to your mdadm raid setup.  in fact it's usual automat done for
+you as mkf.xf queri the block devic devic driver for stride and width
+info, then match it.  (~$ man 8 mkf.xf)
+
+http://oss.sgi.com/project/xf/
+http://www.xf.org/index.php/xf_faq
+http://www.debian-administr.org/articl/388
+http://www.jejik.com/articl/2008/04/benchmark_linux_filesystem_on_softwar_raid_1/
+http://www.osnew.com/stori/69
+(note the date, and note the prais han reiser lavish upon xf)
+http://everyth2.com/index.pl?node_id=1479435
+http://erikugel.wordpress.com/2010/04/11/set-up-linux-with-raid-faster-slackwar-with-mdadm-and-xf/
+http://btrf.boxacl.net/repositori/raid/2010-04-14_2004/2.6.34-rc3/2.6.34-rc3.html
+(2.6.34-rc3 benchmark, all filesystem in tree)
+
+xf user:
+
+ the linux kernel archiv
+
+"a bit more than a year ago (as of octob 2008) kernel.org, in an ever
+increas need to squeez more perform out of it's machin, made the
+leap of migrat the primari mirror machin (mirror.kernel.org) to xf.
+we site a number of reason includ fscking 5.5t of disk is long and
+pain, we were hit variou cach issu, and we were seek better
+perform out of our file system."
+
+"after initi test look posit we made the jump, and have been quit
+happi with the result. with an instant increas in perform and
+throughput, as well as the worst xf_check we've ever seen take 10
+minut, we were quit happi. subsequ we've move all primari mirror
+file-system to xf, includ www.kernel.org , and mirror.kernel.org. with
+an averag constant movement of about 400mbp around the world, and with
+peak into the 3.1gbp rang serv thousand of user simultan it's
+been a file system that ha taken the brunt we can throw at it and held up
+spectacularli."
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdd5b56.8060705@hardwarefreak.com
+
+

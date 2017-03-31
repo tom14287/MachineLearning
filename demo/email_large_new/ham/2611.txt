@@ -1,0 +1,112 @@
+re: kde 4.4.3 in unstablefrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+hello,
+
+on ketvirtadieni 06 gegu=c5=be=c4=97 2010 23:48:43 boyd stephen smith jr. =
+wrote:
+> >  but whether
+> >  upstream softwar meet user' need is out of debian scope.
+>=20
+> there's a lot to consid, sinc debian need upstream's help in addressi=
+ng
+> bug throughout the lifetim of stabl, and that's easier to achiev with
+> the latest releas.  but then again, stabl need to be usabl on releas
+> dai. "releas earli, releas often" is great for develop, it is not so
+> great for stabil (both in "lack of bug" and "lack of chang"
+> mean). sometim the most recent releas from upstream is not best for
+> debian stabl.
+
+you miss my point complet. what is subject unus for you, is=20
+perfectli usabl for other and the other wai round. debian is not your=20
+person distro, it strive to keep balanc. and balanc is toward 4.4 sid=
+e=20
+you like it or not due to mani factor. when squeez is releas, kde 4.5 m=
+ay=20
+be in .3 or later patch releas upstream so the point about the latest and=
+=20
+greatest here is complet out-of-place.
+
+now if at particular time upstream softwar doe not meet your person nee=
+ds,=20
+you go and look for altern. you talk like kdepim 4.3 wa flawless. bu=
+t=20
+it wasn't! there is no place for "softwar doe not do x, remov it from=20
+stabl" discuss here.
+
+> >  just find
+> >  anoth softwar/solut which doe, develop it by yourself, pai
+> >  somebodi to develop it for you or ask kindli and wait till somebodi
+> >  els is motiv enough to do it.
+>=20
+> i will, but i see no reason not to air my grievanc.
+
+insist that other do someth (revert to kdepim 4.3) base sole on y=
+our=20
+person grievanc doe not help product commun.
+
+> > you run a dozen of db server,
+>=20
+> i'm not the onli person that doe.  most user have a sqlite datatbas th=
+ey
+> don't even know about.  peopl that develop or test web applic
+> gener have to deal with a db as well.  in small shop, the test
+> databas often live on the develop work system.
+>
+> > you don't want anoth on, you don't trust
+> > mysql,
+>=20
+> i'm not the onli on with these concern.
+
+i've never said that you're the onli on. i find myself in the odd posit=
+=20
+that i mostli share opinion with you about excess "explos" of db serv=
+er=20
+instanc on the desktop but i still can't help myself to argu. you start=
+d=20
+thi off on a wrong foot by demand to accommod to your need.
+
+> > you sai kde 4.4 is inappropri for stabl.
+>=20
+> that is my opinion.
+>=20
+> > noth object and
+> >=20
+> >  you assum that your truth is an ultim on.
+>=20
+> not realli.  i made object statement about kmail base on observ
+> fact. i also voic an opinion that i base on that statement.
+
+what fact? that kdepim/kmail need akonadi? that's hardli new. akonadi=20
+integr is not stabl enough? there is still time to improv it. that's=
+=20
+what ana's blog wa about.
+
+> >  if you have so
+> >  mani problem with particular piec of softwar, look for better optio=
+ns
+> >  or read the first part of thi mail again.
+>=20
+> i have problem with a veri narrow select of select of the softwar.
+> specif, i don't want to need mysql instal in order to us kmail
+> effect in debian stabl.
+
+it is not like everi mail client on the market suddenli need mysql. actual=
+ly,=20
+kmail is probabl uniqu in thi area.
+
+> there ar a number of solut to thi.  newer akonadi should run on non-
+> mysql data store.  older kmail doesn't talk to akonadi.  patch could be
+> appli to either.  stabl could includ softwar from multipl kde
+> releas, as ha been done befor.
+
+what i tri to sai to you all thi time, if akonadi render kmail unus=
+ to=20
+you, switch the client! akonadi by itself is not a bug, it is not go awa=
+y!=20
+take it or switch to someth els, simpl as that.
+
+=2d-=20
+modesta vainiu 

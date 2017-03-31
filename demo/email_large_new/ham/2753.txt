@@ -1,0 +1,68 @@
+re: [ilug] hard- vs. soft-link [wa: how to copi some file ]us the gui and don't delet file, us the other option, what it call
+again, the dustbin or someth ;-)
+
+conor who onli know about symbol link ;-))
+
+i'm pretti sure that i have a softlink from
+/mnt/public/mnt/public/download/linux/wastecpu/setiathom to
+/home/cwynn/seti
+
+the /mnt/pub....../seti.. directori resid on an extern raidvolum and
+/home/../seti is on the intern id2 drive. 
+so i dont have to cd around the gaf. i suppos that would count as across
+differ devic. 
+
+if you're wonder [probabl not] why /mnt/public is there twice, it
+becaus i restor from tapebackup and i didn't know that it keep the
+directori structur. i know now ;-)
+
+actual, how can i fix that quickli and easili? i thought about firstli
+mv'ing the structur to /tmp. then copi it back again but i'm sure some
+wee geniu know a quicki solut. mind you i never even bother try a
+it not a prioriti now that it all link anywai. 
+
+cw
+
+--------------------------------
+ hum.  interest variat on the classic techniqu of
+ redefin `rm' to `mv' the file into `./.trash/' (or
+ with a prefix of `#' or a suffix of `~'; the variat
+ ar endless).  these classic techniqu onli provid a
+ mean to roll back accident `rm's, so there is still
+ consider scope for data lost as there ar other wai
+ of delet file --- which is not a problem for thi
+ hard link idea.
+
+ but, like the classic techniqu, there is no roll
+ back of accident overwrit.
+
+ ( roll back overwrit remind me of the "snapshot"
+  facil on network applianc fileserv.  and of the
+  variou "version" filesystem which appear --- and
+  then vanish? --- over the year.... )
+
+ on sever(?) gotcha is some file shouldn't have ani
+ hard link.  both rc *,v (and henc cv) and scc s.*
+ file ar like thi --- the rc(/cv?)/scc toolset
+ complain if there ar hard link.
+
+cheer,
+	-blf-
+--
+ innov, veri experienc, unix and      | brian foster    dublin,
+ireland
+ choru (embed rto) kernel intern     | e-mail: blf@utvinternet.ie
+ expert look for a new posit ...       | mobil: (+353 or 0)86 854
+9268
+  for a résumé, contact me, or see my websit  http://www.blf.utvinternet.ie
+
+    stop e$$o (exxonmobil):  «whatev you do, don't bui esso --- thei
+     don't give a damn about global warm.»    http://www.stopesso.com
+     support by greenpeac, friend of the earth, and numer other...
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

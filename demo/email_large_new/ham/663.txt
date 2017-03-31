@@ -1,0 +1,32 @@
+re: stupid questionon 05/13/2010 08:37 am, steef wrote:
+>
+> hi list,
+>
+> how do i get rid of the messag of a new (of cours much valu)
+> maintain christian about mta's and cron when updat squeez on the
+> commandlin befor us startx? apt-get upgrad hang on thi messag
+> and i do not know the protocol to go on in thi situat (if there is
+> ani). so i cannot upgrad.
+>
+> thank you in advanc!
+>
+> steef
+>
+>
+hi,
+i'm think by press "q".
+
+-- 
+bye,
+goran dobosev
+hrvatski: www.dobosev.com
+  english: www.dobosev.com/en/
+regist linux user #503414
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bebd280.9010303@dobosev.com
+
+

@@ -1,0 +1,31 @@
+re: [razor-user] authent erroron wed, 24 jul 2002, rodbegbi wrote:
+
+> rodbegbi wrote:
+> > i get the impress that vipul & co ar deliber try to
+> > mislead user into download the dev code in order to get more
+> > unwit test site.
+>
+> apolog to all.  in re-read, that sentenc sound a lot harsher than i
+> intend.
+
+the question i have is: what need to be done/help need to be provid to
+make the system suck less? it's obvious a great idea, it just need some
+work...
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+                               patrick greenwel
+         ask the wrong question is the lead caus of wrong answer
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

@@ -1,0 +1,25 @@
+ot - backup of ha server on extern drivefrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=iso-8859-1
+
+hi all,
+
+i have to make a backup plan for a server that is physic veri far awai
+from me right now. if for some reason thi server goe south, i have to have
+a plan and it ha to be done quickli. the problem is that the personnel that
+is on site doesn't know squat about linux (or comput, for that matter),
+so it must be someth dead simpl. i wa think of get a spare hard
+drive, connect it to the work server, do a dd of the entir disk to the
+new disk, and disconnect the disk (the peopl there can swap hard disk).
+someth like
+
+dd if=/dev/sda of=/dev/sdb bs=1024
+
+assum that sda is the work disk and sdb is the new, unformat and
+unpartit disk. so if hte machin break, i can get the new disk and put
+in a new machin and everyth should work. thi server is do firewal
+and openvpn, etc, no x, no fanci stuff. is thi go to work? what do you
+gui think?
+
+cheer!
+
+ivan

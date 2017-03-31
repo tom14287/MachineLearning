@@ -1,0 +1,29 @@
+re: autom apt-get updatehi,
+on thu, apr 08, 2010 at 09:02:31am +0200, jozsi vadkan wrote:
+> i don't want to put:
+> 
+> apt-get updat
+> 
+> in:
+> 
+> /etc/crontab
+> 
+> but then how could i "autom" the:
+> 
+> apt-get updat
+> 
+> ? is there a program for it? [e.g.: updat-manag under gui?] that
+> randomli run apt-get updat?
+> 
+> thank you!
+
+consid cron-apt too.
+regard
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100408082708.gb1949@nacer-adam.cm.auf.org
+
+

@@ -1,0 +1,40 @@
+re: problem with jni includ in a jnlp on mac os x
+on 4/7/2010 10:45 am, greg guerin wrote:
+> brandon moon wrote:
+>
+>> so you were right, java is throw a classnotfoundexcept, but i 
+>> don't understand why thi would be the case. i have a static 
+>> initi in that class, and that's where it is load and call 
+>> that nativ method.
+>
+>
+> when a static nativ method is call, it receiv a jclass refer 
+> (a local refer).  if you need to keep it for other thing, then 
+> you should make it into a global ref and keep it.
+>
+> you mai have to add some clever to avoid circular, such as 
+> helper class that can be load and clinit'ed befor their nativ 
+> method ar invok.
+>
+> also, if you've test your current code in a non-jnlp environ and 
+> it work there, then thi problem mai be a side-effect of jnlp, which 
+> ha differ secur constraint than a nativ launch process.  
+> if you haven't test your code in a non-jnlp environ, you might 
+> want to try it.
+>
+>   -- gg
+>
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list      (java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/java-dev/brandon%40pixeltur.com
+>
+> thi email sent to brandon@pixeltur.com
+
+i thought i mention that befor, but i guess it wasn't veri clear.  my 
+bad.  ye, it doe run local on my machin us eclips.  the problem 
+onli occur when run with a jnlp.  do you know what kind of secur 
+constraint could caus thi kind of problem, and how i could get around it?
+
+brandon moon

@@ -1,0 +1,19 @@
+re: problem with an rpm...mark derricutt wrote:
+> never mind, there wa some cron thing do rpm -qf ???  seem fine now.
+> 
+> --on wednesdai, februari 06, 2002 07:37:44 +1300 mark derricutt 
+>  wrote:
+> 
+>> fetch 88.1kb in 2m31s (581b/s)
+>> error: cannot get exclus lock on /var/lib/rpm/packag
+>> error: cannot open packag index us db3 - oper not permit (1)
+>> e: could not open rpm databas:cannot open packag index us db3 -
+>> oper not permit (1)
+
+you can do a rpm --rebuilddb too
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

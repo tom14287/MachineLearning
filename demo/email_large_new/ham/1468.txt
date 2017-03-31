@@ -1,0 +1,47 @@
+re: autom updat in lennyfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+okai. thank for these precis.
+
+andrei popescu wrote:
+> on sat,10.apr.10, 11:38:08, merciadri luca wrote:
+>  =20
+>
+> i'm not sure what i can do to prove that someth doesn't exist. i=20
+> could for exampl post the consol output of:
+>
+> # apt-get updat
+> # apt-get upgrad
+> # aptitud safe-upgrad
+>
+> (us apt-get do a partial upgrad and let aptitud finish the=20
+> job[1][2])=20
+>
+> but i'm not sure how relev thi is. sure there ar differ in=20
+> *behavior*, but i'm not awar of ani recent incompat. if you=20
+> find ani such incompat pleas do report them as i'm sure both =
+
+> the develop of apt and aptitud would like to know about them.
+>
+> [1] 'aptitud safe-upgrad' instal new packag while
+> 'apt-get upgrad' doesn't, but thi is both expect and document=20
+> behaviour
+>
+> [2] and in case you're wonder, ye, i just did that on my sid=20
+> machin, but the consol output is rather long.
+>
+> regard,
+> andrei
+>  =20
+
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+
+

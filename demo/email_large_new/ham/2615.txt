@@ -1,0 +1,46 @@
+re: asignar hora a pcon 20100428_092823, stephen powel wrote:
+> on wed, 28 apr 2010 02:16:20 -0400 (edt), camalón wrote:
+> > on tue, 27 apr 2010 14:57:59 -0400, stephen powel wrote:
+> >> on tue, 27 apr 2010 15:22:53 -0400 (edt), cosm wrote:
+> >>> ...
+> >>> y como quedaría dentro????
+> >> 
+> >> solo en ingl, por favor, o mailto:debian-user-spanish@list.debian.org
+> > 
+> > after some attemp to try to contact the user (he also write into the 
+> > spanish list), i reach the follow conclus:
+> > 
+> > 1/ the user doe not receiv mani of the e-mail come from the list.
+> > 
+> > 2/ he cannot receiv e-mail from the outsid (mayb is behind a proxi or 
+> > firewal or ani kind of filter system that reject extern e-mail).
+> 
+> that is inde strang.  i have never heard of an e-mail system that allow
+> e-mail out but not in.  (except for spam setup, of cours!)  he must have
+> *some* wai of receiv repli, such as view the mail list archiv
+> via a browser.  otherwis, why would he ask a question to which he know that
+> he cannot receiv repli?  and if memori serv me correctli, thi user
+> ha been repeatedli told that debian-user is for english onli.  i must
+> therefor conclud that he is either (a) stupid, (b) careless, or (c) obnoxi.
+
+steve:
+
+there ar mani more possibl reason than three. given camaleon's report of
+hi investig, i think it is like that the real reason is someth els,
+not on your list. perhap, for instanc, he is insan and is confin to a
+mental institut where some of the more lucid inmat ar allow access
+to the comput and internet. whatev the real reason, camaleon seem to
+have exhaust the publicli avail option for commun. i thank him.
+
+
+-- 
+paul e condon           
+pecondon@mesanetwork.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100428134730.gb2249@big.lan.gnu
+
+

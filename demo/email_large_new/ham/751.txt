@@ -1,0 +1,26 @@
+re: [volatil] updat clamav-relat packag avail fortestingon thu, apr 15, 2010 at 12:52:47pm -0700, jason self wrote:
+> kurt roeckx  wrote ..
+>  
+> > what doe thi mean exactli?
+> 
+> it mean that version older than 0.95 will be remot disabl by the clamav 
+> folk onc your copi of clamav get the cvd updat that includ what i like to 
+> call the special "self-destruct" code. :)
+> 
+> it mean that you need to be run least version 0.95 of clamav, and 
+> prefer alwai the latest & greatest version, to be protect. outdat anti-
+> viru softwar is not effect.
+
+i forgot about dsa 1906 in octob which basicli alreadi announc
+it.
+
+
+kurt
+
+
+-- 
+to unsubscrib, email to debian-secur-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100415201641.ga837@roeckx.be
+
+

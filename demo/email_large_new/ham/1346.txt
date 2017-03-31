@@ -1,0 +1,28 @@
+re: [satalk] get yourself remov from spam listson fri, 13 sep 2002, toni l. svanstrom muse:
+> on fri, 13 sep 2002 the voic made carlo@alino.com write:
+> 
+>> what do spammer do with email address in
+>> their databas that ar undeliver for a
+>> few year?  do thei still continu to spam
+>> them?
+> 
+>  ye.
+
+so much so that i get thousand of bounc per dai on thi machin aim
+at what ar plainli messag-id...
+
+-- 
+`let's have a round of applaus for those dare young men
+ and their fly spellcheck.' --- meg worlei
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

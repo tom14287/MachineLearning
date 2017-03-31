@@ -1,0 +1,66 @@
+re: fromthi is not an exmh problem, but an interact between sendmail, solari and 
+mh.
+
+your sysadmin is wrong.  it is the respons of the receiv mail 
+server to escap line begin with "from " if thei choos to turn on that 
+facil.  it is not the respons for email client to cater to the 
+stupid design of the unix mail spool, and sun's even more stupid decis to 
+reli on "content-length:" instead of deal with thi problem.  sinc mh is 
+unawar of "content-length:", rcvstore gag try to pars messag from the 
+spool.
+
+i had thi same problem.  there ar sever wai to fix it:
+
+1)  get your mail administr to add the "e" flag to your sendmail.  thi 
+mean you will never see a line begin with "from ".  ani such line will 
+look like ">from ".
+
+2)  there is a patch to mh to make it respect "content-length:".  when i wa 
+have thi problem, port thi patch to nmh wa low on the prioriti list, 
+then nmh develop stall for a long time.  i doubt it ha been done, but 
+you can check with the nmh list at nmh-worker@mhost.com to find out for sure.
+
+3)  you can learn to us procmail, invok rcvstore directli instead of 
+let sendmail put your incom mail into the spool.  thi avoid the 
+whole issu.  rcvstore onli deal with a singl messag at a time, and 
+everyth work.
+-- 
+jim mcmaster
+mailto:mcmasjc@tatanka.stortek.com
+
+
+in messag <200210091657.g99gvdmx025433@life.ai.mit.edu>, jason renni said:
+> 
+> when i receiv a messag that ha a line start with "from ", it's
+> broken into two messag.  i get my mail from /var/spool/mail.  the
+> program that incorpor mail think that the "from " line start a new
+> messag.
+> 
+> my sysadmin have told me that the send mail client is suppos to 
+> escap line begin with "from ".  exmh (2.5) doesn't do thi.  should 
+> it?  it appear that my mh is mh 6.8.  doe nmh fix thi?
+> 
+> jason d. m. renni
+> mit ai lab
+> jrenni@ai.mit.edu
+> (617) 253-5339
+> http://www.ai.mit.edu/~jrenni/
+> 
+> 
+> 
+> 
+> _______________________________________________
+> exmh-user mail list
+> exmh-user@redhat.com
+> http://listman.redhat.com/mailman/listinfo/exmh-user
+> 
+
+
+
+
+_______________________________________________
+exmh-user mail list
+exmh-user@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-user
+
+

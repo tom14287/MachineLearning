@@ -1,0 +1,87 @@
+[spam]  card valid
+
+
+newslett : june 2009
+
+
+
+
+bodi { margin: 0;
+    pad: 0; }
+
+div.newslett a { color: #0864a5; }
+
+div.newslett h3 { margin: 0 0 5px 0;
+    line-height: 25px;
+    font-famili: arial, helvetica, san-serif;
+    font-size: 150%;
+    color: #0864a5;
+    font-weight: bold; }
+
+div.newslett h3 a { color: #0864a5; }
+
+div.newslett h3.underlin { border-bottom: 1px solid #d8d8d8;
+    pad-bottom: 7px;
+    margin-bottom: 1em; }
+
+div.newslett img { border-width: 0px;
+	vertic-align: bottom; }
+
+div.newslett img.border { border: 1px solid #dbdada;
+    pad: 3px; }
+
+div.newslett .imgright { float: right;
+    pad-left: 17px;
+    pad-bottom: 17px;
+    pad-top: 3px; }
+
+div.newslett tabl { font-size: 12px; }
+
+
+
+
+if you experi difficulti view thi messag, you can view it in your browser.
+
+
+
+
+
+
+enew
+
+					june 2009
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+					updat your detail | 
+					unsubscrib or edit option
+
+					pleas forward thi enewslett to a friend
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+re: sudden reboot with firefox and flashon tuesdai 20 april 2010 21:57:01 nick douma wrote:
+> on tue, apr 20, 2010 at 09:43:18pm +0200, thierri chatelet wrote:
+> > +1
+> > i  had the same problem. the fan control wa not work well. a bio
+> > upgrad solv the problem.
+> 
+> did you also experi thi problem with thi motherboard, or a similar
+>  on?
+> 
+
+no wa not the same. but you can hear if fan speed goe up when you load 
+either the cpu or the graphic card.
+thierri
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004202205.57988.tchatelet@free.fr
+
+

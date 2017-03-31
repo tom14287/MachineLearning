@@ -1,0 +1,50 @@
+[razor-user] re: content-type: messag/rfc822  support ?  for what you're try to do, forward doe not work.
+  'bounc' work perfectli, if you can do that.
+  anoth option is to save spam to a folder and report 
+  it all at onc.
+
+  -chad
+
+
+on 26/07/02 08:41 +0200, jørgen thomsen wrote:
+) thu, 25 jul 2002 18:33:15 -0700 skrev du:
+) 
+) >  not sure what you're ask.
+)   
+) i just want to be sure, that forward an email to my own spamtrap address
+) which perform a razor-report on the entir receiv email is not wast of
+) time, becaus the content of the forward email is not recogn as equal
+) to the email origin receiv. the forward email ha a new set of
+) headerlin, which should be discard and instead the headerlin of the
+) origin messag ar in the bodi of thi new messag and should be recogn
+) as such and treat properli.
+) 
+) an ordinari forward unquot in agent is subject to charact set convers
+) and doe not depict the receiv spam in it origin form.
+) 
+) i hope thi clarifi my concern.
+) 
+) - jørgen
+) 
+) 
+) 
+) -------------------------------------------------------
+) thi sf.net email is sponsor by:thinkgeek
+) welcom to geek heaven.
+) http://thinkgeek.com/sf
+) _______________________________________________
+) razor-user mail list
+) razor-user@list.sourceforg.net
+) http://list.sourceforg.net/list/listinfo/razor-user
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

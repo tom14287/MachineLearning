@@ -1,0 +1,21 @@
+[spambay] ditch wordinfo> yeah, that's exactli what i wa do--i didn't realiz i wa
+> incur administr pickl bloat thi wai.  i'm specif
+> try to make thing faster and smaller, so i'm store individu
+> wordinfo pickl into an anydbm dict (kei by token).  the result
+> is that it's almost 50 time faster to score messag on per run
+> our of procmail (.408s vs 18.851s).
+
+thi is veri worthwhil.
+
+> howev, it *doe* sai all over the place that the goal of thi
+> project isn't to make the fastest or the smallest implement, so
+> i guess i'll hold off do ani further perform tune until the
+> goal start to point more in that direct.  .4 second is probabl
+> fast enough for peopl to us it in their procmailrc, which is what
+> i wa after.
+
+mayb.  i batch messag us fetchmail (don't ask why), and ad
+.4 second per messag for a batch of 50 (not untyp) feel like a
+real wait to me...
+
+--guido van rossum (home page: http://www.python.org/~guido/)

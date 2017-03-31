@@ -1,0 +1,44 @@
+re: repli to the liston sun, 25 apr 2010 22:04:16 +0200, merciadri luca wrote:
+
+> camalón write:
+> 
+>> doe anyon here have to repli to my post in the same manner? >:-?
+
+> actual, i have two choic to read your answer. either i us my gnu,
+> through emac, which show me all the post in the group. there, your
+> contribut appear.
+> my second choic is to us googl group, which also give your messag
+> in the group.
+> 
+> but what is realli weird is that, as i receiv everi messag which is
+> post in the group by e-mail (becaus i have subscrib to the list), i
+> should receiv _all_ your contribut, but, sometim, your
+> contribut do not appear. i do not understand why. i cannot explain
+> it.
+
+mmm, ye, sound weird. 
+
+and you onli experi thi with some of my repli, right? ar you 
+us ani kind of spamfilt at your end? :-?
+
+i us gmane (e-mail to new gatewai) to send post and read the list via 
+pan newsread. 
+
+>from time to time gmane have had some "glitch" (messag can be delai 
+or in the worst case, thei ar lost) but if the post reach the list 
+archiv, you (everyon subscrib) also should get it:
+
+http://list.debian.org/debian-user/
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.26.06.27.09@csmine.org
+
+

@@ -1,0 +1,18 @@
+re: [spambay] current version
+    richi> as i understand it, post-1.8x version of the core bsddb code
+    richi> ship under the sleepycat licens, which demand that project
+    richi> us it must be publish-sourc.  
+
+don't us bsddb in a close-sourc product.  us dbm or dumdbm or us
+pickl or roll your own thang.  i doubt the presenc of bsddb would be the
+onli barrier to creat a close-sourc product base upon the spambay
+code.
+
+skip
+
+_______________________________________________
+spambay mail list
+spambay@python.org
+http://mail.python.org/mailman/listinfo/spambay
+
+

@@ -1,0 +1,27 @@
+re: bug 226394 not confirmedon 2010-05-07 dotan cohen wrote:
+> can other kde user pleas triag these dataloss bug in korgan in kde
+> 4.4:
+> 
+>  http://bug.kde.org/show_bug.cgi?id=172464
+>  http://bug.kde.org/show_bug.cgi?id=226394
+>  http://bug.kde.org/show_bug.cgi?id=228674
+>  http://bug.kde.org/show_bug.cgi?id=236563
+>  http://bug.kde.org/show_bug.cgi?id=236658
+> 
+> each on should take less than a minut to triag.
+> 
+> dataloss is a huge issu and i fear that it is not get the
+> attent that it deserv. hopefulli if some other user confirm the
+> issu then the bug will get prioriti. thank.
+
+i wa not abl to reproduc the bug and ad that to the bug report.
+
+diederik
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005071326.14497.didi.debian@cknow.org
+
+

@@ -1,0 +1,24 @@
+re: reportugfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="us-ascii"
+content-transfer-encod: quot-printabl
+
+in , ian delanei wrote:
+>oh, i mai have just figur it out.  it's us vim.  must be differ
+> version perhap.  onc enter the data, i couldn't see how to save and
+> exit.  i'm us to nano. the other instanc us nano as a text editor to
+> enter the descript.'   no matter, let's persever sinc i've start.
+
+set editor=3d/usr/bin/nano in your environ will make most debian=20
+util us it instead of /usr/bin/sensibl-editor.
+
+>the bug report:
+
+that's a decent report, but bug report don't go to debian-user@l.d.o.  the=
+y=20
+go to submit@b.d.o.
+=2d-=20
+boyd stephen smith jr.                   ,=3d ,-_-. =3d.
+bss@iguanasuicid.net                   ((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi         `-'(. .)`-'
+http://iguanasuicid.net/                    \_/

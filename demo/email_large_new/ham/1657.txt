@@ -1,0 +1,64 @@
+re: non-ascii environmenton fri, 9 apr 2010 17:57:04 -0400 (edt), john hasler wrote:
+> stephen powel write:
+>> ye, hercul is an ibm mainfram emul.  but the problem is
+>> licens.  there ar some *veri old* releas of ibm oper
+>> system that have pass into the public domain that you can run on
+>> the hercul emul.
+>> these ar circa 1975 or so, which is about 35 year ago.  an exampl
+>> is vm/sp releas 6.
+
+oop! i meant to sai vm/370 releas 6, not vm/sp releas 6.  vm/sp
+releas 6 is still proprietari.
+
+-----
+
+these ar some of the issu that someon write portabl code
+for ascii vs. ebcdic implement need to worri about.
+
+(1) collat sequenc.  in ascii, the collat sequenc is number
+(0-9), follow by uppercas letter (a-z), follow by lowercas
+letter (a-z).  special charact ar mix throughout.  in ebcdic,
+the collat sequenc is lowercas letter (a-z), follow by
+uppercas letter (a-z), follow by number (0-9).  so record
+sort alphabet sort in a differ order.
+
+(2) assumpt of continu.  in ascii, the code a-z and a-z
+ar contigu, with no code in between.  in ebcdic, there ar
+six non-contigu rang, a-i, j-r, s-z, a-i, j-r, s-z.  most
+of the code in between ar non-printabl charact, but not
+all.  for exampl, ~ sort abov r and below s, } sort abov i
+and below j, and \ sort abov r and below s.
+
+(3) hidden assumpt about control code.  a program mai, for
+exampl, assum that x'0a' is a line feed and hard code it
+somewher.  in ascii, that is true.  but in ebcdic, a line feed
+is x'25'.
+
+(4) 7-bit assumpt.  in u.s. standard ascii, all the printabl
+charact ar between the hex valu of x'00'-x'7f'.  code
+abov x'7f' ar not standard code.  histor, these indic
+the combin of the "meta" kei with a regular code.  in
+ebcdic, the code ar sprinkl throughout the entir rang of
+x'00' through x'ff', with the numer symbol 9 have the highest
+code of ani normal printabl charact (x'f9').
+
+thi is not an exhaust list, but it give you an idea
+of what to watch for.  although the
+follow tabl ha a few mistak, thi link will give you
+an idea of ascii vs. ebcdic code.
+
+   http://www.natur-innov.com/comput/asciiebcd.html
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/8691664.2246941270858506206.javamail.root@md01.wow.synacor.com
+
+

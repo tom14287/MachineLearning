@@ -1,0 +1,27 @@
+re: bash script - pass command line arg to embed sed script with
+ multipl argsfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii; format=flow
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on fri, apr 16, 2010 at 08:15:38pm -0400, daniel d jone wrote:
+>what i'm try to do is pretti simpl.  get it to work is turn out=
+ not
+>to be.  what i want to do is call a bash script with a coupl of argument,
+>and, within the script, call sed to us those arg to replac two placehol=
+der
+>in a file:
+>
+>bashscript sub1 sub2
+>
+>thi line insid bashscript doesn't work:
+>
+>sed -e 's/placehold1/$1/' -e 's/placehold2/$2/' < input > output
+
+if you switch the singl quot to doubl quot it will work as you expect=
+=2e =20
+variabl insid of doubl quot ar expand.  singl quot ar for lite=
+ral=20
+string, as you've discov.
+
+me

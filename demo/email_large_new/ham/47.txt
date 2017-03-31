@@ -1,0 +1,40 @@
+re: aptitud erroron fri, apr 30, 2010 at 21:14, boyd stephen smith jr.
+ wrote:
+> on fridai 30 april 2010 06:16:22 jame stuckei wrote:
+>> the unstabl/sid doesn't have to be comment out. set the default
+>> =a0releas will keep the system track to, in thi case, test.
+>
+> er, mostli.
+>
+> if there is a version depend that can be satisfi from sid but not
+> test, you will get the packag from sid. =a0thi shouldn't happen give=
+n the
+> wai test is manag, unless you instal at least on packag from si=
+d.
+>
+>> how did the packag =a0from sid get instal in the first place? if yo=
+u're
+>> track someth, you have to give it an explicit "aptitud instal -t
+>> =a0sid " command, right?
+>
+> with the offici test and sid repositori that should be true. =a0it=
+ would
+> onli happen if someon manual fix up test and did it wrong.
+> --
+> boyd stephen smith jr. =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 ,=3d ,-_-. =3d=
+.
+> bss@iguanasuicid.net =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 ((_/)o o(\_))
+> icq: 514984 ym/aim: datwinkdaddi =a0 =a0 =a0 =a0 `-'(. .)`-'
+> http://iguanasuicid.net/ =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0\_/
+>
+
+you could find what all packag from sid ar instal in your system by
+apt-show-version |  grep unstabl
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/g2kd0bf7b0b1004301018p3fb45806we1fd29cf33c2119d@mail.csmine.org
+
+

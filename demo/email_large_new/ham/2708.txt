@@ -1,0 +1,40 @@
+re: composit two moviesi can verifi that these call do actual work for synchron. i =
+grab the master time base of the movi i am consid the master =
+(which can be arbitrari, so just pick on) and set the master time base =
+of the other movi us that. thei stai in perfect lock step for the =
+rest of the wai for me.
+
+-matt
+
+
+on apr 13, 2010, at 12:22 pm, jame walker wrote:
+
+> on 4/11/2010 4:24 pm, rapha=ebl ding=e9 wrote:
+>=20
+>> ye, sure, but my point wa onli about have two movi perfectli in =
+sync,
+>> and thi sampl code is just a wai to achiev it !
+>=20
+> i tri ad the bit about getmovietimebas and =
+settimebasemastertimebas to my project, and it didn't seem to help =
+synchron.
+>=20
+> i also tri make a movi with refer to the two video track, =
+so that the video track would be plai in the same movi, and thei =
+still don't stai synchron when plai.
+>=20
+> it look like i mai have to requir that the two movi be somehow =
+preprocess to be side by side in a singl video track.
+> --=20
+>  jame w. walker, innovent softwar llc
+>  
+> _______________________________________________
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

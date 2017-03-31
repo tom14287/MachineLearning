@@ -1,0 +1,43 @@
+filter film capacitorfrom nobodi sun sep 18 20:45:31 2016
+content-type: multipart/altern;
+ boundari="----=_nextpart_w06gnvwsmbjczhhjjksn0ssgc1knaa"
+
+
+------=_nextpart_w06gnvwsmbjczhhjjksn0ssgc1knaa
+content-type: text/plain;
+content-transfer-encod: quot-printabl
+
+to : engin and purchas manag, 
+
+we would like to take thi chanc to introduc our new seri of capacitor : 
+filter capacitor
+
+applic : 
+-high frequenc and current ac, dc filter circuit; emc filter applic
+
+electr characterist :
+-capacit : custom design
+-tol : =a1=d310%, =a1=d35% at 23=a2j 1khz
+-voltag : custom design, ac & dc is avail
+-test voltag : 1.3 x un 60sec (can be custom design)=a1v dc applic
+                             : accord to en132400 =a1v ac applic
+-low esr and esl
+-high current carri capac
+-temperatur rang : -55 ~ 85=a2j (full voltag rate)
+
+should you have ani inquiri, pleas do not hesit to contact us. quotat and sampl will be sent upon request. thank for your kind attent and look forward to hear from you soon.
+
+best regard,
+goman siu
+hong kong film capacitor (shun tai) co ltd
+1/f, po yip st, 23 hing yip st, kwun tong, hong kong
+tel:852-27958795
+fax:852-27958189
+http://www.filmcapacitor-st.com
+gomansiu@filmcapacitor-st.com
+
+
+we apolog for ani inconveni caus by thi e-mail.
+if you would like to be remov from our mail list, pleas repli thi mail with "unsubscrib+ your e-mail address" in the subject.
+
+------=_nextpart_w06gnvwsmbjczhhjjksn0ssgc1knaa--

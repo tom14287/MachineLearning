@@ -1,0 +1,52 @@
+re: fwd: re: kde 3.5 ...dotan cohen schreef:
+> on 10 mai 2010 14:37, steef  wrote:
+>    
+>> dotan cohen schreef:
+>>      
+>>>> where is the copi-file option in 'edit', dolphin in kde4.x (in 3.5 edit>
+>>>> copi file in konqueror) or did my old ey look not sharp enough?
+>>>>
+>>>>
+>>>>          
+>>> in kde 4.4.2 i have edit ->    copi in both dolphin and in konqueror. can
+>>> you send to me a screenshot of your edit menu? what kde version?
+>>>
+>>>
+>>>        
+>> hi dotan:
+>>
+>> that is not exactli what i mean: i wa not clear enough: so anoth time:
+>>
+>> i mean in kde 3.5 in the same row as 'copi' under 'edit' the 'copi file'
+>> possibl that i cannot find back in kde4.x.x
+>> i'll look at exact the version of kde 4.x.x later. thi version of kde 4.x.x
+>> is on anoth (non-product) machin with os debian_sid, up to date.
+>>
+>> thank for your answer,
+>>
+>> kind regard,
+>>
+>> steef
+>>
+>>      
+> what doe "copi file" do then? describ to me what it doe and i will
+> see if dolphin can do that, or if it is reason i will file a
+> featur request.
+>
+> thank.
+>
+>    
+look at (in my file) the next mail from sjoerd hardeman
+[un. of leiden (netherland)]
+
+thank you,
+
+steef
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be80a26.7030407@home.nl
+
+

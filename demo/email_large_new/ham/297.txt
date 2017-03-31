@@ -1,0 +1,8 @@
+ed cone: "i told my grandmoth goodby."url: http://scriptingnew.userland.com/backissu/2002/09/23#when:9:11:14pm
+date: tue, 24 sep 2002 04:11:14 gmt
+
+ed cone[1]: "i told my grandmoth goodby."
+
+[1] http://radio.weblog.com/0107946/2002/09/24.html#a186
+
+

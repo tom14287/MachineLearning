@@ -1,0 +1,36 @@
+re: what need to improv in kde 4?from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+on tuesdai 11 mai 2010 21.10:18 dotan cohen wrote:
+> on 11 mai 2010 09:15, adrian von bidder  wrote:
+> > on mondai 10 mai 2010 16.08:40 dotan cohen wrote:
+> >> pleas tell us what problem, bug, or issu kde 4 that make it
+> >> difficult to us.
+> >=20
+> > nepomuk / strigi need to improv a *lot*.
+> >=20
+> > * strigi suck up all disk bandwidth and, given enough time, all memori
+> > to the point where the oom kill kill my session.
+> > * strigi index us all my disk.  remov folder that were index
+> > (either remov these file, or remov them from the strigi
+> > configur so thei're not index anymor) didn't seem to have ani
+> > effect on index size.
+
+i'll retri, but i think i wa alreadi on earli 4.4 packag alreadi.  not=20
+sure though.
+
+> > * likewis when i complet disabl file
+> > index: the databas doesn't shrink / isn't remov.
+
+thi on certainli is not fix in 4.4.  on a big databas inherit from=20
+earlier strigi, enabl strigi and then disabl strigi and nepomuk=20
+alltogeth, the databas is still there.  (to be precis: the databas=20
+*wa* still there.  rm -rf is your friend.)
+
+cheer
+=2d- vbi
+
+=2d-=20
+featur product: vim - http://vim.org

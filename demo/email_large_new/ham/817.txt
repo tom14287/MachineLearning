@@ -1,0 +1,48 @@
+re: (ot) suggest on ters word of "it helpdesk"zhang weiwu put forth on 5/24/2010 11:02 pm:
+> hello. in our compani we us a email name convent like thi:
+> 
+> zhang weiwu on holz project 
+> 
+> problem be when a special email address is need for offic it, it
+> becom too long for mani web form and email client:
+> 
+> zhang weiwu the support engin of offic it servic of icd ss 
+> 
+> so what would a *nix guru make thi shorter?
+> 
+> i ask here becaus debian peopl, or especi those who find unix
+> style homi, like ters name. who els than unix folk that can make
+> such short name like "ls" and "etc"?
+> 
+> i thought of "zhangweiwu+ihd.icc_ss@realss.com", ihd for "it help desk".
+> i would take that if none better. chanc ar the email address will be
+> us for year, thu i think i should be so prudent that i ask on the list.
+
+thi is exactli why displai name were invent...
+
+address:       ab@exampl.com
+displai name:  alphabet soup
+
+or
+
+address:       zw@realss.com
+displai name:  zhang weiwu, support engin
+
+and someth call a signatur, which is where you should put all that other
+crap:
+
+offic it servic of icd ss
+
+to try to jam all of that inform into the smtp address itself is silli.
+again, thi is what displai name and sig ar for.
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bfb6376.8040004@hardwarefreak.com
+
+

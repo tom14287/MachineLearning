@@ -1,0 +1,36 @@
+re: what to choos for core i5 64 bit?on tue, mai 11, 2010 at 11:07, jordan metzmeier  wrote:
+>
+>
+> on tue, mai 11, 2010 at 2:02 pm, kelli clower 
+> wrote:
+>>
+>> on tue, mai 11, 2010 at 06:56, jordan metzmeier 
+>> wrote:
+>> >
+>> > adob's 64bit flash player doe not function on all the site
+>> > that the 32bit plugin will.
+>>
+>> [citat need]
+>>
+>>
+>> cheer,
+>> kelli clower
+>>
+>>
+> http://bug.adob.com/jira/brows/fp-4067
+
+fascin. i get the same thing now, but some time back,
+i watch sever episod on hulu with thi system. i wonder
+what thei chang?
+
+
+cheer,
+kelli clower
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktikzzphchntmfqj4tdear_p3xma54alxnyzt-3@mail.csmine.org
+
+

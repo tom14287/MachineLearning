@@ -1,0 +1,35 @@
+re: wireless connect issuesfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+hi, frank.=20
+try to set dhcp pool size in your router to 2 or 3
+=d0=92=d1=82=d0=be=d1=80=d0=bd=d0=b8=d0=ba 11 =d0=bc=d0=b0=d1=8f 2010 00:06=
+:28 you wrote:
+> hi gui,
+>=20
+> i'm have some headach with our wlan. we're go onlin with 2
+> laptop, that mean we try. we do have the follow setup:
+>=20
+> the router is a speedport w 303v and we do have the follo laptop:
+> asu m6n, intel ipw2100 driver, debian/sid with wicd
+> acer aspir 5680, athero ar2413 with the ath5k driver, ubuntu 8.10 with
+> network manag
+>=20
+> when my wife is onlin with her acer/ubuntu system i cannot connect with
+> my asu/debian machin. the wireless network is detect but i do not
+> get an ip address.thi is from the wicd.log file:
+> no dhcpoffer receiv.
+> no work leas in persist databas - sleep.
+> dhcp connect fail
+> exit connect thread
+> send connect attempt result dhcp_fail
+>=20
+> it doe work the other wai round though!
+>=20
+>=20
+> ani idea on where to look?
+>=20
+> thx frank
+>=20

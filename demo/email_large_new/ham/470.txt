@@ -1,0 +1,29 @@
+re: middl button click broken+ jeremi huddleston :
+
+> 
+> on apr 17, 2010, at 12:20, pierr bagui wrote:
+> 
+> > the middl click caus the termin to come forth.
+> 
+> you need to middl click insid the white box that wa brought up.
+
+i assum he had done that (it's what i ask him to do), in which
+case the report behaviour indic someth odd go on. of
+cours, the xev output he post came from the mous leav the xev
+window, so mayb you're right and he misunderstood the instruct.
+
+so, to make it even clearer: move the xev window if necessari so it
+doesn't cover the termin window. middl click in it, prefer
+without move the mous, even a littl. you should now see the mous
+click event in the termin window. the moment you move the mous,
+ton of movement event will roll in and scroll the click event right
+out of the termin window.
+
+- harald
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

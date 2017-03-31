@@ -1,0 +1,43 @@
+re: aptitud errorfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+try
+
+apt-get instal fakeroot devscript build-essenti
+
+if it give error then post your /etc/apt/sourc.list
+
+
+
+on fri, apr 30, 2010 at 4:07 pm, jame stuckei  wrote:
+
+>
+> have you tri "apt-get updat" or "aptitud updat" befor try to
+>> instal these packag?
+>>
+>>
+>  ye, i did "aptitud safe-upgrad" after "aptitud updat" and then
+> "aptitud full-upgrad".
+>
+> i select "n" and it prompt me to "downgrad the packag to test".
+> thi mean that the version it had were newer than test, i.e., from s=
+id.
+> how could thi be if i follow 2.7.3 of dr? accord to that, my candid=
+at
+> version is appropri set:
+>
+> stuckei@debian:~$ cat /etc/apt/apt.conf
+> apt::default-releas "test";
+>
+>
+>
+>
+
+
+--=20
+wish you the veri best of everyth, alwai!!!
+kousik maiti(=e0=a6=95=e0=a7=8c=e0=a6=b6=e0=a6=bf=e0=a6=95 =e0=a6=ae=e0=a6=
+=be=e0=a6=87=e0=a6=a4=e0=a6=bf)
+regist linux user #474025
+regist ubuntu user # 28654

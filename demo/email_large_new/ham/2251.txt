@@ -1,0 +1,40 @@
+re: us new apt to do null to rh8 upgrad?> is it possibl to us new apt to do (null) to rh8 upgrad?
+
+it might be, don't think anyon tri it yet.
+
+> even if it's possibl, ar there good reason why mayb i should not do it and
+> just us the rh iso's (i don't think rh8 will upgrad from (null), mayb up2date
+> will)?
+
+ye ;)
+
+first off, redhat doe not support upgrad from beta's to the releas 
+version.  that doesn't mean it can't work, it mean nobodi tri it, thei 
+sure didn't test it or fix anyth to make it work, and you're on your 
+own.
+
+second, histor a new .0 number mostli mean "so much ha been 
+chang that you might have problem upgrad from ani previou releas 
+anywai".  so, histor, most user instal a .0 releas do thi 
+from scratch anywai, do upgrad throughout x.0->x.y.
+
+if you want to avoid problem, bite the bullet and reinstal ;)
+
+thoma
+
+ -- 
+
+the dave/dina project : futur tv todai ! - http://davedina.apestaart.org/
+<-*-                      -*->
+and everi time she sneez
+i think it's love and oh lord
+i'm not readi for thi sort of thing
+<-*- thoma@apestaart.org -*->
+urgent, the best radio on the internet - 24/7 ! - http://urgent.rug.ac.be/
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,50 @@
+re: pdf is block for print, etc. ok for acroread (it behav
+ as expect), but kpdf allow me to print it, even if it is	protect! why?-----begin pgp sign messag-----
+hash: sha1
+
+merciadri luca wrote:
+> johann wiedersich wrote:
+>> just us a grei-by-dot watermark for black text, merg the layer
+>> and it will
+>> be rather difficult to remov the watermark.
+> i did not merg the layer befor send it to them. problemat?
+
+difficult to judg, sinc i somehow lost track of what exactli you tri
+to achiev and what is the natur of the document.
+
+if you ar simpli afraid, that someon would us thi document as
+her/hi own work you could watermark the pdf and convert it to a low
+resolut bitmap (as other have alreadi suggest). if the document
+wa later misus, you could just show your nice, high qualiti printout
+without watermark to prove that you ar the real author.
+
+anoth wai might be to hand out that bad qualiti printout on some
+special paper, either colour or with rule and keep the pdf version to
+yourself. it will be about as difficult to retyp/recreat such a
+document from paper as from retyp it from screen, which wa your
+first choic (disallow print, allow screen view).
+
+i think you might have gotten better repli in shorter time, if you had
+been more explicit and clear about what you try to achiev.
+
+- --
+johann
+
+in question of scienc, the author of a thousand is not worth the
+humbl reason of a singl individu.
+- - galileo galilei, physicist and astronom (1564-1642)
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+
+ieyearecaayfakvossiacgkqc1nzprl9qevfsgcfvrlkyywkvwpviekl1j1mwovj
+7guan2knzwl/41ciugk7hrdfxvmkgi62
+=18lf
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bceb2c2.6050004@physik.blm.tu-muenchen.de
+
+

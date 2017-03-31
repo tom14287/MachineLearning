@@ -1,0 +1,27 @@
+re: [webdev] php+javascript requeston mon, 2002-08-19 at 18:28, dave wilson wrote:
+> iirc, if the queri string contain
+> 
+> varnam=first&varnam;=second
+> 
+> then php will creat a variabl call "varnam" with result second. 
+> howev, if the queri string contain
+> 
+> varnam[]=first&varnam;[]=second
+> 
+> then php will creat an arrai with varnam[1]==first and varnam[2]==second
+
+by far the coolest solut to thi would be to "fix" php :)
+take a look at main/php_variabl.c in the php sourc distribut.
+you could mess around with the variabl is_arrai in
+php_regist_variabl_ex() and see if you can forc all variabl to be
+arrai :) as far as i can tell the reason thei do thi is to save
+time by not have to work out which variabl have multipl valu.
+
+nick
+
+
+_______________________________________________
+webdev mail list
+webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+

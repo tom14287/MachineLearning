@@ -1,0 +1,60 @@
+re: sudden reboot with firefox and flashon tue, 20 apr 2010 21:00:26 +0200, nick douma wrote:
+
+> i recent built a new comput with the follow spec:
+> 
+> * intel core i7 930
+> * gigabyt x58a-ud7
+> * ocz platinum xtc ocz3p1333lv6gk (6gb ddr3) * gigabyt gv-n275ud-896i
+> (nvidia geforc gt 275) * 2x 1tb saamsung spinpoint f1 hd102uj * 2x
+> 500gb seagat barracuda 7200.10 st3500630as
+>   - both in raid0 us intel matrix raid
+
+
+i hope you also get a 1000 watt power suppli to feed that equip >:-)
+ 
+
+> here's the problem: i initi instal window 7 64bit on thi pc.
+> whenev i tri to watch a flash movi us minefield and adob flash
+> 10.1, i would alwai get sudden reboot. it wasn't a bsod, becaus i
+> receiv no such screen and no memori dump were made. suspect that
+> it might be becaus of minefield, i instal firefox 3.6. i receiv
+> the same result. even us ie8 and opera, i would reliabl get sudden
+> reboot when watch flash movi. fed up with thi, i instal debian
+> lenni as a dual boot.
+
+(...)
+
+> can anyon advis me what to do from here on? i tri googl the
+> initi firefox + flash problem, but noth conclus came up. i'm
+> post a messag on thi list, becaus the problem is not limit to
+> just window, and i believ someon can give me some new insight on
+> thi problem.
+
+
+so, as you alreadi discard flashplay as uniqu sourc of your 
+reboot, i will take a look into:
+
+1/ system overh (reboot tend to happen due to high temperatur, 
+watch the bio cpu temp and control the rpm of the fan).
+
+2/ ram memori modul and voltag. check the ram dimm ar certifi for 
+you motherboard and also, look into the bio voltag ar the correct 
+on for you type of ram.
+
+3/ hard disk health. you can test thi with "smartcl".
+
+be a brand-new comput i would suspect for bad hardwar or assembl 
+problem :-/
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.20.19.14.21@csmine.org
+
+

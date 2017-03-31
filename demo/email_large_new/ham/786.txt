@@ -1,0 +1,35 @@
+re: [gst-devel] red hat 8.0hi,
+
+> on sun, 29 sep 2002, thoma vander stichel wrote:
+> 
+> > info (15299: 0)gst_xml_registri_rebuild:1555: plugin 
+> > /usr/lib/gst/libgstwincodec.so fail to load: error load plugin 
+> > /usr/lib/gst/libgstwincodec.so, reason: /usr/lib/libaviplai-0.7.so.0: 
+> > undefin symbol: _ztvn10__cxxabiv120__si_class_type_info
+
+> ar you us the same version of gcc to compil the plugin as it c++
+> depend?
+
+ye, i am.  everyth is built insid a chroot.  i think it isn't link 
+to a lib somewher, i'm just not sure what lib it should preload here.  
+anywai to find out which on it is ?
+
+thoma
+
+ -- 
+
+the dave/dina project : futur tv todai ! - http://davedina.apestaart.org/
+<-*-                      -*->
+you came in just like smoke
+with a littl come on come on 
+come on in your walk
+come on
+<-*- thoma@apestaart.org -*->
+urgent, the best radio on the internet - 24/7 ! - http://urgent.rug.ac.be/
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

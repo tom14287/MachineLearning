@@ -1,0 +1,42 @@
+re: [ot] ubuntu vs debian forum (wa recompil the kernel with a  differ version name)on saturdai 10 april 2010 22:12:04 dotan cohen wrote:
+> on 10 april 2010 00:42, stan hoeppner  wrote:
+> > stephen powel put forth on 4/8/2010 9:38 pm:
+> >> for some reason, thi well-known proverb is go through my head:
+> >>
+> >> =c2=a0 =c2=a0give a man a fish and you feed him for a dai.
+> >> =c2=a0 =c2=a0teach a man to fish and you feed him for a lifetim.
+> >>
+> >> i'd rather learn to fish.
+> >
+> > thi is exactli the reason i chose debian 10 year ago when i wa looki=
+ng
+> > for my first linux distro.
+ [snip]=20
+> > i onli us linux for non-gui server. =c2=a0i don't us desktop linux. =
+=c2=a0all my
+> > admin'ing requir knuckl bust. ;) =c2=a0and i like it that wai.
+>
+> but you do understand that desktop user _don't_ want to learn about
+> their os, correct?=20
+
+recent i wa try to show my 15 year old granddaught, who run open s=
+usu=20
+11 on her laptop, how to do some small admin job.  she said that she didn't=
+=20
+want to know.  when i queri thi, she said:
+
+"when i am at school, the it depart doe it for me.  when i am at home=
+=20
+here, you do it for me.  when i am in japan, daddi doe it for me.  why do =
+i=20
+need to know how to do it?"
+
+lisi
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004110756.10207.lisi.reisz@csmine.org
+
+

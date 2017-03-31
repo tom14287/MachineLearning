@@ -1,0 +1,20 @@
+re: tini termin text after kernel updateon sun, mai 23, 2010 at 04:28:55pm -0700, todd a. jacob wrote:
+> after a recent kernel updat, my linux termin is now displai
+> teeni-tini text. how do i set the default termin back to 80x25?
+
+ar you run grub-legaci? if so what is vga= set to?
+
+is the old kernel still instal, that is, the on where the font wa
+as you like it? if so doe it still behav as you'd like? if so, ar
+there ani differ between them -- config/grub set etc?
+
+-- 
+chri
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100524123639.gc22370@fischer
+
+

@@ -1,0 +1,48 @@
+re: cv reportfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+
+> from:  ander eriksson 
+> date:  thu, 22 aug 2002 23:14:20 +0200
+>
+> 
+> >>>>> on thu, 22 aug 2002, "chri" == chri garrigu wrote:
+> 
+>   chri> --==_exmh_267413022p content-type: text/plain;
+>   chri> charset=us-ascii
+> 
+>   +> from:  ander eriksson  date:  thu, 22 aug
+>   +> 2002 20:23:17 +0200
+> 
+>   +> oooop!
+> 
+>   +> doesn't work at all. got thi on startup and on ani attempt to
+>   +> chang fold r (which fail)
+> 
+>   chri> ~sigh~ i'd alreadi found that and check it in....appar
+>   chri> i did so after you check it out and befor you sent thi
+>   chri> mail...i hope i wa fast enough that you wouldn't see it.
+> 
+>   chri> try again!
+> 
+> 
+> work like a charm. it's like the box wa on drug or someth. 
+> 
+> howev, while test it a select my favourit folder (l-k) and 
+> mark ~400 messag unread. that took forev, or about as long as 
+> catch-up unseen did befor. ani suggest?
+
+that's fix now.  i thought i'd caught all the occurr of that particular 
+code stupid.
+
+chri
+
+-- 
+chri garrigu                 http://www.deepeddi.com/~cwg/
+vircio                          http://www.vircio.com
+716 congress, suit 200
+austin, tx  78701		+1 512 374 0500
+
+  world war iii:  the wrong-doer vs. the evil-doer.
+
+
+

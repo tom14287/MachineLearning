@@ -1,0 +1,44 @@
+javaserv page updatedfil with us exampl and the depth, clariti, and 
+attent to detail that made the first edit so popular 
+with web develop, the just-releas "javaserv page,  
+2nd edit" (bergsten, $44.95) is complet revis 
+and updat to cover the substanti chang in the 
+1.2 version of the jsp specif, and includ 
+coverag of the new jstl tag librari--an eagerli 
+anticip standard  set of jsp element for the task  
+need in most jsp  applic, as well as thorough 
+coverag of custom tag librari.  
+
+what peopl said about the first edit:
+
+"an excel print resourc on jsp...i have 
+been extrem impress by it depth, clariti,
+ and attent to detail. " 
+--reuven m. lerner, linux journal
+
+"thi is a great book: it wa written by a kei 
+contributor not onli to the jsp specif, 
+but also to the jsp and  servlet refer 
+implement. fill with us exampl,
+ it stand as an import text in the adopt of 
+jsp in the market." 
+--eduardo pelegri-llopart, lead jsp specif engin.
+
+to order your copi or for more inform, see:
+http://www.oreilli.com/catalog/jserverpag2/?cmp=7337
+or call 1-800-998-9938
+or email order@oreilli.com
+
+javaserv page, 2nd edit  
+by han bergsten
+0-596-00317-x, order number: 317x
+684 page, $44.95 us $69.95 ca £31.95 uk
+-----------------------------------------------------------------
+if you want to cancel a subscript to thi newslett,
+go to http://www.oreillynet.com/cs/user/home and 
+de-select ani newslett you no longer wish to receiv.
+
+for non-autom human help email help@oreillynet.com
+-----------------------------------------------------------------
+
+

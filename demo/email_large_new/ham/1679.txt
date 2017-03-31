@@ -1,0 +1,54 @@
+re: [razor-user] what's wrong with the razor server now?except that the server doesn't know you ar the same person that report
+the spam, sinc the ident isn't check (at least not requir, so i
+assum it's not check) when do a razor-check
+--
+daniel higgin
+administrateur système
+netcommun inc.
+----- origin messag -----
+from: "tabor j. well" 
+to: "daniel higgin" 
+cc: ; "ml-razor-user" 
+sent: wednesdai, august 07, 2002 10:39 am
+subject: re: [razor-user] what's wrong with the razor server now?
+
+
+> on wed, aug 07, 2002 at 10:22:13am -0400,
+> daniel higgin  is thought to have said:
+>
+> > mayb i'm wrong, but it could be that your trust isn't high enough to
+flag a
+> > singl messag as spam?
+>
+> it would seem to make sens that regardless of your te valu, the
+> signatur you report should alwai come back as spam when you check them
+> sinc you should alwai be abl to trust yourself. :)
+>
+> --
+> --------------------------------------------------------------------
+> tabor j. well                                razor-user@fsckit.net
+> fsck it!                 just anoth victim of the ambient moral
+>
+>
+> -------------------------------------------------------
+> thi sf.net email is sponsor by:thinkgeek
+> welcom to geek heaven.
+> http://thinkgeek.com/sf
+> _______________________________________________
+> razor-user mail list
+> razor-user@list.sourceforg.net
+> http://list.sourceforg.net/list/listinfo/razor-user
+>
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

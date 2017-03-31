@@ -1,0 +1,114 @@
+re: snow leopard refresh problemsy, i fix those issu with some silli workaround onli. the repaint 
+method ar not produc ani fruit result.
+
+these ar the option i us:
+1. in some case, resiz the frame solv the issu.
+2. in few case, chang the locat of on of the compon present insid 
+the frame and then reloc the same compon to it origin posit at 
+the end of the method solv the problem.
+3. in on case, remov the compon and ad the same compon to the 
+frame solv the issu.
+
+anoth typic point to note is, i could not find a singl common solut 
+for all the abov 3 case.
+
+regard,
+vpkvl
+
+----- origin messag ----- 
+from: "hoverfrog" 
+to: "vijai kachhaw" 
+sent: fridai, mai 14, 2010 03:44 pm
+subject: re: snow leopard refresh problem
+
+
+hello,
+
+did you find ani workaround?
+ar some method of ask for a repaint more reliabl than other?
+
+regard,
+
+mari
+
+le 14 mai , 2010 à 7:55 am, vijai kachhaw a écrit :
+
+> i have also experienc similar problem in mani case. my project  is 
+> base on pure swing and graphic api. everyth work fine  and no 
+> repaint issu when i am run the app on mac 10.4/10.5  but found 
+> sever repaint issu when execut the same applic  on snow 
+> leaopard.
+>
+> regard,
+> vpkvl
+> ----- origin messag -----
+> from: bino georg
+> to: hoverfrog
+> cc: java-dev@list.appl.com
+> sent: fridai, mai 14, 2010 03:52 am
+> subject: re: snow leopard refresh problem
+>
+> hi,
+>         is your app publicli access ? pleas file a bug at 
+>  with the url for the app and step  to 
+> reproduc it etc. if it is not access,
+> pleas creat a standalon test case that can reproduc the problem  and 
+> attach it to the bug. also, pleas includ your configur  (which java 
+> updat etc).
+>
+> thank,
+> bino georg,
+> java runtim engin,
+> appl inc.
+>
+>
+>  on mai 13, 2010, at 2:06 pm, hoverfrog wrote:
+>
+>> variou compon in our app refresh by call paintcompon(), 
+>> updateui(), paintimmedi(), etc.
+>> on sl we're see a rang of refresh error - basic the  compon 
+>> ar not be redrawn!
+>> usual, if you chang the content pane of a jframe it repaint -  it's 
+>> not happen, even when explicitli ask for.
+>> ha anyon els seen anyth like thi?
+>>
+>> oh, tiger work like a dream, as doe windoz and linux.
+>>
+>> hoverfrog@mac.com
+>> http://www.veytis.com
+>>
+>>
+>>
+>> _______________________________________________
+>> do not post admin request to the list. thei will be ignor.
+>> java-dev mail list      (java-dev@list.appl.com)
+>> help/unsubscrib/updat your subscript:
+>> http://list.appl.com/mailman/option/java-dev/bino%40appl.com
+>>
+>> thi email sent to bino@appl.com
+>
+>
+>
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list      (java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/java-dev/vijai.kachhaw% 
+> 40valuelab.net
+>
+> thi email sent to vijai.kachhaw@valuelab.net
+
+hoverfrog@mac.com
+http://www.veytis.com
+
+
+
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

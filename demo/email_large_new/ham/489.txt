@@ -1,0 +1,20 @@
+re: holidai for freshrpm.net :-)on tue, 10 sep 2002 18:39:07 +0200
+matthia saou  wrote:
+
+> befor go, i did repackag the latest hackedbox and lbreakout2 that
+> both came out todai.
+> 
+> have fun! (i will!! ;-))
+fun here too, recompil gnome 2.02rc2 todai ;-)
+
+have a nice and good time!
+
+-- 
+regard
+      matthia
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

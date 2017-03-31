@@ -1,0 +1,102 @@
+re: md subsystem is not loadedhugo vanwoerkom wrote:
+> hugo vanwoerkom wrote:
+>> hi,
+>>
+>>
+>> when i instal a kernel i get "md subsystem is not load" as a warn:
+>>
+>> ...
+> 
+> 
+> 
+> see that is exactli the troubl with roll ur own kernel. i never set 
+> raid option. which? good question. so i made an "educ guess" 
+> (what?) and set:
+> 
+> hugo@debian:/hda10/backup.file$ diff .config.2.6.33.4-nodebian 
+> .config.2.6.33.4-raid-nodebian
+> 3,4c3,4
+> < # linux kernel version: 2.6.33.4-hvw
+> < # thu mai 13 13:24:07 2010
+> ---
+>  > # linux kernel version: 2.6.33.4
+>  > # fri mai 14 13:32:21 2010
+> 920c920
+> < # config_raid_attr is not set
+> ---
+>  > config_raid_attr=m
+> 1095c1095,1117
+> < # config_md is not set
+> ---
+>  > config_md=y
+>  > config_blk_dev_md=m
+>  > config_md_linear=m
+>  > config_md_raid0=m
+>  > config_md_raid1=m
+>  > config_md_raid10=m
+>  > config_md_raid456=m
+>  > config_md_raid6_pq=m
+>  > # config_async_raid6_test is not set
+>  > config_md_multipath=m
+>  > config_md_faulti=m
+>  > config_blk_dev_dm=m
+>  > # config_dm_debug is not set
+>  > config_dm_crypt=m
+>  > config_dm_snapshot=m
+>  > config_dm_mirror=m
+>  > config_dm_log_userspac=m
+>  > config_dm_zero=m
+>  > config_dm_multipath=m
+>  > config_dm_multipath_ql=m
+>  > config_dm_multipath_st=m
+>  > config_dm_delai=m
+>  > config_dm_uevent=y
+> 2413a2436,2441
+>  > config_xor_block=m
+>  > config_async_core=m
+>  > config_async_memcpi=m
+>  > config_async_xor=m
+>  > config_async_pq=m
+>  > config_async_raid6_recov=m
+> hugo@debian:/hda10/backup.file$
+> 
+> 
+> we'll see if the "md subsystem" get load.
+> and why ar there no googl hit for thi? who know.
+> 
+
+after chang my kernel with the abov, the "md subsystem" load 
+becaus now i get:
+
+assembl md arrai...done (no arrai found in config file or 
+automat).
+
+so it depend on on or more of those kernel config, at least in 2.6.33.4.
+
+troubl is that year ago when i start compil my own kernel, i did 
+not start a file with 3 column: date - function - reason for ad, so 
+now i have a kernel that keep get bigger and i don't know 
+specif why the entri ar there, other than in gener, like the 
+on abov.
+
+hugo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hsmcb2$e4q$1@dough.gmane.org
+
+

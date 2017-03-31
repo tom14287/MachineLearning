@@ -1,0 +1,37 @@
+latest php upgrad in 7.3todai an apt-get upgrad hold back php (and submodul, like php-imap). 
+  run an apt-get instal php to see what's up, i get:
+
+# apt-get instal php
+process file depend... done
+read packag list... done
+build depend tree... done
+the follow extra packag will be instal:
+   curl-devel imap imap-devel mysql mysql-devel php-imap php-ldap postgresql
+   postgresql-devel postgresql-lib pspell-devel ucd-snmp-devel 
+ucd-snmp-util
+   unixodbc unixodbc-devel
+the follow new packag will be instal:
+   curl-devel imap imap-devel mysql mysql-devel postgresql postgresql-devel
+   postgresql-lib pspell-devel ucd-snmp-devel ucd-snmp-util unixodbc
+   unixodbc-devel
+the follow packag will be upgrad
+   php php-imap php-ldap
+3 packag upgrad, 13 newli instal, 0 to remov(replac) and 1 not 
+upgrad.
+
+anyon have an idea what the heck redhat did here, and why we're now 
+try to instal a ton of crap i don't want?  (i'm hope someon els 
+ha chase thi down and could save me time... ;) )
+
+thx,
+-te
+
+-- 
+troi engel, system engin
+cool as the other side of the pillow
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

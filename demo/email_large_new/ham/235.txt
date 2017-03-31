@@ -1,0 +1,31 @@
+re: downgrad to _17?thank!
+
+on apr 9, 2010, at 18:12:18, greg guerin wrote:
+
+> rick mann wrote:
+>=20
+>> is it possibl to uninstal the _19 develop preview and go back to =
+1.6.0_17? _19 kill resin.
+>=20
+>=20
+> http://list.appl.com/archiv/java-dev/2010/apr/msg00015.html
+>=20
+>  -- gg
+>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list      (java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> =
+http://list.appl.com/mailman/option/java-dev/rmann%40latencyzero.com
+>=20
+> thi email sent to rmann@latencyzero.com
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

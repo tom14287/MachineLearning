@@ -1,0 +1,32 @@
+re: instal lenni packag in squeezeon thu, apr 29, 2010 at 09:48:41am -0500, boyd stephen smith jr. wrote:
+> on wednesdai 28 april 2010 22:11:00 rob owen wrote:
+> > my understand is that live-helper must build the kernel so that
+> > certain modul necessari to the live system get includ.  i confess
+> > that i don't complet understand that answer, but it's what i wa told
+> > by the develop.
+> 
+> you should look into the live-helper configur and adjust where it get 
+> the kernel sourc and ani (extra?) patch it appli.  it should be abl to 
+> work with kernel sourc provid from lenni-backport with the proper 
+> configur, sinc it alreadi work with both lenni and squeez kernel 
+> sourc.  the bpo kernel ar not packag significantli differ.
+> 
+> if live-helper doesn't have ani relev configur, look into how it 
+> receiv, patch, compil, and packag the kernel should give you some 
+> insight into a work-around.  (e.g. repackag the bpo kernel packag to have 
+> the same packag name but a higher version than the lenni kernel packag.)
+
+thank.  i think thi is the approach i'm go to take.  i just tri
+instal barebon squeez in virtualbox, and i'm run into packag
+problem when i try to instal certain softwar from lenni (lxde and
+apt-show-version, for exampl).
+
+-rob
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100430175523.ga4133@aurora.owen.net
+
+

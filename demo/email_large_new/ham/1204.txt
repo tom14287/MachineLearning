@@ -1,0 +1,71 @@
+re: mount dvd.  what am i do wrong?
+on mai 1, 2010, at 3:25 pm, camal=f3n wrote:
+
+> on sat, 01 mai 2010 14:08:21 -0500, ron johnson wrote:
+>
+>> on 05/01/2010 02:03 pm, camal=f3n wrote:
+>
+>>> your perm ar miss the "x" flag for the owner so no access is
+>>> allow. i recal a similar situat in anoth mail list...
+>>>
+>>>
+>> i don't want to *execut* the file, i want to *read* them.
+>
+> don't you need exec perm for list directori? ;-)
+>
+> ***
+> sm01@stt008:~$ mkdir desktop/test
+>
+> sm01@stt008:~$ ls -l desktop | grep test
+> drwxr-xr-x 2 sm01 sm01    48 mai  1 21:14 test
+>
+> sm01@stt008:~$ ls -afl desktop/test
+> total 1
+> drwxr-xr-x  2 sm01 sm01  48 mai  1 21:14 ./
+> drwxr-xr-x 10 sm01 sm01 752 mai  1 21:19 ../
+>
+> sm01@stt008:~$ chmod -x desktop/test
+>
+> sm01@stt008:~$ ls -l desktop | grep test
+> drw-r--r-- 2 sm01 sm01    48 mai  1 21:14 test
+>
+> sm01@stt008:~$ ls -afl desktop/test
+> ls: no se pued acced a desktop/test/.: permiso denegado
+> ls: no se pued acced a desktop/test/..: permiso denegado
+> total 0
+> ?????????? ? ? ? ?            ? .
+> ?????????? ? ? ? ?            ? ..
+> ***
+
+actual, the "x" permiss on a directori mean "search" (i.e. find =20=
+
+a file in) the directori.  if you alreadi know the name (or have =20
+guess it) of a file in the directori and you have "--x" (no-read, no-=20=
+
+write, ye-search) on the directori and 'r--' (read-onli) on the file, =20=
+
+you can read the file even though you can't read the directori.  =20
+that's a featur, and it date back to earli dai in unix.
+
+what you ar see is a corner case caus by that featur.  if you =20
+have "r--" on the directori you can read it, but you can't find ani of =20=
+
+the file whose name you can read.  so you can't get those file =20
+permiss bit or mod-time's etc.  so "ls" fail in the bizarr wai =20
+you ar see.
+
+so you can "read" the directori without the "x" bit, but it doesn't do =20=
+
+you a fat load of good.
+
+enjoi!
+
+rick
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/c6a349ae-e746-49a0-a06c-ad2ae7c8dbf3@pobox.com
+
+

@@ -1,0 +1,48 @@
+re: gentoo 0.11.31 releas...as root, 'servic xinetd reload'
+
+hth,
+
+michel
+
+matthia haas wrote:
+
+>hi, matthia...
+>
+>  
+>
+>>inde, i had repackag a first version, but without fam support (not
+>>releas). i'll releas the packag with fam support right now ;-)
+>>    
+>>
+>
+>...your packag doesn't requir a special buildlevel for the instal fam
+>rpm, it check for libfam.* lib.
+>in result, i could do an upgrad of gentoo for two older box here in our
+>compani - still rh 7.1.
+>i don't know about the 'cleanless' of thi (compil mostli the latest
+>sourc on our devel box myself).
+>
+>becaus non default fam rpm for rh 7.1 exist, i have to us the
+>fam-2.6.4-11.i386.rpm for rh 7.2 instead.
+>no prob. but the script insid thi rpm doesn't restart xinetd on the
+>fly, i have current start fam by hand.
+>
+>the sgi_fam script exist in /etc/xinetd.d, so i hope, that fam is up and
+>run on the next boot too.
+>
+>  
+>
+
+
+__________________________________________________
+do you yahoo!?
+everyth you'll ever need on on web page
+from new and sport to email and music chart
+http://uk.my.yahoo.com
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

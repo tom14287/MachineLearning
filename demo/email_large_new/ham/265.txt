@@ -1,0 +1,121 @@
+my good easyurl: http://diveintomark.org/archiv/2002/10/07.html#my_good_easi
+date: 2002-10-07t17:59:05-05:00
+
+_joe gregorio_: my next pet project[1]. “try to re-creat the "good 
+easi[2]" on a window machin.” i have also made half-heart attempt in 
+thi direct, as i am forc to us window dure the dai. i sai 
+half-heart becaus i'm still applic-centric, and i don't go as far with 
+keyboard shortcut as i could. but i don't us the desktop at all (never have, 
+on ani system), and i don't us ctrl alt keyboard shortcut becaus i 
+person find them awkward (ymmv). if you must us window, the first step 
+toward a product system is manag your start menu. 
+
+i us the main level of the start menu with number shortcut to my most 
+common program. "0 control panel[3]", "1 mozilla[4]", "2 emac[5]", "3 do 
+home", "4 do work", "5 do incom" (each of which give me a command line, 
+but in differ directori), "7 python[6]", "9 ie". also "# explor home", 
+"$ explor work", "% explor incom", which open explor window in 
+variou us directori (the same directori as the do shortcut, onli 
+with the shift kei held down, and ye, i intention set it up so that $ went 
+to my work folder). less-us program ar taken out of their useless submenu 
+(as instal) and move directli into the program submenu and given uniqu 
+first letter as need. "ad-awar[7]", "excel[8]", "im", "netscap 4[9]", 
+"paint shop pro", "queri tool (odbc)[10]", "vmware[11]", "word[12]". all other 
+submenu except startup ar remov from the program menu. (ye, delet 
+"accessori". do you honestli ever us it? if so, it's probabl a sign of a 
+larger product problem.) thing which never need to be run manual (like 
+winzip and quicktim) ar remov from the program menu. maintain a clean 
+program menu is an ongo struggl, but well worth it. 
+
+on most modern keyboard, there is a kei next to your left alt kei that open 
+the start menu, which you can press with your left thumb without take your 
+finger off the home kei. otherwis ctrl esc alwai work. menu 4 give me a 
+new command prompt in my work directori. menu p n run netscap 4 (for 
+compat test in my dai job, ugh). mozilla and emac ar almost alwai 
+open, but i quit lesser-us applic as soon as i'm done us them 
+(mostli becaus my laptop doesn't have a lot of memori). 
+
+i instal cygwin[13] so that the command line is actual us. cygwin is a 
+collect of window port of all your favorit unix util, includ mv, 
+cp, scp, ssh, man, tar, less, grep, patch, ncftp, cv, and mani other. and 
+bash, which i don't us becaus i dislik how it handl window pathnam. i 
+also set the properti of my command line shortcut to set the window size to 
+120 x 50 (almost full screen at 1024 x 768), and screen buffer size to 120 x 
+3000. set window posit at 0 x 0, and don't let the system posit the 
+window. 
+
+in mozilla, i set my home page to "about:blank", set internet search to search 
+with googl, us tab brows, open tab instead of window in all possibl 
+case, alwai show the tab bar, and load link in the background (essenti for 
+weblog surf, you can ctrl click link to open them in new tab in the 
+background). under script & plugin, i do not allow script to open 
+unrequest window. i turn off the sidebar, turn on the site navig bar, 
+delet all pre-instal bookmark, and creat two bookmark: on which take 
+me to my webmail, and anoth which take me to my intern site search[14], 
+from which i can find all other bookmark i need. 
+
+in internet explor, i set my home page to the page to edit my weblog, sinc 
+that's the onli thing i do in internet explor. alt tab back and forth between 
+mozilla and ie is easier than ctrl pgup/pgdown between tab within mozilla, 
+sinc textarea in mozilla lose focu when you switch tab, make copi and 
+past weblog entri virtual imposs. 
+
+i us emac local and vi remot, becaus the default behavior of emac is 
+so heinou as to render it unus. (for instanc, edit a cgi script name 
+foo.cgi on a web server with emac would gener a foo.cgi~ backup file, which 
+is world-readabl and is sent as plain text to ani browser that ask. try thi 
+sometim on your favorit web site.) among other thing, my .emac file (which 
+is actual call _emac on window) instruct emac to store all backup file 
+in a singl directori (d:\backup); to treat all xml file as docbook, all cgi 
+script as python, and all sql script as pl/sql; to us cygwin's bash shell 
+for m-x-shell; to us a singl maxim frame with no menubar, titl as the 
+name of the current file; to show column number; to accept "y" and "n" for 
+ye/no question; not to blink; not to beep; and to close the current file when 
+i press m-w. i us some weird registri hack and a hack notepad.ex to get 
+all text file to open in emac. (i got thi idea from ultraedit[15].) my 
+_emac file is my second most back-up possess. 
+
+i don't us window' useless directori structur for user home directori. on 
+my d drive i have d:\home (contain directori for my book and other person 
+project, each under cv control—also set as my home directori us the 
+home environ variabl), d:\work (contain directori for each work 
+project, also under cv), d:\incom (set as default download directori for 
+all program that download thing), and d:\backup (us by emac, and for 
+temporari storag, for instanc for store origin when check out newli 
+creat cv project). i don't know or care what's where on my c drive. 
+
+i have tri mani, mani address book, and still store all my contact, email 
+address, snail mail address, phone number, and other vital person 
+inform in a text file call phone, store in d:\home\phone. it is not in 
+ani particular format, other than be plain text and usual includ blank 
+line between entri. i categor peopl with simpl keyword in parenthes 
+after their name, and us m-x-occur in emac to search by keyword. thi file is 
+my singl most back-up possess. 
+
+other essenti free window util i us (in no particular order): tweakui
+[16], cygwin[17], guidescop[18], zonealarm[19].
+
+
+
+[1]  http://bitwork.org/oct2002.html#x631695997519494480
+[2]  http://www.winterspeak.com/column/082001.html
+[3]  http://www.annoy.org/exec/show/articl02-013
+[4]  http://www.mozilla.org/
+[5]  http://www.gnu.org/softwar/emac/window/ntemac.html
+[6]  http://www.activest.com/product/activepython/
+[7]  http://www.lavasoftusa.com/
+[8]  http://www.openoffic.org/
+[9]  http://sillydog.org/narchiv/
+[10] http://gpoulos.home.att.net/
+[11] http://www.vmware.com/
+[12] http://www.openoffic.org/
+[13] http://www.cygwin.com/
+[14] http://diveintomark.org/mt/mt-search.cgi
+[15] http://www.ultraedit.com/download/index.html#notepad
+     replac notepad with ultraedit-32
+[16] http://www.microsoft.com/ntworkstat/download/powertoi/network/nttweakui.asp
+[17] http://www.cygwin.com/
+[18] http://www.guidescop.com/
+[19] http://download.com.com/3000-2092-10039884.html?part=zonealarm&subj;=dlpage
+
+

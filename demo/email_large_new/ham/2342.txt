@@ -1,0 +1,20 @@
+boot debian on a routerst procan anyon post a howto/doc, help about boot a debian on a
+routerst pro?:\
+
+http://forum.openwrt.org/viewtop.php?pid=108415#p108415
+
+i still didn't manag to boot from it.
+
+or ani other "normal distro" :\
+
+thank you..
+
+p.s.: a littl more detail howto:\
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1272832021.12040.36.camel@localhost
+
+

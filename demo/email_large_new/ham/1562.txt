@@ -1,0 +1,18 @@
+re: kde 3.5 ... (mayb ot)on thu, 06 mai 2010 22:08:05 -0400
+"john a. sullivan iii"  wrote:
+
+> i even hesit with test but we ar so desper to
+> make kontact work with zimbra that we would take a chanc - john
+
+er.. why not us zimbra's own client ? it avail for linux as well
+and it work best with zimbra server.
+
+http://www.zimbra.com/product/desktop_featur.html
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100507074320.40ecb684@mihira
+
+

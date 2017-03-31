@@ -1,0 +1,19 @@
+re: move to debian: updat softwareon 04/22/2010 11:54 am, dotan cohen wrote:
+> i am look for kde 4.4.2 and open offic 3.2 packag for lenni. i
+> have found qt-kde.debian, debian experiment, test, unstabl, and
+> backport. it look to me that backport is the best for an everydai
+> user who valu stabil, and prefer to us releas softwar
+> version. pleas let me know where i am mistaken. thank.
+>
+>    
+fedora 12 ha kde 4.4 and it's in a pretti stabl shape. also, it's 
+offici support,
+as oppos to opensus.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd078fd.5020105@csmine.org
+
+

@@ -1,0 +1,47 @@
+re: kde 4.4.3 in unstablefrom nobodi sun sep 18 20:45:31 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+on wednesdai 05 mai 2010 17:58:09 modesta vainiu wrote:
+> hello,
+>=20
+> on ketvirtadieni 06 gegu=c5=be=c4=97 2010 01:54:06 boyd stephen smith jr=
+=2e wrote:
+> > i'm still us kmail/kontact/etc. (basic kdepim) from 4.3 sinc i
+> > have no desir to run yet anoth rdbm on my system.  (i alreadi run
+> > postgresql, and have a number of app that us sqlite instal.)
+>=20
+> ...
+>=20
+> > okai, end thi email here, becaus think about a stabl debian th=
+at
+> > includ kdepim 4.4 anger and sadden me.
+>=20
+> how mani user have postgr instal on their desktop? do you complain
+>  just becaus `ps aux | grep mysqld` return someth and you can't stand
+>  it or you have ani real issu with it?
+
+i have real issu with have to spare the disk space and ram on my laptop=
+=20
+for it.  postgresql is for work; i don't get much choic about run that.
+
+i also have a histori with mysql and i *do* *not* *trust* it with my data. =
+=20
+up or not.  my email is fairli import for me -- i am probabl in kmail=
+=20
+onli slightli less than i am in a sourc code editor.  when i'm test or=
+=20
+deploi updat, i spend *more* time in kmail.
+
+ye.  i agre.  the kmail -> mysql-server depend is not actual an "rc=
+"=20
+bug, for debian.
+
+it is for me, but i run an exot mix system anywai, so i'll figur=20
+*someth* out.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

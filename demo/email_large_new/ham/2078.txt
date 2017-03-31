@@ -1,0 +1,27 @@
+re: sylphe-clawsonc upon a time, jess wrote :
+
+> oh yeah, i wa follow thi thread in the sylphe-claw list.  veri
+> interest stuff.  i might have to stick w/ 0.8.2 until aspel get
+> updat in red hat.
+
+then thi mai be 6 month or more sinc my guess after 3 beta releas is
+that the freez on packag version for inclus in the next stabl
+releas (n+1) ha alreadi happen, thu you'll have to wait at least for
+red hat linux... n+2 :-)
+
+thi is why (if it doesn't break anyth), i'll mayb releas recent
+aspel packag. but to be sure i'll need to do some test ;-)
+
+matthia
+
+-- 
+matthia saou                                world trade center
+-------------                                edificio nort 4 planta
+system and network engin                  08039 barcelona, spain
+electron group interact                 phone : +34 936 00 23 23
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

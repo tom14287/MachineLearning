@@ -1,0 +1,38 @@
+re: unabl to connect to my home wirelessfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on fri,21.mai.10, 14:43:47, celejar wrote:
+=20
+> but i've long found the 'recommend' concept to be somewhat tricki and
+> perhap to vari from maintain to maintain.  for exampl, mesa-util
+> need glx, which, practic speak, mean that you need
+> libgl1-mesa-dri.  the maintain refus to make thi even a
+> recommend, basic sinc the x server can run on a differ machin:
+>=20
+> http://bug.debian.org/cgi-bin/bugreport.cgi?bug=3d559223
+>=20
+> now, i'd bet (although i suppos that i mai be wrong) that the vast
+> major of debian instal have the x server and client on the
+> same machin, and the other case is probabl the more 'unusu' on.
+
+imagin a larg organ with a lot of thin client...
+
+> otoh, acpi-support 'recommend' radeontool, even though thi packag is
+> utterli irrelev to those without ati radeon chipset:
+>=20
+> http://bug.debian.org/cgi-bin/bugreport.cgi?bug=3d562883
+
+oh, i can final get rid of that on! (us to be a depend and i=20
+forgot to check)
+
+both ar excel exampl :) but even if you disagre with the=20
+maintain, in the end debian is a do-ocraci.  that is, the on who doe=20
+the job usual get to decid how it's done ;)
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

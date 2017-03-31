@@ -1,0 +1,28 @@
+re: move a drive to anoth computeron wed, mai 19, 2010 at 12:46:53pm -0400, vinc vielhab wrote:
+>
+> a friend wa run window and the virus got the best of it. she
+> sent me the drive so i could get her pic and document off of it and
+> put 5.0.4 on it and send it back (she's a few state awai).
+>
+> what problem (and solut) should i be expect when she instal
+> the drive in her comput?  i'm assum the network setup will be on
+> problem.
+>
+> my background is mainli in freebsd.  if a drive is set up as be
+> /dev/ad0 and the other machin see it as /dev/ad4 it won't complet
+> the boot, it'll complain with a cannot mount root error.  will that be
+> an issu with debian?
+>
+besid the fstab and udev issu that other post, you should be
+pretti good.  i recommend set up a button on her desktop that set
+up an ssh tunnel so you can get in and add/fix stuff.
+
+-rob
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100519222719.ga10443@aurora.owen.net
+
+

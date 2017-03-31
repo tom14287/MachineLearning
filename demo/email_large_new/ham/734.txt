@@ -1,0 +1,38 @@
+re: [ot] ubuntu vs debian forum (wa recompil the kernel with a  differ version name)on sundai 11 april 2010 09:02:49 you wrote:
+> >> but you do understand that desktop user _don't_ want to learn about
+> >> their os, correct?
+> >
+> > recent i wa try to show my 15 year old granddaught, who run open
+> > susu 11 on her laptop, how to do some small admin job.  she said that she
+> > didn't want to know.  when i queri thi, she said:
+> >
+> > "when i am at school, the it depart doe it for me.  when i am at
+> > home here, you do it for me.  when i am in japan, daddi doe it for me.
+> >  why do i need to know how to do it?"
+>
+> that is the kind of user who can learn! 
+
+of cours!  that is why i wa try to show her.
+
+> if the small admin job had 
+> been "diagnos kernel crash" and her answer would have been "i am a
+> brain surgeon, not a comput scientist. i fix the brain, you fix the
+> comput. todai is the on dai off that i have to spend with my famili
+> and i don't want to spend it with the comput instead." then her
+> reluct would have been valid.
+
+i wa, i thought, support your view that most/mani peopl simpli don't 
+_want_ to know.  why doe their reluct have to be "valid"?
+
+ar you sai that onli those who want to learn to administ it should be 
+allow to us linux?
+
+lisi
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004111119.33913.lisi.reisz@csmine.org
+
+

@@ -1,0 +1,97 @@
+re: cv report
+
+
+> > > > just cv up'ed and nowadai catch-up unseen is __extrem__ slow on 
+> > > > larg (>100 msg) unseen sequenc. anybodi els have thi problem?
+> > > 
+> > > i'll take the blame.
+> > > 
+> > > the reason, i suspect, is that we're needlessli read the .sequenc file 
+> > > multipl time becaus of other sequenc.  i need to make the code much 
+> > > smarter about handl that file, but first i have a few other fish to fry in 
+> > > my rather larg patch that's on it's wai.
+> > > 
+> > 
+> > no panic,
+> > 
+> > i'm all for clean thing up befor get it optim.
+> 
+> okai, thi fix is now check in.
+> 
+i'm afraid it didn't help. it still seem to be slower than ~1 month 
+ago. mayb slightli faster than yeasterdai. i'm (still) see an 
+"unseen countdown" in the log.
+
+18:51:25 write /home/ander/mail/list/l-k/.mh_sequenc
+18:51:25 list/l-k ha 57 msg in unseen
+18:51:25 list/l-k ha 56 msg in unseen
+18:51:25 list/l-k ha 55 msg in unseen
+18:51:26 list/l-k ha 54 msg in unseen
+18:51:26 list/l-k ha 53 msg in unseen
+18:51:26 list/l-k ha 52 msg in unseen
+18:51:26 list/l-k ha 51 msg in unseen
+18:51:26 list/l-k ha 50 msg in unseen
+18:51:26 list/l-k ha 49 msg in unseen
+18:51:26 list/l-k ha 48 msg in unseen
+18:51:26 list/l-k ha 47 msg in unseen
+18:51:26 list/l-k ha 46 msg in unseen
+18:51:26 list/l-k ha 45 msg in unseen
+18:51:27 list/l-k ha 44 msg in unseen
+18:51:27 list/l-k ha 43 msg in unseen
+18:51:27 list/l-k ha 42 msg in unseen
+18:51:27 list/l-k ha 41 msg in unseen
+18:51:27 list/l-k ha 40 msg in unseen
+18:51:27 list/l-k ha 39 msg in unseen
+18:51:27 list/l-k ha 38 msg in unseen
+18:51:27 list/l-k ha 37 msg in unseen
+18:51:27 list/l-k ha 36 msg in unseen
+18:51:28 list/l-k ha 35 msg in unseen
+18:51:28 list/l-k ha 34 msg in unseen
+18:51:28 list/l-k ha 33 msg in unseen
+18:51:28 list/l-k ha 32 msg in unseen
+18:51:28 list/l-k ha 31 msg in unseen
+18:51:28 list/l-k ha 30 msg in unseen
+18:51:28 list/l-k ha 29 msg in unseen
+18:51:28 list/l-k ha 28 msg in unseen
+18:51:28 list/l-k ha 27 msg in unseen
+18:51:28 list/l-k ha 26 msg in unseen
+18:51:29 list/l-k ha 25 msg in unseen
+18:51:29 list/l-k ha 24 msg in unseen
+18:51:29 list/l-k ha 23 msg in unseen
+18:51:29 list/l-k ha 22 msg in unseen
+18:51:29 list/l-k ha 21 msg in unseen
+18:51:29 list/l-k ha 20 msg in unseen
+18:51:29 list/l-k ha 19 msg in unseen
+18:51:29 list/l-k ha 18 msg in unseen
+18:51:29 list/l-k ha 17 msg in unseen
+18:51:29 list/l-k ha 16 msg in unseen
+18:51:30 list/l-k ha 15 msg in unseen
+18:51:30 list/l-k ha 14 msg in unseen
+18:51:30 list/l-k ha 13 msg in unseen
+18:51:30 list/l-k ha 12 msg in unseen
+18:51:30 list/l-k ha 11 msg in unseen
+18:51:30 list/l-k ha 10 msg in unseen
+18:51:30 list/l-k ha 9 msg in unseen
+18:51:30 digit chang
+18:51:30 list/l-k ha 8 msg in unseen
+18:51:30 list/l-k ha 7 msg in unseen
+18:51:31 list/l-k ha 6 msg in unseen
+18:51:31 list/l-k ha 5 msg in unseen
+18:51:31 list/l-k ha 4 msg in unseen
+18:51:31 list/l-k ha 3 msg in unseen
+18:51:31 list/l-k ha 2 msg in unseen
+18:51:31 list/l-k ha 1 msg in unseen
+18:51:31 list/l-k ha 0 msg in unseen
+18:51:31 flistunseenfold list/l-k
+18:51:31 ok
+18:51:47 folder_chang list/exmh {msg_show cur}
+
+
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+

@@ -1,0 +1,85 @@
+state of plugin2 (wa re: java for mac os x 10.6 updat 2 and 10.5
+	updat 7 ar live)on mai 23, 2010, at 7:35 am, michael hall wrote:
+
+> on mai 23, 2010, at 9:16 am, mike swingler wrote:
+>=20
+>> on mai 22, 2010, at 5:01 pm, michael hall wrote:
+>>=20
+>>> on mai 22, 2010, at 1:32 pm, mike swingler wrote:
+>>>=20
+>>>> firefox is hardwir to plugin1 with the jep/mrj, unless you remov =
+it them from (app)/content/maco/plugin
+>>>=20
+>>> ar you sai that if thi is done for firefox, the =
+content/maco/plugin file ar 'remov', then plugin2 will =
+automat get pick up and work correctli?
+>>=20
+>> ye. i usual creat a new directori =
+(firefox.app/content/maco/plugin/disabl) and move both =
+javaembeddingplugin.bundl and mrjplugin.plugin into that directori so i =
+still have them around.
+>>=20
+>> i'm at a complet loss why thi doesn't work for camino.
+>=20
+> both mozilla right? googl last night firefox i think wa the onli =
+on that came in both older carbon and newer cocoa flavor. but not sure =
+why thei'd work differ in that same setup either.
+> wouldn't some wai for these other browser to control thi other than =
+manipul file be a littl better? how mani user not fortun =
+enough to frequent the java-dev list would be awar thei can do thi? is =
+there an offici appl prefer for either plugin or would the =
+default set just de facto be that? is there ani wai to provid 3rd =
+parti access to java prefer set?
+
+i wouldn't suggest put ani time into engin a java-specif =
+switch which is onli go to be us by an audienc of develop, who =
+can follow step on a wiki until mozilla is readi to make the switch for =
+all of their custom. i think the plan is to just cut over complet =
+to plugin2 and drop support for the jep at some point (and we had to =
+ship updat 2 & 7 with the plugin2 symlink present in /librari/internet =
+plug-in to make that a possibl). but realli someon from mozilla =
+would be best to comment on how and when thei ar plan to do what.
+
+i don't believ it make sens for appl to sai which plugin "should be =
+the default for all browser". plugin1 is simpli the default for safari =
+for now (and will like remain the default forev on leopard). chrome =
+never bother to implement a compat hack to load plugin1, and =
+simpli did without java support until appl ship an npapi plugin2 =
+that could render cooper via coregraph, and didn't us an =
+overlai window.
+
+obvious, plugin2 is a continu work in progress that ha sever =
+more technic challeng ahead (like interleav hardwar acceler =
+draw), will like requir chang to browser (like adopt =
+coreanim-npapi draw model), 3rd parti librari (like jogl), and =
+will probabl provid a tier user experi base on which browser =
+support which draw model, event model, and other featur. we ar =
+also still iter on the user experi of how to handl applet =
+that open their own window and dialog that ar in a differ process =
+from the browser.
+
+current, we don't have ani store set which track the switch =
+between plugin1 or plugin2. the state of the java prefer ui is =
+actual just built from the presenc or non-presenc of the =
+javaplugincocoa.bundl symlink. in a futur releas when we make plugin2 =
+the default for safari, we'll simpli delet the javaplugincocoa.bundl =
+in /librari/internet plug-in (which we know mozilla doe not us), and =
+alter java prefer to write out a symlink to ~/librari/internet =
+plug-in instead, so the chang is onli scope to the user. at least =
+that's the current plan, and it could chang, but it's the best idea =
+we've got so far.
+
+i hope thi provid some perspect on where we'd like to go with =
+plugin2,
+mike swingler
+java runtim engin
+appl inc.
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,87 @@
+re: filesystem recommendationsfrom nobodi sun sep 18 20:45:27 2016
+content-type: text/plain;
+  charset="iso-8859-15"
+content-transfer-encod: quot-printabl
+
+on thursdai 29 april 2010 14:17:28 joe brenner wrote:
+> ron johnson  wrote:
+> > b. alexand wrote:
+> > > ron johnson  wrote:
+> > >> xf is the canon fs for when you have lot of big file.  i've
+> > >> also seen simpl benchmark on thi list show that it's faster
+> > >> than ext3/ext4.
+> > >
+> > > that cool. what about lot of littl file? that wa anoth of the
+> > > draw of reiser3.
+> >
+> > that same unoffici benchmark show surpris small-file speed by
+> > xf.
+>=20
+> would you happen to have ani link to such benchmark, unoffici or
+> otherwis?
+>=20
+> my experi ha been that whenev i look at filesystem benchmark,
+> thei skip the mani-small-file case.  i've alwai had the feel that
+> most of the big filesystem care a lot about scale up in file-size,
+> but not too much about anyth els.
+
+nb: thi is my best recollect; i'm not look thi up right now.  plea=
+e=20
+check my fact, i'd love to know if i'm wrong.
+
+some of that reiserf perform came from directori-as-hash-tabl, whi=
+ch=20
+i believ ext3/4 support and is nativ for btrf.  some of that also came=
+=20
+from tail-pack, which could come from the extent featur of ext4 and=20
+should be in btrf.  the final edg reiserf had wa abov-averag=20
+flush/cach algorithm, and the develop push in ext4 and btrf h=
+av=20
+like reduc or elimin that; i think the unifi block-devic cach=
+=20
+system in the kernel abl help make that not such a big deal.
+
+> i'm a reiser3 user myself, and i've never had ani problem with it.
+>=20
+> (the troubl with it be "long in the tooth" is mostli hypothet,
+> isn't it?)
+
+not realli.  reiserf will probabl be maintain in the kernel for a veri=
+=20
+long time, in that as ani interfac it us ar updat it will be updat=
+ to=20
+us the new interfac.  howev, istr there ar open bug on reiserf that=
+=20
+will not be fix.  similarli, i expect new bug that can be blame on the=
+=20
+reiserf code ar less like to be fix than bug than can be blame on t=
+he=20
+ext2/3/4 or xf code.
+
+in addit, as file system technolog advanc, reiserf will becom less=
+=20
+attract for new instal and it will becom more attract to migrat a=
+wai=20
+from it.  unfortun, migrat tool ar unlik to be develop, out=
+id=20
+of gener file system migrat tool.  compar with btrf_convert which=20
+allow an ext2/3 file system to be convert to btrf with no data copi;=
+=20
+such tool have to be awar of the intern structur of the file system an=
+d=20
+fewer and fewer develop will even have that knowledg of reiserf.  the=
+=20
+sourc will be avail, sure, but even kernel maintain interest in f=
+il=20
+system ar not interest in reiserf.
+
+there's no drop-dead date for reiserf in the kernel (afaik), so there's no=
+=20
+press need to migrat awai from it, but there is a lot of work on file=20
+system that should both perform better and be support better than reiser=
+fs.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

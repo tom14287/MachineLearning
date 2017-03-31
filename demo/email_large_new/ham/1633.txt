@@ -1,0 +1,25 @@
+re: monitor internet avail and send sm alert?on 05/14/2010 08:13 am, adam hardi wrote:
+> ron johnson on 14/05/10 12:54, wrote:
+[snip]
+>>
+>> outgo port ar randomli assign, though, aren't thei?
+>
+> sure. i mean on the box at home that i'm monitor from the onlin
+
+ah, right.  never mind...
+
+> server. aaaah, just realis i don't have a fix ip ?$*!(*)"*"!!!
+>
+
+dyndn.org?
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bed4d9e.4060604@cox.net
+
+

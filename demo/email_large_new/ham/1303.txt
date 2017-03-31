@@ -1,0 +1,48 @@
+re: pin + apt-get vs aptitudeon sat, mai 15, 2010 at 10:32:36am -0500, hugo vanwoerkom wrote:
+> hi,
+> 
+> (on sid) i pin grub-legaci, to avoid go to grub2.
+> 
+> then when i do 'apt-get dist-upgrad' i see:
+> 
+> the follow packag have been kept back:
+>   grub
+> 
+> and
+> 
+> the follow packag will be upgrad:
+> ... grub-legaci ...
+> 
+> but when i do 'aptitud full-upgrad' i see:
+> 
+> the follow packag will be remov:
+> ... grub-legaci{a} ...
+> 
+> and
+> 
+> the follow new packag will be instal:
+> ... grub-pc{a} ...
+> 
+> so why doe aptitud pai no attent to my pin?
+> 
+
+high pin score can be thrown off, even without high-score depend
+issu, if there ar more than two releas involv.
+
+thi explain better than i could:
+
+http://www.argon.org/~roderick/apt-pin.html
+
+-- 
+kind regard,
+freeman
+
+http://bug.debian.org/releas-critic/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100517203253.ga4143@europa.offic
+
+

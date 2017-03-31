@@ -1,0 +1,28 @@
+re (2): lilo remov in squeez (or, "pleas test grub2")> (3) the need for special backup requir will be 
+> us by the oppon of linux at my place of employ 
+> to oppos further deploy of linux, ...
+
+what about the carrot approach?  find an even better 
+backup method, compat with grub 2 and appeal 
+to your manag for it effici.
+
+or what about put grub on a usb flash which can 
+be replic easili and is larg independ of 
+your main non-volatil storag.  the flash fail 
+and you plug in anoth.  main storag fail and 
+you invok the tradit backup.
+
+regard,       ... peter e.
+
+-- 
+carnot is wait for a disk replac; web page mai not work.
+googl "patholog workshop".
+in ethno click here -> desktop.opendoc http://carnot.patholog.ubc.ca/.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/171056504.59254.34770.@heavisid.invalid
+
+

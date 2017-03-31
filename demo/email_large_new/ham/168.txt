@@ -1,0 +1,12 @@
+shellei power rais some interest question re whether rdf
+    ha a placeurl: http://scriptingnew.userland.com/backissu/2002/09/23#when:9:19:32am
+date: mon, 23 sep 2002 16:19:32 gmt
+
+shellei power rais[1] some interest question re whether rdf ha a place 
+in syndic. she sai that rdf is try to build a persist databas (aka 
+the semant web) and rss is try to flow new that ha a short lifespan. i 
+had not heard thi point befor. it's worth think about. 
+
+[1] http://weblog.burningbird.net/archiv/000541.php
+
+

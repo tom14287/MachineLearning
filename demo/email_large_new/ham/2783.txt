@@ -1,0 +1,94 @@
+a better debconf10 with your help: donat or becom a sponsor------------------------------------------------------------------------
+the debian project                                http://www.debian.org/
+new archiv snapshot servic avail                  press@debian.org
+mai 19th, 2010                  http://www.debian.org/new/2010/20100519
+------------------------------------------------------------------------
+
+a better debconf10 with your help: donat or becom a sponsor
+
+
+debconf is the debian project's develop confer. in addit to a
+full schedul of technic, social and polici talk, debconf provid
+an opportun for develop, contributor and other interest peopl
+to meet in person and work togeth. it ha taken place annual sinc
+2000 in locat as vari as canada, finland, mexico, scotland, and
+argentina. thi year debconf10 is in new york citi, new york, usa.
+
+thi year, as everi year, a great deal of the burden for the confer
+is place on debian volunt who donat time and energi to organ
+the confer. your help would be most welcom. if you ar interest
+in volunt, you can contact debconf-team [at] list.debian.org.
+
+altern, you can help debconf10 by donat monei which will be
+us to enabl those debian contributor who current cannot attend
+due to fund shortag. you can contribut monei by either becom a
+sponsor (if you ar a compani) or donat monei as an individu.
+
+as raphael geissert wrote on hi blog: "debconf10 need your help!
+that's right: it need help from potenti sponsor and donor to help
+cover the cost impli by thi event. if you ar interest in
+becom a sponsor pleas contact sponsor [at] debconf.org, or if you
+want to make a donat pleas visit the debconf10 >donat page [1].
+
+  1: http://debconf10.debconf.org/payment.xhtml
+
+compani or organ can, in addit to monei donat, lend
+equip for the confer.
+
+current sponsor of debconf10 includ hp [2], googl [3], canon
+[4], intel [5], collabora [6], bytemark [7] and univent [8], plu
+our perman and media sponsor [9]; we thank them for their support
+alreadi!
+
+  2: http://www.hp.com/go/linux
+  3: http://www.googl.com
+  4: http://www.canon.com
+  5: http://www.intel.com
+  6: http://www.collabora.co.uk
+  7: http://www.bytemark.co.uk
+  8: http://www.univent.de
+  9: http://debconf.org/#perman_sponsor
+
+
+an updat schedul [10] is avail as well.
+
+ 10: http://debconf10.debconf.org/date.xhtml
+
+
+
+about debian
+------------
+
+the debian project wa found in 1993 by ian murdock to be a truli
+free, commun project. sinc then the project ha grown to be on of
+the largest and most influenti open sourc project.  over three
+thousand volunt from all over the world work togeth to creat and
+maintain debian softwar. translat into over 30 languag, and
+support a huge rang of comput type, debian call itself the
+"univers oper system".
+
+
+about debconf
+-------------
+
+debconf is the debian project's develop confer. in addit to a
+full schedul of technic, social and polici talk, debconf provid
+an opportun for develop, contributor and other interest peopl
+to meet in person and work togeth more close. it ha taken place
+annual sinc 2000 in locat as vari as canada, finland, and
+mexico.
+
+
+contact inform
+-------------------
+
+for further inform, pleas visit the debian web page at
+http://www.debian.org/ or send mail to .
+
+
+-- 
+to unsubscrib, email to debian-announc-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100519101719.gy3233@melusin.alphascorpii.net
+
+

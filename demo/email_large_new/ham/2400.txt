@@ -1,0 +1,44 @@
+[us perl] stori for 2002-09-11us perl daili newslett
+
+in thi issu:
+    * dyndn.org offer free dn to perl site
+
++--------------------------------------------------------------------+
+| dyndn.org offer free dn to perl site                           |
+|   post by km on tuesdai septemb 10, @08:23 (new)              |
+|   http://us.perl.org/articl.pl?sid=02/09/10/1225228              |
++--------------------------------------------------------------------+
+
+[0]krelli write "[0]dyndn.org todai [1]announc that it will provid
+free premium dn servic (primari and secondari dn host) to ani
+domain involv in the perl commun. read the press releas for full
+detail, [2]creat an account, and [3]request credit under the perl dn
+offer! never lose traffic to your perl site due to fail dn again!"
+sweet. thank.
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/09/10/1225228
+
+link:
+    0. http://www.dyndn.org/
+    1. http://www.dyndn.org/new/2002/perl-dn.php
+    2. http://member.dyndn.org/polici.shtml
+    3. http://member.dyndn.org/nic/perl
+
+
+
+copyright 1997-2002 pudg.  all right reserv.
+
+
+======================================================================
+
+you have receiv thi messag becaus you subscrib to it
+on us perl.  to stop receiv thi and other
+messag from us perl, or to add more messag
+or chang your prefer, pleas go to your user page.
+
+	http://us.perl.org/my/messag/
+
+you can log in and chang your prefer from there.
+
+

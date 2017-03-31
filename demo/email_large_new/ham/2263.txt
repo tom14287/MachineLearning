@@ -1,0 +1,64 @@
+re: [ilug] sparc solari (wa: dell gx260 v redhat 7.3)hi,
+
+matthew french:
+> declan houlihan mention:
+> > we're actual investig switch from sparc/solari to
+> > intel/linux.
+boo hisss *duck* :)
+
+> well, why not try linux on sparc. 
+>
+> and you get a work version of your favourit kde/gnome desktop instead of
+> dte, uhm, i mean cde.
+um.. http://www.sun.com/softwar/star/gnome/ integr into solari.
+
+of cours then there's http://www.sun.com/softwar/solari/freewar/ for 
+solari 9 which give you afterstep and windowmak among other stuff. my 
+person favourit at the moment is enlighten which also ha solari 
+packag avail for download.
+
+> > basic the whole instal procedur is
+> > "boot net - instal"
+> talk of which, you can instal sparc linux us thi techniqu as well.
+> the imag take a while to load, but onc thi is done you can instal in
+> the normal fashion.
+out of curios, doe `normal fashion` mean that you still have to do the 
+interact customis or is it like solari jumpstart where you can 
+specifi everyth on the instal server, do `boot net - instal` go home, and 
+come in to a fulli instal and patch desktop the next morn?
+
+> there ar minor problem: like the serial consol driver, but for workstat 
+> instal i suspect it will work fine.
+i don't see why thi should be a _major problem. the prom (ie the "ok" prompt) 
+is almost at the hardwar level and henc dosent depend on the os so you 
+should be abl to connect to that easili enough. onc the machin is instal 
+cant you just log in over the network? the network is the comput after all 
+(sorri couldn't resist!)
+
+valen@tuatha.org said:
+> side, sun's termin handl leav a lot to be desir - it won't
+> work properli on a wyse 120+ for instanc, no matter what emul
+> mode the wyse is try to do.
+hmm... i'm not familiar with wyse stuff, but i onli need to us the consol 
+when someth break, then anyth capabl of someth basic like vt100 at 
+9600 8n1 seem to work  . not sure why you'd need to worri about thi much 
+realli, just set up jumpstart to instal automat then you don't need to 
+look at the consol at all.
+
+cheer,
+~al
+
+-- 
+express in thi post ar my opinion.  thei ar in no wai relat
+to opinion held by my employ, sun microsystem.
+statement on sun product includ here ar not gospel and mai
+be fiction rather than truth.
+
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

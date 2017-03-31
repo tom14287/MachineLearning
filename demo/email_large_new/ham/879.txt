@@ -1,0 +1,16 @@
+how do i fsck and xf file system in "squeez"
+        ok, i'm stump.  i wa have some problem which were like relat
+to the old kernel in debian "lenni", so i upgrad to "squeez" in
+order to allevi the issu, which it appar ha.  now, howev, i
+need to fsck the main arrai on the box, which is format as xf.  the
+xf-repair util is not on the upgrad system.  (i wa forc to do
+a fresh instal of the boot drive.)  how can i obtain the xf file
+util - particularli xf-repair - under "squeez"?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/flsdnvftgaepxgjwnz2dnuvz_ogdnz2d@giganew.com
+
+

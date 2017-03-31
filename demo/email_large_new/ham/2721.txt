@@ -1,0 +1,47 @@
+re: router polici question
+on apr 16, 2010, at 8:35 pm, daniel d jone wrote:
+
+>> but is there ani reason at all to allow anyth, asid from some =
+icmp, to
+>> go beyond the acl on it internet face interfac -- to get to the =
+router
+>> itself, that is?
+>=20
+> you mean packet come in from the internet with a destin ip =
+that is=20
+> assign to the router itself? =20
+
+yup. i've block telnet and some irrelev icmp for a long time. it =
+dawn on me the other dai that i couldn't think of ani reason not to =
+just drop all tcp and udp traffic to the router's outsid ip.
+
+> ar you run ani sort of rout protocol=20
+> or similar that commun with your isp's router, includ thing =
+like=20
+> mpl, or ani vpn/tunnel that termin at the border router?
+
+no rout protocol on the outsid interfac. the vpn ar handl by a =
+host in the dmz. to thi router, the vpn traffic look like just more =
+udp between public ip.
+
+> what about nat=20
+> or port forward on the border router?
+
+there's no port forward, and nat all happen insid, on the firewal =
+that connect the outsid, the dmz, and the lan. thi router see onli =
+my routabl address space (and it ip on the 1918 net between it and the =
+firewal).
+
+--=20
+glenn english
+ghe@slsware.com
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/41ebef30-1bf2-4092-ad4b-b0713e968150@slsware.com
+
+

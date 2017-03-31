@@ -1,0 +1,65 @@
+re: about usb hard drive and errorson 20100410_092044, clive mcbarton wrote:
+> -----begin pgp sign messag-----
+> hash: sha1
+> 
+> paul e condon wrote:>
+> > dump2fs -b  is suppos to print the bad block that have
+> > been mark on a devic. when i run it, it print noth. i find it
+> > hard to believ that a 500gb hd contain zero bad block. 
+> 
+> everi hd that is even remot close to be usabl will alwai have
+> zero bad block when seen from outsid the hd. all hd have error
+> recognit and error correct and automat replac of faulti
+> sector with spare on. a hd will onli show bad block after all of it
+> remap area is us, at which point it is far beyond be usabl.
+> 
+> in other word, scan for bad block on a hd cannot work.
+
+thank clive. your post ha been invalu in fix some faulti think
+on my part, and in provok other us post. but i want more ...
+
+the error that i am experienc ar all similar. the first
+indic of a problem is a messag from the kernel (i think). an
+exampl is:
+
+kernel: [78454.939948] journal commit i/o error
+
+thi appear on all xterm window on the affect machin. on the
+xterm that is control a process that is us on of the usb
+drive, there follow a long sequenc of error messag about the
+drive be read-onli, which stop after a while. or sometim i stop
+it by type ^c on that xterm. 
+
+when thi happen, all the usb drive (3 of them) disappear from
+/dev/disk/by-label (thei ar all label by me). i have not
+discov ani to make them re-appear, short of reboot the
+comput. after reboot, i run e2fsck on all of them, and alwai get a
+longish delai on each while e2fsck commit (or whatev) the
+journal. thi can take a few second or up to half a minut. then
+i manual mount them us pmount, and all data upto the point
+where the crash happen seem to be present. 
+
+i have instal smartmontool, but i think there is some
+incompat between the instal version and the instal
+doc. the readm.debian make refer to edit some line in the
+config file that ar not present in the default, packag instal,
+config file. there is (appar) some incompat between us
+the daemon and us smartctl. the problem host is run lenni, but
+the doc seem to be the same as on a differ host that is run
+squeez. 
+
+i would veri much appreci some help in understand the doc.
+what is a safe thing for a nubi to type as a first command to
+smartctl? 
+
+-- 
+paul e condon           
+pecondon@mesanetwork.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100410222445.gc5664@big.lan.gnu
+
+

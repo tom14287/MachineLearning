@@ -1,0 +1,60 @@
+re: switch from nv to nouveau in squeezeon 05/11/2010 09:43 pm, charl kroeger wrote:
+>> saw that xserver-xorg-video-nouveau packag is now in the main
+>> repositori.
+>
+> it doe not appear to be in sid or squeez as of thi afternoon. (est usa)
+> ye. howev, i notic that 'nv' is still in squeez-main contrib non-free:
+>
+> xserver-xorg-video-nv  1:2.1.17-2
+
+sorri. i'm not think or commun well. i'm us the vesa driver 
+on the system, not nv. my brain wa track back to an earlier 
+experi in which i wa us other repositori. i us onli main and 
+secur for squeez.
+
+howev, i have been show xserver-xorg-video-nouveau in squeez main 
+for a coupl of dai.
+
+> but nv appear to be 'broken' if us in the /etc/x11/xorg.conf file, on my
+> version of thing. perhap thi is the result of some debian religi
+> fanat, but i think it's time to bid adeau to nv, ala it serv me well.
+>
+> i instal nouveau:
+>
+> xserver-xorg-video-nouveau      1:0.0.15+git20100329+7858345-3 x.org x
+> server -- nouveau displai driver (experiment)
+>
+> and place it, instead, into the /etc/x11/xorg.conf file and lo it brought
+> forth an x session and look just like nv. but, nv and nouveau ar,
+> no pun intend, a bit two dimension when on still ha avail the
+> nvidia-glx xorg driver on should simpli us it if on's hardwar will compli.
+
+too rich for my blood. by that i mean that nvidia-glx with thi quadro 
+card ha caus all sort of odd breakag and unreli issu in 
+the de. i have done enough experi with ident configur 
+of xfce and gnome on thi system, with the onli differ be us of 
+differ video driver (vesa, nv, glx/restrict) under both ubuntu and 
+debian to know that it's not my imagin. i'd rather have a reliabl 
+system than 3d, so glx is a no go for me. the vesa driver ha been 
+absolut flawless, but quit slow, of cours. the slow ha been 
+worth it becaus absolut noth in the user interfac ha ever been 
+broken sinc i went to vesa. i don't game, and i've just learn to be 
+patient when switch workspac.
+
+;)
+
+i'm look forward to see if nouveau will be an improv, 
+perform-wise, without caus reliabl issu.
+
+i am, howev, go to wait and instal nouveau the easi wai, onc the 
+upgrad to xserver-xorg-core becom avail in the repositori. if 
+thi weren't my main system i might be tempt to experi, but i just 
+need thi thing to keep work.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bea95b5.2080107@comcast.net
+
+

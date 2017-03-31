@@ -1,0 +1,74 @@
+[us perl] stori for 2002-08-10us perl daili newslett
+
+in thi issu:
+    * tpf announc newslett mail list, translat
+    * search.cpan.org out of beta
+
++--------------------------------------------------------------------+
+| tpf announc newslett mail list, translat                |
+|   post by km on fridai august 09, @13:03 (link)                 |
+|   http://us.perl.org/articl.pl?sid=02/08/09/174257               |
++--------------------------------------------------------------------+
+
+[0]gnat write "we've set up a mail list for the monthli perl
+foundat newslett, and [1]the juli newslett went out on thursdai.
+if you donat to ya and the perl foundat, you ar alreadi subscrib
+at the email address you provid when you donat. if you haven't
+donat and want to subscrib, send an empti email messag to
+foundat-newslett-subscrib@perl.org (and also consid [2]donat
+:-).
+
+in other newslett new, we have a [3]french translat of the juli
+newslett on the web site. thank to mirod (michel rodriguez) for make
+that happen. translat into other languag ar welcom--pleas
+contact kevin meltzer (kevinm at yetanoth.org)."
+
+i *heart* your translat!
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/08/09/174257
+
+link:
+    0. mailto:gnat@frii.com
+    1. http://www.perl-foundat.org/index.cgi?page=newslett
+    2. http://www.perl-foundat.org/index.cgi?page=contrib
+    3. http://www.perl-foundat.org/index.cgi?page=fr/tpf-newslett-0702
+
+
++--------------------------------------------------------------------+
+| search.cpan.org out of beta                                        |
+|   post by km on fridai august 09, @16:46 (cpan)                  |
+|   http://us.perl.org/articl.pl?sid=02/08/09/2046256              |
++--------------------------------------------------------------------+
+
+[0]gbarr write "sinc announc the [1]search beta site a oscon we have
+reciev sever feedback messag. some have suggest chang, which we
+apprici and most will be implement. but mani of the messag were
+just request it to becom [2]search.cpan.org. so by popular demand the
+switch will happen thi weekend." sweet!
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/08/09/2046256
+
+link:
+    0. mailto:gbarr-tuc@mutatu.co.uk
+    1. http://search-beta.cpan.org/
+    2. http://search.cpan.org/
+
+
+
+copyright 1997-2002 pudg.  all right reserv.
+
+
+======================================================================
+
+you have receiv thi messag becaus you subscrib to it
+on us perl.  to stop receiv thi and other
+messag from us perl, or to add more messag
+or chang your prefer, pleas go to your user page.
+
+	http://us.perl.org/my/messag/
+
+you can log in and chang your prefer from there.
+
+

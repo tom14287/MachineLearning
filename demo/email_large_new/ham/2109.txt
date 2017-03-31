@@ -1,0 +1,23 @@
+re: filesystem recommendationson thu, apr 29, 2010 at 3:24 am, rob owen  wrote:
+> on mon, apr 26, 2010 at 01:56:21pm +0200, javier barroso wrote:
+>> hello stan,
+>>
+>> why debian instal doesn't chang it default filesystem to xf if
+>> it is better than ext3 / ext4? i think alwai is better stick to
+>> default if it is possibl
+>>
+> i've read articl which state that ext3 ha superior resili to
+> sudden power loss. =a0that sentiment ha been echo in thi thread, by
+> stan i think, with statement like (paraphras): =a0xf is good for
+> product server which have uninterrupt power suppli.
+good to know, thank
+
+i will take a look!
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/i2x81c921f31004282356xf4c875bcpf88220aa45102a49@mail.csmine.org
+
+

@@ -1,0 +1,112 @@
+re: flash is open?on sat, 15 mai 2010 00:27:32 +0200, michel konzack wrote:
+
+> am 2010-05-14 19:06:06, hacktest du folgend herunt:
+
+(...)
+ 
+>> so the realiti is that anyon want to view a flash base site ha to
+>> have adob flash player instal as is the onli on abl to fulli
+>> support all the featur list in their "open" spec.
+> 
+> the spec ar open and if the open sourc commun is not abl or  even
+> will to implement it, it is not the fault of adob.
+
+no need to shout. i read all the messag in the same manner.
+
+"the spec ar open"... o.k., now so it seem. sinc 2008, just 2 year 
+ago, which is good, but adob, sinc the adquisit of macromedia on 
+2005, wa hold all the right on flash format.
+
+"(not have a good floss flash player) not the fault of adob...". of 
+cours not! the fault of adob, and thi is my person pow, is 
+develop a veri bad qualiti flash player, for all the user (window, 
+linux, solari). 
+
+heck, how in the hell can a compani provid such player if thei ar the 
+develop of the product the player ar handl (.swf)? i cannot 
+understand that, and "that" precis make me doubt about the qualiti of 
+the format thei ar try to popul and rise.
+
+that said, even thei (thei=adob)now "open the spec" for flash i will 
+avoid either us it or promot as much as i can.
+
+
+
+in the time i work as webmast and web design (now sysadmin), 
+peopl (client, partner and my compani) "urg" me to adopt flash 
+technolog, just becaus "look nice" and, "(sic) hei, anyon ha the 
+flash player instal so it wa also kinda cross-platform". 
+
+ye, flash player wa (is) avail for mani system but the fact is 
+that that did not chang my percept about the suitabl of us it.
+
+there is noth you couldn't do with standard html technolog 
+(javascript, css, dom...) that flash can, so why bother about spend 
+time and monei in acquir a licens for adob product that were (in 
+those time) the onli power on that allow the develop of "rich 
+site" ("rich site" → adob "dixit")?
+
+why bother if there wa onli a uniqu flash player out there and wa 
+pretti bad qualiti? why forc my user to have to us such player if 
+there were altern in a veri good shape that were open and 
+compat?
+
+my percept is that web develop wrongli refugi into flash to 
+escap from the incompat of the web brower, ani of them 
+appli differ render of the element of the page layout and not 
+follow the w3c standard. ye, firefox and opera had also their own 
+glicth and of cours, internet explor.
+
+so web develop, instead try to compatibil "the 
+incompat" of the browser by make a more fine-grain code, 
+thei took the "easi path" and just fall into the arm of flash format: 
+format wa bad but hei, at least it rened the site in the same manner 
+in all the browser >:-)
+
+and then it came html5, promot open standard wai to handl video and 
+audio... ooop, adob must thought their flash format will be forgotten 
+and lost in the helm's deep if html5 will succe, so the decid to open 
+flash to be more user-friendli and calm down the accus about 
+monopolist tactic, be their flash player instal in more than 95% 
+of the comput >:-)
+
+adn here we ar now, with adob develop, promot and enforc drm 
+technolog in their product and, otoh provid an "open spec" for 
+flash... quit contradictori :-)
+
+that is my person opinion, of cours.
+
+
+ 
+>> and the same situat goe for adob reader for linux. i dunno what is
+>> go on with adob but true is that i dislik the path is take that
+>> compani :-/
+> 
+> i am us debian gnu/linux sinc over 11 year and i have more then  20
+> commerci progra like eagl, fab3000 and varicad with a total valu of
+> more then 80.000 euro  instal,  becaus  there  ar  no  open  sourc
+> equival avail.
+
+i have noth against good qualiti program, even thei ar close sourc 
+or commerci. but acrobat product doe not fall into that categori :-)
+ 
+> ...and no, geda is no option du to the incompat gerber  output  and
+> it can not handel layot with bga 421 and bigger plu  correct  handl
+> of more then 4 signal layer (i need at least 8).  auto-router? oh hell!
+
+i now that. i'm work for a engin compani, and i'm "forc" (is 
+market demand, we need a 110% compatibilti with our partner and thei us 
+autocad...) to us such product.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.15.09.44.16@csmine.org
+
+

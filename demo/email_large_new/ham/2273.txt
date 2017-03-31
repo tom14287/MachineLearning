@@ -1,0 +1,23 @@
+re: [ilug] suse 8 disk? (thread chang slightli)
+> hmm, i've never us gentoo
+> so i'll have to take your word
+> on that.  perhap someth
+> similar to that ximian redhat
+> deali would be cool.  like
+> a gui instal for slackwar![1]
+> 
+> ;]
+> 
+> shane
+> 
+> [1]i'm shure patrick v. would love
+> that.(not)
+
+or slackwar with port... not portag.
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

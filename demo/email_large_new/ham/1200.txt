@@ -1,0 +1,46 @@
+re: kde unabl to plai complet k3b .wav file* on 2010 08 mai 09:10 -0500, diederik de haa wrote:
+> on 2010-05-08 nate bargmann wrote:
+> > in system set configur notif (also from the same menu in
+> > configur k3b) onli the first note is plai.
+> 
+> tri it from k3b and i can confirm your find
+>  
+> > in dolphin click on k3b_success1.wav launch gnome-mplayer and the
+> > entir file is plai.
+> 
+> same here, although i've plai it with both amarok as smplayer
+>  
+> > also in dolphin with k3b_success1.wav highlight click the plai
+> > button in the far right hand pane plai the first three note.
+> 
+> same here.
+> 
+> > here is an odditi i've notic
+> 
+> it sure is odd.
+
+thank for the confirm, diederik.  i wonder which packag to file a
+bug report against?  the k3b packag mai in fact be easiest to request
+that the sound file be packag in .ogg format, but that onli mask
+that fact that someth in the kde sound stack is have an issu with
+.wav file.
+
+my system is configur to us the phonon xine backend in sound and video 
+configur.  could that be the culprit and how can we test?
+
+- nate >>
+
+-- 
+
+"the optimist proclaim that we live in the best of all
+possibl world.  the pessimist fear thi is true."
+
+ham radio, linux, bike, and more: http://n0nb.us/index.html
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100509023401.gb7341@n0nb.us
+
+

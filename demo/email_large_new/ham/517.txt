@@ -1,0 +1,14 @@
+re: where to find setup for env variabl?on 14.04.2010 12:24, paul chani wrote:
+
+> mayb must i us grep to find the file contain 'java_home'?
+> if ye, i dont' know the exact express of that grep command.
+
+grep -sir 'java_home' /etc/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc5a875.502@chello.at
+
+

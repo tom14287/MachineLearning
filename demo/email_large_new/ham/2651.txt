@@ -1,0 +1,490 @@
+debian project new - mai 18th, 2010------------------------------------------------------------------------
+the debian project                                http://www.debian.org/
+debian project new                    debian-public@list.debian.org
+mai 18th, 2010                   http://debian.org/new/project/2010/03/
+------------------------------------------------------------------------
+
+welcom to thi year's third issu of dpn, the newslett for the debian
+commun. topic cover in thi issu includ:
+
+  * debconf10 updat
+  * squeez freez
+  * debian-ubuntu relationship
+  * debian instal media and non-free firmwar
+  * ... and much more.
+
+
+debconf10 updat
+----------------
+
+deadlin ar loom for debconf10 - some have alreadi pass. for
+exampl, the last dai to submit a bof (bird of a feather) talk ha come
+and gone. there is still lot you can do for debconf10 howev includ
+volunt time, lend equip, and even donat monei. sponsor
+and donor ar need to help defrai the cost of hold debconf10 as
+raphael geissert wrote on hi blog [6].
+
+   6 : http://my.opera.com/atomo64/blog/2010/05/04/debconf10-need-your-help
+
+joei hess also blog about debconf10 [7] sai "let us get you to
+debconf -- i promis you won't regret it!" there is still time (you have
+until the 15th of mai) to contact joei about thi year's special fund
+to get you to debconf10.
+
+   7 : http://kitenet.net/~joei/blog/entri/sponsor_non-regular_for_debconf10/
+
+
+squeez freez
+--------------
+
+adam barratt and the releas team sent out an updat on the statu of
+transit, releas critic bug and a timelin of the squeez freez.
+in short, we have a wai to go befor squeez is frozen and it is
+difficult for the releas team to estim when squeez will get frozen.
+adam write "in order to help us keep a clearer pictur of which chang
+still need to occur befor we can freez, we will be introduc a
+'transit freez' befor the end of thi month. if you have not yet
+discuss your transit with the releas team, pleas ensur that you
+have done so befor mai 21st."
+
+the releas team is alreadi work on some transit now, like qt4
+and gnome-desktop, which ar finish. the kde team is work on kde
+4.4 with the goal of have as up-to-date and stabl version of the kde
+suit as is possibl. to quot adam: "we're also close to complet the
+evinc / totem-pl-parser transit, which mean we're well on the wai
+to have gnome 2.30 in squeez."
+
+"even though the descend slope of therc bug graph [8] is pretti
+impress [2], we still have about 400 rc bug in squeez. some of them
+ar wait for packag to transit from unstabl to test, but
+there's still a larg number which need work on. on thi everi dd can
+help out by nmu packag which ar current affect by rc bug.
+pleas rememb that releas is a collect effort and it is not
+enough to just have your own packag rc-bug free (although it's a good
+start) to be abl to releas. so, if you can help, pleas choos an rc
+bug [9], fix it :-) and nmu it, possibl to the delai queue so that
+the maintain can react if need."
+
+   8 : http://bug.debian.org/releas-critic/
+   9 : http://bug.debian.org/releas-critic/debian/all.html
+
+
+debian-ubuntu relationship
+--------------------------
+
+be invit to the recent ubuntu develop summit, debian project
+leader stefano zacchiroli gather feedback [10] and exampl about the
+relationship between the two project. most interest where of cours
+success stori, "epic fail" and request from the debian project at
+larg to the ubuntu commun. later he post a link to hi slide [11]
+(a video is also avail [12]) also contain some figur, e.g. that
+roughli 75% of all packag in ubuntu ar taken without further patch
+directli from debian. stefano later post a summari of hi talk [13]
+and the feedback he got.
+
+   10 : http://list.debian.org/debian-project/2010/05/msg00083.html
+   11 : http://upsilon.cc/~zack/stuff/debian-ud-m.pdf
+   12 : http://blip.tv/file/3622104
+   13 : http://list.debian.org/debian-project/2010/05/msg00084.html
+
+
+debian instal media and non-free firmwar
+-----------------------------------------------
+
+with debian's kernel team move firmwar file (binari data need for
+some hardwar like network interfac card) in separ packag in
+debian's non-free section, kurt roeckx wonder [14], if that approach
+could lead to usag problem especi dure instal and if these
+file should be ad to the instal media. sever peopl point
+out, that the debian instal system alreadi support load
+firmwar [15] from a separ instal media, e.g. a usb stick. that
+howev would still be to complic for mani user or us case (e.g.
+remot instal). in the end steve langasek propos [16] to offer
+normal instal media without non-free firmwar file and an easi to
+us tool, which would add the distribut non-free firmwar file to
+the instal media imag.
+
+   14 : http://list.debian.org/20100505162955.ga17250@roeckx.be
+   15 : http://www.debian.org/releas/lenni/i386/ch06s04.html
+   16 : http://list.debian.org/debian-project/2010/05/msg00081.html
+
+
+other new
+----------
+
+the 22nd issu of the miscellan new for develop [17] ha been
+releas and cover the follow topic:
+
+   17 : http://list.debian.org/debian-devel-announc/2010/05/msg00006.html
+
+
+  * lwn subscript
+  * ubuntudiff.debian.net
+  * txt record on debian.net
+  * debian sysadmin team seek for help
+  * receiv ubuntu bug by mail via pt
+
+mip* porter andrea barth gave a statu updat [18] about the mip and
+mipsel port [19]. while the situat for mipsel have been improv
+dramat, the situat for mip remain unchang [20].
+
+   18 : http://list.debian.org/debian-devel-announc/2010/05/msg00005.html
+   19 : http://www.debian.org/port/mip/
+   20 : http://list.debian.org/debian-devel-announc/2010/04/msg00010.html
+
+debian system administr martin zobel-hela announc [21] a new
+version of the "debian machin usag polici" becom effect on
+juli 04th, 2010.  the dmup basic cover what debian develop mai
+or mai not do with their account on debian.org hardwar. the chang wa
+necessari to clarifi respons between the debian system
+administr and the debian account manag.
+
+   21 : http://list.debian.org/debian-devel-announc/2010/05/msg00001.html
+
+debian new maintain frontdesk member enrico zini remind [22]
+develop on how to properli advoc applic for the new maintain
+process. while advoc messag don't need to be cumbersom and long,
+he highlight that onli person, who alreadi have activ contribut
+to debian should be advoc.
+
+   22 : http://list.debian.org/debian-devel-announc/2010/05/msg00003.html
+
+debian system administr peter palfrad welcom some volunt for
+maintain porter chroot environ [23] on differ architectur.
+he also gave some guidelin on how develop should request
+instal of packag in these chroot environ.
+
+   23 : http://list.debian.org/debian-devel-announc/2010/05/msg00002.html
+
+bdale garbe bloge about sponsor lwn subscript [24] where hp [25]
+sponsor the subscript fee to access lwn.net [26] for debian
+develop and - just recent introduc - for debian maintain. he
+also note, that current 571 debian contributor us thi servic.
+
+   24 : http://www.gag.com/bdale/blog/post/debian_and_lwn.html
+   25 : http://www.hp.com/go/linux
+   26 : http://lwn.net/
+
+debian system administr peter palfrad ask [27] that all bug
+report concern the remov of undistribut packag should also
+be sent to the maintain of the snapshot.debian.org [28] servic.
+
+   27 : http://list.debian.org/debian-devel-announc/2010/05/msg00004.html
+   28 : http://snapshot.debian.org/
+
+sune vuorela, member of the kde packag mainten team, wonder if
+distribut specif tool [29] ar miss for debian.
+
+   29 : http://pusl.com/blog/?p=163
+
+martin michlmayr announc the avail of a debian 5.0 [30] "lenni"
+instal system for marvel's kirkwood base system like
+the sheevaplug [31] or the qnap ts-11x/ts-21x [32].
+
+   30 : http://www.cyriu.com/journal/debian/kirkwood/lenni-instal
+   31 : http://www.cyriu.com/debian/kirkwood/sheevaplug/
+   32 : http://www.cyriu.com/debian/kirkwood/qnap/
+
+jan dittbern ad [33] link to ubuntudiff, piupart and patch
+tracker to the debian develop portfolio servic [34].
+
+   33 : http://www.dittbern.info/en/content/small-updat-debian-develop-portfolio-servic
+   34 : http://ddportfolio.debian.net/
+
+stefano zacchiroli co-author a paper introduc the the ultim
+debian databas [35] a collect of sever data sourc to scientist
+do data mine on softwar repositori.
+
+   35 : http://upsilon.cc/~zack/blog/post/2010/05/udd_-_consolid_bazaar_metadata_for_qa_and_data_mine/
+
+
+new develop and maintain
+------------------------------
+
+9 applic have been accept [36] as debian develop and 6
+applic have been [37] accept [38] as debian maintain sinc the
+previou issu of the debian project new. pleas welcom deepak
+tripathi, daniel nurmi, paul gever, thoma goirand, pino toscano, johan
+euphrosin, kanru chen, mikhail gusarov, obei arthur liu, thierri
+soloniaina randrianiriana, ritesh sarraf, tommi vainikainen, thoma
+weber, hideki yaman and serafeim zanikola into our project!
+
+   36 : http://list.debian.org/e1obglq-0004fc-16@merkel.debian.org
+   37 : http://list.debian.org/e1oe0zh-0008py-vz@ri.debian.org
+   38 : http://list.debian.org/e1odk88-0001je-3q@ri.debian.org
+
+
+releas-critic bug statist for the upcom releas
+---------------------------------------------------------
+
+accord to the unoffici rc-bug count [39], the upcom releas,
+debian 6.0 "squeez", is current affect by 370 releas critic
+bug. 72 of them have alreadi been fix in debian's "unstabl" branch.
+of the remain 298 releas critic bug, 37 alreadi have a patch
+(which might need test) and 20 ar mark as pend.
+
+   39 : http://bt.turmzimm.net/detail.php
+
+ignor these bug as well as releas critic bug for packag in
+contrib or non-free, 180 releas critic bug remain to be solv for
+the releas to happen.
+
+
+
+import debian secur advisori
+------------------------------------
+
+debian's secur team recent releas advisori for these packag
+(among other): mediawiki [40], iscsitarget [41], vlc [42], mplayer [43]
+and phpgroupwar [44]. pleas read them carefulli and take the proper
+measur.
+
+   40 : http://www.debian.org/secur/2010/dsa-2041
+   41 : http://www.debian.org/secur/2010/dsa-2042
+   42 : http://www.debian.org/secur/2010/dsa-2043
+   43 : http://www.debian.org/secur/2010/dsa-2044
+   44 : http://www.debian.org/secur/2010/dsa-2046
+
+pleas note that these ar a select of the more import secur
+advisori of the last week. if you need to be kept up to date about
+secur advisori releas by the debian secur team, pleas
+subscrib to the secur mail list [45] for announc.
+
+   45 : http://list.debian.org/debian-secur-announc/
+
+
+new and noteworthi packag
+---------------------------
+
+the follow packag were ad to the unstabl debian archiv
+recent (among other [46]):
+
+   46 : http://packag.debian.org/unstabl/main/newpkg
+
+  * akonadiconsol -- the manag and debug consol for akonadi [47]
+  * asciio -- dynam creat ascii chart and graph with gtk+2 [48]
+  * astk -- code_aster build/control system and front-end -- tcl client [49]
+  * blogilo -- blog client base on the kde platform [50]
+  * cantor -- interfac for mathemat applic [51]
+  * chordii -- text file (chordpro format) to music sheet convert [52]
+  * chromium-browser -- chromium browser [53]
+  * cmospwd -- decrypt bio password from cmo [54]
+  * coffeescript -- interpret and compil for the coffeescript languag [55]
+  * dh-autoreconf -- debhelp add-on to call autoreconf and clean up after the build [56]
+  * ditaa -- convert ascii diagram into proper bitmap graphic [57]
+  * ecm -- prepar cd imag file so thei compress better [58]
+  * eiskaltdcpp -- eiskaltdc++ is graphic client for direct connect [59]
+  * emerillon -- map viewer for the gnome desktop [60]
+  * etsf-io -- binari tool to check, merg and read etsf file [61]
+  * fso-spec -- freesmartphon.org dbu xml specif & document [62]
+  * gnome-color-manag -- color manag integr for the gnome desktop environ [63]
+  * gnome-icon-theme-extra -- gnome desktop icon theme (addit icon) [64]
+  * googl-mock -- googl's framework for write and us c++ mock class [65]
+  * granati -- bomberman clone [66]
+  * iputil-clockdiff -- measur the time differ between network comput [67]
+  * jbig2dec -- jbig2 decod librari - tool [68]
+  * jedit -- a plugin-base editor for programm [69]
+  * kbluetooth -- kde bluetooth framework [70]
+  * kde-config-cddb -- kde cddb retriev configur [71]
+  * kde-config-cron -- program schedul frontend [72]
+  * kde-config-phonon-xine -- advanc phonon xine configur [73]
+  * kde-l10n-cavalencia -- southern catalan (valencian) (ca@valencia) file for kde [74]
+  * kde-l10n-eo -- esperanto (eo) local file for kde [75]
+  * kde-l10n-id -- indonesian (id) local file for kde [76]
+  * kde-l10n-si -- sinhala (si) local file for kde [77]
+  * kdelib5-plugin -- core plugin for kde applic [78]
+  * kdevelop-l10n-cavalencia -- southern catalan (valencian) (ca@valencia) file for the kdevelop id [79]
+  * kdevelop-l10n-da -- danish (da) local file for the kdevelop id [80]
+  * kdevelop-l10n-de -- german (de) local file for the kdevelop id [81]
+  * kdevelop-l10n-engb -- british english (en_gb) local file for the kdevelop id [82]
+  * kdevelop-l10n-es -- spanish (es) local file for the kdevelop id [83]
+  * kdevelop-l10n-et -- estonian (et) local file for the kdevelop id [84]
+  * kdevelop-l10n-fr -- french (fr) local file for the kdevelop id [85]
+  * kdevelop-l10n-gl -- galician (gl) local file for the kdevelop id [86]
+  * kdevelop-l10n-it -- italian (it) local file for the kdevelop id [87]
+  * kdevelop-l10n-nd -- low saxon (nd) local file for the kdevelop id [88]
+  * kdevelop-l10n-ptbr -- brazilian portuges (pt_br) local file for the kdevelop id [89]
+  * kdevelop-l10n-pt -- portuges (pt) local file for the kdevelop id [90]
+  * kdevelop-l10n-sv -- swedish (sv) local file for the kdevelop id [91]
+  * kdevelop-l10n-tr -- turkish (tr) local file for the kdevelop id [92]
+  * kdevelop-l10n-uk -- ukrainian (uk) local file for the kdevelop id [93]
+  * kdevelop-l10n-zhcn -- chines simplifi (zh_cn) local file for the kdevelop id [94]
+  * kdevelop-l10n-zhtw -- chines tradit (zh_tw) local file for the kdevelop id [95]
+  * kdoctool -- variou tool for access applic document [96]
+  * kigo -- open-sourc implement of the popular go game [97]
+  * llvm-2.7 -- low-level virtual machin (llvm) [98]
+  * mailaveng -- highli configur, mta-independ smtp filter server [99]
+  * marbl-plugin -- plugin for marbl [100]
+  * mongodb-client -- an object/document-orient databas (client app) [101]
+  * mongodb-server -- an object/document-orient databas (server packag) [102]
+  * oj -- journal manag and publish system [103]
+  * olpc-kbdshim -- olpc xo keyboard support daemon [104]
+  * olpc-powerd -- olpc xo power manag support daemon [105]
+  * opticalraytrac -- a virtual len design workshop [106]
+  * php-textil -- php parser for the textil markup [107]
+  * plasma-desktop -- the kde plasma workspac for desktop and laptop comput [108]
+  * plasma-netbook -- the kde plasma workspac for netbook comput [109]
+  * ploader -- applic to upload your pictur to your piwigo galleri [110]
+  * posterazor -- split an imag into multipl sheet for assembl into a poster [111]
+  * psi-plu-icon -- icon for psi+ [112]
+  * psi-plu-skin -- skin for psi+ [113]
+  * python-django-countri -- provid a countri field for django model [114]
+  * python-django-djblet -- re-usabl compon for django project [115]
+  * python-django-markupfield -- custom django field for easi us of markup in text field [116]
+  * python-flask -- micro web framework base on werkzeug, jinja2 and good intent [117]
+  * python-nid -- python bind for libnid (aka pynid) [118]
+  * python-prctl -- python interfac to the prctl() syscal [119]
+  * python-prctl -- python interfac to the prctl() syscal [120]
+  * python-xklavier -- python bind for libxklavi, a x keyboard extens api [121]
+  * rabbitvc-cli -- command line interfac for rabbitvc [122]
+  * rabbitvc-gedit -- gedit extens for rabbitvc [123]
+  * rabbitvc-nautilu -- nautilu extens for rabbitvc [124]
+  * roc -- graph theori id [125]
+  * shiboken -- cpython bind gener for c++ librari [126]
+  * skroog -- person financ manag for kde [127]
+  * sylph-searcher -- full-text search program for sylphe or mh folder [128]
+  * tempest-for-eliza -- demostr electromagnet emiss from comput system [129]
+  * torqu-client -- command line interfac to torqu server [130]
+  * torqu-client-x11 -- gui for torqu client [131]
+  * torqu-schedul -- schedul part of torqu [132]
+  * torqu-server -- pb-deriv batch process server [133]
+  * totem-plugin-art -- a totem plugin to watch stream from art.tv [134]
+  * trac-icalviewplugin -- provid icalendar feed for ticket queri [135]
+  * vala-dbu-bind-tool -- vala bind-gener for xml introspect file [136]
+  * vowpal-wabbit -- fast and scalabl onlin learn algorithm [137]
+  * xul-ext-monkeyspher -- iceweasel/firefox extens for us monkeyspher on the web [138]
+  * yorick-mira -- optic intreferometri imag reconstruct within yorick [139]
+
+   47 : http://packag.debian.org/unstabl/main/akonadiconsol
+   48 : http://packag.debian.org/unstabl/main/asciio
+   49 : http://packag.debian.org/unstabl/main/astk
+   50 : http://packag.debian.org/unstabl/main/blogilo
+   51 : http://packag.debian.org/unstabl/main/cantor
+   52 : http://packag.debian.org/unstabl/main/chordii
+   53 : http://packag.debian.org/unstabl/main/chromium-browser
+   54 : http://packag.debian.org/unstabl/main/cmospwd
+   55 : http://packag.debian.org/unstabl/main/coffeescript
+   56 : http://packag.debian.org/unstabl/main/dh-autoreconf
+   57 : http://packag.debian.org/unstabl/main/ditaa
+   58 : http://packag.debian.org/unstabl/main/ecm
+   59 : http://packag.debian.org/unstabl/main/eiskaltdcpp
+   60 : http://packag.debian.org/unstabl/main/emerillon
+   61 : http://packag.debian.org/unstabl/main/etsf-io
+   62 : http://packag.debian.org/unstabl/main/fso-spec
+   63 : http://packag.debian.org/unstabl/main/gnome-color-manag
+   64 : http://packag.debian.org/unstabl/main/gnome-icon-theme-extra
+   65 : http://packag.debian.org/unstabl/main/googl-mock
+   66 : http://packag.debian.org/unstabl/main/granati
+   67 : http://packag.debian.org/unstabl/main/iputil-clockdiff
+   68 : http://packag.debian.org/unstabl/main/jbig2dec
+   69 : http://packag.debian.org/unstabl/main/jedit
+   70 : http://packag.debian.org/unstabl/main/kbluetooth
+   71 : http://packag.debian.org/unstabl/main/kde-config-cddb
+   72 : http://packag.debian.org/unstabl/main/kde-config-cron
+   73 : http://packag.debian.org/unstabl/main/kde-config-phonon-xine
+   74 : http://packag.debian.org/unstabl/main/kde-l10n-cavalencia
+   75 : http://packag.debian.org/unstabl/main/kde-l10n-eo
+   76 : http://packag.debian.org/unstabl/main/kde-l10n-id
+   77 : http://packag.debian.org/unstabl/main/kde-l10n-si
+   78 : http://packag.debian.org/unstabl/main/kdelib5-plugin
+   79 : http://packag.debian.org/unstabl/main/kdevelop-l10n-cavalencia
+   80 : http://packag.debian.org/unstabl/main/kdevelop-l10n-da
+   81 : http://packag.debian.org/unstabl/main/kdevelop-l10n-de
+   82 : http://packag.debian.org/unstabl/main/kdevelop-l10n-engb
+   83 : http://packag.debian.org/unstabl/main/kdevelop-l10n-es
+   84 : http://packag.debian.org/unstabl/main/kdevelop-l10n-et
+   85 : http://packag.debian.org/unstabl/main/kdevelop-l10n-fr
+   86 : http://packag.debian.org/unstabl/main/kdevelop-l10n-gl
+   87 : http://packag.debian.org/unstabl/main/kdevelop-l10n-it
+   88 : http://packag.debian.org/unstabl/main/kdevelop-l10n-nd
+   89 : http://packag.debian.org/unstabl/main/kdevelop-l10n-ptbr
+   90 : http://packag.debian.org/unstabl/main/kdevelop-l10n-pt
+   91 : http://packag.debian.org/unstabl/main/kdevelop-l10n-sv
+   92 : http://packag.debian.org/unstabl/main/kdevelop-l10n-tr
+   93 : http://packag.debian.org/unstabl/main/kdevelop-l10n-uk
+   94 : http://packag.debian.org/unstabl/main/kdevelop-l10n-zhcn
+   95 : http://packag.debian.org/unstabl/main/kdevelop-l10n-zhtw
+   96 : http://packag.debian.org/unstabl/main/kdoctool
+   97 : http://packag.debian.org/unstabl/main/kigo
+   98 : http://packag.debian.org/unstabl/main/llvm-2.7
+   99 : http://packag.debian.org/unstabl/main/mailaveng
+   100 : http://packag.debian.org/unstabl/main/marbl-plugin
+   101 : http://packag.debian.org/unstabl/main/mongodb-client
+   102 : http://packag.debian.org/unstabl/main/mongodb-server
+   103 : http://packag.debian.org/unstabl/main/oj
+   104 : http://packag.debian.org/unstabl/main/olpc-kbdshim
+   105 : http://packag.debian.org/unstabl/main/olpc-powerd
+   106 : http://packag.debian.org/unstabl/main/opticalraytrac
+   107 : http://packag.debian.org/unstabl/main/php-textil
+   108 : http://packag.debian.org/unstabl/main/plasma-desktop
+   109 : http://packag.debian.org/unstabl/main/plasma-netbook
+   110 : http://packag.debian.org/unstabl/main/ploader
+   111 : http://packag.debian.org/unstabl/main/posterazor
+   112 : http://packag.debian.org/unstabl/main/psi-plu-icon
+   113 : http://packag.debian.org/unstabl/main/psi-plu-skin
+   114 : http://packag.debian.org/unstabl/main/python-django-countri
+   115 : http://packag.debian.org/unstabl/main/python-django-djblet
+   116 : http://packag.debian.org/unstabl/main/python-django-markupfield
+   117 : http://packag.debian.org/unstabl/main/python-flask
+   118 : http://packag.debian.org/unstabl/main/python-nid
+   119 : http://packag.debian.org/unstabl/main/python-prctl
+   120 : http://packag.debian.org/unstabl/main/python-prctl
+   121 : http://packag.debian.org/unstabl/main/python-xklavier
+   122 : http://packag.debian.org/unstabl/main/rabbitvc-cli
+   123 : http://packag.debian.org/unstabl/main/rabbitvc-gedit
+   124 : http://packag.debian.org/unstabl/main/rabbitvc-nautilu
+   125 : http://packag.debian.org/unstabl/main/roc
+   126 : http://packag.debian.org/unstabl/main/shiboken
+   127 : http://packag.debian.org/unstabl/main/skroog
+   128 : http://packag.debian.org/unstabl/main/sylph-searcher
+   129 : http://packag.debian.org/unstabl/main/tempest-for-eliza
+   130 : http://packag.debian.org/unstabl/main/torqu-client
+   131 : http://packag.debian.org/unstabl/main/torqu-client-x11
+   132 : http://packag.debian.org/unstabl/main/torqu-schedul
+   133 : http://packag.debian.org/unstabl/main/torqu-server
+   134 : http://packag.debian.org/unstabl/main/totem-plugin-art
+   135 : http://packag.debian.org/unstabl/main/trac-icalviewplugin
+   136 : http://packag.debian.org/unstabl/main/vala-dbu-bind-tool
+   137 : http://packag.debian.org/unstabl/main/vowpal-wabbit
+   138 : http://packag.debian.org/unstabl/main/xul-ext-monkeyspher
+   139 : http://packag.debian.org/unstabl/main/yorick-mira
+
+work-need packag
+---------------------
+
+current 607 packag ar orphan and 120 packag ar up for
+adopt.  pleas take a look at the recent [140] report [141] to see
+if there ar packag you ar interest in or view the complet list of
+packag which need your help [142].
+
+   140 : http://list.debian.org/e1ocila-0001ft-me@merkel.debian.org
+   141 : http://list.debian.org/e1oabqp-0004lu-nq@merkel.debian.org
+   142 : http://www.debian.org/devel/wnpp/help_request
+
+
+want to continu read dpn?
+-----------------------------
+
+pleas help us creat thi newslett. we still need more volunt
+writer to watch the debian commun and report about what is go on.
+pleas see the contribut page [143] to find out how to help. we're
+look forward to receiv your mail at
+debian-public@list.debian.org [144].
+
+   143 : http://wiki.debian.org/projectnew/howtocontribut
+   144 : mailto:debian-public@list.debian.org
+
+
+
+thi issu of debian project new wa edit by jeremiah c. foster and
+alexand reichl-schmehl [145].
+
+   145 : mailto:debian-public@list.debian.org
+
+
+-- 
+to unsubscrib, email to debian-new-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100518185336.gx3233@melusin.alphascorpii.net
+
+

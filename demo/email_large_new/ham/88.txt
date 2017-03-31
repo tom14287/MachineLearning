@@ -1,0 +1,42 @@
+re: wireless connect issuesfix ip around?
+
+il 12/05/10 15.32, bori bobrov ha scritto:
+> hi, frank.
+> try to set dhcp pool size in your router to 2 or 3
+> Вторник 11 мая 2010 00:06:28 you wrote:
+>    
+>> hi gui,
+>>
+>> i'm have some headach with our wlan. we're go onlin with 2
+>> laptop, that mean we try. we do have the follow setup:
+>>
+>> the router is a speedport w 303v and we do have the follo laptop:
+>> asu m6n, intel ipw2100 driver, debian/sid with wicd
+>> acer aspir 5680, athero ar2413 with the ath5k driver, ubuntu 8.10 with
+>> network manag
+>>
+>> when my wife is onlin with her acer/ubuntu system i cannot connect with
+>> my asu/debian machin. the wireless network is detect but i do not
+>> get an ip address.thi is from the wicd.log file:
+>> no dhcpoffer receiv.
+>> no work leas in persist databas - sleep.
+>> dhcp connect fail
+>> exit connect thread
+>> send connect attempt result dhcp_fail
+>>
+>> it doe work the other wai round though!
+>>
+>>
+>> ani idea on where to look?
+>>
+>> thx frank
+>>
+>>      
+
+
+-- 
+to unsubscrib, email to debian-laptop-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4beab423.1030403@vodafon.it
+
+

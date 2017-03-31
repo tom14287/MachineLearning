@@ -1,0 +1,37 @@
+re: hi how to escap under ` ` in shon wed, apr 21, 2010 at 02:27:47pm +0530, siju georg wrote:
+> on wed, apr 21, 2010 at 2:16 pm, mart frauenlob
+>  wrote:
+> >
+> > how about:
+> > ... -p 'my$qlpw' -n ...
+> >
+> 
+> # `mysql -u root -p 'my$qlpw' -n -b -e 'show databas'`
+> enter password:
+> 
+> ask for pw
+> 
+> # `mysql -u root -p'my$qlpw' -n -b -e 'show databas'`
+> -bash: inform_schema: command not found
+
+you got the output of 'show databas'. you then consid it a shell
+command and try to excut it. why would you want to do that? what do you
+want to do with that output?
+
+btw: i would suggest that you actual us a .my.cnf to hold the
+password, otherwis the password is avail in e.g. the output of 'ps
+auxww'
+
+-- 
+tzafrir cohen         | tzafrir@jabber.org | vim is
+http://tzafrir.org.il |                    | a mutt's
+tzafrir@cohen.org.il |                    |  best
+tzafrir@debian.org    |                    | friend
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100421090133.gv16560@pear.tzafrir.org.il
+
+

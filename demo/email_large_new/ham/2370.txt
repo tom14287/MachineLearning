@@ -1,0 +1,51 @@
+re: [solv] debian-multimedia break mplayer .mov playback on lenni?-----begin pgp sign messag-----
+hash: sha1
+
+liam o'tool wrote:
+>> ad debian-multimedia.org break a coupl of thing. includ vlc. i
+>> don't know why thei don't fix their repositori.
+>>
+>> i'm curiou if mani peopl us debian-multimedia. is it trustworthi?
+>>
+>>
+> 
+> i have been us debian-multimedia with debian stabl for year without
+> ani problem. it is a vauluabl and reliabl servic,
+
+valuabl ye, sinc it provid us video process app. i'm us
+it also sinc recent. it probabl is reliabl, although for me it did
+  break vlc the moment i start us it.
+
+> and is provid by a well-known debian develop.
+
+good to know.
+
+how come there is no link anywher on debian.org point to
+debian-multimedia.org? anyth to establish a chain of trust. as it is,
+i look and look but didn't find. even when search for
+"multimedia" on debian.org, it doe not mention debian-multimedia.org at
+all. not even when search for "debian-multimedia". everi new debian
+user try to verifi the credibilitii of debian-multimedia.org would
+have given up at thi point for sure.
+
+with the inform that marillat is a debian develop (and the
+precis spell of hi name) i wa actual abl to go to the
+develop's page on debian org, find him, and see a link to d-m. so in a
+veri roundabout wai, d-m is actual endors by debian.org. but how
+would anybodi find out about thi in a reason amount of time?
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: us gnupg with mozilla - http://enigmail.mozdev.org
+
+ieyearecaayfakvmyosacgkq+vsrxyk4409xcwcgixo8as/wa8db8m2sp4kv3c2l
+knaana2xq8lpi6rtgd06yimcbrm45ih
+=kc7/
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bccc8eb.8000702@web.de
+
+

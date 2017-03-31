@@ -1,0 +1,32 @@
+[razor-user] smrazor, milter, and max connectionswith v2.14 of razor client and us solari 9 with sendmail 8.12.5 i have
+manag to get smrazor work (milter) -- sort of ... with light server
+load, it seem to do fine; howev dure peak traffic time (or peak
+catalogu server usag???) , the smrazor milter stop and sometim dump
+core as well.  doe anyon know of a limit in term of number of
+messag/minut that can be theoret process? i have notic timeout
+occur (i set the milter timeout per messag to 15 second) often in huge
+lump and the occasion "could not get valid info from discoveri server")
+?????
+
+i am not us procmail becaus thi [cluster of] server is a gatewai on to
+5 differ pop3 server (5 differ domain), ergo, local user won't work
+becaus of overlap usernam ...(or insan huge virtusert to alia
+map .....)
+
+altern doe anyon have a work, high-capac milter for thi or
+ani other relat idea???
+
+sven
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: dice - the lead onlin job board
+for high-tech profession. search and appli for tech job todai!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

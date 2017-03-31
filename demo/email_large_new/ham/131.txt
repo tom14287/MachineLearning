@@ -1,0 +1,31 @@
+re: 64 bit-flash fail site (wa: what to choos for core i5 64 
+	bit?)on tue, mai 11, 2010 at 09:48, camal=c3=b3n  wrote:
+> on tue, 11 mai 2010 12:26:21 -0400, jordan metzmeier wrote:
+>
+>>> user have problem with flash plugin on their 64 bit os can instal
+>>> a 32 bit browser and run the 32 bit plugin, which is annoi but it
+>>> should work.
+>>>
+>>>
+>> doe thi work nativ or doe it requir a chroot?
+>
+> nativ... afaik, i see two approach:
+>
+> 1/ firefox can be download from mozilla site (and mozilla doe not
+> provid a 64-bit version for their browser, onli 32-bit binari). onc
+> download, no need to instal anyth, just click and run. then, you
+> can download the flash plugin (32 bit) and store it under firefox
+> plugin folder.
+
+thei do provid 64-bit nightli build, though.
+
+cheer,
+kelli clower
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktim-mdyzhnwxwhgdsm3o_auoidtjxd2ctnlss6aq@mail.csmine.org
+
+

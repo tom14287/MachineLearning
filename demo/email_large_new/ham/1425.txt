@@ -1,0 +1,63 @@
+re: hptalx is buggi onc calcul is plug and linkedon sat, 08 mai 2010 22:18:05 +0200, merciadri luca wrote:
+
+> camalón write:
+> 
+>> can you see the "await server cmd." messag in calcul's displai?
+
+> point thi out is a good thing, but i had alreadi test thi.
+> actual, sinc i instal mani program in spanish, my calcul is
+> (to my dismai) in spanish, and i get, by press and hold right
+> shift and by press the right arrow, on the calcul,
+> 
+> ==
+> espero comand.servidor
+> ==
+> 
+> it look like
+> 
+> ==
+> await server cmd.
+> ==
+
+ah, in spanish. curiou :-). ye, so it translat.
+ 
+> and, evid, do *anoth* combin of kei give me a text with
+> the xmodem server.
+> 
+> thu, what i am do is right.
+
+o.k.
+
+>> port "100"? what kind of port nomenclatur is that? :-?
+> i do not know. i also wonder.
+> 
+>> i would expect "/dev/ttyusb0" for an usb devic or "/dev/tty0" for the
+>> first rs-232 port...
+> me too.
+> 
+>> i think the applic is crash becaus cannot establish a
+>> connect with the devic.
+> such a (trivial, as habitu) case should have been handl by the
+> develop, shouldn't it?
+
+ye... i would report. but also take a look into thi:
+
+connect hp 50g (or hp 49g+) to a linux box with hptalx
+http://bleedux.wordpress.com/2010/03/11/connect-hp-50g-to-a-linux-box-with-hptalx/
+
+and see if that help. it seem to be written for archlinux (anoth 
+linux distribut) but it point some interest thing that you can 
+check.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.08.22.47.21@csmine.org
+
+

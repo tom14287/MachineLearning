@@ -1,0 +1,19 @@
+re: don't be too quick to assum that -xx:+usecompressedoop is a
+ good thingcan you post some detail? i haven't done ani seriou benchmark, but i haven't seen a scenario where someth 'seem' significantli slower, and in all case i've tri (gui applic and j2ee applic) the memori footprint wa significantli smaller). i imagin a codebas that would not benefit much from compress oop would be on reli primarili on manipul primit data type, but in that scenario i don't see how perform would be impact. i'd love to see your data, and if anyon ha some insight on the potenti perform tradeoff with compress oop, pleas share!
+
+-- 
+erik
+
+
+on apr 26, 2010, at 9:30 pm, benson marguli wrote:
+
+> a quick benchmark of some cpu-intens code of our show a quit mark slowdown with that option turn on.
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

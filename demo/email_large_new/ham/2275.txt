@@ -1,0 +1,36 @@
+a deadlock problemhi xf develop,
+when studi xf code(2.4.19), i found that the inod will be lock by 
+xf_ilock_share flag befor we get acl, which mai caus deadlock.
+becaus when get acl, it will alloc memori in km_sleep, if the 
+memori is tight, the process will call xf_strategi, and mai 
+lock(xf_ilock_share)the same inod again. if between these two lock, 
+anoth process try to lock the inod by xf_ilock_excl, these two 
+process  will be deadlock. as follow,
+
+    a process get ea                         b process want lock ipa
+
+1) xf_ilock(ipa, xf_ilock_share)             .....................
+            |                                         |
+            |                                         |
+         get acl                        2) xf_ilock(ipa, xf_ilock_excl)
+            |                                         |
+            |                                         |
+        memori tight
+            |
+            |
+        xf_stragegi
+            |
+            |
+3)xf_ilock(ipa, xf_ilock_share)        ............................
+
+  these two process will be dead lock.
+
+so i believ that acl alloc gfp_maskshould be chang to km_nof.
+right?
+
+best regard
+                                                 wdd
+
+
+
+

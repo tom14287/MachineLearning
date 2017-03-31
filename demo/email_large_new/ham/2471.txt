@@ -1,0 +1,84 @@
+re: suggest/question for the approx apt(itutd) proxi daemonon 20100505_184737, rick thoma wrote:
+> hi eric,
+> 
+> i just start us approx.  i'm realli impress.  it's a great
+> piec of work.  thank!
+> 
+> here's a question:  is it permiss/possibl to have two (or more)
+> differ mirror list as server for the same set of archiv?
+> 
+> for exampl, my approx server's approx.conf file ha
+> 	secur http://secur.debian.org/
+> 	volatil http://volatil.debian.org/debian-volatil/
+> 	debian http://ftp.us.debian.org/debian/
+> 
+> but the univers ha a fast internet2 link so i'd like to us that
+> to connect when i can.  e.g. i'd like to add
+> 	debian http://debian.cs.binghamton.edu/debian/
+> 	debian http://debian.lc.mit.edu/debian/
+
+look at man approx.conf for more detail on what i sai here.
+each of you exampl line is interpret by approx as a name/valu
+pair. thu each line start with debian bind a differ valu
+to the name debian. onli on can appli. thei cannot all appli at onc.
+
+if, instead, you chang them to
+
+ 	debian http://ftp.us.debian.org/debian/
+ 	debia2 http://debian.cs.binghamton.edu/debian/
+ 	debia3 http://debian.lc.mit.edu/debian/
+
+put into your sourc.list three line where you now have onli on
+point to debian in you approx proxi server, the other two point to
+debia2 and debia3, also in you proxi server. you probabl will get
+someth close to what you want. apt-get or aptitud will work it
+wai down sourc.list until it find a work server and updat the
+correspond section of the proxi cach.
+
+but thi would make approx creat three separ proxi cach, on for
+each extern repositori. i think that thi is not realli what you want.
+
+i suggest that you look at 
+/var/cach/approx/
+you will find on on subdirectori there for each definit
+line in your /etc/approx.conf file. you might get what you
+want by replac directori debia2 and debia3 by symlink
+that point to debian.
+
+post a repli sai whether thi work. i don't have a situat where
+i can test thi exactli, and i'd like to know.
+
+hth
+
+> 
+> befor the on for ftp.us.d.o and have those be us by prefer
+> unless our link to i2 is down, in which case have it switch over to
+> the more gener ftp.us .
+> 
+> is thi possibl now?  could it be ad as a featur in a futur
+> releas?
+> 
+> 
+> thank!
+> 
+> rick
+> 
+> 
+> -- 
+> to unsubscrib, email to debian-user-request@list.debian.orgwith a
+> subject of "unsubscrib". troubl? contact
+> listmast@list.debian.org
+> archiv: http://list.debian.org/f6adaba9-636b-4d51-878c-a8dd8ec73c17@cs.rutger.edu
+> 
+
+-- 
+paul e condon           
+pecondon@mesanetwork.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100507012736.gd15335@big.lan.gnu
+
+

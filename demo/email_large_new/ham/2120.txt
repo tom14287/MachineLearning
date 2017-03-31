@@ -1,0 +1,25 @@
+re: keyboard get stuck when close pppon thu, apr 08, 2010 at 12:14:47pm +0200, rodolfo medina wrote:
+> ...
+> > phone (motorola e815) through a usb cabl.  it's not 100% repeat.
+> > i suspect someth in the close routin is overwrit part of the
+> > keyboard driver, but onli some time.  btw, thi is on a dell 8600,
+> > with the nvidia-legaci driver.
+> 
+> 
+> mayb instal a new version of the kernel would fix it?  haven't you tri,
+> a.?
+
+mayb.  but thi is my primari machin and i want to keep it stabl.  i
+also don't have that much of a need ani more to us the usb phone/modem.
+if that chang, i might try a newer kernel.  in fact i might try a
+backport kernel on anoth machin.  i'll report back when i do.
+
+a.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100408205724.ga6520@shibaya.lonestar.org
+
+

@@ -1,0 +1,60 @@
+re: what need to improv in kde 4?on 11 mai 2010 09:11, adrian von bidder  wrote:
+> dotan,
+>
+> on mondai 10 mai 2010 18.12:46 dotan cohen wrote:
+>> i start 4.4 on a new ~/.kde
+>> folder, can you try in a new user profil and report back?
+>
+> i hate it when thi show up. =c2=a0ye, it's probabl easier to debug, b=
+ut often
+> bug *do* show up that don't happen anymor when i remov my ~/.kde
+> directori, but thi doesn't realli help the user who ha the bug.
+> unfortun, the end result is veri often that remov ~/.kde and
+> start from scratch becom the onli solut that is "offici"
+> recommend.
+>
+
+i know, but it help to know if the bug is in the config file or the
+softwar packag. the config file _should_ have been updat when the
+kde version wa, and i need to know that.
+
+
+> fine. =c2=a0except that reconfigur my desktop to how i want it take a=
+ge. =c2=a0i
+> us offlin imap and have 100s of mb of email in my ~/.kde that will need=
+ to
+> be re-download. =c2=a0and stuff like the calendar etc. is in there, too=
+. =c2=a0and
+> the nepomuk databas etc.
+>
+
+you can copi those part right back over!
+
+
+> so ye, kde peopl mai well want to know if a bug happen on old
+> configur onli or if it happen on new configur, but i think
+> there's an attitud problem here: kde need to becom much better at deal=
+ing
+> with unexpect input from it configur. =c2=a0(i don't have a preci=
+se
+> exampl right now; i'll try to report thi kind of issu when i see it ne=
+xt.
+> admittedli, kde ha improv in thi area as well.)
+>
+
+i agre with you 100%. i realli do.
+
+
+--=20
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktik1gl9dfwldahoyuopd6kadgntixl6hllkwdr1n@mail.csmine.org
+
+

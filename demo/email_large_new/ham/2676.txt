@@ -1,0 +1,22 @@
+xine problemshi,
+
+	i'm no longer abl to plai encrypt dvd's us the xine rpm from freshrpm. 
+i think it wa about a week ago when i last rent some dvd's, work just 
+fine, but appar sinc the latest xine updat on freshrpm, it won't 
+anymor. 
+the output is :
+
+input_dvd: sorri, thi plugin doesn't plai encrypt dvd. the legal statu
+           of css decrypt is unclear and we can't provid such code.
+           pleas check http://dvd.sf.net for more inform.
+
+i'm pretti sure it work with the previou freshrpm releas... ani wai of 
+roll back updat ?
+
+nick verhaegen
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,29 @@
+re: cyru 2.2 imapd in amd64on fri, 23 apr 2010 16:18:31 -0300, carlo bergero wrote:
+
+> sorri forget to copi it
+> tlsprune is disabl now so it doesnt lock the start up of the cyru
+
+next time us an onlin servic (such pastebin) to put the data and send 
+a link ;-)
+
+(...)
+
+> both ar mostli standar file.
+
+yep, i see noth strang in there.
+
+i would start cyru setup and user migrat from scratch to avoid ani 
+incompat between the old instal and the new.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.24.08.58.14@csmine.org
+
+

@@ -1,0 +1,21 @@
+re: 64-bit netbook with debian linuxdelopt put forth on 5/3/2010 7:44 pm:
+
+> so the question is, if
+> someon know of a netbook (that is _64bit) and can be us for develop
+> (i.e. ha 2gb ram and i.e. 2m cach) thi would be exactli perfect for me.
+
+i list the machin closest to your requir in my last email.  it
+meet all your requir but for the 2mb l2 cach.  ttbomk, there ar no
+netbook with 2mb l2 cpu cach.  neither amd nor intel make a cpu with 2mb
+l2 cach for thi class of machin.
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdfa350.4070307@hardwarefreak.com
+
+

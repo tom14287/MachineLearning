@@ -1,0 +1,20 @@
+re: vm softwar for person us?on 4/25/10 7:10 pm, richard lawrenc wrote:
+
+> http://losak.sourceforg.net/
+
+a lisp os!!???
+
+could be, i guess. i onc work at a place where thei claim to have 
+written an account packag in basic. i think i'd stick with virtualbox...
+
+-- 
+glenn english
+ghe@slsware.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd4edb9.3000105@slsware.com
+
+

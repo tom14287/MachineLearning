@@ -1,0 +1,39 @@
+re: replac hardwar without reinstal debian lennyon tue, mai 11, 2010 at 3:11 am, lisi  wrote:
+> on tuesdai 11 mai 2010 01:10:50 rob owen wrote:
+>>
+>> you could us uuid's instead of devic name (/dev/sdx) to get around th=
+is
+>> issu.
+>
+> there wa a thread on thi recent, and i think it wa said that even uu=
+id's
+> can chang with chang hardwar. =a0it wa suggest, if i rememb
+> correctli, that the onli safe wai =a0to prevent a name chang is to label=
+ the
+> partit when you first partit the drive and us label in fstab etc=
+..
+>
+> i am sure someon will correct me if i have got thi wrong, so if noon d=
+oe
+> so i have probabl rememb correctli.
+
+i don't rememb a thread on debian-user about uuid chang with
+chang hardwar (i could be wrong though!) but there wa a thread in
+march on ubuntu-user where a gui wa duplic disk for a rollout
+and he wa convinc that the bio of the box into which he wa
+plug in the duplic hd wa chang the uuid of the disk'
+partit becaus he wa unabl to boot from those disk unless he
+chang the fstab to us /dev/sdax devic. i point out that the
+idea that a bio could chang a filesystem's superblock didn't make
+ani sens and that it could not be a uuid problem becaus he could
+boot box with intel mobo but not box with anoth manufactur's
+mobo (i assum that he could have repli that the other mobo were
+chang the uuid and the intel on not...).
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktinx1xhrnmpalqc1md9-xadx3kergm47h8j_e7k8@mail.csmine.org
+
+

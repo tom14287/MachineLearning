@@ -1,0 +1,32 @@
+re: [razor-user] re: what's wrong with the razor server now?on wed, aug 14, 2002 at 02:47:02pm -0700, patrick wrote:
+> is there a point that you plan on releas detail inform about
+> te, so we can stop engag in idl specul?
+>
+> it's not my desir to second-guess you vipul (howev much my missiv
+> mai appear otherwis) or question the hard work you and the other
+> develop have put into the system, howev it seem that everi request
+> for such inform ha been met with silenc.
+
+there ar no plan for releas detail about te. befor the
+releas of razor2, i'd point out that razor2 backend (special
+te) will be close.
+
+cheer,
+vipul.
+
+-- 
+
+vipul ved prakash          |   "the futur is here, it's just not 
+softwar design artist     |    wide distribut."
+http://vipul.net/          |              -- william gibson
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: dice - the lead onlin job board
+for high-tech profession. search and appli for tech job todai!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user

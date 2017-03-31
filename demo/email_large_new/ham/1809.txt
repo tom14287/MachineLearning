@@ -1,0 +1,16 @@
+re: bandwidth measur by processon sun, mai 9, 2010 at 9:03 am, celejar  wrote:
+> yeah, that's pretti much what i thought. =a0well, i think that i'm go
+> to code someth like thi, unless someon els will point out that
+> it's alreadi been done.
+
+i don't know anyth like thi, but anoth approch to to thi might
+be to us ld_preload and/or ptrace to hook connect(), write() and
+read().
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/v2xf67028d41005090020kebdb09a5zfe49825b5bfd4c3f@mail.csmine.org
+
+

@@ -1,0 +1,34 @@
+re: kde 4.4.3 in unstableon wednesdai 05 mai 2010, boyd stephen smith jr. wrote:
+> in 4.3, thi is not true.  from what i hear on upstream mail
+> list, thi  won't be true in 4.5.  upstream is alreadi awar and
+> work on the issu, but it fall under "new featur" so it won't
+> be includ in the 4.4.x line.
+
+do you have a pointer to the discuss?
+
+as far as the safeti of your data is concern, none of your email ar 
+store in mysql (yet). mail storag is still in the file system, akonadi 
+is onli us for contact.
+
+that said, i'd be much happier myself without have to run yet anoth 
+databas server on my machin. right now there ar "global" instanc of 
+postgresql and mysql (person and for work); on top of that, for each 
+log-in user, akonadi run a privat mysql server as well as a 
+virtuoso server. incident, virtuoso is a sql databas in it own 
+right, persum fulli capabl of complet supplant mysql in thi 
+case.
+
+michael
+
+-- 
+michael schuerig
+mailto:michael@schuerig.de
+http://www.schuerig.de/michael/
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005060148.32290.michael@schuerig.de
+
+

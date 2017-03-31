@@ -1,0 +1,32 @@
+re: [satalk] rbl time oiut and spam assassin killedon sun, 15 sep 2002, vernon webb wrote:
+
+> i'm get these messag and i'm not sure what thei mean. can anyon clear 
+> thi up for me? thank.
+> 
+> sep 15 11:45:09 linux mailscann[6128]: rbl check ordb-rbl time out and 
+> wa kill, consecut failur 3 of 7
+> sep 15 11:45:24 linux mailscann[6128]: spamassassin time out and wa 
+> kill
+
+your run mailscann and the timeout us got to check ordb-rbl is too 
+low and your time out.  mailscann will count up to seven timeout and 
+then automat disabl these check until it restart itself (within 4 
+hour).
+
+-- 
+gerri
+
+"the lyfe so short, the craft so long to learn"  chaucer
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

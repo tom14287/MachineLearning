@@ -1,0 +1,38 @@
+can't switch to dash as default shell-----begin pgp sign messag-----
+hash: sha1
+
+with thi morn upgrad to test there wa a new
+version of dash.
+i've been us bash..and tri to switch.
+
+
+frank@squeez:~$ sudo dpkg-reconfigur dash
+dpkg-divert: mismatch on packag
+  when remov `divers of /bin/sh by dash'
+  found `divers of /bin/sh to /bin/sh.distrib by bash'
+
+is thi a bug or am i mssing someth?
+
+thank
+
+- -- 
+- -- frank --
+-----begin pgp signatur-----
+version: gnupg v1.4.10 (gnu/linux)
+
+iqecbaebagagbqjl+/r0aaojemedyltvrvhj8dqh/icfr7ycstjpxnun8j9sjdck
+fjdr3k5lsn1hbyow02jm2lhqfyv32vmckqhwlskggyf2gbkfc9cdrmhpcwn1z2gr
+8hkedft/9b7o+35y0mh6ocealaoxopii4yh5/dssmumeghgujpzu30uhcxdjgetp
+mqdjwkc1qdpw6gtkwysvupixho67vtkp/q1pz6ufdanvpj2lqysmqrkfc6rt0xkh
+6w3xcnqgahlddp2gfqcgztl1rs79zgazmtw7dpwwpdjohr4pcqbckzqtnkvhhsvz
+fnxdggaqxohsi86/cp9qxvbv4namuzpt55irsqsybggpiqa6oyr5sqcpwofkqw=
+=e9es
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100525122940.80340113.debianlist@videotron.ca
+
+

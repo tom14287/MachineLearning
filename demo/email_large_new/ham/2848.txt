@@ -1,0 +1,26 @@
+java web start offlin problemsin recent java version, there is a regress that prevent java web =
+start applic from launch if there is no internet connect, =
+even if thei have  attribut.  launch without an =
+internet connect caus the applic to "hang".  thi is a seriou =
+problem for us, sinc mani of our user move between have an internet =
+connect and not have an internet connect - we have lot of =
+unhappi custom.
+
+i believ that at least part of the problem is thi oracl bug: =
+ which =
+claim will be fix in 1.6.0_20.  (there also seem to be other bug =
+becaus launch without an internet connect still take wai too =
+long even with the develop preview of 1.6.0_20 on window7 - but at =
+least it doe launch.)
+
+ha anyon figur out a workaround for thi problem?  ani suggest?
+
+thank, nick=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

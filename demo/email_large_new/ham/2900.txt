@@ -1,0 +1,47 @@
+re: kde 4.4.3 in unstablefrom nobodi sun sep 18 20:45:33 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+on thursdai 06 mai 2010 02:13:06 diederik de haa wrote:
+> i don't get what you're try to accomplish.
+>=20
+> on 2010-05-05 boyd stephen smith jr. wrote:
+> > in 4.4, kmail depend on mysql-server in order to send mail. (kmail ->
+> > akonadi  -> mysql-server).
+>=20
+> so you don't like the depend to akonadi?
+
+no.  i believ in akonadi as a technolog and i don't have a problem with i=
+t.
+
+> or don't you like the akonadi depend to mysql-server? well, it's not
+>  the full mysqld packag anymor, but the depend is to
+>  mysql-server-core(-5.1) (see #548419).
+
+that's still yet anoth rdbm.  i alreadi have plenti instal, thank.
+
+>  postgresql is appar
+>  capabl of provid the proper featur and tobia koenig ha made
+>  akonadi work with postgresql sinc the end of last year
+>  (http://toko-kde.blogspot.com/2009/12/akonadi- and-postgresql.html). th=
+at
+>  patch wa commit to trunk at that time, but appar didn't make in=
+to
+>  sc 4.4 (?).
+> so if you want to us postgresql, your best bet would be to port/base that
+>  patch on 4.4.
+
+again, would debian accept such a patch?  upstream intend that patch for k=
+de=20
+sc 4.5, and i don't believ thei will appli it to the kde sc 4.4.x line.
+
+i know the major of the work ha alreadi been done.  i can probabl=20
+backport those patch to kde sc 4.4 befor the freez date, but i don't wa=
+nt=20
+to start the work if there's no chanc for it to get into debian.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

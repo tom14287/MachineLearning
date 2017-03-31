@@ -1,0 +1,33 @@
+re: pin + apt-get vs aptitudeon tue, mai 18, 2010 at 05:54:27pm -0500, hugo vanwoerkom  wa heard to sai:
+> sven joachim wrote:
+> >>the follow packag will be remov:
+> >>... grub-legaci{a} ...
+
+  [snip]
+
+> >>the follow new packag will be instal:
+> >>... grub-pc{a} ...
+> >>
+> >>so why doe aptitud pai no attent to my pin?
+> >
+> >becaus it decid that the grub-legaci packag is unus and can be
+> >remov despit the pin.  whether thi is the right thing is debat;
+> >i'm sure you find some bug report about that if you dig into the long
+> >list of aptitud bug.
+> >
+> 
+> that explain it well, thank
+
+  it probabl won't help, though.  if grub-legaci wa unus, it would
+sai "grub-legaci{u}".  instead it sai "grub-legaci{a}", indic that
+it wa forc off the system by a conflict packag.
+
+  daniel
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100519140621.gc12104@emurlahn.burrow.local
+
+

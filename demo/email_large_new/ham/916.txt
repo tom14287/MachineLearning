@@ -1,0 +1,13 @@
+rh 8 no dma for dvd drivehdparm -d1 /dev/hdc sai oper not permit.
+dvd playback is veri jumpi.
+doe someon have ani idea on what i can do yo get dma transfer?
+thank alvi
+
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

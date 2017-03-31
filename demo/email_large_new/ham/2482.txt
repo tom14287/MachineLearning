@@ -1,0 +1,19 @@
+kwebkitpart dependencyfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="us-ascii"
+content-transfer-encod: quot-printabl
+
+heyho!
+
+short note to the kde packag sinc kdenetwork now depend on=20
+libkwebkitpart-dev: don't hesit to nmu (even with zero delai) if it help=
+s=20
+to get kde into squeez faster.  (in ani case, and if no bug report come=20
+in, i'll just wait with the next upload until kwebkitpart is in test.)
+
+cheer
+=2d- vbi
+
+
+=2d-=20
+no wonder you're tire!  you understood so much todai.

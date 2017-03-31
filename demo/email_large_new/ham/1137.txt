@@ -1,0 +1,11 @@
+mac os x browsersurl: http://www.askbjoernhansen.com/archiv/2002/09/07.html
+date: 2002-09-07t22:25:08-08:00
+
+rael is plagu by msie instabl on mac os x. i us a recent nightli build 
+of chimera as my default browser. 0.4 ha some issu with plugin (or with 
+quicktim anywai) on 10.2, but the 0.5 build ar work great. fast too! 
+mozilla is ugli. msie is slow and unstabl. opera (on os x) doesn't render too 
+mani page. omniweb and icab ar not keep up. chimera rock. i have us 
+chimeraknight to do the updat. it also make...
+
+

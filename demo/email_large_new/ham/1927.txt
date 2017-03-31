@@ -1,0 +1,164 @@
+re: [razor-user] re: question on miscellan errata and issu
+----- origin messag -----
+> date: mon, 12 aug 2002 18:23:34 -0700
+> from: chad norwood 
+> to: sven 
+> cc: razor-user@exampl.sourceforg.net
+> subject: [razor-user] re: question on miscellan errata and issu
+>
+> on 09/08/02 20:49 -0400, sven wrote:
+> ) in tweak my system to try to optim the us of razor (thi now from
+a network/connect/etc standpoint, not so much from a philosph stanc
+on what is or is not consid spam and who should decid it) i have come
+across a coupl issu that i hope i mai be abl to get some relief on ...
+> )
+> ) 1) what *exactli* doe "unabl to connect to honor.cloudmark.com:2703;
+reason: oper now in progress." mean ??? i have seen thi error messag
+some 1700 time todai (between 2 cluster server) repres a littl
+over 1% failur rate. in an enterpris level i wa hope for more along the
+line of mayb on-tenth that .....
+>
+>   it's a network error - that string is not creat by
+>   razor agent.  it try to connect and have troubl.
+>   1700 time seem abnorm high.  how mani success
+>   connect were there in the same timespan?
+>
+
+todai wa not as bad ... apt.cloudmark wa the server du jour and
+experienc about 800 "unabl to connect .... reason: oper now in
+progress" out of some 189,000 "bootup[1]"  or roughli 0.5% -- better than
+the 1% befor but still a bit higher than i would like. i suspect it is
+becaus a previou timeout from razor-agent ha a process id that is be
+held by an open milter socket. the process id's cycl, the number come up
+again and the error occur as a duplic pid occur. i will tweak my milter
+set to shorten the total time to allow the socket to live per connect.
+
+>
+> ) 2) relat somewhat to question 1: is there (or will there be if
+current not) a wai of adjust the timeout the set for the
+razor-check to await a respons from the server it queri? i am run
+thi as a sendmail milter and adjust the milter timeout won't help if
+the razor-check script time out first anywai ....
+>
+>   the timeout is hardcod to 15 sec.
+>   no plan right now to make that an option.
+>   you can alwai edit the sourc - core.pm.  :)
+
+in look at core.pm i find a coupl possibl place where that code might
+be. is it:
+    my $select = new io::select ($sock);
+    my @handl = $select->can_read (15);
+    if ($handl[0]) {
+        $self->log (8,"connect establish");
+        my $greet = <$sock>;
+        # $sock->autoflush; # thi is on by default as of io::socket 1.18
+        $self->{sock} = $sock;
+        $self->{connect_to} = $server;
+        $self->{select} = $select;
+        $self->log(4,"$server >> ". length($greet) ." server greet:
+$greet");
+
+        return 1 if $param{discoveri_server};
+        unless ($self->pars_greet($greet) ) {
+            $self->nextserv or return $self->errprefix("connect2");
+            return $self->connect;
+        }
+        return 1;
+    } els {
+        $self->log (3, "time out (15 sec) while read from
+$self->{s}->{ip}.");
+??????
+or
+    unless ($sock) {
+        $sock = io::socket::inet->new(
+                            peeraddr => $server,
+                            peerport => $port,
+                            proto    => 'tcp',
+                            timeout  => 20,
+                     );
+        unless ( $sock ) {
+            $self->log (3,"unabl to connect to $server:$port; reason:
+$!.");
+            return if $param{discoveri_server};
+            $self->nextserv or return $self->errprefix("connect1");
+            return $self->connect;
+        }
+    }
+??????
+[of cours the latter reflect a differenct timeout set altogeth - on
+part for proxi, the other for non-proxi]
+
+>
+>
+> ) 3) what ar the plan for fire.cloudmark, apt.cloudmark, ubik.cloudmark?
+it seem that we have all these catalogu server yet a good portion of the
+time, onli on is avail or the last discoveri end up onli list on
+(current honor.cloudmark) in the catalog.lst file.
+>
+>   the system is design so server can be ad and
+>   subtract without the client care - if the razor
+>   client can't connect to a server, it re-discov, get
+>   all current avail server and store result local.
+>
+
+i chang the default discoveri period to everi 12 hour in order to
+compens for the recent sporad natur of the server' avail (i
+realiz that the issu wa relat to sync and server upgrad .... but i
+might as well plai it safe for a while).
+
+>
+> ) 4) what would be the implic/requir/caveat of host a
+catalogu server or, at the minimum, a cach server (similar to the wai
+mail-abus.org, for exampl, doe dn zone transfer of it rbl list -- i
+realiz that thi is a complet differ mechan, but you get the point
+i am drive at here). i realiz that there is an issu of pollut the
+catalogu but perhpa there could be some wai of certifi a catalogu
+server? what type of bandwidth consider ar we look at here? (it is
+just the signatur that ar actual transfer across the pipe, is it
+not?)
+>
+>   we ar look into releas cach catalogu server
+>   for those besid us to us.
+
+if i can be of help or if you have detail about to particip in thi
+portion (cach or catalogu), pleas let me know.
+
+>
+>
+> ) it realli look like there is a great potenti here for a veri workabl
+tool and if i can get some of these issu address or can even be of some
+assist, all the better .....
+> )
+> ) sven willenberg
+> ) system administr
+> ) delmarva onlin, inc.
+>
+>
+>   thank!
+>
+>   -chad
+>
+>
+>
+> --__--__--
+>
+> _______________________________________________
+> razor-user mail list
+> razor-user@list.sourceforg.net
+> http://list.sourceforg.net/list/listinfo/razor-user
+>
+>
+> end of razor-user digest
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: dice - the lead onlin job board
+for high-tech profession. search and appli for tech job todai!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

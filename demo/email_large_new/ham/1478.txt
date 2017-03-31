@@ -1,0 +1,41 @@
+re: non-ascii environmenton fri, apr 9, 2010 at 09:14, jerom benoit  wrote:
+> hello list,
+>
+> i am write some c code which involv ascii charact:
+> in c relat book, we can find a lot of comment about
+> ascii charact issu, as far as we ar concern with portabl.
+>
+> nevertheless, someth bother me: where non-ascii environ can be found
+> ?
+>
+> furthermor, can such an environ be creat on a debian box ?
+> the aim is to check the portabl of my code.
+
+well, unicod, specif the utf-8 encod, is gener the standard for
+modern linux system. of cours, as long as you ar us onli charact
+that ar in ascii, utf-8 is compat... there is also gb 18030, china's
+unicod encod, but again, it is ascii compat.
+
+the win32, .net and java platform all us utf-16/usc-2 (it's complic)
+nativ, which is not ascii and is not ascii compat.
+
+joel's unicod articl is from 2003, but still veri us:
+http://www.joelonsoftwar.com/articl/unicod.html
+
+some good essai from tim brai:
+http://www.tbrai.org/ongo/when/200x/2003/04/06/unicod
+http://www.tbrai.org/ongo/when/200x/2003/04/13/string
+http://www.tbrai.org/ongo/when/200x/2003/04/26/utf
+http://www.tbrai.org/ongo/when/200x/2003/04/30/javastr
+
+
+cheer,
+kelli clower
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/n2r1840f6971004091329hd85a6b26vf1b296d5f189bb6f@mail.csmine.org
+
+

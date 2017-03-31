@@ -1,0 +1,21 @@
+re: xorg and cpu usageconcern xorg, look through the log file /var/log/xorg.0.log, e.g.,
+the command
+
+$ grep -i dynam
+
+should tell you if power save ("dynam clock scale") is enabl or not.
+
+gener, the problem of energi consumpt can be tackl with the program
+powertop best call as root. mayb, it can tell you the culprit for the
+observ cpu usag.
+
+regard,
+jörg-volker.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hplc2d$2nh$1@dough.gmane.org
+
+

@@ -1,0 +1,30 @@
+re: retriev hardwar and modul info..from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on mon,05.apr.10, 07:36:03, lubo rendek wrote:
+> thank gui for thi.. now what is the best wai to link modul to a
+> specif hardwar. for exampl my lsmod show that i us 'ecb' modul.
+> for someon like me thi name doe not sai much. is there a wai to
+> find which modul belong to which piec of hardwar?
+
+$ /sbin/modinfo ecb
+filenam:       /lib/modul/2.6.32-4-amd64/kernel/crypto/ecb.ko
+descript:    ecb block cipher algorithm
+licens:        gpl
+depend:       =20
+vermag:       2.6.32-4-amd64 smp mod_unload modvers=20
+
+(i us the full path becaus modinfo is in /sbin, which is usual not=20
+in the user's $path).
+
+but if you ar curiou onli about the hardwar relat modul lspci=20
+will tell what modul ar us by the respect hardwar. you will=20
+need to run it as root with the -vvv paramet.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

@@ -1,0 +1,34 @@
+re: [ilug] remov liloon wed, jul 31, 2002 at 02:40:26pm +0100 or so it is rumour hereabout, 
+liam bedford thought:
+> on wed, 31 jul 2002 14:30:01 +0100
+> jac1 claim to think:
+> 
+> > hi,
+> > i recent had to wipe linux from my pc but forgot to restor the origin
+> > mbr (nt). anyon know how i can do thi? linux is entir gone and no boot
+> > floppi. format the entir disk doesn't do it either.
+> > 
+> boot from do and fdisk /mbr?
+> boot from an nt cd, choos repair, and make it check the mbr
+                             ^^^^^^
+
+nice how nt "repair"s a hard disk by remov other oss.  could we call it
+that on linux instal disk too?
+
+conor 
+-- 
+conor dali 
+
+domest sysadmin :-)
+---------------------
+faenor.cod.ie
+  5:37pm  up 69 dai,  2:54,  0 user,  load averag: 0.08, 0.02, 0.01
+hobbiton.cod.ie
+  5:22pm  up 12 dai, 0 min,  1 user,  load averag: 0.03, 0.03, 0.00
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

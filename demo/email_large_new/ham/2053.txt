@@ -1,0 +1,30 @@
+re: server certif ha expiredon ter, 18 mai 2010, merciadri luca wrote:
+> hi,
+>
+> i am get some thunderbird messag for an imap account of mine. thi
+> messag tell me that the server's certif associ to the imap
+> account ha expir sinc ... 2007. i know, it's alreadi far from here,
+> but i cannot chang the server's certif. how can i get rid of thi
+> messag? it annoi me, as there is no box that i could check so that it
+> doe not appear anymor.
+>
+> i have contact the ml relat to the server, but i do not even tell
+> you who own the server!
+
+is taht thunderbird 2 or 3? in 2 i could not find a wai to perman  
+accept problemat certif, but thi ha chang in version 3.
+
+
+-- 
+thi is not an offer to sell secur.
+
+eduardo m kalinowski
+eduardo@kalinowski.com.br
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100518162427.63483dlb1x0xkodk@mail.kalinowski.com.br
+
+

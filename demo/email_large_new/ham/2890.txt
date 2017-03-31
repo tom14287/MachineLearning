@@ -1,0 +1,29 @@
+re: [ilug] rh7.3 on cobalt - the saga continueson tue, aug 13, 2002 at 06:54:28am +0100, ander holm mention:
+> let me guess, you haven't tri the boot paramet root=/dev/hda2 if you
+> ar us lilo??
+
+ ah, you see - cobalt's don't us lilo. thei have an openboot-like prom
+that look in an ext2 partit in /dev/hda1 for a file call
+/boot/vmlinux.gz - noth els.
+
+ the onli wai i think you can set paramet is with a "set_param" line.
+
+ howev, when i run 
+    set_param root=/dev/hda2
+ and then run:
+    bfd /boot/vmlinux.gz
+
+ it boot the old kernel, i assum from the prom. it seem to do thi, if
+someth goe wrong - no error, just boot the default kernel.
+
+ btw, 'bfd' mean 'boot from disk'.
+
+kate
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

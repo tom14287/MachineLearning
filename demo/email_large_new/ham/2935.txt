@@ -1,0 +1,11 @@
+fail mail: ban or potenti offens materialfrom nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset="us-ascii"
+content-transfer-encod: 7bit
+content-disposit: inlin
+
+your messag wa not deliv to
+ 
+    daz@jpci.net
+ 
+thi mail messag contain ban or potenti offens text.
+

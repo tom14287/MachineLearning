@@ -1,0 +1,9 @@
+mous event on an unfocus window on mac?i have an applic that is design to do someth when the user 
+paus over it with the mous, especi when the java applic is 
+unfocus.  from what i can tell, on mac os x, unfocus java window 
+don't get mous event.  other applic in cocoa seem to get thi, 
+so i'm curiou: is thi a bug?  or wa java for mac os x defin thi 
+wai?  is there a wai to get these event?
+
+-- 
+brandon moon

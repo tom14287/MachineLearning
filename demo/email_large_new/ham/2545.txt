@@ -1,0 +1,19 @@
+eol of kde sc 4.4.2 in qt-kde.debian.netfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="us-ascii"
+content-transfer-encod: quot-printabl
+
+hello,
+
+kde sc 4.4.2 packag in qt-kde.debian.net have been supersed by packag=
+=20
+upload to offici debian experiment archiv and therefor thei were=20
+remov from the semi-offici repositori. as it wa written on the=20
+introductori page of qt-kde.debian.net, the repositori itself will remain t=
+o=20
+exist and might get some random extrem bleed edg updat from time t=
+o=20
+time. feel free to keep it in your /etc/apt/sourc.list.
+
+=2d-=20
+modesta vainiu 

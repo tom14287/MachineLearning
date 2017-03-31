@@ -1,0 +1,111 @@
+[spam]  answer on quiz
+
+
+
+
+            .parent{
+                        text-align: left;
+                        width: 100%;
+                        cursor: pointer;
+                }
+
+                div.parent a{
+                color:#000000;
+                }
+                div.parent a:link{
+                        text-decor:none;
+                }
+                div.parent a:visit{
+                        text-decor:none;
+                }
+                div.parent a:hover{
+                        text-decor:underlin;
+                }
+                div.parent a:activ{
+                        text-decor:underlin;
+                }
+                .deal{
+                        text-align: left;
+                        font-famili: arial, helvetica, san-serif;
+                        font-size: 10px;
+                        font-weight: normal;
+                }
+
+                .provid{
+                        font-weight: bold;
+                }
+
+      
+newslett
+
+
+
+
+
+
+to view
+  the latest headlin on your mobil devic, click
+  here.
+  if you have troubl read thi e-mail newslett click=
+ here.
+to make chang to your e-mail subscript, click here
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+to forward thi e-mail to a friend, pleas 
+	click here.
+
+    you ar current subscrib to thi newslett with the address:
+	hibodi@csmine.org.
+  
+        to unsubscrib, pleas 
+	click here.
+ =
+to find out
+	more inform on our e-mail newslett, 
+	click here to visit our faq. 
+    if you have ani question, comment or suggest for thi newslett=
+r,
+	pleas contact us by thi link
+
+        for newspap home deliveri, pleas 
+	click here
+
+    free servic dedic to provid the best new on the web. 
+    to review your privaci pleas
+	
+	click here
+
+
+    =a9 2009 xeratqri lqjwjmu
+
+
+
+
+

@@ -1,0 +1,38 @@
+re: differ between nsworkspac unmountandejectdeviceaturl and
+	unmountandejectdeviceatpathth system call work.
+
+as doe the call to fsejectvolumesync(), which surpris me, sinc i =
+thought that if the nsworkspac call fail then i must be miss some =
+step.
+
+
+thank,
+jim
+
+on mai 3, 2010, at 7:13 am, jame bucanek wrote:
+
+> jim o'connor  wrote (sundai, mai 2, =
+2010 11:27 pm -0800):
+>=20
+>> my altern is to call system with hdiutil detach, which is ugli.
+>=20
+> i would have thought that the altern would be to get the volum's =
+fsvolumerefnum and simpli call fsejectvolumesync(), which is ultim =
+what (i believ) nsworkspac doe.
+>=20
+> thi would requir about eight line of code, and realli isn't that =
+ugli.
+>=20
+> --=20
+> jame bucanek
+>=20
+>=20
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+filesystem-dev mail list      (filesystem-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/filesystem-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

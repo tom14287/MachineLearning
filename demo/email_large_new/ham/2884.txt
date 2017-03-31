@@ -1,0 +1,58 @@
+[us perl] stori for 2002-10-03us perl daili newslett
+
+in thi issu:
+    * mail list judo movi avail
+    * confer present judo movi avail
+
++--------------------------------------------------------------------+
+| mail list judo movi avail                                  |
+|   post by gnat on wednesdai octob 02, @12:47 (new)            |
+|   http://us.perl.org/articl.pl?sid=02/10/02/1647249              |
++--------------------------------------------------------------------+
+
+[0]gnat write "mark-jason dominu's [1]mail list judo is now
+avail from perl.org. thank to david wheeler for record mark's
+session. confer present judo will come later todai ..."
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/10/02/1647249
+
+link:
+    0. mailto:gnat@oreilli.com
+    1. http://www.perl.org/tpc/2002/movi/
+
+
++--------------------------------------------------------------------+
+| confer present judo movi avail                       |
+|   post by gnat on wednesdai octob 02, @18:56 (new)            |
+|   http://us.perl.org/articl.pl?sid=02/10/02/2257211              |
++--------------------------------------------------------------------+
+
+[0]gnat write "mark-jason dominu's [1]confer present judo
+present is onlin at perl.org. thank again to david wheeler for
+record thi at oscon."
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/10/02/2257211
+
+link:
+    0. mailto:gnat@oreilli.com
+    1. http://www.perl.org/tpc/2002/movi/mjd-conf-judo/
+
+
+
+copyright 1997-2002 pudg.  all right reserv.
+
+
+======================================================================
+
+you have receiv thi messag becaus you subscrib to it
+on us perl.  to stop receiv thi and other
+messag from us perl, or to add more messag
+or chang your prefer, pleas go to your user page.
+
+	http://us.perl.org/my/messag/
+
+you can log in and chang your prefer from there.
+
+

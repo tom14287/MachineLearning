@@ -1,0 +1,25 @@
+re: aptitud erroron fri, apr 30, 2010 at 12:54:57pm -0500, "boyd stephen smith jr."  wa heard to sai:
+> my instinct is that '-t $someth' effect increas the prioriti of all 
+> packag from the $someth repositori, which mai make the depend 
+> resolv pull more from that repositori than is absolut necessari.
+
+  if you pass "-t archiv", that mean that version from archiv ar
+treat as the default packag version.  it also increas the pin
+prioriti to 990.  aptitud's resolv tri particularli hard to instal
+the default packag version, and it will tie-break us the prioriti
+(you can configur both those behavior extens, but those ar the
+default).  the stori is more extrem with the apt resolv: it won't
+even consid anyth but the default version of a packag.
+
+  see also apt_prefer(5), section "apt's default prioriti
+assign"; "-t" is the same as set default-releas.
+
+  daniel
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100501035819.gd26444@emurlahn.burrow.local
+
+

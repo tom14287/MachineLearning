@@ -1,0 +1,30 @@
+re: fwd: re: kde 3.5 ...on mon, mai 10, 2010 at 10:40:51pm -0700, evenso wrote:
+> on tue, mai 11, 2010 at 02:43:32am +0200, delopt wrote:
+> 
+>  . . .
+> 
+> > 
+> > when is squeez becom stabl??
+> > 
+> 
+> accord to officialdom, approxim when the number of r-c bug hit 300. that is the green line
+> here: http://bug.debian.org/releas-critic/ . process trump schedul.
+> 
+
+ok, start look around and found a better answer. :-)
+
+http://list.debian.org/debian-devel-announc/2010/05/msg00000.html
+
+-- 
+kind regard,
+freeman
+
+http://bug.debian.org/releas-critic/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100511055911.ga17757@europa.offic
+
+

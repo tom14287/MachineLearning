@@ -1,0 +1,82 @@
+re: kde 3.5 ...from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+am dienstag 11 mai 2010 schrieb mike bird:
+> on mon mai 10 2010 15:20:52 martin steigerwald wrote:
+> > thi list is not for develop issu like develop / maintain
+> > kde 3.5 packag for squeez.
+> >=20
+> > so imho ani further request for kde 3.5 in squeez is off topic on
+> > thi list as debian kde/qt maintain repeatedli said thei won't.
+>=20
+> pleas don't lie.  thi list is for "discuss relat to kde in
+> debian. those develop kde-base packag ar encourag to us thi
+> to discuss issu and share their experi."
+> http://list.debian.org/debian-kde/
+
+=46irst it imho.
+
+second it from what i understood about the differ purpos of debian-
+kde and qt-kde-ml mail list.
+
+and debian-kde is clearli sort as user mail list:
+
+debian in kde
+http://list.debian.org/user.html
+
+debian-qt-kde: packag us qt and/or kde
+http://list.debian.org/devel.html
+
+so i think my view is not that far off.
+
+so or so: your post did not seem to me to bring anyon even the slightest=
+=20
+bit forward toward have kde 3.5.
+
+so i finish with a suggest, how thi can work:
+
+=2d--------------------------------------------------------------------
+hi develop and user of debian in kde,
+
+i set up an alioth project repositori of kde 3.5 packag that i forward-
+port to squeez at:
+
+http://some-alioth-url
+
+right now i start just with the forward port of the basic kde packag.
+
+i like to continu that work and to make the packag co-instal with=20
+kde 4.=20
+
+i appreci ani help hand. if you ar a user and want to us kde 3 i=20
+encourag you to try mai packag. pleas note thei ar not co-instal=20
+with kde 4 in the moment. if you ar a develop pleas help me with=20
+build and polish packag.
+
+if you want to help out, subscrib to mailinglist xyz.
+
+regard,
+mike
+=2d--------------------------------------------------------------------
+
+now, how about that, mike? how about be the chang you want to achiev?
+
+thank.
+
+note: kde 3.5 doesn't realli need to be co-instal for those onli=20
+interest in kde 3.5. at least not initi.
+
+just a small start might pull thi off for you. but if you do not *act*,=20
+probabl noth will happen. you can't chang those who ar not=20
+interest in provid kde 3.5 for debian squeez. so either you start=20
+pull it off for yourself or it - unless someon els feel the=20
+motiv to do it - *will just not happen*.
+
+it as easi as that.
+
+ciao,
+=2d-=20
+martin 'helio' steigerwald - http://www.lichtvol.de
+gpg: 03b0 0d6c 0040 0710 4afa  b82f 991b eaac a599 84c7

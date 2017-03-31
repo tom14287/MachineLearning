@@ -1,0 +1,57 @@
+re: repli to the list-----begin pgp sign messag-----
+hash: sha1
+
+camalón  write:
+
+> on mon, 26 apr 2010 09:11:57 +0200, merciadri luca wrote:
+>
+>> camalón write:
+>
+>>> i us gmane (e-mail to new gatewai) to send post and read the list
+>>> via pan newsread.
+>>>
+>>>>from time to time gmane have had some "glitch" (messag can be
+>>>>delai
+>>> or in the worst case, thei ar lost) but if the post reach the list
+>>> archiv, you (everyon subscrib) also should get it:
+>>>
+>>> http://list.debian.org/debian-user/
+>
+>> but the matter is that i can see _all_ your answer everywher, but by
+>> e-mail, where some answer (onli from you) ar complet unreceiv.
+>
+> on thing you could do is contact the mail list admin and ask for a 
+> concret "messag-id:" (of on of the e-mail you didn't receiv) to 
+> check if it wa correctli sent out to all the list member.
+befor do thi, you could try to send me an e-mail to my e-mail
+adress (at ulg). it is quit possibl that my univers block your
+e-mail for a reason which is still unknown to me.
+
+> true is that i'm not sure how to manag thi. i'm reluct to think your 
+> e-mail provid is drop *just* my e-mai... that make no sens
+> :-/
+you mai try to send me a test e-mail, for exampl your answer to a
+messag. we will discuss after. but that's weird.
+
+- -- 
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+- -- 
+
+procrastin is the thief of time.
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: process by mailcrypt 3.5.8 
+
+ieyearecaayfakvvfxiacgkqm0llzlt8mhxzeqcdhbqnwyruomua349pbj0a08m
+ku4an0wgkslqserwbwjmii2rzlyyyyrp
+=1fyu
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87r5m2a0od.fsf@merciadriluca-station.merciadriluca
+
+

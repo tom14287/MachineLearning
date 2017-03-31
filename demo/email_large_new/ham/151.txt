@@ -1,0 +1,92 @@
+[satalk] person/site-wide sa glitch (spamassassin+exim)hello peopl,
+
+i am new to sa but (2) problem i do have.
+
+i run sa from my own home for person us and it seem to work but i see thi
+in my procmail log:
+
+
+
+procmail: execut " ~/bin/spamassassin/spamassassin -p -c ~/bin/spamassassin/rule"
+dccproc: not found
+dccproc: not found
+
+
+can someon enlighten me on why i get that? freebsd 4.6-stabl, sa-2.3.0
+
+
+
+secondli, i've test (now on three box) sa for site-wide usag but i believ i am
+miss someth major becaus i've also had my set check/verifi.
+
+the problem is that the site-wide setup doe not seem to work. why?
+
+1. i have my local.cf in /etc/mail/spamassassin
+2. i have spamd run, and mail deliveri log show that all e-mail ar
+   be pass thro sa.
+
+my local.cf contain:
+
+enabl=1
+option="-f 0"
+
+#
+rewrit_subject         0
+report_header           1  
+defang_mime             0
+requir_hit           7.0
+report_header           1
+us_ters_report        1
+subject_tag             **spam**
+
+
+
+wash ('tty') ~ 337 -> exim -bt engingwarez@runjiri.co.ke
+eng.ngware@runji.co.ke
+  deliv to enginngwar in domain runjiri.co.ke
+  director = spamcheck_director, transport = spamcheck
+
+
+howev when i check the mail deliv to thi mailbox, sa ha _not_ ad ani header
+to it.
+
+pertin: i also run a viru scanner call drweb via exim's system filter and the rule
+that i have appli ar:
+
+if not first_deliveri or
+    $receiv_protocol is "drweb-scan" or
+    $receiv_protocol is "spam-scan"
+then
+  finish
+endif
+
+
+some enlighten would bail me out, i believ.
+
+thank
+
+
+
+-wash
+
+-- 
+odhiambo washington      "the box said 'requir
+wananchi onlin ltd.  www.wananchi.com      window 95, nt, or better,'
+tel: 254 2 313985-9   fax: 254 2 313922     so i instal freebsd."   
+gsm: 254 72 743 223   gsm: 254 733 744 121  thi sig is mcq!  :-)
+
+
+"we demand rigidli defin area of doubt and uncertainti!"
+		-- vroomfondel
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

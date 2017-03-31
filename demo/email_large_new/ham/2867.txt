@@ -1,0 +1,46 @@
+re: umont ownership?on tue, 06 apr 2010 13:07:46 -0400, stephen powel wrote:
+
+> on tue, 6 apr 2010 12:35:08 -0400 (edt), camalón wrote:
+
+>> my "fstab":
+>> 
+
+(...)
+
+> well, i see three entri with the "user" option, but none of them
+> appear to be relat to mount point for usb devic.  it would appear
+> that some sort of system daemon with root privileg is issu the
+> actual "mount" and "umount" command.  the hot-plug event caus the
+> mount; so the system doesn't associ that with ani particular user.
+> (how doe it know who plug the devic in?  it doesn't!)  but the
+> umount is request by a specif user through a desktop icon.
+
+note the devic "mount" option, automat ad by hal:
+
+***
+/dev/sdc1 on /media/disk type vfat (rw,nosuid,nodev,uhelp=hal,shortnam=lower,uid=1000)
+***
+
+nosuid, nodev, uhelp=hal, uid=1000
+
+mayb the perm of the op's devic ar wrong :-?
+
+> perhap the system daemon that i speak of is d-bu, and it decid
+> whether or not to allow the umount depend on what group(s) the user
+> belong to.  and hi miss /etc/group file is probabl the kei.
+
+we still don't know if "umount" work when log with anoth user in a 
+gnome session :-?
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.06.17.51.30@csmine.org
+
+

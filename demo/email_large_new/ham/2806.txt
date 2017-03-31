@@ -1,0 +1,41 @@
+re: [ilug] mail sent to ilugthank lad,
+
+i didn't mean to criticis/give offenc or anyth (someon mail me off
+list who seem to think i did) but i wa just wonder "if anyth could
+be done" about those messag.
+mayb it wa a stupid question, see as i know virtual noth about
+mailman, listserv, or server side spam filter, but thank for answer
+intellig!
+
+ciaran
+
+waider elucid:
+
+> martin feenei wrote:
+> | on tue, 20 aug 2002 10:14:59 ciaran mac lochlainn wrote:
+> |
+> |> is it realli necessari to send these to the list?
+> |
+> |
+> | what's happen is that the scumbag spammer ar forg the from
+> | address to be ilug@linux.ie as well, so the notif to them that
+> | their email is be review get sent back to the from address:
+> | ilug@linux.ie
+> |
+> | martin.
+> |
+>
+> not to belabour the point, but noon can legitim send mail to ilug
+> from ilug@linux.ie, so mailman should be catch thi and stop it.
+> not send confirm or whatev, just drop the mail on the floor.
+>
+> cheer,
+> waider.
+
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

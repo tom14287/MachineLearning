@@ -1,0 +1,42 @@
+messag #177
+
+
+
+  a { color: #0084b4}
+  a:hover { color: #215e88}
+  h1, h2 { margin: 0 0 16px 0; color: #000;}
+  h2 { font: 20px georgia, serif; }
+  h3 { margin: 14px 0 4px 0;  color: #000; font: normal 18px georgia, serif; line-height: 22px; }
+  p, ul { margin: 4px 0 15px 0; }
+  p { font:13px "lucida grand", lucida grand, helvetica, arial, san-serif; line-height: 18px; }
+  .user:after { content: "."; displai: block; height: 0; clear: both; visibl: hidden;   }
+  .user { {displai: inlin-block;}
+  
+
+
+
+
+
+
+
+
+
+
+hello, twitter-er!
+
+you have 2 (or more) incom messag(s) from twitter system
+http://twitter.com/account/messag/c4acf-1b039
+
+
+the twitter team
+
+
+  
+  pleas do not repli to thi messag; it wa sent from an unmonitor email address.  thi messag is a servic email relat to your us of twitter.  for gener inquiri or to request support with your twitter account, pleas visit us at twitter support.
+
+
+
+
+
+
+

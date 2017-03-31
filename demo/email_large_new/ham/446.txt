@@ -1,0 +1,29 @@
+apt.conf suggestionhi,
+
+how about appli thi to the default apt.conf ship with the
+freshrpm.net apt packag?  i found it a bit weird when the behaviour
+chang between the old 0.3.x and the new 0.5.x version so that when
+do a "apt-get upgrad", it wouldn't tell me *which* packag were to
+be upgrad, just that it wa about to upgrad someth...
+
+--- apt.conf	2002-09-27 14:58:28.000000000 +0300
++++ apt.conf	2002-10-03 21:38:05.000000000 +0300
+@@ -4,6 +4,7 @@
+   get 
+   {
+      download-onli "fals";
++     show-upgrad "true";
+   };
+   
+ };
+
+-- 
+\/ill skyttä
+vill.skytta at iki.fi
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

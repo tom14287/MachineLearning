@@ -1,0 +1,23 @@
+re: kde 3.5 ...on 2010-05-06, alejandro exojo  wrote:
+> el juev, 6 de mayo de 2010, curt howland escribió:
+>> thank you, i appreci that. realli, i do. unfortun, my problem
+>> with kde4 ar not bug, thei're systemat. i like have my
+>> remov devic show up as desktop icon, for instanc, and that
+>> featur is just plain gone.
+>
+> i miss the media:/ kioslav. doe somebodi know if it wa gone becaus nobodi 
+> port it, or by design?
+
+by design. it onli almost work good.
+codewis it is replac by the kfileplacesmodel, i'm sure on could
+write a plasma widget around it quit easi if on want.
+
+/sune
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/slrnhu5nlt.rvp.nospam@sshwai.ssh.pusl.com
+
+

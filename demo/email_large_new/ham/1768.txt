@@ -1,0 +1,41 @@
+re: "give root password for maintenc" dure everi boot of systemfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+it might be a secur polici, for him, that chang without realiz
+it. but, for you, i don't know. i would be interest in know why
+such thing happen.
+
+anthoni campbel wrote:
+> on 23 mai 2010, merciadri luca wrote:
+>  =20
+>> hi mitchel,
+>>
+>> you might add
+>>
+>> =3d=3d
+>> |su:s:wait:/sbin/sulogin|
+>> =3d=3d
+>>
+>> in /etc/inittab.
+>>
+>>
+>>    =20
+>
+> but why wa the op get the messag in the first place? a coupl of
+> week ago i wa also get it and then it went awai as mysteri a=
+s
+> it came.
+>  =20
+
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+laugh and the world laugh with you ... cry and you will find no on
+with tear.
+

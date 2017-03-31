@@ -1,0 +1,54 @@
+re: x11 just froze, and /var/log/syslog (dmesg)'s output seem to   mean someth-----begin pgp sign messag-----
+hash: sha1
+
+camalón  write:
+
+> on tue, 18 mai 2010 20:08:02 +0200, merciadri luca wrote:
+>
+>> camalón write:
+>
+>>> just review your "/var/log/xorg.0.log". if x crash there must
+>>> someth there :-?
+>> noth realli interest there. just:
+>> 
+>> ==
+>> audit: tue mai 18 18:01:04 2010: 3716 x: client 33 reject from local
+>> host (uid 0)
+>>   auth name: mit-magic-cooki-1 id: -1
+>> ==
+>> but 18:01:24 seem to be when i ask to restart gdm.
+>
+> noth more in the rest of the "/var/log/xorg.x.log" file?
+no. weird.
+
+>
+>> note that i do not think that x crash entir. i just mean that the
+>> screen wa look like frozen, but screensav wa still move...
+>> slowli, or sometim realli slowli.
+>
+> next time it happen, go to a tty and type "top" to list the process in 
+> us. sort the tabl by cpu cycl and/or memori us. the slow could 
+> be caus by a "rampant" program consum a lot of resourc.
+okai. thank!
+- -- 
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+- -- 
+
+love is like war, easi to start, hard to end, imposs to forget.
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: process by mailcrypt 3.5.8 
+
+ieyearecaayfakvi/qwacgkqm0llzlt8mhyleacd1sb1i3o5/qv4sgekhl3pn8r
+fooan1cq6u6xvwg6vbahfgsudqi7av
+=hdak
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87fx1p7wwj.fsf@merciadriluca-station.merciadriluca
+
+

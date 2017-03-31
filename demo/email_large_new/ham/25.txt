@@ -1,0 +1,56 @@
+re: pdf is block for print, etc. ok for acroread (it behav
+ as expect), but kpdf allow me to print it, even if it is protect! why?-----begin pgp sign messag-----
+hash: sha1
+
+merciadri luca wrote:
+> johann wiedersich wrote:
+>> why would an
+>> honest soul ever allow inform to be read, but not print?
+>>   
+> to maintain honesti? an honest soul (i.e. me, here) ha to send some
+> data to some dishonest person.
+
+the problem is: either you give data to some dishonest person or you
+don't give that data to some dishonest person. tertium non datur.
+
+>> even with acroread it is possibl to print screenshot of the document.
+>> might be a pain to reconstruct a multipag document, but not imposs.
+>>   
+> i know, and we all know thi. but thi need some determin, becaus
+> it need some time. and when such problem aris, on often think (or
+> should, at least, think) `do i realli need to copi thi us that
+> pain wai, to bypass some limit which is actual impos to me
+> by an honest person?' thi is anoth aspect of secur. there ar the
+> technic mean, and all the infring which can be done. but,
+> sometim, `le jeu n'en vaut pa la chandel.'
+
+fwiw, if you'd like to reli on such a scheme for secur by obstacl,
+you'd have to us someth els than pdf. pdf's scheme is broken.
+that's all.
+
+the reason that it is broken for pdf is that the specif for pdf
+ar freeli avail, and thu altern pdf reader have been
+develop. your scheme would requir close specif and close
+softwar to work. thi list, howev, is all about free softwar.
+
+- --
+johann
+
+in question of scienc, the author of a thousand is not worth the
+humbl reason of a singl individu.
+- - galileo galilei, physicist and astronom (1564-1642)
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+
+ieuearecaayfakvn+oacgkqc1nzprl9qevm2wcfqpavstax7gnbtuminwiquilp
+cm4alrf4niahaat6neydcg0ryaxg+k=
+=xyrp
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bcd4bea.2090901@physik.blm.tu-muenchen.de
+
+

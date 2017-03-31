@@ -1,0 +1,154 @@
+[secur] [dsa 2040-1] new squidguard packag fix sever vulner-----begin pgp sign messag-----
+hash: sha1
+
+- ------------------------------------------------------------------------
+debian secur advisori dsa-2040-1                  secur@debian.org
+http://www.debian.org/secur/                       sébastien delafond
+mai 02, 2010                          http://www.debian.org/secur/faq
+- ------------------------------------------------------------------------
+
+packag        : squidguard
+vulner  : buffer overflow
+problem type   : remot
+debian-specif: no
+cve id        : cve-2009-3700, cve-2009-3826
+debian bug     : 553319
+
+it wa discov that in squidguard, a url redirector/filter/acl plugin
+for squid, sever problem in src/sglog.c and src/sgdiv.c allow remot
+user to either:
+
+  * caus a denial of servic, by request long url contain mani
+    slash; thi forc the daemon into emerg mode, where it doe
+    not process request anymor.
+
+  * bypass rule by request url whose length is close to predefin
+    buffer limit, in thi case 2048 for squidguard and 4096 or 8192 for
+    squid (depend on it version).
+
+for the stabl distribut (lenni), thi problem ha been fix in
+version 1.2.0-8.4+lenni1.
+
+for the unstabl distribut (sid), thi problem ha been fix in
+version 1.2.0-9.
+
+we recommend that you upgrad your squidguard packag.
+
+upgrad instruct
+- --------------------
+
+wget url
+        will fetch the file for you
+dpkg -i file.deb
+        will instal the referenc file.
+
+if you ar us the apt-get packag manag, us the line for
+sourc.list as given below:
+
+apt-get updat
+        will updat the intern databas
+apt-get upgrad
+        will instal correct packag
+
+you mai us an autom updat by ad the resourc from the
+footer to the proper configur.
+
+
+debian gnu/linux 5.0 alia lenni
+- --------------------------------
+
+stabl updat ar avail for alpha, amd64, arm, armel, hppa, i386, ia64, mip, mipsel, powerpc, s390 and sparc.
+
+sourc archiv:
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1.diff.gz
+    size/md5 checksum:    96388 07777686b02bc2cee2af916b5bbcb6cf
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0.orig.tar.gz
+    size/md5 checksum:  1852659 f7044a2151827a2070e4c2be82b944b0
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1.dsc
+    size/md5 checksum:     1064 72e5eea602be70def18b97ce364ee3bb
+
+alpha architectur (dec alpha)
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_alpha.deb
+    size/md5 checksum:   144380 fad02a30f87a187d7ff4d155d12544c4
+
+amd64 architectur (amd x86_64 (amd64))
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_amd64.deb
+    size/md5 checksum:   140890 b38e94f8a1b380d4ae40255896cd5332
+
+arm architectur (arm)
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_arm.deb
+    size/md5 checksum:   138620 77992d03a14fe075bf1c8e739498497d
+
+armel architectur (arm eabi)
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_armel.deb
+    size/md5 checksum:   137416 9b2568cc9566ba6b50592e21306f1d88
+
+hppa architectur (hp pa risc)
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_hppa.deb
+    size/md5 checksum:   141646 eb2dcf7aaf9336236a9c3d3275600bfb
+
+i386 architectur (intel ia32)
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_i386.deb
+    size/md5 checksum:   136670 50b26027612e70912d15cbae5123b5c8
+
+ia64 architectur (intel ia64)
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_ia64.deb
+    size/md5 checksum:   152770 3e3b4404993efb1c5167119d2edf1fa9
+
+mip architectur (mip (big endian))
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_mip.deb
+    size/md5 checksum:   142754 3baf8a5cccba3817a5a0214362ea988c
+
+mipsel architectur (mip (littl endian))
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_mipsel.deb
+    size/md5 checksum:   141380 e2ed223a4d502ae0b9145cc6b5e680ed
+
+powerpc architectur (powerpc)
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_powerpc.deb
+    size/md5 checksum:   141494 e887ab8682e8ba9abf3c0cb09b9cb8ee
+
+s390 architectur (ibm s/390)
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_s390.deb
+    size/md5 checksum:   140986 feb748e58cb638dd8a8212d7fd17ee93
+
+sparc architectur (sun sparc/ultrasparc)
+
+  http://secur.debian.org/pool/updat/main/s/squidguard/squidguard_1.2.0-8.4+lenni1_sparc.deb
+    size/md5 checksum:   138004 3ff93f8b43a07864692086ceb2af077d
+
+
+  these file will probabl be move into the stabl distribut on
+  it next updat.
+
+- ---------------------------------------------------------------------------------
+for apt-get: deb http://secur.debian.org/ stabl/updat main
+for dpkg-ftp: ftp://secur.debian.org/debian-secur dist/stabl/updat/main
+mail list: debian-secur-announc@list.debian.org
+packag info: `apt-cach show ' and http://packag.debian.org/
+-----begin pgp signatur-----
+version: gnupg v1.4.10 (gnu/linux)
+
+ieyearecaayfakvddjmacgkqxm3vhe4uylpazacgu1q15ub5drw5ixiwaowpgolg
+w9waomlgujnfxbjbgbwyjkkbogfv870f
+=gaak
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-secur-announc-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100502125652.ga3528@galadriel.inutil.org
+
+

@@ -1,0 +1,25 @@
+re: question about raid 6
+> i don't know what your requir / level of paranoia ar, but
+> raid 5 is
+> probabl better than raid 6 until you ar up to 6 or 7 drive; the
+> chanc of a
+> doubl failur in a 5 (or less) drive arrai is minuscul.
+>
+.
+i current have 3 tb of data with anoth 1tb on it wai fairli
+soon, so 4 drive will becom 5 quit soon. also, i have read that a
+common rate of drive failur is an unrecover read rate of 1
+bit in 10^14 - that is 1 bit in everi 10tb. while do a rebuild
+across 4 or 5 drive that would mean it is like to hit an
+unrecover read. with raid 5 (no redund dure rebuild due to
+fail drive) that would be game over. is thi correct?
+
+tim.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/706fc98e51cb5ceddd4e32ea1bc05cc3.squirrel@192.168.1.100
+
+

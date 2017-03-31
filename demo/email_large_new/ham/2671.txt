@@ -1,0 +1,72 @@
+re: 10.6 updat 2 crash idea on past codehi gui,
+                the problem is caus by an npe in the swing =
+access code when a jlist subclass overrid the =
+getaccessiblecontext() method and return null. you can hit thi crash =
+when us a tool that scan the intellij ui us the access =
+api. we believ we have a fix for it, but as a workaround if you avoid =
+us tool that us access with intellij, you can avoid the =
+crash.
+
+thank,
+bino georg,
+java runtim engin,
+appl inc.
+
+
+
+on mai 25, 2010, at 8:29 am, gui gascoign-piggford wrote:
+
+> is there ani updat on thi?  i us idea all dai and everi dai so thi
+> is a complet blocker to me upgrad.
+>=20
+> is there ani wai for anyon other than the bug report to see the
+> statu of a specif bug?  appl's bug parad doesn't appear to be as
+> open as sai sun's wa.
+>=20
+> gui
+>=20
+> on wed, mai 19, 2010 at 11:06 pm, phillip ashworth =
+ wrote:
+>> thank - i've file bug report id: 8002471
+>> i've discov that the crash occur when the past code includ =
+class name that ar not alreadi import in the current document, idea =
+then pop-up a window to select the class to import and crash =
+instantli and everi time.
+>> i've not got ani screen reader or access softwar run but =
+i do have launchbar and textexpand.. not sure if these count.
+>> -phill
+>>=20
+>>=20
+>> on 20/mag/2010, at 07.07, bino georg wrote:
+>>=20
+>>> hi phillip,
+>>>                    can you pleas file a bug at =
+http://bugreport.appl.com with the crash log attach to it ? i tri =
+to reproduc thi myself but could not, can you also includ the exact =
+step to reproduc. pleas mention ani screen reader or other =
+access tool you mai have run.
+>>>=20
+>>> thank,
+>>> bino georg,
+>>> java runtim engin,
+>>> appl inc.
+>>>=20
+>>> on mai 19, 2010, at 9:15 pm, phillip ashworth wrote:
+>>>=20
+>>>> sinc updat to 10.6 updat 2 intellij idea crash when i past =
+code from on class into anoth in the main editor - see except =
+below.
+>>>> jetbrain support sai thi is an appl problem, anyth i can do =
+about it or is it a bug in thi java version?
+>>>>=20
+>>>> regard
+>>>> phill
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,133 @@
+icmdecompressionsessiondecodefram() is not workinghi all,
+
+i am stuck in the quicktim api icmdecompressionsessiondecodefram()
+for a while, and i could not find ani other resourc or ani other
+sampl code. could ani bodi help me out, and ani suggest
+appreci.
+
+i want to import a movi file from local drive, get the compress
+video frame, decod them, and encapsul them into our own
+uncvideounit format.
+right now we have alreadi got the compress video frame, but when we
+ar try to decod them, we have got some problem. here is our
+sourc code, could ani bodi tell me if there is someth wrong in our
+code.
+
+
+			// initi callback structur
+			icmdecompressiontrackingcallbackrecord callrecord;
+			callrecord.decompressiontrackingcallback = writeframetobitmap;
+			callrecord.decompressiontrackingrefcon = null;
+
+
+			// add attribut for pixel buffer that come out
+			cfmutabledictionaryref pixelbufferattribut = null;
+			pixelbufferattribut = cfdictionarycreatemut( null, 0,
+&kcftypedictionarykeycallback;, &kcftypedictionaryvaluecallback; );
+
+			ostyp format = k24rgbpixelformat;
+			cfnumberref pformat = cfnumbercr( null, kcfnumbersint32type, &format; );
+			cfdictionaryaddvalu( pixelbufferattribut,
+kcvpixelbufferpixelformattypekei, pformat );
+			cfreleas( pformat );
+
+			int width = 1280;
+			cfnumberref pwidth = cfnumbercr( null, kcfnumberinttyp, &width; );
+			cfdictionaryaddvalu( pixelbufferattribut,
+kcvpixelbufferwidthkei, pwidth );
+			cfreleas( pwidth );
+
+			int height = 720;
+			cfnumberref pheight = cfnumbercr( null, kcfnumberinttyp, &height; );
+			cfdictionaryaddvalu( pixelbufferattribut,
+kcvpixelbufferheightkei, pheight );
+			cfreleas( pheight );
+
+			
+			//  set up decompress session
+			icmdecompressionsessionref decompressionsess;
+			imagedescriptionhandl descript =
+(imagedescriptionhandl)newhandleclear(sizeof(imagedescript));
+			osstatu nstatu = icmdecompressionsessioncr ( null,
+descript, null, pixelbufferattribut, &callrecord;,
+&decompressionsess;);
+			cfreleas( pixelbufferattribut );
+
+
+			// get video frame from movi file and decod each frame
+			timevalu64 starttim =
+getmediaadvancedecodetim(gettrackmedia(track));						// for start
+time of each frame
+			timevalu64 durationpersampl = 0;				// fro durat of each frame
+			int count = 0;
+			while(true)
+			{
+				bytecount size = 0;
+				uint8 *adata = new unsign char[maxdatas];
+				nerr = getmediasampl2(videomedia, adata, maxdatas, &size;,
+starttim, nil, &durationpersampl;, nil, nil, nil, 1, nil, nil);
+
+
+				osstatu nstatu = icmdecompressionsessiondecodefram(
+decompressionsess, (const uint8*)adata, size, null, null, (void
+*)&count; );
+
+
+				count++;
+				starttim += durationpersampl;
+
+				if(nerr != noerr)
+					break;
+
+				delet [] adata;
+			}
+
+
+
+here is the definit for the callback funtion:
+
+
+static void writeframetobitmap(
+			void *decompressiontrackingrefcon,
+			osstatu result,
+			icmdecompressiontrackingflag decompressiontrackingflag,
+			cvpixelbufferref pixelbuff,
+			timevalu64 displaytim,
+			timevalu64 displaydur,
+			icmvalidtimeflag validtimeflag,
+			void *reserv,
+			void *sourceframerefcon )
+{
+	// when we get decod frame, print it out to bitmap
+	if ( (result == noerr) && (decompressiontrackingflag &
+kicmdecompressiontrack_emittingfram) && pixelbuff )
+	{
+		char num[16];
+		sprintf_s(num, 16, "%d", *((int *)sourceframerefcon));
+		std::string strfilepath = std::string("bitmap0") + std::string(num);
+
+		boost::share_ptr pmyimag = stillimag::createinst();
+		size_t size = cvpixelbuffergetdatas(pixelbuff);
+		byte *mem_buffer = (byte*)malloc(size * sizeof(byte));
+		strcpy((char*)mem_buffer, (char *)cvpixelbuffergetbaseaddress(pixelbuff));
+		pmyimag->loadimag(mem_buffer, size);
+		pmyimag->saveimag(strfilepath.c_str(), bmp);
+	}
+
+
+}
+
+
+thank veri much.
+
+bo peng
+softwar engin
+capella system, llc
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

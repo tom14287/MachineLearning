@@ -1,0 +1,28 @@
+re: about usb hard drive and errorsfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on sat,10.apr.10, 16:24:45, paul e condon wrote:
+=20
+> the error that i am experienc ar all similar. the first
+> indic of a problem is a messag from the kernel (i think). an
+> exampl is:
+>=20
+> kernel: [78454.939948] journal commit i/o error
+=20
+[...]
+=20
+> when thi happen, all the usb drive (3 of them) disappear from
+> /dev/disk/by-label (thei ar all label by me). i have not
+
+just a long shot, bun sinc you ar connect 3 usb drive to the same=20
+comput you might experi power issu. if you connect onli on=20
+drive do you get the same issu? or you could try a power usb hub if=20
+you have on.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

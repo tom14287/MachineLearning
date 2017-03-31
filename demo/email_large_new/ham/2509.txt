@@ -1,0 +1,67 @@
+re: automount problem.on wed, mai 12, 2010 at 01:30:40pm -0700, bob mcgowan wrote:
+> on 05/12/2010 02:55 am, chri bannist wrote:
+> > on tue, mai 11, 2010 at 10:54:47pm -0700, marc shapiro wrote:
+> >> i am now slap myself on the head for be so stupid!  automount is 
+> >> work just fine, and ha been all along.  automount doe it thing as 
+> >> soon as a devic is access, not plug in.  i wa plug the flash 
+> >> drive in and look in /mnt to see if thei were show up.  the 
+> >> weren't.  the weren't suppos to, either.  as soon as i execut "ls 
+> >> /mnt/lexar" lo and behold, there wa the list and everyth wa 
+> >> work just fine.
+> >>
+> >> i think i'll slap myself on the head, again.
+> > 
+> > not so fast! :) how ar you suppos to access them if you don't know
+> > what thei will be label as?
+> > 
+> > what doe "ls /mnt/" do?
+> > 
+> > ar you suppos to carri round a scrap of paper with the mount label
+> > written down?
+> > 
+> 
+> no...
+> 
+> gener, you set up an auto.xxx file to creat a mount point in some
+> specif directori that is not /media.  for exampl, with xxx be 'usb':
+> 
+>  auto.usb: zodiac -fstype=vfat,rw,user,noauto,gid=backup,umask=002 \
+>            :/dev/disk/by-id/usb-rockchip_usb_mp3_usbv1.00
+> 
+> and auto.master:
+> 
+>  /var/autof/usb /etc/auto.usb --timeout=###
+> 
+> thi setup associ the auto.usb file with /var/autof/usb and the
+> devic identifi by the id with the name zodiac.  the timeout should be
+> set to some conveni valu.
+> 
+> so, automount will mount that devic on /var/autof/usb/zodiac, when it
+> is access.
+> 
+
+it should be note that the  --ghost option of automount will creat
+an appropri "ghost" directori for the devic's mount point. for the
+abov auto.master stanza you could us:
+  /var/autof/usb /etc/auto.usb --timeout=### --ghost
+
+thi can lead to a clutter /var/autof/usb directori, howev,
+unless you do some udev-base script to manag thing on the fly.
+
+dt
+  
+
+
+-- 
+dave thayer           | whenev you read a good book, it's like the 
+denver, colorado usa  | author is right there, in the room talk to 
+dave@thayer-boyl.com | you, which is why i don't like to read 
+                      | good book. - jack handei "deep thought"
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100513033544.ga9530@thayer-boyl.com
+
+

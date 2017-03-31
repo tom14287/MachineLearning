@@ -1,0 +1,28 @@
+jawt_macosxdrawingsurfaceinfo get the wrong componenti've got a java applic that contain a -panel within a frame and
+i want to draw into the panel and the method work on window (with os
+specif modif).
+howev, when i execut the program on a mac it would appear that
+nsview *view = dsi_mac->cocoaviewref; return the parent window, which
+in thi case is the frame.
+
+is there anywai i can modifi the code below to ensur that i alwai
+have the panel as my window context rather the frame?
+
+david
+
+
+        // get the correspond peer from the caller canva
+        nsview *view = dsi_mac->cocoaviewref;
+        		
+        nswindow *window = [view window];
+        nsgraphicscontext *ctxt = [nsgraphicscontext
+graphicscontextwithwindow:window];
+        cgcontextref cg = [ctxt graphicsport];
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

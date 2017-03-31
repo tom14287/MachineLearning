@@ -1,0 +1,18 @@
+how to get kdict or aequival in kde4 / squeez?hi folk,
+
+a few dai ago i've upgrad my debian from lenni to squeez. my
+problem: the belov kdict with the small input-field in the kicker ar
+not there anymor. i am miss it:-(
+what can i do to get access with such a small input-field to my local
+dictd?
+
+
+ciao, dirk
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100517172053.ga8454@dserver.dnetz
+
+

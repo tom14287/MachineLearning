@@ -1,0 +1,59 @@
+netbean hang i have to forc quit out of netbean onc or twice a dai, run
+on snow leopard.  when i look at the log i see a cryptic error messag
+like thi on:
+4/19/10 4:04:24 pm	com.appl.launchd.perus.501[98]	 
+([0x0-0x14014].org.netbean.id.baseid.200912041610[182]) exit with  
+exit code: 143
+
+anyon have advic on prevent these problem?  googl for 143
+suggest it appli to a lot of differ thing, but might just be  
+the jvm
+tell me it ha been kill.
+- tod
+
+on sep 30, 2009, at 4:41 am, jean-christoph helari wrote:
+
+>
+> on 30 sept. 2009, at 20:36, hendrik schreiber wrote:
+>
+>>> all the xere jar file i seem to have on my machin ar packag  
+>>> with stand alon applic.
+>>
+>> did you check /librari/java/extens and ~/librari/java/ 
+>> extens ?
+>>
+>> there is at least on java app out there that put a xerc.jar  
+>> into ~/librari/java/extens - unfortun i don't know which  
+>> on, but user told me about the issu.
+>> in my app it show up as nosuchmethoderror, so if that get thrown  
+>> and ~/librari/java/extens/xerc.jar exist, i prompt the user  
+>> to get that thing out of the wai...
+>
+> hendrik,
+>
+> there wa inde a xere.jar in ~/... and now the app work !!!
+>
+> thank you veri much !
+>
+>
+>
+>
+>
+> jean-christoph helari
+>
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list      (java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/java-dev/tod%40dbentranc.com
+>
+> thi email sent to tod@dbentranc.com
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

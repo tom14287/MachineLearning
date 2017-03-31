@@ -1,0 +1,136 @@
+re: icmcompressionsess question>> i have no idea what that's suppos to mean. you'd us a =
+decompress session and do whatev you want with the pixel buffer it =
+give you. why do you think you can't?
+
+i believ thi is a newbi question relat to the gener us of the =
+decompress session. let me try to explain:=20
+
+first i initi my decompress session within the data proc =
+callback function:
+
+*******start***********
+if (videodata->decompressionsess =3d=3d null) {
+    cout << "creat decompress session: ";
+    imagedescriptionhandl imagedesc =3d =
+(imagedescriptionhandl)newhandl(0);
+    err =3d sggetchannelsampledescript(c, (handl)imagedesc);
+    err =3d createdecompressionsess( imagedesc,=20
+                                videodata->width, =
+videodata->height,k32bgrapixelformat,=20
+                                displayandcompressfram, videodata,=20
+                                &videodata-;>decompressionsess);
+
+    if (err =3d=3d 0) cout << "success" << endl; els cout << "fail" =
+<< endl;
+}
+*******end***********
+
+
+i do the same for a compress session:
+
+
+*******start***********
+if (videodata->compressionsess =3d=3d null) {
+    cout << "creat compress session: ";
+    err =3d createcompressionsess(
+                                videodata->width, videodata->height, =
+videodata->codectyp,=20
+                                videodata->averagedatar, =
+videodata->timescal,
+                                usecompressedfram, videodata,
+                                &videodata-;>compressionsess );
+    if (err =3d=3d 0) cout << "success" << endl; els cout << "fail" =
+<< endl;
+}  =20
+*******end***********
+
+
+furthermor, within the data proc callback i have the decompress =
+call:
+
+
+*******start***********
+err =3d icmdecompressionsessiondecodefram( =
+videodata->decompressionsess,
+                        (uint8 *)p, len, null, &frametim;, videodata );
+*******end***********
+
+
+which final allow me to access the pure pixelbuff to be access in =
+my "displayandcompressfram" function.
+in my "displayandcompressfram"-function i displai the pixel on a =
+custom frame and compress the frame via:
+
+
+*******start***********
+err =3d icmcompressionsessionencodefram( videodata->compressionsess, =
+pixelbuff,
+                                displaytim, displaydur, =
+validtimeflag,
+                                frameopt, null, null );
+*******end***********
+
+
+thi trigger my "usecompressedfram"-function:
+
+
+*******start***********
+static osstatu usecompressedfram( void *encodedframeoutputrefcon,
+                                   icmcompressionsessionref session,
+                                   osstatu err,
+                                   icmencodedframeref encodedfram,
+                                   void *reserv ){
+
+  int size =3d icmencodedframegetdatas( encodedfram );
+
+  //// what now ???
+
+  return err;
+}
+******** end***************
+
+
+in which i can send the encod frame across a network but befor i =
+involv ani network function i first want to test if the =
+decompress work. howev, here is the problem and i will start with =
+a simpl first question:=20
+
+can i feed the encod frame to the same decompress session which =
+decompress my devic data and displai it or do i need to creat a =
+second decompress session with the respect callback ? if i need to =
+creat anoth decompress session ar there ani special requir =
+i need to take care of  - so far my first try also fail.
+
+thank a lot in advanc,
+best
+
+-- a l e x
+
+
+
+
+>=20
+>=20
+> --
+> seth willit
+>=20
+>=20
+>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> quicktim-api mail list      (quicktim-api@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> =
+http://list.appl.com/mailman/option/quicktim-api/alexand_carot%40gmx=
+.net
+>=20
+> thi email sent to alexand_carot@gmx.net
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

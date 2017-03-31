@@ -1,0 +1,39 @@
+validationurl: http://www.mozillazin.org/weblog/hyatt/#85395270
+date: not suppli
+
+i feel so tremend valid right now in all my critic of netscap vs. 
+mozilla. i told netscap manag that if the netscap beta ship without 
+popup block that cnet would write an articl on it. thei didn't believ me 
+(or didn't care). sure enough, the articl appear right on time[1].
+
+i blog about two main annoy when instal netscap 7: the lack of 
+popup block and all of the annoi advertis spam on the desktop and in 
+the toolbar. i warn netscap that thei need to take step to correct thi 
+problem. thei didn't listen. take a look at the cnet review[2] highlight that 
+describ *the bad* part of netscap 7.0:
+
+_displai aol ad everywher; doesn't let you turn off pop-up window like 
+mozilla doe; devour 30mb of disk space._
+
+plenti of other engin at netscap (as well as manag) complain about 
+these problem and fought with those higher up to correct these problem. we 
+lost everi battl. the simpl truth is that the peopl in charg of run the 
+netscap browser ar incompet. thei don't understand how to make a good 
+browser, or thei don't care. their engin tell them what thei're do 
+wrong, and thei don't listen. 
+
+mayb you'll listen to the public. how about eweek's articl, netscap 7.0 
+shrivel under mozilla's shadow[3]? ar you pai attent now, you ignor, 
+stupid, incompet buffoon?
+
+"i told you so." never felt so good.
+
+mayb thei will sit up and take notic now. if thei do, well, it's about 
+fuck time. and peopl wonder why i quit work for aol.
+
+
+[1] http://new.com.com/2100-1023-949572.html?tag=fd_lede
+[2] http://www.cnet.com/softwar/0-3227883-8-20331576-1.html?tag=st.sw.8888.boxhl.3227883-8-20331576-1
+[3] http://www.eweek.com/articl2/0,3959,493248,00.asp
+
+

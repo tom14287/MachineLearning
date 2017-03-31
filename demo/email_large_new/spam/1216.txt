@@ -1,0 +1,67 @@
+[spam]  look at photo i attach! cute?
+
+
+top product
+
+
+bodi,html,tabl,tr,td {font:12px/14px arial;}
+producttitl {font-famili: arial; font-size:12px;line-height:15px; color: #1e518e; pad:5px 5px 5px 5px; text-align:center; font-weight:bold;}
+drophead {font-famili: arial; font-size:12px;line-height:15px; color: #333333; pad:5px 5px 5px 5px; text-align:center;}
+producttext {font-famili: arial; font-size:12px;line-height:15px; color: #333333; pad:5px 5px 5px 5px; text-align:center;}
+productpric {color: #842b37; font-weight:bold;}
+productimag {pad:3px;border:1px solid #cccccc; background-color:#ffffff; margin-bottom:8px; margin-top:8px;}
+
+
+have troubl view thi email?  click here to see the onlin version.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+custom care
+custom care main
+																		|
+																		faq
+																		|
+																		place an order
+																		|return and refund
+																		 |
+																		ship rate and polici
+																		|
+																		phone support 
+
+ 
+
+
+
+
+
+
+
+
+                        click here to updat your email prefer.
+                        to unsubscrib, click here
+						(c) 2009 zakybjr compani
+
+
+

@@ -1,0 +1,38 @@
+re: back up lvm volum
+on tue, april 27, 2010 00:33, bernard wrote:
+> hi to everyon !
+>
+> on my previou system, i us to creat overal backup of partit,
+> us 'systemrescuecd'. thi is no longer possibl ever sinc 2007 that
+> i have a raid1 mirror system on my debian. systemrescuecd doe not
+> backup lvm volum, or, if it doe, that must be a veri new featur, and
+> i have not found ani doc on thi.
+>
+> so, what should i do so as to backup my system ?  i onc tri 'dd', but
+> i think i rememb it took forev, and i don't realli know whether i
+> would have been abl to us the result file to successfulli restor
+> the partit if need.
+>
+> could someon suggest someth that ha been successfulli tri ?  even
+> 'dd' could do, if it is ok with lvm and if i get some detail. i
+> understand that i would have to unmount the partit, but thi is not
+> a problem. i have two id mirror disk of 200 gb each.
+>
+> thank in advanc for your insight.
+>
+
+how about clonezilla (http://www.clonezilla.org/)? it support lvm2 (not
+1) and is base on debian (i think you should be abl to get what you need
+from the debian repositori anywai). but i'm not an expert :)
+
+
+-- 
+rare do peopl commun; thei just take turn talk.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/14970.81.246.17.226.1272353817.squirrel@stevenleeuw.kwik.to
+
+

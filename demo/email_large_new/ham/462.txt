@@ -1,0 +1,50 @@
+re (4): re^n: grub vs. linux-imag-2.6.32 conundrumd:	wed, 12 mai 2010 11:05:21 -0400 (edt)
+stephen powel  wrote,
+> your kernel instal environ is not configur correctli for
+> us with lilo.  that's why you ar have troubl upgrad to
+> a newer kernel.  assum that you ar us onli stock kernel imag,
+> here is what you should do:
+
+the instruct ar like clockwork.  thank!
+incorpor in the lilo packag would be good.
+
+> i don't know if the new kernel will fix the x problem ...
+
+unfortun x remain broken with an error 
+about /dev/fb0.
+
+the log is here in case anyon is interest.
+    http://carnot.yi.org/dalton.xorg.0.log
+with minim understand, i notic these line.
+
+(ii) primari devic is: pci 00@00:02:0
+(ww) fall back to old probe method for vesa
+(ww) fall back to old probe method for fbdev
+(ii) load sub modul "fbdevhw"
+(ii) loadmodul: "fbdevhw"
+(ii) load /usr/lib/xorg/modul/linux/libfbdevhw.so
+(ii) modul fbdevhw: vendor="x.org foundat"
+	compil for 1.7.6.901, modul version = 0.0.2
+	abi class: x.org video driver, version 6.0
+(ee) open /dev/fb0: no such file or directori
+
+i've tri variou idea found with googl.
+remov the intel driver and leav the vesa 
+driver instal for exampl.
+
+is fb a standalon driver?  is it an accessori 
+to the vesa driver?
+
+thank for ani idea,          ... peter e.
+
+-- 
+googl "patholog workshop".
+in ethno click here -> desktop.opendoc http://carnot.yi.org/.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/171056496.45946.40347.@heavisid.invalid
+
+

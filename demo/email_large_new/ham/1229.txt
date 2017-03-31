@@ -1,0 +1,18 @@
+re: ditch mutton thu, apr 08, 2010 at 04:43:03pm -0700, tyler macdonald utter:
+> after over 10 year of faith servic (essenti when i ditch pine),
+> i am consid have my mutt put down. should i move over to gmail, or is
+> there some amaz scriptabl gui mail client that is go to knock my
+> sock off with an arrai of pipe and regexp and color-highlight and
+> mayb even procmail-pars and custom keybind? (ideal i'd still like
+> to us a termin to compos/repli to most email, it's just the inbox/imap
+> folder manag/search/etc that is get too unruli for a termin).
+
+i us both gmail & mutt togeth!
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100408235127.ga22979@googl.com
+
+

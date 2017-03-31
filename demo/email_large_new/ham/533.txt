@@ -1,0 +1,21 @@
+re: 64-bit netbook with debian linuxon 05/03/2010 09:26 pm, alex samad wrote:
+[snip]
+>
+> i find with my atom, us syncplac (a firefox addin), which encrypt
+> it file - it take for ever, i am guess i am miss some of those
+> nice cpu op's that speed these thing up.
+>
+
+amd & intel's low-power cpu need encrypt engin just like 
+via's, and libssl need hook into it.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdf9038.7010504@cox.net
+
+

@@ -1,0 +1,37 @@
+re: kde issu under "squeez"sune vuorela wrote:
+
+> on 2010-04-25, lrhorer  wrote:
+>>         first of all, akonadi will not run, but i also can't seem to
+>>         get rid of
+>> it.  is there a wai to keep kde, yet get rid of akonadi?  if not,
+>> i'll post the log and backtrac.
+> 
+> no. there is no wai to keep all of kde and get rid of akonadi. it is a
+> essenti part of kdepim.
+
+        i don't particularli want pim, either.  kpackag, iceweasel, ksensor,
+nut, wine, and wireshark ar all i realli care about.  onli ksensor
+and kpackag requir kde.  you sai, "no wai to keep all of kde..".  i
+don't care about all of kde.  i onli want kdm and the util i
+list abov, plu of cours the termin server.
+
+>>         secondli, kpackag is badli broken.  it onli show a hand
+>>         of
+>> applic instal or avail.  synapt or aptitud show
+>> thousand avail and hundr instal, of cours.  what's more,
+>> i no longer see how on can manag the sourc in the new kde4
+>> kpackag.
+> 
+> kpackag is be remov veri soon and is alreadi gone in
+> experiment.
+
+        that's realli bad new.  without kpackag, there realli isn't much
+reason to run kde.
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/r72dnstskbqww0hwnz2dnuvz_qkaaaaa@giganew.com
+
+

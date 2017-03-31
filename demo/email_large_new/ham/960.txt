@@ -1,0 +1,23 @@
+re: [texliv] thi math formula work a few month a go, but  nowadai
+ it didn't work anymorey seem to have configur file of older texliv packag on your
+system (mark with "rc" in your dpkg output).
+
+so try to get rid of them and, mai be, updat your
+texliv-instal'. with aptitud the command ar
+
+aptitud purg ~c            # thi remov all old configur file
+
+aptitud updat
+aptitud instal ~utexl   # updat of all texliv packag
+
+-- 
+regard,
+jörg-volker.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hre6lt$495$1@dough.gmane.org
+
+

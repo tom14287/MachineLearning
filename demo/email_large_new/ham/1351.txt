@@ -1,0 +1,29 @@
+re: apt-get dist-updat failur - can't bootfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+on mondai 03 mai 2010 13:36:07 jimmi johnson wrote:
+> boyd stephen smith jr. wrote:
+> > from you output it look like your 'perl-base' is schedul to be
+> > upgrad. you should try instal the new version of that packag with
+> > dpkg and then retri your apt-get/aptitud run.
+>=20
+> it's worth a shot, depend of if dpkg ha not been bork, 'dpkg -i
+> perl-base'
+>=20
+hi screen shot seem to have a work dpkg.  it attempt to invok the pr=
+erm=20
+script of a perl modul.  that fail due to not be abl to find=20
+'file/basenam.pm', which caus dpkg to fail the --remov action with erro=
+r=20
+code 1.  apt-get then stop the instal run.
+
+aptitud might get further than apt-get, but the prerm of the perl modul i=
+s=20
+go to keep fail until perl is fix.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

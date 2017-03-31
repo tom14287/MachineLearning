@@ -1,0 +1,56 @@
+re: cycl through window caus freezeleopard will see limit develop releas.  you will need to wait =
+for rc1.
+
+--jeremi
+
+on apr 23, 2010, at 09:21, michael mccracken wrote:
+
+> it look like 2.5.1_beta seri is onli up for 10.6 -- is a releas
+> for 10.5 plan or wa 2.5.0 the last 10.5 releas?
+>=20
+> sorri if thi wa discuss alreadi, i did a quick search but didn't
+> see anyth obviou.
+>=20
+> -mike
+>=20
+> on thu, apr 22, 2010 at 6:21 pm, jeremi huddleston =
+ wrote:
+>> =
+http://xquartz.macosforg.org/trac/wiki/releas#automaticupdatesforbetav=
+rsion
+>>=20
+>> on apr 22, 2010, at 16:01, jon markl wrote:
+>>=20
+>>> link pleas.
+>>>=20
+>>> thank,
+>>>=20
+>>> jon
+>>>=20
+>>> on apr 22, 2010, at 4:45 pm, jeremi huddleston wrote:
+>>>=20
+>>>>=20
+>>>>=20
+>>>> thi wa fix in 2.5.1_beta1 3 week ago.  2.5.1_beta2 wa just =
+releas a few minut ago which also contain thi (and other) fix.
+>>>>=20
+>>>> --jeremi
+>>>=20
+>>=20
+>>  _______________________________________________
+>> do not post admin request to the list. thei will be ignor.
+>> x11-user mail list      (x11-user@list.appl.com)
+>> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/michael.mccracken%40gmail=
+.com
+>>=20
+>> thi email sent to michael.mccracken@csmine.org
+>>=20
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

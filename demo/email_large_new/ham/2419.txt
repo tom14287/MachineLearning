@@ -1,0 +1,33 @@
+re: f-rpm] re: problem build lame-3.92-fr5.src.rpm on rh8on sat, 5 oct 2002, coi krill wrote:
+
+> sure. i us the follow command to rebuild the packag:
+> 
+> rpmbuild --rebuild --target i586 lame-3.92-fr5.src.rpm
+> 
+> and here is the error output for the file:
+> 
+> rpm build error:
+>     user dude doe not exist - us root
+>     user dude doe not exist - us root
+
+harmless ...
+
+>     instal (but unpackag) file(s) found:
+>    /usr/share/doc/lame/html/basic.html
+>    /usr/share/doc/lame/html/contributor.html
+>    /usr/share/doc/lame/html/exampl.html
+>    /usr/share/doc/lame/html/histori.html
+
+
+thi is a problem with the .spec file not account for all 
+the file produc.  see: 
+  http://www.rpm.org/hintskink/unpackag-file/   
+
+-- russ herrold
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,43 @@
+re: no altern for firefox/mozillaon fri, 07 mai 2010 07:41:44 +0200, sven joachim wrote:
+
+>> whatev in debian, but entir stop me from start firefox is
+>> someth i don't feel comfort.
+> 
+> thi is a feel that mani other user share, and therefor…
+> 
+>> $ apt-cach polici iceweasel
+>> iceweasel:
+>>   instal: 3.5.9-2
+>>   candid: 3.5.9-2
+> 
+> …it wa fix in 3.5.9-3:
+> . . . 
+>> $ updat-altern --displai firefox updat-altern: error: no
+>> altern for firefox.
+> 
+> wa there ever an altern for firefox?  i don't think so.
+> 
+>> $ updat-altern --displai mozilla updat-altern: error: no
+>> altern for mozilla.
+> 
+> remov that make sens becaus firefox is known as firefox and not
+> mozilla.
+
+thank sven, and everyon who repli.
+
+just fyi, i wa abl to start iceweasel by either firefox or mozilla 
+befor.
+
+
+-- 
+tong (remov underscor(s) to repli)
+  http://xpt.sourceforg.net/techdoc/
+  http://xpt.sourceforg.net/tool/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hs1725$pb8$1@dough.gmane.org
+
+

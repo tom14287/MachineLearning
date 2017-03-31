@@ -1,0 +1,31 @@
+re: kde 3.5 ...on 2010-05-06, mike bird  wrote:
+> my point is that mani kde develop and packag do not us kde
+> like real-world user, and therefor do not appreci the concern
+> of real-world kde user.
+
+my current open applic on a normal work dai:
+kontact (run kmail and akreg)
+konqueror (with khtml kpart)
+ark
+kdevelop
+
+kopet
+konsol
+okular
+
+i'm not sure which of these app i us that aren't a kde app, except the
+qt-onli app that i'm do as a part of my dai job.
+
+sometim i do have a vmware run to compil test on window, and
+sometim i need to show off my graphic skill (what skill?) in
+inkscap. these ar hte onli non-kde app that i actual us.
+
+/sune
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/slrnhu8hio.rvp.nospam@sshwai.ssh.pusl.com
+
+

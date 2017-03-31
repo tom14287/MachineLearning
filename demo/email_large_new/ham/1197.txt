@@ -1,0 +1,53 @@
+re: umont ownership?on wed, 07 apr 2010 08:41:06 -0700, jeremi jozwik wrote:
+
+> get more interest at everi attempt...
+> 
+> step 1.
+> # mount
+
+(...)
+
+ /dev/sdb1 on /media/video type vfat
+> (rw,nosuid,nodev,uhelp=hal,shortnam=lower,uid=1000)
+
+o.k. that seem now reason :-)
+ 
+> step 2.
+> gnome right click > unmount. error show
+
+yep. i told you that some devic displai thi messag. it happen to me 
+*alwai* with my mobil phone. it doe not happen with standard usb flash 
+disk, though.
+
+> step 3.
+> # mount
+
+(...)
+
+which mean it ha been umount.
+
+i get the same behaviour than you, but onli when i attach a special 
+devic (gnome recogn the mobil phone as some kind of music stuff). 
+
+try thi:
+
+1/ plug on the devic
+2/ type mount (to get the devic list)
+3/ type "umount /media/video" (adjust the command to point the right path)
+4/ type "mount"
+
+with these step i get no pop-up or warn messag and the devic get 
+umount normal.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.07.16.37.25@csmine.org
+
+

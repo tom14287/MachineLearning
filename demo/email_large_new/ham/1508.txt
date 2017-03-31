@@ -1,0 +1,29 @@
+re: [ilug] postfixhrishi's [hrishi@yahoo.co.uk] 22 line of wisdom includ:
+> hi all
+> 
+> 
+> i ahd some user test1 test2 etc.i delet their
+> mailbox from /var/mail/test1 etc.now the postfix
+> queue seem to be huge can anybodi help what could be
+> wrong
+
+some log might be of some help.
+
+1) some output of /var/log/maillog with some relev error messag
+(that could be /var/log/mail.log or some other log depend on your
+configur)
+
+2) the output from ``postconf -n''
+
+on anoth note, you did recreat the mailbox, didn't you?
+
+-- 
+  philip reynold        
+   rfc network          tel: 01 8832063
+www.rfc-network.ie      fax: 01 8832041
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

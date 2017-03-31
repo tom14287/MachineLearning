@@ -1,0 +1,22 @@
+re: quick java questionon sat, 22 mai 2010 11:33:36 +0200, danni wrote:
+
+> i have debian 5.04 and have a littl troubl with jre. i download the
+> new jre from sun and instal it. but how do i tell firefox how to us
+> the jre ?
+
+you can read (and follow) the instruct provid by oracl:
+
+http://www.java.com/en/download/help/linux_instal.xml#enabl
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.22.11.22.35@csmine.org
+
+

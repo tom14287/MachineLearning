@@ -1,0 +1,22 @@
+re: [satalk] report....>i current have spam be filter for about 50 user via spamd.
+>work perfectli!  howev, is there anyon out there provid report
+>to their user about what wa filet?  mayb just someth like
+>date/time, from, and subject?
+
+yup! you can check: http://www.cs.ait.ac.th/laboratori/email/quarantin.shtml
+
+though it us procmail!
+
+olivi
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

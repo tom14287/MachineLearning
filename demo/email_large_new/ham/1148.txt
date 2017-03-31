@@ -1,0 +1,12 @@
+re: debian+kde 4.4.3 kplayer
+kplayer is not read my mplayer config file for dvb channel - ani
+experi or it's a bug
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hscq0o$4t7$2@dough.gmane.org
+
+

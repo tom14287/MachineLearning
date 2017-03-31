@@ -1,0 +1,22 @@
+[sacv] cv: spamassassin/mass evolv.cxx,1.28,noneupd of /cvsroot/spamassassin/spamassassin/mass
+in directori usw-pr-cv1:/tmp/cv-serv6501/mass
+
+remov file:
+      tag: b2_4_0
+	evolv.cxx 
+log messag:
+remov old evolv
+
+--- evolv.cxx delet ---
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: jabber - the world's fastest grow 
+real-time commun platform! don't just im. build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+spamassassin-commit mail list
+spamassassin-commit@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-commit
+

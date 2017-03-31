@@ -1,0 +1,46 @@
+re: oowrit alwai hang, and then quit unexpectedli when imag  ar copi (copi/past) from a websit-----begin pgp sign messag-----
+hash: sha1
+
+ron johnson  write:
+
+> on 05/09/2010 03:49 pm, merciadri luca wrote:
+>> ron johnson wrote:
+>>> i just open a new writer 3.2.0-9+b1 document then select the
+>>> "titl imag" http://i.space.com/imag/080702-voyag-01.jpg from
+>>> http://www.space.com/missionlaunch/nasa-track-voyag2-problem-100506.html
+>>> and past it into the document.
+>> i am us oo 2.4.1.
+>
+> that's *realli* old.  if you run stabl, then you should deinstal it
+> and get binari from http://www.go-oo.org
+ok. i will do it. would it be that?
+
+>>                       take for exampl
+>> http://en.wikipedia.org/wiki/california.
+>
+> still work, although ooo doesn't seem to know how to handl svg
+> document.
+lucki you, but it must be becaus of the version. note that it doe
+not _alwai_ hang here, that's pure random.
+- -- 
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+- -- 
+
+do your best is more import than be the best.
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: process by mailcrypt 3.5.8 
+
+ieyearecaayfakvnpk4acgkqm0llzlt8mhxirgcgpya4sff/mfurhngomwzxqdgg
+dskan1ehvibym50njr1aa7s/m0mtvxhp
+=px5u
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87hbmgmg1d.fsf@merciadriluca-station.merciadriluca
+
+

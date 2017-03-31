@@ -1,0 +1,24 @@
+re: anoth sequenc window nit    date:        wed, 02 oct 2002 11:39:13 -0500
+    from:        hal devor 
+    messag-id:  <9288.1033576753@dimebox.bmc.com>
+
+  | restart exmh wa necessari.
+
+probabl not.   next time try click on the folder name in the
+sequenc window for the sequenc.   that is, request that sequenc
+be the on displai in the ftoc.   if the sequenc doesn't exist,
+it will be clean up then.
+
+perhap it would be nicer if flist would do it as well, but thi
+is effect enough.
+
+kre
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+
+

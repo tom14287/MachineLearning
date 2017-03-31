@@ -1,0 +1,112 @@
+re: nslookup from window resolv domain and pdc correctli but still 
+	get cannot contact on samba 3.2.5-4 on lennyon wed, apr 28, 2010 at 7:50 am, siju georg  wrote:
+>
+> i have instal
+> ii =a0samba =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =
+=a0 2:3.2.5-4lenni9 =a0 =a0 =a0 =a0 =a0 =a0a
+> ii =a0samba-common =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a02:3=
+.2.5-4lenni9
+> on debian lenni and i am share directori to window user successful=
+y.
+>
+> i configur it as a pdc with the follow configur.
+> [global]
+> =a0 =a0 =a0 =a0workgroup =3d hifxnx
+> =a0 =a0 =a0 =a0netbio name =3d hifxnxdc
+> =a0 =a0 =a0 =a0server string =3d hifxnx domain control, php developmen=
+t
+> server, subvers server, dn server
+> =a0 =a0 =a0 =a0interfac =3d 172.16.2.0/255.255.255.255
+> =a0 =a0 =a0 =a0bind interfac onli =3d ye
+> =a0 =a0 =a0 =a0obei pam restrict =3d ye
+> =a0 =a0 =a0 =a0passdb backend =3d tdbsam
+> =a0 =a0 =a0 =a0pam password chang =3d ye
+> =a0 =a0 =a0 =a0passwd program =3d /usr/bin/passwd %u
+> =a0 =a0 =a0 =a0passwd chat =3d *enter\snew\s*\spassword:* %n\n
+> *retyp\snew\s*\spassword:* %n\n *password\supdat\ssuccessfulli* .
+> =a0 =a0 =a0 =a0unix password sync =3d ye
+> =a0 =a0 =a0 =a0syslog =3d 0
+> =a0 =a0 =a0 =a0log file =3d /var/log/samba/log.%m
+> =a0 =a0 =a0 =a0max log size =3d 1000
+> =a0 =a0 =a0 =a0name resolv order =3d lmhost host win bcast
+> =a0 =a0 =a0 =a0add user script =3d /usr/sbin/addus --quiet
+> --disabl-password --geco "" %u
+> =a0 =a0 =a0 =a0add group script =3d /usr/sbin/addgroup --forc-badnam %g
+> =a0 =a0 =a0 =a0add machin script =3d /usr/sbin/useradd -g machin -c "%=
+u
+> machin account" -d /var/lib/samba -s /bin/fals %u
+> =a0 =a0 =a0 =a0domain logon =3d ye
+> =a0 =a0 =a0 =a0os level =3d 33
+> =a0 =a0 =a0 =a0prefer master =3d auto
+> =a0 =a0 =a0 =a0domain master =3d ye
+> =a0 =a0 =a0 =a0dn proxi =3d no
+> =a0 =a0 =a0 =a0panic action =3d /usr/share/samba/panic-action %d
+> [home]
+> =a0 =a0 =a0 =a0comment =3d home directori
+> =a0 =a0 =a0 =a0valid user =3d %s
+> =a0 =a0 =a0 =a0creat mask =3d 0700
+> =a0 =a0 =a0 =a0directori mask =3d 0700
+> =a0 =a0 =a0 =a0browseabl =3d no
+> [netlogon]
+> =a0 =a0 =a0 =a0comment =3d network logon servic
+> =a0 =a0 =a0 =a0path =3d /home/samba/netlogon
+> =a0 =a0 =a0 =a0guest ok =3d ye
+> =a0 =a0 =a0 =a0share mode =3d no
+>
+> i can get the domain & domain control resolv us dn from the
+> window xp machin.
+> but when i try to join the domain from the window xp machin.
+> i get the error
+> "a domain control for the domain hifxnx.local could not be contact"
+> and the debug log file dcdiag.txt contain these detail.
+> the follow error occur when dn wa queri for the servic
+> locat (srv) resourc record us to locat a domain control for
+> domain hifxnx.local:
+> the error wa: "dn name doe not exist."
+> (error code 0x0000232b rcode_name_error)
+> the queri wa for the srv record for _ldap._tcp.dc._msdc.hifxnx.local
+> common caus of thi error includ the follow:
+> - the dn srv record is not regist in dn.
+> - on or more of the follow zone do not includ deleg to it
+> child zone:
+> hifxnx.local
+> local
+> . (the root zone)
+
+my domain smb knowledg is slightli rusti but here goe...
+
+1. your samba server's ip address end with a 0, which, afaik, is
+reserv for network address (unless it ha some special purpos
+like the the /32 netmask). what is the output of "ifconfig -a"?
+
+2. in your smb.conf:
+
+2.a the follow ar miss (although thei mai be the default
+set for these variabl):
+secur =3d user
+local master =3d ye
+
+2.b i have forgotten why, but afaik "127.0.0.1" should be list in
+"interfac =3d".
+
+2.c what doe "share mode =3d no" do?
+
+3. if you have not yet creat a comput account for the window box,
+you have to log on to the domain as root (or as a user with the right
+to add a machin account) the first time that you do so from a samba
+client for the "add machin script =3d" variabl to do it magic.
+
+4. the "_ldap._tcp...." dn srv record ar need for an ad domain
+(iirc there ar 6 +-1). i have never set up an ad samba pdc but your
+smb.conf set look like those of an nt4 samba pdc so it mai just
+be a mislead error/failur messag. your window box seem to be an
+xp vm but just in case the netbio name is mislead, see
+http://wiki.samba.org/index.php/window7
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/i2x6d4219cc1004291502n9c747e56ra1b0d48c7ddf2ed@mail.csmine.org
+
+

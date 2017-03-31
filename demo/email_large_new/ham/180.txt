@@ -1,0 +1,17 @@
+apt-get dist-updat failur - can't bootaft do a apt-get dist-updat and restart the pc becaus of some 
+error i'm get the problem as show in the imag.
+
+http://i4.photobucket.com/album/y116/fscussel/untitl.jpg
+
+
+can't dist-updat and system is not work correctli, mani miss 
+librari which i don't know how to reinstal sinc it doesn't allow becaus 
+of deppend. i'm lost. 
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/d0b0add22f8e4df9998b38187d784c04@phoenix
+
+

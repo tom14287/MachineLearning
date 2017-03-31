@@ -1,0 +1,55 @@
+re: [satalk] paulgraham.com articley, it is veri impress.  howev, all of the most advanc content
+filter known to man is easili defeat by simpli present the content
+in the form of a graphic imag (gif, jpg, etc.).  i'm surpris that more
+spammer don't alreadi do thi.  i know we have discuss thi befor, and
+mayb we can detect thi type of spam via the header and with razor/dcc (if
+you're us them).  but that sure narrow down the ruleset (mayb that's
+good).
+
+mtodd
+
+
+
+
+-----origin messag-----
+from: yyyi@spamassassin.taint.org [mailto:yyyi@spamassassin.taint.org]
+sent: fridai, august 16, 2002 12:52 pm
+to: spamassassin-talk@exampl.sourceforg.net
+subject: [satalk] paulgraham.com articl
+
+
+quit interest -- it's pretti similar to the spam phrase stuff.  as
+scott point out, thi would work quit well as a naiv bayesian system.
+(in fact, i think it mai be quit close to be on alreadi...)
+
+i like the wai "fl" -- ie. florida -- is on of the top score term. ;)
+
+also, when i wa do the spam-phrase stuff, i discount the ff0000
+thing, as html garbag! never realis it correspond to "bright red" :(
+have we got a test for that?
+
+--j.
+
+-- 
+'justin mason' => { url => http://jmason.org/ , blog => http://taint.org/ }
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

@@ -1,0 +1,28 @@
+re: resourc for learn linuxon 04/26/2010 08:59 pm, thib wrote:
+> can't miss the debian refer by osamu aoki (青木 修):
+>
+> http://www.debian.org/doc/user-manual#quick-refer
+>
+> it cover a lot of topic and provid up-to-date pointer to other
+> resourc.
+>
+> -thib
+>
+>
+ye it is realli great and you can apt-get'it!
+apt-get debian-refer-en
+
+-- 
+bye,
+goran dobosev
+hrvatski: www.dobosev.com
+  english: www.dobosev.com/en/
+regist linux user #503414
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd64493.7010905@dobosev.com
+
+

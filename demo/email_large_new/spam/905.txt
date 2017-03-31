@@ -1,0 +1,82 @@
+[spam]  our staff reduct
+
+
+
+
+<!--
+mainbord {
+        border: medium solid #007fa2;
+}
+footer {
+        font-famili: arial, helvetica, san-serif;
+        font-size: 9px;
+        font-style: normal;
+        color: #ffffff;
+        margin: 5px;
+        pad: 5px;
+        background-color: #00566f;
+	text-align: center;
+}
+}
+mainbord_2side {
+        border-top-width: thin;
+        border-right-width: thin;
+        border-bottom-width: thin;
+        border-left-width: thin;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: doubl;
+        border-left-style: none;
+        border-top-color: #007fa2;
+        border-right-color: #007fa2;
+        border-bottom-color: #007fa2;
+        border-left-color: #007fa2;
+        pad: 5px;
+}
+pictur_border {
+        border: medium solid #ffffff;
+}
+-->
+
+
+
+
+
+
+
+	to view a web version of thi messag, 
+click here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+more item on sale thi
+			week
+
+
+
+
+©2009 fqsjaw, inc.,
+
+
+if you would like to discontinu receiv our email, click 
+here
+	our privaci polici 
+	here
+
+
+
+
+
+
+

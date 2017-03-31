@@ -1,0 +1,30 @@
+re: nepomuk index in systrayon 21/05/10 12:37, Γιώργος Πάλλας wrote:
+> hello to all!
+> i just upgrad my debian test, instal nepomuk search. my 
+> problem is that the index everi now and then appear in the systrai 
+> for a second or so, and then disappear, which is veri distract (or 
+> am i veri sensit? :-) )... anyon know how to stop the icon from 
+> get on my nerv? :-)
+>
+> thank!
+> g.
+>
+
+asid from disabl the damn thing from work automat in the 
+first place - no.
+
+kde4 is becom increasingli bloat and doe seem to be call in an 
+increas amount of depend and addit databas-relat 
+librari which then seemingli take over. not ok.
+
+my $0.02 worth.
+
+ag
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf7b062.8070201@csmine.org
+
+

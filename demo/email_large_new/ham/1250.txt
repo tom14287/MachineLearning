@@ -1,0 +1,387 @@
+[lockergnom digit media]  humblest alarm
+
+<!--
+ bodi      { background-imag: url(http://imag.lockergnom.com/imag/issu/top-right.gif); scrollbar-3dlight-color: #dee8ec; scrollbar-arrow-color: #000000; scrollbar-base-color: #007c7a; scrollbar-darkshadow-color: #507686; scrollbar-face-color: #a9c4cf; scrollbar-highlight-color: #dee8ec; scrollbar-shadow-color: #507686 }
+ a:link    { color: #0000ff; text-decor: underlin; font-weight: normal }
+ a:visit { color: #000000; text-decor: underlin; font-weight: normal }
+ a:activ  { color: #000000; text-decor: none }
+ a:hover   { color: #26343a; text-decor: none }
+ p.titl   { background: #a9c4cf; border-bottom: #507686 4px solid; border-left: #dee8ec 4px solid; border-right: #507686 4px solid; border-top: #dee8ec 4px solid; color: #26343a; font-famili: comic san ms, trebuchet ms, helvetica, arial; font-size: 14pt; font-weight: normal }
+ p.new    { background: #a9c4cf; border-bottom: #507686 4px solid; border-left: #dee8ec 4px solid; border-right: #507686 4px solid; border-top: #dee8ec 4px solid; color: #26343a; font-famili: comic san ms, trebuchet ms, helvetica, arial; font-size: 18pt; font-weight: normal }
+ p.sidebar { background: #a9c4cf; border-bottom: #507686 3px solid; border-left: #dee8ec 3px solid; border-right: #507686 3px solid; border-top: #dee8ec 3px solid; color: #26343a; font-famili: comic san ms, trebuchet ms, helvetica, arial; font-size: 10pt; font-weight: bold; text-align: center }
+ .url      { font-size: 8pt; font-famili: verdana, tahoma, arial }
+-->
+20020715 lockergnom digit media
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 07.15.2002 mediareport
+
+
+content manag is kei: need a reason your boss should be send you to gnomedex? some of the lead expert on content manag solut (those thing we affection call blog) will be share the futur of blog and how you can adapt it to both the wai you do busi and the wai you commun in gener. join evan william and doc searl as thei share pearl of wisdom on blog, linux and other open sourc applic that ar chang our live. if that's not enough incent, remind the boss that the internet secur guru, steve gibson, will be share hi wisdom as well. 
+regist for gnomedex todai!   
+
+
+to all you dream theater fan out there, pleas accept my humblest of apolog. 
+i mistakenli announc their break up in the last gnomeaudio section, caus 
+quit a stir among a number of subscrib. in fact, thei just releas a doubl 
+album thi year and have been tour in support of that releas. 
+for todai's fals alarm, pleas make note of the tragedi that is the n'sync 
+breakup (oh wait, that's just wish think).
+
+i know i've alreadi carri on about my kyocera 6035 phone, but thi thing is 
+awesom.  i've got all my contact in on devic. web brows is good - i'm 
+sure it would be better on a color screen, like the 
+treo 270, but for what i'll need, 
+thi work well. i'm current look for an ssh client i can instal, so that 
+remot server login will be possibl. my on complaint is the base station's 
+us of a serial connector instead of usb, but i suppos thei were cut cost. 
+
+i'm also scope out the 
+palm markup languag 
+(pml) standard for mark up palm doc, 
+in an effort to make the gnometom a littl flashier. i've instal sever of 
+the file on my phone and while thei ar easi to read, have all the content 
+organ, and function as us tip for the variou subject, i'd like to add 
+some minor tweak to futur tome, so that thei look even better for me and 
+anyon els who read them on their palm.  
+
+
+
+
+jake ludington        
+
+ gnomeproduc
+tomeraid v2.0 [1673k] w98/w2k/pocket pc/palm $25
+http://www.tomeraid.com/
+
+
+of the format lockergnom us for our gnometom, tomeraid is by far my 
+favorit. design with a feel similar to chm, the tr format is quit easi 
+to read, as it place section titl in a pane separ from content, 
+allow you, the reader, to navig through our tip (or anyth els) 
+with much greater eas than the linear format the other version present. 
+the window version of the softwar is truli design with eas of us in 
+mind. creat ebook for tomeraid is a simpl matter of combin a 
+modifi set of html tag with the  design for page break. the 
+onli trick for yanke like me is rememb that center is tag centr 
+in the softwar.
+
+
+
+
+
+ gnomefeatur
+the herd of star war nerd
+http://www.ifilm.com/ifilm/product/film_info/0,3699,2439321,00.html?cch=11
+ 
+triumph the dog is low-tech, he's not cute like the pet.com sock puppet, 
+but he manag to maintain a twist appeal to fan of lowbrow comedi. in 
+thi segment, triumph make a mockeri of geek stand in line for 
+episod ii. whether you've been on of those geek yourself, or you've 
+never understood why anyon would dress up and wait in line for a movi, 
+you'll still find thi film amus. 10 minut wa more than necessari 
+to get the point across, yet triumph deliv enough on-liner 
+throughout to keep you watch all the wai to the end.
+ 
+
+
+
+
+
+
+
+ gnomeskin
+
+
+kid world for desktopx by frogboi
+
+post on 7/14/2002 12:35:00 am  --    
+
+
+
+
+
+[download]
+ -- [zoom]
+ -- [visit wincustom]
+
+
+
+ gnomeaudio
+heleen van den hombergh
+http://www.heleenvandenhombergh.com/
+http://artist.mp3s.com/artist/378/heleen_van_den_hombergh.html
+  
+ 
+classic jazz vocal style, juxtapos arrang of contemporari 
+piec with arrang of jazz standard. combin with some 
+beauti piano arrang, heleen's voic is a thing of beauti. a 
+netherland nativ,  who origin dream of save the rainforest 
+(at least accord to her biographi), her interpret of american 
+jazz standard and show tune is more remark than most nativ 
+english speak vocalist. no world tour is current schedul, so 
+you'll probabl have to journei to europ to see her in person, but 
+for those of you live elsewher in the world, the internet make a 
+fabul venu for experienc heleen  van den hombergh's talent. 
+
+
+
+
+
+a book for everi geek: want to know more about 
+network? 
+have you ever want to 
+write an e-book? mayb you need to polish 
+your 
+web design skill? get full-length book from the poor richard's 
+seri, includ poor richard's e-mail publish, by chri pirillo, at gnometom.com, for 50% off the suggest retail price of the print version. 
+click here to learn more.    
+
+
+ gnomeplugin
+aezai caption draw v1.0 [71k] w9x/nt/w2k/xp free
+http://www.winamp.com/plugin/detail.jhtml?componentid=112660
+
+remind me of creat caption for webcam32, thi applic us 
+incomprehens string valu to displai relev info about winamp 
+song in the window caption bar. list song name, time of dai, 
+playlist inform, filenam, and a varieti of other more obscur 
+inform. chang caption color is also doabl within thi 
+plug-in. a set of hot kei make control winamp from your keyboard 
+more function, although you can't remap ani of the kei.
+
+
+
+
+ gnomedvd
+
+
+click for detail
+
+the man who wasn't there (r) 2001
+drama - 116min
+review's tilt (9)
+
+special dvd featur worth a look-thornton and coen brother commentari
+
+much more film noir, than a movi try to imit film noir, the man
+who wasn't there captur the inevit hopeless of the genr. ed
+crane (billi bob thornton) is the archetyp everyman. a barber by trade,
+crane repres the individu in societi. he hear everyth, but
+truli know noth. everyth he hear is modifi ever so slightli by
+the retel. he get neither the whole stori nor the true motiv.
+left to guess at the motiv and desir of those around him, crane
+develop an indiffer to it all. when a snake oil sale man slither
+into town, crane take thi opportun to cheat the cheater and punish
+the punish.  as indiffer as crane appear, he is no match for the
+amor of fate. as much as fate is indiffer in it wrath, howev,
+so is it artist in it execut. that is what make our live so
+entertain. fate dole ultim justic, but never as expect. the
+man who wasn't there is truli a kafkaesqu tale of an individu's year
+to turn against the tide of inevit. atyp of cuter, more
+recent coen brother fare, thi film is reminisc of their earlier
+noir work like blood simpl and miller's cross. franc mcdormand
+doe an outstand job make as crane's selfish wife and jame
+gandolfini exud boorish as dori' boss. the real outstand
+perform, howev, rest with the support cast. toni shalhoub, as
+pompu attornei freddi riedenschneid and  jon polito as the snake oil
+salesman impress and entertain as cruel, but offbeat parodi of their
+charact. the black and white cinematographi by roger deakin also
+impress and precis underscor the bleak of crane's life and
+the monochromat natur of fate.
+
+ 
+
+
+region 1 encod (us and canada onli)
+format: b&w, widescreen anamorph, close caption
+sound: dolbi digit 5.1, dolbi digit 2.0 surround spanish, dolbi digit 2.0 surround french
+billi bob thornton, joel coen and ethan coen commentari
+delet scene
+make-of featurett
+interview with director of photographi roger deakin
+photo galleri
+trailer
+
+review by brett trout
+
+ gnomewallpap
+
+
+isol for photo manipul by fake[x]
+
+post on  7/14/02 11:08pm  --    
+
+
+
+
+[download]
+
+ -- [zoom]
+ -- [visit deskmod]
+
+
+
+
+
+
+http://www.lockergnom.com/issu/digitalmedia/20020715.html
+your subscrib e-mail address is: [qqqqqqqqqq-lg@spamassassin.taint.org] - to unsubscrib or chang your deliveri address, pleas visit the subscript manag page. for further inform, pleas refer to the gnomecredit in the sidebar.
+
+
+
+
+
+
+lockergnom
+ geekathon 2002
+
+ latest window daili
+ latest digit media
+ latest tech specialist
+ latest penguin shell
+ latest appl core
+ latest web weekli
+ latest bit & byte
+ latest audio show
+
+ the gnomeshopp
+
+ microsoft offic tip
+ pc product tip
+ cool internet tip
+ window 2000 tip
+ window xp tip
+ top 50 fun site
+ must-know tech term
+ top 50 us site
+ top 75 tech site
+ top 50 penguincor
+ top 50 penguintweak
+
+
+ recommend us!
+ advertis with us
+ high-tech job search
+ chat with gnomi
+ watch the webcam
+ comput power user
+
+ submit your opinion
+ read past issu
+ download x-setup
+ about lockergnom
+ our privaci polici
+ view more option
+ get chri's book
+
+ gener feedback
+ e-mail the editor
+ jake's blog
+
+ our xml / rss feed
+ syndic our tip
+ link to lockergnom
+
+
+
+
+
+click here to zoom
+
+ gnomespeci
+ manag your workgroup
+ form pilot
+ sai the time 5.0
+ boomer - stream now
+ creat web/cd catalog
+ easi web editor
+ kleptomania
+ tag&renam
+ pretti good solitair
+ visual color combo
+ firststop websearch
+ ecobuild
+ book collector
+get list here
+question: which group is 250,000+ strong and alwai look for stuff to make their person and profession live run smoother?  
+
+
+
+ gnomemus
+
+
+
+goo goo goe disnei
+
+the goo goo doll have had some of their most success song come out of movi, so it's not a big leap to see...
+
+
+lenni paint town pink
+
+lenni kravitz and pink ar gear up to hit the road. the u.s. leg of lenni live kick off todai in virginia beach...
+
+
+up on the roof
+
+oh, the differ a preposit make. dave matthew band will launch their new album, bust stuff, on the ed...
+
+
+bow wow want to bark-plai-for duke
+
+the rapper formerli known as lil (he's drop the lil) bow wow sai he's like to plai basketbal in colleg and...
+
+
+whitnei's new song leak
+
+whitnei houston need a hit and she's hope "whatcha lookin' at" is it. the song wa leak over new york radio...
+
+
+fat joe in bar fight
+
+rapper fat joe - real name joseph cartagena - is charg with break a man's jaw dure a bar fight in b.b. king's... 
+
+
+ 
+gnomecredit
+
+©2002, lockergnom llc. issn: 1095-3965. all right reserv. pleas read our term of servic. our web site is host by digitaldaz. domain regist at dn central.
+
+
+
+
+  search past issu:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

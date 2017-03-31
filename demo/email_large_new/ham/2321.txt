@@ -1,0 +1,25 @@
+dash-as-bin-shfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+
+hi, list!
+
+i have a few simpl question for you:
+
+1 - i there a better place to get help with dash
+2 - is there wai to detect that a script is run as dash, instead of a
+shell like solari' /bin/sh
+3 - corollari to #2, can i expect dash-as-sh to by a hard link or a sym
+link?   (i would think not, but don't know debian's polici here)
+4 - reason for #2, is there a wai to list all function declar in a script
+with dash?  under solari' shell, bash, or the korn shell i can us
+"typeset" -- i've search posix and don't see a wai that doesn't involv
+pars the script.
+
+thank,
+we
+
+-- 
+weslei w. garland
+director, product develop
+pagemail, inc.
++1 613 542 2787 x 102

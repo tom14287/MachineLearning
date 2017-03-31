@@ -1,0 +1,79 @@
+re: problem with me modem huawei on debian lennyon 25 april 2010 04:41, danni  wrote:
+> hi christian,
+>
+> it look like vista and window 7 peopl ar experienc the same probl=
+m as
+> you ar. if you go to the www.huawei.com forum you will find a bunch of n=
+on
+> linux peopl have more or less the same problem with commun with t=
+hi
+> modem.
+>
+> just a stupid question, can debian see thi modem?
+> do the follow for a start just to see if debian can see it :
+> dmesg | more | grep --color -a1 'dev'
+>
+> it is a simpl command but at least you will see if it is recognis
+>
+> danni
+>
+> on apr 23 10, umarzuki mochli :
+>> to: christian simo 
+>> date: fri, 23 apr 2010 23:11:41 +0800
+>> from: umarzuki mochli 
+>> subject: re: problem with me modem huawei on debian lenni
+>> x-loop: debian-user@list.debian.org
+>>
+>> i had done that onc and document it at=c2=a0http://umarzuki.org/blogk=
+u/?p=3d174
+>>
+>> p/s: us googl translat to translat from malai to english
+>>
+>> on fri, apr 23, 2010 at 11:06 pm, christian simo  wro=
+te:
+>>
+>> =c2=a0 =c2=a0 hi dear team
+>>
+>> =c2=a0 =c2=a0 pleas, i am new on debian, so i try to connect my modem h=
+uawei e1752 on
+>> =c2=a0 =c2=a0 debian lenni.
+>> =c2=a0 =c2=a0 on suse, i do it easi
+>>
+>> =c2=a0 =c2=a0 thank for your respons.
+>>
+>> =c2=a0 =c2=a0 christian
+>>
+
+hi,
+
+i have the huawei e1762 usb dongl run under lenni and squeez
+us pppd as were i live i have no access to dsl or cabl.
+
+with lenni you need to instal the the kernel 2.6.30 from debian
+backport[1] first, as the 2.6.28 kernel onward will flip flop the
+devic for you. at the moment it mayb just be pick up as a mass
+storag devic and not a modem if you still us the 2.6.26 kernel.
+and if you want to stai with the 2.6.26 kernel you will have to
+instal usb-modeswitch[3].
+
+set up wvdial thi might help you[2].
+
+
+regard
+dale
+
+[1] http://backport.org/dokuwiki/doku.php
+[2] http://quail.southernvaleslug.org/webblog/archiv/136
+[3] http://www.draisberghof.de/usb_modeswitch/
+--=20
+[www] http://quail.southernvaleslug.org/
+"the signific problem we face cannot be solv at the same level
+of think we were at when we creat them" - albert einstein
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/x2g9b3004971004241956kdd1e6ab5j6bc962f52f9ddc6f@mail.csmine.org
+
+

@@ -1,0 +1,10 @@
+re: ni: /etc/nsswitch seem (a bit) ignor from /usr/bin/passwd
+ *solv*from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain
+content-transfer-encod: quot-printabl
+
+hi,
+
+nscd wa the problem. he cach the local passwd ...
+
+cu denni

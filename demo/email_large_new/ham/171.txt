@@ -1,0 +1,26 @@
+re: chromium in sidfrom nobodi sun sep 18 20:45:27 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+[sorri for repli to myself]
+
+on fri,21.mai.10, 18:53:34, andrei popescu wrote:
+> on fri,21.mai.10, 11:42:57, steve fishpast wrote:
+>=20
+> >                                              but the question is why
+> > is it so old when ubuntu is keep up-to-date daili?!
+>=20
+> wasn't there some automat download/recompil go on in ppa? or mayb=
+=20
+> the ubuntu maintain just ha more time...
+
+and on more thing: if the packag in sid/unstabl is updat too often=20
+it will never migrat to test, becaus it ha to be at least 10 dai=20
+old (assum no bug ar found and there ar no depend problem).
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

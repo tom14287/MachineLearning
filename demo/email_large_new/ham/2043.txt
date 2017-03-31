@@ -1,0 +1,44 @@
+updat jre in lenni-----begin pgp sign messag-----
+hash: sha1
+
+a websit i want to us would allow access unless my java applet is jre
+6 updat 13 or higher.  as far as i can figur out the applet provid
+by packag sun-java6-bin is updat 12.
+
+- from the sun microsystem site i download file jre-6u19-i586.bin;
+move it to directori /usr/lib/jvm, chang ownership to root:root and
+permiss to rwxr-xr-x and ran the binari.  it creat a new directori
+/usr/lib/jvm/jre1.6.0_19 and open in that directori a number of
+subdirectori and file.
+
+next, i need to add thi new jre to /etc/altern.  us the
+altern configur provid by packag galtern, as root i
+select 'java' as the altern to configur and ad to the option
+list /usr/lib/jvm/1.6.0_19/bin/java and final select thi new option.
+
+after reload iceweasel, about:plugin still show the previou jre i
+wa us, /usr/lib/jvm/java-6-openjdk/jre/bin/java.
+
+assum that i can us a later version of jre download from sun on
+iceweasel 3.5, am i on the right track but did not get the newer version
+set up correctli, or is there a differ wai?
+
+ken heard
+
+
+-----begin pgp signatur-----
+version: gnupg v2.0.9 (gnu/linux)
+comment: us gnupg with mozilla - http://enigmail.mozdev.org
+
+ieyearecaayfakvezi8acgkqlnljzokjmtc8gwcfso/c8xip3eo02hmlm2lbumxb
+43gan1fgj6lprotxst5oh30hnvduqzkp
+=pyrx
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc4ce30.20704@heard.name
+
+

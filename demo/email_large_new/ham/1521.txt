@@ -1,0 +1,25 @@
+re: akonadi first time start bug with kde 4.4.3[martin steigerwald - donnerstag 06 mai 2010 11:34:57] 
+> 
+> hi!
+> 
+> jfyi as thi might (partli) be packag relat.
+> 
+> i found the follow bug with akonadi sinc i upgrad to kde 4.4.3 
+> happen often, possibl alwai when i start kontact for the first time 
+> after start a kde session. on further start of kontact it work as 
+> expect:
+
+umm, that's interest. i had thi sinc kde 4.4.0 (self-compil) and
+it vanish when switch from the 4.4.2 deb to the 4.4.3 on.
+so i thought it wa just fix for 4.4.3. now i wonder what i did to
+make it work.
+
+regard
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005061144.03642.schwarzerf@csmine.org
+
+

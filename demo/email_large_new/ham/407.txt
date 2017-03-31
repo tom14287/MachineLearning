@@ -1,0 +1,13 @@
+googl domain suffix censusurl: http://boingbo.net/#85481526
+date: not suppli
+
+the good folk at researchbuzz have releas a groovi googl api tool, "the 
+suffix censu." enter your search term, and the censu will tell you how mani 
+of the result ar in .net, .com, .org, and other top-level domain. link[1] 
+discuss[2] (_via researchbuzz[3]_)
+
+[1] http://www.buzztoolbox.com/googl/suffixcensu.shtml
+[2] http://www.quicktop.com/bo/h/k9wdfnmrpbw5
+[3] http://www.researchbuzz.com/
+
+

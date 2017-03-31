@@ -1,0 +1,19 @@
+re: kontack and akonadi: a "dirti" workaround> if you want a workaround, could you try to put "akonadictl start" into 
+> autostart?
+
+doesn't work for me.
+regard
+ps sorri for the misprint:
+killal kaddressbook & kontact
+
+
+-- 
+marco valli
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005111643.27090.marco@bastardi.net
+
+

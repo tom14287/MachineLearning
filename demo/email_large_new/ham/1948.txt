@@ -1,0 +1,28 @@
+recommend valu for jvmversion ?there have been a number of releas sinc march 2009 so i'd like to =
+know if the inform on that page regard the possibl valu of =
+"jvmversion" is still relev:
+
+=
+http://develop.appl.com/mac/librari/document/java/refer/java_i=
+nfoplistref/articl/javadictionaryinfo.plistkei.html
+
+especi the part where it is written that the "1.n*" valu ar not =
+recommend.
+
+thank in advanc.
+
+
+jean-christoph helari
+----------------------------------------
+fun: http://mac4translat.blogspot.com
+work: http://www.doublet.jp (ja/en > fr)
+tweet: http://twitter.com/brandelun
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

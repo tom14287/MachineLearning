@@ -1,0 +1,445 @@
+is your famili protect?
+
+reliaquot - save up to 70% on life insur
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+life
+                                can chang in an instant. that's why it is so
+                                import to protect your famili's financi futur
+                                with suffici life insur coverag.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+state
+                          of resid:
+
+
+
+select state
+alabama
+alaska
+arizona
+arkansa
+california
+colorado
+connecticut
+delawar
+dist. of columbia
+florida
+georgia
+hawaii
+idaho
+illinoi
+indiana
+iowa
+kansa
+kentucki
+louisiana
+main
+maryland
+massachusett
+michigan
+minnesota
+mississippi
+missouri
+montana
+nebraska
+nevada
+new hampshir
+new jersei
+new mexico
+new york
+north carolina
+north dakota
+ohio
+oklahoma
+oregon
+pennsylvania
+rhode island
+south carolina
+south dakota
+tennesse
+texa
+utah
+vermont
+virginia
+washington
+west virginia
+wisconsin
+wyom
+
+
+
+
+date
+                          of birth (mm/dd/yy):
+ 
+
+mm
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+
+                          /
+                          
+dd
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+
+                          /
+                          
+yy
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+
+
+
+
+sex:
+
+
+
+
+ 
+
+                                male
+ 
+
+                                femal
+
+
+
+
+
+
+have
+                          you us ani tobacco product in the last 12 month?
+
+
+
+
+ 
+
+                                no
+ 
+
+                                ye
+
+
+
+
+
+
+coverag
+                          amount:
+
+
+
+select amount
+100,000
+125,000
+150,000
+175,000
+200,000
+225,000
+250,000
+275,000
+300,000
+325,000
+350,000
+375,000
+400,000
+425,000
+450,000
+475,000
+500,000
+550,000
+600,000
+650,000
+700,000
+750,000
+800,000
+850,000
+900,000
+950,000
+1,000,000
+1,250,000
+1,500,000
+1,750,000
+2,000,000
+2,250,000
+2,500,000
+3,000,000
+3,500,000
+4,000,000
+4,500,000
+5,000,000
+6,000,000
+7,000,000
+8,000,000
+9,000,000
+10,000,000
+11,000,000
+12,000,000
+13,000,000
+14,000,000
+15,000,000
+
+
+
+
+how
+                          long do you need the coverag?
+
+
+
+select year
+5 year
+10 year
+15 year
+20 year
+25 year
+30 year
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reliaquot
+                    make it easi and afford. we can instantli provid you
+                    with free quot from highli rate insur compani. 
+
+
+
+
+
+
+
+
+save
+                        up to
+
+
+
+
+
+on
+                        life insur
+
+
+
+
+
+
+compar quot todai.
+
+                  there is noth more 
+                  import than protect 
+                  their futur.
+
+
+
+
+
+
+copyright 2001 reliaquot,
+        inc.
+        all right reserv.
+
+
+
+
+
+
+you ar receiv thi mail becaus you ar a
+member of sendgreatoff.com and subscrib as:jm@netnoteinc.com
+to unsubscrib 
+click here
+(http://admanmail.com/subscript.asp?em=jm@netnoteinc.com&l;=sgo)
+or repli to thi email with remov in the subject line - you must
+also includ the bodi of thi messag to be unsubscrib. ani correspond about
+the product/servic should be direct to
+the compani in the ad.
+%em%jm@netnoteinc.com%/em%
+  

@@ -1,0 +1,25 @@
+re: pdf is block for print, etc. ok for acroread (it behav
+ as expect), but kpdf allow me to print it, even if it is protect!
+ why?on mon, apr 19, 2010 at 11:17:12pm +0200, merciadri luca wrote:
+> russ allberi wrote:
+
+ummm, unless i'm miss someth i don't see *ani* post by russ in
+thi thread. 
+
+ahh! i see from your origin post you *also* post to
+debian-devel. normal, the onli reason to cross-post is 
+for announc.
+
+http://linux.sgm-centr.com/misc/netiquett.php#xpost
+
+-- 
+chri.
+======
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100420113129.gb18101@fischer
+
+

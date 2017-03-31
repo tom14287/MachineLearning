@@ -1,0 +1,21 @@
+usb raid1 pendriv bootdid anyon manag to boot from raid1?
+
+lenni give thi error messag:
+
+"mdadm: no devic found for /dev/md0"
+
+i just want to instal debian lenni on two pendriv [in sraid1], so
+that the hdd's in the pc can be us onli as ""data contain"", but it
+give thi error messag.
+
+pleas help me.
+
+thank you!
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1273231027.5627.21.camel@localhost
+
+

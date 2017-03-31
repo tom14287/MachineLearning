@@ -1,0 +1,26 @@
+re: redirect stdout without clobber?> the doubl > (>>) oper?
+>
+
+ye!
+
+
+> i'd also recommend that you check out tee and tee -a.
+>
+
+nice, that's not what i need here, but i do have us for it in a
+script that's been give me troubl if it will output to a shell
+variabl. thank!
+
+-- 
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/k2g880dece01005060934s8502b5d3g623cace24898ab82@mail.csmine.org
+
+

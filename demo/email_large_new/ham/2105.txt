@@ -1,0 +1,29 @@
+re: ad 192.x with static ipon mon, 3 mai 2010 22:11:59 -0400
+zachari uram  wrote:
+
+> i have a static ip setup, i wish to add a router and it ha a web
+> interfac, i can get to it if i start a dhcp server and then
+> 192.168.1.1 is setup, but i'd realli prefer to not do thi.
+> is there a wai i can setup devic such as thi without need to run
+> dhcp? also i wa gener curiou if there is ani program which will
+
+i don't quit understand the problem.  can you explain thi a bit more clearli?
+
+> search my lan and report the address of ani network enabl devic it
+> find (firewal, dsl modem, router, etc.)? thank!
+
+nmap?
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100503231602.30b10b53.celejar@csmine.org
+
+

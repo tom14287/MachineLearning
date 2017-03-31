@@ -1,0 +1,62 @@
+[us perl] stori for 2002-10-09us perl daili newslett
+
+in thi issu:
+    * pass the parrot pumpkin
+    * the perl journal on the rope
+
++--------------------------------------------------------------------+
+| pass the parrot pumpkin                                         |
+|   post by km on tuesdai octob 08, @09:11 (parrot)              |
+|   http://us.perl.org/articl.pl?sid=02/10/08/1311237              |
++--------------------------------------------------------------------+
+
+[0]dan write "after a good run, jeff goff, the current parrot releas
+manag and keeper of the kei and sourc, is pass on the hat. let's
+everyon give a big welcom to steve fink, who's agre to take up the
+posit." thank for the work jeff... now steve, get the whip crack!
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/10/08/1311237
+
+link:
+    0. http://yetanoth.org/dan/
+
+
++--------------------------------------------------------------------+
+| the perl journal on the rope                                      |
+|   post by pudg on tuesdai octob 08, @14:35 (link)            |
+|   http://us.perl.org/articl.pl?sid=02/10/08/1835219              |
++--------------------------------------------------------------------+
+
+[0]rochlin write "look like the perl journal might not make it up for
+air after all. thi blurb is on [1]their websit. 'time is run short
+and we need your help if the perl journal is to get anoth chanc at
+be the real deal. as of a coupl of minut ago, we onli have 881
+subscript and the deadlin is fast approach. pleas subscrib now.
+it onli cost 3 cent per dai to get the best perl coverag anywher.'"
+thei need 3,000 subscrib to move forward.
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/10/08/1835219
+
+link:
+    0. http://www.nw-apt.com
+    1. http://www.tpj.com/
+
+
+
+copyright 1997-2002 pudg.  all right reserv.
+
+
+======================================================================
+
+you have receiv thi messag becaus you subscrib to it
+on us perl.  to stop receiv thi and other
+messag from us perl, or to add more messag
+or chang your prefer, pleas go to your user page.
+
+	http://us.perl.org/my/messag/
+
+you can log in and chang your prefer from there.
+
+

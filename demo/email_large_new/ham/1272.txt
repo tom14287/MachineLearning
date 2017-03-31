@@ -1,0 +1,30 @@
+re: updrad or reinstal?from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+imho, debian seem to have the best record of success upgrad. i run si=
+d
+on sever of my box, which mean it is in a constant state of upgrad. o=
+n
+my workstat, with a veri eclect mix of softwar, i have onli start
+over from scratch twice in the last 10 year...onc in 2000 and onc in
+2007.
+
+--b
+
+on fri, mai 14, 2010 at 10:25 pm,  wrote:
+
+> hi there,
+>
+> just on question,
+>
+> is it better to upgrad debian us dist-upgrad or just download the ne=
+w
+> iso and reinstal it?? i'm wait for the squeez final releas..
+> current still us lenni.
+>
+> thank
+> rjb
+> sent from my blackberri=ae
+> power by sinyal kuat indosat
+>

@@ -1,0 +1,24 @@
+[ilug] nf slow with suse 8.1nf as a protocol is not known for it speedi but thi is absurd. i did an 
+nf instal of a box thi morn (that would be the box which won't boot 
+from cd for those who were in irc) and it wa rather slow but i just left it 
+to it. have got it up, i want to copi the dvd to a disk on it so i have it 
+handi for instal ani further bit i might requir. so i simpli mount 
+the nf export dvd on the new box and start copi. 
+
+after a coupl of minut i look - it wa transfer about 8mb a minut. 
+so i kill that and us rsync instead which is tick awai now at about 
+100 mb/min - still not exactli turbo charg but a lot better than the nf 
+rate. ani idea as to what's make it so slow ? there's realli no point in 
+run more nfsd process, as there is exactli on client, so i'm a littl 
+at a loss i must sai.
+
+
+
+niall
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

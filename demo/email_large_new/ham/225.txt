@@ -1,0 +1,87 @@
+re: gforc 9400on wed, apr 14, 2010 at 11:03:06am +0200, andrea weber wrote:
+> on 2010-04-13 23:53, charl kroeger wrote:
+> > anyon have problem with their nvidia card and driver should first
+> > consult lennart sorensen's howto:
+> > 
+> > http://tinyplanet.ca/~lsorens/debian/debian-nvidia-dri-howto.html
+> 
+> i did it, thank to the author. lean and clean written. howev, i
+> disagre with it content at some point. is thi whole nvidia driver
+> instal some kind of religi debat? why us the word "make
+> sure to remov all the garbag creat by the nvidia instal..." if it
+> realli just work? i've been us the offici driver instal sinc
+> 2008, and it work absolut easi. a 1 liner to instal and the same to
+> uninstal, afaic properli btw.
+
+it is base on the fact that the 'offici instal' overwrit file
+belong to debian packag.  when those packag somedai get upgrad,
+thei overwrit what the nvidia driver instal, and then thing break.
+i have help enough peopl fix that kind of mess to know.
+
+just a simpl fact.  overwrit packag own by a packag is alwai
+a bad idea no matter how it is done, becaus somedai the packag will
+overwrit it back on you.
+
+> what trick me yesterdai: why don't i get the 2.6.32-4 kernel that
+> work with the 195.36.15 nvidia driver although i have
+> linux-imag-2.6-amd64 instal? i had to instal it manual. the
+> document state
+> "amd64: ani amd or intel	apt-get instal linux-imag-2.6-amd64 ... that
+> will keep you run the latest kernel releas by debian"
+
+linux-imag-2.6-x is not updat right awai unfortun in the case
+of unstabl (and sometim test).  it should alwai be up to date in
+stabl though.  i have never quit figur out how the kernel packag
+decid when to updat it.
+
+> and no, pleas no flame, i have no intent to provok someon. all i
+> sai is: the nvidia instal realli work easili. and ye, you'll have
+> to kick the instal after kernel upgrad. as easi as the debian wai
+> these dai. i would realli appreci some technic hint about the
+> benefit of the debian wai other than "the offici instal suckz".
+> and ye, of cours i also read
+
+it simpli come down to the fact that us the nvidia instal
+overwrit packag file and that is "a bad thing"(tm).
+
+> http://wiki.debian.org/nvidiagraphicsdriv
+> 
+> which sai
+> "advantag of "the debian wai":
+>     * more autom, which save work if the kernel is chang. "
+> and i disagre.
+
+well i am think of try to come up with a method that actual make
+it try to compil the modul if it is miss at boot.  my wife thought
+it wa rather unfriendli that her last upgrad (which gave her a new
+kernel) took awai x.  sure recompil the modul with modul-assist
+wa easi, but it had to be done manual.  i will see if i can't find
+a wai to autom that for those user that want it.
+
+> > i.e. edit /etc/x11/xorg.conf -remov 'nivida' and replac with 'nv'
+> > veri handi when the compil fail.
+> > and it will.
+> 
+> oh ye. ;-)
+
+sometim it doe. :)
+
+also the nvidia instal for a long time hasn't work with debian's
+2.6.29 and higher kernel becaus thei ar now kbuild onli (and henc
+don't allow compil test that the nvidia instal us to work unless
+thei get convert to kbuild).  i am not sure if it work with it yet.
+those run their own kernel would of cours never notic that problem
+sinc thei have the full sourc instal the wai the nvidia makefil
+assum it would be.  thi same kernel header chang also turn vmware
+modul into a nightmar as well as a few other out of kernel driver.
+
+-- 
+len sorensen
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100414145125.gm4307@caffein.csclub.uwaterloo.ca
+
+

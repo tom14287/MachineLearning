@@ -1,0 +1,52 @@
+re: how to remov oowrit delai on open document?on tue, 20 apr 2010 01:16:23 +0700, sthu deu wrote:
+
+> thank you for your time and answer, camalón:
+> 
+>>as ron alreadi said, review your system spec.
+>>
+>>ooo need a lot of ram the first time it open, and keep consum a
+>>good quantiti of your system resourc as long as is load.
+> 
+> wow! what a product!
+
+life is hard :-)
+ 
+>>in ooo 2.4 there is a "quick launch" option that preload ooo at
+>>startup, not sure if that is avail on newer releas.
+> 
+> how i can us the 2.4 version in the futur releas?! - compil myself?
+> or there ar some repo for debian that make peopl life not as bad as
+> ms' ?!
+>
+> or how i can make w/o c++ program save the 2.4 version for ever?
+> pleas do not suppos i'm foolish - just want still comfort work
+> for year...
+
+if ooo doe not offer such featur anymor, you can get "preload¹" which 
+is... humm, a "preload" daemon ;-)
+
+>>anoth thing you can try is launch ooo with an empti profil folder
+>>(just renam the current on) to start it from scratch and check if the
+>>delai still continu.
+> 
+> sorri, i do not understand "empti profil folder"...
+
+openoffic save the user set under "~/.openoffic.org2" (or a 
+similar path). just try by renam the current folder and start ooo (it 
+will recreat an empti and new on) to check if you note ani speed 
+improv.
+
+¹ http://packag.debian.org/stabl/misc/preload
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.19.18.58.20@csmine.org
+
+

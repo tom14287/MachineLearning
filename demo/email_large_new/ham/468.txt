@@ -1,0 +1,30 @@
+re: motherboardson 05/25/2010 01:03 pm, jean-françoi wrote:
+> hello,
+>
+> i might be wrong, but i guess the exact name for your motherboard is 
+> dfi lanparti dk p45-t2rs plu (as oppos to the elit or turbo 
+> model), which ha 8 sataii port, and i also guess you have us the 
+> two yellow port? if so, plug your drive in the orang port to us 
+> the sata control from the ich10r and not the jmicron jmb363 (given 
+> the vast amount of option traditionn present in a dfi lanparti 
+> bio, you can probabl disabl the jmicron control if you want to 
+> do so).
+>
+> the ich10r onli provid 6 sataii port, and the jmicron control is 
+> there to provid 2 additionn port.
+>
+
+ye, the plu is the correct model. i will have to look into it again, 
+but i have 3 drive so thei could not all be in the two yellow port. 
+thi mai also explain why fdisk list my drive in the order: sdc, sdb, 
+sda. run lspci -k, i don't recal see ata_piix at all.
+
+thank for the input, i will have anoth look tonight.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bfc04c3.9090907@csmine.org
+
+

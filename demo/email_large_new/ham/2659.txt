@@ -1,0 +1,296 @@
+[lockergnom webmast weekli]  compat whistl
+
+<!--
+ bodi      { background-imag: url(http://imag.lockergnom.com/imag/issu/top-right.gif); color: #14367a }
+ a:link    { color: #008000; text-decor: underlin; font-weight: normal }
+ a:visit { color: #003e00; text-decor: underlin; font-weight: normal }
+ a:activ  { color: #000000; text-decor: none }
+ a:hover   { color: grai; text-decor: none }
+ p.titl   { background: #ff9700; border-bottom: #e08a00 4px solid; border-left: #ffb03f 4px solid; border-right: #e08a00 4px solid; border-top: #ffb03f 4px solid; color: #4c2e00; font-famili: comic san ms, trebuchet ms, helvetica, arial; font-size: 14pt; font-weight: normal }
+ p.sidebar { background: #ff9700; text-align: center; border-bottom: #e08a00 3px solid; border-left: #ffb03f 3px solid; border-right: #e08a00 3px solid; border-top: #ffb03f 3px solid; color: #4c2e00; font-famili: comic san ms, trebuchet ms, helvetica, arial; font-size: 10pt; font-weight: bold } 
+ .url      { font-size: 8pt; font-famili: verdana, tahoma, arial }
+-->
+
+
+20020712 sausag sizzler - lockergnom - webmast weekli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 07.12.2002 webreport
+
+
+cut your design cost and time: get access to 250+ web templat 
+with css at basictempl.com. 
+annual membership ar onli $54.95. individu templat ar $5.00 each. 
+new templat ad weekli. no link back is requir, and web design 
+ar not charg higher fee to us them on their client' site. 
+brows the full galleri!   
+
+somehow, it never got mention that lockergnom ha a gnometom for all 
+you 
+dreamweav user out there. denni jarrett, a gnomi from the uk 
+with a prolif list of write accomplish, lent hi brain to a list 
+of thing everyon should know to make us dreamweav 4 (and newer) 
+easier to us. i 've never actual us version 4, have stuck with 3 
+until recent start the review process of the studiomx  suit, but 
+i've been  abl to appli everi tip i tri to some aspect of dreamweavermx, 
+so i can onli guess those of you us 4 will want to 
+check 'em out too.
+
+as i mention in yesterdai's digit media newslett, i recent 
+switch cell phone to the 
+kyocera qcp6035. 
+the unit is palm power, with a screen the size of an m105 and all the 
+function of palm os, in addit to have the latest bell and whistl 
+you'd want in a phone. built in web brows, by wai of msn, is slightli 
+cumbersom compar to what i'm us to from my cabl connect, but i can 
+alreadi see the us in carri around portabl access to thing like 
+drive direct. 
+
+now that i've got a wai to test the final result in real time, i've got a 
+more vest interest in make lockergnom consider more wap compat. 
+i'm still figur out mani of the phone's featur, so that's still go to 
+be at least  a few week awai. without a doubt, i'll be share my experi 
+in wape lockergnom in an upcom seri of articl.
+
+
+
+jake ludington        
+
+ gnomemail
+phpmynewslett
+http://gregori.kokanoski.free.fr/phpmynewslett/
+
+as a free solut for manag newslett, for smaller list, 
+thi doe most of what you need. subscrib ar store in a 
+mysql databas, with the abil to send user confirm 
+e-mail. initi, the address must still be ad manual to 
+the databas, which isn't idea, but do thi gener a 
+confirm e-mail with a link that user click on if thei want 
+to be ad. the softwar purg address with no respons, 
+follow an administr defin wait period. from the php 
+interfac you can send either text or html format messag, 
+with a built-in preview to make sure your format is ok. 
+document is somewhat spars, so prior knowledg of php and 
+mysql ar us in get thi instal.
+
+
+
+ gnometool
+
+
+
+opalisrobot v4.0 [60mb] nt/w2k/xp
+http://www.opali.com
+
+think of thi as someth like "cron for window" onli even more power. 
+opalisrobot allow you to schedul almost ani process on your server, 
+ad an addit layer of function, like the abil to program 
+telephoni command to complet administr task. opalisrobot 
+effect process e-mail command, in addit to telephon dtmf tone, 
+make everyth on your server administer from remot locat, 
+even when you can't get remot control access of the machin. program 
+job is point-click simpl, save you time even when you schedul task 
+to save you time. if you oper in a window server environ, you're 
+ad extra hour to your dai and cost your compani addit dollar 
+by not have thi softwar.
+
+ gnomeserv
+png file do not show transpar in internet explor (q294714)
+http://support.microsoft.com/default.aspx?scid=kb;en-us;q294714
+
+"if you brows to a web page that contain an imag that ha a transpar 
+background in portabl network graphic (png) format, the imag background 
+mai appear to be grai rather than transpar."
+
+fortun, microsoft explain a solut for thi problem. person, i 
+haven't encount thi png displai error, but for those of you 
+simplement png on your site, you'll want to review the solut.
+
+
+
+
+
+web templat with css: cut your design cost and time with an 
+annual membership from basictempl.com. 
+for onli $54.95 get access to 250+ web templat. 
+new templat ad weekli.  
+
+
+ gnomeus
+
+http://diveintomark.org/
+
+not onli is thi inform great for improv blog access, it 
+happen to be equal relev for *ani* site. the 30 dai ar near 
+their end, which mean you won't have to wait to find out what's next; 
+you can simpli click to the next page. mark pilgrim, the site's creator, 
+set the stage with 5 charact (all of which could easili repres 
+real peopl) and walk through their physic, mental, and technolog 
+limit. follow the charact introduct, mark walk through 
+an access scenario each dai and then relat the concept back 
+specif benefit for each charact's limit. solut ar 
+present with blog in mind, but with veri littl extrapol you'll 
+be abl to make everi site you design more user friendli.
+
+
+ gnomeblog
+backend.userland.com
+http://backend.userland.com/
+
+i've been us radio from the moment i final got around to creat 
+a blog. the softwar keep thing simpl and automat updat 
+itself when new thing get ad. userland goe far beyond creat a 
+desktop interfac for their blog system though. thei've fulli 
+document all the xml, xml-rpc, and soap tie-in us to connect to 
+their network, which could easili be adapt to other content 
+manag applic with some xml knowhow. backend is the place to 
+look "under the hood" at userland's xml inner work, includ 
+detail document on make everyth work. if you've got 
+modif or improv to the system, thei have an open 
+discuss forum for trade idea.
+
+
+
+
+
+
+http://www.lockergnom.com/issu/webmasterweekli/20020712.html
+your subscrib e-mail address is: [qqqqqqqqqq-lg@spamassassin.taint.org] - to unsubscrib or chang your deliveri address, pleas visit the subscript manag page. for further inform, pleas refer to the gnomecredit in the sidebar.
+
+
+
+
+
+
+lockergnom
+
+
+ download our tip file
+
+ latest window daili
+ latest digit media
+ latest tech specialist
+ latest penguin shell
+
+ latest appl core
+ latest web weekli
+ latest bit & byte
+ latest audio show
+
+
+ low price search
+ $99 tech confer
+
+ the gnomestor
+ tell a friend about us!
+ suggest a featur
+ advertis with us
+ high-tech job search
+ chat with gnomi
+ watch the webcam
+
+ comput power user
+
+ read past issu
+ download x-setup
+ about lockergnom
+ our privaci polici
+ view more option
+ our xml / rss feed
+ syndic our tip
+
+ link to lockergnom
+ get chri's book
+ gener feedback
+ e-mail the editor
+ jake's blog
+
+ our xml / rss feed
+ syndic our tip
+ link to lockergnom
+
+ sound system
+yamaha rx-v1200
+soni davc900
+harman kardon	avr520
+denon	avr5803
+pioneer vsxd811s
+pioneer elit	vsx49tx
+soni htddw840
+yamaha htr5560
+bose ls122bk
+soni davc450
+ gnomespeci
+ manag your workgroup
+ form pilot
+ sai the time 5.0
+ boomer - stream now
+ creat web/cd catalog
+ easi web editor
+ kleptomania
+ tag&renam
+ pretti good solitair
+ visual color combo
+ firststop websearch
+ ecobuild
+ book collector
+get list here
+question: which group is 250,000+ strong and alwai look for stuff to make their person and profession live run smoother?
+
+
+
+
+
+ 
+look it up
+
+
+
+
+
+ 
+credit
+
+©2002, sausag softwar and lockergnom llc. all right reserv. nathan allan, the sausag crew and lockergnom lunat spin all the content. pleas read our term of servic.
+
+
+
+  search past issu:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+get paid what you ar worth? chang your career - or get a better on! your dream job could be a mous click awai. visit our job search page for a posit with a futur. find a new career todai!
+
+
+
+
+
+
+

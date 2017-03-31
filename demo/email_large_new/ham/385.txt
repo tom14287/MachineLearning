@@ -1,0 +1,20 @@
+re: kde 3.5 ...on 2010-05-06, mike bird  wrote:
+> sune is not interest in work on kde 3.5 but he's us slrn via
+> gmane.
+
+for maillist avail via gmane, i realli prefer that. i have been
+us slrn for as much as possibl even befor kde 3.3 wa upload to
+debian.
+
+i do us kmail for my my person email, and the maillist that i'm
+subscrib to that aren't gmane access.
+
+/sune
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/slrnhu616e.rvp.nospam@sshwai.ssh.pusl.com
+
+

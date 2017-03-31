@@ -1,0 +1,31 @@
+re: hionc upon a time, thoma wrote :
+
+> i want to find out who tri recompil a work apt rpm for (null)
+> or psych.  i would like to get good gstreamer packag done by mondai
+> when it's releas.
+
+i have a work apt 0.5.4cnc7 packag for red hat linux 8.0. it will be
+avail at the same second the distribut will, and so will a complet
+apt repositori alreadi includ quit a few of my packag updat for red
+hat linux 8.0.
+
+i didn't want to sai all thi befor mondai, but as the new releas alreadi
+leak from mani place, and offici statement made about it, it
+shouldn't be a big deal :-/
+
+i'll keep you all post on mondai! thei'll even be a big apt-relat
+surpris! ;-))))
+
+matthia
+
+-- 
+matthia saou                                world trade center
+-------------                                edificio nort 4 planta
+system and network engin                  08039 barcelona, spain
+electron group interact                 phone : +34 936 00 23 23
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

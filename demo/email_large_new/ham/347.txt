@@ -1,0 +1,66 @@
+re: which kernel for thinkpad 760xd ?from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=iso-8859-1
+
+@merciadri luca
+
+[quot]
+i have no answer to your question, but i am wonder... what doe 'lol'
+mean here? is it some version of someth, or did you simpli put thi over
+there becaus you have some sens of humor and you like to make your
+(somewhat old) config appear less depress to the other' ey?
+[/quot]
+
+
+... it's the hostnam, but it is funni! i don't give a damn about what
+other might think anywai, i'm just have fun with it, make some test,
+push my knowledg...
+
+@stefan
+
+[quot]
+486 will work.  686 mai work.
+[/quot]
+
+
+my impress exactli, but i'd like to be sure : if i scrape thi instal,
+i'll have a hard time recov it...
+
+@bob
+
+[quot]
+ionreflex@lol:~$ cat /proc/cpuinfo
+processor: 0
+vendor_id: genuineintel
+cpu famili: 5
+model: 4
+model name: pentium mmx
+step: 4
+cpu mhz: 165.791
+fdiv_bug: no
+hlt_bug: no
+f00f_bug: ye
+coma_bug: no
+fpu: ye
+fpu_except: ye
+cpuid level: 1
+wp: ye
+flag: fpu vme de pse tsc msr mce cx8 mmx
+bogomip: 330.95
+[/quot]
+
+[quot]
+ionreflex@lol:~$ cat /etc/debian_version
+4.0
+[/quot]
+
+
+i had to doublecheck to make sure i wasn't jump ani major, thank for
+that insight; i alreadi knew what chip wa insid the laptop, i'm just not
+sure what and where to look for to know which kernel to choos. if you can
+point me in the right direct, i would realli appreci it!
+
+tankiou all! :o)
+
+
+
+ion

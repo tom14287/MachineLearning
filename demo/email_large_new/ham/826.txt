@@ -1,0 +1,43 @@
+re: re: the futur of "nv" driver (wa: linux compat mainboard
+ -anoth thought)
+
+on 01/-10/-28163 02:59 pm, ron johnson wrote:
+ > that's on differ between us: i don't us compiz.
+
+that's not a differ. i don't us it, either. my us of compiz wa 
+just a part of explor of the gnome de. i don't even us gnome now.
+
+ > ... becaus i don't need glitzi special effect.
+
+neither do i. that's why i us xfce.
+
+ > ar there ani non-glitzi benefit to compositor?
+
+i occasion turn on xfce's composit for specif task in which it 
+actual make my work easier. but most if the time, it's off.
+
+ > which driver version do you us?
+
+nv - debian squeez
+
+gave up final in decemb last year try to get the blob to work 
+reliabl. thei're simpli not worth the effort for someon with my 
+particular need.
+
+i'm reason happi with the system with the nvidia workstat card. 
+but the cheaper system with intel and ati graphic ar faster and 
+handl ani special effect i might want (like occasion us of desktop 
+composit) better, and i'm happier with them. nvidia is simpli not on 
+my radar for ani futur system becaus i consid their approach to 
+linux to be inim to foss.
+
+ps: my apolog. recent updat to my mail client coupl with lack of 
+sleep. i accident sent ron a direct e-mail repli. mea culpa.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd37aa0.2040002@comcast.net
+
+

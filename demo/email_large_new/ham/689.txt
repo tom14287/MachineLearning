@@ -1,0 +1,26 @@
+re: fwd: re: kde 3.5 ...from nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+
+on mon, mai 10, 2010 at 05:57:00am -0700, mike bird wrote:
+> nor ar kde 3.5 user sai that kde 4 should not be
+> packag.  the problem is kde 4 true believ who ar
+> try to prevent peopl from us kde 3.5.
+
+actual, the problem is that nobodi care enough about kde 3.5 to
+actual do anyth about it.  ye, fine, there's triniti, but as far
+as anybodi can tell, that's just on gui.  i'm sure you could find on
+gui somewher out there still hack on linux 2.2 or someth equal
+dead.  doesn't make it ani less dead.
+
+ye, you can have kde 3.5!  you can even have it as an offici part of
+debian!  nobodi will stop you!  howev,  you will need to do some work.
+you will need to make sure that there is suffici upstream develop
+committ to keep it usabl and current, and you will need to make
+sure there is a suffici motiv packag team to keep up with
+upstream work, triag bug, and cooridin packag updat with
+upstream, the the releas team, the secur team, etc etc.  can you do
+that?
+
+noah
+

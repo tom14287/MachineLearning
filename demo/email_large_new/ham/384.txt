@@ -1,0 +1,40 @@
+re: [satalk] cannot get spamd to workso sprach malt s. stretz am 2002-07-21 um 01:56:18 +0200 :
+> not realli. in most case it's an instal-and-forget. but there're some 
+> special case like you. be proud! you're special :o)
+
+uhm, ye, i'm happi that it doesn't work for me ;))
+
+> i had a look at the spamc sourc and put a printf everywher an exit code 74 
+> is us; could you have a try with the attach spamc, pleas?
+
+read_messag->old_serverex 74
+
+host:~/.cpan/build/mail-spamassassin-2.31 # telnet localhost 783
+try 127.0.0.1...
+connect to localhost.
+escap charact is '^]'.
+df
+spamd/1.0 76 bad header line: df
+connect close by foreign host.
+
+just like john just said - thank a lot for take all that time to help
+me get sa to work!  i'm *realli* thank for thi!
+
+alexand skwar
+-- 
+how to quot:	http://learn.to/quot (german) http://quot.6x.to (english)
+homepag:	http://www.iso-top.biz     |    jabber: askwar@a-messag.de
+   iso-top.biz - die günstige art an linux distributionen zu kommen
+                       uptim: 4 dai 14 hour 37 minut
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

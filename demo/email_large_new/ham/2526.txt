@@ -1,0 +1,18 @@
+lxde session abort immedi.well, not realli, but that is what the messag sai.  actual, it sai that the session last less than ten second, but who's count.
+
+thi start happen last mondai night after do a full-upgrad on my laptop, run squeez.
+
+in realiti:  if i click on ok (the onli button avail) then the session doe inde end and i am drop back to a login window.  if i click the 'x' button, the same thing happen.  if i click the 'minim' button, howev, the messag just goe awai (it doe not appear in the task bar) and i can continu to work as if noth had happen.
+
+i thought that mayb i just had someth mess up in some configur file in my home directori, so i tri creat a new user to see if it still happen there.  it did.  that elimin a person config file from be the problem, but leav me no closer to an answer.  is anyon els us lxde on squeez have thi problem?
+
+ marc shapiro
+mshapiro_42@yahoo.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/497147.39102.qm@web55506.mail.re4.yahoo.com
+
+

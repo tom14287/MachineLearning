@@ -1,0 +1,58 @@
+re: question about raid 6mark allum put forth on 4/27/2010 10:31 pm:
+
+> for dii, alwai pair those drive.  consid raid 10, raid 50, raid 60,
+> etc.  ala, that doubl the number of drive, and intens decreas
+> the mtbf, which is the whole outcom you want to avoid.
+
+thi is my prefer mdadm 4 drive setup for a light offic server or home
+media/vaniti server.  some minor setup detail ar omit from the diagram
+to keep it simpl, such as the fact that /boot is a mirror 100mb partit
+set and that there ar two non mirror 1gb swap partit.  / and /var ar
+mirror partit in the remain first 30gb.  these size ar arbitrari,
+and can be season to tast.  i find these size work fairli well for a non
+gui debian server.
+
+md raid, 4 x 500gb 7.2k rpm sataii drive:
+
+	mirror			 mirror
+	/    \			 /    \
+ --------  3  --------    --------  3  --------
+| /boot  | 0 | /boot  |  | swap1  | 0 | swap2  |
+| /      | g | /      |  | /var   | g | /var   |
+|--------|   |--------|  |--------|   |--------|
+| /home  |   | /home  |  | /home  |   | /home  |
+| /samba |   | /samba |  | /samba |   | /samba |
+| other  |   | other  |  | other  |   | other  |
+|        |   |        |  |        |   |        |
+|        |   |        |  |        |   |        |
+ --------     --------    --------     --------
+	\	\		/	/
+         -------------------------------
+		     raid 10
+		   940 gb net
+
+for approxim the same $$ outlai on could simpli mirror two 1tb 7.2k
+rpm drive and have the same usabl space and a littl less power draw.  the
+4 drive raid 10 setup will yield better read and write perform due to
+the stripe, especi under a multius workload, and especi for imap
+serv of larg mailboxen.  for a small/medium offic server run sai
+postfix/dovecot/samba/lighti+roundcub webmail, a small intranet etc, the 4
+drive setup would yield significantli better perform than the higher
+capac 2 drive setup.  us newegg's price, each solut will run a
+littl below or abov $200.
+
+thi 4 drive raid 10 make for a nice littl inexpens and speedi setup.
+1tb of user space mai not seem like much given the capac of todai's
+drive, but most small/medium offic won't come close to us that much
+space for a number of year, assum you have sane email attach polici.
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd80b6e.2010401@hardwarefreak.com
+
+

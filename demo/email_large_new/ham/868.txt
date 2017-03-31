@@ -1,0 +1,26 @@
+re: usb devic attach via rs232 adaptor> inde. =c2=a0sound to me as though dotan's neighbour isn't all that tec=
+h
+> savvi.
+>
+
+he's not, he's call _me_ for support! actual, he is veri
+knowledg in hi field, but thi is not hi field.
+
+it turn out to be a mess of part. there is the usb card reader that
+i mention earlier, and also a serial usb reader with no
+document or number to googl. i took a pictur of it with my
+camera phone, i will post a link shortli.
+
+--=20
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/i2s880dece01004220817pda7fdce6u2eb60f1e1f6d9903@mail.csmine.org
+
+

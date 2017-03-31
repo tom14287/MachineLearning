@@ -1,0 +1,40 @@
+re: how to flush cach of certain disk?>> when i unplug stick, udev unmount it from mountpoint. pai attent
+>> to moment of unmount - it happen *after* unplug, so no cach can
+>> be flush as far as devic is alreadi disconnect.
+>>
+>> i though about run umount /mnt/sd[a-z] befor unplug, but then
+>> decid to ask for a better wai. if i won't find it, umount will be
+>> the solut. so, ani other option?
+>
+> i never do that wai. i alwai first "umount" the devic and then, i
+> remov the stick, but not the revers. remov media ha to be done
+> that wai, to prevent data loss or flash drive damag, or that is what
+> manufactur sai :-?
+
+of cours, "umount, then remov" is the normal wai to remov usb stick
+(and ani other storag). but as far as main idea of automount is
+"easi (un)plug" (in my opinion at least), we have littl weird but
+work principl "sync, then unplug, and udev will carri out
+everyth els". as i alreadi said, it's realli weird, but it work.
+
+but all you said made me hard think about the wai i mount and
+unmount my remov media. mayb i should forget about sync and us
+'umount /mnt/sd[a-z]' instead, or even write littl script which will
+ask me which devic i want to unmount=e2=80=a6 dunno. but thank for sharin=
+g
+your thought with me!
+
+p.s. camal=c3=b3n, pleas forgiv me for send previou mail directli to
+you, not to the list. i think it's time to drop gmail web interfac
+and switch back to local email client=e2=80=a6
+
+with best regard,
+alexand batischev
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/t2k28c1d5ea1005060804l6bb90152s5ff573e00b58b6ec@mail.csmine.org
+
+

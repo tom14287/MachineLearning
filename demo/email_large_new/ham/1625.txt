@@ -1,0 +1,37 @@
+re: ntpdate cron error2010/5/13 david baron :
+> the initi ntpdate run from /etc/init.d succe.
+>
+> howev, as of recent upgrad or site chang, a cron run of ntpdate fai=
+ls:
+>
+> cron ... /usr/sbin/ntpdate -s 216.200.93.8 (fail)
+> =c2=a0...
+> command fail with exit statu 1
+>
+> i assum that the ip shown is not avail. i cannot find where thi cro=
+n job
+> is specifi to chang to a "pool" ip or simpli cancel it sinc it is rea=
+lly
+> not necessari. onc or twice a dai is suffici.
+>
+> ani idea.
+
+some possibl:
+- root's crontab (crontab -e as root)
+- system wide crontab (/etc/crontab)
+- /etc/cron.d directori
+
+--=20
+frank van damm
+a: becaus it destroi the flow of the convers.
+q: why is it bad?
+a: no, it's bad.
+q: should i top post in repli to mail list or on usenet?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktikb_smxdiguc1qudkg4wawugjj-cncj-xzn-vq@mail.csmine.org
+
+

@@ -1,0 +1,66 @@
+re: java sound api statu?hi michael,
+                           .rmf and .mid file work fine for me with the =
+javasound demo that is ship under :
+
+/develop/extra/java/sound/javasounddemo/
+
+the javasound demo that is on thi site is old and buggi :
+
+> http://java.sun.com/product/java-media/sound/sampl/javasounddemo/
+
+when run it, it fail with an error in the demo : (thi is a demo =
+bug, which we fix in our demo code)
+
+except in thread "juke" java.lang.nullpointerexcept
+	at juke.setgain(juke.java:464)
+	at juke.playsound(juke.java:301)
+	at juke.run(juke.java:410)
+	at java.lang.thread.run(thread.java:637)
+
+pleas us the demo from /develop/extra/java/sound/javasounddemo/.
+
+both .mid and .rmf file plai fine. as of updat 1, we also support =
+extern midi devic.
+
+thank,
+bino georg,
+java runtim engin,
+appl inc.
+
+
+
+on mai 21, 2010, at 2:51 pm, michael dever wrote:
+
+> try out the java sound .jar file.
+> some of the file type don't plai.
+> [ .rmf and .mid ]
+>=20
+> - wave, aif and au plai nice.
+>=20
+>=20
+> is thi a know issu?
+>=20
+> http://java.sun.com/product/java-media/sound/sampl/javasounddemo/
+>=20
+>=20
+>=20
+>=20
+> michael j. dever
+>=20
+>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list      (java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/java-dev/bino%40appl.com
+>=20
+> thi email sent to bino@appl.com
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

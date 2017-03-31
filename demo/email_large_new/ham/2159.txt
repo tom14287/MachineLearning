@@ -1,0 +1,46 @@
+re: delet some regexp/simpl express from lot of file in a secur wai-----begin pgp sign messag-----
+hash: sha1
+
+"boyd stephen smith jr."  write:
+
+> on fridai 14 mai 2010 12:04:42 merciadri luca wrote:
+>> i have mani text file (actual .tex file) which contain some
+>> sequenc or regexp (it depend on the file) that i would like to
+>> remov. is there a commandlin/gui for do thi massiv edit?
+>
+> (sed -i -e "s/$regexp//" "$file") for a singl file.  (gnu sed onli.)
+>
+> (find $dir -type f -exec sed -i -e "s/$regexp//" {} \;) for all file in a 
+> directori.
+thank both. (@andrei: it wa in the content of the file, sorri not to
+have specifi it befor.)
+
+i am us the second command. the problem is that, for on set of
+file (that i have select, no problem for thi), i have to us a
+realli simpl express: i need to find all the occur of
+`\paragraph{}' and replac them with noth (i.e. with `'). i know
+regexp, but replac `$regexp' with `\paragraph{}' give error
+messag. ani idea? thank.
+
+- -- 
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+- -- 
+
+the absent ar alwai in the wrong.
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: process by mailcrypt 3.5.8 
+
+ieyearecaayfakvtj0acgkqm0llzlt8mhzecgcfuik/mxij3pqsvpegexj2/88
+zjqaokwq7outuxqrf+szrmi8fpicx//
+=brrm
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87vdaqqsk2.fsf@merciadriluca-station.merciadriluca
+
+

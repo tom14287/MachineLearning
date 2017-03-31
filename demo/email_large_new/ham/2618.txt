@@ -1,0 +1,28 @@
+re: [ilug] slashdot ew dijkstra humorspeak of thing consid harm, line length of over 80 char
+ar consid harm.  cut it out.
+
+on thu, aug 08, 2002 at 11:27:59am +0100, wintermut wrote:
+> interest. i've alwai wonder about thing 'consid' to be bad. 
+> exampl the goto, most languag support a goto of some sort, so ar
+> goto realli bad?
+
+if us properli, thei actual can make code more readabl.  but those
+proper occas ar quit rare realli.  it's a good idea to avoid them
+sinc over us of goto will creat what niall call "write-onli code."
+what a wonder express.  my professor would spend entir lectur
+explain that concept, and yet three littl word convei it so well.
+
+kevin
+
+-- 
+kevin@suber.net     that a believ is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspac place: home       than a sober on. the happi of credul is a
+http://ie.suber.net/~kevin   cheap & danger qualiti -- g.b. shaw
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

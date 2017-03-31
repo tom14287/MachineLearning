@@ -1,0 +1,22 @@
+re: usb devic attach via rs232 adaptorfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii
+content-transfer-encod: quot-printabl
+
+on sun, 18 apr 2010 16:20:49 -0300
+eduardo m kalinowski  wrote:
+
+hello eduardo,
+
+> i see noth about serial there. just a plain smart card reader that=20
+> connect directli via usb.
+
+true, but dotan's neighbour ha an rs232 to usb adaptor that the reader
+is connect to.
+
+--=20
+ regard  _
+         / )           "the blindingli obviou is
+        / _)rad        never immedi appar"
+
+i don't believ you have to be an idiot to get somewher these dai
+bombsit boi - the advert

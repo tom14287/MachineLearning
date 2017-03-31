@@ -1,0 +1,56 @@
+re: java graphicsgener on mac server without graphic hardwarestuart wier  wrote:
+
+> it seem that java on mac os x doesn't us x11 (or xvfb) at all. is it
+> attempt to interact with the quartz/cocoa/aqua window framework?
+
+ye.  the x server is complet secondari, and i don't think appl java
+interact with it at all.
+
+> it seem not particularli interest in whether or not an x server is
+> avail or the displai variabl is set or whether you've tunnel x
+> through ssh.
+
+right.
+
+> is there is a wai to run java graphic gener on the mac 10.6
+> server without a graphic displai?  i need to know so i can move
+> forward in some other wai.  rewrit the program is not an option.
+> "headless=true" is not a help sinc the program need to run just as
+> if it had graphic.
+
+if you ar us awt, you need to give your program access to the
+consol.  appl us a mach-involv secur model of namespac to
+control access to variou thing; you can find more inform on it at
+http://develop.appl.com/mac/librari/technot/tn2005/tn2083.html.
+worth read.  sever time.
+
+but the pertin bit is ``a process can onli us the global window
+server servic if it euid is 0 (it's run as root) or match the
+uid of the consol user. all other user ar bar from us it.''
+
+i don't see an updat of thi document for 10.6, either.
+
+> how can i set up thing so that graphic gener proce and make
+> imag file as if graphic hardwar were avail?   the program is
+> design to do thi us x, either with x11 with graphic hardwar,
+> or with xvfb.
+
+you could try instal anoth java that includ a client xlib
+implement, and go from there.  or, of cours, run your program on
+linux or freebsd or opensolari instead.
+
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list      (java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/java-dev/janssen%40parc.com
+> 
+> thi email sent to janssen@parc.com
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

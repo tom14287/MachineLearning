@@ -1,0 +1,89 @@
+[spam]  h1n1 vaccin will cost:
+
+
+alternet newslett
+
+<!--
+a:link { text-decor:none; color:#0044bb; }
+a:visit { text-decor:none; color:#0044bb; }
+a:hover { text-decor:underlin; color:#0066cc; }
+a:activ { text-decor:none; color:#0044bb; }
+a.alt_nohigh:link { color:#666; }
+a.alt_nohigh:hover { text-decor:none; color:#999; }
+alt_mainbord { border: 1px solid #ccc; }
+alt_subhead { font-famili:verdana, arial, san-serif; font-size:12px; font-weight:bold; }
+alt_subheadsub { color:#666666; font-weight:normal; }
+alt_normal { font-famili:verdana, arial, san-serif; font-size:11px; font-weight:normal; line-height:15px; color:#000; }
+alt_subdecrip { font-famili:verdana, arial, san-serif; font-size:13 px; font-weight:normal; line-height:15px; color:#000; }
+alt_newslett { font-famili:verdana, arial, san-serif; font-size:18px; font-weight:bold; line-height:19px; color:#000; }
+alt_bylin { font-famili:verdana, arial, san-serif;  color:#666666; font-weight:normal; font-size:11px; }
+alt_substori { font-famili:verdana, arial, san-serif; font-size:13px; font-weight:bold; line-height:13px; }
+alt_substorydescrip { font-famili:verdana, arial, san-serif; font-size:12px; font-weight:normal; line-height:15px; color:#000; pad:0 0 10px 0; margin:0; }
+alt_mainhead { font-famili:verdana, arial, san-serif; color:#000; font-size:18px; font-weight:bold; line-height:normal; }
+alt_mainheadsub { font-famili:verdana, arial, san-serif; color:#000; font-size:13px; font-weight:normal; pad:0 0 10px 0; margin:0; }
+alt_mainheadbylin { color:#666666; font-weight:normal; font-size:12px; }
+alt_divid1 { pad-top:10px; pad-bottom:10px; }
+alt_divid2 { pad-top:5px; pad-bottom:10px; }
+-->
+
+
+
+
+if you ar have troubl read thi email, go to onlin version
+
+
+
+
+
+
+
+
+ 
+
+enewslett
+
+octob 16th, 2009
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+support
+					us  |  contact us  |  privaci polici  |  unsubscrib
+                    you ar subscrib as hibodi@csmine.org
+© 2009 independ men's sexual institut
+                    all right reserv
+                    77 feder st., 2nd floor, san francisco, ca 94107
+
+
+
+
+
+
+
+

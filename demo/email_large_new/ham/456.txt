@@ -1,0 +1,46 @@
+re: [ilug] slashdot ew dijkstra humorgari coadi wrote:
+> oop, i tend to feel like that most time! i tend to feel that if we
+> have extrem good compil tool, then those tool should be abl
+> to do the inlin and optimis far better than i could. that's the
+> theori anywai :) and there's alwai a tradeoff with inlin between
+> speed and memori bloat (which mai sometim be no tradeoff if swap
+> start get involv...)
+
+
+thi is someth that often annoi me. programm can spend hour inlin
+code and reli on optimis tool to improv perform. the best
+perform improv can be obtain by fix the algorithm.
+
+most function call get made veri rare. optimis them often make no
+sens, produc illeg code and nonsens algorithm.
+
+inlin will help in function that get call frequent and ar small -
+such as string manipul routin. but these ar a small part of most
+applic.
+
+on exampl i frequent see is peopl optimis a databas function call.
+most databas access involv mani abstract layer and million of
+instruct cycl. try to save a few instruct cycl would be a cost
+save of, sai, 5 second in 20 hour.
+
+but a simpl hashmap cach of common data without ani compil or inlin
+optimis can turn that same 20 hour into 10 minut.
+
+
+
+- matthew (who realli should be write code)
+
+
+__________________________________________________
+do you yahoo!?
+everyth you'll ever need on on web page
+from new and sport to email and music chart
+http://uk.my.yahoo.com
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

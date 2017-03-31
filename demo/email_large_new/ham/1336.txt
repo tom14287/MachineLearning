@@ -1,0 +1,15 @@
+re: [ilug] linux installgianni ponzi wrote:
+> i have a prob when try to instal linux (tri redhat, suse) on my
+> laptop. i can start the instal but after about 2min, the whole pc just
+> di.
+
+can you disabl dma and see if thi make a differ?
+
+nick
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

@@ -1,0 +1,14 @@
+re: chromium xperiencehugo vanwoerkom wrote:
+> 
+> good question. i now us googl chrome 5.0.375.38 beta exclus.
+> i load it down from their site. is there a debian packag?
+> 
+chromium-browser
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf45dc6.9020104@fastmail.fm
+
+

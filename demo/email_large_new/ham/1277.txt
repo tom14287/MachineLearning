@@ -1,0 +1,47 @@
+re: bug#578383: bug nautilu-clamscany, tomorrow i'll try...
+thank for the moment
+
+2010/4/24 josselin mouett :
+> le samedi 24 avril 2010 =c3=a0 13:02 +0200, philipp kern a =c3=a9crit :
+>> on wed, apr 21, 2010 at 09:00:34am +0200, philipp kern wrote:
+>> > on wed, apr 21, 2010 at 08:36:24am +0200, josselin mouett wrote:
+>> > > dear volatil team, would it be possibl to have binnmu for
+>> > > python-clamav in volatil? or doe it need a sourc upload? if so, w=
+ho
+>> > > could do it?
+>> > thank to adsb that alreadi happen. =c2=a0howev unless somebodi wh=
+o's us
+>> > to the packag test it and report back a success it won't be copi =
+over.
+>> > dansguardian wa the onli packag for now where that happen. =c2=a0w=
+ould you
+>> > mind test it?
+>>
+>> ping. =c2=a0it's in volatil's lenni-propos fwiw.
+>
+> giulio, could you test it? or cl=c3=a9ment?
+> --
+> =c2=a0.''`. =c2=a0 =c2=a0 =c2=a0josselin mouett
+> : :' :
+> `. `' =c2=a0=e2=80=9cif you behav thi wai becaus you ar blackmail b=
+y someon,
+> =c2=a0`- =c2=a0 =c2=a0[=e2=80=a6] i will see what i can do for you.=e2=80=
+=9d =c2=a0-- j=c3=b6rg schill
+>
+>
+
+
+
+--=20
+dr. giulio spinozzi
+e-mail: giuliospinozzi@csmine.org
+web: http://giuliospinozzi.altervista.org
+gnupg kei id: 0xabbf9d15 | http://pgp.mit.edu/
+
+
+-- 
+to unsubscrib, email to debian-volatil-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/r2n951d34ac1004240746he45d72ebq4958a7bdc6141510@mail.csmine.org
+
+

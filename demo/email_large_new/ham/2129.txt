@@ -1,0 +1,12 @@
+macnet journal report that omnioutlin will support opml soon.
+    that's verurl: http://scriptingnew.userland.com/backissu/2002/09/24#when:10:02:01am
+date: tue, 24 sep 2002 17:02:01 gmt
+
+macnet journal report[1] that omnioutlin will support opml[2] soon. that's 
+veri good new[3] inde. 
+
+[1] http://www.whiterabbit.com/macnetjourn/2002/09/23.html#a2282
+[2] http://www.opml.org/
+[3] http://www.omnigroup.com/mailman/archiv/omnioutlin-user/2002-septemb/000402.html
+
+

@@ -1,0 +1,52 @@
+re: nvidia legaci driver//kernel 2.6.32 issueson tuesdai 06 april 2010 12:02:12 stephen powel wrote:
+> on tue, 6 apr 2010 10:46:35 -0400 (edt), francesco pietra wrote:
+> > follow "apt-get dist-upgrad" with debian squeez i386, upgrad
+> > from kernel 2.6.30 to 2.6.32, the xserver wa broken at "startx"
+> > becaus kernel compil with gcc 4.3 while now gcc 4.4. i could onli
+> > boot from previou 2.6.30 to have the xserver at startx.
+> > ...
+> > (ee) nvidia(0): fail to load the nvidia kernel modul!
+> > (ee) nvidia(0): *** abort ***
+> 
+> there is a solut to thi.  it wa discuss on thi list in the last
+> coupl of month, i think; but i didn't find it on a quick look-see.
+> i'll have anoth look later when i have more time.  it involv
+> gener the nvidia kernel modul with modul-assist.  but i'll
+> have to find the thread for the specif.
+> 
+
+i tri us modul assist with kernel 2.6.32 and it fail, so i 
+download the .run file from nvidia and it built (after issu "export 
+cc=/usr/bin/gcc-4.3") and instal and run fine here (squeez amd64).  did 
+you (op) purg the debian packag first, and did you us nvidia-xconfig to 
+gener a conf file?
+
+-chri
+
+------------------------------------------------------------------------
+|   christoph judd, ph. d.                                           |
+|   research scientist iii                                             |
+|   ny dept. of health                           judd@wadsworth.org   | 
+|   wadsworth center - esp                                             |
+|   p. o. box 509                                    518 486-7829      |
+|   albani, ny 12201-0509                                              |
+------------------------------------------------------------------------
+
+
+import notic: thi e-mail and ani attach mai contain
+confidenti or sensit inform which is, or mai be, legal
+privileg or otherwis protect by law from further disclosur.  it
+is intend onli for the addresse.  if you receiv thi in error or
+from someon who wa not author to send it to you, pleas do not
+distribut, copi or us it or ani attach.  pleas notifi the
+sender immedi by repli e-mail and delet thi from your
+system. thank you for your cooper.
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004061251.15240.judd@wadsworth.org
+
+

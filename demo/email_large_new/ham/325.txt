@@ -1,0 +1,48 @@
+re: my movi don't idlehi jame et al,
+
+i am just us qtmovi becaus i need to draw the content of the
+movi into a bitmap. so i am grab the nsimag of the current frame
+and us that.
+
+is qtmovi depend on qtmovieview for event in some fashion?
+
+
+
+thx
+
+bill appleton
+
+
+
+
+
+
+
+on tue, mai 18, 2010 at 12:51 pm, jame walker  wr=
+ot:
+> on 5/18/2010 11:55 am, bill appleton wrote:
+>
+>> i am us cocoa and qtmovi to open and plai valid movi file
+>
+> ar you us qtmovieview, or qtmovielay, or what?
+>
+> --
+> =a0jame w. walker, innovent softwar llc
+> =a0
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> quicktim-api mail list =a0 =a0 =a0(quicktim-api@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/quicktim-api/billappleton%40dream=
+factori.com
+>
+> thi email sent to billappleton@dreamfactori.com
+>
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

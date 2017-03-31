@@ -1,0 +1,9 @@
+how to schedul for a repeat task?from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=iso-8859-1
+
+>>telnet, as in the origin respons.  googl give sever exampl
+script
+with mani thank for your repli, i found veri simpl expect telnet exampl
+(like the case that i am deal with) so i wrote for the same but it
+doesn't work my case. do you think it mai come from the fact that the remot
+node is vxwork or mayb some mistak in my code?

@@ -1,0 +1,40 @@
+re: re (2): lilo remov in squeez (or, "pleas test grub2")on tue, 25 mai 2010 12:03:17 -0400 (edt), boyd stephen smith jr. wrote:
+> stephen powel wrote:
+>> 
+>> you're miss the point.  the main sell point to manag
+>> is that linux is free.
+> 
+> no softwar is entir without cost.  free softwar is no except.  there 
+> ar usual no up-front licen fee, sure.  howev, volunt work on 
+> whatev thei like, and if no on volunt to maintain and support your 
+> softwar you mai have to pai for that.
+> 
+> even with volunt provid mainten and support, your specif 
+> requir mai differ from their goal and that will requir effort to 
+> resolv.
+> ...
+> also, volunt ar rare concern with "market share", lose your 
+> manag as user is not necessarili a concern to them.  if it is a concern 
+> for you, you mai have to put forward some addit effort to address your 
+> manag's issu.
+
+all excel point, boyd.  fortun in thi case, extlinux appear
+to be a viabl solut.  i'll soon know.  the gui i need to see about
+set a test server to test the backup and restor scenario
+ha been off work with a sick child for the past coupl of dai, but when
+he get back i'll try to prove that it is 100% compat with our
+backup softwar.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1557806589.43087.1274807547943.javamail.root@md01.wow.synacor.com
+
+

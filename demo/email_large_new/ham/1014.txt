@@ -1,0 +1,39 @@
+re: migrat os to smaller drive?-----begin pgp sign messag-----
+hash: sha1
+
+eduardo m kalinowski wrote:
+>>> mount the new devic (mount -odev /dev/newdevic), and do a
+>>>   rsync -ax / /media/newdevic.
+>>>      
+>> what exactli is the advantag of thi approach over "cp -a" or "mv"?
+>>    
+> 
+> over mv? that you keep the origin file.
+
+of cours. but in thi case the op said "migrat".
+
+> over cp? that you can resum from where you left off in case the
+> transfer is stop for ani reason.
+
+us point. with cp you'd have to start over.
+
+what ar the disadvantag of rsync? e.g., doesn't it compress and
+decompress everyth, henc hog the cpu and possibl slow transfer?
+
+
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: us gnupg with mozilla - http://enigmail.mozdev.org
+
+ieyearecaayfakvbzscacgkq+vsrxyk4409n6qcg2h+f4xhp/ermsuaxifazg5v
+nnuaol1+bijzovhecwozulmwvibj2nyb
+=fu3d
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc1cec7.7030909@web.de
+
+

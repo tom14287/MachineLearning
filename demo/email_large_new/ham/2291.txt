@@ -1,0 +1,48 @@
+[ilug] re: remov lilo"hunt, bryan" state the follow:
+> 
+> choos the repair option when instal window nt/2000/whatev
+
+what is the "repair option"?
+
+> -----origin messag----- from: solocdm [mailto:deedsmi@aculink.net]
+> sent: 31 juli 2002 17:48 to: hunt, bryan cc: ilug (request)
+> subject: re: remov lilo
+> 
+> "hunt, bryan" state the follow:
+> 
+> > you need to do a "fdisk /mbr" from a bootabl windoz floppi
+> > altern boot from linux boot disk and do fdisk, delet all
+> 
+> partit.
+> 
+> i need to ask a question concern thi issu.
+> 
+> what if i don't want to get rid of the mbr -- it will destroi the
+> os on that drive.  how do i remov lilo without the abov fdisk
+> procedur?
+> 
+> > -----origin messag----- from: jac1
+> > [mailto:jac1@student.cs.ucc.ie]
+> 
+> > i recent had to wipe linux from my pc but forgot to restor the
+> > origin mbr (nt). anyon know how i can do thi? linux is entir
+> > gone and no
+> 
+> boot
+> 
+> > floppi. format the entir disk doesn't do it either.
+
+-- 
+note: when you repli to thi messag, pleas includ the mail
+      list and/or newsgroup address and my email address in to:
+
+*********************************************************************
+sign,
+solocdm
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

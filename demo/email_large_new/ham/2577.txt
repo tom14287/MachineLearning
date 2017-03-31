@@ -1,0 +1,30 @@
+[solv] xorg synapt driver no longer work with udev?from nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+> on thu, apr 15, 2010 at 23:27:41 +0200, sjoerd hardeman wrote:
+>=20
+> [...]
+>=20
+>> hal is certainli no longer work, see #567389. yet, udev now also
+>> stop work...
+>=20
+> ok, i think i understand a littl bit better how thi is suppos to be=
+
+> work now. try to add your touchpad option to the inputclass section=
+
+> of the file /usr/lib/x11/xorg.conf.d/10-synapt.conf as a first test.=
+
+>=20
+> [...]
+>=20
+> i am curiou to hear if thi actual work becaus i cannot try it
+> myself. (my up-to-date sid desktop doe not have a touchpad.)
+hi florian,
+
+the new xorg version migrat to test todai, and inde contain the
+file /usr/share/x11/xorg.conf.d/50-synapt.conf. set the option
+there enabl my special touchpad-trick again. thank!
+
+sjoerd
+

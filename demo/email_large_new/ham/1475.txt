@@ -1,0 +1,115 @@
+re: problem with apt/synapt
+although it look like i'm repli to myself, i just haven't gotten
+matthia' repli yet, although i can see it on the websit (and i did
+subscrib, but probabl to the digest).
+
+anywai, matthia wrote:
+> onc upon a time, steve wrote :
+> 
+> > i did apt-get updat, and it seem to have gotten the new packag
+> 
+> hmmm, "it seem"? check closer as thi mai be where the problem is
+> come
+> from.
+> > but do thing like "apt-get instal synapt" didn't work (neither
+> > did other known packag, like apt-get instal lame
+> > 
+> > i just get:
+> > root@canarsi:/var/cach/apt # apt-get instal lame
+> > read packag list... done
+> > build depend tree... done
+> > e: couldn't find packag lame
+> 
+> could you doubl check what "apt-get updat" doe? and eventu post
+> the
+> output if there ar ani error or messag you don't understand.
+
+ok, i did it again, and here's what i got:
+root@canarsi:/tmp # apt-get updat
+ign http://apt.freshrpm.net redhat/8.0/en/i386 releas
+hit http://apt.freshrpm.net redhat/8.0/en/i386/os pkglist
+hit http://apt.freshrpm.net redhat/8.0/en/i386/os releas
+hit http://apt.freshrpm.net redhat/8.0/en/i386/updat pkglist
+hit http://apt.freshrpm.net redhat/8.0/en/i386/updat releas
+get:1 http://apt.freshrpm.net redhat/8.0/en/i386/freshrpm pkglist [51.8kb]
+hit http://apt.freshrpm.net redhat/8.0/en/i386/freshrpm releas
+hit http://apt.freshrpm.net redhat/8.0/en/i386/os srclist
+hit http://apt.freshrpm.net redhat/8.0/en/i386/updat srclist
+get:2 http://apt.freshrpm.net redhat/8.0/en/i386/freshrpm srclist [12.6kb]
+fetch 64.4kb in 2s (30.1kb/s)
+read packag list... done
+root@canarsi:/tmp # apt-get instal lame
+read packag list... done
+build depend tree... done
+e: couldn't find packag lame
+
+root@canarsi:/var/cach/apt # ls -ltr
+total 148
+drwxr-xr-x    2 root     root         4096 sep 29 10:49 gensrclist
+drwxr-xr-x    2 root     root         4096 sep 29 10:49 genpkglist
+drwxr-xr-x    3 root     root         4096 sep 29 10:49 archiv
+-rw-r--r--    1 root     root        49863 oct  4 16:00 srcpkgcach.bin
+-rw-r--r--    1 root     root       158131 oct  4 16:00 pkgcach.bin
+root@canarsi:/var/cach/apt # date
+fri oct  4 16:03:15 edt 2002
+
+so, it look like it work, and the file ar updat..  veri strang.  
+
+mayb someth went wrong updat apt from my old version (as us
+with rh7.2), and thi on.  lemm try total uninstal and
+reinstal it..
+
+root@canarsi:/ # rpm -e apt synapt
+warn: /etc/apt/sourc.list save as /etc/apt/sourc.list.rpmsave
+root@canarsi:/ # ls -l /etc/apt
+total 4
+-rw-r--r--    1 root     root         1610 oct  4 10:07
+sourc.list.rpmsave
+root@canarsi:/ # rpm -ivh /tmp/apt-0.5.4cnc7-fr1.i386.rpm
+warn: /tmp/apt-0.5.4cnc7-fr1.i386.rpm: v3 dsa signatur: nokei, kei
+id e42d547b
+prepar...                ###########################################
+[100%]
+   1:apt                    ###########################################
+[100%]
+root@canarsi:/ # apt-get updat
+ign http://apt.freshrpm.net redhat/8.0/en/i386 releas
+hit http://apt.freshrpm.net redhat/8.0/en/i386/os pkglist
+hit http://apt.freshrpm.net redhat/8.0/en/i386/os releas
+hit http://apt.freshrpm.net redhat/8.0/en/i386/updat pkglist
+hit http://apt.freshrpm.net redhat/8.0/en/i386/updat releas
+hit http://apt.freshrpm.net redhat/8.0/en/i386/freshrpm pkglist
+hit http://apt.freshrpm.net redhat/8.0/en/i386/freshrpm releas
+hit http://apt.freshrpm.net redhat/8.0/en/i386/os srclist
+hit http://apt.freshrpm.net redhat/8.0/en/i386/updat srclist
+hit http://apt.freshrpm.net redhat/8.0/en/i386/freshrpm srclist
+read packag list... done
+root@canarsi:/ # apt-get instal synapt
+read packag list... done
+build depend tree... done
+e: couldn't find packag synapt
+root@canarsi:/ #
+
+still no go...
+
+i'm stump.
+
+-stevek
+
+
+
+> 
+> matthia
+> 
+
+
+-- 
+  steve kann - chief engin - 520 8th av #2300 ny 10018 -  (212) 533-1775
+                horizonl.com - collabor . interact . learn
+   "the box said 'requir window 95, nt, or better,' so i instal linux."
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

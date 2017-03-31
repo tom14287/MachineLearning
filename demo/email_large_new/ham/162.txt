@@ -1,0 +1,15 @@
+re: class variableson tue, apr 13, 2010 at 10:33 am, andrea grosam  wrote:
+
+> object-c would benefit from have class variabl, and a specif.
+
+agre. and c++ would benefit from less overload :)
+
+h
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

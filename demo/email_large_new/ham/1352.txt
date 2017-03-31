@@ -1,0 +1,31 @@
+re: about usb hard drive and errorson 2010-04-10 02:20, clive mcbarton wrote:
+> 
+> paul e condon wrote:>
+>> dump2fs -b  is suppos to print the bad block that have
+>> been mark on a devic. when i run it, it print noth. i find it
+>> hard to believ that a 500gb hd contain zero bad block. 
+> 
+> everi hd that is even remot close to be usabl will alwai have
+> zero bad block when seen from outsid the hd. all hd have error
+> recognit and error correct and automat replac of faulti
+> sector with spare on. a hd will onli show bad block after all of it
+> remap area is us, at which point it is far beyond be usabl.
+> 
+> in other word, scan for bad block on a hd cannot work.
+> 
+> you can see the intern count of the remap sector with smart, as
+> other have alreadi point out here.
+
+interest.  so what is /badblock/ for, and should it be remov 
+in order to remov useless complex?
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc080f6.60005@cox.net
+
+

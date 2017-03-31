@@ -1,0 +1,80 @@
+[satalk] re: help! someon stole our address...on 4 aug 2002 the voic made scott a crosbi write:
+
+> on sun, 4 aug 2002 16:36:57 +0200 (cest), "toni l. svanstrom"
+>  write:
+>
+> > on sun, 4 aug 2002 the voic made toni l. svanstrom write:
+> >
+> >  the solut is of cours to have a public kei of some sort associ with
+> > the domainam itself, at the registrar-level, so that when an e-mail arriv
+> > the server can check if the send-server actual is respons for the
+> > domain/user the e-mail appear to have been sent from.
+> >
+>
+> that can be problemat.. for exampl, if i'm at home and want to send
+> email out from my work-address; i can't go through my isp's
+> mailserv.. i don't thikn we want to enforc a link link an email
+> address and the server send it; there ar mani reason to have the
+> two thing be differ entiti.
+
+ true, but that's the think of todai, that the compani mailserv can be
+close to you from the outsid; becaus as it is todai you can us ani mail-
+server that you've got access to. if there's a good reason for set it up
+thei won't be that lazi in the futur.
+
+> howev, requir mailserv to sign the receiv: header...  that
+> could be us. (assum the signatur is of reason size). that
+> could indic at what server the email *did* enter the system. it'd
+> also be incontravert proof that that mailserv did allow itself
+> to be abus. signatur could be check by either mx or inaddr-arpa
+> record indic the host's public kei.
+>
+> there's still some problem left though. you'd have to bind the
+> header to the messag somehow, via signatur. (to avoid someon
+> take an email then twiddl the bodi and claim that spam came
+> from a particular host.) thi would mean that you couldn't alter the
+> bodi of a messag.
+>
+> an unforg receiv chain would be veri us evid.
+
+ a simpl rfc could fix that todai, either us a new header or extend the
+receiv-header with a code/valu that the server later on can verifi; mayb
+someth like thi:
+
+receiv2: date: [date];
+	local: sub.dom2.tld (ip#2);
+	remot: sub.dom3.tld (ip#3);
+	env-id: 
+	code: [cach#, salt hashvalu, rsa or other signatur]
+
+ and then you have the two option from and to, onli ad by the send
+server that's identifi the local sender or the server accept mail for a
+certain user (to verifi that it did realli come via that server, in case you
+forward it us procmail or someth like it).
+ you of cours would need some standard for how to check these header.
+
+ not perfect, but better than what we have todai.
+
+
+	/toni
+-- 
+# per scientiam ad libertatem! // through knowledg toward freedom! #
+# genom kunskap mot frihet! =*= (c) 1999-2002 toni@svanstrom.com =*= #
+
+    perl -e'print$_{$_} for sort%_=`lynx -sourc svanstrom.com/t`'
+
+
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

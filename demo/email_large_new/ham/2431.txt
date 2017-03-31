@@ -1,0 +1,40 @@
+re: the futur of "nv" driver (wa: linux compat mainboard -anoth thought)from nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+on mondai 26 april 2010 15:09:57 celejar wrote:
+> on mon, 26 apr 2010 08:03:24 -0400
+> "jame p. wallen"  wrote:
+> > on 01/-10/-28163 02:59 pm, celejar wrote:
+> > > on sat, 24 apr 2010 09:53:27 -0400
+> > > "jame p. wallen"  wrote:
+> > >> heck, i haven't even instal the non-free firmwar to make wireless
+> > >> work in a coupl of these notebook.
+> > >
+> > > firmwar run on the extern hardwar, not the system, so system
+> > > stabil shouldn't be an issu.  i assum that here it's just the
+> > > principl of the thing.
+> >
+>=20
+> what make the non-free firmwar question particularli interest is
+> that the altern is often to hardcod the function into the
+> hardwar.  now, if you had a board with complet close hw, but that
+> present an open, well document interfac for the driver, most
+> peopl would be veri happi (although there ar, of cours, the open
+> hardwar crusad - more power to them!).  so, now that thei've simpli
+> implement some of that function in sw, in the form of firmwar
+> which the driver instal on the card, but which ha noth to do with
+> your host machin, ar you realli ani wors off?
+
+as a distributor you mai veri well be.  if you can't provid the sourc cod=
+e,=20
+you can't satisfi the term of the gpl (usual).
+
+=46irmwar is often simpli provid as raw byte.  it is rare actual=20
+develop that wai.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

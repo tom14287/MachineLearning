@@ -1,0 +1,24 @@
+re: where to find setup for env variabl?liam o'tool  write:
+
+> on 2010-04-14, paul chani  wrote:
+
+>> i have setup somewher the java_home environ variabl, but
+>> don't know where?
+> ---snip---
+>
+> mayb /etc/environ?
+
+here on my gnu/linux lenni system thi file is empti.
+
+--
+regard, paul chani
+you can freeli correct me in my english.
+http://csanyi-pal.info
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87hbne2vqv.fsf@csmine.org
+
+

@@ -1,0 +1,22 @@
+packag my stuff pleas :pif i have ani rpm in
+
+http://www.dudex.net/rpm/
+
+that could be us to some on with a real apt repositori or someon who want to
+maintain a packag, be it known i am not selfish :)
+
+i found stuff i thought would later get popular so i would not have to maintain the
+rpm for them after thei hit the big time. gnump3d is an exapmpl of thi.
+
+so if anyon is psych, go for it. if so, let me know so i can get the rpm from
+you in the futur.
+
+--
+that's "angl" as in geometri.
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

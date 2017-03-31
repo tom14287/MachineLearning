@@ -1,0 +1,132 @@
+re: applet on 32-bit 1.6.0_20mike,
+
+thank for explain thi, and clarifi the situat.
+
+i can report that i inde did not have suffici privileg. so i
+log in as somebodi who doe, and wa abl to chang the prefer,
+and everyth* now work as advertis.
+
+*except for two-finger scroll in 1.6.0_20 own-process applet whose
+browser window is displai on my secondari displai! pleas see bug id
+8017275.
+
+thank for your help,
+
+rob
+
+on sat, mai 22, 2010 at 5:18 pm, mike swingler  wrote:
+> on mai 21, 2010, at 12:04 pm, rob dicken wrote:
+>
+>> mike,
+>>
+>> thank for respond, and explain what caus the flicker.
+>>
+>>> if your macbook is actual 32-bit onli, you should never even see the =
+64-bit jvm.
+>>
+>> and i don't. but like i said,
+>>
+>>> have just test my applet on a 64-bit mac
+>>
+>> pleas could you confirm that the 'in their own process' prefer is
+>> not current avail for 32-bit mac (and whether there would be
+>> ani point in put in an rfe).
+>
+> the out-of-process plugin2 should work fine on 32-bit onli mac.
+>
+> switch between the in and out-of-process plugin is a simpl matter of=
+ ad or remov a symlink to the in-process plugin to /librari/internet=
+ plug-in. you should onli see grei radio button in java prefer if yo=
+u don't have write permiss in that directori. it's possibl that if you=
+ have other java plugin present in your ~/librari/internet plug-in folder=
+, that could be confus the logic...mayb.
+>
+> can you "ls -al@e /librari/internet\ plug-in" and "ls -al@e ~/librari/in=
+ternet\ plug-in" to see what plugin ar present, and if there ar ani fun=
+ny acl or extend attribut?
+>
+> best of luck,
+> mike swingler
+> java runtim engin
+> appl inc.
+>
+>> on fri, mai 21, 2010 at 7:28 pm, mike swingler  wrot=
+e:
+>>
+>>> there is a known race condit between nativ background repaint an=
+d java draw in the resiz/scroll case for java applet embed in th=
+e browser process. the reason you don't see thi behavior when us the ou=
+t-of-process plugin is becaus the applet paint is happen in a sepera=
+te process, and the browser is "pull the pixel" from the java process w=
+hen the browser think it's a good time to repaint.
+>>>
+>>> i'm not clear why uncheck the "64-bit" checkbox in java prefer =
+should enabl or disabl the out-of-process vs. in-process applet set. =
+if your macbook is actual 32-bit onli, you should never even see the 64-b=
+it jvm.
+>>>
+>>> on mai 21, 2010, at 4:42 am, rob dicken wrote:
+>>>
+>>>> have just test my applet on a 64-bit mac, and it seem,
+>>>>
+>>>> * you have to select the 'in their own process' prefer, in order
+>>>> to stop the flicker-on-resiz
+>>>>
+>>>> * untick the 64-bit java checkbox grei out the radio button that
+>>>> let you make the abov chang.
+>>>>
+>>>> ergo, the non-flicker applet contain is onli avail on 64-bit =
+mac.
+>>>>
+>>>> if anyon from appl could clarifi the situat, i'd be much oblig.
+>>>>
+>>>> on wed, mai 19, 2010 at 10:41 am, chung-kai chen  =
+wrote:
+>>>>
+>>>>> it's realli frustrat to see someth on mac so bad compar to wi=
+ndow.
+>>>>> i us thi page (http://www.javafx.com/sampl/tableinsight/index.ht=
+ml) to test
+>>>>> the newli arriv jvm and it still flicker like a hell when scrollin=
+g the page.
+>>>>> the same applet run on window host in virtualbox on my mac show a=
+lmost
+>>>>> no flicker.
+>>>>>
+>>>>>
+>>>>> 2010/5/19 rob dicken :
+>>>>>
+>>>>>> dear mac-java dev,
+>>>>>>
+>>>>>> have just instal the new version of java, hope that my applet[=
+1]
+>>>>>> (in safari) would stop flicker when i resiz the browser
+>>>>>> window--someth which the releas note suggest[2] might be the
+>>>>>> case--, but i find that thei do still flicker.
+>>>>>>
+>>>>>> on thing i note is that the java prefer app won't let me chang=
+e
+>>>>>> the wai applet ar run (from 'within the browser process' to 'in
+>>>>>> their own process'), sinc the radio button ar grei out.
+>>>>>>
+>>>>>> i'm on a 32-bit macbook, btw.
+>>>>>>
+>>>>>> pleas could somebodi help.
+>>>>>>
+>>>>>> best regard,
+>>>>>>
+>>>>>> rob
+>>>>>>
+>>>>>> 1 http://lafro.com/gui
+>>>>>> 2 plugin2 graphic render
+>>>>>> 
+>
+>
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

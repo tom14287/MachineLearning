@@ -1,0 +1,37 @@
+iceweasel/ff make the embed video go 4 time faster when it bug!-----begin pgp sign messag-----
+hash: sha1
+
+hi,
+
+when surf on webpag, it someztim happen that page emb video
+through flash (e.g. youtub). from time to time, my iceweasel/ff
+browser happen to plai the video ~4 time faster than the normal
+(i.e. 1 time) speed, becaus it bug. but the rest of the webpag
+remain normal, not special buggi, neither do the other tab. 
+
+ha somebodi alreadi experienc such problem? if so, which websit
+with? special bug.
+
+thank.
+- -- 
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+- -- 
+
+do not triumph befor the victori.
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: process by mailcrypt 3.5.8 
+
+ieyearecaayfakvm2fgacgkqm0llzlt8mhzdiwcdfoqcdh1kcajtcowjjvguccod
+bfwanajkbwdj2/wzddcjc4j9klnmfkob
+=5wdz
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87y6ftcbuv.fsf@merciadriluca-station.merciadriluca
+
+

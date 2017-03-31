@@ -1,0 +1,52 @@
+re: problem with jni includ in a jnlp on mac os xon 4/7/2010 9:50 am, mike swingler wrote:
+> on apr 7, 2010, at 8:38 am, brandon moon wrote:
+>
+>    
+>> on 4/7/2010 7:00 am, toma hurka wrote:
+>>
+>>      
+>>> on 7 apr 2010, at 00:29, brandon moon wrote:
+>>>
+>>>        
+>>>> i'm have an issu with a jni librari when distribut as part of a jnlp app (or java web start).  the java applic load the librari, then call a nativ function that spawn a new thread.  i attach thi thread to the jvm (us attachcurrentthreadasdaemon) and initi a jnienv object.  i then us thi jnienv object to get the java class and a few method (so i can get back to java on certain event).  when i run thi over java web start, the call that request a method id crash.  i have no idea why thi happen, and can't find ani relat error onlin.  ha anyon els run into thi problem?  ani input would be appreci.
+>>>>
+>>>> thi is the nativ code, the line that caus problem ha *** around it:
+>>>>
+>>>> // attach thi thread to java vm
+>>>>    if ((*javavm)->attachcurrentthreadasdaemon(javavm, (void**)&eventpumpenv;, null)<  0) {
+>>>>        nslog(@"fail to attach event pump to java vm");
+>>>>    }
+>>>>    els {
+>>>>        // cach class and method refer
+>>>>        systemhook = (*eventpumpenv)->findclass(eventpumpenv, "com/pixeltur/systemhook/systemhook");
+>>>>        systemhook = (*eventpumpenv)->newglobalref(eventpumpenv, systemhook);
+>>>>
+>>>> ***        notifysuspend = (*eventpumpenv)->getstaticmethodid(eventpumpenv, systemhook, "notifysuspend", "()v"); ***
+>>>>        //notifysuspend = (jmethodid)(*eventpumpenv)->newglobalref(eventpumpenv, (jobject)notifysuspend);
+>>>>        notifysystemev = (*eventpumpenv)->getstaticmethodid(eventpumpenv, systemhook, "notifysystemev", "(ji)v");
+>>>>        //notifysystemev = (jmethodid)(*eventpumpenv)->newglobalref(eventpumpenv, (jobject)notifysystemev);
+>>>>
+>>>>        ...
+>>>>
+>>>>        if (debug) nslog(@"attach pollingloop to java and got environ&  method");
+>>>>    }
+>>>>          
+>>> i think that class "com/pixeltur/systemhook/systemhook" is not found for some reason. check that systemhook is not null and that findclass method doe not throw an except.
+>>>        
+>> so you were right, java is throw a classnotfoundexcept, but i don't understand why thi would be the case.  i have a static initi in that class, and that's where it is load and call that nativ method.  how can the class not be found if that's where the nativ method is be call from?
+>>      
+> think about it: you ar call your jni function from the class' static initi. the class is not initi yet. attempt to find the (uniniti) class should probabl fail.
+>
+> regard,
+> mike swingler
+> java runtim engin
+> appl inc.
+
+i'm not try to load an instanc of the class, i'm try to load the 
+actual class definit.  the error is tell me that the java 
+classload can't find that class on the classpath (at least that's my 
+understand).  what i don't understand is, for it to have call the 
+static initi, that mean java ha alreadi load the class 
+definit, right?  so why can't it find it?
+
+brandon moon

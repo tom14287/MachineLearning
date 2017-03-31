@@ -1,0 +1,56 @@
+re: backup apt tree?on tue, apr 20, 2010 at 8:01 pm, boyd stephen smith jr.
+ wrote:
+> restor those file would not actual caus a downgrad to occur. =c2=
+=a0thei
+> would just caus the state of the packag manag to not accur refl=
+ct
+> the state of the system.
+>
+ye, thi is what i would like to achiev. i would like the packag
+manag to switch back to the previou state. then, i would open
+aptitud and it will automat propos the necessari downgrad (i
+think). thu i could quickli and painlessli restor the system (in
+case it wa broken by the upgrad) and then hunt down the offend
+packag when time permit.
+
+what would be the concern file?
+
+
+> -- unless i'm misunderstand what you mean by "apt
+> tree".
+>
+> if you need an old packag, snapshot.debian.org should have it. =c2=a0you=
+ can then
+> you pin to avoid upgrad it -- either to a specif version or at a=
+ll.
+>
+look interest, i'll look into that. thank
+liviu
+
+
+> --
+> boyd stephen smith jr. =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =
+=c2=a0 =c2=a0 ,=3d ,-_-. =3d.
+> bss@iguanasuicid.net =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =
+=c2=a0 =c2=a0 ((_/)o o(\_))
+> icq: 514984 ym/aim: datwinkdaddi =c2=a0 =c2=a0 =c2=a0 =c2=a0 `-'(. .)`-'
+> http://iguanasuicid.net/ =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=
+=a0 =c2=a0 =c2=a0 =c2=a0\_/
+>
+
+
+
+--=20
+do you know how to read?
+http://www.alienetwork.com/srtest.cfm
+http://goodi.xfce.org/project/applic/xfce4-dict#speed-reader
+do you know how to write?
+http://garbl.home.comcast.net/~garbl/stylemanu/e.htm#e-mail
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/r2z68b1e2611004201238g903f97c0jda85d928045510e9@mail.csmine.org
+
+

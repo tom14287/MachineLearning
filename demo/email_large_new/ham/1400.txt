@@ -1,0 +1,40 @@
+catch upurl: http://diveintomark.org/archiv/2002/10/03.html#catch_up
+date: 2002-10-03t22:03:04-05:00
+
+- _phil ringnalda_: hei radio, thi pre's for you[1]. “you did updat 
+radio.root after yesterdai's fix for the doubl-decod bug in the aggreg, 
+didn't you?” 
+- _brad choat_: sanit plugin[2]. “sanit is a movabl type plugin 
+that allow you to clean html and other markup that might exist in an comment 
+entri.” 
+- _scott ambler_: the process of databas refactor[3] [via john beimler[4]] 
+“a databas refactor is a simpl chang to a databas schema that 
+improv it design while retain both it behavior and inform 
+semant.” 
+- _mac os x hint_: convert window outlook mail to mail.app[5]. 
+“convert the corpor window user who ha all their old email in 
+.pst file for year back? help them on their wai by get their mail out of 
+the proprietari .pst format and into standard base mbox format.” 
+- _shellei power_: rdf queri-o-matic light[6] and rdf queri-o-matic light 
+explain[7]. “i slave awai thi afternoon, persev in my work in 
+spite of numer obstacl (sunshin, cat on lap, languor) to bring you rdf 
+queri-o-matic light.” 
+- _bill kearnei_: rdf.root[8]. “thi is a tool for radio userland. us 
+it will allow your radio8 instal to produc rss-1.0 xml feed.” 
+- _paul ford_: borrow a car[9]. “give me a turkei sandwich.” 
+
+
+
+
+
+[1] http://philringnalda.com/archiv/002337.php
+[2] http://www.bradchoat.com/past/mtsanit.php
+[3] http://www.agiledata.org/essai/databaserefactor.html
+[4] http://john.beimler.org/archiv/000058.html
+[5] http://www.macosxhint.com/articl.php?stori=2002100306134721
+[6] http://weblog.burningbird.net/class_rdql/queri.htm
+[7] http://weblog.burningbird.net/archiv/000568.php
+[8] http://www.ideaspac.net/user/wkearnei/misc/radio/radio8/rdf/current/
+[9] http://ftrain.com/second_toothpast.html
+
+

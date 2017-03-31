@@ -1,0 +1,22 @@
+dual channel memori questionhi,
+
+the wiki on dual channel memori sai:
+
+"the memori modul ar instal into match bank, which ar usual 
+color code on the motherboard. these separ channel allow each 
+memori modul access to the memori control, increas throughput 
+bandwidth."
+
+doe that mean that place 2 1gb modul, each into a differ color 
+slot, is faster than put 1 2gb modul into on slot and leav the 
+other 3 slot empti?
+
+hugo
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hq7rp5$tgc$1@dough.gmane.org
+
+

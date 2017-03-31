@@ -1,0 +1,24 @@
+re: grub2 resolutionon 20100505_131841, drew paschal wrote:
+> i have look around on googl and found some document to set the
+> resolut within grub2 but some of the explan ar a bit vagu.  can
+> someon post a clear and concis wai of do thi?  when i tri the on i
+> found on googl, i manag to make the box not boot anymor.
+
+look in /etc/default/grub. replac the line:
+#grub_gfxmode=640x480
+with on the suit your fanci. and remov the # at the begin.
+
+also note the other variabl that ar set here for futur
+refer.
+
+-- 
+paul e condon           
+pecondon@mesanetwork.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100505183617.gc15335@big.lan.gnu
+
+

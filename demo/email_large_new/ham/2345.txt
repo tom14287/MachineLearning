@@ -1,0 +1,31 @@
+re: libc6 upgrad lenni to squeez fail, now dpkg is brokenfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+
+>
+>
+> how can thi be fix?  and shouldn't there be a big warn that try to
+> upgrad libc6 can break dpkg, on the debian websit page for libc6?
+>
+> best regard,
+> chri austin.
+>
+>
+>
+what should realli be the "big warn" is mix releas... i don't see
+thi as possibl howev. how is dpkg to know that the libc6 upgrad is not
+for secur patch or point releas?  i suppos someth could be put in
+place so that the secur repo is treat differ.
+
+the best wai to avoid thi: don't mix releas. when necessari, it
+gener safer to build the sourc packag. you will also realiz how far
+you ar dig into test when you start need to backport lib.
+
+thi is potenti revers, but you should know in the futur that core
+packag such as libc6, perl, python, and etc should never be mix between
+releas.
+
+i have no advic for fix the current issu... onli avoid it in the
+futur.
+
+-- 
+jordan metzmeier

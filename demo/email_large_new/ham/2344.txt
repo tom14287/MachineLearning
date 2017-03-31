@@ -1,0 +1,28 @@
+re: non-ascii environmentstephen powel write:
+> ye, hercul is an ibm mainfram emul.  but the problem is
+> licens.  there ar some *veri old* releas of ibm oper
+> system that have pass into the public domain that you can run on
+> the hercul emul.
+
+which should suffic for test hi softwar with ebcdic.
+
+> these ar circa 1975 or so, which is about 35 year ago.  an exampl
+> is vm/sp releas 6.  the problem is that those oper system don't
+> have a c compil or a posix interfac.
+
+ar there ani copi of mt (michigan termin system) around?  it would
+be in the public domain and i know it had a c compil: i us it to
+teach myself c.
+
+my wife would love to have mt back again (of cours, she'd insist on a
+full set of print manual...)
+-- 
+john hasler
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87tyrkcmrz.fsf@thumper.dhh.gt.org
+
+

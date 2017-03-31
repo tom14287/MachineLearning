@@ -1,0 +1,15 @@
+re: oo.writer can't it file.thank you for your time and answer, camal=c3=b3n:
+
+>test with a clean ooo profil, that is, renam the current=20
+>"~/.openoffic.org3" folder so when you start writer it creat a new=20
+>empti on.
+
+it wa problem with temp dir permiss.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf193c9.0c58560a.6b2b.4eec@mx.googl.com
+
+

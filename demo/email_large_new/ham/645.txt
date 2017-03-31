@@ -1,0 +1,54 @@
+[razor-user] re: question on miscellan errata and issueson 12/08/02 22:38 -0400, sven wrote:
+) 
+) >   the timeout is hardcod to 15 sec.
+) >   no plan right now to make that an option.
+) >   you can alwai edit the sourc - core.pm.  :)
+) 
+
+  correct - it is 15 sec for read/write, 
+  but 20 sec for initi connect.
+
+) in look at core.pm i find a coupl possibl place where that code might
+) be. is it:
+
+  so if you want to adjust the initi connect timeout, 
+  edit core.pm:1622 in version 2.14
+  for read and write, line 1463, 1481.
+
+  
+) >   the system is design so server can be ad and
+) >   subtract without the client care - if the razor
+) >   client can't connect to a server, it re-discov, get
+) >   all current avail server and store result local.
+) >
+) 
+) i chang the default discoveri period to everi 12 hour in order to
+) compens for the recent sporad natur of the server' avail (i
+) realiz that the issu wa relat to sync and server upgrad .... but i
+) might as well plai it safe for a while).
+
+  if a server is taken out the client will connect, fail, re-discov 
+  automat, save result, and continu to us the other server.
+  you don't *need* to chang anyth, it will all work out. 
+
+) >   we ar look into releas cach catalogu server
+) >   for those besid us to us.
+) 
+) if i can be of help or if you have detail about to particip in thi
+) portion (cach or catalogu), pleas let me know.
+
+  ok, thank.
+
+  -chad
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: dice - the lead onlin job board
+for high-tech profession. search and appli for tech job todai!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

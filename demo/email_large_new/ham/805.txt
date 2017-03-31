@@ -1,0 +1,24 @@
+re: connect to vpn serveron 14 apr 2010, anthoni campbel wrote:
+
+well, i tri to connect but got:
+
+eap: unknown authent type 13; nake
+
+anyon know what thi indic? googl doesn't produc much
+illumin - noth that appli to my situat.
+
+anthoni
+
+-- 
+anthoni campbel - ac@acampbel.org.uk 
+microsoft-free zone - us debian gnu/linux 
+http://www.acampbel.org.uk - sampl my ebook at
+http://www.smashword.com/profil/view/acampbel
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100414231619.gb18626@acampbel.org.uk
+
+

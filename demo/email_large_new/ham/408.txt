@@ -1,0 +1,27 @@
+alwai do a full backup first [re: broken depend]
+> on sat, mai 01, 2010 at 17:20:56 +0200, aloi mahdal wrote:
+>> hello,
+>>
+>> becaus a stupid mistak, i have interrupt apt-get dure earli
+>> stage of dist-upgrad from lenni to squeez.
+>>
+>> now i cannot get apt-get work and i don't know how to fix it.
+>>
+
+
+i know it's cold comfort, but thi is the reason why peopl sai  
+"befor you do a major upgrad, alwai do a full backup.  and be sure  
+you know how to do a full "bare-metal" restor from that backup, just  
+incas you actual need it!"
+
+enjoi!
+
+rick
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/e3cfc3c9-600e-499f-899a-d9b6b92e32a4@pobox.com
+
+

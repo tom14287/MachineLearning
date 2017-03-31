@@ -1,0 +1,28 @@
+re: [razor-user] razor with sendmailfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on fri, aug 23, 2002 at 03:03:05pm -0400, rose, bobbi wrote:
+> if you didn't add it when compil would be on wai.  anoth would be to
+> grep your sendmail.cf for the word milter.
+
+i don't know if there's a sendmail-ish wai (it's not in the -d0.1 output),
+but thi should work:
+
+$ string `which sendmail` | grep -i milter
+
+if you get a long list of function/messag look phrase, milter
+is built-in.  if you get someth like:
+
+warn: filter usag ('x') requir milter support (-dmilter)
+milter warn: option: %s requir milter support (-dmilter)
+@(#)$id: milter.c,v 1.1.1.2 2002/03/12 18:00:36 zarzycki exp $
+
+then it's not built-in. :)
+
+--=20
+randomli gener taglin:
+"m: can anyon tell us the lesson that ha been learn here?
+  s: ye master, not a singl on of us could defeat you.
+  m: you gain wisdom child ... "            - the frantic

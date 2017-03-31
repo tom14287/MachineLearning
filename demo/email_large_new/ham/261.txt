@@ -1,0 +1,21 @@
+re: new test packagesmatthia saou (matthia@rpmforg.net) wrote*:
+>- i've rebuilt a new "alsaplay" packag base on angl's on.
+
+cool, on less packag to maintain :)
+
+on interest thing about alsaplay is that redhat's xmm packag in rh8 will
+probabl not plai mp3 file. but alsaplay doe plai mp3s "out of the box".
+
+also, thei ar develop rapidli in their cv and look like their next version
+of alsapla will be pretti cool, but i have no idea when it will be readi.
+
+--
+that's "angl" as in geometri.
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

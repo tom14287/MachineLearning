@@ -1,0 +1,24 @@
+re: kde's lcd weather station appleton thu, 06 mai 2010 15:47:15 +0300, aioanei rare wrote:
+
+> hi everyon,
+> 
+> can anyon tell me what packag provid the kde applet call "lcd
+> weather station"?
+> i found a bug in it and don't know against what should i report it
+> against. 'aptitud search'
+> and grep don't seem to help (or i'm have a blank moment). thank.
+
+that widget should be in "plasma-widget-addon".
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.06.14.11.07@csmine.org
+
+

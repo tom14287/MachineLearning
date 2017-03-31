@@ -1,0 +1,45 @@
+re: oowrit alwai hang, and then quit unexpectedli when imag
+ ar copi (copi/past) from a websiteon 05/09/2010 02:42 pm, merciadri luca wrote:
+> hi,
+>
+> as state in the titl, my oowrit alwai hang and then quit
+> unexpectedli when i copi at least on imag from a websit. thi
+> situat happen e.g. when i copi some text from wikipedia, and that
+> there ar some imag between the differ paragraph.
+
+i just open a new writer 3.2.0-9+b1 document then select the 
+"titl imag" http://i.space.com/imag/080702-voyag-01.jpg from 
+http://www.space.com/missionlaunch/nasa-track-voyag2-problem-100506.html 
+and past it into the document.
+
+no error, hang or "quit".
+
+> is it normal? it is realli annoi. technic speak, copi and
+> past such imag directli should be avoid, and the imag should be
+> includ from an imag file, but do thi is not necessari,
+
+an exampl would help.
+
+>                                                               and should
+> not be the onli wai to copi text without make oowrit bug! and,
+> sometim, i do not even want the imag, but as the select in
+> iceweasel/ff need to be `continu,' thei need to be includ in my
+> select if i want to take a bunch of text into oowrit, and then
+> remov the imag from the copi stuff.
+
+http://en.wikipedia.org/wiki/ignac_bourget
+
+i select all of the earli life section, copi it to the clipboard 
+with edit->copi then bounc over to a new writer document and 
+past it with edit->past.  no problem whatsoev.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be7197f.5000507@cox.net
+
+

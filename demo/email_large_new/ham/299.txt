@@ -1,0 +1,72 @@
+re: debian on a raid5 (4tb) issuesfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+hi
+
+
+just pick up a 51645 adaptec - have some problem with the gui can't
+login and if i try and boot of the adaptec lun it crash grub - magic
+fail.
+
+a
+
+on sat, apr 17, 2010 at 11:26 pm, camal=f3n  wrote:
+
+> on sat, 17 apr 2010 07:57:51 -0500, stan hoeppner wrote:
+>
+> > camal=f3n put forth on 4/17/2010 3:12 am:
+> >> on sat, 17 apr 2010 07:24:20 +0200, israel garcia wrote:
+> >>
+> >>> on sat, apr 17, 2010 at 2:12 am, stan hoeppner wrote:
+> >>
+> >>>> what pcie raid card ar you us?
+> >>> adaptec aac-raid card insid a supermicro server.
+> >
+> > which apaptec model, specif?  some of the adaptec sata card ar
+> > fakeraid.  i want to know if your card is fakeraid or real raid.  that
+> > mai have bear on thi issu.
+>
+> be a supermicro server, i doubt it's a "fakeraid" card o:-)
+>
+> otoh, a fakeraid won't see a big disk of 4 tib, it would detect/treat
+> each drive separ.
+>
+> >> i wish you the best (similar setup here and bad experi with adapt=
+c
+> >> raid card) :-(
+> >>
+> >> as per the 4 tib issu. i just have review the wikipedia articl
+> >> about mbr and forgot the limit of 2 tib for a "bootabl" partit.
+> >
+> > i've never run into these issu becaus i intention avoid them.  i
+> > alwai creat a small /boot of about 100mb at the start of the disk and
+> > stick the bootload in the mbr.  everi bio can handl bootstrap
+> > such a setup.
+>
+> ye, that tend to be the better approach. either "ext2" or "ext3" ar
+> the recommend filesystem for grub.
+>
+> > i thought the op origin said he ha a separ small /boot, so i'm
+> > still not sure what hi exact issu is.  thu what i'm try to nail
+> > down exactli which adaptec hba he's got.
+>
+> ah, you're right. then that shouldn't be the problem.
+>
+> i would try, at first place, to make the requir partit from a
+> gpart livecd (system rescu or similar) befor instal the system to
+> see if that help the instal.
+>
+> greet,
+>
+> --
+> camal=f3n
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact
+> listmast@list.debian.org
+> archiv: http://list.debian.org/pan.2010.04.17.13.26.58@csmine.org
+>
+>

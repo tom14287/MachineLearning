@@ -1,0 +1,70 @@
+re: bluetooth-dev digest, vol 7, issu 13hi david
+
+interest softwar architectur discuss... :)
+
+on apr 29, 2010, at 2:10 pm, david giovannini wrote:
+
+>=20
+> on apr 29, 2010, at 2:00 am, matthia ringwald wrote:
+>=20
+>> on 29.04.2010, at 08:11, david giovannini wrote:
+>>>>=20
+>>>> in btnut, the first bluetooth stack i wa involv, we us =
+separ thread for differ bluetooth layer and protocol, but in =
+the end, the requir thread synchron wa just creat =
+unnecessari problem. in my new bluetooth stack call btstack =
+(btstack.org), the bluetooth daemon run in a singl thread which can =
+handl ani number of client. so far thi seem to be the right choic, =
+both for portabl and for implement eas.
+>>>=20
+>>> ye, i want that singl dedic thread for bt. forc the client =
+of the bt librari to share the same thread as bt servic is the problem.
+>>>=20
+>>=20
+>> i would argu that thi depend on the "contract" you provid for =
+your librari (also, i did not know you have to provid on in the first =
+place).=20
+>=20
+> everi librari ha implicit and explicit contract. forc a thread =
+model that elimin the possibl to wait on a respons is a =
+contract that reduc us (and could dramat increas client =
+code).
+
+yup. i do agre here, howev, e.g., the cocoa(touch) framework alreadi =
+requir "no block, all user interfac oper on the main thread". =
+if appl then sai: "all your bluetooth commun ha to be on the =
+main thread, too", it doe not restrict the rule set up by the cocoa =
+framework ani further. so, if rule for app ar alreadi set by the os, =
+your librari would not restrict anyth by sai it must be start =
+from the main loop and the main loop cannot block.
+
+>>=20
+>> e.g., btstack us unix domain socket to handl commun =
+between the client and the singl bluetooth daemon. to support the =
+domain socket,=20
+>> the cocoa(touch) implement regist a cfsocket that is wrap =
+into a cfrunloopsourc and ad to the main run loop. so although it is =
+a librari, the commun with the server is on the main thread - not =
+that it would matter for socket commun, but it fit nice with =
+the pure select()-base runloop for non-gui applic. the wiimot =
+opengl es demo (http://www.youtub.com/watch?v=3d3fphpmonoc8) is =
+singl-thread without extra trick.
+>=20
+> would it be possibl to regist the cfrunloopsourc into anoth =
+thread's runloop?
+ar you ask about btstack? if ye: the btstack client  librari doe =
+not provid a wai to choos a run loop, but as it is onli us =
+thread-safe socket function, that could run on ani given thread. if =
+there is a clear need for such a featur, i would't mind ad a "set =
+default runloop" function. would that help you in ani wai?
+
+best=20
+matthia=20=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+bluetooth-dev mail list      (bluetooth-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/bluetooth-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

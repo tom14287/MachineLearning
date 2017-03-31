@@ -1,0 +1,47 @@
+re: updat jre in lennyon tue, 13 apr 2010 16:04:00 -0400, ken heard wrote:
+
+(...)
+ 
+> after reload iceweasel, about:plugin still show the previou jre i
+> wa us, /usr/lib/jvm/java-6-openjdk/jre/bin/java.
+> 
+> assum that i can us a later version of jre download from sun on
+> iceweasel 3.5, am i on the right track but did not get the newer version
+> set up correctli, or is there a differ wai?
+
+just a side note about java/java plugin download from oracl/sun site.
+
+last time i had to instal it in that wai on a linux system i need to 
+make a symlink for the plugin to work in firefox, as describ in the 
+instal guid ("enabl and configur" section):
+
+http://www.java.com/en/download/help/linux_instal.xml#enabl
+
+but nowadai, the proper wai for set thi should be us "updat-
+altern" as you mention abov. 
+
+what is the output of "updat-altern --displai firefox-
+javaplugin.so" command?
+
+mine show:
+
+stt008:~# updat-altern --displai firefox-javaplugin.so
+firefox-javaplugin.so - el estado es auto.
+ el enlac apunta actualment a /usr/lib/jvm/java-6-sun/jre/lib/amd64/
+libnpjp2.so
+/usr/lib/jvm/java-6-sun/jre/lib/amd64/libnpjp2.so - prioridad 63
+actualment la «mejor» versión es /usr/lib/jvm/java-6-sun/jre/lib/amd64/
+libnpjp2.so.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.14.15.11.22@csmine.org
+
+

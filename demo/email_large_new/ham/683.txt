@@ -1,0 +1,277 @@
+minintk 2002-08-16 __  __ _2002-08-16   _ _____ _  __
+|  \/  (_)_ __ (_) \ | |_   _| |/ /    o join! mail an empti messag to
+| |\/| | | '_ \| |  \| | | | | ' /     o ntknow-subscrib@list.ntk.net
+| |  | | | | | | | |\  | | | | . \     o websit (+ archiv) live at:
+|_|  |_|_|_| |_|_|_| \_| |_| |_|\_\    o      http://www.ntk.net/
+
+
+                                >> mini new <<
+                               time for a snooz
+
+         there come a time in everi august when new servic should
+         just shut the hell up, becaus the weather's too hot or too
+         underwat, and the world grow so dull and hazi that even
+         the overexcit hardcor at linuxworld wander around like
+         it's undead expo 2002, and the weiss-bake macintoxin can
+         bare lift their wallet for maco x.2, and sun can't be
+         bother to do anyth but run s/redhat/sun linux/g on a
+         free distribut disk, and everyon els is on holidai, or
+         get readi to be on holidai, or be told that perhap
+         thei should take a holidai right now, and all we can do is
+         look at thi aw, aw eucd legisl and stare out the
+         window until dawn.
+
+         yeah, it's our annual no new edit. we move to a faster
+         server. do take the rest of the weekend off in celebr.
+
+         or, altern, build up a head of overexcit for
+         the public appear of thoma dolbi - the "hyperact"
+         chart artist and beatnik audio plug-in advoc who, even as
+         you read thi, appear to be host a 350 euro-per-head
+         seminar on compos polyphon ring tone at helsinki's
+         radisson royal hotel in finland. lucki deleg will learn
+         about "us real-time midi control for tweak
+         effect", "techniqu for make littl speaker sound huge"
+         and - perhap most distressingli - "pick the right
+         instrument and regist for best audibl". the
+         cacophon cavalcad come to london's soho hous on tue
+         and wed next week if you'd like to check it out for
+         yourself - or perhap hold a street protest on behalf of
+         music lover worldwid.
+         http://www.headspac.com/seminar2002.htm
+           - so thei're better than monophon rington. what isn't?
+
+
+                                >> anti-new <<
+                             berat the obviou
+
+         becaus there ar still a few pueril googl misspel
+         that ntk doesn't come top of the search result for - yet:
+         http://www.googl.com/search?q=partnershit&start;=10 , "anal
+         of histori", "blackpoo", "fartern", "proffesion" - the
+         latter particularli in conjunct with "proofread":
+         http://www.googl.com/search?q=proffesion+proofread ...
+         "subi" call "ya ,jhg hjg yjg" by unashamedli glaswegian
+         daili record: http://www.ntk.net/2002/08/16/dohsub.gif ...
+         look like hi offici titl now becom "presid buh":
+         http://www.ntk.net/2002/08/16/dohbuh.gif ... frickin' mac
+         user bui anyth: http://www.ntk.net/2002/08/09/dohsx.gif
+         ... mayb not the best month for thi branch of the w3c:
+         http://list.w3.org/archiv/public/www-form-editor/2002mar/ ...
+
+
+                               >> event queue <<
+                         goto's consid non-harm
+
+         boast technic seminar, interplai of technolog idea
+         and, of cours, beer, thi year's linuxbierwanderung (from sat
+         2002-08-24, doolin, co. clare, ireland, for a "small voluntari
+         donat" per hiker) might just be the onli walk holidai
+         you ever persuad your compani to pai for. continu the
+         outdoor theme, somewhat shorter notic for thi sundai's
+         greater london linux user group bletchlei park picnic (around
+         12noon, sun 2002-08-18, bletchlei, near milton keyn, ukp6
+         admiss fee). and for anyon who can't make the whole week
+         in ireland, there's some consol in the form of london
+         perlmong present: damien conwai at the conwai hall (6pm,
+         tue 2002-08-27 and thu 2002-08-29, conwai hall, london wc1r,
+         free) - hopefulli just the start of a similarli-name speaker/
+         venu trend which will also see larri wall perform at the
+         great wall of china, and eric raymond at london's raymond
+         revu bar.
+         http://www.lbw2002.draiocht.net/
+         - sadli, less excus for "pingtim for hitler" gag thi year
+         http://list.ftech.net/pipermail/gllug/2002-august/025308.html
+           - bring your "cryptonomicon", pleas don't defac hi wiki
+         http://london.pm.org/meet/
+              - last time: http://www.bluedust.com/project/info7.asp
+         http://www.gabba.net/pnp/lofi.asp
+         - plug'n'plai thi sun, feat. casioton & thorsten sideboard
+         http://www.ica.org.uk/index.cfm?articleid=7641
+           - and hack @ ica tonight, assum you get thi in time
+
+
+                                >> track <<
+               suffici advanc technolog : the gather
+
+         dijkstra final gone? great. now we can hang out with those
+         sloppi littl unrigor languag he never let into the
+         hous. right on cue: the latest dev version of gnu
+         smalltalk, that dirti treat-me-like-an-object ducki. version
+         2.0b sprout html-embed and experiment mysql support -
+         impli you might actual be abl to do someth us
+         with it. admittedli, "us" ha not been a word  much us
+         in the smalltalk commun recent. mani of the current
+         addict seem to live entir in the pleasuredom of that
+         land of infinit fun, alan kai's smalltalk sequel squeak,
+         the cross-platform ui-kablooi playground which, over time,
+         been overload with more ill-fit metaphor than thi
+         sentenc. but even squeak is show sign of return to
+         planet earth. talk of clean up the object tree ar rife;
+         coder ar work on xp-alik skin (instead of squeak's
+         peculiarli home interfac right now). there's even word of
+         a smalltalkish script languag in the of. and all
+         those new maco x object c hacker ar follow the
+         trail back to the next's great ancestor, give a time
+         boost to the tribe. xerox parc *will* return!
+         http://freshmeat.net/releas/93723/
+                                              - the smaller smalltalk
+         http://www.squeak.org/download/
+                                                  - pretti colour
+         http://list.squeakfound.org/pipermail/squeak-dev/
+                                           - where thei're all hide
+         http://www.iam.unib.ch/~ducass/webpag/freebook.html
+                                               - look! free st book!
+         http://www.pocketsmalltalk.com/
+                                               - look! free palm id!
+
+                                >> memepool <<
+                  ceci n'est pa un http://www.gagpip.com/
+
+         where's wendi?: http://3gamerchick.com/featur/bobsex/ ...
+         http://new.bbc.co.uk/1/hi/2188214.stm got a bargain from:
+     http://www.salon.com/tech/featur/2002/08/03/deleteddomain/print.html
+         - still, make a chang from press releas from bt openworld:
+         http://new.bbc.co.uk/1/hi/technolog/2181078.stm ... life
+         imit http://www.thebrainstrust.co.uk/articl.15.1961.html
+         (from last summer); in the meantim, we can look forward to:
+         http://www.martian.fm/countdown_it.htm ... at last - java
+         paradroid: http://www.javaonthebrain.com/java/noid/ ... so
+         ha "10,000 statist grammar-averag fake band name"
+         been taken?: http://web.media.mit.edu/~bwhitman/10000.html ...
+         unwit doubl-entendr corner - "genet distribut of
+         the labial flap": http://www.sil.org/silewp/2001/002/ vs a
+         train ey on "the line, crevic, and fold of your fanni":
+         http://www.jacquelinestallon.com/reportsdoc/rumpolog.html ...
+
+
+                                >> geek media <<
+                                  get out less
+
+         tv>> the object that "elvi - wa a hero to most, but he
+         never meant shit to me" is address in entertain elvi
+         (1.35am, fri, itv), in which "the king" offer hi view on
+         our modern-dai pop act... the horror continu in the form of
+         candyman ii (1.10am, fri, c4) and william peter "the exorcist"
+         blatti's psycho-nonsens the ninth configur (2.45am, fri,
+         c4)... and jason "seinfeld" alexand plai on of a bunch of
+         gai friend - not that there's anyth wrong with that - in
+         love! valour! compass! (12.40am, fri, c5)... jarvi cocker
+         *is* rolf harri, while "allstar" imperson the recent
+         deceas "step" in celebr star in their ey (8.30pm,
+         sat, itv)... sarah michel gellar and selma "legal blond"
+         blair put the "le" back into "le liaison dangereus" in
+         their note http://www.girlskiss.co.uk/video.htm classic
+         cruel intent (9.30pm, sat, c4)... lead into a late-
+         night charact actor fest featur paul "boogi night"
+         anderson's featur debut hard eight (12.35am, sat, bbc2),
+         david mamet's steve martin con-game the spanish prison
+         (1.20am, sat, c4), and oirish juvenil delinqu come-of-
+         ager the butcher boi (12.55am, sat, c5)... thing get back to
+         normal on sundai with the incomprehens remak of mission:
+         imposs (8.15pm, sun, bbc1) - not to be confus with the
+         simultan fruitless the hunt for the anthrax killer (9pm,
+         sun, bbc2)... christina ricci, lisa kudrow comedi the opposit
+         of sex (10pm, sum, c4) ha snappi script, no plot... and it's
+         the final episod of the seemingli intermin 24 (10pm, sun,
+         bbc2): http://www.doyourecal.co.uk/ ... the - presum
+         rhetor titl - did barri georg kill jill dando? (9pm,
+         mon, c4) and who kill simon valentin? (11.05pm, mon, c4)
+         ar helpfulli schedul either either side of six feet under
+         (10pm, mon, c4)... michael "david st hubbin" mckean move
+         into manag in sub-"spinal tap" hostag romp airhead
+         (10.55pm, mon, c5)... the consist worri teenag kick
+         (10pm, tue, c4) look at "teenag dwarf" - next week:
+         "teenag dirtbag"?... and http://www.diffusiononlin.net/
+         inspir bargain hunt (8pm, thu, bbc1) arriv on prime-
+         time - frankli we still prefer hi mix of "147 lockdown"...
+
+         film>> if thei'd us the proper mathemat sigma symbol in
+         the titl, then the sequel could have been call "the
+         deriv of distress - with respect to terror" for larg
+         humourless feelgood nuclear thriller the sum of all fear
+       ( http://www.screenit.com/movi/2002/the_sum_of_all_fear.html :
+         we see [bridget "coyot ugli" moynahan] in bed, show some
+         cleavag; the camera briefli focus on some cheerlead'
+         cloth butt dure the super bowl)... oh and it's the full
+         releas thi week for spy kid 2: the island of lost dream
+         ( http://www.capalert.com/capreport/spykid2.htm : telepathi;
+         pelvic thrust by a child; drink with multipl drug;
+         "let's kick their [posterior]" - which is not includ in the
+         list of three/four letter word vocabulari but is impud;
+         toilet humor - smother in a pile of dung with fecal matter
+         in mouth)...
+
+         confectioneri theori>> "ar you track breakfast cereal?"
+         inquir a concern lloyd wood, after recent wander into
+         the "kiddi end" of the cereal aisl. "thei've all gone cd-rom
+         on the front", he observ - caus him, for a moment to
+         think he wa look at "some realli bloat comput
+         magazin". of cours we ar, lloyd, though we're not as
+         easili swai by gimmick as you ar, and thu can imparti
+         report that nestl's maryland-style cooki crisp ar the most
+         biscuit-like breakfast ever, easili triumph over kellogg's
+         frosti chocol (too much chocol, not enough "frosti"),
+         coco pop cruncher (clump togeth in thi humid weather) and
+         even the winni the pooh-theme disnei hunni b's - and if you
+         mix them all togeth, the milk goe so chocolatei it'll turn
+         your pooh brown... elsewher in dairi, mcdonald's continu a
+         disappoint run of top for the mcflurri (99p) -
+         cadburi's caramel is rubbish, and jammi dodger not a patch
+         on our second-favourit mcflurri of all time, the strawberri
+         crunch: http://www.ntk.net/index.cgi?b=02001-08-10&l;=286#l .
+         reader ed avi complain that kfc don't tell you that their
+         "m&m;" avalanch (also 99p) doe not featur real m&ms; but
+         "special miniaturis on", which he describ as "frozen
+         solid" and "might as well be small bit of gravel for all the
+         chocol flavour thei impart". while, follow last week's
+         announc of ic t's poss pop, craig leff thought we'd be
+         reassur by the new that nbc ar launch their own rang
+         of tv-theme baskin-robbin ic-cream, includ a "fear
+         factor" flavour design to recreat the experi of eat
+         "dirt and spider": http://www.adag.com/new.cm?newsid=35520
+         ... back with confectioneri, leon verral remain unimpress
+         with starburst fruitiness (from 49p, "tast of plastic...
+         [resembl] those 'food pill' thei thought we'd all be eat
+         by now"), david blane grudgingli approv of the twix tripl
+         choc limit edit ("not bad, faintli evok penguin,
+         which i never like becaus of the thick chocol"), and the
+         whole point of that controversi "it's not for girl"
+         campaign wa reveal: to posit nestl doubl cream (40p)
+         as a more femal-friendli version of the yorki bar. other
+         treat to look forward to in come week: cola-flavour
+         cadburi-trebor refresh, chicken-wing-flavour hula hoop,
+         bacon quaver, the (presum) non-crisp-like golden wonder
+         fruit wonder - or, inde, ani of thi weird new american
+         stuff: http://www.candyusa.org/press/new/ac2002.shtml ,
+         rang from scorn woman chocol jalapeno fudg to soft
+         and chewi stinki feet ("mmm, these feet ar *so* stinki")...
+
+
+                               >> small print <<
+
+       need to know is a us and interest uk digest of thing that
+         happen last week or might happen next week. you can read it
+       on fridai afternoon or print it out then take it home if you have
+     noth better to do. it is compil by ntk from stuff thei get sent.
+                       regist at the post offic as
+         "yeah, thank edg, knew you had a wors pictur somewher"
+                         (p014, edg, septemb 2002)
+
+
+                                 need to know
+            thei stole our revolut. now we're steal it back.
+                         archiv - http://www.ntk.net/
+              unsubscrib? mail ntknow-unsubscrib@list.ntk.net
+                subscrib? mail ntknow-subscrib@list.ntk.net
+   ntk is support by unfortu.net, and by you: http://www.geekstyl.co.uk/
+                          (k) 2001 special project.
+             copi is fine, but includ url: http://www.ntk.net/
+
+                    tip, new and gossip to tip@spesh.com
+             all commun is for public, unless you beg.
+              press releas from naiv pr peopl to pr@spesh.com
+     rememb: your work email mai be monitor if send sensit materi.
+       send >500kb attach is forbidden by the geneva convent.
+              your countri mai be at risk if you fail to compli.
+

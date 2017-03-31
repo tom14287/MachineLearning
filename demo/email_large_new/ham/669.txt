@@ -1,0 +1,47 @@
+re: overcom the 32k object limit is ext3 - which file system to
+ us?on sat, 24 apr 2010 03:03:57 -0500, ron johnson wrote:
+
+> on 04/23/2010 11:13 pm, siju georg wrote:
+
+>> ext3 can have onli 32000 file/folder under a folder and i hit that
+>> limit. which file system can i us to over come it? i am plan for
+>> jf
+>>
+>> doe anybodi ha ani recommend?
+>>
+>>
+> sinc mike bird ha demonstr your erron claim, plz show us the
+> real error messag.
+
+is wikipedia ext3 articl¹ wrong then? :-?
+
+***
+limit
+
+max number of file 	variabl, alloc at creation time[1]
+
+[1] the maximum number of inod (and henc the maximum number of file 
+and directori) is set when the file system is creat. if v is the 
+volum size in byte, then the default number of inod is given by v/213 
+(or the number of block, whichev is less), and the minimum by v/223. 
+the default wa deem suffici for most applic. the max number 
+of subdirectori in on directori is fix to 32000.
+***
+
+note that "the max number of subdirectori in on directori is fix to 
+32000."
+
+¹ http://en.wikipedia.org/wiki/ext3
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.24.08.16.45@csmine.org
+
+

@@ -1,0 +1,52 @@
+re: new 3-button serial mous not detect by lennyon 5/15/10 10:34 am, chri austin wrote:
+> hi,
+>
+> i have just bought a new 3-button mous sinc 3-button emul doe not seem to work well in lenni - i had a lot of troubl with unpredict behaviour appar due to contact bounc and get unwant context menu, some of whose entri were sometim unintention activ, with bad effect - but unfortun the new mous is serial rather than ps/2.
+>
+> i have done dpkg-reconfigur xserver-xorg as root in a termin befor start kdm, but there wa no mention of a mous, onli keyboard option were mention.  and the new mous is complet non-function after do kdm.
+>
+> i have also tri xorg -configur, and the follow messag wa given:
+>
+> xorg detect your mous at devic /dev/input/mice.  pleas check your config if the mous is still not oper, as by default xorg tri to autodetect the protocol.  your xorg.conf file is /root/xorg.conf.new.
+>
+> the onli mention of the mous in /root/xorg.conf.new ar in the first section:
+>
+> section "serverlayout"
+>         identifi     "x.org configur"
+>         screen      0  "screen0" 0 0
+>         inputdevic    "mous0" "corepoint"
+>         inputdevic    "keyboard0" "corekeyboard"
+> endsect
+>
+> and in a later section:
+>
+> section "inputdevic"
+>         identifi  "mous0"
+>         driver      "mous"
+>         option      "protocol" "auto"
+>         option      "devic" "/dev/input/mice"
+>         option      "zaxismap" "4 5 6 7"
+> endsect
+>
+> i ran x -config /root/xorg.conf.new to test the new xorg.conf, but the new mous wa still nonfunct.  it wa plug into serial port 1, and i also tri go into the bio and alter onboard serial port a from 3f8h/com1 to auto, but thi didn't help either.
+>
+> ar serial mice support in lenni?
+>
+> best regard,
+> chri austin.
+>
+>
+>   
+i would take x out of the equat, and see if you can get it work in
+the consol with gpm.
+
+-- 
+kent
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bef1c0f.5030902@acu.edu
+
+

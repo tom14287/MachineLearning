@@ -1,0 +1,20 @@
+re: problem with an rpm...mark derricutt wrote:
+> hiya, i just myself an rpm, and when i did -uvh to upgrad the earlier 
+> version i had instal (also from my rpm) i got:
+> 
+> [root@spawn i386]# rpm -uvh mulberri-2.2-b1.i386.rpm
+> prepar...                ########################################### 
+> [100%]
+>   1:mulberri               ########################################### 
+> [100%]
+> error: db3 error(-30998) from db->close: db_incomplet: cach flush wa 
+> unabl to complet
+
+it's not the rpm, it's the rpm-system with you. the cach seem to have 
+rotten. try remov /var/lib/rpm/__db*
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

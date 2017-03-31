@@ -1,0 +1,37 @@
+re: usb devic attach via rs232 adaptoron sun, 18 apr 2010 22:08:16 +0300, dotan cohen wrote:
+
+> he's got a few of these connect via serial adaptor:
+> http://www.infinityusb.com/default.asp?show=productsdetail&productid;=12
+> 
+> why aren't thei on real usb, i don't know. 
+
+becaus the devic mai expect a usb host control instead a rs-232 :-?
+
+> i am go over there to help
+> him tomorrow, so to come prepar i start googl todai. although the
+> usb-serial adaptor seem to be popular, i find noth about how to
+> mount devic attach to them. 
+
+what seem to be more popular ar rs-232 devic (modem, printer...) 
+connect/attach to a comput usb host port, but not the opposit.
+
+> i am assum that, be a card reader,
+> i will be abl to mount the media (card).
+
+mmm, have you test it? :-?
+
+insert a smartcard and check the output of "dmesg" and "mount" command. 
+thei will tell.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.18.19.33.37@csmine.org
+
+

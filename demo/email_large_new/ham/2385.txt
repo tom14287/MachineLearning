@@ -1,0 +1,38 @@
+re: simpl tool to extract sound from video?on 2010-05-07 23:52:47 -0500, ron johnson wrote:
+>on 05/07/2010 09:48 pm, phil requir wrote:
+>>on 2010-05-07 18:19:44 +0200, merciadri luca wrote:
+>>>rob owen wrote:
+>>>>avidemux can do it also.  it's a gui, but i think it's more
+>>>>straightforward to do it with ffmpeg, as suggest abov
+>>>
+>>>thank. ffmpeg doe actual, exactli what i want. thank. (for such
+>>>thing, peopl habitu ask for a mere commandlin us, at least me.)
+>>
+>>to watch video, so i have an mplayer recip to do thi same job.  it
+>>goe like thi:
+>>
+>>     mplayer myvideo.avi -vc null -vo null -ao pcm:file=myvideo.wav
+>
+>$ mplayer ${i}.mpeg -dumpaudio -dumpfil ${i}.raw_audio
+>$ file ${i}.raw_audio
+>$ mv ${i}.raw_audio ${i}.whatev
+>
+
+ye, anoth interest wai to us mplayer. you can us the
+-dumpaudio option to get the raw audio data out of the file.  i am
+usual not try to get the raw audio howev, becaus it might be
+compress or encod in weird wai. i usal want to have a nice
+uncompress wav file that i can work with. and mplayer is pretti
+handi for that...
+
+so mani choic!
+
+phil
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100508064633.gb1683@kasploosh.net
+
+

@@ -1,0 +1,26 @@
+re: [razor-user] strip the spamassassin reporton tue, 13 aug 2002, david raistrick wrote:
+
+> to actual answer justin's question, (on can assum that he ha
+> rewrit_subject and report_header turn on becaus he want them..and
+> that he would like to be abl to strip the ad bit off befor he send
+> them to razor) someth as simpl as the follow would probabl work
+> just fine.  just pipe your messag through thi, then on into
+> razor-report:
+
+i wouldn't make that assumpt.  i'd assum that rewrit_subject wa on, 
+and report_header wa off, becaus that's the default configur, and 
+not everyon know to go look in the user_pref file to make those 
+chang.
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: dice - the lead onlin job board
+for high-tech profession. search and appli for tech job todai!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

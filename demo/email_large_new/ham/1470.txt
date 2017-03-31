@@ -1,0 +1,24 @@
+re: kde issu under "squeez"hi,
+
+afaik, the next kde packag manag is adept, which you can alreadi instal=
+ in=20
+squeez (though i recommend aptitud).
+
+kind regard,
+alejandro.
+
+el domingo 02 mayo 2010 02:23:39 lrhorer escribi=f3:
+> >[...] kpackag is be remov veri soon and is alreadi gone in
+> > experiment.
+>=20
+>         that's realli bad new.  without kpackag, there realli isn't much
+> reason to run kde.
+>=20
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005021212.28534.alerabagr@csmine.org
+
+

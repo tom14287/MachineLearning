@@ -1,0 +1,37 @@
+re: execut won't executeon mon, mai 17, 2010 at 3:59 pm, sven joachim  wrote:
+> on 2010-05-17 08:54 +0200, sven joachim wrote:
+>
+>> on 2010-05-17 08:46 +0200, alexei salmin wrote:
+>>
+>>> so, it's a bug in lsb-core packag?
+>>
+>> ye, the lsb mandat that /lib/ld-lsb.so.3 is the dynam linker:
+>>
+>> http://refspec.freestandard.org/lsb_4.0.0/lsb-core-ia32/lsb-core-ia32/=
+baselib.html
+>
+> thi make me wonder how ubuntu obtain their lsb certif,
+> consid that thei do not seem have /lib/ld-lsb.so.3 in ani packag
+> either, accord to http://packag.ubuntu.com. =a0the whole lsb seem t=
+o
+> be a joke.
+>
+> sven
+>
+
+it appear that ld-lsb symlink ar creat by lsb-core postinst
+script. that's why thei're not list in packag content.
+
+kent, it seem that it's a somehow better solut for you to instal
+the lsb-core packag (or a whole lsb group) rather than creat that
+symlink manual (it's not that import though).
+
+alexei
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktikx6udd_ny3krob09xgi9be6txwaop1l2yi835n@mail.csmine.org
+
+

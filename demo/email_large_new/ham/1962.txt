@@ -1,0 +1,39 @@
+re: nil messag statement in "cocoa fundiment guid"
+	mislead?on sun, mai 23, 2010 at 7:34 pm, john engelhart
+ wrote:
+> if you believ otherwis, show your work. =c2=a0otherwis, the point is s=
+ettl.
+
+fact: the c standard doe not sai anyth about machin-level call
+convent.
+
+fact: the c standard doe not address the behavior which result when
+the call site of a function see a prototyp whose return type differ
+from the return type present at the definit of the function.
+
+conclus: a conform c compil could us complet differ
+techniqu for return 'int' and 'long'.
+
+conclus: in such an abi, machin-level code which arrang for
+caller to see an 'int' return valu of 0 could easili be written such
+that a caller which expect 'long' to see someth other than zero.
+
+conclus: if you're paranoid about portabl, you can't assum
+that messag to nil with a 'long' return type will return 0, with a
+strict read of appl's guarante.
+
+and note that absolut noth in the abov is even slightli relat
+to integ type size, type convers, cast, promot, the
+bit-level represent of the null pointer, or ani other such
+thing, so ani discuss of them in thi context is utterli
+pointless.
+
+mike
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

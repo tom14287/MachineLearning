@@ -1,0 +1,33 @@
+re: problem with an rpm...do i need to do anyth to recreat anyth after delet thi?
+
+i did notic an rpm i made the other dai didn't work, and just sat there 
+for ag  seemingli do noth, which probabl did thi :(
+
+ok, now i get:
+
+
+fetch 88.1kb in 2m31s (581b/s)
+error: cannot get exclus lock on /var/lib/rpm/packag
+error: cannot open packag index us db3 - oper not permit (1)
+e: could not open rpm databas:cannot open packag index us db3 - 
+oper not permit (1)
+
+arrrrg.
+
+--on tuesdai, februari 05, 2002 15:06:28 +0100 roi-magn mo 
+ wrote:
+
+> it's not the rpm, it's the rpm-system with you. the cach seem to have
+> rotten. try remov /var/lib/rpm/__db*
+
+
+
+                                    -- \m/ --
+  "...if i seem super human i have been misunderstood." (c) dream theater
+         mark@talio.com - icq: 1934853 jid: talio@myjabb.net
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

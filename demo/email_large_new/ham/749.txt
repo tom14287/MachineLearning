@@ -1,0 +1,28 @@
+re: where is what kontrol did?hugo vanwoerkom wrote:
+> hi,
+> 
+> i don't have kde instal (fvwm instead) but us konsol.
+> 
+> that ha a warn funcion that show up with a messag 'kde system 
+> notif'.
+> 
+> it us to have a sound associ with it and i us to us kontrol to 
+> set that up. but kontrol is gone.
+> 
+> how do i get sound back for that notif?
+> 
+> i thought i had ask thi question befor but i can't find it.
+> 
+
+i did:
+http://nixforum.org/about98179-speaker-bell-in-konsol.html
+
+hugo
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hr4j9l$lid$1@dough.gmane.org
+
+

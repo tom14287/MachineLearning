@@ -1,0 +1,23 @@
+re: usb devic attach via rs232 adaptor> look like that, it'd be virtual unsal here, unless it wa
+> sold in kit form.
+>
+> "here" be the uk.
+>
+
+i have seen the uk electr main connector. i would have to admit
+that our standard ar well below uk level!
+
+
+-- 
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/n2w880dece01004250415h23955562pc46e88c8f2ff71ff@mail.csmine.org
+
+

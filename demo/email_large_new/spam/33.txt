@@ -1,0 +1,24 @@
+your mailsiz requir upgradefrom nobodi sun sep 18 20:45:27 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: 7bit
+
+your mailsiz requir upgrad
+
+thi messag is from our technic support team
+
+thi messag is sent automat from our webmast administr 
+upgrad/mainten program period sent to all our email user for 
+upgrad/mainten. 
+just befor thi messag wa sent, you have 18 megabyt (mb) messag 
+storag in your webmail. to help us re-set your webspac on our 
+databas prior to maintain your email storag capac. to prevent 
+your account from be delet,you must repli to thi e-mail by 
+provid us the inform for confirm that you still 
+oper thi email on regular basi:
+
+current email user name  :  {    }
+current email password   :  {    }
+re-confirm password:  {    }
+
+you will continu to receiv thi warn messag period

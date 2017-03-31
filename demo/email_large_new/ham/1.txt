@@ -1,0 +1,61 @@
+re: how to manag multipl internet connect?from nobodi sun sep 18 20:45:27 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on sat,15.mai.10, 16:47:07, merciadri luca wrote:
+> >
+> > but will probabl not work in you case, as it wa meant to combin two=
+=20
+> > (or more?) network port from the same comput connect to the same=
+=20
+> > switch.
+> >  =20
+> the descript sai
+>=20
+> =3d=3d
+> the linux bond driver provid a method for aggreg
+> multipl network interfac into a singl logic
+> bond  interfac.
+> =3d=3d
+>=20
+> strictli speak, thi is what i want. now, your interpret seem
+> to be base on the definit of a link aggreg, which i am not
+> realli familiar with. basic, i want to merg connect into on,
+> or at least divid and us them separ, in an easi wai. thi is not
+> a so-rare situat, is it? e.g. you might be wander in some zone
+> where you can us the wifi, but where it is sometim unavail, sai
+> at specif region. if you manag to us anoth connect, for
+> exampl the on that is given by your mobil phone/smartphon /via/
+> bluetooth (which is then connect to the internet through other
+> protocol), it should be possibl to switch between these two
+> connect, or to us them simultan, if, sai, wifi 's rang is
+> too small or wifi's bandwidth too small compar to the smartphon's
+> on. (okai, thi is not a realli realist exampl.)
+>=20
+> you might also share an internet connect with your neighbour,
+> legal, and us it a lot when he doe not need it. then, if you alreadi
+> us ethernet, you can us both connect. but how?
+
+bond is not suitabl for you becaus it work too low-level (it is=20
+layer 2), unless you have two link from the same provid, us some=20
+technolog that can be bond (like adsl).
+
+afaiu what you need is bgp[1], but i can't give you ani tip as thi is=20
+wai out of my leagu ;)
+
+probabl a good start (whatev technolog you end up us) is a=20
+gnu/linux (prefer debian) machin connect to both internet link=20
+and your intern network sinc consum gatewai don't even have more=20
+than on wan port[2].
+
+[1] http://en.wikipedia.org/wiki/border_gatewai_protocol
+[2] some of them could be us for thi with custom firmwar, but thi=20
+is off-topic
+
+regard,
+andrei
+p.s. there is no need to cc me as i am subscrib to the list ;)
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

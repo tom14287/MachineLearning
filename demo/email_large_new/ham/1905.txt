@@ -1,0 +1,27 @@
+re: filesystem recommend> from: ron johnson [mailto:ron.l.johnson@cox.net]
+> sent: saturdai, april 24, 2010 3:49 pm
+>=20
+> on 04/24/2010 05:31 pm, b. alexand wrote:
+> >
+> > defin "hate sudden power outag"...is it recover?
+> >
+>=20
+> thei got pretti corrupt.  mayb it's been robustifi in the
+> interven year.
+
+appar, it ha been "robustifi".
+
+http://old.nabbl.com/xf-data-loss,-and-a-fix-td15876910.html
+
+http://xf.org/index.php/xf_faq#q:_why_do_i_see_binari_null_in_some_fil=
+es_after_recoveri_when_i_unplug_the_power.3f
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/00ac01cae7dc$0242e400$06c8ac00$@net
+
+

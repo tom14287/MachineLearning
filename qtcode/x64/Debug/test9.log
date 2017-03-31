@@ -1,0 +1,911 @@
+﻿  Moc'ing dialogem.h...
+  Moc'ing dialognb.h...
+  Moc'ing mainwindow.h...
+  Uic'ing dialogem.ui...
+  Uic'ing dialognb.ui...
+  Uic'ing mainwindow.ui...
+  moc_dialogem.cpp
+  moc_dialognb.cpp
+f:\qtprojects\test9\porter.h(251): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(251): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(252): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(252): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(252): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(252): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(255): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(255): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(257): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(257): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(257): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(257): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(260): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(260): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(260): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(260): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(261): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(261): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(261): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(261): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(262): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(262): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(262): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(262): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(270): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(270): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(278): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(278): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(289): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(289): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(289): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(289): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(290): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  f:\qtprojects\test9\porter.h(290): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(290): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(290): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(292): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(292): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(292): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(292): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(293): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(293): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(293): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(293): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(295): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(295): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(295): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(295): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(297): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(297): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(297): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(297): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(302): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(302): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(302): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(302): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(303): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(303): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(304): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(304): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(304): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(304): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(305): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(305): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(305): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(305): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(307): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(307): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(307): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(307): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(308): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(308): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(308): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(308): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(309): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(309): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(309): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(309): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(311): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(311): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(311): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(311): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(312): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(312): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(312): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(312): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(313): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(313): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(313): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(313): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(314): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(314): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(314): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(314): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(316): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(316): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(316): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(316): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(317): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(317): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(317): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(317): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(318): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  f:\qtprojects\test9\porter.h(318): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(318): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(318): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(320): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(320): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(320): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(320): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(332): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(332): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(332): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(332): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(333): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(333): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(333): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(333): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(334): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(334): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(334): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(334): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(336): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(336): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(336): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(336): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(338): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(338): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(338): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(338): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(339): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(339): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(339): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(339): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(341): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(341): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(341): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(341): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(352): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(352): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(353): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(353): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(354): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(354): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(355): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(355): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(356): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(356): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(357): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(357): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(358): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(358): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(359): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(359): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(360): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(360): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(361): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(361): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(362): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(362): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(363): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(363): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(364): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(364): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(366): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(366): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(367): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(367): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(368): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(368): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(369): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(369): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(370): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(370): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(371): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(371): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\nb.h(8): fatal error C1083: 无法打开包括文件: “boost\regex.hpp”: No such file or directory
+  moc_mainwindow.cpp
+f:\qtprojects\test9\porter.h(251): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(251): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(252): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(252): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(252): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(252): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(255): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(255): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(257): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(257): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(257): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(257): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(260): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(260): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(260): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(260): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(261): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(261): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(261): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(261): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(262): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(262): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(262): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(262): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(270): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(270): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(278): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(278): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(289): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(289): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(289): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(289): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(290): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  f:\qtprojects\test9\porter.h(290): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(290): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(290): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(292): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(292): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(292): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(292): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(293): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(293): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(293): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(293): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(295): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(295): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(295): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(295): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(297): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(297): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(297): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(297): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(302): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(302): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(302): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(302): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(303): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(303): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(304): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(304): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(304): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(304): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(305): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(305): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(305): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(305): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(307): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(307): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(307): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(307): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(308): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(308): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(308): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(308): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(309): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(309): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(309): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(309): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(311): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(311): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(311): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(311): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(312): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(312): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(312): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(312): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(313): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(313): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(313): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(313): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(314): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(314): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(314): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(314): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(316): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(316): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(316): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(316): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(317): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(317): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(317): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(317): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(318): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  f:\qtprojects\test9\porter.h(318): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(318): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(318): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(320): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(320): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(320): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(320): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(332): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(332): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(332): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(332): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(333): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(333): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(333): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(333): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(334): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(334): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(334): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(334): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(336): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(336): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(336): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(336): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(338): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(338): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(338): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(338): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(339): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(339): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(339): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(339): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(341): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(341): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(341): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(341): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(352): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(352): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(353): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(353): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(354): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(354): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(355): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(355): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(356): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(356): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(357): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(357): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(358): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(358): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(359): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(359): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(360): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(360): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(361): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(361): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(362): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(362): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(363): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(363): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(364): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(364): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(366): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(366): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(367): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(367): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(368): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(368): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(369): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(369): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(370): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(370): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(371): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(371): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\nb.h(8): fatal error C1083: 无法打开包括文件: “boost\regex.hpp”: No such file or directory
+  dialogem.cpp
+  dialognb.cpp
+f:\qtprojects\test9\porter.h(251): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(251): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(252): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(252): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(252): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(252): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(255): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(255): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(257): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(257): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(257): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(257): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(260): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(260): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(260): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(260): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(261): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(261): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(261): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(261): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(262): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(262): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(262): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(262): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(270): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(270): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(278): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(278): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(289): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(289): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(289): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(289): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(290): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  f:\qtprojects\test9\porter.h(290): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(290): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(290): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(292): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(292): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(292): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(292): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(293): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(293): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(293): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(293): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(295): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(295): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(295): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(295): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(297): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(297): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(297): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(297): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(302): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(302): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(302): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(302): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(303): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(303): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(304): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(304): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(304): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(304): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(305): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(305): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(305): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(305): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(307): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(307): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(307): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(307): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(308): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(308): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(308): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(308): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(309): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(309): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(309): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(309): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(311): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(311): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(311): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(311): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(312): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(312): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(312): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(312): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(313): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(313): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(313): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(313): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(314): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(314): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(314): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(314): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(316): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(316): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(316): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(316): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(317): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(317): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(317): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(317): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(318): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  f:\qtprojects\test9\porter.h(318): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(318): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(318): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(320): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(320): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(320): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(320): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(332): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(332): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(332): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(332): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(333): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(333): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(333): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(333): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(334): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(334): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(334): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(334): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(336): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(336): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(336): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(336): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(338): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(338): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(338): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(338): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(339): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(339): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(339): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(339): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(341): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(341): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(341): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(341): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(352): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(352): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(353): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(353): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(354): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(354): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(355): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(355): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(356): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(356): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(357): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(357): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(358): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(358): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(359): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(359): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(360): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(360): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(361): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(361): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(362): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(362): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(363): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(363): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(364): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(364): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(366): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(366): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(367): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(367): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(368): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(368): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(369): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(369): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(370): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(370): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(371): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(371): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\nb.h(8): fatal error C1083: 无法打开包括文件: “boost\regex.hpp”: No such file or directory
+  main.cpp
+f:\qtprojects\test9\porter.h(251): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(251): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(252): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(252): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(252): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(252): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(255): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(255): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(257): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(257): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(257): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(257): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(260): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(260): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(260): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(260): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(261): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(261): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(261): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(261): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(262): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(262): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(262): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(262): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(270): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(270): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(278): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(278): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(289): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(289): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(289): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(289): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(290): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  f:\qtprojects\test9\porter.h(290): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(290): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(290): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(292): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(292): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(292): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(292): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(293): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(293): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(293): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(293): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(295): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(295): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(295): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(295): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(297): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(297): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(297): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(297): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(302): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(302): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(302): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(302): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(303): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(303): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(304): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(304): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(304): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(304): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(305): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(305): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(305): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(305): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(307): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(307): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(307): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(307): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(308): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(308): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(308): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(308): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(309): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(309): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(309): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(309): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(311): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(311): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(311): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(311): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(312): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(312): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(312): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(312): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(313): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(313): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(313): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(313): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(314): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(314): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(314): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(314): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(316): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(316): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(316): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(316): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(317): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(317): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(317): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(317): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(318): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  f:\qtprojects\test9\porter.h(318): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(318): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(318): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(320): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(320): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(320): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(320): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(332): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(332): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(332): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(332): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(333): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(333): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(333): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(333): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(334): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(334): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(334): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(334): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(336): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(336): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(336): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(336): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(338): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(338): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(338): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(338): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(339): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(339): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(339): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(339): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(341): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(341): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(341): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(341): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(352): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(352): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(353): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(353): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(354): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(354): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(355): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(355): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(356): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(356): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(357): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(357): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(358): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(358): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(359): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(359): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(360): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(360): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(361): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(361): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(362): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(362): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(363): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(363): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(364): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(364): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(366): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(366): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(367): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(367): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(368): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(368): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(369): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(369): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(370): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(370): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(371): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(371): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\nb.h(8): fatal error C1083: 无法打开包括文件: “boost\regex.hpp”: No such file or directory
+  mainwindow.cpp
+f:\qtprojects\test9\porter.h(251): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(251): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(252): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(252): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(252): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(252): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(255): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(255): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(257): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(257): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(257): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(257): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(260): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(260): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(260): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(260): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(261): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(261): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(261): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(261): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(262): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(262): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(262): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(262): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(270): error C2664: “void setto(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(270): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(278): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(278): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(289): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(289): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(289): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(289): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(290): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  f:\qtprojects\test9\porter.h(290): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(290): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(290): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(292): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(292): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(292): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(292): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(293): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(293): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(293): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(293): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(295): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(295): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(295): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(295): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(297): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(297): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(297): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(297): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(302): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(302): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(302): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(302): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(303): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(303): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(303): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(304): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(304): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(304): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [3]”转换为“char *”
+  f:\qtprojects\test9\porter.h(304): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(305): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(305): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(305): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(305): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(307): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(307): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(307): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(307): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(308): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(308): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(308): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(308): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(309): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(309): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(309): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(309): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(311): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(311): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(311): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(311): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(312): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(312): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(312): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(312): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(313): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(313): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(313): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(313): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(314): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [9]”转换为“char *”
+  f:\qtprojects\test9\porter.h(314): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(314): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(314): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(316): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(316): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(316): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(316): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(317): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(317): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(317): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(317): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(318): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [8]”转换为“char *”
+  f:\qtprojects\test9\porter.h(318): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(318): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(318): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(320): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(320): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(320): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(320): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(332): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(332): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(332): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(332): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(333): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(333): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(333): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(333): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(334): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(334): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(334): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(334): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(336): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(336): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(336): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(336): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(338): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(338): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(338): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(338): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(339): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(339): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(339): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(339): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(341): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(341): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(341): error C2664: “void r(stemmer *,char *)”: 无法将参数 2 从“const char [2]”转换为“char *”
+  f:\qtprojects\test9\porter.h(341): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(352): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(352): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(353): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(353): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(354): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(354): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(355): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(355): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(356): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(356): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(357): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(357): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(358): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(358): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(359): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(359): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(360): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [7]”转换为“char *”
+  f:\qtprojects\test9\porter.h(360): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(361): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [6]”转换为“char *”
+  f:\qtprojects\test9\porter.h(361): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(362): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(362): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(363): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(363): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(364): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [4]”转换为“char *”
+  f:\qtprojects\test9\porter.h(364): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(366): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(366): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(367): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(367): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(368): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(368): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(369): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(369): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(370): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(370): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\porter.h(371): error C2664: “int ends(stemmer *,char *)”: 无法将参数 2 从“const char [5]”转换为“char *”
+  f:\qtprojects\test9\porter.h(371): note: 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+f:\qtprojects\test9\nb.h(8): fatal error C1083: 无法打开包括文件: “boost\regex.hpp”: No such file or directory
+  nb.cpp
+f:\qtprojects\test9\nb.h(8): fatal error C1083: 无法打开包括文件: “boost\regex.hpp”: No such file or directory
+  正在生成代码...

@@ -1,0 +1,37 @@
+re: how to keep debian current??from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=utf-8; format=flow
+content-transfer-encod: quot-printabl
+
+osamu aoki schreef:
+> on sat, mai 15, 2010 at 08:23:09am -0500, ron johnson wrote:
+>> on 05/15/2010 08:16 am, ryanjb wrote:
+>>> thank for the comprehens repli, it's like you just whip up
+>>> a new document for thi problem ;)
+>>>
+>>> i think it's best for me to run lenni with backport. my need is
+>>> actual onli a stabl home system. i do favor current app
+>>> though; i often us beta (but not alpha), but i can live with
+>>> old app.
+>>>
+>> then us sid.  lot of non-geek do.
+>=20
+> why??? i think he made a correct judgement.=20
+>=20
+> he said "i can live with old app".
+>=20
+> he can alwai run sid in chroot or virtual machin.  but the fact that
+> he is ask thi question is the proof, he should get to lern debian
+> system now.
+>=20
+> onc he will get to us to debian system, he can do sid as i do or ron=
+
+> doe.  but i think it is prematur.  give him few month, he will....
+thi is a veri sane advic. i also start with a stabl instal, but=20
+after some time i decid i can handl test. the problem is not that=20
+it's hard to run test becaus it break, it is just a bit more like =
+
+to break in which case it is good to have some experi sort out=20
+the debri. for unstabl, thi is probabl even more true.
+
+sjoerd
+

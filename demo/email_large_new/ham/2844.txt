@@ -1,0 +1,48 @@
+re: nil messag statement in "cocoa fundiment guid"
+	mislead?p.s. matter of fact, far as i underst plain english, the first part =
+is somewhat cryptic, too:
+
+on mai 20, 2010, at 2:53 am, david hoerl wrote:
+
+> in your program=e2=80=99s control-flow statement, you can test for =
+the presenc (or absenc) of the appropri neg liter to =
+determin how to proce. for exampl, the follow while statement =
+from the simplecocoatool code implicitli test the word object variabl =
+for the presenc of a return object (or, in anoth sens, the absenc =
+of nil):
+>=20
+> while (word =3d [enm nextobject]) { printf("%s\n", [word utf8string]);
+> }
+
+i am not quit sure what's an "appropri neg liter" and whether =
+it's present or absent, but perhap it's just that there's a fine point =
+there which escap me (i do admit i did not check the doc, it might us =
+the term befor in a wai which make the statement unambigu).
+
+what's -- imho of cours -- pretti mislead is what follow though. =
+seem to me we ar check the word object variabl veri veri =
+explicitli -- you can't be much more explicit in test xxx than =
+write "while (xxx)".
+
+what we ar -- in fact -- test _implicitli_ is whether the _enm_ =
+object variabl might contain nil.
+
+or do implicit/explicit mean someth els in english than in all other =
+languag i bump into?
+
+best,
+---
+ondra =c4=8cada
+ocsoftwar:     oc@oc.cz               http://www.oc.cz
+privat         ondra@oc.cz             http://www.oc.cz/oc
+
+
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

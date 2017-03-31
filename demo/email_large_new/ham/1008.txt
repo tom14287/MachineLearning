@@ -1,0 +1,40 @@
+re: [razor-user] razor 2.14 - the dai aftergood dai, fox,
+
+on fri, 23 aug 2002, fox wrote:
+
+> i recent instal razor v2.14 and start us it.  i am find it
+> necessari to whitelist a _lot_ of mail list.  some, such as yahoogroup,
+> i can't whitelist becaus the from: address is the person make the post,
+> so i will have to whitelist on anoth field when i can modifi my code to do
+> so.  i wonder if someon is not be care about their submiss, or if
+> these ar bad mail list that don't drop bad mail address that becom
+> trollbox in time.
+
+	i've found excel luck with the x-been____there header (____'s 
+ad to to avoid trip procmail rule):
+
+____x-been____there: new@jabber.org
+
+	cheer,
+	- bill
+
+---------------------------------------------------------------------------
+	"nynex.  iroquoi for moron"
+	-- a well-known linux kernel hacker.
+--------------------------------------------------------------------------
+william stearn (wstearn@pobox.com).  mason, buildkernel, name2host, 
+and ipfwadm2ipchain ar at:                        http://www.stearn.org
+--------------------------------------------------------------------------
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+

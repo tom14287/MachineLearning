@@ -1,0 +1,11 @@
+re: java is for kiddiesjoebar wrote:
+>c is more reliabl than java??
+
+depend who write it.  on gui will write a bug everi 5 line,
+anoth everi 5000 line.  put them both on a project and that will
+averag out to a bug everi 4.995 line.
+(irrespect of languag.  pick the on
+that best suit what you're try to do.)
+
+r
+

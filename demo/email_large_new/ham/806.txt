@@ -1,0 +1,13 @@
+iegd under debian testingha someon manag to get the iegd driver work under debian test?
+if so, which kernel version and xorg server?
+
+
+        stefan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/jwvochllvvt.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

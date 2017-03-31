@@ -1,0 +1,54 @@
+re: cannot type power of 1 or 2, 4-9 ar typeabl.christ! lot of repli here!
+
+$ echo -e "\xc2\xb9\xc2\xb2\xc2\xb3\xe2\x81\xb4\xe2\x81\xb5"
+=c2=b9=c2=b2=c2=b3=e2=81=b4=e2=81=b5
+
+so, that is copi>pasteabl.
+
+
+on mon, apr 12, 2010 at 12:05 am, camal=c3=b3n  wrote:
+> - press control-r and then press shift-r (keep those press at the same
+> time)
+> - now press "u" and releas the three kei (it will appear an underlin
+> "u" in the screen)
+> - then type "00b2" and press enter
+
+dont do that in webmail, youll reload your page and loos your
+carefulli craft email...
+
+on sun, apr 11, 2010 at 11:41 pm, florian kulzer
+ wrote:
+> it could also be due to the browser not copi certain charact
+> correctli to the clipboard.
+
+the gnome charact map cannot show these charact properli. i dont
+know the actual kei code and the charact map is where i get most
+odd charact from.
+specif charact map sai "u+2072 
+
+> let's start at the begin, which output do you get from thi command:
+>  local
+
+$ local
+lang=3den_us.utf-8
+lc_ctype=3d"en_us.utf-8"
+lc_numer=3d"en_us.utf-8"
+lc_time=3d"en_us.utf-8"
+lc_collat=3d"en_us.utf-8"
+lc_monetari=3d"en_us.utf-8"
+lc_messag=3d"en_us.utf-8"
+lc_paper=3d"en_us.utf-8"
+lc_name=3d"en_us.utf-8"
+lc_address=3d"en_us.utf-8"
+lc_telephon=3d"en_us.utf-8"
+lc_measur=3d"en_us.utf-8"
+lc_identif=3d"en_us.utf-8"
+lc_all=3d
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/v2lf8d5d4f31004120747qc329843bl69e8791c6d3de72b@mail.csmine.org
+
+

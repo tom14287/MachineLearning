@@ -1,0 +1,68 @@
+re: evolut 2.30 with exchangecamalón wrote:
+
+> on tue, 25 mai 2010 18:57:31 +0200, delopt wrote:
+> 
+>> camalón wrote:
+>> 
+>>> if evolut is work "off-line", switch into "on-line" mode, that
+>>> should go awai the messag about "network not avail".
+>>> 
+>>> 
+>> thi is the problem the onlin option (down left) is outblend and
+>> inact. i don't understand why.
+> 
+> it could be a bug, but evolut depend much in network-manag set
+> to check the connect statu of the comput. be sure you ar inde
+> onlin.
+
+doe somebodi here is us it (also in product)?
+i want to cross check some thing.
+i'm not us network manag, becaus the stupid thing is wait for me to
+login to connect, but my home is on a network share that i need to have
+mount befor i login
+
+> 
+> also, go to "file" menu and look there for ani "switch to onlin" option
+> you can toggl on.
+
+be sure i've done thi alreadi .. thi option is disabl too
+
+> 
+> you can try by launch evolut be anoth user (not your usual
+> on) and from a consol, to see ani output error.
+
+thi is a good idea, i'll try. i've actual tri but onli to see if evo is
+run
+
+> 
+>> by the wai i'm us evolut in kde4 so mai be there is someth from
+>> gnome miss.
+>> 
+>> i did a test upgrad so mai be evolut packag ar upgrad but
+>> depend were not instal - is it possibl?
+> 
+> check for ani updat packag again.
+
+updat daili 
+
+> 
+> updat manag should care about the requir packag and depend
+> that will be upgrad, i doubt you ar miss on of them, it should
+> have warn you if someth wa miss or broken :-?
+> 
+
+thank - perhap is the network manag. i'll get it run and check
+again.
+
+if someon is read mail with evolut 2.30 from exchang pleas give me
+a note.
+
+regard
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hth4dp$ds3$1@dough.gmane.org
+
+

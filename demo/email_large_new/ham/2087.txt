@@ -1,0 +1,68 @@
+re: problem with apt updateonc upon a time, mark wrote :
+
+> hiya, i alwai seem to get error when i do an "apt updat", is thi a 
+> problem on the repositori itself, or on my end, or possibl a timeout in 
+> the connect due to my connect be a crappi modem?
+> 
+> [root@spawn root]# apt-get updat
+> hit http://apt.nixia.no redhat/7.2/i386/base/pkglist.gnomehid
+> hit http://apt.freshrpm.net redhat/7.2/i386/base/pkglist.os
+> ign http://apt.freshrpm.net redhat/7.2/i386 releas.os
+> err http://apt.freshrpm.net redhat/7.2/i386/base/pkglist.updat
+>   bad header line
+> hit http://apt.freshrpm.net redhat/7.2/i386 releas.updat
+> err http://apt.freshrpm.net redhat/7.2/i386/base/pkglist.freshrpm
+>   400 bad request
+> err http://apt.freshrpm.net redhat/7.2/i386 releas.freshrpm
+>   bad header line
+> hit http://apt.freshrpm.net redhat/7.2/i386/base/srclist.freshrpm
+> ign http://apt.nixia.no redhat/7.2/i386 releas.gnomehid
+> ign http://apt.nixia.no redhat/7.2/i386/base/mirror
+> hit http://apt.freshrpm.net redhat/7.2/i386 releas.freshrpm
+[...]
+
+it work for me (it should work with or without the "en" subdirectori).
+doe it alwai give you the same error each time? do you us an proxi
+server?
+
+[root@python root]# apt-get updat
+hit http://apt.freshrpm.net redhat/7.2/en/i386/base/srclist.os
+hit http://apt.freshrpm.net redhat/7.2/en/i386 releas.os
+hit http://apt.freshrpm.net redhat/7.2/en/i386/base/srclist.updat
+hit http://apt.freshrpm.net redhat/7.2/en/i386 releas.updat
+get:1 http://apt.freshrpm.net redhat/7.2/en/i386/base/pkglist.os [1035kb]
+hit http://apt.freshrpm.net redhat/7.2/en/i386 releas.os
+get:2 http://apt.freshrpm.net redhat/7.2/en/i386/base/pkglist.updat
+[331kb] hit http://apt.freshrpm.net redhat/7.2/en/i386 releas.updat
+hit http://apt.freshrpm.net redhat/7.2/en/i386/base/pkglist.freshrpm
+hit http://apt.freshrpm.net redhat/7.2/en/i386 releas.freshrpm
+hit http://apt.freshrpm.net redhat/7.2/en/i386/base/srclist.os
+hit http://apt.freshrpm.net redhat/7.2/en/i386 releas.os
+hit http://apt.freshrpm.net redhat/7.2/en/i386/base/srclist.updat
+hit http://apt.freshrpm.net redhat/7.2/en/i386 releas.updat
+hit http://apt.freshrpm.net redhat/7.2/en/i386/base/srclist.freshrpm
+hit http://apt.freshrpm.net redhat/7.2/en/i386 releas.freshrpm
+ign http://apt.freshrpm.net redhat/7.2/en/$(arch)/base/mirror
+ign http://apt.freshrpm.net redhat/7.2/en/$(arch)/base/mirror
+ign http://apt.freshrpm.net redhat/7.2/en/$(arch)/base/mirror
+fetch 1366kb in 1m16s (17.9kb/s)
+process file depend... done
+read packag list... done       
+build depend tree... done
+w: http://apt.freshrpm.net/ will not be authent.
+w: http://apt.freshrpm.net/ will not be authent.
+w: http://apt.freshrpm.net/ will not be authent.
+[root@python root]# 
+
+matthia
+
+-- 
+matthia saou                                world trade center
+-------------                                edificio nort 4 planta
+system and network engin                  08039 barcelona, spain
+electron group interact                 phone : +34 936 00 23 23
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

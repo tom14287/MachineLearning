@@ -1,0 +1,25 @@
+`batteri is now fulli charg:' why do i receiv thi after have
+ unplug the cabl?from nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+hi,
+
+i receiv the messag `batteri is now fulli charg' on my asu eee
+1000he under debian lenni 5 w. kernel 2.26-2-686, but onli onc i have
+unplug the cabl? for exampl, the pc might be on ac power for 15
+hour, and sai noth. if i then unplug the cabl, it tell me that the
+batteri is _now_ fulli charg. is it normal? doe someon els
+experi thi?
+
+thank,
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+
+

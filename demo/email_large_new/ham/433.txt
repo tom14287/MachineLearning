@@ -1,0 +1,104 @@
+re: tora with oracl support (wa: re: kde 3.5 ...)cassiano leal wrote:
+
+> on 6 mai 2010 14:06, delopt  wrote:
+>> dotan cohen wrote:
+>>
+>>>
+>>> ye, kde 4 seem to be much better for the averag joe. but that is
+>>> the reason that power user suffer at the moment! a.joe alreadi ha
+>>> gnome...
+>>>
+>>>
+>>
+>> exactli! ok, i'll look forward to test thi weekend.
+>> main issu for me is tora with oracl, but also a bunch of other app
+>> that i'm us.
+>> thank anywai!
+> 
+> speak of which... have you manag to compil tora with oracl
+> support us dpkg-buildpackag?
+
+no, didn't have time when i need it and when i don't i don't have time to
+do the deb build.
+
+> 
+> i us to be abl to just by set oracl's env variabl. someth
+> ha chang, though, and now i get these messag after issuieng
+> dpkg-buildpackag:
+> 
+> -- found oracl: /usr/lib/oracl/11.1/client64/lib/libclntsh.so
+> (oracl_home='/usr/lib/oracl/11.1/client64')
+> -- found xml oracl: oracl_includ_xml-notfound
+> oracl_librari_xml-notfound -- oracl not found.
+> -- oracl: you can specifi includ:
+> -doracl_path_includ=/usr/includ/oracl/10.2.0.3/client
+> --    current found includ: oracl_includ-notfound
+> -- oracl: you can specifi lib:
+> -doracl_path_lib=/usr/lib/oracl/10.2.0.3/client/lib
+> --    current found lib: /usr/lib/oracl/11.1/client64/lib/libclntsh.so
+> -- no oracl oci found. tora will be build without oracl support
+
+sorri, i can not help you in thi. i just download the tora code and
+compil it against my oracl sdk which is in the /opt/oracl dir. (i mean
+i've put it there and setup all i need to us it thiswai)
+
+> 
+> 
+> note that it first stat that it ha found oracl in
+> /usr/lib/oracl/11.1/client64, but then sai that oracl wa not
+> found.
+> 
+> what do i have to do in order to compil it with oracl support?
+> 
+> i am us oracl instantcli 11.1 lib convert from rpm do deb
+> with alien in a squeez box. sqlplu work fine.
+> 
+
+so you ar ask me how i did manag to compil it in kde 3.5?
+
+first you need the sdk. i've put it in each version dir respect. thi
+is an extra packag.
+
+also why would you convert someth from rpm to deb, when you can go to the
+vendor and download for free the real code?
+
+i've download and put all i need in /opt/oracl
+
+ll /opt/oracl/
+общо 20
+drwxr-xr-x 5 root    root    4096  6 яну 14,37 .
+drwxr-xr-x 7 root    root    4096 14 дек  2,22 ..
+drwxr-xr-x 3 emanoil emanoil 4096 22 ное 16,58 instantcli_10_2
+drwxr-xr-x 3 emanoil emanoil 4096 14 дек  0,35 instantcli_11_1
+lrwxrwxrwx 1 root    root      18  6 яну 14,37 lib -> instantcli_11_1
+drwxr-xr-x 3 emanoil emanoil 4096 22 ное 16,54 network
+
+export oracl_home="/opt/oracl/instantcli_11_1"
+export tn_admin="/opt/oracl/network/admin"
+export path=/opt/oracl/instantcli_11_1:$path
+
+./configur --prefix=/usr --with-instant-client \
+        --with-oracl-includ=/opt/oracl/instantcli_11_1/sdk/includ \
+        --with-oracl-librari=/opt/oracl/instantcli_11_1  \
+        --with-oci-version=11g
+
+make
+make instal
+
+that's it.
+
+i have to admit that for me the biggest challeng wa to download the
+packag i need from the oracl site.
+
+i rememb i've tri to debian onc but it fail and i gave up, becaus
+i didn't have the time.
+
+regard
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hs0vic$t06$1@dough.gmane.org
+
+

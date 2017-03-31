@@ -1,0 +1,96 @@
+[spambay] test set?[barri a. warsaw, give answer and ask question]
+
+here's the code that produc the header token:
+
+    x2n = {}
+    for x in msg.kei():
+        x2n[x] = x2n.get(x, 0) + 1
+    for x in x2n.item():
+        yield "header:%s:%d" % x
+
+
+some respons:
+
+>  0.01    19  3559 'header:x-mailman-version:1'
+>  0.01    19  3559 'header:list-id:1'
+>  0.01    19  3557 'header:x-beenther:1'
+>
+> these three ar definit mm artifact, although the second on
+> /could/ be insert by other list manag softwar (it's describ
+> in an rfc).
+
+sinc all the ham came from mailman, and onli 19 spam had it, it's quit
+safe to assum then that i should ignor these for now.
+
+>  0.01     0  3093 'header:newsgroup:1'
+>  0.01     0  3054 'header:xref:1'
+>  0.01     0  3053 'header:path:1'
+>
+> these aren't mm artifact, but ar byproduct of gate a messag off
+> of an nntp feed.  some of the other nntp-* header ar similar, but i
+> won't point them out below.
+
+i should ignor these too then.
+
+>  0.01    19  2668 'header:list-unsubscrib:1'
+>  0.01    19  2668 'header:list-subscrib:1'
+>  0.01    19  2668 'header:list-post:1'
+>  0.01    19  2668 'header:list-help:1'
+>  0.01    19  2668 'header:list-archiv:1'
+>
+> rfc recommend gener listserv header that mm inject.
+
+ditto.
+
+> so why do you get two entri for thi on?
+>
+>  0.99   519     0 'header:receiv:8'
+>  0.99   466     1 'header:receiv:7'
+
+read the code .  the first line count msg that had 8 instanc of a
+'receiv' header, and the second count msg that had 7 instanc.  i
+expect thi is a good clue!  the more indirect the mail path, the more of
+those thingi we'll see, and if you're post from a spam trailer park in
+tasmania you mai well need to travel thru more machin.
+
+> ...
+> note that header name ar case insensit, so thi on's no
+> differ than "mime-version:".  similarli other header in your list.
+
+ignor case here mai or mai not help; that's for experi to decid.
+it's plausibl that case is signific, if, e.g., a particular spam mail
+packag gener unusu case, or a particular clueless spammer
+misconfigur hi packag.
+
+>  0.02    65  3559 'header:preced:1'
+>
+> could be mailman, or not.  thi header is suppos to tell other
+> autom softwar that thi messag wa autom.  e.g. a replybot
+> should ignor ani messag with a preced: {bulk|junk|list}.
+
+rule of thumb:  if mailman insert a thing, i should ignor it.  or, better,
+i should stop try to out-think the flaw in the test data and get better
+test data instead!
+
+>  0.50     4     0 'header:2:1'
+>
+> !?
+> ...
+>  0.50     0     2 'header:'
+>
+> heh?
+
+i suck out all the wordinfo kei that began with "header:".  the last line
+there  wa probabl due to unrel instanc of the string "header:" in
+messag bodi.  harder to guess about the first line.
+
+> ...
+> some header of cours ar total unreli as to their origin.  i'm
+> think stuff like mime-version, content-type, to, from, etc, etc.
+> everyon stick those in.
+
+the brillianc of anthoni's "just count them" scheme is that it requir no
+thought, so can't be fool .  header line that ar evenli
+distribut across spam and ham will turn out to be worthless indic
+(prob near 0.5), so do no harm.
+

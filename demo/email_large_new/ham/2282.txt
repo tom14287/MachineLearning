@@ -1,0 +1,32 @@
+re: dual channel memori questionon 04/15/2010 07:59 pm, stan hoeppner wrote:
+> aioanei rare put forth on 4/15/2010 3:16 pm:
+>
+>    
+>> no, it mean that 2 on-gig modul in same-colour slot will
+>> theoret work better. i have on modul in a dual-channel mobo and
+>> it work ok. most desktop/workstat mobo do.
+>>      
+> no, that's not correct.  if the mobo dimm slot ar color, you put on
+> dimm in each color slot for dual channel oper, not both dimm in the
+> same color slot.
+>    
+
+i believ differ manufactur follow differ convent. for some 
+it's the two in same-color slot, for other in differ-color slot. 
+when in doubt, check the manual
+
+
+-- 
+just don't creat a file call -rf.  :-)
+		-- larri wall in<11393@jpl-devvax.jpl.nasa.gov>
+
+eduardo m kalinowski
+eduardo@kalinowski.com.br
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc7a25e.4030204@kalinowski.com.br
+
+

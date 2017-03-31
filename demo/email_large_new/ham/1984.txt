@@ -1,0 +1,39 @@
+re: light automat and randomli reduc some sec. after it  ha been set to it maximum level-----begin pgp sign messag-----
+hash: sha1
+
+camalón  write:
+
+> on sun, 18 apr 2010 16:33:32 +0200, merciadri luca wrote:
+>
+>> as state in the titl, the light on my asu eee 1000he automat
+>> and randomli reduc some second after i have set it to it maximum
+>> level. why? that must be for some energi reason, but i would like to
+>> deactiv thi featur, or at least to modifi the timer between the
+>> action i do, and the us of the default valu.
+>
+> open gconf editor and navig to "/app/gnome-power-manag/backlight/
+> idl_bright". you can tweak mani thing from there.
+
+thank. i had not thought about it.
+- -- 
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+- -- 
+
+it is better to die on on's feet than live on on's knee.
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: process by mailcrypt 3.5.8 
+
+ieyearecaayfakvmya8acgkqm0llzlt8mhyqdacfefdji5xgik1ze30ifi3hccv+
+5vwana5oyr2a8xuejicp741x1z3uljqg
+=tmpk
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87633nbldc.fsf@merciadriluca-eee.workgroup
+
+

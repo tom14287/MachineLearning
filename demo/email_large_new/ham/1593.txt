@@ -1,0 +1,10 @@
+re: [sadev] phew!jm@jmason.org (justin mason) write:
+
+> ye -- 50% of the entir set for train and 50% for evalu.
+
+onc you've settl on the final method for ani on releas, why not
+us 100% of the data for a final run?
+ 
+dan
+
+

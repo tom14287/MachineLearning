@@ -1,0 +1,12 @@
+re: ximian apt repo?on mon, 2002-07-22 at 06:20, che wrote:
+
+> the server mention abov work again now :)!
+
+ani problem with the rpm's thei provid?
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

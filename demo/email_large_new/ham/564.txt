@@ -1,0 +1,38 @@
+re: search googl for "select text"camalón wrote:
+> on fri, 07 mai 2010 10:13:23 -0700, jimmi johnson wrote:
+> 
+>> when in iceweasel/firefox when i can right click on select text and i
+>> get the option to search googl for the select text in a new tab.
+>>
+>> anybodi know of a wai i can have the same in icedov/thunderbird by
+>> right click?
+> 
+> it seem there is an add-on for thunderbird:
+> 
+> searchwith
+> http://addon.mozilla.org/en-us/thunderbird/addon/2194/
+> 
+> i've not test it, not sure even if it work on linux platform. us 
+> with caution :-p
+> 
+> greet,
+
+
+i wa just now come to tell you gui that i found thi add on 
+http://addon.mozilla.org/en-us/thunderbird/addon/5467 and it default 
+to search select text with googl, ha a 5 star rate, it doe 
+exactli what i want. thank for your suggest anywai. :-)
+-- 
+jimmi johnson
+
+bakersfield, ca. u.s.a.
+regist linux user #380263
+k.i.s.s. (keep it simpl stupid)
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be4600b.6050805@csmine.org
+
+

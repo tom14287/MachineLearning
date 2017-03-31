@@ -1,0 +1,92 @@
+[spam]  take it serious
+
+
+show tip of the dai
+
+div p, tabl p { margin-bottom:1em !import; }
+bodi {margin: 12px 0 0 12px;}
+td {font-famili: verdana, arial, san-serif; font-size: 12px; line-height: 18px;}
+td#header-footer {font-size: 11px; color: #93e0e9; line-height: 12px;}
+td#header-footer strong {font-size: 11px; color: #ffffff; line-height: 12px;}
+span.store {color: #046e84;}
+h1 {font-famili: georgia, helvetica, san-serif; font-size: 18px; color: #012939; margin: 0 0 12px 0;}
+td#footer-info {font-size: 11px; color: #ffffff}
+ul {list-style-imag: url(imag/h-email-li-black-cross.gif); font-size: 12px; margin: 0 20px 0 0; list-style-posit: insid;}
+a:link{font-famili: arial, san-serif;font-size: 12px; color: #00798e;text-decor: underlin;}
+a:hover{font-famili: arial, san-serif;font-size: 12px; color: #00798e;text-decor: none;}
+a:visit{font-famili: arial, san-serif;font-size: 12px; color: #00798e;text-decor: underlin;}
+a#nav{font-famili: arial, san-serif;font-size: 12px; color: #ffffff;text-decor: none;}
+a#nav:hover{font-famili: arial, san-serif; color: #ffffff;text-decor: underlin;}
+a#nav:visit{font-famili: arial, san-serif; color: #ffffff;text-decor: none;}
+a#nav:visit{font-famili: arial, san-serif; color: #ffffff;text-decor: none;}
+a#footer {font-size: 12px;font-famili: arial, san-serif;color: #ffffff;text-decor: none;}
+a#footer:hover {font-size: 12px;font-famili: arial, san-serif;color: #ffffff;text-decor: underlin;}
+a#footer:visit {font-size: 12px;font-famili: arial, san-serif;color: #ffffff;text-decor: none;}
+a#ad {font-famili: arial, san-serif; font-size: 12px; color: #b11c3d;text-decor: none;}
+ .ad_bodi {	font-famili: arial, helvetica, san-serif; font-size: 10pt;	color: #000000;}
+ 
+
+
+
+
+to view thi e-mail as a web page, go here.
+
+
+
+ 
+
+kim's club
+ 
+
+shop
+ 
+
+listen
+ 
+
+column
+ 
+
+cool site
+ 
+
+tip
+ 
+
+bui guid
+ 
+
+video of the dai
+
+
+
+
+sept. 30, 2009
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reprint permiss | advertis | advertis comment | subscrib to our newslett | newslett faq
+
+copyright © 2009, the kim komando show. all right reserv. reproduct in whole or in part in ani form or medium without express written permiss of the kim komando show is prohibit and strictli enforc. newslett mai contain link to site on the internet own and oper by third parti. the kim komando show is not respons for the avail of, or the content locat on or through, ani such third-parti site. inform in thi document is provid "as is" without warranti of ani kind, either express or impli, includ but not limit to the impli warranti of merchant, fit for a particular purpos and freedom from infring. the user assum the entir risk as to the accuraci and the us of thi document. we will not be liabl for ani damag of ani kind aris from the us of thi inform, includ, but not limit to direct, indirect, incident, punit, and conseq!
+ uential damag.
+if you must, unsubscrib detail ar below. :/
+to unsubscrib, us my onlin form.
+you mai also unsubscrib by send a request via postal mail. pleas includ your name, e-mail address and a print copi of your newslett e-mail. send to:
+unsubscrib kim's newslett2711 n. 24th st.phoenix, az 85008
+
+
+
+

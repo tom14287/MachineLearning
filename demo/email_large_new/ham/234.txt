@@ -1,0 +1,25 @@
+re: isn't sed s,x,x, on big no-op?from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on thu, mai 06, 2010 at 08:52:39am +0800, jidanni@jidanni.org wrote:
+> in /etc/grub.d/00_header we see
+>=20
+>   transform=3d"s,x,x,"
+>   grub_prefix=3d`echo /boot/grub | sed ${transform}`
+>   local_dir=3d`echo /boot/grub/local | sed ${transform}`
+>=20
+> isn't that sed line on big no-op?
+
+look like it to me.=20
+
+> should i file a bug to have it remov or at least have a comment ad
+> as to it purpos, or have them us a better wai to achiev what thei
+> ar try to do?
+
+mayb a question is better than a bug report. i imagin it's just a
+conveni variabl in case someon need to transform path for some
+reason.
+
+a

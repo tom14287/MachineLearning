@@ -1,0 +1,12 @@
+re: autom updat in lennyyet anoth solut:
+   http://packag.debian.org/lenni/unattend-upgrad
+
+-thib
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbcf698.5080506@stam.net
+
+

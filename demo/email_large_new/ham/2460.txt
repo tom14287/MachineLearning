@@ -1,0 +1,30 @@
+re: go wirelessfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on fri, apr 09, 2010 at 13:19 +0000, t o n g wrote:
+> i alwai us wire network for my laptop becaus i don't know how to=20
+> properli get wireless go. i've been to web site like the follow=20
+> but thei all look rather complic.
+
+> now i want to try just again. so, what packag do i need to instal in=
+=20
+> order to get my wire-network laptop go wireless? what ar the=20
+> configur (and troubleshoot) step?=20
+
+check http://wiki.debian.org/wifi/howtous
+
+i am particularli fond of wpa_supplic in roam mode [1] but you
+might want to take a look at wicd or network-mangler as well.
+
+wicd and network-mangler also have curs interfac, but it is
+imposs to us them for advanc setup like radiu, ...
+
+[1] /usr/share/doc/wpasupplic/readm.mode.gz
+    /usr/share/doc/wpasupplic/exampl/wpa-roam.conf
+--=20
+  .''`.     wolodja wentland    =20
+ : :'  :   =20
+ `. `'`     4096r/caf14efc=20
+   `-       081c b7cd ff04 2ba9 94ea  36b2 8b7f 7d30 caf1 4efc

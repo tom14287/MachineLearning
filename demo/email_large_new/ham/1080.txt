@@ -1,0 +1,159 @@
+re: 2.5.0 weirdnessif there is someth new to 2.5.0, then it is a differ issu.  the =
+issu as describ in bug #58 is known, and the problem certainli li =
+outsid of x11.  i am suspici of claim that someth "new" in thi =
+regard ha crop up in 2.5.0 sinc the code in question ha remain =
+pretti much unchang for well over a year now.
+
+
+on apr 6, 2010, at 21:35, adam d. i. kramer wrote:
+
+> ok. i have sinc verifi that sometim i lose focu and sometim =
+x11 pop
+> to the front even when anoth applic is rune. for exampl, i'm =
+us
+> powerpoint, and then...gee, all my xterm. hello, xterm. but =
+powerpoint
+> still ha "focu" in the sens that my keypress go to powerpoint, =
+which is
+> hidden behind my xterm.
+>=20
+> but here's the thing--thi all start with 2.5.0. thi bug is not =
+present
+> in the snow leopard standard instal. so perhap there *is* someth
+> xquartz.app can do about it?
+>=20
+> --adam
+>=20
+> on sun, 4 apr 2010, jeremi huddleston wrote:
+>=20
+>> you gui might want to cc yourself to thi ticket:
+>> http://xquartz.macosforg.org/trac/ticket/58
+>> the issu can't realli be fix by xquartz.app itself.  if thi is an
+>> annoy, i suggest you file a bug report with appl
+>> (http://bugreport.appl.com) and indic that it is like a =
+duplic of
+>> 7150340
+>> thank,
+>> jeremi
+>> on apr 4, 2010, at 12:35, adam d. i. kramer wrote:
+>>> the problem you describ, doug, is a problem i have had befor--but =
+not
+>>> sinc upgrad to snow leopard.
+>>> onli minorli relatedli, i would sai that "loss of focu" is the =
+singl most
+>>> annoi thing that occur in my us of osx broadli speak. =
+whether it's a
+>>> dialog box or a new window or anyth, if i didn't click on it or =
+somehow
+>>> intention direct myself to it, i realli don't want to be type =
+in there
+>>> instead of where i chose to be.
+>>> is there ani softwar anyon ha heard of that can turn off the =
+abil of
+>>> ani program to steal focu?
+>>> --adam
+>>> on sun, 4 apr 2010, doug carter wrote:
+>>>> for what it's worth, i've seen thi (and a relat problem) sinc
+>>>> 2.3.2. i've alwai suspect that it's a conflict between a os =
+window
+>>>> manag event and the x server. the relat problem is sometim a
+>>>> current in-us xterm will lose focu for 1-3 second. sometim =
+the
+>>>> focu return, other time i need to click in the xterm to get the
+>>>> focu back.
+>>>> i've alwai assum these problem were at a deeper event level, =
+and
+>>>> becaus thei ar so random and imposs to reproduc, i've just =
+live
+>>>> with them. like the ticket referenc below, i'd sai it's a good =
+bet that
+>>>> there is some other process that is mess with focu.
+>>>> doug
+>>>> on sun, apr 04, 2010 at 12:00:24am -0700, jeremi huddleston wrote:
+>>>>> i have no idea what might be caus thi, and i can't think of =
+ani chang between 2.3.4 and 2.5.0 that would have thi type of effect.
+>>>>> pleas do try to narrow it down.  i wonder if it is relat to =
+http://xquartz.macosforg.org/trac/ticket/58
+>>>>> --jeremi
+>>>>> on apr 3, 2010, at 23:51, adam d. i. kramer wrote:
+>>>>>> hi,
+>>>>>>=20
+>>>>>> 	everi so often, now that i have upgrad to 2.5.0, when i'm =
+type
+>>>>>> in an xterm, for some reason all of the window open in =
+xquartz.app will
+>>>>>> come forward. for exampl, if thi window is the onli on "abov" =
+firefox in
+>>>>>> the background, for some reason and in a manner i cannot yet =
+predict or
+>>>>>> caus, all of the other window will come forward as if i had =
+click the
+>>>>>> xquartz icon in the dock.
+>>>>>>=20
+>>>>>> 	the window' order is not be rearrang...thi window stai =
+on
+>>>>>> top.  i'm not lose ani keystrok.  it's annoi when i'm =
+type here and
+>>>>>> read a webpag.
+>>>>>>=20
+>>>>>> 	thi wa not an issu under appl's x11 for 10.6. it onli =
+happen
+>>>>>> onc everi few hour, so i don't know if it happen dure the =
+short period
+>>>>>> of time dure which i us rc1 or rc2.
+>>>>>>=20
+>>>>>> 	i'll certainli write back if i have ani wai to reproduc it, but =
+for
+>>>>>> the mean time, ani idea what might be caus thi?
+>>>>>> --adam
+>>>>>> _______________________________________________
+>>>>>> do not post admin request to the list. thei will be ignor.
+>>>>>> x11-user mail list      (x11-user@list.appl.com)
+>>>>>> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/jeremyhu%40freedesktop.or=
+g
+>>>>>> thi email sent to jeremyhu@freedesktop.org
+>>>>> _______________________________________________
+>>>>> do not post admin request to the list. thei will be ignor.
+>>>>> x11-user mail list      (x11-user@list.appl.com)
+>>>>> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/dcarter%40mercycorp.org
+>>>>> thi email sent to dcarter@mercycorp.org
+>>>> _______________________________________________
+>>>> do not post admin request to the list. thei will be ignor.
+>>>> x11-user mail list      (x11-user@list.appl.com)
+>>>> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/adik-applex11%40ilovebaco=
+n.org
+>>>> thi email sent to adik-applex11@ilovebacon.org
+>>> _______________________________________________
+>>> do not post admin request to the list. thei will be ignor.
+>>> x11-user mail list      (x11-user@list.appl.com)
+>>> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/jeremyhu%40freedesktop.or=
+g
+>>> thi email sent to jeremyhu@freedesktop.org
+>> _______________________________________________
+>> do not post admin request to the list. thei will be ignor.
+>> x11-user mail list      (x11-user@list.appl.com)
+>> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/adik-applex11%40ilovebaco=
+n.org
+>> thi email sent to adik-applex11@ilovebacon.org
+>>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> x11-user mail list      (x11-user@list.appl.com)
+> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/jeremyhu%40freedesktop.or=
+g
+>=20
+> thi email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

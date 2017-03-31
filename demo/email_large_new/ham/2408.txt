@@ -1,0 +1,113 @@
+re: configur error us tor, privoxi & polipoon 16/05/10 22:13, juan r. de silva wrote:
+> on sun, 16 mai 2010 07:52:06 -0400, snood wrote:
+>
+> on 05/16/2010 11:34 am, juan r. de silva wrote:
+>    
+>> on sun, 16 mai 2010 08:35:29 +0100, ag wrote:
+>>
+>>      
+>>> dear all
+>>>
+>>> on an up-to-date test machin, i am us iceweasel + tor + privoxi.
+>>> florian help me with an issu like thi sometim back, but revisit
+>>> hi help advic ha not help on thi occas.
+>>>
+>>> the situat is as follow:
+>>>
+>>> us iceweasel, i enabl the tor button and receiv a warn messag
+>>> "tor proxi test: local http proxi is unreach. is polipo run
+>>> properli?"
+>>>        
+>> i us ubuntu 8.04 with firefox 3.0.19 and the same + tor + privoxi
+>> configur.
+>>
+>> after upgrad to ubuntu 10.04 firefox get upgrad to v. 3.6 and all at
+>>      
+> a
+>    
+>> sudden i get the same error messag as you describ.
+>>
+>> in my case the problem wa resolv by a number of random set
+>> manipul within tor button properti:
+>>
+>> - open tor button properti window;
+>> - run test set (it will fail);
+>> - check "us custom proxi set" radio button instead of the default
+>> "us the recommend set..."
+>> - run test set (in my case it fail again)
+>> - check "us the recommend set..." back and run test set
+>> again. at thi point all at sudden i get a posit test result and
+>>      
+> sinc
+>    
+>> than everyth work just fine.
+>>
+>> i know all of it doe not make much sens but in my case i get it fix.
+>> mysteri. :-)
+>>
+>> it look like thi is a bug in tor button (or could be in ff itself?)
+>>
+>> ps. i do not rememb exactli but it could be that in addit of all of
+>> the abov i uncheck the us polipo button and than after a test
+>>      
+> check
+>    
+>> it back again.
+>>      
+>    
+>> i'm sure it's possibl to still us privoxi, but i believi that the tor
+>> project peopl ar recommend polipo instead.
+>>      
+> it's better if we keep convers in public. :-)
+>
+> current, ye - tor provid configur instruct mention
+> polipo instead of privoxi.  but just a year ago thei mention privoxi
+> instead. i do not know why is the chang. as far as i know privoxi is
+> superior to polipo.  unless thing chang in the last year, that i'm not
+> awar of.
+>
+> and actual to me it doe not look as a "recommend" but rather a
+> promot of on project in favour of anoth.
+>
+> imho it's more some sort of "polit" than a recommend. it's the
+> same as ubuntu all at as sudden damp gimp, pidgin, xsane, etc in favour
+> of other wors and some time (like in case of simpl scan) complet
+> useless applic. i do believ canon had their reason. but i
+> also believ that thei ar base on the actual applic virtu and
+> valu.
+>
+> i do not argu that tor would work just fine with polipo. i'm sure it
+> will.  i just do not see enough reason for me or ani on els to chang
+> exist and perfectli function configur, just becaus tor
+> decid to promot polipo.
+>
+>
+>
+>    
+juan
+
+thi is what i found too.  the iw add-on "tor button" configur 
+locat at
+
+ prefer/ proxi set
+
+list 2 option:
+
+(a) us the recommend proxi set for my version of firefox (and a 
+checkbox is mark next to the onli sub-option "us polipo" by default) or
+(b) us custom proxi set
+
+hand on heart i could not sai when thi chang took place as i haven't 
+been us iw + tor + privoxi for a while, so thi came as quit a 
+surpris.  there wa a recent updat to tor though, iirc, so it mai well 
+have been dure that.
+
+ag
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf17c8b.7000900@csmine.org
+
+

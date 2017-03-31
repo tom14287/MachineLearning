@@ -1,0 +1,34 @@
+re: lite smtp server/daemonon fri, 30 apr 2010 16:28:22 -0500
+stan hoeppner  wrote:
+
+> celejar put forth on 4/30/2010 3:20 pm:
+> 
+> > it is still small, though - under 70 line of actual perl code,
+> > although it doe, of cours, requir the basic perl instal and
+> > about a half-dozen other modul.
+> > 
+> > if anyon ha ani feedback, or suggest for improv, i'd love
+> > to hear them.
+> 
+> if you're write an smtpd from scratch in perl, why reinvent the wheel?
+> 
+> http://wiki.qpsmtpd.org/
+
+thank.  steve kemp also point thi out to me.  i hadn't found it,
+and sinc neither you, nor he, respond to me earlier email wonder
+if such a thing exist, i decid to practic my perl by code on
+myself ...
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100501222630.3ec5cbca.celejar@csmine.org
+
+

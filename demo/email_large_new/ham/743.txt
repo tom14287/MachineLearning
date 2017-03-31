@@ -1,0 +1,26 @@
+keyboard get stuck when close ppp (wa: problem when log out gnome)rodolfo medina  write:
+
+> lenni instal on my old pentium iii often get stuck when log out
+> gnome, either via the panel menu or with `ctrl-alt-backspac'.
+>
+> doe anyon have ani direct experi of the same problem or can suggest
+> what the caus mai ever be and how to work it out?
+
+
+the problem is report here:
+
+ http://bug.debian.org/cgi-bin/bugreport.cgi?bug=508589
+
+doe anyon know if it ha been fix, and how?  i don't have the possibl
+of instal sid.
+
+thank for ani help
+rodolfo
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87tyrn3wv1.fsf@csmine.org
+
+

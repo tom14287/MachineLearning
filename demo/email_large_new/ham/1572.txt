@@ -1,0 +1,34 @@
+re: [webdev] php+javascript requestat 06:10 pm 19/08/2002 +0100, dave wilson wrote:
+
+>in order for php to pars the result of the select multipl after it's 
+>submit, the variabl name need to end with []. that's great; php will 
+>take each select element and plant them as consecut element in an 
+>arrai. but that make for quit messi code when try to link the region 
+>select action with the site select multipl. javascript can't refer to 
+>the select multipl by name becaus of the bracket, so i have to refer to 
+>it by it locat in the form.
+
+er, i understood you until you reach the abov. mayb it my lack of php 
+but why would a variabl name _need_ to end with [] ?
+
+with most languag you pars the submit form data and should come out 
+with either variabl or an arrai / hash, which you then work with and name 
+whatev you like.
+
+
+lee hosti -x- hostyl at csn.ul.ie -x- +353 (0)86 8768780
+--
+yonder bogin (n.)
+the kind of restaur advertis as 'just three minut from thi cinema' 
+which
+clearli nobodi ever goe to and, even if thei had ever contempl it, have
+certainli chang their mind sinc see the advert.
+
+
+
+
+_______________________________________________
+webdev mail list
+webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+

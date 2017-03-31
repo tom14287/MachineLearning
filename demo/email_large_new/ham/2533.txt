@@ -1,0 +1,28 @@
+re: temporari deconnect from the internet when too much page ar loadedon fridai 16 april 2010 16:27:10 merciadri luca wrote:
+> lisi wrote:
+> > on thursdai 15 april 2010 15:18:32 merciadri luca wrote:
+> >
+> >
+> > a shot in the dark... - i have a problem of freez that is reminisc
+> > of thi - how much ram have you got??
+>
+> 4 gig. thi is appar not the problem. and you?
+
+512 mb.  and i am pretti sure that it _is_ the problem - shut thing do=
+wn=20
+(particularli iceweasel tab) sort it out.  the motherboard could take mor=
+e=20
+memori and i have an empti slot; but i am not sure that i can justifi=20
+spend =c2=a330.00 on more memori for a motherboard that is definit pa=
+st the=20
+first flush of youth!
+
+lisi
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004162355.44257.lisi.reisz@csmine.org
+
+

@@ -1,0 +1,47 @@
+re: lite smtp server/daemonon sun, 2 mai 2010 04:33:46 +0100
+steve kemp  wrote:
+
+> on sat mai 01, 2010 at 22:24:13 -0400, celejar wrote:
+> 
+> > i couldn't discern, btw, whether it support tl / ssl to an
+> > upstream mta?  i did find thi thread:
+> >
+> > http://www.nntp.perl.org/group/perl.qpsmtpd/2005/07/msg3404.html
+> >
+> > but i have no idea what the current statu of thi is.
+> 
+>   it seem like that isn't present yet, the onli core tl support
+>  i can spot is a plugin for accept tl-wrap connect not
+>  initi them.
+
+so i haven't been total wast my time ( ;) ), sinc my tmta doe
+support outbound ssl / tl connect, and inde, that wa a primari
+design goal, sinc i need to push mail out through gmail's smtp
+server, which requir ssl / tl.
+
+>   i've usual us qpsmtpd to process mail then either:
+> 
+>     * reject it at smtp time.
+>     * accept it for deliveri and write the mail directli to maildir folder.
+>     * accept it for deliveri and pass to exim4 for final deliveri.
+> 
+>  (ie. i've never tri to re-deliv to a remot machin via qpsmtpd,
+>  onli via pass to exim4.)
+
+got it.  the o'reilli discuss that i saw also mention that qpsmtpd
+wa primarili meant to be us in conjunct with a normal mta, and
+not to replac on.
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100501232342.079837a2.celejar@csmine.org
+
+

@@ -1,0 +1,49 @@
+re: x server start on the wrong consol (wa: new monitor, how to
+ chang screen resolut?)on thu, 29 apr 2010 18:26:26 -0400 (edt), redalert command wrote:
+> on thu, 2010-04-29 at 14:43 -0700, alan ianson wrote:
+>> on thu, 2010-04-29 at 17:35 -0400, stephen powel wrote:
+>>> 
+>>> then, in theori, restart the x server again
+>>> (such as with /etc/init.d/gdm restart) should caus the x server
+>>> to restart on vt 7.  thi us to work, but the last time i tri
+>>> it i end up with two x server, on on vt 7 and on on vt 8!
+>>> i had to reboot to clean thing up.  thi situat is a mess and
+>>> seem to be get wors.  as long as you login to gnome onli onc
+>>> per boot and shutdown the system from gnome you won't have thi
+>>> problem.  the initi alloc of vt 7 after a reboot work fine.
+>>> but if you logout of gnome after log in, you're like to have
+>>> thi problem.  it doesn't seem to fail all the time, though.  perhap
+>>> it is a time-relat problem.
+>> 
+>> i've notic thi too late, although i us the nvidia driver creat
+>> by modul assist.
+>> 
+>> i wonder if anyon not us the nv or nvidia driver also see thi?
+> 
+> i seem to have thi all the time, even right after boot, although...
+> i have 3 displai, and 2 port on my gpu, so i often switch them, after
+> do so, i copi the relev xorg.conf to it's proper locat, and
+> restart gdm. in do so, i onli log in into the first consol, us
+> ctrl+alt+f1, do the copi and /etc/init.d/gdm restart, at thi point x is
+> run in vt8, not 7. up till thi point, i haven't log in to gnome.
+
+but the kei is restart the x server, not necessarili a logout and
+login to the gnome desktop.  a login/logout sequenc is simpli the most
+common wai to restart the x server.  the x server can onli start onc
+safe.  after that, who know what vt it will end up on, and what part
+of the old instanc of the server will get termin.  ha anyon seen
+someth like thi on a non-nvidia driver (not nv and not nvidia)?
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/489890958.104820.1272593228318.javamail.root@md01.wow.synacor.com
+
+

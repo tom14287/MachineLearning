@@ -1,0 +1,22 @@
+instal lenni packag in squeezeif i were to instal a bare-bone squeez system, then add lenni
+repositori and declar lenni to be the default-releas in apt.conf,
+can i expect to have mani problem instal a full desktop environ
+from the lenni repo?  (gnome, lxde, or fluxbox, most like).
+
+reason:
+
+i us a debian-live usb and i like to run lenni becaus of the
+infrequ updat.  but on of my laptop requir the squeez kernel
+in order for wifi to work.  i've been told by the debian-live develop
+that i cannot instal altern kernel on my live system (otherwis i'd
+be abl to us a kernel from backport.org).
+
+-rob
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100429013529.gc8530@aurora.owen.net
+
+

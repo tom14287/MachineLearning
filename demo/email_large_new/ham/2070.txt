@@ -1,0 +1,23 @@
+re: scale offscreen video render on windowson 5/19/2010 10:50 am, jame walker wrote:
+> i need to render a movi into a gworld that mai not be the movi's
+> natur size. when the movi is scale up, sai to doubl size, i see
+> some jaggi. wherea if i open the same movi in quicktim player and
+> stretch the window, i see jaggi while stretch, but when i releas
+> the mous, the imag smooth out. what do i need to do to render at a
+> bigger size besid setmoviegworld and setmoviebox? (thi is on window,
+> so no qtkit, pleas.)
+
+
+by the wai, i tri to us a dt incid to get help on thi, and got 
+the repli "dt doe not provid code-level support for window.".
+-- 
+   jame w. walker, innovent softwar llc
+   
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

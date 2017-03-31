@@ -1,0 +1,23 @@
+[ilug] gargnom & sawfish.. i decid to try out gargnom, to see what gnome2 look like. it's
+pretti, i'll give it that.
+
+ howev, there seem to be load of bug - sawfish threw wobbler all
+over the place, so i try out metac - which doesn't have a gui
+configur, and ars if i'm go back to the fvwm dai when you had to
+set set by hand, without an idea what the valu look like.
+
+ so, i went back to 1.4 - and now sawfish can't start applet (ye, i did
+chang the ld_librari_path back) and the panel can't make new workspac.
+
+ ani idea what could have happen ? would sawfish 2.0 silent chang
+the config file & break them?
+
+kate
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

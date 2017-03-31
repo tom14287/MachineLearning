@@ -1,0 +1,60 @@
+re: hard crash in java.util.zip.zipfil.getentri (radar 7972090)-----begin pgp sign messag-----
+hash: sha1
+
+
+on mai 17, 2010, at 9:15 am, cha emerick wrote:
+
+> i see that a new java updat is in the wing, but i don't see  
+> anyth in the releas note that might be relat to the problem  
+> describ in the note radar report.
+>
+> i thought i'd post here and see if anyon in the know could comment  
+> on that report.  i'm about to start downgrad and attempt to  
+> get back to a stabl environ (the crash ar get too  
+> frequent to bear), but if there's ani chanc a fix can get into  
+> updat 7, then i'd hold off.
+>
+can't comment to that. as far as i know 'anyon in the know' would  
+have to be appl or the origin to view that radar.
+you don't indic the situat where you run into the bug. have you  
+consid us anyth besid sun java.util.zip?
+thi for on turn up quickli look for (googl)
+java.util.zipfil compat
+
+a pure java implement of the java.util.zip librari
+
+http://jazzlib.sourceforg.net/
+
+which in turn mention jzlib which i think i look at befor.
+
+i support some of my own zip relat code but not realli compat  
+to zipfil. not do much with it. plan to probabl return to it  
+sometim after 1.7 provid the long await pluggabl filesystem.
+
+
+
+mike hall        hallmik at att dot net
+http://www195.pair.com/mik3hall
+http://www195.pair.com/mik3hall/home.html
+http://sourceforg.net/project/macn
+
+
+
+
+-----begin pgp signatur-----
+version: gnupg/macgpg2 v2.0.14 (darwin)
+
+ijweaqecaayfakvxrnoacgkquvk/zsathtjfngqaoxt26slpgycwm4gw9wejczjm
+qaiojbngbp0+sq+ovresbauttjygxzc9uzl0eti4bcejvftyi2mdf5qsevfwqjd
+jolvzmjl9lsbicb4vra3dst32tfkgvgzfitcxf6ryioduclbjeaw2dbsh2miwh6
+5txgk5+gc96vwavfhm=
+=9uwl
+-----end pgp signatur-----
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,27 @@
+re: aptitud in lenni: cmdline queue of packageson fri, apr 30, 2010 at 09:14:43pm -0500, brian ryan  wa heard to sai:
+> in aptitud, i can execut queu packag modif order (instal,
+> remov, etc) by us of 'aptitud instal', with no argument.
+> 
+> how doe on queue packag us onli the command line? i'm look to
+> duplic the follow sequenc done in the curs ui:
+> 
+> sudo aptitud
+> /* brows packag list, find desir pkg to instal */
+> q
+> 
+> standard inform sourc (readm, usd/aptitud, etc) were no-go as
+> to get the inform.
+> 
+> ani pointer would be appreci.
+
+  add --schedul-onli to the command-line.
+
+  daniel
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100503140737.gb14980@emurlahn.burrow.local
+
+

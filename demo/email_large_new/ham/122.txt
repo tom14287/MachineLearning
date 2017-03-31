@@ -1,0 +1,14 @@
+re: sudden reboot with firefox and flashfrom nobodi sun sep 18 20:45:27 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on tue, apr 20, 2010 at 10:05:57pm +0200, thierri chatelet wrote:
+> no wa not the same. but you can hear if fan speed goe up when you load=
+=20
+> either the cpu or the graphic card.
+
+for giggl, i just enabl the bio warn beep when my cpu get >60c. af=
+ter start 4x burnp6 and let it run for a while, sure enough, i got t=
+he warn beep. i'm gonna look a littl more into thi, and mayb involv =
+my vga card in thi us furmark to see what happen there.

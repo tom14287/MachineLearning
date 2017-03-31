@@ -1,0 +1,62 @@
+re: filesystem recommendationsron johnson put forth on 4/24/2010 2:11 pm:
+> on 04/24/2010 12:53 pm, b. alexand wrote:
+
+>> doe anyon have suggest and practic experi with the pro and
+>> con of the variou filesystem?
+>>
+> 
+> xf is the canon fs for when you have lot of big file.  i've also
+> seen simpl benchmark on thi list show that it's faster than
+> ext3/ext4.
+
+i've been veri happi with xf for all file size and count, but my server
+isn't heavi duti by ani mean.  it handl multipl 50-60mb mbox file with
+eas as well as serv samaba share contain 5000+ file per dir.  given
+that the larg mbox file becom fairli fragment over time due to constant
+append, have an onlin file defragment, xf_fsr, is veri handi.  the
+myth that certain filesystem don't fragment file and thu don't need a
+defrag tool ar just that, myth.  i've run with mbox on both ext2 and xf,
+and the larger mbox file alwai fragment over time regardless of
+filesystem.  prior to my last xf_fsr run, i had 10 mbox file (a singl
+user) that rang from 10-35 fragment each.  those in the 20-35 fragment
+rang were 40-60mb file.  i don't have empir data to show how much thi
+neg affect perform, but my mail client did seem a bit snappier
+after defrag.
+
+> nilf2, btrf and exof ar *definit* still beta or even alpha.
+
+i've not plai with ani of these myself, but what i'm see on the variou
+mail list suggest what ron state here.
+
+> xf and ext[34] can all be extend.  for product server with a
+> work up, i'd go with ext3 for / & /boot and xf (sinc it hate
+> sudden power outag) for the "/data" directori.  for product
+> workstat, i'd stick with the standbi ext3 for / & /boot and ext3 or
+> xf for /home and "/data" (depend on the workload).
+
+for product server i'd go with xf everywher as long as your kernel
+(and rescu disk kernel) ha xf built-in.  reliabl power (via up and/or
+gener) is part of the definit of "product" server, so there's no
+reason to shy awai from xf for ani partit or logic volum due to
+power loss fear.
+
+some recent fs benchi comparison with 2.6.34-rc3 on a big raid setup:
+
+http://btrf.boxacl.net/repositori/raid/2010-04-14_2004/2.6.34-rc3/2.6.34-rc3.html
+
+as alwai, no singl fs win across the board.  xf fall flat on it face
+in the synthet mail server test, but doe veri well in all other.  given
+it result in the mail test ar almost ident to ext4, and that ext4
+no-barrier increas perform 7 fold, i'd sai some tweak of xf would
+bring it perform back in line with the other.
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd51ef5.7040201@hardwarefreak.com
+
+

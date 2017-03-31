@@ -1,0 +1,73 @@
+re: broken dependencieson sat, 01 mai 2010 19:14:52 +0200, florian kulzer  
+ wrote:
+
+> on sat, mai 01, 2010 at 17:20:56 +0200, aloi mahdal wrote:
+>> hello,
+>>
+>> becaus a stupid mistak, i have interrupt apt-get dure earli
+>> stage of dist-upgrad from lenni to squeez.
+>>
+>> now i cannot get apt-get work and i don't know how to fix it.
+>>
+
+[...]
+
+>> dpkg: warn: 'ldconfig' not found on path.
+>> dpkg: 1 expect program(s) not found on path.
+>> nb: root's path should usual contain /usr/local/sbin, /usr/sbin
+>> and /sbin.
+>> e: sub-process /usr/bin/dpkg return an error code (2)
+>
+> both "local" and "ldconfig" were shift from libc6 to libc-bin go
+> from lenni and squeez; my guess would be that you upgrad to the
+> squeez version of libc6, but you did not yet complet the instal
+> of libc-bin, so now these import command (and other) ar miss on
+> your system. (the libc-bin packag doe not exist for lenni.)
+>
+> if dpkg still work then you can try to download libc-bin for your
+> architectur from http://packag.debian.org/squeez/libc-bin and
+> instal the .deb with "dpkg -i ...", see here:
+>
+> http://www.debian.org/doc/manual/refer/ch02.en.html#_rescu_with_the_dpkg_command
+>
+
+thank, florian.
+
+unfortun, dpkg wa too broken, so i had to us ubuntu livecd (becaus  
+i could not find dpkg at debian instal cd / rescu mode) to boot and do  
+follow:
+
+  1. mount -t ext2 /dev/sdax /media/root
+  # ...and all relev partit (/usr, /var, ...) respect
+  2. mount --bind /dev /media/root/dev
+  # sinc dpkg wa complain about miss debian-exim group, i had to  
+get rid of statoverrid:
+  3. chroot /media/root
+  4. dpkg-statoverrid --remov /etc/exim4/passwd.client
+  # later i must not forget to restor /var/lib/dpkg/statoverrid from  
+statoverrid-old
+  5. exit && cd
+  6. wget  
+http://ftp.cz.debian.org/debian/pool/main/e/eglibc/libc-bin_2.10.2-6_amd64.deb
+  7. wget  
+http://ftp.cz.debian.org/debian/pool/main/e/eglibc/libc6_2.10.2-6_amd64.deb
+  8. dpkg --root=/media/root -i libc-bin_2.10.2-6_amd64.deb
+  9. dpkg --root=/media/root -i libc6_2.10.2-6_amd64.deb
+10. reboot
+
+after reboot and restor of statoverrid, i can continu with apt-get  
+upgrad and apt-get dist-upgrad; dpkg seem to work.
+
+thank again to you all!
+
+
+-- 
+us opera's revolutionari e-mail client: http://www.opera.com/mail/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/op.vb3fsevk53tp3f@hugo.lennycz-depot
+
+

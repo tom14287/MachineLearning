@@ -1,0 +1,57 @@
+repeat ata error debian lennyfrom nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset=iso-8859-1
+
+hi all,
+
+recent a coupl of new machin came to my hand, hp dl 180 g6 with 500gb
+sata hard disk, and i tri to setup a 2-node ganeti cluster with debian
+lenni.
+
+default 2-6-26 kernel doe work without ani issu.
+
+i've done a fresh instal with noth more than the basic (vim and
+less ;) ) and after a aptitud instal ganeti, edit xen-config.xsp and
+grub xen option, upon restart i get the follow error on the screen:
+
+apr 15 13:24:56 virt8 kernel: [  297.381987] ata3.00: except emask 0x0
+sact 0x0 serr 0x0 action 0x6 frozen
+apr 15 13:24:56 virt8 kernel: [  297.382163] ata3.00: cmd
+a0/00:00:00:24:00/00:00:00:00:00/a0 tag 0 pio 36 in
+apr 15 13:24:56 virt8 kernel: [  297.382164]          cdb 12 00 00 00 24 00
+00 00  00 00 00 00 00 00 00 00
+apr 15 13:24:56 virt8 kernel: [  297.382165]          re
+40/00:00:00:00:00/00:00:00:00:00/00 emask 0x4 (timeout)
+apr 15 13:24:56 virt8 kernel: [  297.382595] ata3.00: statu: { drdy }
+apr 15 13:24:56 virt8 kernel: [  297.382727] ata3: hard reset link
+apr 15 13:24:56 virt8 kernel: [  297.858982] ata3: sata link up 1.5 gbp
+(sstatu 113 scontrol 310)
+apr 15 13:24:56 virt8 kernel: [  297.914096] ata3.00: configur for pio0
+apr 15 13:24:56 virt8 kernel: [  297.914235] ata3: eh complet
+
+the instal version ar:
+linux-imag-2.6.26-1-xen-686
+xen-hypervisor-3.2-1-i386
+ganeti                              1.2.6-3+lenni2
+ganeti-instanc-debootstrap         0.5-1
+drbd8-util                         2:8.0.14-2+lenni1
+
+i upgrad to kernel 2-6-26-2 to see whether it solv the issu without
+success.
+i also tri boot with clocksourc=acpi_pm. i've also just tri
+acpi=off, pci=nosmi, and nocpi as suggest the ata kernel websit without
+much success.
+
+i've check through internet and found the follow:
+
+http://bugzilla.redhat.com/show_bug.cgi?id=480317
+
+it should be solv becaus hipervisor version 3.2 is higher than the on
+solv the issu (3.0.3) unless redhat's version differ much from the
+debian on in minnor version....which i don't think.
+
+
+can anyon shed some light on thi issu?
+
+thank you in advanc!!
+
+samuel

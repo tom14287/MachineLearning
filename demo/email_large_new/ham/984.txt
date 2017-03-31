@@ -1,0 +1,70 @@
+re: what prevent mount of usb devic?on sat, apr 10, 2010 at 19:20:42 +0200, clive mcbarton wrote:
+> 
+> i run kde and normal mount usb devic with the "storag media" applet
+> in the task bar. recent i have been get strang error and
+> mount fail:
+
+which version of kde, 3.x or 4.x? (i don't rememb a task bar applet
+for mount remov media from my kde 3.x dai - i alwai trigger
+mount via the icon that appear on the desktop for remov media
+- but i might simpli not know about altern.)
+
+> reject send messag, 3 match rule; type="method_call",
+> sender=":1.21" (uid=101 pid=13921 comm="kded [kdeinit] --new-startup ")
+> interfac="org.freedesktop.hal.devic.volum" member="mount" error
+> name="(unset)" request_repli=0 destin="org.freedesktop.hal"
+> (uid=0 pid=11879 comm="/usr/sbin/hald "))	
+
+mount work for you earlier, so i assum that your user ar all
+member of the "plugdev" group alreadi. i would like to see the output
+of:
+
+  awk '//,/<\/polici>/' /etc/dbu-1/system.d/hal.conf
+
+> mount as root on the commandlin still work, but it's a hassl for
+> the user who want to simpl us their usb stick.
+
+it would be interest to know if regular user can mount usb stick
+us pmount or pmount-hal on the command line. 
+
+> and the uuid of the usb stick is even list in /etc/fstab so that it is
+> suppos to mount automat when plug in (though that doe not
+> seem to work). but that mai be an unrel issu.
+
+afaik, you should not have ani entri in fstab for remov devic
+that you want to be handl by kde/gnome/whatev_other_de via the
+dbu/hal mechan. in ani case, i would avoid try to mix differ
+approach.
+
+> anoth (possibl also unrel) issu is that when sever x ar
+> run (differ user, all with kde) then it seem that onli on of
+> them can mount and unmount, usual the wrong user.
+
+i have seen that complaint befor, also for system on which mount
+work perfectli for singl-user session, and i am not sure if a
+satisfactori solut exist. (i have no need for run multipl kde
+session on the same machin, therefor i do not know much about thi
+issu.)
+ 
+> is it worth dig into hal to correct thi? given that hal won't be in
+> debian much longer.
+
+well, it is a problem for you right now, so why not try to solv it?
+besid, udisk ha the same main develop as hal, so i doubt that it
+will be so radic differ that hal know-how will becom useless. i
+have plai around a bit with udisk yesterdai, it seem to follow the
+same basic concept as hal. afaict, udisk-daemon is simpli an upgrad
+version of hald that is special on block devic, as on part of a
+more modular approach to hardwar abstract.
+
+-- 
+regard,            |
+          florian   |
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100411081621.ga4866@isar.localhost
+
+

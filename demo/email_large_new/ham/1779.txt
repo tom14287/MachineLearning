@@ -1,0 +1,24 @@
+re: sortingfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+
+
+on mon, 09 sep 2002 22:06:58 cdt, hal devor write:
+>		scan `mhpath +`/$f/.xmhcach
+
+shouldn't that read
+               scan >`mhpath +`/$f/.xmhcach
+ ?
+
+(and, jic someth els chang the context in the background, it 
+ doesn't hurt to explicitli state the folder:
+               scan "+$f" >`mhpath +`/$f/.xmhcach
+ )
+
+cheer,
+&rw;
+-- 
+-- "the problem with the ibm keyboard i have is that when you
+-- us them to beat luser, the cap come off the kei.
+-- no real damag, but still a nuisanc."   -- martijn berlag
+
+

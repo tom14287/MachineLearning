@@ -1,0 +1,22 @@
+re: [ilug] modem problemsquot waider (waider@waider.ie):
+
+> niall sheridan wrote:
+> | a power cycl will do it.
+> | other than that it's chipset specif.
+> 
+> sure. tri powercycl an intern modem recent? :)
+> 
+> waider. thi is rick moen bait.
+
+thank.  it wa delici.  ;->
+
+-- 
+cheer,               "that articl and it poster have been cancel." 
+rick moen                   -- david b. o'donnel, sysadmin for america onlin
+rick@linuxmafia.com
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

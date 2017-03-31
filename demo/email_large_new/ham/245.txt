@@ -1,0 +1,70 @@
+re: video callback dataprochi georg,
+
+i just figur what my problem wa:
+
+i first need to get the raw pixel via:
+
+cfdataref data =3d =
+cgdataprovidercopydata(cgimagegetdataprovid(imag));
+rawdata =3d (unsign char*) cfdatagetbyteptr(data);
+
+and then i could creat a qimag by us:
+
+displayimag =3d new qimag(rawdata,320,240,qimag::format_rgb32);
+
+i still have some color issu but at least i have my first posit =
+result now.
+
+talk to you later,
+best
+
+-- a l e x
+
+
+
+am 19.04.2010 um 05:31 schrieb georg birbili:
+
+>> furthermor, sinc i am us the trolltech-qt-framework i would like =
+to
+> displai each frame on a qpixmap but i didn't succe yet.=20
+>> can anyon help how to approach thi or (better) how to ideal deal =
+with
+> the pointer p ?
+>=20
+> there should be some qt compon around wrap quicktim, have you
+> search the web on thi?
+> thi thread sound interest:
+> http://list.appl.com/archiv/quicktim-api/2004/feb/msg00135.html
+>=20
+>=20
+> -<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-
+> georg birbili (http://zoomicon.com)
+> microsoft mvp j# 2004-2010
+> borland spirit of delphi 2001
+> http://birbili.space.live.com
+> http://twitter.com/zoomicon
+> -<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-<>-
+> insert quicktim in powerpoint, form etc.:
+> http://zoomicon.com/qt4all
+>=20
+>=20
+>=20
+>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> quicktim-api mail list      (quicktim-api@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> =
+http://list.appl.com/mailman/option/quicktim-api/alexand_carot%40gmx=
+.net
+>=20
+> thi email sent to alexand_carot@gmx.net
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

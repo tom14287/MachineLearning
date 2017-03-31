@@ -1,0 +1,48 @@
+re: apt problemsfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on wed, feb 06, 2002 at 04:29:53pm +0200, peter peltonen wrote:
+> two issu:
+>=20
+> ----
+> sorri, but the follow packag have unmet depend:
+>   openssh: depend: openssl (=3d 0.9.5a) but 0.9.6b-8 is instal
+>   php-pgsql: depend: postgresql but it is not instal
+>              depend: libpq.so.2
+> e: unmet depend. try us -f.
+> ----
+>=20
+> 1. i have the follow openssl packag instal:
+>=20
+> ----
+> openssl-perl-0.9.6b-8
+> openssl-0.9.6b-8
+> openssl095a-0.9.5a-11
+> openssl-devel-0.9.6b-8
+> ----
+>=20
+> the openssl095a packag should provid the openssl-0.9.5a compat=
+=20
+> but apt doesn't think so?=20
+
+i believ that's just a matter of string pars. if someon were to fix
+the openssh packag, remov the explicit requir:, i believ the
+automag binari handler would figur the right librari to us and
+instal. i haven't met an openssh like that and in worst case i've had 3
+differ openssl librari (wtf can't thei just bump a major version if
+it's incompat?!?).
+
+> 2. i have postgresql instal from the sourc. so that's why i need=20
+> php-pgsql. is there a wai to tell apt about packag i don't want it to=
+=20
+> complain about?
+
+i have a few such thing (with jdk, imlib, kernel dri version..
+someth) and iv just made dummi packag (with verbos warn
+attach ;) that explicitli provid those capabl. (or claim to,
+that is).
+
+--=20
+if you onli want to go 500 mile, can you begin with a halfstep?

@@ -1,0 +1,84 @@
+re: color problemthi look like a classic case of argb mixup.
+have you order your byte to paint "alpha, red, green blue"?
+
+bob.
+
+on apr 19, 2010, at 8:38 am, alexand car=f4t wrote:
+
+> hello again,
+>=20
+> regard my color problem i attach a screenshot of the actual imag =
+i get when map the pixel of a cgimag onto a qimag: the imag is =
+kind of blue/white (pillow should be red, pullov shuld be green and =
+skin white).
+>=20
+> the full map sequenc look like thi:
+>=20
+> *****************************
+> cgimageref imag =3d null;
+>=20
+> size_t width, height, rowbyt, bitspercompon;
+> cvpixelbufferlockbaseaddress( pixelbuff, 0 );
+> rowbyt =3d cvpixelbuffergetbytesperrow( pixelbuff );
+> baseaddr =3d cvpixelbuffergetbaseaddress( pixelbuff );
+> width =3d cvpixelbuffergetwidth( pixelbuff );
+> height =3d cvpixelbuffergetheight( pixelbuff );
+> colorspac =3d cgcolorspacecreatedevicergb();
+> cvbufferretain( pixelbuff );
+> provid =3d cgdataprovidercreatewithdata( pixelbuff, baseaddr, =
+rowbyt *height, releaseandunlockthi );
+> imag =3d cgimagecr( width, height, 8, 32, rowbyt, colorspac,=20=
+
+> kcgimagealphanoneskipfirst, provid, null, true, =
+kcgrenderingintentdefault );
+>=20
+> unsign char *rawdata =3d new unsign char[1000000];
+> unsign char backup;
+>=20
+> cfdataref data =3d =
+cgdataprovidercopydata(cgimagegetdataprovid(imag));
+> rawdata =3d (unsign char*) cfdatagetbyteptr(data);
+>=20
+> if (data !=3d null){
+>  currentobject->displayimag =3d new =
+qimag(rawdata,320,240,qimag::format_rgb32);  =20
+>  currentobject->updat();
+> }  =20
+> *****************************
+>=20
+> i alreadi chang the format but thi made it even wors. =
+furthermor, i did a manua byte swap of the raw data buffer (in case =
+thi might be an endian problem):
+>=20
+>  for (int i=3d0;i<100000;i=3di+2){
+>    backup =3d rawdata[i];
+>    rawdata[i]=3drawdata[i+1];
+>    rawdata[i+1] =3d backup;
+>  }=20
+>=20
+> but thi paint swap rang in green.
+>=20
+> i anyon might know what the problem might be i'd appreci ani hint.
+>=20
+> thank a lot in advanc
+>=20
+> -- a l e x
+>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> quicktim-api mail list      (quicktim-api@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> =
+http://list.appl.com/mailman/option/quicktim-api/robert_monaghan%40mac=
+.com
+>=20
+> thi email sent to robert_monaghan@mac.com
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

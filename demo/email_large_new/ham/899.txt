@@ -1,0 +1,24 @@
+re: acroread not see printerson thu, 15 apr 2010 05:56:44 -0400
+"john a. sullivan iii"  dijo:
+
+>hello, all.  we've instal acroread 8.1.7-0.1 from debian-multimedia.
+>it is not see ani of the printer on our cup print server.  it just
+>show the custom lpr printer.  how do we get it to see our printer
+>like all the other applic in our kde setup do? we ar run
+>lenni + backport.  thank - john
+
+i had thi problem with 64-bit ubuntu for a long time. final, when
+adob wa work on the 9.x releas i inquir directli to adob. the
+result wa that i becam a beta tester. and the outcom wa that adob
+fix reader 9.1 so that i could see my printer.
+
+i have not had the problem sinc. i suggest get the latest version
+of reader. version 8.1.7 is realli old anywai.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100415080540.5ea5b90b@mailhost.pdx.edu
+
+

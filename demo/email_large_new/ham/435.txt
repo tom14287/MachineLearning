@@ -1,0 +1,55 @@
+re: new sequenc window    date:        thu, 22 aug 2002 10:04:06 -0500
+    from:        chri garrigu 
+    messag-id:  <1030028647.6462.tmda@deepeddi.vircio.com>
+
+  | hmmm, i assum you're go to report thi to the nmh folk?
+
+ye, i will, sometim, after i look at the nmh sourc and see what
+thei have manag to break, and why.
+
+but we realli want exmh to oper with all the version of nmh that
+exist, don't we?   the patch to have exmh do the right thing, whether thi
+bug exist, or not, is trivial, so i'd suggest includ it.
+
+patch follow ...
+
+i have no idea why the sequenc were be ad after the messag list
+befor, not that it should make ani differ to nmh (or mh).   but sinc
+i stop do that, the variabl "msg" isn't realli need ani more,
+rather than assign $pick(msg) to msg, and then us $msg the code
+could just us $pick(msg) where $msg is now us.   thi is just a
+frill though, so i didn't chang that.  
+
+kre
+
+--- pick.tcl	fri aug 23 16:28:14 2002
++++ /usr/local/lib/exmh-2.5/pick.tcl	sat aug 24 18:14:44 2002
+@@ -128,7 +128,7 @@
+ }
+ proc pick_it {} {
+     global pick exmh
+-    set cmd [list exec pick +$exmh(folder) -list]
++    set cmd [list exec pick +$exmh(folder)]
+     set inpan 0
+     set hadpan 0
+     for {set pane 1} {$pane <= $pick(pane)} {incr pane} {
+@@ -175,8 +175,9 @@
+     }
+     set msg $pick(msg)
+     foreach s $pick(sequenc) {
+-	lappend msg -sequenc $s
++	lappend cmd -sequenc $s
+     }
++    lappend cmd -list
+ 
+     exmh_debug pick_it $cmd $msg
+     busi pickinn $cmd $msg
+
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+

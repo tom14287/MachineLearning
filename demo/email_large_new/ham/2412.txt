@@ -1,0 +1,41 @@
+re: network setup questionon 5/6/2010 12:05 am, alex samad wrote:
+>
+> well think about it, if we ar talk about network 192.168.11.0/24
+> (for my exampl i will us 24 instead of 27)
+>
+> the server would have an address 192.168.11.55/24 (for exampl) and the
+> router would have 192.168.11.1/24
+>
+> if i chang the netmask of the server it can no longer talk to the
+> router becaus it is in a differ ip network ie 192.168.11.55/22 can't
+> talk to 192.168.11.1/24 (you can fake it on linux with iprout - see my
+> other answer to thi thread).
+>    
+
+sorri if i'm be dens, i said i'm not a network expert.  but i 
+have thought about thi, and i am not see how it wouldn't work.
+
+192.168.11.1 is:
+11000000 10101000 00001011 00000001
+
+192.168.11.55 is:
+11000000 10101000 00001011 00110111
+
+so, the comput at 192.168.11.55 will think it's subnet is the first 22 
+bit of the address, which is 11000000 10101000 000010, which match 
+the first 22 bit of the router address.  so far so good.  client side 
+will think the machin at 192.168.11.1 is on the same ip subnet, so it 
+will do an arp request for 192.168.11.1 (arp doesn't care about subnet 
+mask, it just doe an ethernet broadcast), which will succe, and the 
+server will be abl to send to the router.  the revers direct is 
+also true.
+
+what am i miss?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be27852.6010804@familyross.net
+
+

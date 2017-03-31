@@ -1,0 +1,30 @@
+re: increas number of conflictsb. alexand wrote:
+> i've got an issu with a sid box that i have been maintain for a 
+> while. thi is my workstat, and i have notic a grow number of 
+> broken packag, unmet depend and conflict. i have been us 
+> safe-upgrad for month now, hope that it would work itself out over 
+> time. howev, thi hasn't happen. so what can i do to fix the 
+> problem without lose function? below is the result of aptitud 
+> full-upgrad (forgiv the cut-and-past):
+>snip< 
+> thank,
+
+
+i'm us kde and it's fulli up-to-date with no broken packag, your 
+problem seem to be that you ar hold obsolet/orphan packag, you 
+mai want to us synapt to look at your system and do some 
+investig as to why depend ar not be met.
+-- 
+jimmi johnson
+
+bakersfield, ca. u.s.a.
+regist linux user #380263
+k.i.s.s. (keep it simpl stupid)
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bcd4e4f.3040506@csmine.org
+
+

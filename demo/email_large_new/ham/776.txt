@@ -1,0 +1,49 @@
+re: onli output the nth lineon wed, mai 12, 2010 at 06:58:57pm +0200, jozsi vadkan wrote:
+> i have a file:
+
+[snip]
+
+> and i want to onli output the first, second, and fourth line to anoth
+> file.
+> 
+> the:
+> 
+> sed -n '1,2p;4p' file.txt
+> 
+> doesn't work.
+> 
+> what magic do i need for it? :d
+> 
+> thank..:\
+
+work just fine here:
+
+$ nl /etc/fstab | sed -n '1,2p;4p'
+     1  # /etc/fstab: static file system inform.
+     2  #
+     4  proc            /proc           proc    default        0
+0
+$ nl /etc/fstab | busybox sed -n '1,2p;4p'
+     1  # /etc/fstab: static file system inform.
+     2  #
+     4  proc            /proc           proc    default        0
+0
+
+
+so pleas give some more detail about your system (version of debian,
+version of sed, etc.). also pleas tell us what actual happen when
+you try to run it.
+
+-- 
+tzafrir cohen         | tzafrir@jabber.org | vim is
+http://tzafrir.org.il |                    | a mutt's
+tzafrir@cohen.org.il |                    |  best
+tzafrir@debian.org    |                    | friend
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100512171549.gu16560@pear.tzafrir.org.il
+
+

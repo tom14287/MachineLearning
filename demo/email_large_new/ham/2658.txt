@@ -1,0 +1,64 @@
+re: problem with me modem huawei on debian lennyth problem is, nm-applet or wvdialconf don't detect my modem.
+so i can set it.
+
+
+on 4/24/10, umarzuki mochli  wrote:
+> if my memori serv me right, and if you insist on us nm-applet,
+> instal network manag from squeez then set the configur of
+> your broadband connect accordingli. refer your isp manual.
+>
+> on 4/24/10, christian simo  wrote:
+>> hi
+>>
+>> pleas, i  still try to configur my modem.
+>>
+>> the command wvdialconf can't detect my modem, i don't know if is need
+>> some packag?
+>>
+>> thank
+>>
+>> on 4/23/10, umarzuki mochli  wrote:
+>>> i had done that onc and document it at
+>>> http://umarzuki.org/blogku/?p=174
+>>>
+>>> p/s: us googl translat to translat from malai to english
+>>> 
+>>> on fri, apr 23, 2010 at 11:06 pm, christian simo 
+>>> wrote:
+>>>
+>>>> hi dear team
+>>>>
+>>>> pleas, i am new on debian, so i try to connect my modem huawei e1752 on
+>>>> debian lenni.
+>>>> on suse, i do it easi
+>>>>
+>>>> thank for your respons.
+>>>>
+>>>> christian
+>>>>
+>>>
+>>>
+>>>
+>>> --
+>>> regard,
+>>>
+>>> umarzuki mochli
+>>> http://debmal.my
+>>>
+>>
+>
+>
+> --
+> regard,
+>
+> umarzuki mochli
+> http://debmal.my
+>
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/l2oc364d9921004240428i9b97d329id4fb98b8b496740e@mail.csmine.org
+
+

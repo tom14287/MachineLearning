@@ -1,0 +1,20 @@
+re: shouldn't apt-get upgrad, you know, upgrad ?on 2010-04-06 07:12 +0200, brian ryan wrote:
+
+> quot johan grönqvist on 2010-04-05 23:50:37:
+>>
+>> i think you mai be interest in the dist-upgrad command instead.
+>
+> now call full-upgrad (though dist-upgrad remain for backcompat).
+> upgrad is now safe-upgrad.
+
+thi is true for aptitud but not for apt-get.
+
+sven
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87sk79kv51.fsf@turtl.gmx.de
+
+

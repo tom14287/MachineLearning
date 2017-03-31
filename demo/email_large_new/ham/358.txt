@@ -1,0 +1,49 @@
+re: c program questionfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+
+> tue=2c 13 apr 2010 17:29:51 -0500  wrote:
+>=20
+> on 2010-04-13 17:16=2c stephen powel wrote:
+> > i realiz that thi is not a c forum=2c per se=2c but thi is a debian-=
+specif
+> > c question.  i am try to add support to the part util for cm-f=
+ormat
+> [snip]
+> >=20
+> > i know how to do thi in pl/i=2c but despit have spent the last two =
+hour
+> > page through a c languag refer manual=2c i couldn't find ani exa=
+mple
+> > of overlai two structur.  i did find refer to someth call
+> > a union=2c but i don't have enough knowledg to know what to do.  doe
+> > anyon know how to do thi?
+> >=20
+>=20
+> union is exactli what you need.
+>=20
+
+ye that absolut right. rememb sinc c is a power=2c low level=2c =
+and untyp program languag untag union ar consid unsaf.
+
+good luck though!=20
+
+> "i'm feel lucki" sampl c code union
+>=20
+> http://www.wellho.net/resourc/ex.php4?item=3dc209/union.c
+>=20
+> --=20
+> dissent is patriot=2c rememb?
+>=20
+>=20
+> --=20
+> to unsubscrib=2c email to debian-user-request@list.debian.org=20
+> with a subject of "unsubscrib". troubl? contact listmast@list.debian=
+.org
+> archiv: http://list.debian.org/4bc4f05f.6060809@cox.net
+>=20
+ 		 	   		 =20
+_________________________________________________________________
+hotmail & messeng ar avail on your phone. try now.
+http://go.microsoft.com/?linkid=3d9724461=

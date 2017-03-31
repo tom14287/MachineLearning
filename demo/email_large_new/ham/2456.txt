@@ -1,0 +1,56 @@
+re: udev & /dev/sdax & lenni2squeezeon fri, 9 apr 2010 05:58:32 -0400 (edt), ionel mugurel ciob=c3=aec=c4=83 wr=
+ot:
+>
+> i just migrat my desktop from lenni to squeez and after instal all=
+=20
+> new packag and reboot the system hang at the boot process ask for=20
+> the root password becaus it can't find /dev/sdax, where x=3d2,6,7,8,9.=
+=20
+> all ar valid partit. root is /dev/sda5 and it is the onli partit=
+=20
+> mount. fdisk /dev/sda sai that /dev/sda not found. inde ls /dev/sd*=
+=20
+> show onli /dev/sdy, with y=3dc,d,e,f,f1, no /dev/sdz, where z=3da*,b*. i=
+=20
+> try makedev sda but it sai that becaus .udev is present it must abort.
+>=20
+> i can't us the system in thi state. ani idea?
+>=20
+> if noth i will try to boot with knoppix or the net-instal test cd=
+=20
+> and chroot into the system to attempt a kernel compil. but i am not=
+=20
+> sure if the kernel is problemat at the moment.
+
+migrat from lenni to squeez (or ani migrat, realli) is tricki.
+you can't just chang your /etc/apt/sourc.list file to point to the
+squeez repositori and then do "aptitud updat;aptitud full-upgrad".
+the problem you ar describ abov is onli the first of your problem
+if you have done that.  you need to follow the upgrad outlin mention
+in the releas note.  you didn't sai how you did it, and it's too late
+in ani case, but i just want to mention that while we're on the subject.
+
+assum that you did the migrat properli, thi mai be a devic name
+issu.  there's been some problem with devic name recent, particularli
+with id hard disk.  it hasn't happen to me, but other have report
+devic name go from /dev/hdx to /dev/sdx and back again with
+subsequ mainten.  you mai have to boot from a rescu disk,
+edit your /etc/fstab to chang devic name, accord to what thei
+ar now, and rebuild your initi ram file system.
+
+if that is the issu, an altern to tradit devic name is
+to us uuid.
+
+--=20
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/371933597.2114181270821502137.javamail.root@md01.wow.synacor.com
+
+

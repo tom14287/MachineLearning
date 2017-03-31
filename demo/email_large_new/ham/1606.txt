@@ -1,0 +1,49 @@
+the futur of "nv" driver (wa: linux compat mainboard
+ -anoth thought)on wed, 21 apr 2010 13:35:55 -0500, ron johnson wrote:
+
+> on 2010-04-21 13:04, camalón wrote:
+
+>>>> 1/ "nv" driver (onli 2-d)
+>>> except that nvidia deprec thi driver a few week ago...
+>> 
+>> ... onli for "newer" (fermi) card ;-)
+> 
+> will thei keep it current with x?
+
+let me "copi/past" from the offici announcemnet¹:
+
+***
+"(...) for thi reason, nvidia is drop support, on new gpu, for the
+xf86-video-nv driver.
+
+detail:
+
+- nvidia will continu to support the exist function and
+exist level of acceler in the nv driver for exist gpu,
+on exist, and (within reason) futur, x server version.
+
+- nvidia will not support the xf86-video-nv driver on fermi or
+later gpu.
+
+- nvidia will not support displayport, on ani gpu, in the
+ xf86-video-nv driver."
+***
+
+so i think the "nv" driver will keep the same "bug|featur" that ha 
+right now and will still get some secur patch, but i'm afraid that's 
+all we (linux user) can expect.
+
+¹ http://list.freedesktop.org/archiv/xorg/2010-march/049749.html
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.21.21.36.26@csmine.org
+
+

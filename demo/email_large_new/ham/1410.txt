@@ -1,0 +1,39 @@
+miss option in manual page for getconfhi!
+
+i wa toi around with getconf and wa look for option to print
+all configur valu. i've found there is a -a option for that. you
+can find about it by run getconf with no argument:
+
+---
+razvan@valhalla:~$ getconf
+usag: getconf [-v specif] variabl_name [pathnam]
+       getconf -a [pathnam]
+---
+
+howev, the option is not print when us the --help option:
+---
+razvan@valhalla:~$ getconf --help
+usag: getconf [-v spec] var
+  or:  getconf [-v spec] path_var path
+
+get the configur valu for variabl var, or for variabl path_var
+for path path.  if spec is given, give valu for compil
+environ spec.
+
+for bug report instruct, pleas see:
+.
+---
+
+moreov, there is no document in the manual page about the -a
+option. should thi be correct? should i submit a featur request/bug
+report on thi issu?
+
+razvan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1270557630.17580.6.camel@valhalla
+
+

@@ -1,0 +1,32 @@
+re: move to debian: updat softwareon thu, 22 apr 2010 18:13:49 +0300, dotan cohen wrote:
+
+>> it's hard for distribut to includ the latest kde sc avail
+>> *and* deliv it as "stabl". roll distro (such arch linux), which
+>> ar alwai up-to-date, mai fit better into thi schema.
+>>
+>>
+> that is where a third-parti repo would come in, such as backport.
+> kubuntu, for all it's flaw, doe thi quit well. i understand that so
+> doe suse.
+
+as per opensus, ye, thei have the ob (build servic) with mani 
+packag up-to-date and avail (backport or not) for the current 
+support releas *but* rememb that packag that fall in there ar 
+not "officiali" support nor includ into secur patch (thei follow 
+their own path to solv ani issu that can aris). 
+
+anywai, i agre their kde repo ar of veri good qualiti and so veri 
+us for user.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.22.15.40.50@csmine.org
+
+

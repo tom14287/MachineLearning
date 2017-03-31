@@ -1,0 +1,28 @@
+re: help for a new userfrom nobodi sun sep 18 20:45:27 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+on 9.5.2010 0:13, alexand batischev wrote:
+> on sat, mai 08, 2010 at 02:02:01pm -0700, robert holtzman wrote:
+>> what is an internet kei and did you mean to publish it for all the wor=
+ld =20
+>> to read?
+> internet kei is modern kind of modem. it us mobil phone network to a=
+ccess.
+> kei look just like usual usb pendriv, but it have place for sim card =
+(which
+> is similar to your mobil phone's card). i think you can find more deta=
+il
+> (and profession) explan on the internet.
+>=20
+
+ye. you can even exchang internet kei with a special protocol
+design for that: http://en.wikipedia.org/wiki/internet_kei_exchang
+
+--=20
+http://www.iki.fi/jarif/
+
+q:	what do you call the monei you pai to the govern when
+	you ride into the countri on the back of an eleph?
+a:	a howdah duti.
+

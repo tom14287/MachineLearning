@@ -1,0 +1,13 @@
+dvd stillsurl: http://diveintomark.org/archiv/2002/09/24.html#dvd_still
+date: 2002-09-24t13:49:41-05:00
+
+dvd captur 1.0[1] “is a helper applic for the appl dvd player. it 
+enabl the user to take screen captur of the dvd player viewer in window and 
+full screen mode. the captur can be save to a file or place on the 
+clipboard.”
+
+
+
+[1] http://www.versiontrack.com/dyn/moreinfo/macosx/16324
+
+

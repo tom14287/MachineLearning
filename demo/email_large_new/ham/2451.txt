@@ -1,0 +1,23 @@
+re: how to find a printer driver?from nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=us-ascii
+content-transfer-encod: quot-printabl
+
+on mon, 10 mai 2010 15:36:41 -0500
+kent west  wrote:
+
+hello kent,
+
+> i tri instal hpij-ppd, but i still don't see the cm3530
+> list; i do now see a color laserjet 3550 (without the cm, and not
+> the 3530), but who know if that'd work? not me.
+
+in test, the cm3530 is list.  you might try pull the hplip-data
+packag from there, or wait for it to migrat.
+
+--=20
+ regard  _
+         / )           "the blindingli obviou is
+        / _)rad        never immedi appar"
+
+bui some love at the five and dime
+you have place a chill in my heart - eurythm

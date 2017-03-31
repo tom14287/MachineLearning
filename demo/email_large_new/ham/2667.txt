@@ -1,0 +1,29 @@
+re: still can't read dvd/cdsfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+
+on sun, mai 16, 2010 at 9:17 pm, andrei popescu wrote:
+
+> on sun,16.mai.10, 15:13:28, jame stuckei wrote:
+> >
+> > *what i'm do to mount the media: *
+> > root@debian:/home/stuckei# mount /dev/sr0
+> > mount: block devic /dev/sr0 is write-protect, mount read-onli
+> > mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+> >        miss codepag or helper program, or other error
+> >        (could thi be the id devic where you in fact us
+> >        id-scsi so that sr0 or sda or so is need?)
+> >        in some case us info is found in syslog - try
+> >        dmesg | tail  or so
+>
+> is thi a data or audio cd (audio cd can't be mount, onli plai)? is
+> it possibl to test with anoth os on the same hardwar?
+>
+> regard,
+> andrei
+>
+>
+hello,
+
+as i've alreadi said, it work in window and mac. i'll try chang the
+cabl, but sinc it work in window and mac i doubt the cabl is at fault.
+i've tri audio and data cd and dvd.

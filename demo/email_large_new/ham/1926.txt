@@ -1,0 +1,50 @@
+re: iptabl..wtf???on thu, 2010-04-29 at 15:12 -0700, kevin ross wrote:
+> > what the heck happen thi afternoon??
+> 
+> i don't know, but i'd start by make sure your interfac name and ip address haven't chang for some reason.
+> 
+> 
+
+everyth seem pretti kosher here:
+
+root@dl580:~# ifconfig 
+eth0      link encap:ethernet  hwaddr 00:03:47:42:5c:17  
+          inet addr:10.0.1.2  bcast:10.0.1.255  mask:255.255.255.0
+          inet6 addr: fe80::203:47ff:fe42:5c17/64 scope:link
+          up broadcast run multicast  mtu:1500  metric:1
+          rx packet:269554 error:0 drop:0 overrun:0 frame:0
+          tx packet:377509 error:0 drop:0 overrun:0 carrier:0
+          collis:0 txqueuelen:1000 
+          rx byte:94728650 (90.3 mib)  tx byte:529355083 (504.8 mib)
+
+eth1      link encap:ethernet  hwaddr 00:03:47:42:5c:18  
+          inet addr:pubip  bcast:pubbc  mask:255.255.255.248
+          inet6 addr: fe80::203:47ff:fe42:5c18/64 scope:link
+          up broadcast run multicast  mtu:1500  metric:1
+          rx packet:965 error:0 drop:0 overrun:0 frame:0
+          tx packet:60601 error:0 drop:0 overrun:0 carrier:0
+          collis:0 txqueuelen:1000 
+          rx byte:222867 (217.6 kib)  tx byte:10472879 (9.9 mib)
+
+lo        link encap:local loopback  
+          inet addr:127.0.0.1  mask:255.0.0.0
+          inet6 addr: ::1/128 scope:host
+          up loopback run  mtu:16436  metric:1
+          rx packet:14139 error:0 drop:0 overrun:0 frame:0
+          tx packet:14139 error:0 drop:0 overrun:0 carrier:0
+          collis:0 txqueuelen:0 
+          rx byte:1690483 (1.6 mib)  tx byte:1690483 (1.6 mib)
+
+
+i check all the log but noth suggest there wa ani interfac or
+ip modif (both ip ar static).
+
+-rv
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1272579837.24573.19.camel@osmosi.gnet.eu
+
+

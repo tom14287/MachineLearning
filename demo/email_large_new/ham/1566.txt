@@ -1,0 +1,240 @@
+sourceforg.net updat: august 14, 2002
+
+(you ar receiv thi email becaus you subscrib to it (honest).
+for inform on how to unsubscrib pleas read the bottom of thi
+email).
+
+0. intro.  [ibm db2]
+1. increas download capac.
+2. audio of kernel summit avail.
+3. be a sf.net foundri guid.
+4. work for sourceforg.net
+5. site statist
+
+
+0. intro
+
+hello sourceforg.net user,
+
+thi week we've made a big announc.  as you like know, ani
+larg dynam websit is power by a databas that funnel data to
+the web server serv data which ultim get sent to you.
+these databas manag everyth from user authent, session
+manag, site search, etc.  sourceforg.net is a databas-
+depend websit.
+
+todai we have announc that we ar move sourceforg.net to db2,
+a power relat databas by ibm.  we ar do thi becaus
+the site continu to grow at a rapid rate, with 700 new user and
+70 new project a dai, and we need a databas that can handl thi
+growth.  we feel that db2 can do thi for us, and ibm is give us
+the resourc to make thi transit success.  you can read the
+press releas here:
+
+http://www.vasoftwar.com/new/press.php/2002/1070.html
+
+how will thi effect you?  in the first phase, you won't see much
+differ other then the site will continu to grow and the
+sourceforg.net team will be abl to handl the growth.  in later
+phase you will see new featur on the site that take advantag of
+the databas advanc capabl.
+
+todai our mail archiv have been convert over.  the rest of the
+site will make the migrat to db2 in the come month.
+
+if you have question about thi or ani other aspect of the site,
+pleas feel free to email me, pat@sourceforg.net.  i alwai
+appreci the feedback.
+
+thank you for your continu support of sourceforg.net and the
+open sourc commun.
+
+pat-
+
+patrick mcgovern
+director, sourceforg.net
+
+
+
+1. increas download capac
+
+sourceforg.net continu to grow, and it's appetit for bandwidth
+is never-end.  everi dai sf.net serv over 300,000 file to
+ensur that develop and end-user within the open sourc
+commun can alwai obtain the softwar releas by host
+project, sourceforg.net maintain a network of high-capac
+download server.  these server ar locat throughout the world,
+as to provid better download time regardless of which network
+provid you ar us, and regardless of your geograph locat.
+
+three new download server have recent been ad to our network,
+further strengthen our file serv capabl.  these latest
+addit includ server host by:
+
+time warner telecom (wisconsin,usa);
+http://www.twtelecom.com/
+
+univers of minnesota (minnesota, usa)
+http://www.umn.edu/
+
+cesnet (czech republ)
+http://www.cesnet.cz/
+
+we thank these sponsor for their commit to sourceforg.net and
+the need of the open sourc commun.
+
+on a relat note, we ar look for a mirror in japan.  if you ar
+an isp or univers in japan and ar will to spare 20mbp for a
+sourceforg.net mirror (we'll suppli the hardwar), pleas let us
+know at bandwidth@sourceforg.net
+
+
+
+2. audio of kernel summit avail
+
+sourceforg.net now ha the audio from the entir 2002 osdn/usenix
+kernel summit, held in june.  listen to the linux kernel master
+discuss such hot topic as kernel modul, virtual memori,
+block i/o, databas scale, secur modul, and async i/o.
+you mai find thi audio repositori at:
+
+http://linuxkernel.foundri.sourceforg.net/articl.pl?sid=02/06/26/0116225
+
+
+
+3. contribut to sourceforg.net! be a foundri guid!
+
+want to contribut to sourceforg.net, but you don't know how to
+code? be a foundri guid!  foundri guid get to hype the cool
+project that thei think ar worth download and test.
+a guid find all the stuff on the web about their subject of
+choic, and give it promin placement.  how do you becom a
+foundri guid? go to http://foundri.sourceforg.net/; find a
+topic that interest you; and send email to
+foundri@sourceforg.net state your desir topic and why you
+ar qualifi to be a foundri guid.
+
+
+
+4. work for sourceforg.net
+
+we have a new posit for a senior web develop avail at
+sourceforg.net.  we ar look for someon to help us maintain,
+upgrad, and add new featur to sourceforg.net.  ideal person ha
+5+ year of develop experi on high end, high volum
+websit (3+ million page view a dai).  ha a vast level of
+knowledg of internet technolog:  php, postgresql, mysql, db2,
+linux, perl, apach, ldap, mailman.  a flare for design / ui is a
+bonu.  sourceforg is a uniqu site with uniqu challeng.  we ar
+look for someon at the top of their game.
+
+locat of job is in fremont, california.  pleas send resum and
+url's of site you have work on to job@sourceforg.net.  text
+resum onli.  (no ms word file!)
+
+
+
+5. site statist
+
+stat: (mondai 12th, 2000)
+host project: 45,194
+regist user: 465,530
+page view: 3,344,708 in a singl dai (mondai)
+file transfer in a singl dai: 340,838 (mondai)
+email sent in a singl dai from mail list: 851,143 (mondai)
+
+
+top ten project
+
+1 phpmyadmin
+http://sourceforg.net/project/phpmyadmin/
+phpmyadmin is a tool written in php intend to handl the
+administr of mysql over the www.  current it can creat and
+drop databas, creat/drop/alter tabl, delet/edit/add field,
+execut ani sql statement, manag kei on field.
+
+2 compier erp + crm busi solut
+http://sourceforg.net/project/compier/
+smart erp+crm solut for small-medium enterpris (sme) in the
+global marketplac cover all area from custom manag,
+suppli chain and account.  for $2-200m revenu compani look
+for "brick and click" first tier function.
+
+3 squirrelmail
+http://sourceforg.net/project/squirrelmail/
+squirrelmail is a php4-base web email client.  it includ built-in
+pure php support for imap and smtp, and render all page in pure
+html 4.0 for maximum compat across browser.  it also ha
+mime support, folder manipul, etc
+
+4 tuto
+http://sourceforg.net/project/tuto/
+tuto is the ultim team organ softwar, a web-base
+groupwar or erp/crm system to manag event/calendar, address,
+team, project,task,bug,mailbox,document and your time spent
+with these thing
+
+5 jboss.org
+http://sourceforg.net/project/jboss/
+the jboss/server is the lead open sourc, standard-compliant,
+j2ee base applic server implement in 100% pure java
+
+6 firewal builder
+http://sourceforg.net/project/fwbuilder/
+object-orient gui and set of compil for variou firewal
+platform.  current implement compil for iptabl, ipfilt
+and openbsd pf
+
+7 openmosix
+http://sourceforg.net/project/openmosix/
+openmosix is a linux kernel extens for singl-system imag
+cluster.  take n pc box, openmosix give user and
+applic the illus of on singl comput with n cpu.
+openmosix is perfectli scalabl and adapt.
+
+8 cdex
+http://sourceforg.net/project/cdexo/
+cdex a cd-ripper, thu extract digit audio data from an audio
+cd. the applic support mani audio encod, like mpeg
+(mp2,mp3), vqf, aac encod.
+
+9 phpchrystal - an open intranet system
+http://sourceforg.net/project/phpchrystal/
+phpchrystal ist ein opensourc-intranetsystem welch vorrangig auf
+lan-parti eingesetzt werden kann.  vorteil von phpchrystal sind
+sein portierbarkeit, flexibilität und perform, da es vollend
+auf php, mysql und xml basiert
+
+10 dev-c++
+http://sourceforg.net/project/dev-cpp/
+dev-c++ is an full-featur integr develop environ
+(id) for win32 and linux.  it us gcc, mingw or cygwin as
+compil and librari set.
+
+more top project:
+http://sourceforg.net/top/mostact.php?type=week
+
+
+
+
+
+email list remov:
+
+when the sf.net team send out a site-wide email, we sometim see
+repli that look like thi:  "hei!! i didn't subscrib to thi list!!!
+you spammer. i hate you!  i hate your dog!  (insert other color
+phrase here)".  the truth is, when you regist on sourceforg.net
+there wa a check box that said "receiv site-wide updat, low
+volum".  you left it check when you submit the registr form,
+henc you ar receiv thi email.  we send these updat everi 4 to 6
+week, so it truli is low volum.  howev if you want off, thi is not
+a problem.  simpli click on the link below.
+
+
+==================================================================
+you receiv thi messag becaus you subscrib to sourceforg
+site mail(s). you mai opt out from some of them select
+by log in to sourceforg and visit your account mainten
+page (http://sourceforg.net/account/), or disabl them altogeth
+by visit follow link:
+

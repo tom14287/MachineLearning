@@ -1,0 +1,26 @@
+re: [razor-user] can't find razor/client.pmon tue, jul 23, 2002 at 06:06:05pm -0400,
+scott henderson  is thought to have said:
+
+> thank, tabor.  how do i instal v1 over v2, and where doe on
+> get it?  (i don't see it at razor.sourceforg.net)
+
+it's there. scroll down on the download page. howev you might
+consid go the other wai and instal spamassassin's 2.40
+bleed-edg code as razor v2 ha a lot of nice featur over v1.
+
+-- 
+--------------------------------------------------------------------
+tabor j. well                                razor-user@fsckit.net
+fsck it!                 just anoth victim of the ambient moral
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

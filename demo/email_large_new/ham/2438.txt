@@ -1,0 +1,18 @@
+re: flash is open?> look at pdf. pdf becam a iso/iec standard but we (at linux) still lack 
+> for a pdf editor that can compet with acrobat profession.
+ 
+in the gnu/linux world, be abl to edit pdf file is not consid
+as a worthwhil featur.  better edit the file in some other format, and
+onli us pdf for a "static output format".  in my experi, thi work
+veri well.
+
+
+        stefan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/jwvk4r62q75.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

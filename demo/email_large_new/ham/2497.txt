@@ -1,0 +1,21 @@
+re: automount hdd kde 4.4 problemon 2010-05-08 leonardo meira wrote:
+>> dolphin doe not mount my other hard drive. thei appear in "place" but
+>> when i click i get a messag
+>> ""org.freedesktop.hal.devic.volum.permissiondeni: refus to mount
+>> devic /dev/sdax for uid = 1000"". i tri, as read in other forum, creat
+>> a configur file for polkit but in vain.
+>> i also saw that thi is a common problem in other distro, possibl a
+>> problem with kde 4.4.
+>>
+>>      
+the upstream bug report is at 
+http://bug.kde.org/show_bug.cgi?id=219996 in case you want to vote for 
+it :)
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be5c3e2.7070403@gmx.de
+
+

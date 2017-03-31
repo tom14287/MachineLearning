@@ -1,0 +1,20 @@
+re: [ilug] sparc solari (wa: dell gx260 v redhat 7.3)wa the ultra 5 the sunrai server? what imag did you serv to the sunrai
+to boot them over tftp/dhcp? 
+
+
+> 
+> hi damian.
+> 
+> suse ha a sparc version i previous been run on a sun 
+> ultra 5 at 
+> least. work fine, albeit a bit slow... ;)
+> 
+> //ander
+> 
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

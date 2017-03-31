@@ -1,0 +1,46 @@
+[webdev] veri nice tool-----begin pgp sign messag-----
+hash: sha1
+
+hi all, 
+
+normal i would not post such thing, but thi is realli cool for a
+visual idea of how ppl ar link to you
+http://www.touchgraph.com/tggooglebrows.html
+
+it mai not work from the submit button, but on the java appelet is
+load then try your url. it realli quit nice.
+
+aj
+
+- ----------------------------------------
+aj mckee
+nmtb media
+
+phone: (europ) +353 1 473 53 72
+       (north america) +1 206 339 4326
+
+fax:   (europ) +353 1 473 53 73
+       (north america) +1 206 339 4326
+
+websit: http://www.nmtbmedia.com
+- -----------------------------------------
+
+	
+
+-----begin pgp signatur-----
+version: pgpfreewar 6.5.8 for non-commerci us 
+comment: pgp/gpg kei locat at http://www.nmtbmedia.com/kei/
+
+iqa/awubpwqpnihma/toop95eql6gccdlpedah2rbmwtnuixpi4aung3g8aojtk
+llxgk8oodlmsv/0o3yynpoea
+=kxad
+-----end pgp signatur-----
+
+
+
+
+_______________________________________________
+webdev mail list
+webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+

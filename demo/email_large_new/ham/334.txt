@@ -1,0 +1,35 @@
+re: [satalk] sa veri slow (hang?) on thi messag, or is it just me?on thursdai 29 august 2002 16:39 cet mike burger wrote:
+> >[...]
+> > re-check i find it immedi:
+> > :0fw
+> > * < 250000
+> > | spamassassin -p
+> >
+> > work perfectli now. sorri for be such a pest! ;-)
+> >[...]
+>
+> i'm us sa via spamc/spamd, and a global /etc/procmail file.  i'm
+> wonder if thi would also work in that fashion.
+
+spamc will skip everi file bigger than 250k on it's own. it's got the 
+command line switch -s to chang thi valu. but it doesn't hurt of cours 
+to us the procmail limit.
+
+malt
+
+-- 
+-- code is art.
+-- 
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

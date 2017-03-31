@@ -1,0 +1,55 @@
+re: [satalk] o.t. habeu -- why?-----begin pgp sign messag-----
+hash: sha1
+
+on wednesdai 28 august 2002 01:34 pm, brian mcnett wrote:
+
+>
+> uh... the reason is simpl. habea run someth call the
+> "habea infring list", and if you us their trademark without
+> their permiss, you'll end up on it.  then, when you send spam
+> with the misappropri header, user of sa (2.40 support
+> thi) will tag your mail as spam, rather than let it through.
+> thi mai be done independantli of your ip address, so be
+> prepar to constantli chang domain name, and move your
+> server as fast as you send spam.
+>
+> also, that littl haiku is a copyright work, so not onli can
+> habea sue, thei must sue to protect their copyright. and sinc
+> it's a trademark as well, that's a doubl-whammi. habea ha
+> some pretti high-power legal peopl, who will gladli go to
+> town on violat.
+>
+> the whole point here is to give them the legal leverag thei
+> need to put spammer out of busi, and not onli block mail
+> from them, but allow through the thing that realli aren't spam.
+>
+> --b
+>
+and if a spammer forg header???
+- -- 
+- ------------------------------------------------------------------------
+robin lynn frank---director of oper---paradigm, omega, llc
+http://paradigm-omega.com              http://paradigm-omega.net
+© 2002.  all right reserv.  no duplic/dissemin permit.
+us of pgp/gpg encrypt mail prefer. no html/attach accept.
+fingerprint:  08e0 567c 63cc 5642 db6d  d490 0f98 d7d3 77ea 3714
+kei server:  http://paradigm-omega.com/keymast.html
+- ------------------------------------------------------------------------
+-----begin pgp signatur-----
+version: gnupg v1.0.7 (gnu/linux)
+
+id8dbqe9btehd5jx03fqnxqrarmeaj4l1p6torvag4j+dy3r2tzfd9fnvgcfrhu3
+kzo/mbybslyi/m1vsn4zymm=
+=mijb
+-----end pgp signatur-----
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: jabber - the world's fastest grow 
+real-time commun platform! don't just im. build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

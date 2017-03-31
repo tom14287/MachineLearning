@@ -1,0 +1,128 @@
+re: auto mount a partit with nobrowseexampl code:
+
+#import 
+#import 
+
+dadissenterref
+diskapprov(dadiskref disk, void *context)
+{
+	char const *cdisknam = dadiskgetbsdnam(disk);
+	dadissenterref dissent;
+	char *type;
+	nsstring *disknam = [nsstring stringwithutf8string:cdisknam];
+	nsrang s1s1numberrang = nsmakerang([disknam length] - 4, 4);
+
+	if([[disknam substringwithrang:s1s1numberrang]  
+isequaltostr:@"s3s1"]) /* check for our magic partit */
+	{
+		cfstringref argument[] =
+		{
+			cfstringcreatewithcstr(kcfallocatordefault, "nobrows",  
+kcfstringencodingutf8),
+			cfstringcreatewithcstr(kcfallocatordefault, "owner",  
+kcfstringencodingutf8),
+			cfstringcreatewithcstr(kcfallocatordefault, "suid",  
+kcfstringencodingutf8),
+			null
+		};
+
+		dadiskmountwithargu(disk,
+								null,
+								kdadiskmountoptiondefault,
+								null,
+								null,
+								argument);
+
+		/* deni the mount sinc we alreadi mount it */
+		dissent = dadissentercr(kcfallocatordefault,
+									kdareturnnotpermit,
+									cfstr("mount hidden"));
+
+		type = "mount hidden";
+	}
+	els
+	{
+		/* allow normal mount */
+		dissent = null;
+
+		type = "mount normal";
+	}
+
+	printf("%s: %s\n", cdisknam, type);
+
+	return dissent;
+}
+
+int
+main (int argc, const char * argv[])
+{
+     nsautoreleasepool *pool = [nsautoreleasepool new];
+	daapprovalsessionref session = daapprovalsessioncr 
+(kcfallocatordefault);
+
+	if (!session)
+	{
+		fprintf(stderr, "fail to creat disk arbitr session");
+		goto out;
+	}
+
+	daregisterdiskmountapprovalcallback(session,
+										null,  // match all disk object
+										diskapprov,
+										null); // context
+
+	daapprovalsessionschedulewithrunloop(session,
+										 cfrunloopgetcurr(),
+										 kcfrunloopdefaultmod);
+
+	cfrunloopruninmod(kcfrunloopdefaultmod,
+						60 /* second */,
+						fals);
+
+	daapprovalsessionunschedulefromrunloop(session,
+										 cfrunloopgetcurr(),
+										 kcfrunloopdefaultmod);
+
+	daunregisterapprovalcallback(session,
+								diskapprov,
+								null);
+
+out:
+    if (session)
+		cfreleas(session);
+
+     [pool releas];
+
+	return 0;
+}
+
+
+________________________________________________________________________ 
+_______________________
+
+
+the exampl appear to work but i'm notic when call  
+dadiskmountwithargu() from the callback function it seem to  
+trigger the approv process for the same partit, is there  
+someth i need to do to prevent thi?
+
+also, is it possibl to chang the mountroot rather than specifi a  
+mountpoint???
+
+i've look at suggest solut to my mount issu and a manual  
+solut is not accept or the us of the fstab file becaus it  
+cannot be guarante that it exist or that the content will be correct.
+
+it ha been suggest that exampl code doe exist howev no on ha  
+point me to or provid me with or even a link to ani sampl code and  
+googl is pretti useless.
+
+-- dale
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+filesystem-dev mail list      (filesystem-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/filesystem-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

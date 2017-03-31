@@ -1,0 +1,32 @@
+re: problem with jni includ in a jnlp on mac os xmike swingler wrote:
+
+> your class is scope under a jnlp-specifc classload: us the =
+provid jclass refer or directli pass a refer to the class =
+object you need will remov ani lookup ambigu. you should not =
+consid the jni class lookup mechan to be reliabl while you ar =
+be call from a static initi.
+
+if you spawn the new thread in java, and have it call down into your jni =
+librari, the thread will alreadi be attach to the jvm, be part of the =
+correct java threadgroup, and inherit all the expect behaviour of the =
+jw environ. if you creat the thread in nativ code, what java =
+threadgroup doe it belong to? i've alwai avoid spawn new thread =
+in nativ code becaus of the amibugu here.
+
+be advis, howev, that the thread where the static initi is =
+run is hold the monitor lock for the class be load. the =
+monitor is not releas until the static initi return and class =
+initi is complet. thi can result in deadlock when a helper =
+thread attempt to do anyth with the class while the static =
+initi is still run. i think it is in the jvm specif =
+where thi is spell out. i had to do some dig through it onc, a =
+long time ago, to resolv a deadlock issu (involv the nativ =
+carbon nativ event thread, which tell you how long ago thi wa).=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

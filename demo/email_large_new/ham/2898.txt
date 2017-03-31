@@ -1,0 +1,20 @@
+re: anolth sequenc relat traceback    date:        fri, 23 aug 2002 02:05:19 +0700
+    from:        robert elz 
+    messag-id:  <16323.1030043119@munnari.oz.au>
+
+when i said ...
+
+  | thi is from todai's cv
+
+that will translat as  "yesterdai's" now of cours (befor the most
+recent set of chang (catchup speedup, and so on)).
+
+kre
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+

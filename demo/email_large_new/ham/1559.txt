@@ -1,0 +1,47 @@
+re: kde 3.5 ...on thu, mai 06, 2010 at 04:39:02pm +0200, martin steigerwald wrote:
+> am donnerstag 06 mai 2010 schrieb sune vuorela:
+> > on 2010-05-06, curt howland  wrote:
+> > > on thursdai 06 mai 2010, ana guerrero wa heard to sai:
+> > >> on thu, mai 06, 2010 at 03:17:43am -0300, jorg gonçalv wrote:
+> > >> > mayb us dummi packag, or renam the packag so that kde 3.5
+> > >> > could remain instal, and not be forc to upgrad to kde4.
+> > >> 
+> > >> no, there is not sane wai and there is nobodi interest on it.
+> > > 
+> > > while the former is certainli true, the latter is demonstr fals.
+> > 
+> > where is your code?
+> > 
+> > i will repeat "no on is interest in do it".
+> 
+> that doe not seem to be entir true as wa mention elsewher in thi 
+> thread:
+> 
+> http://triniti.pearsoncomput.net/
+> 
+> howev thi seem far awai from the man-power behind kde 3 until 3.5.10. 
+> to truli get forward with thi on it appear to me that wai more 
+> develop ar need. who then would have less or no time to work on 
+> improv kde 4.
+
+do stuff in your own is easi. do stuff coordin with a whole distro,
+whithin ugli hack and with a good end qualiti, is not.
+
+btw, i would rather advis peopl learn how to build their own packag befor
+us and thu depend in thi 3rd parti repo, no onli becaus secur reason, 
+or becaus it is not built in the top of debian.  thi repo is not go to be 
+there forev, for sure, sooner or later peopl maintain it will get tire, 
+and if you ar plan to us kde 3 forev...
+
+just point about thi to peopl mention thi repo, noth direclti to
+martin here :)
+
+ana
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100506171818.gb7551@ana.debian.net
+
+

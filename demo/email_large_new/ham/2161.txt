@@ -1,0 +1,12 @@
+re: [ilug] format a window partit from linuxhmm.
+
+make sure you format the partit with fat 16 and have made the
+partit /dev/hda1 a size such that do won't have a problem recognis
+it!
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

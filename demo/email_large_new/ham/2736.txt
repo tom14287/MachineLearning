@@ -1,0 +1,46 @@
+re: mount dvd.  what am i do wrong?on 05/02/2010 04:15 am, camalón wrote:
+> on sat, 01 mai 2010 18:00:58 -0500, ron johnson wrote:
+>
+>> on 05/01/2010 05:17 pm, camalón wrote:
+>
+>>>> interest.  what magic do i chant to make execut those file in
+>>>> udf partit, sinc "exec" in the fstab option doesn't seem to
+>>>> work?
+>>>
+>>> doe thi happen with all dvd/cd you insert or just onli with a few
+>>> on?
+>>>
+>>>
+>> appar onli on disk burn on a toshiba dvr.
+>
+> there is an open bug report for ubuntu where the report wa have a
+> similar situat:
+>
+> ***
+> user do not have permiss to open file in dvd burnt in a mac
+> http://bug.launchpad.net/ubuntu/+sourc/hal/+bug/72872
+> ***
+>
+> the media wa burnt in a mac (your on a pvr) but in both case the
+> permiss on the media ar wrongli set and imped the user to access
+> the file in a usual wai.
+
+http://bug.launchpad.net/ubuntu/+sourc/hal/+bug/72872/comment/24
+
+> read comment #18 (it come from a debian user).
+>
+> mayb it's worth to make a report in bt.
+>
+
+there ar enough bug against the kernel alreadi...
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bddaa77.6000402@cox.net
+
+

@@ -1,0 +1,196 @@
+voip tip: troubleshoot voic=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+searchnetwork | voic over ip tip
+juli 25, 2002
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+from our sponsor:
+look for risk free voip?
+http://searchnetwork.com/r/0,,4689,00.htm?quintum
+________________________________________________________________ 
+in thi issu | tabl of content 
+
+1. voip tip 
+   - troubleshoot voic
+   - voip enabl your telephoni
+   - understand delai
+
+2. import announc and link
+   - network manag/voip/wireless strategi reveal
+   - searchnetwork webcast archiv 
+   - featur topic: network of the futur
+   - expert respons: ted studwel answer your question
+   - featur book: microsoft encyclopedia of network
+____________________________________________________________________
+***********************>> sponsor by quintum <<*******************
+look for risk free voip?
+get a risk free voip solut that is easi to instal and
+cost-effect. quintum tenor(r) multipath switch assur voic qo.
+patent selectnet provid real-time mid-call failov from ip to
+public switch phone network. packetsav voic compress reduc
+bandwidth us 50%.  nataccess work behind nat-enabl firewal. 2
+port soho to carrier solut at:
+http://searchnetwork.com/r/0,,4689,00.htm?quintum
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+troubleshoot voic | by tom lancast
+
+when you're troubleshoot voic call, particularli the signal,
+it's often help to look at the detail output of the devic, be
+it a voic-enabl router, telephoni server, gatewai or whatev. 
+thi detail output can be in the form of log or debug output as is
+the case in cisco's io.  in ani case, thi output is like to be
+somewhat cryptic.  on of the reason is becaus thi output often
+us a set of standard code and it is simpli easier to put more
+inform on the screen us a short number than it is to write an
+essai about why some event happen.
+
+read the entir tip at: 
+http://www.searchnetwork.com/tip/1,289483,sid7_gci840618,00.html
+
+
+got a voip tip of your own? why not send it in? we'll post it on our
+web site, and we'll enter you in our tip contest for some neat
+prize.   submit your tip here:
+http://searchnetwork.techtarget.com/tipssubmit/1,289485,sid7,00.html
+
+like thi tip?  hate it?  email us at
+mailto:tip@searchnetwork.com
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+voip enabl your telephoni | by tom lancast
+
+on of the reason voip ha been slowli gain traction is that
+larg enterpris have quit a lot of legaci equip, and migrat
+to voip from the circuit-switch network of yore is no easi feat.
+these environ ar typic complic and the stake ar high
+becaus so mani mission-critic system reli on telephoni.
+
+click here for the full tip:
+http://searchnetwork.techtarget.com/tip/1,289483,sid7_gci779073,00.html
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+understand relai | by tom lancast
+
+everyon know that delai is on of the two primari caus of poor
+voic qualiti, particularli in voip network, but where doe thi
+delai come from?  delai is gener defin as the time it take
+from the instant you speak into the phone until the instant that
+sound is regener on the far end. quit a few thing have to
+happen to transport thi sound through the system, so delai actual
+ha mani compon.
+
+read the entir tip here:
+http://searchnetwork.techtarget.com/tip/1,289483,sid7_gci823706,00.html
+
+___________________________________________________________________ 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+::::::::::  don't miss these import messag and link  ::::::::
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+network manag/voip/wireless strategi | searchnetwork
+
+searchnetwork.com host the network decis confer in
+chicago, octob 16-18. session focu not onli on essenti network
+manag strategi, but featur critic insight on voip and
+wireless. you find out how to best prepar for these technolog now
+so you won't get left behind, the benefit to gain/pitfal to avoid,
+plu the real roi for your organ.
+
+get the full stori right here: http://www.networkingdecis.com
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+webcast archiv | searchnetwork
+
+if you miss the origin air of our webcast on the best
+practic for avail and perform manag with jon
+oltsik, don't fret, it's avail for you to view at your leisur. 
+and, while you're at it, take a look at all our previous air
+webcast, as well our upcom live event.  we're sure you'll find
+topic that interest you. 
+
+view of archiv on best practic for avail and perform
+manag with jon oltsik:
+http://searchnetwork.techtarget.com/webcaststranscriptsecur/1,289693,sid7_gci832106,00.html 
+
+view our upcom event and webcast archiv list here:
+http://searchnetwork.techtarget.com/onlineev/0,289675,sid7,00.html
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
+network of the futur | searchnetwork featur topic
+
+last week we attend burton group's catalyst confer and heard
+all about the hottest trend in network: vpn, voip, wireless,
+ident manag, and web servic. read more about the issu
+surround each topic.
+
+click here for the current featur topic:
+http://searchnetwork.techtarget.com/featuredtop/0,290042,sid7_gci839778,00.html
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
+expert advic: ted studwel | voic over ip expert
+
+dear ted,
+where can we get inform about inmarsat servic? 
+
+>> click for ted studwel's respons:
+http://searchnetwork.techtarget.com/atequestionnrespons/0,289625,sid7_cid478713_tax292243,00.html
+
+>> click here for other q&as; with ted that you might find us:
+http://searchnetwork.techtarget.com/ateansw/0,289620,sid7_tax292243,00.html
+
+>> click here to pose your voip question to ted studwel:
+http://searchnetwork.techtarget.com/atequest/0,289624,sid7_cid466224_tax292243,00.html
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+featur book | searchnetwork bookstor
+
+titl: microsoft encyclopedia of network
+author: mitch tulloch, and ingrid tulloch
+
+descript: thi second edit of the award-win microsoft
+encyclopedia of network ha been fulli updat with thousand of
+entri detail the latest technolog, standard, product, and
+servic. you get clear, concis explan, includ hundr of
+new articl and diagram that deftli take you from concept to
+real-world applic. you also get the entir encyclopedia on
+cd-rom, for definit answer wherev you need them.
+
+>> click here for order inform:
+http://www.digitalguru.com/digitalguru/product_detail.asp?catalog_name=book&categori;_name=&product;_id=0735613788&partner;_id=65
+
+____________________________________________________________________ 
+:::::::::::::::::::  searchnetwork contact   ::::::::::::::::::: 
+
+ susan fogarti, site editor (sfogarti@techtarget.com) 
+   >> send us your suggest for tip and articl. 
+____________________________________________________________________ 
+
+ kara gattin, assist site editor (kgattin@techtarget.com)
+   >> send your white paper, tip and best web link recommend.
+____________________________________________________________________ 
+
+ beth quimbi, new editor (bquimbi@techtarget.com) 
+   >> send in your product announc and poll idea. 
+____________________________________________________________________ 
+
+ gabriel derussi (gderussi@techtarget.com) 
+   >> sponsor thi or ani other techtarget newslett. 
+____________________________________________________________________ 
+::::::::::::::::::::  about thi newslett   ::::::::::::::::::::: 
+creat by techtarget (http://www.techtarget.com) 
+ techtarget - the most target it media 
+ copyright 2002, all right reserv.  
+
+
+
+
+unsubscrib from 'voic over ip tip'
+ - simpli repli to thi email with remov within the bodi or subject
+>  or
+ - go to: http://searchnetwork.techtarget.com/regist
+ - log in to edit your profil.
+ - click on the link to edit email subscript.
+ - uncheck the box next to the newslett you wish 
+   to unsubscrib from.
+ - when finish, click "save chang to my profil."
+
+
+

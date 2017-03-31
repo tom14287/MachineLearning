@@ -1,0 +1,40 @@
+re: [ilug] jpeg patent...on fri, 19 jul 2002, kevin lyda wrote:
+
+> go after next?  how mani jpeg render/creat app/os's ha ms
+> distribut to their custom sinc 1986?
+
+pah.. ms'd just bui them. (and i'm sure thei'd happi for thi to
+happen).
+
+> kevin
+
+oh ye, see you've setup that tdma thingi, so here's a thought. do
+you reckon spammer (or the softwar thei us) is/ar smart enough to
+
+	s/\(.\)+\+.*@\([a-za-z\.0-9\-]\)/\1@\2/
+
+on email address? it's a fairli old trick, so i dont see why thei
+wouldnt.
+
+person, i rare get spam to ani of the pluss address
+i've given out - i think i've onli ever gotten /on/ caus ebai 
+seem to have sold on my address. apart from that - never, not even 
+to +usenet, so i wonder whether harvest softwar doe the abov.
+
+regard,
+-- 
+paul jakma	paul@clubi.ie	paul@jakma.org	kei id: 64a2ff6a
+fortun:
+thu spake the master programm:
+	"after three dai without program, life becom meaningless."
+		-- geoffrei jame, "the tao of program"
+
+
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

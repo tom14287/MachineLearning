@@ -1,0 +1,42 @@
+class structur questionshi all,
+
+a few question on class structur.
+
+i am work on an exampl to creat a list of recent file that have been open.
+
+thi obvious involv a uitableview
+
+so i creat a class call filelistview and made it a subclass of uitableview like:
+
+@interfac filelistview : uitableview
+
+so i call the init method and i want to creat the tabl with the item in it.
+
+here is what i am not understand:
+1. us proper mvc, i should have a uitableviewcontrol and for a sequenc of event, on init i should creat the control, assign my tabl to the control, implement the necessari method the uitableview requir and them popul the tabl. it doe not make sens to me that on filelistview *filelist = [[filelistview alloc] init]; what i need to do.
+
+i guess i am confus by subclass my filelistview to uitableview.
+
+do i creat the tabl control first, then creat the tabl, then assign the tabl to the control and then load the data into the control so that it is reflect into the tabl?
+
+2. where can i find out what method must be implement as a requir for a uitableview, i recal someplac stuff like minimumrow, style, etc.
+
+3. differ between a deleg and a control?
+
+i found the tabl view program guid so that will help, but can someon explain to me from a more gener stand point? mayb i need more studi on mvc too.
+
+i am not us interfacebuild, btw, but i would think that would be known sinc i am ask on an object-c list....
+
+-jason
+
+as thoma edison said, "i have not fail. i've just found 10,000 wai that won't work."
+
+* sent from jason's ipad *
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

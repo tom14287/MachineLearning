@@ -1,0 +1,21 @@
+consol font turn cyanhello folk,
+
+i don't know when it happen but it must have been dure some
+"aptitud upgrad" run late: my consol font turn from white to
+cyan. at first i thought that the red vga signal had a bad contact,
+but x came up in full color. consol app can control the color to a
+certain extent, but the default color is a realli gross cyan which
+produc weird color effect on an lcd with the thni terminu font.
+in other word, i can't live with it. where is thi control, and
+how can it be switch back to white again?
+
+regard,
+robert
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/r2if68d89471004081029id60ead7ob81eb78c492fc187@mail.csmine.org
+
+

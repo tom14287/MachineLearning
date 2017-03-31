@@ -1,0 +1,31 @@
+re: where to find setup for env variabl? [a question]on 20100414_113944, paul chani wrote:
+> hi,
+> 
+> i have setup somewher the java_home environ variabl, but don't
+> know where?
+
+...snip
+
+when i am read thi thread there ar alreadi two search suggest
+that ar better than what i might have come up with. my post is to
+find out where the set wa actual done. i would have thought it
+could onli be in /etc or /home --- but wierd thing can happen. where
+is it? how long did the search command take to run? and some idea of
+the size of your work environ?
+
+if the caus for that particular locat appear to be someth that
+involv user volit, it could still be us to know what mistak
+can be made. better than learn from on mistak is learn from
+other experi. tia
+
+-- 
+paul e condon           
+pecondon@mesanetwork.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100414141130.ga22738@big.lan.gnu
+
+

@@ -1,0 +1,43 @@
+[satalk] ot: dn mx record clarif pleas
+thi mai be a littl off topic but thought peopl here would have a better
+respons to thi elsewher.
+
+i have setup two mx record (mail and bmail) for my mail server. the on i
+gave a 10 (bmail) the other a 20 (mail).
+
+bmail(10) i gave a 10 becaus i want all mail to go through thi server to
+be scan for spam and virus and then relai to the mail(20) server for
+deliveri.
+
+as i understand it, dn a record ar us in a rotat fashion for load
+balanc, but dn mx record ar us in order or proriti, mean the 10
+befor the 20 and onli 20 if the 10 isn't avail.
+
+but onli some of the mail is actual be scan which lead me to
+believ that not all of the mail is actual hit that box and the 10
+never goe down. why? have i got someth confus here?
+
+thank,
+v
+------- end of forward messag -------
+
+
+
+
+-- 
+thi messag ha been scan for virus and
+danger content by mailscann at comp-wiz.com,
+and is believ to be clean.
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

@@ -1,0 +1,39 @@
+re: tricki perl question - ascend orderjozsi vadkan wrote:
+
+> or mayb in bash..
+> script/"on liner" e.g.: input: http://pastebin.com/raw.php?i=pmzpesmz
+> 
+> i want to make thi output from it:
+> http://pastebin.com/raw.php?i=kh8vxt0a
+> 
+> 
+> so from the input, i want to make an ascend order, how mani thing
+> ar under a "someth-xx"
+> 
+> doe anyon ha ani "perl magic" in the pocket, how to do thi? :d
+> 
+> thank you veri, veri much..:\
+
+
+assum you can reli on the posit of the blank line, thi seem to 
+work. should be easi to chang if you want to reli on someth be at 
+the begin.
+
+perl -e '$f=1; while(<>) { chomp; if ($_ eq "") { $f=1 } els { if ($f) 
+{ $x{$_}=[]; $k=$_; $f=0 } els { push @{$x{$k}}, $_ } } } for(sort kei 
+%x) { print $_, "\n", join("\n", @{$x{$_}}), "\n\n" }'
+
+there's probabl a perl hacker or two who can do it neater, but as i 
+sai, it seem to work ;)
+
+--
+chri jackson
+shadowcat system ltd.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf95e41.4020406@shadowcat.co.uk
+
+

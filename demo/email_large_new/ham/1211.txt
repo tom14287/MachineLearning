@@ -1,0 +1,158 @@
+re: folder comput replcomp (and replgroupcompson sun, 21 jul 2002 16:37:21 -0500 
+hal devor  wrote:
+
+>>>>>> on fri, 19 jul 2002, "j" == j c lawrenc wrote:
+
+j> what would be great is if i could build the relev comp file
+j> dynam at runtim.
+
+> sure.  us the "folder chang" hook.  creat a proc name
+> hook_folderchangesometh (where "someth" is meaning and like
+> to be uniqu in the univers just in case you distribut thi to
+> other).  put the proc in a file in your ~/.tk/exmh directori,
+> regener the tclindex, restart exmh.
+
+> in that proc you can do anyth you want, like rewrit your
+> ~/mail/comp file.
+
+yeah, that would work, tho there ar race condit and like/possibl
+ugli side effect (eg unintention left-over comp file).  i've end
+up take a veri differ rout: tmda (http://www.tmda.net).  in
+particular i us tmda outbound filter to add custom plu address to
+the messag i send to specif list.
+
+for exampl, for the tmda-user list i want a from: address of
+claw+tmda@kanga.nu, so the relev outbound filter is:
+
+ to tmda-user@libertin.org ext=tmda
+
+which rewrit my from: header transpar.  when i get next month's
+batch of password remind from mailman list i'll be run about
+resubscrib to each list either with a standard plu address or a
+tmda-base sender address (ie an address which onli the list in question
+is abl to send mail to).
+
+				  -+-
+
+get tmda fulli happi with nmh wa a minor pain.  
+
+reason:
+
+  nmh, like mh, by default deliv outbound mail via smtp to port 25 on
+  a defin host.  the port number cannot be configur (it call
+  getservbynam() which doe a lookup against "smtp" in /etc/servic).
+  ergo, you ar constrain to us tell nmh to us tmda-sendmail instead
+  of smtp.
+
+  us sendmail as the deliveri method under mh instead of smtp is not
+  recommend as is lose a number of us bit of robust in mail
+  deliveri failur mode.  further, when nmh is configur to us
+  sendmail instead of smtp nmh's whom tool call sendmail as follow:
+
+    .../sendmail/ -m -t -i -bv
+
+  which creat problem:
+
+    postfix doe not support "-bv" and return in error
+
+    exim doe not support "-t" with "-bv" and return in error
+
+    don't mention qmail.  i won't us it.
+
+  "whom" is far too us as a compon tool in mh to lose.  
+
+    it would be nice if someon gave the new crew work on nmh a shout
+    about thi.  the "-bv" option to sendmail is pretti damn close to
+    be allman sendmail specif and thu unfriendli to other mta.
+    further there ar mani case where it would be us to configur a
+    non-standard port to deliv outbound mail to via smtp.  nmh's
+    current insist on onli us port 25 (or as specifi in
+    /etc/servic) is a pain.
+
+i've work out a hack to us tmda with exim while retain nmh's
+"whom" support us exim's system filter:
+
+  0) make sure that the follow option ar set in ~/.tmda/config:
+
+    datadir
+    allow_mode_640
+    crypt_kei_file
+    fingerprint
+
+  1) chgrp everyth in and under ~/.tmda to group "mail".
+
+  2) configur exim as per the current tmda how-to.
+
+  3) set the follow option in exim.conf:
+
+    messag_filter = "/etc/exim/filter"
+    messag_filter_pipe_transport = address_pipe
+
+  4) /etc/exim/filter read:
+
+    # exim filter
+    testprint "local_part: ${local_part: $h_from:}"
+    testprint "domain: ${domain: $h_from:}"
+    if "$h_x-tmda-fingerprint:" is "" and 
+       "${domain: $h_from:}" is "kanga.nu" and
+       "${if exist {/home/${local_part:$h_from:}/.tmda} {true}{fals}}" is "true"
+    then
+      pipe "/usr/bin/tmda-inject -c /home/${local_part:$h_from:}/.tmda/config"
+      finish
+    endif
+
+  ye, that assum that all user directori ar under /home and that
+  thei us ~/.tmda/config instead of ~/.tmdarc.  hack appropri for
+  your setup.
+
+basic explan:
+
+  exim send all outbound mail thru the system filter (if on is
+  configur) befor attempt deliveri.  the abov system filter
+  extract the user from the from: address and pipe the messag thru
+  that user's tmda setup via tmda-inject.
+
+  the system filter run as the same user as exim, thu the requir
+  for the chgrp mail.  if your exim instal run as a differ
+  user, chgrp as appropri.
+
+  it should be fairli easi to do someth similar under postfix, but i
+  haven't investig that end.
+
+note:
+
+  thi requir that all outbound mail that is to be process with tmda
+  ha a from: header which refer a local user (suffix ar fine),
+  and that the from: address is fulli qualifi with a known domain.  if
+  you're vhost the abov setup would be fairli trivial to extend for
+  other domain and $home path.  i'm not vhost on my desktop and so
+  don't care.  you could also qualifi on envelop or other header if
+  you wish.
+
+  a nice side effect of thi approach for those run share mail
+  server is that all user who have tmda config instantli get tmda
+  support for their outbound mail -- and in a manner that is less
+  complex and less prone to end-user error than the typic tmda
+  configur.
+
+caveat emptor.  
+
+  obnot: i've also written a small patch against tmda 0.58 to add a
+  "hold" deliveri method (ident to "confirm" except it send no
+  confirm request -- veri us for test config or do
+  silent sidetrack of mail).
+
+-- 
+j c lawrenc                
+---------(*)                satan, oscil my metal sonata. 
+claw@kanga.nu               he live as a devil, eh?		  
+http://www.kanga.nu/~claw/  evil is a name of a foeman, as i live.
+
+
+
+_______________________________________________
+exmh-user mail list
+exmh-user@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-user
+
+

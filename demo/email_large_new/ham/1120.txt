@@ -1,0 +1,20 @@
+re: [fwd: error exmh 2.5 07/13/2001 ]
+>>>>> on wed, 24 jul 2002, "chri" == chri garrigu wrote:
+
+  chri> am i the onli on for whom type control-l to the main
+  chri> window caus thi error?
+
+get it here too on a copi i haven't updat from cv sinc 
+about mai sometim.
+
+--hal
+
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+
+

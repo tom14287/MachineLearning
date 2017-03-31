@@ -1,0 +1,45 @@
+re: pin + apt-get vs aptitudeon 2010-05-15 17:32 +0200, hugo vanwoerkom wrote:
+
+> (on sid) i pin grub-legaci, to avoid go to grub2.
+>
+> then when i do 'apt-get dist-upgrad' i see:
+>
+> the follow packag have been kept back:
+>   grub
+>
+> and
+>
+> the follow packag will be upgrad:
+> ... grub-legaci ...
+>
+> but when i do 'aptitud full-upgrad' i see:
+>
+> the follow packag will be remov:
+> ... grub-legaci{a} ...
+
+you should run "aptitud unmarkauto grub-legaci" and remov the
+transit grub packag.  unfortun the case where a transit
+packag a pull in anoth packag b is not handl well by the packag
+manag, i alwai end up "aptitud unmarkauto b; aptitud markauto a"
+to tell apt that i want to keep the new packag and that it can remov
+the transit on as soon as noth depend on it anymor.
+
+> the follow new packag will be instal:
+> ... grub-pc{a} ...
+>
+> so why doe aptitud pai no attent to my pin?
+
+becaus it decid that the grub-legaci packag is unus and can be
+remov despit the pin.  whether thi is the right thing is debat;
+i'm sure you find some bug report about that if you dig into the long
+list of aptitud bug.
+
+sven
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87fx1tcg4h.fsf@turtl.gmx.de
+
+

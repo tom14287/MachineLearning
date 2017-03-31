@@ -1,0 +1,169 @@
+[secur] [dsa-2041-1] new mediawiki packag fix cross-site request forgeri-----begin pgp sign messag-----
+hash: sha1
+
+- ------------------------------------------------------------------------
+debian secur advisori dsa-2041-1                  secur@debian.org
+http://www.debian.org/secur/                         raphael geissert
+mai 03, 2010                          http://www.debian.org/secur/faq
+- ------------------------------------------------------------------------
+
+packag        : mediawiki
+vulner  : csrf
+problem type   : remot
+debian-specif: no
+cve id(s)      : cve-2010-1150
+
+it wa discov that mediawiki, a websit engin for collabor
+work, is vulner to a cross-site request forgeri login attack, which
+could be us to conduct phish or similar attack to user via
+affect mediawiki instal.
+
+note that the fix us break the login api and mai requir client us it to 
+be updat.
+
+for the stabl distribut (lenni), thi problem ha been fix in
+version 1:1.12.0-2lenni5.
+
+for the test distribut (squeez) and the unstabl distribut (sid),
+thi problem ha been fix in version 1:1.15.3-1.
+
+
+we recommend that you upgrad your mediawiki packag.
+
+upgrad instruct
+- --------------------
+
+wget url
+        will fetch the file for you
+dpkg -i file.deb
+        will instal the referenc file.
+
+if you ar us the apt-get packag manag, us the line for
+sourc.list as given below:
+
+apt-get updat
+        will updat the intern databas
+apt-get upgrad
+        will instal correct packag
+
+you mai us an autom updat by ad the resourc from the
+footer to the proper configur.
+
+
+debian gnu/linux 5.0 alia lenni
+- --------------------------------
+
+stabl updat ar avail for alpha, amd64, arm, armel, hppa, i386, ia64, 
+mip, mipsel, powerpc, s390 and sparc.
+
+sourc archiv:
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki_1.12.0.orig.tar.gz
+    size/md5 checksum:  7188806 117a1360f440883a51f0ebca32906ea0
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki_1.12.0-2lenni5.diff.gz
+    size/md5 checksum:    64013 4bda93a5b7657c02615abb552a52656f
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki_1.12.0-2lenni5.dsc
+    size/md5 checksum:     1549 95beff777c2aabfc1c27ee705d6e962d
+
+architectur independ packag:
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki_1.12.0-2lenni5_all.deb
+    size/md5 checksum:  7232192 376a7e8a9d5ef623d9f742c46b6731d2
+
+alpha architectur (dec alpha)
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_alpha.deb
+    size/md5 checksum:    50010 ef0bba8b3e99182ca3aa0332c65ecb79
+
+amd64 architectur (amd x86_64 (amd64))
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_amd64.deb
+    size/md5 checksum:   157208 be32615f5aa6e9eb8c7cb9856190667e
+
+arm architectur (arm)
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_arm.deb
+    size/md5 checksum:    49488 daa203ec0ec783fa56621b5175bdf339
+
+armel architectur (arm eabi)
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_armel.deb
+    size/md5 checksum:    49466 0fadcd27411dfbe53bb5acf871f8e9a5
+
+hppa architectur (hp pa risc)
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_hppa.deb
+    size/md5 checksum:    50024 1d7fd2466472722e1c94b543e302c481
+
+i386 architectur (intel ia32)
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_i386.deb
+    size/md5 checksum:   139020 97e49217a15ba203534ed4e55684ec21
+
+ia64 architectur (intel ia64)
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_ia64.deb
+    size/md5 checksum:    50014 6d58ac1368a33980217cf93e6252bd8d
+
+mip architectur (mip (big endian))
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_mip.deb
+    size/md5 checksum:    50020 2402eedead8550ae99d9a979a861afb9
+
+mipsel architectur (mip (littl endian))
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_mipsel.deb
+    size/md5 checksum:    50020 079fe641ba7565df49c0cd2b639d8cc7
+
+powerpc architectur (powerpc)
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_powerpc.deb
+    size/md5 checksum:   163034 93917f4c7b2b7c81e4542c83de7950d9
+
+s390 architectur (ibm s/390)
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_s390.deb
+    size/md5 checksum:    50004 a54b1abd2c73872c378b73c751ac6134
+
+sparc architectur (sun sparc/ultrasparc)
+
+  http://secur.debian.org/pool/updat/main/m/mediawiki/mediawiki-
+math_1.12.0-2lenni5_sparc.deb
+    size/md5 checksum:   158352 39f3faa87dcc103f6f948e351801ee88
+
+
+  these file will probabl be move into the stabl distribut on
+  it next updat.
+
+- ---------------------------------------------------------------------------------
+for apt-get: deb http://secur.debian.org/ stabl/updat main
+for dpkg-ftp: ftp://secur.debian.org/debian-secur 
+dist/stabl/updat/main
+mail list: debian-secur-announc@list.debian.org
+packag info: `apt-cach show ' and http://packag.debian.org/
+-----begin pgp signatur-----
+version: gnupg v1.4.10 (gnu/linux)
+
+ieyearecaayfakvfaysacgkqyi49rubzzloulwceo+uad4eyezsmjiumeiwk+ym
+6bgaoixxttvlzkbeci9xjxswoscpq9gp
+=73h+
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-secur-announc-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005031925.47383.geissert@debian.org
+
+

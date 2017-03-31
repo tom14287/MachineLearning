@@ -1,0 +1,55 @@
+re: filesystem recommendationsfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+on wednesdai 28 april 2010 20:26:46 rob owen wrote:
+> on mon, apr 26, 2010 at 08:28:37am -0500, stan hoeppner wrote:
+> > javier barroso put forth on 4/26/2010 6:56 am:
+> > > why debian instal doesn't chang it default filesystem to xf if
+> > > it is better than ext3 / ext4? i think alwai is better stick to
+> > > default if it is possibl
+> >
+> > if on disk filesystem wa better than all the other in all wai, then
+> > linu would onli allow on fs in the kernel tree.  as of 2.6.33 there a=
+re
+> > no less than 7 stabl primari disk filesystem offer in the kernel.=20
+> > your question is a bit simplist, and not realli valid.  there is no
+> > singl "perfect" filesystem.  imo, for server anywai, xf is pretti
+> > close.
+> >
+> > newbi _should_ alwai stick to default.  expert instal with expert
+> > mode, and choos exactli what thei want/need.
+> >
+> > i didn't write the debian instal so i can't tell you why ext is the
+> > default.  i can onli specul.  thankfulli the instal offer us
+> > expert mode so we can do whatev we want.  in thi regard, i guess the
+> > debian team consid ext the best choic for non-expert.
+>=20
+> if i'm right that ext3 ha superior resili to power loss (see my
+> oth post in thi thread) , then that
+> fact alon make it a good choic for default filesystem.
+
+ext3 basic sync to disk everi 5 second or so.  ext4 didn't, but it's=
+=20
+possibl that ha been / will be put back.  xf us longer gap between di=
+sk=20
+sync by default, but it is tunabl.
+
+you could alwai us the "sync" file system option to avoid the whole issu=
+=2e =20
+if that's no good enough, a simpl shell script (while sleep 5; do sync; do=
+ne)=20
+run as root (perhap start from init) will fill basic the same ro=
+le.
+
+both xf and ext3/4 recov through journal replai, and it is usual enoug=
+h. =20
+rare, a manual filesystem check will be requir, and xf_check is usual=
+y=20
+much faster than fsck.ext3 or even fsck.ext4.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

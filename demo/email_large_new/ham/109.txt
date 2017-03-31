@@ -1,0 +1,41 @@
+re: recent mobo recommendationon wed, 14 apr 2010 11:12:29 -0500, hugo vanwoerkom wrote:
+
+> ron johnson wrote:
+
+>> come on, man...  you should know the drill.
+>> 
+>> specifi:
+>> 
+>> o budget
+>> o need featur
+>> o prefer featur
+>> 
+>> 
+> budget - ani
+
+nice!
+
+> need featur - desktop configur, at least 2 pci express slot -
+> atx form factor
+> 
+> prefer featur - run with debian
+
+then i can recommend a supermicro c2sbx (intel socket 775), which is the 
+latest board i had to instal a debian lenni and is work fine.
+
+or you can also look at msi, gigabyt, abit, intel... or almost ani 
+motherboard manufactur that for sure will fit your "lax" requir 
+>:-)
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.14.17.32.24@csmine.org
+
+

@@ -1,0 +1,30 @@
+[razor-user] authent error
+todai's error(receiv multipl time) wa:
+
+jul 23 21:16:39.288680 report[98557]: [ 2]  razor-agent v2.12 start
+razor-report ./jobspam
+jul 23 21:16:46.597147 report[98558]: [ 1] razor-report error: reportit:
+error 213 while authent, abort.
+
+i realli like the concept of razor but i find myself wonder if it's
+realli a good idea for the develop to be pass off what appear
+to be alpha-qualiti softwar as product-readi....
+
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+                               patrick greenwel
+         ask the wrong question is the lead caus of wrong answer
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

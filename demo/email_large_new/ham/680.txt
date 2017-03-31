@@ -1,0 +1,66 @@
+re: move /tmp to a separ partit. advic?on sundai 23 mai 2010 04:37:18 klistvud wrote:
+> howdi, fellow debianit!
+> given some extra hard drive space, i decid to move my /tmp dir
+> (current locat under / ) to a partit of it own. i am look
+> forward to ani advic, particularli of the been-there-done-that type:
+> * how should i configur my fstab entri? how doe debian instal do
+> it?
+
+  watch out for permiss -- /tmp is "1777" (rwxrwxrwt), it ha to
+be world-writabl and have the sticki bit set, which ensur that onli
+user who creat file in there can write to them.  permiss come
+from the mount fs, not the mount point, so make sure you set these
+permiss while it's mount.
+
+  becaus of the world-writabl, secur consciou admin mount
+it nodev and nosuid.  if you're more care, you can mount it noexec,
+too, but that will break some third-parti softwar instal that
+work by examin your system, write a custom config script insid
+/tmp somewher, and then run it.
+
+  so your fstab entri might look like:
+
+> /dev/with/temp/ /tmp ext3 nosuid,nodev 0 2 
+
+  
+> * is there anyth debian-specif to watch for?
+
+  not that i recal.
+
+> * is it true that set /tmp permiss to non-execut, while
+> harden your box, prevent apt from work properli?
+
+  set /tmp to non-execut by the noexec mount option doe break 
+thing, but as i said abov, my recollect is that it mostli break 
+third-parti stuff.  i think the apt script ar all in /var/lib/dkpg/info,
+and ar run from there.
+  set the *directori* noexec seem veri bad, sinc the exec bit
+on directori control the abil to cd to it, and turn that
+off would make it larg useless. 
+
+  as to "why", on moder-high-avail multi-user system, i 
+often put /tmp on a separ partit precis so i can us mount
+option to global control access.  thi is more import in a 
+truli multi-user system than a home system, of cours.
+
+  misbehav app rare but sometim blow the lid off of /tmp, and
+have it be on it own partit mean thi doesn't compromis the
+system as a whole, and you can easili figur out what's go on by 
+see the log error and look at "df" output.  some folk keep
+/var/log on a separ partit for similar reason.
+
+  again, all of thi is more import in a multi-user product 
+environ.  on my home system, i mostli don't worri about thi
+sort of thing.
+
+					-- a. 
+-- 
+andrew reid / reidac@bellatlant.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005231038.48482.reidac@bellatlant.net
+
+

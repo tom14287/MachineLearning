@@ -1,0 +1,29 @@
+[wm] green card cekÝlÝsÝ  kacirmayin=3c!doctyp html public =22-=2f=2fw3c=2f=2fdtd html 4=2e01 transit=2f=2fen=22=3e
+=3chtml=3e
+=3chead=3e
+=3ctitl=3egreen card=3c=2ftitl=3e
+=3cscript=3e
+
+function go=28=29 
+{
+window=2eloc=3d=22http=3a=2f=2fwww=2eyesilkart=2eorg=2findex=2ephp=3fwho=3d19=22=3b
+}
+    =3c=2fscript=3e
+=3c=2fhead=3e
+=3cbodi onload=3d=22go=28=29=22 =3e
+=3c=2fbodi=3e
+=3c=2fhtml=3e
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+webmak-talk mail list
+webmak-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/webmak-talk
+
+

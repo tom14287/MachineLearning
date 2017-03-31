@@ -1,0 +1,27 @@
+re: how to keep debian current??ryanjb wrote:
+>
+> i find a net instal work best 
+> nowadai. then you just download and instal packag as you want to.
+> 
+> the archiv is simpli huge now so it's a lot to download and burn unless you 
+> have machin that ar not connect to the net that you want to instal or 
+> updat.
+
+
+ye, start with a test netinst www.debian.org/devel/debian-instal/ 
+and instal the base and then add the sid repo and do an aptitud 
+full-upgrad to the base, after that you can start to build your 
+test/unstabl system the wai you want it.
+-- 
+jimmi johnson
+
+debian test at sda12
+regist linux user #380263
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bee4e5b.70909@csmine.org
+
+

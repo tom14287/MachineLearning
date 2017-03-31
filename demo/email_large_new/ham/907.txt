@@ -1,0 +1,18 @@
+re: memori usageon 2010-05-11, marcu better  wrote:
+> the system will often grind to a halt for sever minut while iotop show 
+> that it is busi swap, usual swap in the eclips process. the most 
+> annoi thing is that kde becom total unrespons dure all thi 
+> time, i cannot even move the mous pointer.
+
+except i onli have 512mb ram in my laptop, it match my experi of
+eclips.
+
+/sune
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/slrnhuim5s.rvp.nospam@sshwai.ssh.pusl.com
+
+

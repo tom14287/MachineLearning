@@ -1,0 +1,20 @@
+re: search googl for "select text"on 05/07/2010 12:13 pm, jimmi johnson wrote:
+> when in iceweasel/firefox when i can right click on select text and i
+> get the option to search googl for the select text in a new tab.
+>
+> anybodi know of a wai i can have the same in icedov/thunderbird by
+> right click?
+
+hyperword.
+http://addon.mozilla.org/en-us/firefox/addon/1941
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be48a43.5040606@cox.net
+
+

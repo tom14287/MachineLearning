@@ -1,0 +1,23 @@
+process run at nice 19!i still have not gotten to the root of thi veri annoi problem.
+
+in the earliest kde4 version, stuff start up at the normal default nice of 
+0 (prioriti 20). i had a renic script to get all those akonadi daemon nice 
+out of the wai so kde4 would be usabl.
+
+on version (4.2.*) had stuff start at 0, prioriti 40 (did not know there 
+wa such an anim) but it plai nice.
+
+after that, it seem, everyth of kde4's menu, desktop icon, anyth it 
+spawn is be nice to 19. thi render kde4 unus. so my renic script 
+set plasma-desktop, kmail and sever of the core util back to 0 so i 
+can us it. but thi workaround is no answer.
+
+i have no idea why thi is go on. ani idea?
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005042000.59118.d_baron@012.net.il
+
+

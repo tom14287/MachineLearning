@@ -1,0 +1,22 @@
+re: server certif ha expiredon ter, 18 mai 2010, merciadri luca wrote:
+> well, thi is effect icedov 2.0.0.22 (20090706). how did you
+> manag to, under th. 3?
+
+i don't rememb exactli, but i believ somewher the wa an option to  
+accept the secur except perman.
+
+
+-- 
+the first duti of a revolutionari is to get awai with it.
+		-- abbi hoffman
+
+eduardo m kalinowski
+eduardo@kalinowski.com.br
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100518163039.19774t9qfci22adc@mail.kalinowski.com.br
+
+

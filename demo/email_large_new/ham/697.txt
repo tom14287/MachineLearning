@@ -1,0 +1,25 @@
+re: kde 4.4.3 in unstableon thu mai 6 2010 15:59:39 boyd stephen smith jr. wrote:
+> i think that kmail requir mysql to function in debian stabl is a
+> problem. i request that the qt/kde packag team take step to ensur that
+> debian stabl user ar not strand with that situat for the lifetim
+> of stabl.
+
+i'm curiou.  when i instal mysql on a lenni server it thereaft
+automat start the global /var/lib/mysql mysql server at boot time.
+
+i thought akonadi wa intend to us a privat mysql server process
+run in each user' home directori and start as need.  (mayb
+i misunderstood.)
+
+doe instal kde caus a global /var/lib/mysql mysql server to run on
+each workstat, even when nobodi is log in?
+
+--mike bird
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005061633.47357.mgb-debian@yosemit.net
+
+

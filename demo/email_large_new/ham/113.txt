@@ -1,0 +1,40 @@
+re: middl button click broken+ pierr bagui :
+
+> i have instal xquartz 2.5.0 under 10.5.8 and now the middl 
+> button click is broken.
+
+i have the same, and it work for me.
+
+> the window manag is gnome and the middl click instead of past 
+> the select, it just switch the focu to anoth window. ctrl-c 
+> and ctrl-v the select stop also work. is there some wai to 
+> restor thi function?
+
+run xev from a termin window. if you move the mous cursor into the 
+window that pop up, hold it still there and click the middl button, 
+you should see someth like thi:
+
+buttonpress event, serial 26, synthet no, window 0x400001,
+     root 0x381, subw 0x0, time 208302587, (103,133), root:(107,155),
+     state 0x0, button 2, same_screen ye
+
+buttonreleas event, serial 26, synthet no, window 0x400001,
+     root 0x381, subw 0x0, time 208302722, (103,133), root:(107,155),
+     state 0x200, button 2, same_screen ye
+
+if it sai button 2, your x11 setup is okai. if not, pleas run thi 
+command and tell us the output:
+
+   default read org.x.x11
+
+if your xev run doe give you button 2 event, then there is probabl 
+someth wrong with your window manag setup.
+
+- harald
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

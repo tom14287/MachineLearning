@@ -1,0 +1,22 @@
+re: amarok's issuesfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+hello,
+
+on antradieni 13 balandi 2010 19:04:51 patric pillot wrote:
+> hi,
+>=20
+> edson marquezani filho a =c3=a9crit :
+> > i'm us sqlite as databas backend
+>=20
+> you said you were us squeez, didn't you ? mai i ask you how you
+> tweak amarok to us sqlite instead of mysql ?
+
+amarok 2 doe not support sqlite. that's not someth you can "tweak" amar=
+ok=20
+for.
+
+=2d-=20
+modesta vainiu 

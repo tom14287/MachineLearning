@@ -1,0 +1,17 @@
+re: which kernel for thinkpad 760xd ?> i would like your insight : the laptop is report as i586, so which on to
+> choos ? linux-imag-2.6.26-2-686 2.6.26-21lenni4 ? linux-imag-2.6.26-2-486
+> 2.6.26-21lenni4 ? (i would be more inclin to 486, but i didn't find ani
+> concluant inform on the net...)
+
+486 will work.  686 mai work.
+
+
+        stefan
+
+
+-- 
+to unsubscrib, email to debian-laptop-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/jwv7ho39uuj.fsf-monnier+gmane.linux.debian.user.laptop@gnu.org
+
+

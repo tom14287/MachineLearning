@@ -1,0 +1,23 @@
+re: re: help need: error boot to btrf filesystemon fri, apr 23, 2010 at 2:34 pm, eugen dedu
+ wrote:
+>> on fri, apr 23, 2010 at 11:25 am, eugen dedu
+>>  wrote:
+>>
+>> what is the filesystem of /boot?
+>>
+>> it should not be btrf.
+>
+> well, /boot is on the same filesystem as / (onli on fs), so it is
+> btrf. =a0doe not grub2 boot linux from btrf? =a0i have seen web page
+> sai that it boot...
+
+it is unlik becaus /boot/grub contain ext2.mod, jf.mod,
+ntf.mod, uf1.mod, uf2.mod, xf.mod, zf.mod but not btrf.mod.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/k2x6d4219cc1004231200q41526068z87e9b0fc010b9bdf@mail.csmine.org
+
+

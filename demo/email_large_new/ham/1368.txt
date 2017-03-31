@@ -1,0 +1,13 @@
+synapt touchpad stop work in gnomefrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+hi list
+i'm run sid on a msi wind 100 with synapt touchpad.=20
+sinc my last dist-upgrad yesterdai, the touchpad is not work in
+gnome anymor, but still work fine in gdm-greeter, lxde and on consol.
+anyon els see thi? ani idea against which packet to file a bug?
+thank
+
+  --jan

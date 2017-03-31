@@ -1,0 +1,22 @@
+[razor-user] bug?doe anyon els experi thi:
+
+http://sf.net/tracker/index.php?func=detail&aid;=600311&group;_id=3978&atid;=10
+3978
+
+also, it seem that the bug tracker on sf isn't us veri much ... is there
+somewher els to post bug?
+
+- colin
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

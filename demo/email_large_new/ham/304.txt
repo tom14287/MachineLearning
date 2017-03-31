@@ -1,0 +1,56 @@
+re: acroread not see printerson thu, 15 apr 2010 23:09:22 -0400, john a. sullivan iii wrote:
+
+> on thu, 2010-04-15 at 10:49 -0700, carl johnson wrote:
+>> "john a. sullivan iii" write:
+>> 
+>> > on thu, 2010-04-15 at 13:05 +0000, camalón wrote:
+>> >> 
+>> >> make sure that lid_librari_path point to the locat for libcup
+>> >> and also cup lp and lpr ar in path.
+>> >> 
+>> >> when you invok the print dialog us control+p, all the printer
+>> >> configur show up in the printer name dropdown. ***
+>> >> 
+>> >> i'm not sure how to check thi in debian, mayb someon els can
+>> >> give you a hint on thi :-)
+>> > 
+>> > thank.  i tri set lid_librari_path and i know the binari ar
+>> > in the path but it didn't help :(
+>> 
+>> i don't know if you notic, but i think that should be
+>> ld_librari_path, without the extra 'i'.  i don't know enough to help
+>> otherwis.
+> 
+> argh!! i did upgrad to acroreat 9.3.1 from multimedia unstabl upon
+> these respons and the referenc articl which wa base upon 9.x.  i
+> even set a lid_librari_path variabl in case it wa not a typo.  it
+> still doesn't work.  set the command line debug variabl, i
+> found that it cannot find the ppd file.  
+
+ughhh, ye, *it's a typo* (i copi/past from the site and didn't 
+notic the error either) :-/. 
+
+correct valu is "ld_librari_path" as carl point-out.
+
+> doe it onli work if the cup
+> server is run local? in our case, we us a central cup server
+> run on a non-standard port.  thi is reflect in
+> /etc/cup/client.conf.  how do we tell acroread where the printer server
+> and ppd file ar? thank - john
+
+mmmm, that should not affect. if you can print from other program, 
+acroread should do the same. if it fail, it sound to me like a bug on 
+their side.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.16.06.56.22@csmine.org
+
+

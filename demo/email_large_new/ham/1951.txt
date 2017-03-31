@@ -1,0 +1,23 @@
+re: self adapt apt sourceon thu, 06 mai 2010 21:58:32 +0900, osamu aoki wrote:
+
+> i think you ar talk cdn.
+
+bingo!
+
+>  http://list.debian.org/debian-devel/2008/02/msg00700.html
+>  http://wiki.debian.org/debiangeomirror
+
+thank for the url!
+
+-- 
+tong (remov underscor(s) to repli)
+  http://xpt.sourceforg.net/techdoc/
+  http://xpt.sourceforg.net/tool/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hrugvj$dlf$1@dough.gmane.org
+
+

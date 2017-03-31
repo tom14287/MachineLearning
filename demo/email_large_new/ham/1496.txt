@@ -1,0 +1,19 @@
+re: amarok's issueshi,
+
+edson marquezani filho a écrit :
+> i'm us sqlite as databas backend
+
+you said you were us squeez, didn't you ? mai i ask you how you
+tweak amarok to us sqlite instead of mysql ?
+
+thank in advanc,
+
+phep
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc49623.40206@toulous.archi.fr
+
+

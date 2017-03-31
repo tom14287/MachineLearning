@@ -1,0 +1,55 @@
+re: about usb hard drive and errorson 20100412_152156, hugo vanwoerkom wrote:
+> celejar wrote:
+> >on sat, 10 apr 2010 22:06:06 -0600
+> >paul e condon  wrote:
+> >
+> >...
+> >
+> >>i got a littl less timid and tri run smartctl even though i wa
+> >>quit unsur of what to expect. it ran. each of the three usb hd gave
+> >>somewhat differ output, but none gave output that claim there wa
+> >>a work smart on the drive. these drive ar western digit (wd).
+> >>the wd web site mention smart and also us the word smart
+> >>drive to mean someth els that is a proprietari market
+> >>thing, afaict. i
+> >>wa unabl to find a list of part #s for drive that support s.m.a.r.t.
+> >>
+> >>i think i should be in the market for a better class of drive, but not
+> >>thi weekend. thank for the help.
+> >
+> >my understand is that s.m.a.r.t. doesn't gener work over usb.
+> >as wikipedia put it:
+> >
+> >for exampl, few extern drive connect via usb and firewir
+> >correctli send s.m.a.r.t. data over those interfac.
+> >
+> >http://en.wikipedia.org/wiki/s.m.a.r.t.#standard_and_implement
+> >
+> 
+> i can us smart on my usb drive enclosur with an ata drive but not
+> with my usb drive enclosur with a sata drive.
+> 
+> hugo
+
+veri interest --- but
+
+my quick googl reveal mani usb drive enclosur for both ata and sata
+but the market don't make mention of s.m.a.r.t . what is the brand of
+your enclosur. i want to look for it, in particular, and see if it claim
+the featur that you have discov. actual, on look a littl more
+close, i'm not see ani case of a singl enclosur that can be us
+with both ata and sata. do i read your post correctli - your enclosur can
+contain either a sata or an ata, and work over usb? but smart onli work
+when it is enclos an ata? 
+
+-- 
+paul e condon           
+pecondon@mesanetwork.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100412223607.gl10774@big.lan.gnu
+
+

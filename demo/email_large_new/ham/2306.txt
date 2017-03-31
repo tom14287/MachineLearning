@@ -1,0 +1,84 @@
+[razor-user] re: no result from razor-check on known spam?it's got to be razor 2.x...i've never instal razor 1.x 
+
+howev:
+
+[mburger@burger mburger]$ razor-report -v
+razor agent 2.14, protocol version 3
+
+as to more detail...i don't have ani...it run, seem to do it thing, 
+and then give that error.
+
+on mon, 12 aug 2002, chad norwood wrote:
+
+>   can you send more detail about the error?
+>   and also do a 'razor-report -v' to make sure 2.x is be call.
+> 
+>   -chad
+> 
+> on 11/08/02 21:09 -0500, mike burger wrote:
+> ) ok...i need to amend thi.
+> ) 
+> ) i don't get the error when i check the spam...just when i go to report it.
+> ) 
+> ) on sun, 11 aug 2002, mike burger wrote:
+> ) 
+> ) > i did...unfortun, now i get thi:
+> ) > 
+> ) > di at /usr/bin/razor-check line 32,  line 1.
+> ) > 
+> ) > did i need to remov and reinstal, or someth.  i just did a make 
+> ) > instal over the exist instal.
+> ) > 
+> ) > on sun, 11 aug 2002, vipul ved prakash wrote:
+> ) > 
+> ) > > on sun, aug 11, 2002 at 07:39:41am -0500, mike burger wrote:
+> ) > > > 
+> ) > > > ani idea what might have chang, here? i'm run razor-agent-2.12, 
+> ) > > > and razor-agent-sdk-2.0.3.
+> ) > > 
+> ) > > mike, 
+> ) > > 
+> ) > > pleas upgrad to 2.14 as mani bug were fix between the two releas, and 
+> ) > > see if your problem persist.
+> ) > > 
+> ) > > cheer,
+> ) > > vipul.
+> ) > > 
+> ) > > 
+> ) > 
+> ) > 
+> ) > 
+> ) > -------------------------------------------------------
+> ) > thi sf.net email is sponsor by:thinkgeek
+> ) > welcom to geek heaven.
+> ) > http://thinkgeek.com/sf
+> ) > _______________________________________________
+> ) > razor-user mail list
+> ) > razor-user@list.sourceforg.net
+> ) > http://list.sourceforg.net/list/listinfo/razor-user
+> ) > 
+> ) 
+> ) 
+> ) 
+> ) -------------------------------------------------------
+> ) thi sf.net email is sponsor by:thinkgeek
+> ) welcom to geek heaven.
+> ) http://thinkgeek.com/sf
+> ) _______________________________________________
+> ) razor-user mail list
+> ) razor-user@list.sourceforg.net
+> ) http://list.sourceforg.net/list/listinfo/razor-user
+> 
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: dice - the lead onlin job board
+for high-tech profession. search and appli for tech job todai!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

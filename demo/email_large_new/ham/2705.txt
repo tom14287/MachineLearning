@@ -1,0 +1,29 @@
+re: is firefox/iceweasel leak?on fri, 07 mai 2010 19:58:26 +0200 merciadri luca wrote:
+> i notic on mani comput with debian, whatev the kernel
+> (2.6.xx, xx >= 26), that, onc ``too much'' tab have been open,
+> firefox/iceweasel becom sluggish, slower and slower, and often
+> stall after some time. i also notic that, when becom more and
+> more sluggish, it take more and more ram, even when all the page
+> ar complet load. why? am i the onli person who's experienc
+> thi? is there an object explan to thi?
+
+i'd had similar problem with iceweasel on lenni when my browser cach
+limit wa set to a larg valu.  but thing ar okai after bring it
+down (to 20mb).  you might want to try that.
+
+larg cach slow iceweasel down becaus it us these larg databas
+of store histori to suggest address in each tab's address bar.  i
+also had a zotero databas, which us to worsen thing.
+
+girish.
+
+-- 
+girish kulkarni - allahabad, india - http://athen.org.in/girish
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100508180204.6d9ce52d@marvin.dhcp.hri
+
+

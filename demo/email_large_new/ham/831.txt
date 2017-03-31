@@ -1,0 +1,67 @@
+re: xorg synapt driver no longer work with udev?on wed, apr 14, 2010 at 19:38:23 -0500, franci southern wrote:
+> on 14 april 2010 16:51, florian kulzer wrote:
+> > on wed, apr 14, 2010 at 22:06:41 +0200, sjoerd hardeman wrote:
+> >> hi list,
+> >>
+> >> after a larg set of updat todai on test, xorg no longer pick up
+> >> my udev rule file. a few month ago hal stop work, as a chang =
+to
+> >> udev wa requir (see also the list histori for sever thread on th=
+at
+> >> topic).
+
+[...]
+
+> i am in exactli the same situat.
+
+[...]
+
+> > 1) doe hal know that there is a touchpad?
+> >
+> > =a0 lshal -u $(hal-find-by-capabl --capabl input.touchpad)
+> >
+> > 2) the output of 1) should tell you the associ linux.devic_file; in
+> > =a0 my case thi is /dev/input/event7. the next step is to find the
+> > =a0 devpath:
+> >
+> > =a0 udevadm info --queri=3dpath --name=3d/dev/input/event7
+> >
+> > 3) i get "/devic/platform/i8042/serio4/input/input7/event7" from 2).
+> > =a0 now on can test what udev doe when the devic is ad; mayb that
+> > =a0 command will give you a clue, or you can make the output avail =
+so
+> > =a0 that we can compar:
+> >
+> > =a0 udevadm test /devic/platform/i8042/serio4/input/input7/event7
+> >
+>=20
+> i follow your advic, here's the output of that command:
+> http://debian.pastebin.com/bft7phbw
+> it's quit long, and i have to sai that i have veri littl
+> understand of anyth it sai...
+
+it look ok to me; your custom rule file is read by udev (line 24) and
+the correspond variabl ar set (line 110-116).
+
+> i do know that /etc/udev/rule.d/66-xorg-synapt.rule is the file
+> that i creat when hal stop work, and it wa work up until
+> two dai ago (more or less).
+
+i now tri to activ the extra option in the fdi file that come
+with xserver-xorg-input-synapt and that gave me right-edg-scroll
+and the other stuff. thu it seem that the fdi direct ar work
+right now on my sid system. (as i wrote earlier, i have not us these
+featur in a long while, therefor i do not know if the fdi file
+work all the time or if thi function wa onli recent
+restor.)
+
+i suggest that you try the same approach and then we can compar our
+result. in other word:
+
+1) shut down x and remov your custom udev rule for the time be,
+   then restart udev. (invok-rc.d udev restart)
+
+2) uncom the extra rule in
+   /usr/share/hal/fdi/polici/20thirdparti/11-x11-synapt.fdi. you have
+   to close the comment in the "" to
+   the end of thi line; also insert a new line with "

@@ -1,0 +1,34 @@
+re: passwordless ssh root login stop work after test
+ dist-upgradehello russel,
+
+i am suspect an issu on the server side.
+can you provid a verbos log of the server side,
+
+regard,
+
+franklin
+
+on tue, 2010-04-06 at 20:00 -0700, russel l. carter wrote:
+> 
+> on my main system i have two user account, 'rcarter' and 'sardin'.  i
+> remov the .ssh directori from 'rcarter', 'sardin', and 'root'.  i
+> creat a new rsa kei for rcarter (creat ~rcarter/.ssh) and then
+> ssh-copi-id -i the new kei to sardin@localhost and root@localhost,
+> which creat a new .ssh directori with author_kei for each.
+> then i ssh-add the new kei to the agent as rcarter.
+> 
+> 1.  $ ssh sardin@localhost log in w/o password
+> 2.  $ ssh root@localhost ask for password
+> 
+> thi is reproduc on two 'test' system that have work
+> flawlessli for at least two year each, but were both dist-upgrad
+> yesterdai, and thei now exhibit thi same behavior.
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1270897313.3786.878.camel@solid.pari.klab.be
+
+

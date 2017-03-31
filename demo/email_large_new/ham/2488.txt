@@ -1,0 +1,40 @@
+re: [ilug] hard- vs. soft-link [wa: how to copi some file ]on fri, jul 19, 2002 at 10:00:02pm +0100, matthew french wrote:
+> now here is a thought: a unix version of the "delet item" folder.
+
+am i the onli on who think thi is like "fridai night 80's" for ilug?
+and here's an answer from 1989.  for those percept folk in the
+audienc you'll note that it make no refer to a window icon.
+
+http://group.googl.com/group?q=unix+undelet&hl;=en&lr;=&ie;=utf-8&as;_drrb=b&as;_mind=12&as;_minm=5&as;_mini=1981&as;_maxd=19&as;_maxm=7&as;_maxi=1989&selm;=10113%40bloom-beacon.mit.edu&rnum;=10
+
+and here's on from 1984:
+
+http://group.googl.com/group?q=unix+undelet&start;=10&hl;=en&lr;=&ie;=utf-8&as;_drrb=b&as;_mind=12&as;_minm=5&as;_mini=1981&as;_maxd=19&as;_maxm=7&as;_maxi=1989&selm;=736%40sri-arpa.uucp&rnum;=14
+
+on a more seriou note....  would unrm be nice?  yeah.  but peopl have
+talk about unrm for nearli ***20*** year - and that's just what i
+bother to look up.  think about it.  in that time bsd ha been freed
+from at&t; and then fork in four differ direct, gcc, linux,
+mozilla, gnome and kde have been written.  as ha almost everi bit
+of the gnu project - includ (sh|file)-util.  and think about it,
+have the gnu (sh|file)-util develop ever met an option thei didn't
+implement if thei could?  even /bin/true and /bin/fals take argument.
+
+so yeah, unrm would be nice, but obvious it's not a simpl problem.
+million of line of code, hundr of project, no unrm.  heck, the
+hurd will probabl releas 1.0 befor unrm show up.
+
+kevin, spin the oldi all night long...
+
+-- 
+kevin@suber.net     that a believ is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspac place: home       than a sober on. the happi of credul is a
+http://ie.suber.net/~kevin   cheap & danger qualiti -- g.b. shaw
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

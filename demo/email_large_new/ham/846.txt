@@ -1,0 +1,25 @@
+re: place icon on bottom bar.john culleton wrote:
+> i have the debian variant knoppix instal on my laptop. now i want to
+> move some icon to the bottom bar and have them stai there between
+> session. i know how to do thi with variou version of slackwar us
+> kde 3.5 and xfce but i am a newcom to the world of debian.
+> 
+> anyon have ani hint?
+
+there is noth relat to debian, onli to the desktop in us. 
+the latest knoppix (6.0) us lxde for the desktop. if thi is your version, 
+aqd your desktop, have a look at the lxde document on 
+http://www.lxde.org/
+you could also ask for help on the lxde forum (same url as abov).
+
+xavier
+
+
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hroq30$10q$1@dough.gmane.org
+
+

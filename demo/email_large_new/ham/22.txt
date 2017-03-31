@@ -1,0 +1,43 @@
+re: kde 3.5 ...-----begin pgp sign messag-----
+hash: sha1
+
+on thursdai 06 mai 2010, sune vuorela wa heard to sai:
+> on 2010-05-06, curt howland  wrote:
+> > on thursdai 06 mai 2010, ana guerrero wa heard to sai:
+> >> no, there is not sane wai and there is nobodi interest on it.
+> >
+> > while the former is certainli true, the latter is demonstr
+> > fals.
+>
+> where is your code?
+>
+> i will repeat "no on is interest in do it".
+
+that is not what you said the first time.
+
+> /sune
+
+curt-
+
+- -- 
+those who torment us for our own good will torment us without end,
+for thei do so with the approv of their conscienc.
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+
+iqevawub+k8fy9y35yitigbaqkvlaf/buxx3ch3wlz9x1ess6a4hjzpvw6xjh4o
+2t2z52b/y0yskuuyjwgqrzqb3s7xohz9cqb0zo2fxl6nw1j9a9xngund0h8c5qzg
+2x+h5zkzma3gureffgcec57iev5v2xnnyfbuxgakior/kzz+04wqkqmw1gfka8ob
+i/bikwgd4hxsbbmyirgbghg4ijpwsjrp60pevywktob+qncsufqgyki5cjt1a95x
+6wotn7rvjdlxmalkc6dt5p9sf3azmcw8qilin4bbkzjzfbvi8dsxtg6gsr4+vyd3
+6ookxih7dsyh4fguk5am763nz5t0zy1yzez/e9opjcxn/cb7rfig==
+=luxa
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005060854.47214.howland@priss.com
+
+

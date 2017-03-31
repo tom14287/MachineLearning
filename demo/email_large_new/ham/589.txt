@@ -1,0 +1,24 @@
+problem with an rpm...hiya, i just myself an rpm, and when i did -uvh to upgrad the earlier 
+version i had instal (also from my rpm) i got:
+
+[root@spawn i386]# rpm -uvh mulberri-2.2-b1.i386.rpm
+prepar...                ########################################### 
+[100%]
+   1:mulberri               ########################################### 
+[100%]
+error: db3 error(-30998) from db->close: db_incomplet: cach flush wa 
+unabl to complet
+
+what the db_incomplet mean?
+
+it all seem to have instal ok thou...
+
+                                    -- \m/ --
+  "...if i seem super human i have been misunderstood." (c) dream theater
+         mark@talio.com - icq: 1934853 jid: talio@myjabb.net
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

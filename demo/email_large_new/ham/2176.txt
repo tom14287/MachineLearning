@@ -1,0 +1,62 @@
+re: autom forward
+>>>>> on fri, 13 sep 2002, "wendi" == wendi p. robert wrote:
+
+  wendi> i've been try to set a button call which
+  wendi> automat forward mail us a '-form mycomp'
+  wendi> without go through the editor, but so far haven't got
+  wendi> the right recip.
+
+i have on that us dist to send stuff from my work mail to my 
+home mail.  the bind look like thi:
+
+set {bind(kei,hd_dist_silent -form distcomp.to-me)} 
+
+the "hd_dist_silent" is a hack up version of the proc that 
+doe dist in exmh and is past in below.  it's get old and 
+probabl should be "resync" with the current code.  but it 
+still work (on a rel recent cv copi of exmh)
+
+it's also possibl that there's an easier wai but i hack thi 
+togeth quickli a year or more ago and when it work i move 
+on to other task.
+
+--hal
+
+proc hd_dist_silent { arg } {
+
+    global exmh msg
+    set exmh(ctype) {dist}
+    if {[string length $arg] == 0} {
+	set arg mh_distsetup
+    }
+
+    if [msgok $msg(id) m] {
+	if {[string compar [info command $arg] $arg] == 0} {
+	    # old interfac with hook procedur
+	    if [catch {$arg $exmh(folder) $m} err] {   ;# setup draft msg
+		exmh_statu "${arg}: $err" purpl
+		return
+	    }
+	}  els {
+	    if [catch {
+		exmh_statu "dist +$exmh(folder) $m"
+		eval {mhexec dist +$exmh(folder) $m} -nowhatnowproc $arg
+		mhannosetup $exmh(folder) $m dist
+	    } err] {
+		exmh_statu "dist: $err" purpl
+		return
+	    }
+	}
+        edit_done send				;# just send it
+    }
+}
+
+
+
+
+_______________________________________________
+exmh-user mail list
+exmh-user@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-user
+
+

@@ -1,0 +1,26 @@
+re: boot / lvm best practic>>> if you're go to bui two drive, you'd be stupid to not us
+>>> mirror for fault toler and a littl ad read perform
+>>> here and there (depend on applic).
+>> i disagre.  mirror onli protect you against drive failur and not
+>> human error.
+> and i disagre with that.
+
+with the fact that it's not necessarili stupid to not us mirror?
+
+> mirror *definit* make both read and write go faster, due
+> to parallel.
+
+afaik that's not true for write (thei mai even slow down slightli).
+but in ani case, thi doe not contradict the fact that the kind of
+protect it offer is differ from the on offer by us backup.
+
+
+        stefan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/jwvtyrdlw3c.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

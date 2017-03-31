@@ -1,0 +1,45 @@
+re: how to manag multipl internet connect?from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+andrei popescu wrote:
+> on sat,15.mai.10, 16:47:07, merciadri luca wrote:
+>  =20
+>
+> bond is not suitabl for you becaus it work too low-level (it is=20
+> layer 2), unless you have two link from the same provid, us some =
+
+> technolog that can be bond (like adsl).
+>
+> afaiu what you need is bgp[1], but i can't give you ani tip as thi is=
+=20
+> wai out of my leagu ;)
+>
+> probabl a good start (whatev technolog you end up us) is a=20
+> gnu/linux (prefer debian) machin connect to both internet link =
+
+> and your intern network sinc consum gatewai don't even have more =
+
+> than on wan port[2].
+>
+> [1] http://en.wikipedia.org/wiki/border_gatewai_protocol
+> [2] some of them could be us for thi with custom firmwar, but thi =
+
+> is off-topic
+>
+> regard,
+> andrei
+> p.s. there is no need to cc me as i am subscrib to the list ;)
+>  =20
+thank for both messag. i'll studi thi.
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+the princip task of civil, it actual raison d'=eatr, is to
+defend us against natur. (sigmund freud)
+

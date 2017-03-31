@@ -1,0 +1,50 @@
+audibl bell in metacityhello list,
+
+i like my audibl bell veri much. i realli realli like it =e2=80=93
+unfortun, metac (from current test) block it in the
+follow wai:
+
+* "beep" work fine
+* "xkbbell -forc" work, but it doesn't w/o the "-forc"
+* gnome-termin and all the other applic can onli bell
+  "visibl", i. e. i get a flash when enabl the visibl bell in
+  metac's gconf-prefer but no audibl bell if i disabl it
+  (and leav "audibl bell" enabl).
+* the modul pcspkr is compil into the kernel and work fine, as
+  proven abov.
+* the volum of the "bell"-output is at 50% in alsamix, and as
+  proven abov, ok thi wai.
+
+i assum thi is the same bug as describ in
+http://bug.launchpad.net/ubuntu/+sourc/metac/+bug/486154/
+
+and comment 50 seem to provid a solut i didn't test yet =e2=80=93 my
+question is, wether or not there is a debian-wai to enabl the bell
+in metac or if i have to switch window manag as piotr engelk
+did here: http://bug.debian.org/cgi-bin/bugreport.cgi?bug=3d551590
+
+the hint he gave in thi bug report unfortun don't work for me
+=e2=80=93 i enabl the correspond kei, but still can't hear a bell,
+probabl becaus i don't us esd (is there ani reason why i should
+instal thi? alsa work just fine for me=e2=80=a6)
+
+best regard,
+
+claudiu
+
+ii  metac 	1:2.28.0-3	lightweight gtk+ window manag
+ii  gnome-core	1:2.28+7	the gnome desktop environ -- ess=e2=80=a6
+
+--=20
+home on the rang wa origin written in beef-flat.
+
+http://chubig.net/
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hqvl2k$soo$1@dough.gmane.org
+
+

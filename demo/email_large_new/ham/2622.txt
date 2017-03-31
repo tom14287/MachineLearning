@@ -1,0 +1,15 @@
+jumpi video after kde 4.4 upgrad in squeezei upgrad my squeez box to kde 4.4 about a week ago, and have been 
+contend with jumpi, hesit video perform ever sinc. i'm not sure 
+which packag to file thi bug against; if it help i'm run an nvidia 
+7900gs us the driver in the nvidia-glx packag. it ran fine with kde 4.3. 
+thank!
+
+gene
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005241916.06367.gkodadek@csmine.org
+
+

@@ -1,0 +1,54 @@
+re: [asterisk-user] asterisk in debian/lenni without
+	junghann.net support?on sun, apr 11, 2010 at 07:45:34pm +0200, darshaka pathirana wrote:
+> hi!
+> 
+> asterisk in debian/lenni claim to be bristuf, not? at least the
+> the debian patch track system show the bristuff-patch:
+> 
+> [1] http://bit.ly/brrhe7
+> 
+> we have a quadbri-card and recent need support from junghann.net
+> but thei refus tell us there is no bristuff instal becaus of
+> the show version output:
+> 
+> *cli> show version
+> asterisk 1.4.21.2~dfsg-3+lenni1 built by pbuilder @ grnetbox on a  
+> x86_64 run linux on 2009-12-14 19:04:56 utc
+> 
+> why wa the "bristuf" line remov? debian/etch did have that
+> postfix.
+
+simpl answer:
+
+http://patch-tracker.debian.org/packag/asterisk/1:1.4.21.2~dfsg-3+lenni1
+
+so thei ar mostli bristuff. howev thei includ other fix (includ
+some fix that were never accept by junghann due to bad
+commun).
+
+there ar some other chang apart from the bristuff fix and we can't
+simpli call it "bristuf".
+
+> 
+> after tell them debian/lenni is bristuf thei said thi
+> "instal method" is not support. huh?!
+
+i cannot comment on that, for obviou reason.
+
+> p.s.: x-post to debian-user and asterisk-user list.
+
+(answer both, as i'm on both, though i prefer asterisk-user)
+
+-- 
+               tzafrir cohen
+icq#16849755              jabber:tzafrir.cohen@xorcom.com
++972-50-7952406           mailto:tzafrir.cohen@xorcom.com
+http://www.xorcom.com  iax:guest@local.xorcom.com/tzafrir
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100411192833.gk31757@xorcom.com
+
+

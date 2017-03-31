@@ -1,0 +1,157 @@
+re: snow leopard, java 6 and netbeansha anyon tri it with the 10m3050 or 9m3150 develop preview? i'm =
+somewhat concern that thi is a demonstr regress between java 5 =
+and java 6 - howev there ar sever other factor that can impact =
+memori us:
+
+- 32 vs. 64-bit (biggest culprit)
+- 1.5/client/32-bit tune garbag collect option run on =
+1.6/server/64-bit
+- client vs. server hotspot itself (more aggress compil and =
+storag of compil code)
+
+anecdot, i've talk to sever peopl who have larg long run =
+64-bit process on snow leopard with 2gb-of-ram machin who were =
+have a miser time. while revert to 32-bit mai be a quick fix =
+for some, other who tune the gc paramet or turn on =
+-xx:+usecompressedoop (which compress java refer to 32-bit =
+valu in the heap) found that thei could reclaim or even exce their =
+origin 32-bit perform (sinc thei were still us the server =
+jvm).
+
+sinc someon mention that netbean 6.9 beta wa work well, i'd =
+suggest take a look at it's jvm option and see if there wasn't some =
+tweak done to optim it for a 64-bit by default world.
+
+best of luck,
+mike swingler
+java runtim engin
+appl inc.
+
+on apr 23, 2010, at 7:06 am, dave minnigerod wrote:
+
+> i too have been us netbean 6.8 on 10.5 and 10.6 with the default =
+jvm do java 6 work... it's just stabl enough for daili us.  i do =
+restart nb everi few hr when the memori us get out of hand =
+(appar some object leak with the appl jvm/nb combo).... can't =
+switch it back to java 5, so kinda stuck with it. so i'm probabl just =
+go to switch to intillij, i've found it's perform to be a lot =
+better than nb overal.   file tree nav is painless for exampl.
+>=20
+> i'm kinda sad about it, but got work to get done...
+>=20
+> on apr 23, 2010, at 8:52 am, eisenstein@csmine.org wrote:
+>=20
+>> hmm. i'm us the late 2006 macbook pro (2.33 ghz upgrad to 4 gb =
+[3.5 gb] ram). i'm us the latest java through softwar updat, and my =
+app is swing-base (us matiss) and us the swing applic =
+framework with an embed derbi databas, though i will note that i =
+have issu even befor ani file ar open. just expand the tree to =
+get to a file for open tend to take about 10 second, and that's =
+assum i didn't switch to anoth window in the meantim.
+>>=20
+>> i just did a full wipe/reinstal of netbean to see if my set =
+were a problem, but i had no chang until i load in java 5 and saw a =
+signific differ. i'll be try out the suggest peopl made =
+about us a differ target platform than the on netbean is run =
+on, but i'm start to wonder if there is an issu with my system.
+>>=20
+>> on apr 23, 2010 9:22am, david loeffler  wrote:
+>>> i us netbean 6.9 beta (i wa us 6.8 but want the metadata =
+support for entiti bean) and i have no problem.  i have a late 2007 =
+mbp 17" and am us java version "1.6.0_17" .  i am develop a java 6 =
+run on glassfish us postgr as the databas.  thi is a port of =
+he java ee 5 app i architect in 2005 and deploi in 2006 on jboss =
+us eclips / jboss dev studio as the id.  it is a lot more than a =
+port sinc there a number of enhanc.
+>>>=20
+>>>=20
+>>>=20
+>>> i have made no chang to the java or prefer for netbean.  of =
+cours the java for my app is 1.6 and netbean run on 1.6 as well.
+>>>=20
+>>>=20
+>>>=20
+>>> i do see an increas in activ when there is an open dialog box so =
+i keep an ey out for them.  i watch cpu activ sinc i had an issu =
+with kernel panic a month ago.  turn out to be a combin of a =
+fail disk drive and a memori stick. replac the 160g drive with 500g =
+and the 2g stick with 4g (to make total of 6g).   appl store gui could =
+not see the problem but through some handi tool and take to extern =
+servic personnel we were abl to zero in on the problem and fix it.
+>>>=20
+>>>=20
+>>>=20
+>>> side note: i have shutdown plugin in safari mainli to keep flash =
+from run.  some site caus flash plugin to push usag up to 20% or =
+more.  i have been us istat menu (i recommend) and also launch =
+activ monitor at login just to keep an ey on thing.
+>>>=20
+>>>=20
+>>>=20
+>>> on apr 23, 2010, at 1:06 am, jon eisenstein wrote:
+>>>=20
+>>>=20
+>>>=20
+>>>> i imagin thi topic come up everi so often but i haven't been =
+abl to find it in the archiv. =46rom what i understand, there's some =
+issu with snow leopard and java 6 that make netbean 6.8 near =
+unus. (i've had to do my develop on a lesser-power pc becaus =
+there, thing will actual open without peg the cpu at 100% and =
+becom unrespons.) follow a tip, i us pacifist to reinstal =
+leopard's java 5 back onto the system, set it as the default, and tri =
+to launch netbean. lo and behold, it wa fast, respons and show =
+none of the problem i'd been us to. unfortun, it made it so that =
+i couldn't work on my java 6-base app!
+>>>=20
+>>>>=20
+>>>=20
+>>>> so, what is the actual situat here? is thi a known issu with =
+the appl jvm that's (hopefulli) go to get fix? is thi a bug in =
+netbean? am i the onli on see issu thi bad, and so it could be a =
+problem with my setup? is there a workaround? ani help would be vastli =
+appreci -- the window box is have disk issu, and i'd love to =
+move my primari develop to the macbook pro as soon as possibl. and =
+if push come to shove, i mai have to just rearchitect the project into =
+java 5 (which would not be a simpl task.)
+>>>=20
+>>>> _______________________________________________
+>>>=20
+>>>> do not post admin request to the list. thei will be ignor.
+>>>=20
+>>>> java-dev mail list      (java-dev@list.appl.com)
+>>>=20
+>>>> help/unsubscrib/updat your subscript:
+>>>=20
+>>>> =
+http://list.appl.com/mailman/option/java-dev/ddl.newslett%40mac.com
+>>>=20
+>>>>=20
+>>>=20
+>>>> thi email sent to ddl.newslett@mac.com
+>>>=20
+>>>=20
+>>>=20
+>> _______________________________________________
+>> do not post admin request to the list. thei will be ignor.
+>> java-dev mail list      (java-dev@list.appl.com)
+>> help/unsubscrib/updat your subscript:
+>> =
+http://list.appl.com/mailman/option/java-dev/dave%40minnigerod.org
+>>=20
+>> thi email sent to dave@minnigerod.org
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list      (java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/java-dev/swingler%40appl.com
+>=20
+> thi email sent to swingler@appl.com
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

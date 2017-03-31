@@ -1,0 +1,104 @@
+re: xquartz 2.5.0_rc2i too have been have issu with gl stuff (work just ad some 3d =
+stuff recent to our softwar). i just figur it wa unsupport.=20
+
+i'm run (under vmware) a fedora 12 x86_64 vm (no vmware tool =
+instal)... i us ssh -x from osx to the vm.. i then tri the line =
+you suggest:=20
+
+[john@subval ~]$ libgl_alwai_indirect=3d1 glxgear
+x error of fail request:  badalloc (insuffici resourc for =
+oper)
+  major opcod of fail request:  147 (glx)
+  minor opcod of fail request:  3 (x_glxcreatecontext)
+  serial number of fail request:  22
+  current serial number in output stream:  24
+
+i see a window creat then disappear, and that error in my ssh session.
+
+(i run other x stuff through that ssh session just fine.)
+
+--john
+
+
+on apr 7, 2010, at 10:49 pm, jeremi huddleston wrote:
+
+> there is a bug in your remot mesa.
+> see http://bug.freedesktop.org/show_bug.cgi?id=3d24226
+>=20
+>=20
+> you should be abl to do it via:
+> libgl_alwai_indirect=3d1 glxgear
+>=20
+> that work for me.
+>=20
+>=20
+> on apr 7, 2010, at 19:17, jame gun wrote:
+>=20
+>> dear jeremi,
+>>                 thank for all your great work on xquartz. i'm =
+run the latest 2.5.0.
+>> i wonder if you can send to the list some clarif (or a url) =
+about remot opengl.
+>>=20
+>> i find at present i can't get a glxgear from a remot linux box to =
+work
+>> with ani combin of=20
+>> libgl_alwai_softwar
+>> libgl_alwai_indirect
+>> libgl_alwai_hardwar
+>>=20
+>> at present.=20
+>>=20
+>> with libgl_alwai_indirect unset
+>> glxinfo give me
+>> name of displai: localhost:10.0
+>> error: couldn't find rgb glx visual or fbconfig
+>>=20
+>> with libgl_alwai_indirect set, glxinfo seem ok:
+>> ...
+>> name of displai: localhost:10.0
+>> displai: localhost:10  screen: 0
+>> direct render: no (libgl_alwai_indirect set)
+>> server glx vendor string: sgi...
+>> ....
+>>=20
+>>=20
+>> but glxgear yield
+>> x error of fail request:  badalloc (insuffici resourc for =
+oper)
+>>  major opcod of fail request:  147 (glx)
+>>  minor opcod of fail request:  3 (x_glxcreatecontext)
+>>  serial number of fail request:  20
+>>  current serial number in output stream:  22
+>>=20
+>> in previou version, i got remot opengl to work ok via =
+libgl_alwai_indirect.
+>> i'm doubtless confus. ani clarif welcom.
+>>=20
+>> veri best wish,=20
+>>        jame.
+>>=20
+>>  _______________________________________________
+>> do not post admin request to the list. thei will be ignor.
+>> x11-user mail list      (x11-user@list.appl.com)
+>> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/jeremyhu%40freedesktop.or=
+g
+>>=20
+>> thi email sent to jeremyhu@freedesktop.org
+>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> x11-user mail list      (x11-user@list.appl.com)
+> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/garionphx%40csmine.org
+>=20
+> thi email sent to garionphx@csmine.org
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,78 @@
+re: @synchron scope strang
+on apr 16, 2010, at 3:53 pm, hamish allan wrote:
+
+> hi,
+>=20
+> i'm rather puzzl by some behaviour i'm see, as explain by the
+> comment in the follow short categori:
+>=20
+> @implement nspersistentstor (otaddit)
+> - (nsnumber *)autoincrementingnumberforkei:(nsstring *)kei
+> {
+>    nsnumber *number;
+>    @synchron(self)
+>    {
+>        nsmutabledictionari *metadata =3d [[self metadata] =
+mutablecopi];
+>=20
+>        // need to copi and autoreleas the number becaus the origin
+>        // doe not remain valid outsid of the @synchron block =
+(why?!)
+>        number =3d [[[metadata objectforkei:kei] copi] autoreleas];
+>=20
+>        if (!number)
+>            number =3d [nsnumber numberwithunsignedlonglong:1];
+>        [metadata setvalu:[nsnumber
+> numberwithunsignedlonglong:([number unsignedlonglongvalu] + 1)]
+> forkei:kei];
+>        [self setmetadata:metadata];
+>    }
+>    return number;
+> }
+> @end
+>=20
+> the behaviour i'm see is as though the nsnumber return by
+> [metadata objectforkei:kei] ha been ad to a special
+> mini-autoreleas pool scope by the @synchron block, wherea the
+> autoreleas copi is ad to the normal autoreleas pool. at least, i
+> assum the nsnumber is be dealloc, but symbol breakpoint on
+> -[nsnumber releas] and -[nsnumber dealloc] remain in a pend state
+> so i haven't been abl confirm that.
+>=20
+> can anyon tell me what's go on here?
+
+noth relat to @synchron. your problem is that you ar acquir =
+an unretain pointer to an object, then do someth that releas =
+the object behind your back.
+
+    number =3d [metadata objectforkei:kei];
+
+`number` now point to some object. importantli, -objectforkei: just =
+hand back the pointer, without do the [[result retain] autoreleas] =
+danc. it's possibl that the onli thing that retain `number` is the =
+`metadata` dictionari.
+
+    [metadata setvalu:someth forkei:kei];
+
+now `metadata` ha releas `number`. it mai be dead.
+
+you need to be care with -objectforkei: and -objectatindex: while you =
+ar mutat the contain. those method avoid autoreleas for =
+perform, but (as you found) it's also less safe.
+
+your solut of copi+autoreleas is correct. retain+autoreleas might =
+be better.=20
+
+
+--=20
+greg parker     gparker@appl.com     runtim wrangler
+
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

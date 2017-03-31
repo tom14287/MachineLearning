@@ -1,0 +1,22 @@
+re: what to choos for core i5 64 bit?from nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+
+on tue, mai 11, 2010 at 2:02 pm, kelli clower wrote:
+
+> on tue, mai 11, 2010 at 06:56, jordan metzmeier 
+> wrote:
+> >
+> > adob's 64bit flash player doe not function on all the site
+> > that the 32bit plugin will.
+>
+> [citat need]
+>
+>
+> cheer,
+> kelli clower
+>
+>
+> http://bug.adob.com/jira/brows/fp-4067
+
+-- 
+jordan metzmeier

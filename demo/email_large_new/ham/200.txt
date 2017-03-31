@@ -1,0 +1,44 @@
+re: gforc 9400on sat, 10 apr 2010 06:50:05 +0200, steef wrote:
+
+> camalón wrote:
+
+>> just anoth thing to try.
+>>
+>> issu "lspci | grep vga" and put here the output.
+
+(...)
+
+> here it come:
+> 
+> steef@debianlennynw:~$ lspci | grep vga 00:02.0 vga compat
+> control: intel corpor 4 seri chipset integr graphic
+> control (rev 03) 04:00.0 vga compat control: nvidia
+> corpor devic 0641 (rev a1) 
+
+so, do you have the two vga card enabl? i also have an intel embed 
+card but iirc, i disabl it in the bio as soon as i plug the nvidia 
+card (7600 gs).
+
+otoh, it seem that devic id correspond to nvida 9400 gt. so i would 
+test with the nvidia debian driver. if thei do not work, you can alwai 
+come back and activ the intel on.
+
+> i'll look into that wiki (again),
+> 
+> it can take some time befor i answer again: got to take care of my
+> famili now,
+
+take your time. famili is first :-)
+
+saludo,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.10.17.22.47@csmine.org
+
+

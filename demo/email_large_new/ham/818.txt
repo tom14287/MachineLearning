@@ -1,0 +1,22 @@
+script gnome-panelsi have a small bashscript which prepar a dual-monitor setup for my 
+laptop, sinc i'm move in and out of the offic and meet, i tend 
+to attach and disconnect the monitor a few time a dai.
+
+that work fine with xrandr, but the issu is that i would like some 
+gnome panel to move, and add on to the extra monitor. i have googl 
+around but cant seemt o find that it would be possibl, but it must be 
+in some wai, us usual. so, ani hint?
+
+basic, add on panel to on monitor, and add a window list to that 
+panel.
+
+best regard,
+   eric
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf38357.3090600@persson.tm
+
+

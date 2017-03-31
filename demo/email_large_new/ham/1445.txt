@@ -1,0 +1,38 @@
+re: debian and advanc layer3 9924tandrea weber put forth on 4/6/2010 4:12 pm:
+> stan hoeppner wrote:
+>> pleas forgiv me if my choic of word offend you.  that wasn't my
+>> intent at all.  i wa speak figur, not liter.
+> 
+> no problem, thank for your feedback. your point is clear and i can veri
+> well understand your disagr with my recommend.
+> 
+>> my point wa
+>> that swap out the product switch, which probabl ha other user
+>> plug in, ...
+> 
+> i assum differ here (new switch in the hous, first test), but
+> the op isn't precis about that imo.
+> 
+> i'll try to be as littl ambigu as possibl the next time, sorri.
+
+no sweat.  we're all on the same team.  i wish alejandro would send an
+updat.  i'm kinda curiou as to what wa/is actual caus the problem.
+>from the veri spars info he provid, the caus could realli be nearli
+anyth.
+
+come to think of it, ha he even repli to ani of our post?  it doesn't
+look like he ha.  seem that commun with the cuban on debian-user
+is just plain spotti, whatev the reason.
+
+if we don't hear back, i hope he got it work.
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbc66e5.1000003@hardwarefreak.com
+
+

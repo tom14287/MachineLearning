@@ -1,0 +1,55 @@
+re: alsa (almost) made easi (gamix rock)thi mixer is specif to alsa's special stuff, i us it in addit to the other
+mixer if i need someth special.
+
+i built it a while ago, mai need a --rebuild.
+
+http://www.dudex.net/rpm/gamix-1.99.p13-aap1.i686.rpm
+http://www.dudex.net/rpm/gamix-1.99.p13-aap1.src.rpm
+http://www.dudex.net/rpm/gamix.spec
+
+matthia saou (matthia@egwn.net) wrote*:
+>
+>onc upon a time, vill wrote :
+>
+>> ah!  the mixer stuff wa what made me look for an init script in the
+>> first place, i didn't bother to check whether the exist stuff would
+>> have work with that.  will try that out, you can assum silenc ==
+>> success :)
+>
+>well, from what i've tri, both the main and the pcm (at least) volum
+>level can be control either by "alsamix" or the good old "aumix".
+>
+>> > >from what i can tell after onli 2 dai us it : alsa rock,
+>> > >especi
+>> > sinc have a full oss compat result that it break noth at
+>> > all! :-)
+>>
+>> agre.  though with onli 2 hour experi...
+>
+>i guess/hope some other peopl from the list will try it out ;-)
+>
+>both problem you report (libasound.so and wrong xine depend) ar now
+>fix in the current packag.
+>
+>oh, it's mayb also worth point out : i've implement at last sort
+>by both last chang date and alphabet for my "build list" in the php
+>code : http://freshrpm.net/build/
+>
+>and ye, i accept patch/comment/suggest about all those spec file!
+>
+>matthia
+>
+>
+>_______________________________________________
+>rpm-list mail list 
+>
+
+--
+that's "angl" as in geometri.
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

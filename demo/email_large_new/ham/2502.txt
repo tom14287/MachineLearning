@@ -1,0 +1,39 @@
+re: pdf is block for print, etc. ok for acroread (it behav
+ as expect), but kpdf allow me to print it, even if it is protect!
+ why?on wed, apr 21 at 15:04, stefan monnier pen:
+> 
+> now think about the other rout: the on base on the law instead of
+> technolog: the legal document can simpli describ what she's
+> allow to do, and that will automat cover all imagin wai
+> to circumv ani technolog mean you could imagin.  and if she
+> doe break the contract, you can sue her.  don't know about you, but
+> to me, it sound a lot more us.
+
+except that most technic peopl would probabl rather hammer a nail
+through their forehead than go through the pain of su someon and
+deal with the legal system, the paper work, the time involv ...
+
+so look for a technic solut, even on that requir an
+enorm amount of develop time, make sens.  mayb the
+develop time is actual a bonu, if you're interest in that
+sort of tinker alreadi.
+
+all of that be said - thi entir thread is realli a question of
+secur, and secur is a process and an approach, not an end result.
+there is no such thing as a 100% secur system that is also us, in
+the same wai that there is no such thing as a 100% secur pdf that is
+also us.  so the real goal is to make the document "secur enough"
+for on's purpos, while also make the document "usabl enough" for
+those purpos.  i think there have been a lot of good idea on thi
+thread for manag that trade-off.
+
+-- 
+moniqu
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100421193947.go30298@mail.bounceswoosh.org
+
+

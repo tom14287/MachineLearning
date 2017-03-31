@@ -1,0 +1,42 @@
+re: vm softwar for person us?on 4/26/2010 5:24 pm, clive mcbarton wrote:
+> -----begin pgp sign messag-----
+> hash: sha1
+>
+> mark allum wrote:
+>> some peopl ar scare of share folder as possibl attack vector, thu secur risk.
+>
+> what exactli ar those risk?
+
+
+(for me, person, it's theoret, as i onli am repeat thing i 
+have pick up.  it mai be out of date, now, but if i had to guess, the 
+level of threat ha onli grown.)
+
+it depend on the mechan us to share the folder.  if if is through 
+a network interfac, then the risk ar similar to the risk on ani 
+trust intranet.
+
+if the folder ar provid by the vm intern, then the risk is what 
+you can lose by a success attack on the guest kernel or the host vm. 
+  if the host vm is kernel-base, then the risk is that of a (host) 
+kernel attack.
+
+note: i'm us "risk" as in "what can you lose?"  if you mean attack 
+vector, then those should be evid; again, i am not a secur 
+reseach.  googl joanna rutkowska.  she probabl know as much as 
+anyon about break out of a vm to attack the host.
+
+i'm sure other on thi list know more than i do about it.
+
+maa
+
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd7a9d3.7040301@allum.com
+
+

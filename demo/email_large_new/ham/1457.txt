@@ -1,0 +1,18 @@
+re: amarok's issuesel mart 13 abril 2010 13:34:13 edson marquezani filho=20
+ escribi=f3:
+
+>=20
+> i didn't, yet. but i have alreadi seen some document about it
+> around. see thi[1].
+>=20
+> [1] http://amarok.kde.org/wiki/mysql_howto
+
+did you purg amarok and remov amarok config file in ~/.kde?
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004131401.50187.budinero@csmine.org
+
+

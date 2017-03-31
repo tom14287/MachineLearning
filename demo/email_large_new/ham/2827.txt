@@ -1,0 +1,78 @@
+re: nepomuk want virtuoso sopranoon thu, 20 mai 2010 12:40:01 +0200, schelstraet bart =20
+ wrote:
+
+>> also, is it just me or do other folk here also find that kde seem to =
+be
+>> pull in load of depend ... databas, nepomuk (which want
+>> virtuoso soprano), etc. just to oper? seem like a lot of overhead =
+is
+>> requir to prop up kde4.* these dai.
+>
+> =a0
+>
+> =a0
+>
+> who sai that=a0 you need virtuoso to run kde4?
+
+kde4 when it start...
+
+> if you don't need it, you don't instal it.
+
+nepomukserv is contain in kdebas-runtim. there is a depend on =20
+kdebas-runtim in almost everi kde4 packag.
+
+> it's like instal debian with oracl, and afterward complain that =20
+> debian need oracl... sigh...
+
+except for the depend and stuff, ye. and your post is like stick =
+=20
+your head in the sand and then tell us what you've read.
+
+ji=f8=ed pale=e8ek
+> =a0
+> =a0
+> -----origin messag-----
+> from: ag 
+> sent: thu 20-05-2010 10:30
+> to: debian user ;
+> subject: nepomuk want virtuoso soprano
+>
+> hi all
+>
+> although i am log into gnome de on an up-to-date squeez system, i
+> receiv a messag at login that declar nepomuk requir virtuoso
+> soprano to work. =a0have look nepomuk up via googl, it seem like =
+it
+> is someth from our kde friend, but us apt-cach search i don't
+> see anyth call virtuoso soprano to draw down to satisfi nepomuk.
+>
+> my question is: how doe on satisfi nepomuk and/ or is nepomuk even
+> necessari?
+>
+> also, is it just me or do other folk here also find that kde seem to b=
+e
+> pull in load of depend ... databas, nepomuk (which want
+> virtuoso soprano), etc. just to oper? seem like a lot of overhead i=
+s
+> requir to prop up kde4.* these dai.
+>
+> anywai, ani suggest re: the nepomuk issu?
+>
+> cheer
+>
+> ag
+>
+>
+
+
+
+--=20
+us opera's revolutionari e-mail client: http://www.opera.com/mail/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/op.vcz5enwgu2flwt@debian
+
+

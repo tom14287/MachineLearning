@@ -1,0 +1,33 @@
+re: [ilug] sysadmin / it person wantedon fri, aug 02, 2002 at 01:41:30pm +0100, colm bucklei wrote:
+> wear my other hat todai - we're look for a compet and
+> experienc system administr here, and i'd like anyon who's
+> interest to contact me.
+
+hei, so ar we!
+
+> the job is for a window (nt and 2000) and linux (debinan) system
+[admin]
+
+but we us a real distribut (redhat), so if you were ok up to the
+debian part, drop me a line.  it doe involv window, it will involv
+it a lot.  the linux stuff will be minor, though as time go on that
+might chang.  the main part is corpor window desktop support.
+
+pleas mail me if you're interest?
+
+thank!
+
+kevin
+
+-- 
+kevin@suber.net     that a believ is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspac place: home       than a sober on. the happi of credul is a
+http://ie.suber.net/~kevin   cheap & danger qualiti -- g.b. shaw
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

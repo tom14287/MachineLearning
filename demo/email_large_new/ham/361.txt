@@ -1,0 +1,20 @@
+re: howto setup my own wikipedia siteon tue, apr 20, 2010 at 08:37:08pm +0200, jozsi vadkan wrote:
+> can anyon post a link, howto instal/setup a wikipedia-like site? 
+> 
+> i just want to put my "stiki-note" to my own wikipedia site.
+
+apt-get instal mediawiki
+
+that will instal the requir softwar. you'll want to read the doc to
+figur out if you need to configur anyth extra.
+
+> thank you
+--greg
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100420184421.gw8832@anthropohedron.net
+
+

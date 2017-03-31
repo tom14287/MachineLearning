@@ -1,0 +1,25 @@
+re: linux compat mainboard -- tortuou path-----begin pgp sign messag-----
+hash: sha1
+
+it is amaz how ask what i thought wa a simpl question can lead
+down a varieti of long, tortuou path.  perhap that possibl is on
+of the virtu (or curs?) of the debian system.
+
+ken heard
+
+-----begin pgp signatur-----
+version: gnupg v2.0.9 (gnu/linux)
+comment: us gnupg with mozilla - http://enigmail.mozdev.org
+
+ieyearecaayfakvvltcacgkqlnljzokjmtdz4wcdffpacbdkoodam/jukoznepsr
+ovyan28qusvyf4mh4bv397ucwlqxikyu
+=8hnf
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd596d8.5050002@heard.name
+
+

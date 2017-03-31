@@ -1,0 +1,45 @@
+re: grub savedefault?on sun, mai 23, 2010 at 7:52 pm, celejar  wrote:
+> on sun, 23 mai 2010 15:56:13 -0700
+> "todd a. jacob"  wrote:
+>
+>> when on ha multipl kernel instal, where is on suppos to
+>> configur the option to alwai boot the last-select kernel? i can't
+>> make sens of all the automat over-write that the grub script ar
+>> do on debian, and the /etc/default/grub file doesn't have an exampl
+>> of what the script ar look for.
+>>
+>> i just want to be abl to select a kernel at boot, and have that be the
+>> default until a new kernel is instal or i manual select someth
+>> els.
+>
+> what seem to work for me (and i agre, it's pretti confus,
+> especi when you add 'man grub-set-default' to the mix) is to
+> includ these three line in menu.lst:
+>
+> default save
+> # updatedefaultentri=true
+> # savedefault=true
+>
+> i'm not quit certain which ar necessari, but as i've said, thi seem
+> to give me the behavior that i (and, iiuc, you) want.
+
+i don't think that you need "# updatedefaultentri=true" if you ar
+us "default save". iiuc, i onli ha ani mean in the case of
+"default x" where x is a number.
+
+iiuc, "# savedefault=true" will append "savedefault" to the menu
+entri and, boot from on of those entri turn it into the
+default at the next boot if you choos "default save".
+
+i have not tri "default save" with grub1, but with grub2 it will
+not work (the first time that you set it) if you don't run
+"grub-set-default x" where x is the default entri that you want (the
+count start with 0).
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktikkhcncsbit-yzljgdybydiiev0efxfqxejmfkt@mail.csmine.org
+
+

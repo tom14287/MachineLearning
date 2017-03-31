@@ -1,0 +1,17 @@
+re: [ilug] secur remot file accesson tue, aug 13, 2002 at 12:22:14pm +0100, niall o broin wrote:
+> what ar the best option avail on linux ? sftp ? webdav ? someth
+> els ? linux server - linux and mac os-x client.
+
+can't speak for the other altern, but i've been us scp for
+year with sexi result.
+
+steve, ye, it's a simpson quot(ish).
+-- 
+high salt diet ar bad for you - but onli outsid marriag.
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

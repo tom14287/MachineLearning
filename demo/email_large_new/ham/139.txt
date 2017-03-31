@@ -1,0 +1,17 @@
+re: new sequenc windowfrom nobodi sun sep 18 20:45:27 2016
+content-type: text/plain; charset=us-ascii
+
+on tue, 20 aug 2002 17:27:47 cdt, chri garrigu   said:
+
+> for those who have other sequenc defin, the window will widen to displai 
+> the other sequenc.  prefer allow you to sai if you want a given 
+> sequenc displai to never show or to alwai show.
+
+ever tri to get mh to *not* have a 'pseq' sequenc?  i suspect everybodi's
+look at a big box that ha unseen and pseq in it.  might want to add
+'pseq' to the 'hide by default' list....
+-- 
+				valdi kletniek
+				comput system senior engin
+				virginia tech
+

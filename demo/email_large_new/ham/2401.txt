@@ -1,0 +1,35 @@
+re: [semi-ot] access gmail from pythonfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=utf-8
+
+>
+>
+>>
+> i alreadi know how to us the "regular" pop3 class, which i us on a
+> semi-regular basi for examin/zap mail which fetchmail barf on.
+>  i've googl my finger off, but there ar no hint as to what the keyfil
+> and certfil ar.
+>
+>
+mayb thi link can help
+http://www.andrew-corner.org/mutt.html
+
+
+
+> --
+> dissent is patriot, rememb?
+>
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org with a
+> subject of "unsubscrib". troubl? contact listmast@list.debian.org
+> archiv: http://list.debian.org/4be373c9.1070308@cox.net
+>
+>
+
+
+-- 
+regard,
+
+umarzuki mochli
+http://debmal.my

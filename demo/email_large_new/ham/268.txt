@@ -1,0 +1,27 @@
+re: resourc for learn linuxon mon, 26 apr 2010 13:37:53 -0400 (edt) stephen powel wrote:
+> my favorit free on-line refer for gener linux knowledg is
+> current the origin edit of "the linux cookbook", by michael
+> stutz.  here is the link:
+> 
+>    http://dsl.org/cookbook/cookbook_toc.html
+> 
+> there is a greatli expand second edit of the book, which is more
+> comprehens, but it is not free.  you have to pai for it.
+> other, i'm sure, will have other idea.
+
+ye, michael stutz book is good, both in content and style.  also,
+there is the linux document project, with mani learn
+resourc: http://tldp.org/
+
+girish.
+
+-- 
+girish kulkarni - allahabad, india - http://athen.org.in/girish
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100508182429.58039ee8@marvin.dhcp.hri
+
+

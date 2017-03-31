@@ -1,0 +1,16 @@
+re: diskless notebook with debian lenni or squeez?> ar there ani advic for diskless notebook that is compat with
+> debian lenni or squeez?
+
+what mean "diskless"?  do you mean "without a harddriv" or "without
+remov media (like cd/dvd/floppi)"?  someth els?
+
+
+        stefan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/jwvfx1pt91e.fsf-monnier+gmane.linux.debian.user@gnu.org
+
+

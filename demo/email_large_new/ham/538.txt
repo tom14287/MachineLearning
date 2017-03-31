@@ -1,0 +1,2523 @@
+[fm-new] newslett for tuesdai, juli 30th 2002::: l i n k s   f o r   t h e   d a y :::
+
+todai's new on the web: http://freshmeat.net/daili/2002/07/30/
+freshmeat.net newsgroup: new://new.freshmeat.net/fm.announc
+
+--- --.-  -----.-.------  -.. ..-- - -...---- -- -.- -----... - -
+
+::: a d v e r t i s i n g :::
+
+sponsor by the usenix secur symposium
+
+learn how to improv the secur of your system & network! os secur
+*access control *sandbox *web secur and more! *11th usenix securti
+symposium * august 5-9, 2002 * san francisco regist onsit for your free
+exhibit pass!  
+
+http://www.usenix.org/sec02/osdn
+
+-.------.---.---- -.------.--.- --.-.- - -  -- --.--- --.--- -.- 
+
+::: r e l e a s e   h e a d l i n e s (107) :::
+
+[001] - abcm2ps 3.1.1 (develop)
+[002] - amsynth 1.0 beta 5 
+[003] - calcul pi first releas (simpl harmon motion)
+[004] - cbdockapp 1.00 
+[005] - cdinsert and cdlabelgen 2.4.0 (stabl)
+[006] - cdrecord 1.11a28 
+[007] - cell phone sm aim 1.6 
+[008] - cherrypi 0.4 
+[009] - chrono 1.1.1 
+[010] - clip 0.99.4 
+[011] - countertrac 1.0 
+[012] - crwinfo 0.2 
+[013] - dadabik 2.1 beta 
+[014] - danpei 2.8.2 (stabl)
+[015] - dchub 0.1.2 
+[016] - distribut checksum clearinghous 1.1.8 
+[017] - dnstracer 1.6 
+[018] - document manag 2.0-pre1 (develop)
+[019] - dougnet 1.0 
+[020] - dump/restor 0.4b31 
+[021] - dungeonmak 2.01 
+[022] - file roller 2.0.0 
+[023] - frontstella 1.2 
+[024] - gcv 1.0b4 
+[025] - gimp-print 4.2.2-pre4 (stabl)
+[026] - gnocl 0.5.1 
+[027] - gnomeicu 0.98.3 
+[028] - gnustep 1.4.0 (launchpad)
+[029] - grocget 0.5 
+[030] - hdup 1.4.0-1 (stabl)
+[031] - highlight 0.1 
+[032] - honeyd 0.3 
+[033] - ioperm for cygwin 0.1 
+[034] - ipsquad packag from scratch 0.6 
+[035] - j 0.16.1 
+[036] - jmame 0.3-beta 
+[037] - kadmo ocr/icr engin 3.5q 
+[038] - kaller 0.2.2 
+[039] - kemerg 0.6 
+[040] - kmencod 0.1.2 
+[041] - kmyirc 0.2.2 (alpha)
+[042] - koalaxml 0.3.0 
+[043] - koch-suit 0.7 (develop)
+[044] - lago 0.5.2-gcc3.patch 
+[045] - libdv 0.98 
+[046] - lindenmay system in python 1.0 
+[047] - lm-solv 0.5.6 (develop)
+[048] - mkdoc 1.4 
+[049] - mksysdisp 0.1.4 
+[050] - mondo 0.7 (stabl)
+[051] - mysql-sdb 0.1a 
+[052] - nntpobject 0.9 
+[053] - ogmtool 0.7 
+[054] - on-wire weather 0.67.10 
+[055] - open remot collabor tool 1.0.1 
+[056] - opencl 0.8.7 
+[057] - openejb 0.8 final 
+[058] - openoffic index 0.1 (develop)
+[059] - ossp cfg 0.9.0 
+[060] - ossp fsl 0.1.12 
+[061] - ossp l2 0.9.0 
+[062] - papercut nntp server 0.8.3 
+[063] - peanut 1.03 
+[064] - php onlin rpg 1.1 
+[065] - phpmyadmin 2.3.0-rc4 (unstabl)
+[066] - phptalk 0.9 
+[067] - phptest 0.6.1 
+[068] - php_passport_check 0.1 
+[069] - php_writeexcel 0.1.1 
+[070] - poweroff 0.4 
+[071] - pppo 0.49 
+[072] - qtmyadmin 0.4 
+[073] - quantum gi 0.0.2 (develop)
+[074] - redbas pure java rdbm 1.5 
+[075] - rh email server 0.9.8.1 
+[076] - s/mime librari for java 1.5.0 
+[077] - secur ftp wrapper 2.5.2 
+[078] - server optim linux 15.00 
+[079] - sharp tool spreadsheet 1.4 (stabl)
+[080] - simpl tcp re-engin tool 0.8.0 
+[081] - simplefirewal 0.7-2 
+[082] - skaburn 0.1 
+[083] - station locat and inform 1.2 
+[084] - sylphe 0.8.1claw (claw)
+[085] - sympol 1.3 
+[086] - the big dumb finger daemon 0.9.5 
+[087] - the parma polyhedra librari 0.4.1 
+[088] - the tamber project 1.0.6 
+[089] - trackbox 0.4 
+[090] - tui-sh 1.2.0 
+[091] - uvnc 0.0-2 
+[092] - valgrind 1.0.0 
+[093] - vnc reflector 1.1.9 
+[094] - vpopmail 5.3.8 (develop)
+[095] - vstr string librari 0.9.9 
+[096] - wallfir wfconvert 0.1.3 
+[097] - wallfir wflog 0.0.5 
+[098] - webcpp gtkgui 0.3.1 (gnome)
+[099] - webdial 1.4 
+[100] - webfilemanag 0.972 (stabl)
+[101] - webjob 1.2.0 
+[102] - white_dune 0.20beta12 (develop)
+[103] - widestudio 3.00.3 
+[104] - wolfpack 12.8.7 (stabl)
+[105] - xmltype 0.5.1 (develop)
+[106] - zina 0.9.1 
+[107] - zprommer 2002_07_29 
+
+
+  -----. - ----.-----. .- -.---. .- -. ..--- -.--------.   .-- . 
+
+::: r e l e a s e   d e t a i l s :::
+
+[001] - abcm2ps 3.1.1 (develop)
+  by guido gonzato (http://freshmeat.net/user/goccia/)
+  tuesdai, juli 30th 2002 03:48
+
+multimedia :: sound/audio :: convers
+
+about: abcm2ps is a packag that convert music tune from abc format to
+postscript. base on abc2ps version 1.2.5, it wa develop mainli to
+print baroqu organ score that have independ voic plai on on or
+more keyboard, and a pedal-board. it introduc mani extens to the
+abc languag that make it suitabl for classic music. 
+
+chang: minor bugfix were made.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/abcm2ps/
+
+                        - %  - %  - % - % -
+
+[002] - amsynth 1.0 beta 5 
+  by nixx uk (http://freshmeat.net/user/nixx2097/)
+  tuesdai, juli 30th 2002 10:52
+
+multimedia :: sound/audio :: sound synthesi
+
+about: amsynth is a realtim polyphon analogu model synthes. it
+provid a virtual analogu synthes in the style of the classic moog
+minimoog/roland juno. it offer an easi-to-us interfac and synth
+engin, while still creat vari sound. it run as a standalon
+applic, us either the alsa audio and midi sequenc system or the
+plain oss devic. it can be plai with an extern midi control
+keyboard, a softwar virtual keyboard, or through a midi sequenc. all
+paramet can be control over midi. 
+
+chang: the alsa driver ha been mmape for improv perform.
+record ar now output to .wav file. minor perform tweak have
+been made on the envelop gener, the build process, etc. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/amsynth/
+
+                        - %  - %  - % - % -
+
+[003] - calcul pi first releas (simpl harmon motion)
+  by sayan chakraborti (http://freshmeat.net/user/sayanchak/)
+  tuesdai, juli 30th 2002 19:00
+
+scientif/engin :: mathemat
+scientif/engin :: visual
+
+about: projectpi is a project to calcul the mathemat constant pi
+through variou method. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/projectpi/
+
+                        - %  - %  - % - % -
+
+[004] - cbdockapp 1.00 
+  by chri brisco (http://freshmeat.net/user/cbrisco/)
+  tuesdai, juli 30th 2002 18:56
+
+desktop environ :: window manag :: window maker :: applet
+
+about: cbdockapp is a c++ dock applic class. to make your own dock
+applic, just creat a deriv class with your applic code. it
+come with an exampl dock clock applic. 
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/cbdockapp/
+
+                        - %  - %  - % - % -
+
+[005] - cdinsert and cdlabelgen 2.4.0 (stabl)
+  by avinash chopd (http://freshmeat.net/user/avinash1/)
+  tuesdai, juli 30th 2002 17:10
+
+text process
+
+about: cdlabelgen is a perl script that gener printout suitabl for
+us as cd jewel case insert or cd envelop. both normal size case and
+slim case ar handl. cdlabelgen can be us to creat tabl of content
+for music cd, archiv cd, etc., with customiz logo or background
+imag, and it gener postscript file as output. the packag also
+includ a perl cgi web script which accept jpeg imag as logo or
+background, and can also creat pdf output file.
+
+chang: it is now possibl to specifi line width for the cover/trai edg
+or to omit edg line entir. control over logo placement ha been
+ad: logo can now be move and scale as requir on the output.
+support for a4 page printout ha been ad.
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/cdinsert/
+
+                        - %  - %  - % - % -
+
+[006] - cdrecord 1.11a28 
+  by jörg schill (http://freshmeat.net/user/schili/)
+  tuesdai, juli 30th 2002 10:53
+
+multimedia :: sound/audio :: cd audio :: cd rip
+multimedia :: sound/audio :: cd audio :: cd write
+system :: archiv
+
+about: cdrecord creat home-burn cd with a cd-r/cd-rw record. it
+work as a burn engin for sever applic. cdrecord support cd
+record from mani differ vendor; all scsi-3/mmc and atapi/mmc
+compliant drive should also work. support featur includ id/atapi,
+parallel-port, and scsi drive, audio cd, data cd, and mix cd, full
+multi-session support, cd-rw (rewrit), tao, dao and human-readabl
+error messag. cdrecord includ remot scsi support and can access local
+or remot cd-writer.
+
+chang: cdrecord now write mcn/isrc even in raw mode. a bug that caus
+cdrecord to write wrong rel time stamp into the pregap of audio cd
+when write in raw mode with pregaps !=0 ha been fix. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/cdrecord/
+
+                        - %  - %  - % - % -
+
+[007] - cell phone sm aim 1.6 
+  by jason swan (http://freshmeat.net/user/zyplocc/)
+  tuesdai, juli 30th 2002 20:32
+
+commun :: chat
+commun :: chat :: aol instant messeng
+commun :: internet phone
+
+about: cell phone sm aim us the net::aim perl modul avail from
+cpan, sign on a screen name, and rout messag to your cell phone via
+sm. it also requir lynx. 
+
+chang: two more provid and a bugfix. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/cellaim/
+
+                        - %  - %  - % - % -
+
+[008] - cherrypi 0.4 
+  by remi delon (http://freshmeat.net/user/rdelon/)
+  tuesdai, juli 30th 2002 10:36
+
+internet :: www/http :: dynam content
+
+about: cherrypi is a python-base tool for develop dynam web site.
+it sit between a compil and an applic server. compil sourc
+file gener an execut contain everyth to run the web site,
+includ an http server. cherrypi let you develop your web site in an
+object-orient wai, us both regular python and a templat languag.
+it also come with a handi standard librari for thing like cooki-base
+authent, form handl, http authent, etc.
+
+chang: thi releas add built-in cach capabl and some compil
+optim. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/cherrypi/
+
+                        - %  - %  - % - % -
+
+[009] - chrono 1.1.1 
+  by simon perreault (http://freshmeat.net/user/nomi80/)
+  tuesdai, juli 30th 2002 17:09
+
+internet :: www/http :: dynam content
+offic/busi :: schedul
+
+about: chrono is a web agenda calendar for intranet, although it can be
+us from anywher. it can send remind by email, and it allow you to
+schedul multi-user event. it is fast and light on resourc. the balanc
+between size and speed can be tweak by tweak mod_perl and apach. 
+
+chang: thi releas fix some bug with the new holidai featur and a
+crash that would occur sometim when view event with remind.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/chrono/
+
+                        - %  - %  - % - % -
+
+[010] - clip 0.99.4 
+  by uri hnykin (http://freshmeat.net/user/uri/)
+  tuesdai, juli 30th 2002 17:00
+
+databas
+databas :: databas engin/server
+internet :: www/http :: dynam content :: cgi tool/librari
+
+about: clip is a clipper/xbase compat compil with initi support
+for foxpro, flagship, and cavo syntax. it support linux, freebsd,
+openbsd, and win32 (via cygwin). it featur support for intern
+languag and charact set, includ two-byte charact set like
+chines and japanes. it also featur oop, a multiplatform gui base on
+gtk/gtkextra, all six/comix featur (includ hypertext index), sql,
+a c-api for third-parti develop, a few wrapper for popular librari
+(such as bzip, gzip, gd, crypto, and fcgi), multitask, mous event,
+and more.  
+
+chang: there ar mani fix for compat. an interbas (firebird)
+client ha been ad. there ar new fivewin-like function and class.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/clip/
+
+                        - %  - %  - % - % -
+
+[011] - countertrac 1.0 
+  by michael c. toren (http://freshmeat.net/user/mct/)
+  tuesdai, juli 30th 2002 00:43
+
+internet
+
+about: countertrac is a userland iptabl queue  target handler for linux
+2.4 kernel run  netfilt. it attempt to give the illus that 
+there ar multipl, imaginari ip hop between  itself and the rest of the
+world. the imaginari  hop that countertrac project also have the 
+abil to introduc accumul, imaginari  latenc.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/countertrac/
+
+                        - %  - %  - % - % -
+
+[012] - crwinfo 0.2 
+  by sven riedel (http://freshmeat.net/user/srd/)
+  tuesdai, juli 30th 2002 18:37
+
+multimedia :: graphic :: captur :: digit camera
+
+about: crwinfo extract thumbnail and exposur inform from canon's
+proprietari .crw raw file, which can be output by certain of canon
+digit camera.  
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/crwinfo/
+
+                        - %  - %  - % - % -
+
+[013] - dadabik 2.1 beta 
+  by eugenio (http://freshmeat.net/user/eugenio/)
+  tuesdai, juli 30th 2002 18:36
+
+databas :: front-end
+
+about: dadabik is a php applic that allow you to easili creat a
+highli customiz web interfac for a mysql databas in order to search,
+insert, updat, and delet record; all you need do is specifi a few
+configur paramet. it is avail in english, italian, dutch,
+german, spanish, and french. 
+
+chang: a new, lighter, and easier to us administr interfac
+(relat to the intern tabl manag) is now avail. the form now ha
+a better layout, and all the field ar correctli align, includ
+date. all the translat ar now up-to-date. it is now possibl, for
+select_singl field, to choos "other" dure an insert and fill a
+textbox by hand with an altern valu. that valu will updat the
+select option, unless the option ha been driven with a custom queri
+("sql:......"). it is now possibl to choos whether a field ha to be
+displai on the detail page. other chang and bugfix have been ad.
+
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/dadabik/
+
+                        - %  - %  - % - % -
+
+[014] - danpei 2.8.2 (stabl)
+  by peac24 (http://freshmeat.net/user/peac24/)
+  tuesdai, juli 30th 2002 11:01
+
+
+
+about: danpei is a gtk+ base imag viewer. it allow you to brows
+through your imag file in thumbnail form, and it can renam, cut, and
+past them easili with an interfac similar to that of window explor. 
+
+chang: thi releas fix the bug that caus the progressbar dialog to
+not be displai when drag and drop and the bug that, in some
+case, caus gtk-warn to be displai when cut and past. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/danpei/
+
+                        - %  - %  - % - % -
+
+[015] - dchub 0.1.2 
+  by eric (http://freshmeat.net/user/icemanb/)
+  tuesdai, juli 30th 2002 05:32
+
+commun :: file share
+
+about: dchub is a direct connect hub clone. it resembl an irc server
+with some extra featur dedic to file share. 
+
+chang: minor bug were fix in the decod of the mhublist kei, in the
+perl script handl dc++ client, and in the hub registr function.
+python script wa ad.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/dchub/
+
+                        - %  - %  - % - % -
+
+[016] - distribut checksum clearinghous 1.1.8 
+  by vernon schryver (http://freshmeat.net/user/vj/)
+  tuesdai, juli 30th 2002 13:04
+
+commun :: email
+commun :: email :: filter
+
+about: distribut checksum clearinghous (dcc) is a system of client and
+server that collect and count checksum relat to mail messag. the
+count can be us by smtp server and mail user agent to detect and
+reject bulk mail. dcc server can exchang common checksum. the checksum
+includ valu that ar "fuzzi", or constant across common variat in
+bulk messag. 
+
+chang: a fix for "invalid databas address" problem on sparc system,
+and other chang. 
+
+licens: freeli distribut
+
+url: http://freshmeat.net/project/dcc-sourc/
+
+                        - %  - %  - % - % -
+
+[017] - dnstracer 1.6 
+  by edwin groothui (http://freshmeat.net/user/mavetju/)
+  tuesdai, juli 30th 2002 10:43
+
+internet :: name servic (dn)
+system :: network
+util
+
+about: dnstracer determin where a given domain name  server (dn) get
+it inform from, and follow  the chain of dn server back to the
+server which  know the data. 
+
+chang: thi releas add support for soa record. 
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/dnstracer/
+
+                        - %  - %  - % - % -
+
+[018] - document manag 2.0-pre1 (develop)
+  by dobrica pavlinus (http://freshmeat.net/user/dpavlin/)
+  tuesdai, juli 30th 2002 05:28
+
+internet :: www/http
+internet :: www/http :: site manag
+offic/busi
+
+about: document manag is a document manag system with the abil
+to check-in/check-out document, track chang, and support multipl
+user. it support all usual oper (renam, delet, view, edit) and
+come with option support for a secur http server.
+
+chang: thi develop releas is probabl not readi for product
+yet, but contain new featur, includ a repositori which is not in the
+web server tree, an acl implement call truste, and new
+document. it work with regist_global off in php.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/docman/
+
+                        - %  - %  - % - % -
+
+[019] - dougnet 1.0 
+  by doug (http://freshmeat.net/user/dougedoug/)
+  tuesdai, juli 30th 2002 02:17
+
+internet
+
+about: dougnet is a collect of us function to  help programm
+make their program  network enabl quickli and easili. it can be 
+directli embed into a program, creat no  hassl for user. it is
+highli portabl and veri  easi to us.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/dougnet/
+
+                        - %  - %  - % - % -
+
+[020] - dump/restor 0.4b31 
+  by stelian pop (http://freshmeat.net/user/spop/)
+  tuesdai, juli 30th 2002 12:57
+
+system :: archiv :: backup
+system :: archiv :: compress
+system :: filesystem
+
+about: the dump packag contain both dump and restor. dump examin
+file in a filesystem, determin which on need to be back up, and
+copi those file to a specifi disk, tape or other storag medium. the
+restor command perform the invers function of dump; it can restor a
+full backup of a filesystem. subsequ increment backup can then be
+layer on top of the full backup. singl file and directori subtre mai
+also be restor from full or partial backup.
+
+chang: thi releas fix a bug (introduc with 0.4b29) which prevent
+the us of a remot tape drive. 
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/dumprestor/
+
+                        - %  - %  - % - % -
+
+[021] - dungeonmak 2.01 
+  by henningsen (http://freshmeat.net/user/henningsen/)
+  tuesdai, juli 30th 2002 18:22
+
+
+
+about: the dungeonmak is a program/class librari that gener random
+dungeon and labyrinth us artifici life method. it can be us for
+pen-and-paper roleplai, but is mostli intend to gener random map
+for comput role plai game. 
+
+chang: thi is a complet rewrit that improv labyrinth creation and
+introduc dungeon creation and placement of treasur and mob. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/dungeonmak/
+
+                        - %  - %  - % - % -
+
+[022] - file roller 2.0.0 
+  by hpg (http://freshmeat.net/user/paobac/)
+  tuesdai, juli 30th 2002 06:19
+
+system :: archiv
+
+about: file roller is an archiv manag for the gnome environ. as an
+archiv manag, it can creat and modifi archiv, view the content of an
+archiv, view a file contain in the archiv, and extract file from the
+archiv. file roller is onli a frontend (a graphic interfac) to
+archiv program like tar and zip. 
+
+chang: port to gnome 2, ad an option to view the destin folder
+after extract, rearrang the menu, and ad mnemon to all
+dialog. nautilu is now us as the document viewer.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/filerol/
+
+                        - %  - %  - % - % -
+
+[023] - frontstella 1.2 
+  by jame de oliveira (http://freshmeat.net/user/hereg/)
+  tuesdai, juli 30th 2002 00:11
+
+system :: emul
+
+about: frontstella is a gnome front-end for the xstella atari emul. it
+allow you to set and preserv a name and a screen shot for a particular
+rom. it also allow you to set and keep some global option for the
+emul. you can add as mani rom as you want.  
+
+chang: ad keyboard shortcut, and the abil to doubl-click on a
+rom. a pop-up menu wa ad, some known bug were fix, and the imag is
+now scale to fit in the window.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/frontstella/
+
+                        - %  - %  - % - % -
+
+[024] - gcv 1.0b4 
+  by karl-heinz bruenen (http://freshmeat.net/user/bruenen/)
+  tuesdai, juli 30th 2002 05:32
+
+softwar develop :: version control
+softwar develop :: version control :: cv
+
+about: gcv is a gtk port of wincv, a window-base cv client.
+
+chang: server bug were fix.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/gcv/
+
+                        - %  - %  - % - % -
+
+[025] - gimp-print 4.2.2-pre4 (stabl)
+  by robert krawitz (http://freshmeat.net/user/rlk/)
+  tuesdai, juli 30th 2002 21:38
+
+multimedia :: graphic
+print
+
+about: gimp-print is a collect of veri high qualiti printer driver for
+unix/linux. the goal of thi project is uncompromis print qualiti and
+robust. includ with thi packag is the print plugin for the gimp
+(henc the name), a cup driver, and two driver (tradit and
+ij-base) for ghostscript that mai be compil into that packag. thi
+driver packag is foomat-compat and provid foomat data to enabl
+plug and plai with mani print spooler. in addit, variou printer
+mainten util ar includ. mani user report that the qualiti of
+gimp-print on high end epson stylu printer match or exce the
+qualiti of the driver suppli for window and macintosh.
+
+chang: thi releas fix a seriou and longstand problem wherebi
+print to certain epson printer host on a window system ar
+incomplet; the bottom of the last page of the print is chop off. there
+ar also some minor tweak for the epson stylu photo 2100/2200. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/gimp-print/
+
+                        - %  - %  - % - % -
+
+[026] - gnocl 0.5.1 
+  by peter g. baum (http://freshmeat.net/user/baum/)
+  tuesdai, juli 30th 2002 17:17
+
+softwar develop :: widget set
+
+about: gnocl is a gtk / gnome extens for the program languag tcl.
+it provid easi to us command to quickli build gnome compliant user
+interfac includ the gnome canva widget and drag and drop support. it
+is loos model after the tk packag.
+
+chang: thi releas featur mani gtk+ 2.0 relat bugfix, a new tree
+and list widget, and dialog for select color, font, and file. there
+is still no support for special gnome 2.0 widget (e.g. canva).
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/gnocl/
+
+                        - %  - %  - % - % -
+
+[027] - gnomeicu 0.98.3 
+  by patrick (http://freshmeat.net/user/phsung/)
+  tuesdai, juli 30th 2002 18:03
+
+desktop environ :: gnome
+system :: network
+
+about: gnomeicu is a gnome applic which allow on to commun
+with other gnomeicu user or other who us icq (window, java, mac, etc).
+with gnomeicu, on can send and receiv messag, chang onlin mode,
+chat in realtim, send and receiv url, and much more.
+
+chang: a new xml contact list file, better user author support,
+more stabl server side contact list support, mani other bugfix, and
+some new languag. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/gnomeicu/
+
+                        - %  - %  - % - % -
+
+[028] - gnustep 1.4.0 (launchpad)
+  by adam fedor (http://freshmeat.net/user/afedor/)
+  tuesdai, juli 30th 2002 00:31
+
+desktop environ :: gnustep
+
+about: gnustep is a set of gener-purpos object-c librari base on
+the openstep standard develop by next (now appl) inc. the librari
+consist of everyth from foundat class, such as dictionari and
+arrai, to gui interfac class such as window, slider, button, etc.
+
+chang: the make packag ha gone through an extens reorgan,
+allow for better code share and a speed increas by at least a factor
+of 2. the base librari now work better on window and darwin, and ha
+better languag support.
+
+licens: gnu lesser gener public licens (lgpl)
+
+url: http://freshmeat.net/project/gnustep/
+
+                        - %  - %  - % - % -
+
+[029] - grocget 0.5 
+  by anthoni tekatch (http://freshmeat.net/user/anthonytekatch/)
+  tuesdai, juli 30th 2002 22:57
+
+util
+
+about: grocget help you shop for groceri faster and more reliabl. it
+can print a master inventori list, as well as an aisl-sort shop
+list. 
+
+chang: chang for us with python 2.0, and chang to allow run
+from current directori. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/grocget/
+
+                        - %  - %  - % - % -
+
+[030] - hdup 1.4.0-1 (stabl)
+  by miek gieben (http://freshmeat.net/user/miek/)
+  tuesdai, juli 30th 2002 05:50
+
+system :: archiv :: backup
+system :: archiv :: compress
+
+about: hdup is us to back up a filesystem. featur includ encrypt
+of the archiv (via mcrypt), compress of the archiv (bzip/gzip/none),
+the abil to transfer the archiv to a remot host (via scp), and no
+obscur archiv format (it is a normal compress tar file).
+
+chang: ad a -f option to forc restor to '/', and made
+document cleanup. restor a singl file is now possibl, and
+compil now depend on gnu make.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/hdup/
+
+                        - %  - %  - % - % -
+
+[031] - highlight 0.1 
+  by andré simon (http://freshmeat.net/user/saalen/)
+  tuesdai, juli 30th 2002 10:36
+
+text process
+
+about: highlight is a univers sourc code to html, xhtml, rtf, or
+(la)tex convert. (x)html output is format by cascad style sheet.
+it support bash, c, c++, java, javascript, lua, assembl, perl, php,
+pl/sql, (object) pascal, and visual basic file. it's possibl to easili
+enhanc highlight's pars databas. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/highlight/
+
+                        - %  - %  - % - % -
+
+[032] - honeyd 0.3 
+  by niel provo (http://freshmeat.net/user/nielsprovo/)
+  tuesdai, juli 30th 2002 12:47
+
+internet
+system :: monitor
+
+about: honeyd is a small daemon that creat virtual host on a network.
+the host can be configur to run arbitrari servic, and their tcp
+person can be adapt so that thei appear to be run certain
+version of oper system. honeyd enabl a singl host to claim
+multipl address on a lan for network simul. it is possibl to ping
+the virtual machin, or to tracerout them. ani type of servic on the
+virtual machin can be simul accord to a simpl configur file.
+instead of simul a servic, it is also possibl to proxi it to
+anoth machin.
+
+chang: udp support (includ proxi), and mani bugfix. 
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/honeyd/
+
+                        - %  - %  - % - % -
+
+[033] - ioperm for cygwin 0.1 
+  by marcel telka (http://freshmeat.net/user/telka/)
+  tuesdai, juli 30th 2002 10:55
+
+softwar develop :: librari
+
+about: ioperm for cygwin add support for the ioperm() function to cygwin
+(for window nt/2000/xp). thi support includ sy/io.h and sy/perm.h
+header file (not includ in cygwin by default) with develop and
+runtim librari. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/ioperm/
+
+                        - %  - %  - % - % -
+
+[034] - ipsquad packag from scratch 0.6 
+  by er-vin (http://freshmeat.net/user/ervin/)
+  tuesdai, juli 30th 2002 05:58
+
+system :: archiv :: packag
+system :: instal/setup
+system :: log
+
+about: ipf (ipsquad packag from sourc) is a system which allow you to
+trace an program's instal from sourc and regist it in your
+favorit packag system. (onli slackwar 8.1 is current support.)
+ipf watch a command (gener make instal), collect the list of
+ad file, and then regist them in the chosen packag system as if
+the instal wa made from a normal packag. unlik other similar product,
+ipf is abl to track both share and static link program. a
+slackwar 8.1 packag for ipf is avail for download. 
+
+chang: the old resolv_path shell script ha been replac with a newer
+and faster ipf_realpath code in c.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/ipf/
+
+                        - %  - %  - % - % -
+
+[035] - j 0.16.1 
+  by peter grave (http://freshmeat.net/user/petergrav/)
+  tuesdai, juli 30th 2002 16:58
+
+text editor
+
+about: j is a multifil, multiwindow programm's editor written entir
+in java. it featur syntax highlight for java, c, c++, xml, html, css,
+javascript, lisp, perl, php, python, rubi, scheme, tcl/tk, verilog, and
+vhdl, automat indent, directori buffer, regular express,
+multifil find and replac, autosav and crash recoveri, undo/redo, and
+ftp/http support. all keyboard map can be custom. theme mai be
+us to custom the editor's appear.
+
+chang: thi releas add support for name session.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/j/
+
+                        - %  - %  - % - % -
+
+[036] - jmame 0.3-beta 
+  by joe cekloski (http://freshmeat.net/user/jceklosk/)
+  tuesdai, juli 30th 2002 23:05
+
+
+
+about: yyyyam is a java-base frontend to xmame. it us the swing toolkit
+and us xml to store all set.
+
+chang: a new abiltii to verifi rom us xmame wa ad. the statu
+area also displai xmame verifi command and output. make instal and make
+uninstal command were also ad to the makefil (edit the makefil to
+chang the default instal locat, which is /usr/local/jmame)  
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/yyyyam/
+
+                        - %  - %  - % - % -
+
+[037] - kadmo ocr/icr engin 3.5q 
+  by tama nagi (http://freshmeat.net/user/nagytam/)
+  tuesdai, juli 30th 2002 18:21
+
+multimedia :: graphic
+softwar develop :: librari
+
+about: the kadmo ocr/icr (handwrit) recognit engin ha multipl
+languag support (it cover all latin languag plu other). interfac
+ar avail for c/c++/vb/delphi, and java upon request. it also ha
+isol charact (rec), isol line (rel), and paragraph (rep)
+recognit modul. 
+
+chang: new imag manipul function were ad to the api. 
+
+licens: other/proprietari licens
+
+url: http://freshmeat.net/project/kadmo/
+
+                        - %  - %  - % - % -
+
+[038] - kaller 0.2.2 
+  by nadeem hasan (http://freshmeat.net/user/nhasan/)
+  tuesdai, juli 30th 2002 10:57
+
+commun :: telephoni
+desktop environ :: k desktop environ (kde)
+
+about: kaller is kde system trai applet that displai  the caller id
+inform sent by phone  compani. it requir a caller id capabl 
+modem. it log everi call intern us an  xml format, displai call
+infom non- intrus us a popup window, and  option plai a
+ring sound when a call is  receiv. it can option ignor anonym 
+call. a handi call browser let you view the  call inform.
+
+chang: thi releas fix anonym call handl and add a minor
+layout fix in the call browser. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/kaller/
+
+                        - %  - %  - % - % -
+
+[039] - kemerg 0.6 
+  by yannick koehler (http://freshmeat.net/user/ykoehler/)
+  tuesdai, juli 30th 2002 17:14
+
+desktop environ :: k desktop environ (kde)
+system :: instal/setup
+system :: softwar distribut tool
+
+about: kemerg is a kde graphic front end for gentoo portag tool.
+
+chang: thi releas can filter the displai of the ebuild list by all
+possibl column us a regular express.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/kemerg/
+
+                        - %  - %  - % - % -
+
+[040] - kmencod 0.1.2 
+  by rolo (http://freshmeat.net/user/rolosworld/)
+  tuesdai, juli 30th 2002 03:48
+
+desktop environ :: k desktop environ (kde) :: theme kde 3.x
+multimedia
+multimedia :: sound/audio
+
+about: kmencod is a frontend for mplayer/mencod.
+
+chang: ad a pass-3 method, a kmencod.spec file, vcd option, and
+spanish and german translat. some minor fix were made.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/kmencod/
+
+                        - %  - %  - % - % -
+
+[041] - kmyirc 0.2.2 (alpha)
+  by shermann (http://freshmeat.net/user/shermann/)
+  tuesdai, juli 30th 2002 10:08
+
+commun :: chat :: internet relai chat
+desktop environ :: k desktop environ (kde) :: theme kde 3.x
+internet
+
+about: kmyirc is an attempt to provid an irc client for kde which is
+high-qualiti and easi to us, but not bloat. it wa creat becaus it
+wa felt that the other kde-base irc client were either not
+user-friendli or burden with featur that ar not us to the averag
+irc user. 
+
+chang: thi releas add highlight phrase, timestamp in channel
+output, and the abil to disabl the server list at startup. it fix
+some nasti and seriou bug in 0.2.1. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/kmyirc/
+
+                        - %  - %  - % - % -
+
+[042] - koalaxml 0.3.0 
+  by ricardo zuasti (http://freshmeat.net/user/rzuasti/)
+  tuesdai, juli 30th 2002 12:52
+
+softwar develop :: librari :: java librari
+text process :: markup :: xml
+
+about: koalaxml is an extrem simpl java xml data type. it is veri
+us as a paramet or return type, as well as a class properti type. it
+is object-orient, and support a vari rang of type valu (int,
+doubl, date, etc.) as well as attribut and nest tag.  
+
+chang: remov of scriptlet support, the first complet javadoc, a major
+api redesign, support for multipl tag with the same name, requir of
+a root tag, and iter sibl access (hasmores()/nextsibl()
+combo). 
+
+licens: gnu lesser gener public licens (lgpl)
+
+url: http://freshmeat.net/project/koalaxml/
+
+                        - %  - %  - % - % -
+
+[043] - koch-suit 0.7 (develop)
+  by michael lestinski (http://freshmeat.net/user/lestinski/)
+  tuesdai, juli 30th 2002 12:57
+
+databas
+
+about: koch-suit help you to manag your recip. it is written in php
+and us mysql/postgresql.  
+
+chang: the user model ha chang sinc 0.6; user ar classifi
+hierarch and there is a new administr interfac. the navig
+between the individu part and the internation ha been
+improv (there is a new preliminari spanish translat). the data model
+ha chang slightli to deal with metadata, such as the sourc of a recip
+or the date of record. plenti bugfix were done, too. 
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/koch-suit/
+
+                        - %  - %  - % - % -
+
+[044] - lago 0.5.2-gcc3.patch 
+  by emanuel fornara (http://freshmeat.net/user/lago/)
+  tuesdai, juli 30th 2002 18:02
+
+databas :: databas engin/server
+
+about: lago is a portabl (linux/window), multi-thread databas written
+in c++.
+
+chang: thi patch allow you to compil lago with the latest version of
+the gnu compil. a few bug have also been fix. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/lago/
+
+                        - %  - %  - % - % -
+
+[045] - libdv 0.98 
+  by charl 'buck' krasic (http://freshmeat.net/user/krasic/)
+  tuesdai, juli 30th 2002 17:00
+
+multimedia :: video
+
+about: the quasar dv codec (libdv) is a softwar codec for dv video, the
+encod format us by most digit camcord, typic those that
+support the ieee 1394 (a.k.a. firewir or i.link) interfac. libdv wa
+develop accord to the offici standard for dv video: iec 61834 and
+smpte 314m.
+
+chang: mani contribut bugfiix and minor featur updat.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/libdv/
+
+                        - %  - %  - % - % -
+
+[046] - lindenmay system in python 1.0 
+  by eleventh hour (http://freshmeat.net/user/xihr/)
+  tuesdai, juli 30th 2002 17:52
+
+scientif/engin :: artifici intellig
+scientif/engin :: mathemat
+text process :: gener
+
+about: lindenmay system in python provid a simpl implement of
+lindenmay system (also call "l-system" or "substitut system").
+in basic form, a lindenmay system consist of a start string of
+symbol from an alphabet which ha repeat transit appli to it,
+specifi by a list of transit search-and-replac rule. in addit to
+the standard formul, two altern implement ar includ:
+sequenti system (in which at most on rule is appli) and tag system
+(in which the transit onli take place at the begin and end of the
+string). despit be implement entir in python, for reason
+rule on a modern machin, the system is capabl of run thousand of
+gener per second. lindenmay system ar found in artifici
+intellig and artifici life and can be us to gener fractal
+pattern (usual via map symbol from the alphabet to turtl
+command), organ-look pattern that can simul plant or other
+live thing, or even music. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/lsystem/
+
+                        - %  - %  - % - % -
+
+[047] - lm-solv 0.5.6 (develop)
+  by shlomi fish (http://freshmeat.net/user/shlomif/)
+  tuesdai, juli 30th 2002 01:55
+
+game/entertain :: puzzl game
+
+about: lm-solv is a solver for sever type of the puzzl present on
+the logic maze site. it current support alic maze, number maze, and
+theseu and the minotaur maze. 
+
+chang: a non-portabl rpm macro wa replac with a plain text command.
+a small piec of the code as been made more perl-ish and more robust.
+
+licens: public domain
+
+url: http://freshmeat.net/project/lm-solv/
+
+                        - %  - %  - % - % -
+
+[048] - mkdoc 1.4 
+  by chri croom (http://freshmeat.net/user/chriscroom/)
+  tuesdai, juli 30th 2002 10:43
+
+internet :: www/http :: site manag
+
+about: mkdoc is a web site build, serv, and content manag tool
+that ha been design to encourag the us of good inform
+architectur and the product of access web site. it provid
+differ wai for the public to interact with and navig between
+document, includ a sitemap, search facil, dublin core xml / rdf
+metadata for document, and printer version of page. all manag,
+document creation, edit, and organ is done via a standard web
+browser. the look is control us templat. mkdoc us unicod/utf-8
+throughout and can support all languag, includ right-to-left
+languag. 
+
+chang: thi releas featur support for right-to-left languag, a
+photo compon which dynam gener thumbnail and scale imag,
+and support for http authent (so cooki ar no longer requir). 
+
+licens: other/proprietari licens with sourc
+
+url: http://freshmeat.net/project/mkdoc/
+
+                        - %  - %  - % - % -
+
+[049] - mksysdisp 0.1.4 
+  by peter (http://freshmeat.net/user/darthludi/)
+  tuesdai, juli 30th 2002 13:00
+
+system :: boot
+
+about: mksysdisp is a simpl program which convert text to syslinux
+messag. it allow you to creat a boot-messag for a syslinux bootdisk.
+it understand keyboard and file input.  
+
+chang: a new abil to start without pass argument.  
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/mksysdisp/
+
+                        - %  - %  - % - % -
+
+[050] - mondo 0.7 (stabl)
+  by kelledin (http://freshmeat.net/user/kelledin/)
+  tuesdai, juli 30th 2002 13:00
+
+system :: monitor
+
+about: mondo is a veri simplist health monitor daemon that reli on
+lm_sensor. it is capabl of monitor whatev set you're will
+to assign a label to in your sensor.conf file. it provid the same
+function as motherboard monitor, except it lack a gui interfac and is
+specif to linux.
+
+chang: thi releas implement proper sigchild handl to fix a
+resourc consumpt bug.  
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/mondo-daemon/
+
+                        - %  - %  - % - % -
+
+[051] - mysql-sdb 0.1a 
+  by mihai chelaru (http://freshmeat.net/user/koifren/)
+  tuesdai, juli 30th 2002 11:05
+
+databas
+internet :: name servic (dn)
+
+about: mysql-sdb provid support for us a mysql databas to store the
+data for a dn zone in bind 9. 
+
+chang: thi releas add numer bugfix and code clean. an
+alreadi-patch version of bind-9.2.1 is now avail on the web site. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/bind-mysql/
+
+                        - %  - %  - % - % -
+
+[052] - nntpobject 0.9 
+  by fharmon (http://freshmeat.net/user/fharmon/)
+  tuesdai, juli 30th 2002 00:43
+
+commun :: usenet new
+util
+
+about: nntpobject is a collect of c++ class for  easili creat
+simpl or advanc nntp  client. it enabl novic and advanc c++ 
+programm to quickli write small util, or  even full-featur nntp
+client.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/nntpobject/
+
+                        - %  - %  - % - % -
+
+[053] - ogmtool 0.7 
+  by moritz bunku (http://freshmeat.net/user/mosu/)
+  tuesdai, juli 30th 2002 18:39
+
+multimedia :: sound/audio :: convers
+multimedia :: video :: convers
+
+about: the ogmtool allow user to displai inform about (ogminfo),
+extract stream from (ogmdemux), and merg sever stream into (ogmmerg)
+ogg file. support stream type includ video stream from avi or ogg
+file and vorbi audio from ogg file. the result file can be plai
+back with mplayer or with the oggd direct show filter under window. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/ogmtool/
+
+                        - %  - %  - % - % -
+
+[054] - on-wire weather 0.67.10 
+  by dr. simon j. melhuish (http://freshmeat.net/user/sjmelhuish/)
+  tuesdai, juli 30th 2002 10:46
+
+scientif/engin
+
+about: oww (on-wire weather) is a client program for dalla semiconductor
+/ aag 1-wire weather station kit, provid a graphic (anim)
+displai to monitor outsid temperatur, wind speed and direct,
+rainfal, and humid. extra temperatur sensor mai be ad. a 1-wire
+"hub" mai be us for improv reliabl and rang. weather data mai be
+log to csv file, pars to command line program, sent to the
+henriksen window client, or upload to web server at dalla, the
+weather underground, and hamweath.
+
+chang: a server ha been ad to send data to client in a user-set
+parser format. up to 8 counter mai now be assign for gener-purpos
+count, such as for lightn detector. 
+
+licens: artist licens
+
+url: http://freshmeat.net/project/oww/
+
+                        - %  - %  - % - % -
+
+[055] - open remot collabor tool 1.0.1 
+  by thoma amsler (http://freshmeat.net/user/amsler/)
+  tuesdai, juli 30th 2002 18:06
+
+commun :: chat
+educ
+internet
+
+about: openrct is a multidisciplinari effort to enhanc collabor
+between peopl who ar not co-locat in time and space. it is a platform
+independ multimedia tool that support synchron and/or asynchron
+commun.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/openrct/
+
+                        - %  - %  - % - % -
+
+[056] - opencl 0.8.7 
+  by jack lloyd (http://freshmeat.net/user/randombit/)
+  tuesdai, juli 30th 2002 18:09
+
+secur :: cryptographi
+
+about: opencl is a librari of cryptograph algorithm, written in c++. it
+current includ a wide select of block and stream cipher, public
+kei algorithm, hash function, and messag authent code, plu a
+high level filter-base interfac. 
+
+chang: thi releas fix a major bug in opencl involv a possibl
+crash at applic shutdown. problem in em1 and emsa4, and variou
+minor bug, were also fix.  
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/opencl/
+
+                        - %  - %  - % - % -
+
+[057] - openejb 0.8 final 
+  by david blevin (http://freshmeat.net/user/dblevin/)
+  tuesdai, juli 30th 2002 00:38
+
+softwar develop :: librari :: applic framework
+softwar develop :: object broker :: corba
+
+about: openejb is a pre-built, self-contain, portabl ejb  contain
+system that can be plug into ani  server environ includ
+applic server,  web server, j2ee platform, corba orb,  databas,
+etc. 
+
+chang: enhanc in thi releas includ a telnet admin consol with
+server statu command, a remot server stop command for the openejb.bat
+and openejb.sh script, and a remot server stop class callabl from ant
+or other client code. sourc code gener is no longer includ, and
+the remot server is now stop after test have run. a jdk 1.4
+incompatibleclasschangeerror in keygeneratorfactori wa fix, along with
+a problem where the host java.sun.com could not be found.
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/openejb/
+
+                        - %  - %  - % - % -
+
+[058] - openoffic index 0.1 (develop)
+  by jerger (http://freshmeat.net/user/jerger/)
+  tuesdai, juli 30th 2002 05:44
+
+offic/busi :: offic suit
+text process :: markup :: xml
+util
+
+about: openoffic index gener an index for  openoffic.org
+document. it can extract  keyword and make document access for 
+variou keyword system.
+
+chang: thi version can recurs scan for document, pars for
+keyword, and write a catalog to an index.html file.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/oofficeindex/
+
+                        - %  - %  - % - % -
+
+[059] - ossp cfg 0.9.0 
+  by ralf s. engelschal (http://freshmeat.net/user/rse/)
+  tuesdai, juli 30th 2002 19:01
+
+softwar develop :: librari
+system :: oper system
+text process
+
+about: ossp cfg is a iso-c librari for pars arbitrari c/c++-style
+configur file. a configur is sequenc of direct, each
+direct consist of zero or more token, and each token can be either a
+string or again a complet sequenc. thi mean the configur syntax
+ha a recurs structur and allow you to creat configur with
+arbitrarili-nest section. the configur syntax also provid
+complex singl/doubl/balanc quot of token,
+hexadecim/octal/decim charact encod, charact escap, c/c++
+and shell-style comment, etc. the librari api allow import of a
+configur text into an abstract syntax tree (ast), travers the ast,
+and option export the ast again as a configur text.  
+
+licens: mit/x consortium licens
+
+url: http://freshmeat.net/project/cfg/
+
+                        - %  - %  - % - % -
+
+[060] - ossp fsl 0.1.12 
+  by ralf s. engelschal (http://freshmeat.net/user/rse/)
+  tuesdai, juli 30th 2002 19:00
+
+softwar develop :: librari
+system :: log
+
+about: ossp fsl offer the syslog api otherwis provid by libc. instead
+of write to the syslogd process, it us the power ossp l2 log
+capabl. it is a drop-in link-time replac which enabl ani
+syslog consum to take advantag of ossp l2 by just link thi librari
+in befor libc. the program is intend to appli ossp l2 function to
+exist syslog-base third-parti program without the requir to
+chang the sourc code of the program.  
+
+licens: mit/x consortium licens
+
+url: http://freshmeat.net/project/fsl/
+
+                        - %  - %  - % - % -
+
+[061] - ossp l2 0.9.0 
+  by ralf s. engelschal (http://freshmeat.net/user/rse/)
+  tuesdai, juli 30th 2002 19:01
+
+softwar develop :: librari
+system :: log
+
+about: ossp l2 is a c librari provid a veri flexibl and sophist
+unix log facil. it is base on the model of arbitrari number of
+channel, stack togeth in a top-down data flow tree structur with
+filter channel in intern node and output channel on the leav
+node. channel tree can be either construct manual through
+lower-level api function or all at onc with a singl api function
+control by a compact syntact descript of the channel tree. for
+gener log messag, a printf-style format engin is provid
+which can be extend through callback function. the data flow insid the
+channel tree is control by log messag sever level which ar
+assign to each individu channel.  
+
+licens: mit/x consortium licens
+
+url: http://freshmeat.net/project/l2/
+
+                        - %  - %  - % - % -
+
+[062] - papercut nntp server 0.8.3 
+  by joão prado maia (http://freshmeat.net/user/jcpm/)
+  tuesdai, juli 30th 2002 00:34
+
+commun :: usenet new
+softwar develop :: librari :: python modul
+
+about: papercut is a multi-thread nntp server written in python. it
+main object is to integr exist web-base messag board softwar
+(phorum on the first few version) with a usenet front-end. howev, it
+extens enabl develop to write their own contain for the
+storag of the usenet articl (messag). that mean that the code is
+extens enough that you could write new contain to integr the
+new server with other web messag board project or even other wai to
+store the messag. 
+
+chang: the variou storag modul have been redesign, and initi
+code for nttp authent wa ad. new featur includ a standalon
+mysql storag modul with no web front-end, an authent modul for
+phorum, and the concept of a 'read-onli' / 'read-write' server with
+password protect. most (if not all) of the featur ar work.
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/papercut/
+
+                        - %  - %  - % - % -
+
+[063] - peanut 1.03 
+  by jp durman (http://freshmeat.net/user/johnnyplay/)
+  tuesdai, juli 30th 2002 06:18
+
+system :: system administr
+util
+
+about: peanut is a consol-base internet user  manag system, which
+is perfect for  system administr who normal do thing  like ad
+virtual host or new user by hand.  it allow such task to me complet
+ autom.
+
+chang: the directori for web and system user ar automat
+creat when the first user is instal. delet of user and websit
+is now possibl. the menu is now somewhat more user friendli. webal
+config file ar now store in a user' own directori, and the domain
+belong to each user ar now track better.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/peanut/
+
+                        - %  - %  - % - % -
+
+[064] - php onlin rpg 1.1 
+  by adam (http://freshmeat.net/user/atom2a/)
+  tuesdai, juli 30th 2002 21:35
+
+game/entertain
+game/entertain :: role-plai
+
+about: the php onlin rpg us open-end object program and html
+tabl to creat a vast world.
+
+chang: sever speedup (includ a on-second load time with the local
+mysql server on reason hardwar). in order to program in thi rpg you
+have to us a mysql client for now, due to webhost issu.  
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/phpolrpg/
+
+                        - %  - %  - % - % -
+
+[065] - phpmyadmin 2.3.0-rc4 (unstabl)
+  by loic (http://freshmeat.net/user/loic1/)
+  tuesdai, juli 30th 2002 10:56
+
+databas :: front-end
+system :: system administr
+
+about: phpmyadmin is a tool written in php intend to handl the
+administr of mysql over the www. current it can creat and drop
+databas, creat/drop/alter tabl, delet/edit/add field, execut ani
+sql statement, manag kei on field, creat dump of tabl and
+databas, export/import csv data and administr on singl databas and
+multipl mysql server.
+
+chang: a new and far more valuabl sql pre-parser ha been implement.
+some littl bug have been fix and some translat complet. thi
+should be the last releas candid. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/phpmyadmin/
+
+                        - %  - %  - % - % -
+
+[066] - phptalk 0.9 
+  by joestump98 (http://freshmeat.net/user/joestump98/)
+  tuesdai, juli 30th 2002 17:15
+
+commun :: bb
+internet :: www/http :: dynam content :: messag board
+
+about: phptalk aim to be the fastest and most configur multithread
+messag board system avail. it ha the usual featur like
+multithread, auto index of messag (for search), customiz
+color, etc. howev, phptalk differ in that it allow you to easili
+integr it into exist site. it doe thi by not reli on specif
+displai file, allow you to templat most of the frontend, and allow
+you to specifi an alreadi exist user tabl. also includ is a dbi for
+portabl, ansi sql for portabl, an advanc and document api,
+full multilingu support, and full i18n support for date function. 
+
+chang: thi releas ha migrat to pear. it ha an expand api, major
+code cleanup, increas i18n support, and mani minor bugfix.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/phptalk/
+
+                        - %  - %  - % - % -
+
+[067] - phptest 0.6.1 
+  by brandon tallent (http://freshmeat.net/user/djreson/)
+  tuesdai, juli 30th 2002 18:01
+
+educ :: test
+internet :: www/http :: dynam content
+
+about: phptest is a web-base test program. it provid an environ
+to take multipl choic or true/fals quizz. it is design to be
+modular and flexibl. an administr can add ani number of question,
+test, user, and group. onc a test is creat, a user can log in to
+take the test, and hi test result ar score automat and store in
+the databas for easi view. it includ featur design to prevent
+cheat, such as random of question on test, and secur
+log for unauthor access to page.  
+
+chang: option have been ad to limit the number of time someon can
+retak a test, to not let someon retak a test onc thei've pass it,
+and to allow html in question. mani bug have been fix. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/phptest/
+
+                        - %  - %  - % - % -
+
+[068] - php_passport_check 0.1 
+  by yetanothernam (http://freshmeat.net/user/yetanothernam/)
+  tuesdai, juli 30th 2002 19:01
+
+internet :: www/http :: dynam content :: cgi tool/librari
+
+about: php_passport_check is a function to check the valid of a
+passport id (the last line of a passport). 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/php_passport_check/
+
+                        - %  - %  - % - % -
+
+[069] - php_writeexcel 0.1.1 
+  by jonni (http://freshmeat.net/user/jonnyh/)
+  tuesdai, juli 30th 2002 17:11
+
+offic/busi
+offic/busi :: offic suit
+softwar develop :: librari :: php class
+
+about: php_writeexcel is a port of john mcnamara's  excel
+spreadsheet::writeexcel perl  packag to php. it allow you to gener 
+microsoft excel document on your php  enabl web server without ani
+other tool.
+
+chang: sever php warn regard call-time pass-by-refer and
+undefin constant have been fix.
+
+licens: gnu lesser gener public licens (lgpl)
+
+url: http://freshmeat.net/project/php_writeexcel/
+
+                        - %  - %  - % - % -
+
+[070] - poweroff 0.4 
+  by klau heuschneid (http://freshmeat.net/user/hksoft/)
+  tuesdai, juli 30th 2002 01:58
+
+system :: hardwar
+
+about: poweroff is a tool that allow you to power up or power down a pc
+system over serial line us a few piec of addit hardwar.
+
+chang: some bugfix were ad, along with a new hardwar circuit for
+atx mainboard.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/poweroff/
+
+                        - %  - %  - % - % -
+
+[071] - pppo 0.49 
+  by ami fong (http://freshmeat.net/user/afong/)
+  tuesdai, juli 30th 2002 23:10
+
+system :: network
+
+about: pppo is anoth ppp-over-ethernet implement. it split
+function between kernel and user space and includ a user space
+program, pppo, for discoveri and connect manag.
+
+chang: bugfix and pppo featur enhanc to the instal script. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/pppo/
+
+                        - %  - %  - % - % -
+
+[072] - qtmyadmin 0.4 
+  by marcin jankowski (http://freshmeat.net/user/marcinjankowski/)
+  tuesdai, juli 30th 2002 21:37
+
+databas :: front-end
+system :: system administr
+
+about: qtmyadmin is a tool intend to handl the administr of mysql,
+just like phpmyadmin doe.
+
+chang: privileg manag is now visualis as a mlistwidget widget,
+which make it more comfort to us. the graphic interfac is
+beautifi by mani color pixmap on button and in menu. there is also
+some major code reorgan, a few rewrit, and a few bugfix, and a
+first rpm packag is avail. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/qtmyadmin/
+
+                        - %  - %  - % - % -
+
+[073] - quantum gi 0.0.2 (develop)
+  by mrcc (http://freshmeat.net/user/mrccalaska/)
+  tuesdai, juli 30th 2002 03:47
+
+
+
+about: quantum gi (qgi) is a geograph inform system (gi) for
+linux/unix. it will offer support for vector and raster format. it
+current support spatial enabl tabl in postgresql us postgi.
+due to the complex of creat a featur-rich gi applic, support
+for variou data store will be ad in a phase approach. ultim, it
+will be abl to read and edit shape file, displai geo-referenc raster
+(tiff, png, and geotiff), creat map output, and support databas tabl.
+a plugin featur to dynam add new function is plan.
+
+chang: thi releas includ improv render of map layer, zoom and
+pan capabl, and other minor improv.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/qgi/
+
+                        - %  - %  - % - % -
+
+[074] - redbas pure java rdbm 1.5 
+  by bungisoft, inc. (http://freshmeat.net/user/ilyaverlinski/)
+  tuesdai, juli 30th 2002 05:55
+
+databas
+databas :: databas engin/server
+databas :: front-end
+
+about: redbas pure java rdbm is a 100% pure java  databas, with an
+ultra-compact footprint design  for rapidli develop applic that
+extend  enterpris data manag capabl, to mobil  and embed
+devic. it is ideal for mobil,  wireless, and embed applic, and
+it deliv  essenti relat databas function in a small 
+footprint, while provid flexibl data access, and  the familiar feel
+through entri sql-92 complianc,  and jdbc access.
+
+chang: thi releas ha support for the alter statement and improv
+support for trigger and view. it is optim to increas perform. a
+swing databas manag ha been ad. the distribut ha been
+configur to have multipl jar file base on featur need.
+
+licens: other/proprietari licens with free trial
+
+url: http://freshmeat.net/project/redbas/
+
+                        - %  - %  - % - % -
+
+[075] - rh email server 0.9.8.1 
+  by polywog (http://freshmeat.net/user/erecio/)
+  tuesdai, juli 30th 2002 12:56
+
+commun :: email
+commun :: email :: address book
+commun :: email :: email client (mua)
+
+about: the rh email server us openldap authent for imap, pop3,
+smtp, and ssl/tl protocol. it includ a web interfac, administr,
+and filter.
+
+chang: updat rhsdadm to allow deleg admin, an updat group/user
+add/edit interfac, new mailbox brows for user, and an updat imp to
+allow for vacat messag, auto-repli, and auto-forward filter via
+siev.  
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/rhem/
+
+                        - %  - %  - % - % -
+
+[076] - s/mime librari for java 1.5.0 
+  by josh eckel (http://freshmeat.net/user/jeckel/)
+  tuesdai, juli 30th 2002 01:57
+
+commun :: email
+secur :: cryptographi
+softwar develop :: librari
+
+about: the isnetwork s/mime librari add to javamail a complet set of
+s/mime cryptograph function includ digit sign, signatur
+verif, encrypt, and decrypt. non-profit organ can
+acquir a free licens to the product by contact isnetwork.
+
+chang: thi releas includ javamail 1.3 and jaf 1.0.2, add a new
+exampl program and gui, and contain minor api enhanc.
+
+licens: other/proprietari licens with free trial
+
+url: http://freshmeat.net/project/smime/
+
+                        - %  - %  - % - % -
+
+[077] - secur ftp wrapper 2.5.2 
+  by glub (http://freshmeat.net/user/glub/)
+  tuesdai, juli 30th 2002 13:17
+
+internet :: file transfer protocol (ftp)
+secur
+secur :: cryptographi
+
+about: secur ftp wrapper is a server base packag that enabl an
+exist ftp server to  becom a secur ftp server. in thi releas the
+wrapper allow a secur socket  layer (ssl) connect to be made to your
+ftp server.
+
+chang: a fix for a memori leak. 
+
+licens: other/proprietari licens with free trial
+
+url: http://freshmeat.net/project/ftpswrap/
+
+                        - %  - %  - % - % -
+
+[078] - server optim linux 15.00 
+  by antitachyon (http://freshmeat.net/user/antitachyon/)
+  tuesdai, juli 30th 2002 10:42
+
+system :: boot :: init
+system :: network :: firewal
+system :: oper system
+
+about: sol (server optim linux) is a linux distribut complet
+independ from other linux distribut. it wa built from the origin
+sourc packag and is optim for heavi-duti server work. it contain
+all common server applic, and featur xml boot and script
+technolog that make it easi to configur and make the server work. 
+
+chang: the server packag have been updat to the newest possibl
+version and more server applic were ad. a sol-diskless system
+ha been ad, which provid a small server oper and educ
+system; it wa made for quick and easi hardwar diagnosi, rescu of
+broken linux instal, and benchmark. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/sol/
+
+                        - %  - %  - % - % -
+
+[079] - sharp tool spreadsheet 1.4 (stabl)
+  by hua zhong (http://freshmeat.net/user/huaz/)
+  tuesdai, juli 30th 2002 05:49
+
+offic/busi :: financi :: spreadsheet
+
+about: sharp tool is a spreadsheet written in java. it featur full
+formula support (nest function, auto-updat, and rel/absolut
+address), a file format compat with other spreadsheet, print
+support, undo/redo, a clipboard, sort, data exchang with excel,
+histogram gener, and a built-in help system. 
+
+chang: it is now compat with jdk 1.4, and the row and column
+insert bug were fix, along with some other problem.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/sharptool/
+
+                        - %  - %  - % - % -
+
+[080] - simpl tcp re-engin tool 0.8.0 
+  by rémi deni-courmont (http://freshmeat.net/user/rdenisc/)
+  tuesdai, juli 30th 2002 13:05
+
+system :: network :: monitor
+util
+
+about: simpl tcp re-engin tool monitor and analyz data
+transmit between a client and a server via a tcp connect. it focus
+on the data stream (softwar layer), not on the lower level transmiss
+protocol (as packet sniffer do). 
+
+chang: a differ log file format, support for multipl subsequ
+connect, gettext support (french translat avail), variou
+bugfix, out-of-band data inlin, and session length limit. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/tcpreen/
+
+                        - %  - %  - % - % -
+
+[081] - simplefirewal 0.7-2 
+  by lui wong (http://freshmeat.net/user/lwong/)
+  tuesdai, juli 30th 2002 12:59
+
+document
+internet :: proxi server
+internet :: www/http :: dynam content :: cgi tool/librari
+
+about: simpl firewal is a easi tool for administr of user and
+access control. it us iptabl for packet filter, and save rule
+with xml. it can be run in bash and over the web via webmin.  
+
+chang: a dynam transpar proxi, and a fix for ip detect in
+interfac. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/simplefirewal/
+
+                        - %  - %  - % - % -
+
+[082] - skaburn 0.1 
+  by skaboi (http://freshmeat.net/user/lucaogniben/)
+  tuesdai, juli 30th 2002 18:37
+
+system :: archiv :: backup
+
+about: skaburn is a perl frontend to cdrecord/cdda2wav/normal/sox and
+more, aim to make audio cd from list of file, an xmm playlist, anoth
+audio cd, or anoth sourc. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/skaburn/
+
+                        - %  - %  - % - % -
+
+[083] - station locat and inform 1.2 
+  by john kodi (http://freshmeat.net/user/kodi/)
+  tuesdai, juli 30th 2002 10:48
+
+commun :: ham radio
+
+about: the station-info program search for and displai am, fm, and tv
+station entri from databas suppli by the us feder commun
+commiss (fcc). it provid mani wai of select a collect of
+station for displai, and sever criteria by which these station can be
+sort. detail inform on each station is avail, includ an
+antenna radiat pattern, ownership inform, and whatev els seem
+us.  
+
+chang: thi releas add correct displai of antenna pattern
+(previous, thei were shown rotat, revers, and upsid down). it also
+add a compass rose and the station callsign to the antenna pattern
+displai. it accept station callsign as locat specif. it
+avoid try to draw in detail window that have been close. all the
+cdb and .loc file have been move to $pkgdatadir (by default,
+/usr/local/share/station-info/). 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/station-info/
+
+                        - %  - %  - % - % -
+
+[084] - sylphe 0.8.1claw (claw)
+  by paul mangan (http://freshmeat.net/user/dawb/)
+  tuesdai, juli 30th 2002 18:38
+
+commun :: email :: email client (mua)
+
+about: sylphe is a gtk+ base, lightweight, and fast email client.
+almost all command ar access with the keyboard. it also ha mani
+featur such as multipl account, pop3/apop support, thread displai, and
+multipart mime. on of sylphe's futur goal is to be fulli
+internation. the messag ar manag in the mh format, so you'll be
+abl to us it togeth with anoth mailer that us the mh format. 
+
+chang: thi releas fix the imap slowdown, plug sever memori leak,
+add a script to enabl send document as attach from
+openoffic.org, and contain more improv and bugfix. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/sylphe/
+
+                        - %  - %  - % - % -
+
+[085] - sympol 1.3 
+  by ralusp (http://freshmeat.net/user/ralusp/)
+  tuesdai, juli 30th 2002 18:05
+
+internet :: www/http :: dynam content
+
+about: sympol is a customiz vote booth system. it is written us
+php and requir access to a mysql databas. ani number of poll mai exist
+concurr. individu poll can easili be embed into ani php or
+shtml webpag. creation and modif of poll is made extrem easi
+through a web-base administr page. sympol can prevent user from
+vote multipl time by us cooki, ip log, or both.
+
+chang: thi version fix an import secur vulner that wa
+introduc in sympol 1.2. there ar also sever other bugfix and minor
+featur addit. 
+
+licens: the apach licens
+
+url: http://freshmeat.net/project/sympol/
+
+                        - %  - %  - % - % -
+
+[086] - the big dumb finger daemon 0.9.5 
+  by lebbeou weeklei (http://freshmeat.net/user/lweeklei/)
+  tuesdai, juli 30th 2002 03:53
+
+internet :: finger
+
+about: the big dumb finger daemon is a  replac fingerd for linux with
+new  featur and extens configur. it give  the administr
+mani option without allow  an individu user to total compromis
+the  inform given out about them. some of the  new featur enhanc
+user secur and  privaci. the daemon is meant to run  standalon, but
+will run in inetd mode as well.
+
+chang: the .plan, .project, .nofing, and other associ file can be
+store in a common directori and read by bdfingerd, run suid nobodi.
+thi allow user to have .plan file without give ani permiss to
+their home directori.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/bdfingerd/
+
+                        - %  - %  - % - % -
+
+[087] - the parma polyhedra librari 0.4.1 
+  by roberto bagnara (http://freshmeat.net/user/bagnara/)
+  tuesdai, juli 30th 2002 12:46
+
+scientif/engin :: mathemat
+
+about: the parma polyhedra librari is user friendli, fulli  dynam,
+written in standard c++, except-safe,  effici, and thoroughli
+document. 
+
+chang: fix were made for a bug in
+polyhedron::poli_differ_assign(const polyhedron& y) wherebi the
+equal constraint of `y' were ignor, a bug in
+polyhedron::oper=(const polyhedron& y) that should onli affect
+version obtain with the `--enabl-assert' configur flag, a bug
+in polyhedron::check_univers() which wa return the wrong result when
+call on a zero-dim univers polyhedron, and a bug in
+nnc_polyhedron::nnc_polyhedron(consi& cs) that should onli affect
+version obtain with the `--enabl-assert' configur flag.  
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/ppl/
+
+                        - %  - %  - % - % -
+
+[088] - the tamber project 1.0.6 
+  by tamber (http://freshmeat.net/user/tamber/)
+  tuesdai, juli 30th 2002 13:18
+
+internet :: www/http :: dynam content :: cgi tool/librari
+
+about: the tamber project is a component n-tier web site engin that
+us open languag such as xml and javascript. content is store in
+separ xml file, in databas, or other data object. busi
+function ar carri out by javascript and asp. present is
+control by an xsl transform, which allow for deliveri over
+multipl channel such as html, wap, and mheg. current, tamber can
+deliv to html and wap, and contain modul that support e-commerc
+shop cart, secur sign in, data access and convers servic, and
+advanc session manag.  
+
+chang: a fix for an ms ie sign-in bug. 
+
+licens: gnu lesser gener public licens (lgpl)
+
+url: http://freshmeat.net/project/tamber/
+
+                        - %  - %  - % - % -
+
+[089] - trackbox 0.4 
+  by thread (http://freshmeat.net/user/threadbean/)
+  tuesdai, juli 30th 2002 17:16
+
+multimedia :: sound/audio :: player
+
+about: trackbox is a pure perl music server. a trackbox client can connect
+to the server, and issu command to it. the server maintain a singl
+playlist, volum set, etc. that can be modifi remot by connect
+client. ani file format for which there is a commandlin player is
+support, and it ha a veri simpl config file. on possibl applic
+could be a lan parti in which everybodi would like to influenc the music
+select. 
+
+chang: thi releas ha playlist save/restor support, a 'move' command
+(playlist order), the abil to set the initi plai/shuffl/random flag
+set (and start the server in your init script), and some other minor
+featur/chang. there ar some client under develop.
+
+licens: artist licens
+
+url: http://freshmeat.net/project/trackbox/
+
+                        - %  - %  - % - % -
+
+[090] - tui-sh 1.2.0 
+  by yeupou (http://freshmeat.net/user/mathieur/)
+  tuesdai, juli 30th 2002 10:13
+
+util
+
+about: tui-sh stand for text user interfac in a shell, and is a packag
+of miscellan script which ar us for a varieti of purpos. thei
+ar all design to be faster and easier to us than the command line that
+would normal be requir to accomplish the same task. for exampl, there
+ar script for mass convers of wav file to ogg file and ogg file to
+wav file, for convert latex to postscript and view the output in
+ggv, for creat imag thumbnail, for convert from the euro to
+anoth currenc, and for autom updat via ftp. 
+
+chang: thi releas featur usag of gettext for internation
+and getopt. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/tui-sh/
+
+                        - %  - %  - % - % -
+
+[091] - uvnc 0.0-2 
+  by adam dunkel (http://freshmeat.net/user/adamdunkel/)
+  tuesdai, juli 30th 2002 18:18
+
+softwar develop :: embed system
+system :: network
+
+about: uvnc is a veri small vnc server that can be run even on tini 8-bit
+microcontrol commonli found in small embed devic. with uvnc, such
+devic can have a network displai without the need for ani graphic
+hardwar or a comput screen. a demo server run on a commodor 64 is
+avail. 
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/uvnc/
+
+                        - %  - %  - % - % -
+
+[092] - valgrind 1.0.0 
+  by sigra (http://freshmeat.net/user/sigra/)
+  tuesdai, juli 30th 2002 23:04
+
+softwar develop :: test
+
+about: valgrind is a tool that help you find memori manag problem
+in program. when a program is run under valgrind's supervis, all read
+and write of memori ar check, and call to malloc/new/free/delet ar
+intercept. as a result, valgrind can detect problem such as us of
+uniniti memori, read/write of memori after it ha been freed,
+read/write off the end of malloc block, read/write
+inappropri area on the stack, memori leak in which pointer to
+malloc block ar lost forev, pass of uniniti and/or
+unaddress memori to system call, and mismatch us of malloc/new/new
+[] vs. free/delet/delet []. 
+
+chang: support for the x86 fldenv instruct, a fix for an obscur
+optimis bug caus failur like thi: "insan instruct 27: putfl
+%ecx", a fix for dy with bu error run program which mess with
+the x86 ac (align-check) flag, fix to make it compil and run on red
+hat "limbo" (7.3.92), a fix for a possibl assert failur have to do
+with free() when run cachegrind (not valgrind), and final manual
+adjust. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/valgrind/
+
+                        - %  - %  - % - % -
+
+[093] - vnc reflector 1.1.9 
+  by const kaplinski (http://freshmeat.net/user/const/)
+  tuesdai, juli 30th 2002 03:49
+
+educ
+system :: system administr
+
+about: vnc reflector is a special vnc server which act as a proxi
+between a real vnc server (a host) and a number of vnc client. it wa
+design to work effici with larg number of client. it can switch
+between differ host on the fly, preserv client connect. it
+support revers host-to-reflector connect, it can save host session
+on disk, and it also ha other uniqu featur.  
+
+chang: handl of host connect with differ desktop geometri
+wa improv, and support for dynam chang to desktop size wa
+implement. the abil to specifi neg displai number wa ad. a
+few other new featur were implement, and a number of bug were fix.
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/vnc-reflector/
+
+                        - %  - %  - % - % -
+
+[094] - vpopmail 5.3.8 (develop)
+  by kbo (http://freshmeat.net/user/kbo/)
+  tuesdai, juli 30th 2002 11:07
+
+commun :: email
+commun :: email :: mail transport agent
+commun :: email :: post-offic :: pop3
+
+about: vpopmail (vchkpw) is a collect of program and a librari to
+autom the creation and mainten of virtual domain email
+configur for qmail instal us either a singl uid/gid or
+ani valid uid/gid in /etc/passwd with a home directori. featur ar
+provid in the librari for other applic which need to maintain
+virtual domain email account. it support name or ip-base domain. it
+work with vqadmin, qmailadmin, vqregist, sqwebmail, and courier-imap.
+it support mysql, sybas, oracl, ldap, and file-base (djb constant
+databas) authent. it support smtp authent combin with
+the qmail-smtp-auth patch. it support user quota and roam user (smtp
+relai after pop authent). 
+
+chang: thi releas add on last patch for the vgetent problem,
+comment out the lseek definit for bsd user, replac the old
+qmail-pop3d-maildirquota patch with the qmail-maildir++ patch (which add
+maildir++ support not onli to qmail-pop3d, but also to qmail-local), and
+updat the document. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/vpopmail/
+
+                        - %  - %  - % - % -
+
+[095] - vstr string librari 0.9.9 
+  by nevyn (http://freshmeat.net/user/nevyn/)
+  tuesdai, juli 30th 2002 00:14
+
+softwar develop :: librari
+
+about: vstr is a string librari design for network commun, but
+applic in a number of other area. it work on the idea of separ
+node of inform, and work on the length/ptr model and not the
+termin model a la "c string". it can also do automat referenc
+for mmap() area of memori, and includ a portabl version of a
+printf-like function.
+
+chang: the vstr_export_buf() function now perform automat bound
+check in the same wai as vstr_export_cstr_buf(). vstr_sc_read_*() now
+work even if the vstr isn't configur to have an iovec cach. work on
+intern symbol hide ha been made, make the librari smaller and
+faster.
+
+licens: gnu lesser gener public licens (lgpl)
+
+url: http://freshmeat.net/project/vstr/
+
+                        - %  - %  - % - % -
+
+[096] - wallfir wfconvert 0.1.3 
+  by hervé eychenn (http://freshmeat.net/user/rv/)
+  tuesdai, juli 30th 2002 10:16
+
+secur
+system :: network :: firewal
+
+about: the goal of the wallfir project is to creat a veri gener and
+modular firewal applic base on netfilt or ani kind of
+low-level framework. wfconvert is a tool which import/translat rule
+from/to ani support firewal languag.
+
+chang: thi releas add support for servic "macro" in wallfir's
+nativ languag, a "disabl" flag for a rule, and mac address class
+handl. man page now instal properli, and the whole thing compil
+under g++-3.1. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/wfconvert/
+
+                        - %  - %  - % - % -
+
+[097] - wallfir wflog 0.0.5 
+  by hervé eychenn (http://freshmeat.net/user/rv/)
+  tuesdai, juli 30th 2002 10:35
+
+internet :: log analysi
+secur
+system :: log
+
+about: the goal of the wallfir project is to creat a veri gener and
+modular firewal applic base on netfilt or ani kind of
+low-level framework. wflog is a log analysi and report tool.
+
+chang: thi releas add a --strict-pars option and support for mac
+address. man page now instal properli, a seriou bug which could caus
+wflog to crash wa fix, and icmp code ar now pars properli with
+netfilt log. the whole thing compil under g++-3.1. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/wflog/
+
+                        - %  - %  - % - % -
+
+[098] - webcpp gtkgui 0.3.1 (gnome)
+  by jeffrei bakker (http://freshmeat.net/user/staeryatz/)
+  tuesdai, juli 30th 2002 13:20
+
+text process :: markup :: html
+
+about: webcpp gtkgui is a gtk+ gui for webcpp.
+
+chang: support for cg, clip, haskel, and tcl, code cleanup in
+callback.c, and an updat about box. webcpp 0.7.3 is now requir. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/webcppgui/
+
+                        - %  - %  - % - % -
+
+[099] - webdial 1.4 
+  by dietrich heis (http://freshmeat.net/user/dietrich/)
+  tuesdai, juli 30th 2002 10:49
+
+internet :: www/http
+
+about: webdial is a script to configur and start/stop wvdial, isdn, or
+adsl connect from a web browser, which is veri us when it run on
+a headless gatewai. it featur log function for ip, time connect, and
+traffic that wa transfer and receiv. you can us sever languag
+(english, german, french, spanish, italian, czech, and turkish). 
+
+chang: thi releas add better isdn support and some bugfix. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/webdial/
+
+                        - %  - %  - % - % -
+
+[100] - webfilemanag 0.972 (stabl)
+  by horsburgh (http://freshmeat.net/user/horsburg/)
+  tuesdai, juli 30th 2002 16:56
+
+desktop environ :: window manag
+internet :: www/http :: site manag
+
+about: filemanag is a secur (ssl), multi-user, and web- base program
+for file, directori, and remot  command manag. it is written in
+perl, for  linux and unix-like oper system. it displai  full
+directori inform; allow file view,  delet, renam,
+upload, download, etc.;  assist in directori navig; and can
+execut  ani command for which the user account ha  privileg.
+filemanag also come with a built-in  text editor for quick edit and
+file updat. 
+
+chang: a secur hole that allow author user to view ani file on
+the system ha been fix. the secur certif ha been extend.
+support ha been ad for 29 more os type. the find function now work
+for non-root, jail user. a new option control whether or not a user
+can "click" outsid their home directori tree. the allowrootus paramet
+can now disabl the 'root' user. a bug that prevent non-root, jail
+user from creat subdirectori, a "group" permiss access problem,
+and a bug in the "command line" box which prevent us the asterisk
+wildcard have all been fix.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/webfilemgr/
+
+                        - %  - %  - % - % -
+
+[101] - webjob 1.2.0 
+  by klayton monro (http://freshmeat.net/user/mavrik/)
+  tuesdai, juli 30th 2002 13:19
+
+secur
+system :: monitor
+system :: system administr
+
+about: webjob download a program over http/http and execut it in on
+unifi oper. the output, if ani, mai be direct to stdout/stderr or
+a web resourc. webjob mai be us in incid respons and intrus
+analysi as it provid a mechan to run known good diagnost program
+on a potenti compromis system. it can also support variou
+host-base monitor solut. 
+
+chang: under the hood, the project went through some signific
+restructur, primarili to make room for three new platform: nt/2k,
+cygwin, and maco x. the default instal directori ha chang for
+unix platform (it is now in /usr/local/integr). 
+
+licens: bsd licens
+
+url: http://freshmeat.net/project/webjob/
+
+                        - %  - %  - % - % -
+
+[102] - white_dune 0.20beta12 (develop)
+  by mufti (http://freshmeat.net/user/mufti22/)
+  tuesdai, juli 30th 2002 17:10
+
+game/entertain
+internet :: www/http
+multimedia :: graphic :: 3d model
+
+about: vrml97 (virtual realiti model languag) is the iso standard for
+displai 3d data over the web via browserplugin. it ha support for
+anim, realtim interact and multimedia (imag, movi, sound). dune
+can read vrml97 file, displai and let the user chang the
+scenegraph/field, and load and store x3d (next gener vrml xml
+format) file if configur to work with the nist.gov x3d translat. it
+also ha support for stereoscop view via "quadbuff"-capabl stereo
+visual. 
+
+chang: a crash when creat nurbssurfac ha been fix.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/whitedun/
+
+                        - %  - %  - % - % -
+
+[103] - widestudio 3.00.3 
+  by shun-ichi hirabayashi (http://freshmeat.net/user/hirabai/)
+  tuesdai, juli 30th 2002 23:03
+
+softwar develop :: build tool
+
+about: widestudio is a multi-platform integr develop environ
+for build window event-driven applic. it us it own
+independ class librari. automat sourc code gener is provid
+by the applic builder, which also provid project manag and
+automat makefil gener. widestudio can be us to develop
+applic on linux, solari, and window.
+
+chang: new function of distribut network comput and access the
+databas and comput graphic were ad. 
+
+licens: mit/x consortium licens
+
+url: http://freshmeat.net/project/widestudio/
+
+                        - %  - %  - % - % -
+
+[104] - wolfpack 12.8.7 (stabl)
+  by correa (http://freshmeat.net/user/correa/)
+  tuesdai, juli 30th 2002 10:50
+
+commun
+game/entertain :: multi-user dungeon (mud)
+game/entertain :: role-plai
+
+about: wolfpack is softwar for an ultima onlin mmorpg server. it
+featur a script languag and support both third dawn and t2a. you
+need ea's ultima onlin to plai on wolfpack server.
+
+chang: stabil ha been improv. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/wolfpack/
+
+                        - %  - %  - % - % -
+
+[105] - xmltype 0.5.1 (develop)
+  by jiri tobisek (http://freshmeat.net/user/tobich/)
+  tuesdai, juli 30th 2002 18:39
+
+text editor
+
+about: the goal of the xmltype project is to creat a consol-base editor
+of xml document-orient file in utf-8 encod. it is design from the
+begin for multilingu us, even for write bi-direct text
+(e.g. mix english and hebrew). the design focus on comfort and
+fast type of well-form xml document. thu xmltype is not meant to
+compet with advanc consol editor like emac or vim. for full
+function, xmltype requir utf-8 consol support. it is be
+develop under linux and for the ansi/vt-100 termin. 
+
+chang: thi releas fix an ugli i/o bug caus by previou bugfix. 
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/xmltype/
+
+                        - %  - %  - % - % -
+
+[106] - zina 0.9.1 
+  by ryan (http://freshmeat.net/user/pancak/)
+  tuesdai, juli 30th 2002 06:00
+
+internet :: www/http :: dynam content
+multimedia :: sound/audio :: player :: mp3
+
+about: zina is a graphic interfac to your mp3 collect,  a person
+jukebox, and an mp3 streamer. it is  similar to andromeda, but releas
+under the gnu  gener public licens.
+
+chang: vbr file info and tag support wa improv.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/zina/
+
+                        - %  - %  - % - % -
+
+[107] - zprommer 2002_07_29 
+  by zut (http://freshmeat.net/user/zut/)
+  tuesdai, juli 30th 2002 05:43
+
+
+
+about: zprommer is a program for drive the simpl,  afford e(e)prom
+programm from  www.batronix.com. it work under linux/i386  and is
+design to be easili extens for new  chip type.
+
+licens: gnu gener public licens (gpl)
+
+url: http://freshmeat.net/project/zprommer/
+
+
+
+--  . - .--- --. ------.-    - -----.---.--- .--.-...-.--- --- --
+
+
+_______________________________________________
+the freshmeat daili newslett
+to unsubscrib, send email to freshmeat-new-request@list.freshmeat.net
+or visit http://list.freshmeat.net/mailman/listinfo/freshmeat-new
+
+

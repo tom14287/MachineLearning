@@ -1,0 +1,28 @@
+re: correct wai to (re)compil a kernel on debian sidon thu, 8 apr 2010 10:40:46 -0400 (edt)
+stephen powel  wrote:
+
+...
+
+> it sound to me like you want to get pristin kernel sourc directli
+> from kernel.org and compil them and run them on a debian system.
+> i've never done that, but other tell me that thei do it.  of cours,
+> thi is not support by debian.  but why don't you just instal the
+
+i'm not sure that it's correct to sai that us kernel-packag to
+build and instal vanilla kernel sourc is "not support by debian".
+my understand is that the packag is suppos to work on ani kernel
+tree, not just debian's packag on.  perhap manoj will comment?
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100408110101.a6211079.celejar@csmine.org
+
+

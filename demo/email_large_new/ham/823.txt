@@ -1,0 +1,34 @@
+re: basic instal - which dvd?on 05/02/2010 11:41 pm, mark allum wrote:
+> on sun, mai 2, 2010 at 7:20 pm, mark allum  wrote:
+>>
+>> all you *need* is the debian instal and basic network, so the 
+>> netinst
+>> disc (or busi card disc) and internet will get you go. onc 
+>> you boot
+>> into a base system, apt will take care of you.
+>>
+>> so, yeah.  you have enough to get start.
+>
+>
+> also, when you get to the screen where you ar ask what type of
+> system to instal, unselect everyth.  then when you reboot, you
+> will have a veri veri basic bare system, which you can then build up
+> to your tast.
+>
+> scarletdown@csmine.org
+>
+>
+> [redirect back to debian user list]
+>
+>
+for a basic instal id just get the first cd iso and instal that. that 
+is assum you want a desktop. for just command line id get the 
+busi card size on.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bde4a55.6050707@csmine.org
+
+

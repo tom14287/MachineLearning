@@ -1,0 +1,27 @@
+re: back up lvm volumeson tue, 27 apr 2010 13:44:27 +0100
+chri davi  wrote:
+
+...
+
+> lvm provid a snapshot mode for thi kind of requir. it's not
+> stun but it's usual suffici.
+
+perhap usual, but in my us-case (and that of other) it's badli
+broken (i've mention thi elsewher in the thread, but i realli need
+to vent about thi badli document, frustrat mess:
+
+http://bug.debian.org/cgi-bin/bugreport.cgi?bug=549691
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100427171023.540fe533.celejar@csmine.org
+
+

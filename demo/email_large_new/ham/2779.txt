@@ -1,0 +1,24 @@
+re: how do i transfer file through multipl jump ssh connectionson 2010-04-08 20:48, kaicheng zhang wrote:
+> hi there,
+>     i have to ssh to a server a and then ssh to server b where i do my
+> job. therefor scp cannot work well when i want transfer file between
+> remot and host machin.
+>     i us securecrt in window, and it featur allow me to type "rz"
+> in the remot machin and select the file i would like to transfer in
+> a pop up window.
+>     i would like to switch to linux as my host enviorn which is
+> now debian sid. i am wonder is there ani tool for such multipl
+> jump of ssh connect file transfer?
+
+googl "scp multipl hop" return some interest link.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbe8fa3.3040800@cox.net
+
+

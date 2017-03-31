@@ -1,0 +1,12 @@
+re: iptabl..wtf???> what the heck happen thi afternoon??
+
+i don't know, but i'd start by make sure your interfac name and ip =
+address haven't chang for some reason.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/00b501cae7e9$09b7d800$1d278800$@net
+
+

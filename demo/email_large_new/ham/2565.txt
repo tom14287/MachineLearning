@@ -1,0 +1,22 @@
+connect to vpn serveri have to find out how to connect to a vpn server. i know noth about
+thi and have littl time to find out, becaus i need to get it work
+by saturdai!
+
+can anyon kindli tell me what packag(s) to instal and point me to a
+(prefer simpl) how-to?
+
+anthoni
+
+-- 
+anthoni campbel - ac@acampbel.org.uk 
+microsoft-free zone - us debian gnu/linux 
+http://www.acampbel.org.uk - sampl my ebook at
+http://www.smashword.com/profil/view/acampbel
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100414165940.gb7866@acampbel.org.uk
+
+

@@ -1,0 +1,72 @@
+re: cannot loginfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+on tue, apr 6, 2010 at 9:23 pm, steven crook wro=
+te:
+
+> on tuesdai 06 april 2010 19:31:19 smokejohn wrote:
+> > on tue, apr 6, 2010 at 7:57 pm, klau becker  wrote:
+> > > le mardi 06 avril 2010 18:35:51, john kapnogianni a =e9crit :
+> > > > hello there. i got a debian test instal and i current
+> cannot
+> > > > login in kde. i give my pass and instead of a proper kde session i
+> get
+> > > > kdm's login screen again. i haven't done ani upgrad but i did a
+> realli
+> > > > stupid thing: i hit the power button and turn the laptop off the ha=
+rd
+> > > > wai while it wa in suspend mode. i tri googl but it gave me n=
+o
+> > > > useful thing.
+> > > >
+> > > > the .xsession-error file in my home folder sai permiss deni.=
+ i
+> > > > check the permiss in /tmp and /var/tmp and everyth seem
+> fine.
+> > > > i also delet the .kde folder. login in as root and type startx
+> > > > open a kde session.
+> > > >
+> > > > ani idea?
+> > > >
+> > > > ps: i did the instruct describ in thi page:
+> > > > http://develop.skype.com/jira/brows/scl-510 in order to fix
+> skype
+> > > > on me 64-bit instal, but i don't think it ha someth to do
+> > > > with my problem. i think someth got wrong when i hit the power
+> > > > button. :(
+> > >
+> > > hi,
+> > >
+> > > perhap
+> > >
+> > > #chown -r john /home/john
+> > >
+> > > or ani usernam you us ?
+> > >
+> > > if thi doe'nt work, you can try to creat a new user and then cope
+> all
+> > > your
+> > > file to /home/new-user.
+> > >
+> > >
+> > > nope did not help. ad a new user did not fix anyth too. i trie=
+d
+> >
+> > login in a consol and then startx and i got some error about xkb not
+> > be abl to get initi. strang....  so the thing is that no us=
+r
+> > except the root can start a kde session.
+>
+> just for complet:
+>
+> check if there is enough space on your/the harddisk.
+>
+> steven
+>
+
+there is plenti of space. i think someth mess up the permiss caus
+the laptop wa in suspend mode when i repeatedli press the power button.
+so it ha to be my bad and not a bug or someth.
+
+j

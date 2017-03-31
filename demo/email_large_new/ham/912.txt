@@ -1,0 +1,33 @@
+re: re: switch from nv to nouveau in squeezeon 01/-10/-28163 02:59 pm, kelli clower wrote:
+ > i don't have nvidia myself, but tt should be a matter of instal 
+nouveau,
+ > and then chang the "driver" line in /etc/x11/xorg.conf from "nv" to
+ >   "nouveau"
+ > (or ad the line in the "devic" section if it doesn't exist).
+
+good old /etc/x11/xorg.conf. there isn't on on thi system. i us to 
+hate fiddl around with that file. the transit to other mean of 
+control video ha been fraught with peril for some, but a few fals 
+start with video configur on thi system under variou 
+distribut final convinc me that the voyag need to be undertaken.
+
+ > cheer,
+ > kelli clower
+
+mani thank for your respons.
+
+best,
+sam
+
+ps: i also sent thi messag from a differ e-mail account. i figur 
+i'd resend it to clear up ani question about who wa actual respond 
+to the thread. sorri about the dumb. too much swap of system 
+and info around thi place.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be9ad52.2060401@comcast.net
+
+

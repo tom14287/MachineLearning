@@ -1,0 +1,36 @@
+re: [razor-user] fw: intigr with qmailon tue, aug 13, 2002 at 09:44:33am -0500, michael j humphri wrote:
+> i sent thi messag alreadi and i am sorri if i am ask the wrong
+> question or if i have been ask stupid question but i am in an urgent
+> time when peopl ar us my servic to spam other and i need to stop
+> them quickli.
+
+sound like you're solv the wrong problem.  if untrust stranger
+ar relai spam through your qmail server, it's a fair bet that
+you've serious botch your qmail config (like forget to creat
+an rcpthost file or someth).
+
+anywai, if you insist on us razor to resolv thi problem, i
+would suggest toss qmail-scanner 
+and spamassassin  into the mix as well.
+the former provid the qmail-integr framework on which the latter
+doe it work (includ razor-check invoc).
+
+fair warn: it'll be far more resourc-intens than simpli deni
+relai privileg to everyon except the folk you trust.  to find
+out how to do that, go to  (which, incident,
+should be your first stop for all thing qmail) and search for "qmail
+newbi's guid to relai".
+
+- adrian
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: dice - the lead onlin job board
+for high-tech profession. search and appli for tech job todai!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

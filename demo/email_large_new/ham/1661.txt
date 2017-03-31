@@ -1,0 +1,32 @@
+re: [satalk] sa veri slow (hang?) on thi messag, or is it just me?urban boquist wrote:
+> if i run spamassassin on thi messag:
+> 
+>    http://www.boquist.net/stort-sup-brev
+> 
+> it seem to hang. memori usag goe up to 73mb and stai there. i have
+> let it run for an hour befor i kill it. thi wa on a
+> pentium-ii-366. ye, i know, a bit slow, but still...
+> 
+> can anyon els confirm thi hang? mayb i should just upgrad...
+
+don't run sa on mail thi larg. most peopl tend to ignor mail 
+larger than about 250k in spamassassin process, becaus it just kill 
+perform. there ar some known issu with the pars (such as the 
+html pars stuff which is much improv in 2.40 which we're soon to 
+releas), but noth that's too like to be fix by 2.40. perhap in 
+2.50 though.
+
+matt.
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

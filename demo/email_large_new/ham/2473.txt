@@ -1,0 +1,31 @@
+re: back up lvm volumeson 04/27/2010 02:51 pm, boyd stephen smith jr. wrote:
+[snip]
+>
+> for "normal" file oper, take an lvm snapshot of the mount filesystem
+> and then make your backup from that should be suffici.  thi should even
+> work for postgresql databas file (though, it is not optim).  mysql ha a
+> histori of be more flaki, but it might work there as well.
+>
+> if you snapshot a mount file system, the snapshot will be approxim
+> equival to the origin file system, uncleanli unmount at that exact
+> moment (think: power failur).  it's possibl to then take backup of an
+> activ system with no downtim (although i/o load will certainli go up dure
+> the backup).  if you mount the snapshot as part of the backup procedur, a
+> journal file system will want to replai the journal then.  otherwis, a
+> journal replai will be requir at restor time.  postgresql (etc.) will also
+> end up do a journal replai / recoveri at restor time.
+>
+
+a proper rdbm will have a hot-backup featur, so i'd still sai that 
+a file-onli backup is the wai to go.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd96c86.3060301@cox.net
+
+

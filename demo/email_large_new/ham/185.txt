@@ -1,0 +1,43 @@
+daniel berling ha notic that mac softwar shop ar start
+    to move turl: http://www.joelonsoftwar.com/new/20020910.html
+date: not suppli
+
+daniel berling ha notic[1] that mac softwar shop ar start to move to 
+os x-onli develop. thi make sens, for two reason. first, most peopl 
+who pai for softwar have new comput. so while os x mai onli have a small 
+fraction of the instal base, it ha the major of the popul of peopl 
+who ar open their wallet. second, if os x isn't success, the mac is _
+over_. it's not like system 9 is get ani more popular. 
+
+then again, there ar veri few condit under which it is actual the right 
+busi decis to develop softwar for the macintosh. develop for the mac 
+is not a whole lot differ than creat a web site _that onli work on 
+netscap_. (given the market share of mac[2] (about 3.5%) and the market share 
+of netscap[3] (about 3.4%), that is not a silli comparison.) 
+
+robb beal wrote[4]: "try thi test. go to a ventur firm, angel, or big compani 
+with a mac os x product/concept/prototyp. do thei consid the fact that it's 
+a mac applic a net plu? (no.)" well _duh_. your product would have to 
+appeal to _25 time more mac _user_ _[as a percentag] than window user just 
+to break even. in other word, if your window product appeal to 1 in 100 
+window user, you have to appeal to 25 in 100 mac user to make the same 
+amount of monei. 
+
+now, you mai want to make an _emot_ appeal to develop for the mac. 
+that's fine. if you like mac and you're do it for fun, more power to ya. 
+
+but as long as we're talk _invest_, you have to tell me why you're go 
+to get 25 time as mani user. mayb there's less competit in your categori 
+on the mac; mayb you're in a nich like graphic where it seem like mac 
+domin (thei don't, it just seem that wai becaus the elit graphic peopl 
+in big american citi us mac); mayb your product can't sell to mix 
+environ unless it run everywher. but if you want to make an invest 
+in mac softwar be prepar to demonstr how you're go to overcom that 
+magic 25 multipli.
+
+[1] http://archipelago.phrasewis.com/2002/09/10
+[2] http://maccentr.macworld.com/new/0207/03.marketshar.php
+[3] http://websidestori.com/cgi-bin/wss.cgi?corpor&new;&press;_1_193
+[4] http://radio.weblog.com/0001123/2002/04/10.html
+
+

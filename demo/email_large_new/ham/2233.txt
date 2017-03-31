@@ -1,0 +1,26 @@
+re: how to migrat my localhost php site to my isp - wa: will
+ to learn php basicson sat, apr 17 at 17:02, joe pen:
+> 
+> in order to achiev thi, you need write access to that directori
+> tree abov apach's docroot, with the abil to set permiss
+> correctli. from what you sai, it doe not seem that you have that
+> with your current isp. you would seem to need to spend some monei,
+> even befor you ar sure you will have the access you need.
+
+there ar a few differ wai to deal with not expos your password
+to the world, but on thing i do want to note: in a host situat,
+you should have a user home directori in addit to the directori for
+your websit.  if you need a file to be inaccess from the web, you
+can just put it in your home directori.  there's no need for root
+level permiss.
+
+-- 
+moniqu
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100418041457.ga20950@mail.bounceswoosh.org
+
+

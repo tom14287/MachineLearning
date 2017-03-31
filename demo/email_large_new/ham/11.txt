@@ -1,0 +1,22 @@
+re: re (7): xorg-server fail on ibm netvista with intel 82815
+ videofrom nobodi sun sep 18 20:45:27 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on fri,21.mai.10, 12:22:22, peasthop@shaw.ca wrote:
+> from:	andrei popescu 
+> date:	fri, 21 mai 2010 22:03:19 +0300
+> > # echo 'apt::default-releas "squeez";' >> /etc/apt/apt.conf
+>=20
+> somehow i had the impress that the order of the=20
+> sourc would priorit them.
+
+ye (or at least that's what the manpag sai), but onli when you have=20
+the same version of a packag.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

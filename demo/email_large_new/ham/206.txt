@@ -1,0 +1,39 @@
+re: gforc 9400camalón wrote:
+> on sat, 10 apr 2010 12:25:32 +0200, steef wrote:
+>
+>    
+>> camalón wrote:
+>>      
+> (...)
+>
+>    
+>> <.............>
+>>
+>> pleas! some further suggest??
+>>      
+> try to load "nv" driver and see what happen.
+>
+> greet,
+>
+>    
+............and that is what i did. kaffein is still give troubl 
+with mpeg4-file &&. so i load again the intel-driver. thi driver or 
+chip (x4500) is definit of better qualiti than the combin 
+geforc 9400 & and the nv-driver. my conclus: no hardwar-problem, 
+just a disastr by-effect of the latest nvidia-driver from their site 
+on the hardwar-combin (?)of my machin.
+
+so be it till anoth nvidia-driver will come up or anoth pci-express 
+card.
+
+thank you veri much, you all have illumin me!
+
+steef
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbff50c.8010308@home.nl
+
+

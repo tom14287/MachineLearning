@@ -1,0 +1,16 @@
+dvd paranoia?is there such a dvd app analog to cdparanoia?  or is it not 
+possibl due to the differ data, wav vs. mpeg?
+
+the issu is that i'm try to read some 2-3 year old "movi" 
+dvd-rs and thei're all at some point fail.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdb8feb.5060607@cox.net
+
+

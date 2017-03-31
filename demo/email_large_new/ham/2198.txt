@@ -1,0 +1,57 @@
+rgb balanc video effecti'm try to appli an rgb balanc effect 
+(krgbcolorbalanceimagefiltertyp) to a video track, and i just end up 
+with a movi that's solid black all the wai through.  i have work 
+code that us a cross-fade effect, and a lot of the code is the same. 
+i'm guess that the most like locat of the problem is in 
+construct the effect descript.  here's the code:
+
+	qtatomcontain	atomcont;
+	osstatu	err = qtnewatomcontain( &atomcont; );
+	throwifosstatu_( err );
+	
+	uint32		mylong = endianu32_ntob( krgbcolorbalanceimagefiltertyp );
+	err = qtinsertchild( atomcont, kparentatomiscontain,
+		kparameterwhatnam, kparameterwhatid, 0,
+		sizeof(mylong), &mylong;, null );
+	throwifosstatu_( err );
+
+	mylong = endianu32_ntob( insrcnam );
+	err = qtinsertchild( atomcont, kparentatomiscontain,
+		keffectsourcenam, 1, 0, sizeof(mylong), &mylong;, null );
+	throwifosstatu_( err );
+
+	fix		myfix;
+	myfix = endian32_ntob( floattofix( inredfactor ) );
+	err = qtinsertchild( atomcont, kparentatomiscontain,
+		'rmul', 1, 0, sizeof(myfix), &myfix;, null );
+	throwifosstatu_( err );
+	
+	myfix = endian32_ntob( floattofix( ingreenfactor ) );
+	err = qtinsertchild( atomcont, kparentatomiscontain,
+		'gmul', 1, 0, sizeof(myfix), &myfix;, null );
+	throwifosstatu_( err );
+	
+	myfix = endian32_ntob( floattofix( inbluefactor ) );
+	err = qtinsertchild( atomcont, kparentatomiscontain,
+		'bmul', 1, 0, sizeof(myfix), &myfix;, null );
+	throwifosstatu_( err );
+	
+	return atomcont;
+
+the doc sai that the 3 paramet can be tween, so i thought, well, 
+mayb thei must be tween, but i had no better luck when i tri make 
+them tween.
+
+ani idea what i could be do wrong?  or ani suggest on how to 
+debug it?
+-- 
+   jame w. walker, innovent softwar llc
+   
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

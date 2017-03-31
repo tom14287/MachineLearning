@@ -1,0 +1,38 @@
+re: how to activ canberyon wed, 21 apr 2010 10:14:45 +0100, abdelkad belahcen wrote:
+
+> hi,
+
+pleas, keep quot when repli e-mail to avoid mess the 
+content :-)
+
+> i suppos so,  sinc i hear  sound and can plai music ?  or  it is
+> anoth thing ?
+
+afaik, it's anoth thing as i have disabl my system sound but still 
+can hear ani other music :-)
+
+> otherwis  how to enabl "system sound" thank for help
+> bela
+
+in lenni, go to "menu / system / prefer / sound" and open "sound" 
+tab. there you can enabl system sound.
+
+if you ar run squeez, take a read into thi thread:
+
+***
+no gnome system sound in squeez
+http://list.debian.org/debian-user/2010/01/msg02369.html
+***
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.21.09.59.34@csmine.org
+
+

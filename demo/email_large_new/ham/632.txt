@@ -1,0 +1,45 @@
+[ilug] re: c++ and c mail list for beginn and advanceddavid neari state the follow:
+> 
+> solocdm wrote:
+> 
+> > ar there ani mail list (non-newsgroup) for c++ and c beginn
+> > and advanc programm?
+> 
+> try the follow newsgroup - beginn: new:comp.lang.learn.c-c++
+
+i tri new:comp.lang.learn.c-c++ and it wouldn't work.  is there a
+typo?
+
+> more advanc: new:comp.lang.c new:comp.lang.c++
+> new:comp.lang.c.moder
+> 
+> also, you should keep a bookmark point at the comp.lang.c faq at
+> http://www.eskimo.com/~sc/c-faq/top.html
+> 
+> for tutori, the gui who maintain the clc faq (steve summit) ha
+> a tutori - http://www.eskimo.com/~sc/cclass/note/top.html also
+> you could have a look at the excercis he pose - all link from
+> http://www.eskimo.com/~sc/cclass/cclass.html
+> 
+> for c++, i would guess that the comp.lang.c++ faq is a good place to
+> start - thei're like to have link to suggest read materi.
+> 
+> if you're go to do ani amount of c program, you should
+> think about get k&r2; (the c program languag, 2nd edit,
+> by kernighan and ritchi), for c++ the equival book is
+> stroustrup. although the c++ book is a lot bigger :)
+
+-- 
+note: when you repli to thi messag, pleas includ the mail
+      list and/or newsgroup address and my email address in to:
+
+*********************************************************************
+sign,
+solocdm
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

@@ -1,0 +1,17 @@
+re: java is for kiddieson sun, 1 sep 2002, mr. fork wrote:
+
+> > 6.  hardwar is get so fast that i'm not sure if the perform
+> > differ between java and c/c++ ar relev ani more.
+>
+> when out-of-the-box pars & transform of xml in java is 25x slower than
+> c++ on the same hardwar then it doe matter.
+
+yea, and that on top of the 100x of all the pars engin over just
+bigendian'ing it and pass the data (5x+++) in the raw. then it realli
+matter.
+
+- adam l. "duncan" beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.com
+
+

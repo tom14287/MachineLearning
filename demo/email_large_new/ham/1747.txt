@@ -1,0 +1,29 @@
+re: automount problem.on tue, mai 11, 2010 at 10:54:47pm -0700, marc shapiro wrote:
+> i am now slap myself on the head for be so stupid!  automount is 
+> work just fine, and ha been all along.  automount doe it thing as 
+> soon as a devic is access, not plug in.  i wa plug the flash 
+> drive in and look in /mnt to see if thei were show up.  the 
+> weren't.  the weren't suppos to, either.  as soon as i execut "ls 
+> /mnt/lexar" lo and behold, there wa the list and everyth wa 
+> work just fine.
+> 
+> i think i'll slap myself on the head, again.
+
+not so fast! :) how ar you suppos to access them if you don't know
+what thei will be label as?
+
+what doe "ls /mnt/" do?
+
+ar you suppos to carri round a scrap of paper with the mount label
+written down?
+
+-- 
+chri.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100512095518.gc18235@fischer
+
+

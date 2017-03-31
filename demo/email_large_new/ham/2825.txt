@@ -1,0 +1,36 @@
+re: ad 192.x with static ipon 04/05/10 16:17, ron johnson wrote:
+> on 05/04/2010 09:11 am, joe wrote:
+> [snip]
+>>
+>>> is there a wai i can setup devic such as thi without need to run
+>>> dhcp?
+>>
+>> not initi. what you do is to set a workstat to accept dhcp,
+>> connect it to the router, then us the web interfac to disabl dhcp and
+>> set the fix ip address you want the router to us.
+>
+> or just, within /etc/network/interfac, give yourself the static
+> address 192.168.1.2.
+>
+
+inde so, in thi case. in the gener case, it might be quicker to 
+enabl dhcp than to find out what network the router reset to. usual 
+192.168.0. or 192.168.1., but not alwai.
+
+in the dai befor internet dongl, the onli net connect avail 
+wa usual the on on the other side of an appar non-function 
+router, and the custom had no idea where the book/cd wa.
+
+and to be honest, i normal run xp on my laptop, and it's just tick 
+or untick a box. window ha move on, no reboot necessari... i can 
+rememb need the instal cd to chang ip address on 95/98.
+-- 
+joe
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be04458.7060108@jretrad.com
+
+

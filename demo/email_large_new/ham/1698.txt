@@ -1,0 +1,90 @@
+isight - setframeratehi all,
+
+with respect to my problem that the video callback is trigger more =
+often than i want to (see below) i had a guess that it is relat to the =
+devic frame rate. in that context i tri to set the frame rate of my =
+inbuilt isight to 1 and sggetframer did confirm thi:=20
+
+  err =3d sgsetframer(videodata->sgchanvideo,inttofix(1));
+  fix *framer;
+  sggetframer(videodata->sgchanvideo,framer);
+  int rate =3d fixedtoint(*framer);
+  cout << "framer: " << rate << endl;  //// plot 1 when execut
+
+howev, when i execut the app the frame size is much higher (i guess =
+30 fp or more). i saw an older post from 2007, which dealt with the =
+same problem of not be abl to set the inbuilt ichat frame rate but =
+nobodi repli. doe anyon have a guess how to approach thi problem ?
+
+thank in advanc
+
+-- a l e x
+
+
+***********************************
+hi all,
+
+i have a thread, which trigger the sgidl call accord to my desir =
+frame rate:
+
+void video::run(){
+ while (run){
+   sj->dfc->videoblock->lock();
+   sj->dfc->videowait->wait(sj->dfc->videoblock);
+
+   err =3d sgidl(videodata->seqgrab);
+   usleep(1000000/1);   //// framer
+
+   sj->dfc->videoblock->unlock();
+ }
+}
+
+in thi exampl the thread wait for 1 second befor execut the next =
+time, which result in a frame rate of 1 fp. howev, i discov some =
+ strang system behavior, which forc me to verifi if thi is realli =
+the case: i appli a time measur between each data proc function =
+call and in fact it is execut 4 more time in between in approx. 250 =
+microsecond interv. in the follow i have plot the measur =
+interv time in ms:
+
+1000.38
+0.026
+0.023
+0.024
+0.027
+1002.55
+0.025
+0.026
+0.022
+0.021
+1002.61
+0.026
+0.021
+0.02
+0.024
+1002.54
+0.026
+0.023
+0.024
+0.02
+1000.18
+0.026
+0.137
+0.025
+0.024
+
+etc .... and so forth. thi is actual not happen when i resid =
+abov a framer of 25 fp. can anyon tell me why thi is happen =
+and how i can prevent thi to happen ?=20
+
+thank a lot in advanc, best
+
+-- a l e x
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

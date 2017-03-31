@@ -1,0 +1,30 @@
+[sadev] [bug 839] mailbox corrupt not fix with procmail 3.22http://www.hugh-famili.org/bugzilla/show_bug.cgi?id=839
+
+
+
+
+
+------- addit comment from alan@rdrop.com  2002-09-05 22:22 -------
+i haven't tri 2.41 yet becaus it requir file::spec, which barf when
+spamassassin tri to us it.  i haven't file a bug yet becaus i suspect it's
+becaus i'm still run 5.005 perl becaus of report compat issu
+with 5.6 and later, but i probabl will becaus i think there's too much legaci
+perl code to put up with major compat problem, and spamassassin didn't,
+at least in the quickest of look, sai it need a newer on.  the perl @ stuff
+wa bad enough...  but thi is all a separ soapbox...
+
+
+
+------- you ar receiv thi mail becaus: -------
+you ar the assigne for the bug, or ar watch the assigne.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-devel mail list
+spamassassin-devel@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-devel
+

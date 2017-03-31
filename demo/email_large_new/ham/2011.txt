@@ -1,0 +1,36 @@
+re: epiphani browser continu to get wors and worseon 4/19/2010 9:46 pm, mark allum wrote:
+> on 4/19/2010 9:00 pm, stephen powel wrote:
+>> on mon, 19 apr 2010 21:01:41 -0400 (edt), andrew malcolmson wrote:
+>>> couldn't sai why thei switch, but i find page in epiphani 2.29 in
+>>> squeez look vivid compar with the gecko version.
+>>
+>> i have switch back and forth between epiphani and iceweasel sever
+>> time, on the same comput and monitor, and i have not notic ani
+>> differ in imag qualiti between iceweasel, which is base on
+>> gecko (xulrunn-1.9.1) and epiphani-browser, which is base on webkit
+>> (libwebkit-1.0-2).
+>>
+>
+> on word: chrome.
+>
+>
+>
+
+
+sorri.  i had an aneurysm, and didn't sai what i meant, what with all 
+the blood distract me, and everyth.  disregard.
+
+never mind, carri on...
+
+
+maa
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bcd177c.6040200@allum.com
+
+

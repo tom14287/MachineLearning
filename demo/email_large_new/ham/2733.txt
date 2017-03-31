@@ -1,0 +1,22 @@
+re: [ilug] cdrecord + 2.4.19 = hard-lockon 0020 +0100 %{!sat, aug 10, 2002 at 12:11:50pm +0100}, frlinux wrote:
+> hello,
+> 
+> i have been us 2.4.19 sinc a coupl of dai on a mandrak 8.2 with
+> standard rpm for cdrecord and it didn't give ani hard lock on it at
+> all, i've alreadi burnt a coupl of cd.
+thank for that.  i'd sort of suspect that if it wa a widespread
+problem it would have alreadi been fix.  start to look more like
+it is a mistak/misconfigur on my part, though i still don't know
+where to look for the mistak/misconfigur.
+m
+
+-- 
+michael conri   ph.:+353-1-7161987, web: http://www.acronymchil.com
+kei fingerprint = 5508 b563 6791 5c84 a947  cb01 997b 3598 09de 502c
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

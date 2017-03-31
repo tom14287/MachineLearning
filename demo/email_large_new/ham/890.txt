@@ -1,0 +1,39 @@
+[us perl] stori for 2002-09-14us perl daili newslett
+
+in thi issu:
+    * "perl 6: right here, right now" slide ava
+
++--------------------------------------------------------------------+
+| "perl 6: right here, right now" slide ava                         |
+|   post by gnat on fridai septemb 13, @12:01 (new)             |
+|   http://us.perl.org/articl.pl?sid=02/09/13/162209               |
++--------------------------------------------------------------------+
+
+[0]gnat write "the wonder leon brocard ha releas the slide from
+hi lightn talk to the london perlmong, [1]perl 6: right here,
+right now, show the current perl6 compil in action."
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/09/13/162209
+
+link:
+    0. mailto:gnat@oreilli.com
+    1. http://astrai.com/perl6_now/
+
+
+
+copyright 1997-2002 pudg.  all right reserv.
+
+
+======================================================================
+
+you have receiv thi messag becaus you subscrib to it
+on us perl.  to stop receiv thi and other
+messag from us perl, or to add more messag
+or chang your prefer, pleas go to your user page.
+
+	http://us.perl.org/my/messag/
+
+you can log in and chang your prefer from there.
+
+

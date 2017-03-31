@@ -1,0 +1,36 @@
+re: [sadev] spam ad to regular emailon mon, 22 jul 2002 the voic made marc perkel write:
+
+> i've been work on ad low score spam messag to my spam corpu
+> which mean i'm tap email that score 5-18 point now and hand
+> sort it. some of these messag ar newslett and other mail that's
+> not spam - but thei contain an ad for someth that is spam.
+>
+> so - i don't see how i can classifi these messag becaus catch spam
+> within a newslett or yahoo messag is not a fals posit.
+
+ i don't realli see the problem... either the whole messag is unwant spam
+which you, on wai or anoth, didn't agre to reciv, or it's someth that
+you, on wai or anoth, said that you'd accept... if you said you'd accept it,
+like mailinglist, then it isn't spam and shouldn't be caught as spam, no
+matter if there's ad in it or not...
+
+
+	/toni
+-- 
+# per scientiam ad libertatem! // through knowledg toward freedom! #
+# genom kunskap mot frihet! =*= (c) 1999-2002 toni@svanstrom.com =*= #
+
+    perl -e'print$_{$_} for sort%_=`lynx -sourc svanstrom.com/t`'
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-devel mail list
+spamassassin-devel@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-devel
+
+

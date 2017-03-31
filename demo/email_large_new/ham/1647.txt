@@ -1,0 +1,79 @@
+re: fwd: re: kde 3.5 ...on 8 mai 2010 22:35, consul tore  wrote:
+> 2010/5/8 dotan cohen :
+>> on 8 mai 2010 15:32, consul tore  wrote:
+>>> the window ar absolut useless, i can not
+>>> us mani, thei have all kind of useless inform;
+>
+>> what useless inform? i'd like to fix that if you will be more specif.
+>
+> who ar you figur out you ar, man?
+>
+
+a kde contributor who is try to help make kde suitabl for you. if
+you do not appreci that then i can just buzz right off, no hard
+feel.
+
+
+>>> the menu, need 3
+>>> time more click than 3.5;
+>
+>> can you be more specif? ar you refer to kmenu?
+>
+> if thi were a kde list, i could take you serious, but it is not!
+>
+
+the go ahead and post to kde@mail.kde.org or
+debian-kde@list.debian.org, i'm subscrib to both.
+
+
+>>> the time to be readi to us is 5
+>>> time than 3.5;
+>
+>> do you mean the load time of the desktop? i do agre that it take a
+>> long time (and the start akonaki take even longer!), but i do not
+>> rememb kde 3 start so fast either. the new gnome start in
+>> second!
+>
+> as i said befor! thi is a debian list!
+
+wow, sorri for try to help.
+
+
+>>> in my case, kde 4.x indic me when is time to chang desktop, i am
+>>> go to stai with 3.5 still support finish, and then to test other
+>>> desktop which follow the kiss principl. jo, jo, jo.
+>
+>> when you do that, pleas mail me (privat or on list with cc to me
+>> privat) to let me know what featur other desktop have that you
+>> like. i'd like to incorpor them into kde. thank. i highli
+>> recommend test gnome shell, which will be gnome 3. a lot of peopl
+>> ar veri happi with it. ion and enlighten ar popular too, each
+>> for their own reason. xfce and the boxen might be a littl lack if
+>> you ar us to kde 3.
+>>
+>> --
+>> dotan cohen
+>
+> who ar you in realiti? do you realli think that i am go to obei your order?
+>
+
+order? i ask what problem you have, so that i can fix them. you
+don't even have to file a bug, i wa will to do that for you. go
+look at the bug that i've post in repli to other peopl' issu.
+go look at who is file them. oh, sorri, you might take that as an
+order and get offend.
+
+
+-- 
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktikbibu6r8olmtazfxtom3revmz_eoudf1lebcfz@mail.csmine.org
+
+

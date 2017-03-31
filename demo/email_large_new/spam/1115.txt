@@ -1,0 +1,213 @@
+[spam]  video problem
+
+updat: high qualiti, low cost
+
+
+<!--
+bodi {
+margin: 0px;
+}
+bodi,
+p,
+td {
+font: normal 12px arial, helvetica, san-serif;
+color: #000000;
+}
+p {
+margin: 0 0 10px 0;
+
+}
+h6 {
+pad-bottom: 4px;
+}
+ul, ol {
+margin: 0px;
+pad: 0px;
+}
+rightcol p {
+margin: 0 0 5px 0;
+}
+rightcol,
+rightcol a,
+rightcol p,
+rightcol td {
+font-famili: arial, helvetica, san-serif;
+font-size: 12px;
+}
+rightcol .adright {
+border: none;
+}
+adright a {
+font-famili: arial, helvetica, san-serif;
+font-weight: bold;
+font-size: 13px;
+color: #006699;
+}
+
+a {
+color: #006699;
+font-weight: normal;
+text-decor: none;
+}
+adsect a, .adarticl a, .adtop a {
+color: #006699;
+font-weight: bold;
+text-decor: none;
+font-size: 14px;
+}
+a:hover {
+text-decor: underlin;
+}
+
+
+/* most toc style inlin */
+toc li a:hover {
+text-decor: underlin;
+color: #ffffff;
+}
+
+/* headlin style ar inlin*/
+
+p.articl,
+p.more {
+margin-right: 15px;
+}
+more a {
+color: #0099cc;
+}
+
+safesend td {
+color: #000000;
+font-size: 12px;
+}
+safesend td a {
+text-decor: none;
+}
+safesend td a:hover {
+text-decor: underlin;
+}
+sponsor li {
+margin-left: 15px;
+pad-left: 5px;
+border-bottom: 1px solid #e0e0e0;
+line-height: 16px;
+}
+sponsor a {
+font-famili: arial, helvetica, san-serif;
+font-size: 13px;
+font-weight: bold;
+}
+
+a img {
+border: none;
+}
+rightcol p {
+pad-bottom: 10px;
+}
+
+option a {
+font-size: 11px;
+color: #ffffff;
+font-weight: bold;
+}
+footer td,
+footer p,
+footer {
+font-size: 12px;
+}
+footer a {
+font-weight: normal;
+}
+footer p {
+margin: 0 0 10px 0;
+}
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+			 
+
+
+
+in the octob 1, 2009 issu:
+
+
+
+
+
+
+
+new
+
+
+
+
+
+
+
+
+									read the full articl
+
+
+
+
+
+
+
+
+
+
+subscrib  |  chang email address  |  onlin version  |  mobil version
+
+
+
+
+
+
+
+about our newslett
+to unsubscrib 
+					click here.
+ 
+ to subscrib, visit our e-newslett subscript center at
+
+thi link
+
+ read the 
+penton media privaci polici. 
+penton media | 249 w. 17th street | new york, ny 10011
+
+copyright 2009, penton media. all right reserv. thi articl is protect by
+unit state copyright and other intellectu properti law and mai not be
+reproduc, rewritten, distribut, re-dissemin, transmit, displai,
+publish or broadcast, directli or indirectli, in ani medium without the prior
+written permiss of penton media.
+
+
+
+
+
+
+
+
+
+
+
+

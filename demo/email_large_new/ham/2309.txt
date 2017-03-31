@@ -1,0 +1,28 @@
+re: where is what kontrol did?on 04/24/2010 03:20 pm, lisi wrote:
+> on saturdai 24 april 2010 20:10:51 hugo vanwoerkom wrote:
+>> but will puls audio make my konsol make a sound becaus that is the
+>> onli reason i would instal systemset.
+>
+> i'm fascin.  why do you _want_ your konsol to make a sound?
+>
+
+he might have practic reason...
+
+http://en.wikipedia.org/wiki/bell_charact
+     a bell code (sometim bell charact) is a devic control
+     code origin sent to ring a small electromechan bell
+     on ticker and other teleprint (remot printer) and
+     teletypewrit (such as teletyp, abbrevi tty) to
+     alert oper at the other end of the line, often of an
+     incom messag
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd37283.2070506@cox.net
+
+

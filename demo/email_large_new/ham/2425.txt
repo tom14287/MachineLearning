@@ -1,0 +1,134 @@
+re: shutdown problem -- cron job relat?>> at certain time, seem fridai noontim, i am unabl to shutdown the
+>> system. instead of the usual script to kill all process, unmount
+>> everyth and will now halt, goodbi, i get:
+>> 
+>>  process run pstree (or someth like that)
+>>  shutdown abort
+>> 
+>>  at thi point, the system (or at least ani consol or ui) is dead.
+>> 
+>>  what it thi?
+
+
+> just see which process is run pstree.
+> "ps -eaf | grep pstree"
+> you could find the parent pid of pstree (second column).
+> look at the parent of pstree, and the process start thi on.
+> if you go back that wai, final you will reach init, but befor that you
+> could find which system process start these process.
+i'll have to try it when i know the thing is run.
+
+> as i recal, pstree is not part of basic instal.
+> it wa put to do some script, regard found, in
+> perl/python?
+> my first bet would be to remov offens cron line and
+> shutdown normal. than to do filesystem check. next,
+> to set cron to us pstree as a regular user. i think that
+> shutdown wa done in some part, aka close network. what
+> ha to wait, hang the system.
+> otherwis, there is a chanc that some housekeep pro-
+> cess ar start at noon everi dai. you could alwai
+> look at /etc directori and find them. some unic have
+> it in /etc/period/daili. it start with #!/bin/sh.
+> anoth clue mai be in /var/log, as a result of newsyslog.conf.
+
+i have no /etc/period and no log for pstree
+
+i manual ran it (x11 variant) and thi is what i got:
+init-+-xprt
+     |-akonadi_control-+-akonadi_ical_re
+     |                 |-8*[akonadi_kabc_re]
+     |                 |-4*[akonadi_kcal_re]
+     |                 |-42*[akonadi_maildir]
+     |                 |-akonadi_maildi
+     |                 |-akonadi_nepomuk---{akonadi_nepomu}
+     |                 |-akonadi_vcard_r
+     |                 |-akonadiserv-+-mysqld---74*[{mysqld}]
+     |                 |               `-66*[{akonadiserv}]
+     |                 `-4*[{akonadi_contro}]
+     |-apmd
+     |-atd
+     |-avahi-daemon---avahi-daemon
+     |-boinc
+     |-clamd---2*[{clamd}]
+     |-consol-kit-dae---63*[{consol-kit-da}]
+     |-cron
+     |-cupsd
+     |-da_watchdog---{da_watchdog}
+     |-3*[dbu-daemon]
+     |-2*[dbu-launch]
+     |-ddclient
+     |-dirmngr
+     |-dovecot-+-2*[dovecot-auth]
+     |         |-imap
+     |         |-3*[imap-login]
+     |         `-3*[pop3-login]
+     |-exim4
+     |-fail2ban-server---6*[{fail2ban-serv}]
+     |-fetchmail
+     |-2*[getti]
+     |-gpm
+     |-hald-+-hald-runner-+-hald-addon-inpu
+     |      |             `-hald-addon-stor
+     |      `-{hald}
+     |-in.tftpd
+     |-inetd
+     |-jackdbu
+     |-kaccess
+     |-kded4---{kded4}
+     |-kdeinit4-+-kio_file
+     |          |-kio_http_cach_
+     |          |-kio_imap4
+     |          |-klauncher
+     |          |-ksmserver-+-kwin
+     |          |           `-{ksmserver}
+     |          |-python---python---python
+     |          `-qjackctl---{qjackctl}
+     |-kdm-+-xorg
+     |     `-kdm---startkd-+-kwrapper4
+     |                      `-2*[ssh-agent]
+     |-kget
+     |-kglobalaccel
+     |-klipper
+     |-klogd
+     |-kmail---{kmail}
+     |-kmix
+     |-knemo
+     |-knotifi4
+     |-korgac---{korgac}
+     |-krunner---{krunner}
+     |-kxkb---{kxkb}
+     |-nepomukserv
+     |-plasma-desktop-+-ksysguardd
+     |                `-7*[{plasma-desktop}]
+     |-portmap
+     |-postmast-+-postmast
+     |            `-postmast---postmast
+     |-preload
+     |-proftpd
+     |-rpc.mountd
+     |-rpc.statd
+     |-smartd
+     |-spamd---2*[spamd]
+     |-sshd
+     |-svscanboot-+-readproctitl
+     |            `-svscan
+     |-syslogd
+     |-tinyproxi---11*[tinyproxi]
+     |-udevd---2*[udevd]
+     |-xf
+     |-xfstt
+     `-yakuak-+-bash---pstree.x11
+               `-{yakuak}
+press return to close
+
+which would basic reflect what init ran and what kde4 is do when i did 
+it. why would thi be stuck at the end?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005091612.33337.d_baron@012.net.il
+
+

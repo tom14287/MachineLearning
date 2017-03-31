@@ -1,0 +1,37 @@
+re: consol font turn cyanon mon, apr 19, 2010 at 2:37 pm, robert latest  wrote:
+> on sun, apr 11, 2010 at 3:35 pm, tom h  wrote:
+>> on sun, apr 11, 2010 at 3:01 am, phil requir
+>>  wrote:
+>
+>> just in case you ar run grub2, the /etc/grub/default variabl
+>> for framebuff ar
+>
+> i need that hint, too. between muck around with grub's config i
+> keep forget that the set ar not in menu.lst, nor in
+> /etc/grub.d but in /etc/grub/default. imo the whole new grub system
+> is suffer from incred bloat, but mayb i'm just not see the
+> benefit.
+> btw, if "vga=" doesn't cut it ani more, how is stuff pass to the
+> kernel nowadai?
+
+you onli need to edit /etc/default/grub and run updat-grub in order
+to modifi /boot/grub/grub.cfg (theoret; unfortun, you have
+to edit /etc/grub.d/10_linux or /etc/grub.d/30_os-prober to chang the
+default gener of the menu entri name or prevent os-prober from
+pick up a window recoveri partit),
+
+the squeez and sid kernel set the graphic mode through kernel-base
+mode set (km). i onli us headless and xless box so i have not
+look into whether the kernel us grub2's grub_gfxmode or
+grub_gfxpayload_linux variabl to set the video mode. km can be
+turn off in grub.cfg with either "nomodeset" (possibl superced)
+or ".modeset=0" where video=i915|i945|nouveau|radeon... but i
+have onli glean thi from read fedora and ubuntu stuff.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/k2n6d4219cc1004201220i27c29909x78a487a0d4374441@mail.csmine.org
+
+

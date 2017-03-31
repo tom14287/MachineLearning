@@ -1,0 +1,19 @@
+re: aptitud statu output meaningon fridai 30 april 2010 16:44:52 moniqu y. mudama wrote:
+> the "a" mean that it wa instal automat due to a depend,
+> so if all packag depend on it ar uninstal, it will
+> automat be remov as well.
+
+thank! i had realis that "i" meant instal, but as larg number of 
+depend get instal automat as far as i am concern, i hadn't 
+manag to work out that some of them got mark!  veri few thing seem 
+actual to acquir the "a".
+
+lisi
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004301839.37084.lisi.reisz@csmine.org
+
+

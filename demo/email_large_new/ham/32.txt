@@ -1,0 +1,39 @@
+[sadev] [bug 828] spamassassin.org is unreliablehttp://www.hugh-famili.org/bugzilla/show_bug.cgi?id=828
+
+jm@jmason.org chang:
+
+           what    |remov                     |ad
+----------------------------------------------------------------------------
+             statu|assign                    |resolv
+         resolut|                            |fix
+
+
+
+------- addit comment from jm@jmason.org  2002-09-21 16:35 -------
+ok, thi should now be consid fix, i should think.
+
+   domain name: spamassassin.org
+   name server: ns.peregrinehw.com
+   name server: ns1.rt.com.au
+   name server: ns2.rt.com.au
+   name server: ns3.rt.com.au
+   name server: famili.zawodni.com
+
+etc.
+
+
+
+------- you ar receiv thi mail becaus: -------
+you ar the assigne for the bug, or ar watch the assigne.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-devel mail list
+spamassassin-devel@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-devel
+
+

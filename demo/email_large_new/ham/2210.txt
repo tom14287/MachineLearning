@@ -1,0 +1,29 @@
+re: [ot] ubuntu vs debian forum (wa recompil the kernel with a 
+	differ version name)> for some reason, thi well-known proverb is go through my head:
+>
+> =c2=a0 give a man a fish and you feed him for a dai.
+> =c2=a0 teach a man to fish and you feed him for a lifetim.
+>
+> i'd rather learn to fish.
+>
+
+in thi case it's:
+
+  take a rope off their neck and you save him todai. (get him off window)
+  try to teach him what to do with a better rope and he will call you
+twice a dai for the next four year (instal debian for him)
+  give him a rope made for babi and you'll both be happi (instal ubuntu)
+
+--=20
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/t2w880dece01004082000r3623e42cre13675c8382d7943@mail.csmine.org
+
+

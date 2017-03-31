@@ -1,0 +1,49 @@
+re: prob. w/ instal/uninstallon fri, feb 01, 2002 at 12:42:02pm -0500, brian french wrote:
+> hei i have a problem:
+> i have a rpm that i have instal that i want to uninstal, i do it
+> like so:
+> rpm -e [rpm packag]
+> and it give the error: packag not instal, so i instal it like
+> so:
+it a littl confus but you instal rpm like
+rpm -ivh packagenam-0.1.1.rpm 
+uninstal must be done without the version info like
+rpm -e packagenam   ie: rpm -e sendmail or 
+rpm -e sendmail-devel. 
+
+give that a go and it should work np. 
+
+phil, 
+
+
+> rpm -i [rpm packag]
+> and it give the error: packag alreadi instal, so i forc it to
+> instal like so:
+> rpm -i --forc [rpm packag]
+> thi instal it and then i try to uninstal it again and it still
+> give me the same error: packag not instal.
+>  
+> how can i get it to recogn that the packag is inde instal it,
+> and/or get it to unstal it?
+>  
+> thanx in advanc,
+> brian french
+> 
+> -french
+> 
+> 
+> _______________________________________________
+> rpm-list mail list 
+> http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+-- 
+"i sai, bring on the brand new renaiss. 'caus i
+think i'm readi. i've been shake all night long...
+but my hand ar steadi."  
+gord downi    http://www.thehip.com
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

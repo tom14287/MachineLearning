@@ -1,0 +1,51 @@
+re: 64-bit netbook with debian linuxmark allum put forth on 5/3/2010 11:41 pm:
+> on 5/3/2010 11:01 pm, stan hoeppner wrote:
+>> mark allum put forth on 5/3/2010 5:01 pm:
+>>
+>>> with 64 bit, you will need more memori, so i suggest you look for a
+>>> machin that can us 4 gb of memori.
+>>
+>> a user's applic usag pattern dictat how much memori the machin
+>> need, not the width of the cpu regist.  the comment abov belong
+>> in the
+>> winder user world, not here on the debian-user list, where we ar
+>> assum
+>> to be compet op.  the reason behind your suggest is total
+>> flaw.
+> 
+> no, 64-bit binari ar larger.  thi indic to me that more memori
+> is veri us to have.
+
+if wallet were all unlimit, we'd all have all our dimm slot max.  i
+made the same argument as you quit some time ago in favor of 32bit linux
+for small system such as netbook.  i wa shot down and educ on the
+actual memori footprint of the x86-64 binari, and it turn out thei're not
+that much larger overal, and not nearli to the size that on should need
+4gb ram on a netbook.  most of them come with 2gb anywai, which should be
+more than enough for just about all applic mix, whether on choos a
+64bit os+app or 32bit.
+
+> i admit i am just knowledg enough to be danger, rather than an
+> expert, but on thi subject i am confid i am correct.
+
+correct in that on should get 4gb on a netbook due to 64bit binari size?
+or correct that 64bit binari ar (slightli) larger than 32bit binari?
+i'd agre with you on the latter but not on the former.  state the case of
+the former is spread misinform.  i attempt to shoot it down.  it
+is simpli not correct to recommend 4gb for the reason you state.
+
+> pleas do not try to insult.  it is not realli us, and wast time.
+
+apolog.  it wasn't meant as an insult but as an exclam point back
+incredul.
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdfb414.6080606@hardwarefreak.com
+
+

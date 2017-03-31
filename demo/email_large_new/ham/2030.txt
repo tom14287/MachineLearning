@@ -1,0 +1,21 @@
+[ilug] hwclockhello,
+i've got a small problem but still annoi. i upgrad from rh 7.1 to 
+rh 7.3 and everyth look ok except that the time is ahead by on 
+hour. i've been look the man file for hwclock and option but it 
+simpli doesn't work, it give the follow error from he shell as well 
+as from the startup while load the kernel:  hwclock: ioctl() to 
+/dev/rtc to turn on updat interrupt fail unexpectedli, errno=25: 
+inappropri ioctl for devic.
+.... my solut at the time is to enter the setup of the pc and reduc 
+the time by on hour (aw!)
+regard,
+felip
+prl, dcu
+
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

@@ -1,0 +1,44 @@
+[satalk] version 1.1.11 of the dcc (fwd)---------- forward messag ----------
+from: vernon schryver 
+to: dcc@calcit.rhyolit.com
+date: mon, 26 aug 2002 09:09:05 -0600 (mdt)
+subject: version 1.1.11 of the dcc
+
+ersion 1.1.11 of the dcc sourc is in
+http://www.rhyolit.com/anti-spam/dcc/sourc/dccd.tar.z and
+http://www.dcc-server.net/dcc/sourc/dccd.tar.z
+
+http://www.rhyolit.com/anti-spam/dcc/dcc-tree/chang and
+http://www.dcc-server.net/dcc/dcc-tree/chang start with
+
+    fix dccm bug with handl a non-respons server.
+    chang misc/hackmc to modifi sendmail.cf to reject unauthor relai
+	attempt with a temporari failur when thei ar suppos to be sent
+	to the dcc but dccm is not run.  thi prevent leak relai
+	relai spam.  you must us the new hackmc script to instal thi
+	chang in sendmail.cf.
+    remov "# whitelist" from `cdcc stat` output to give more room
+	for total.
+    prevent empti dccproc log file as note by krzysztof snopek.
+    even fatal error should caus dccproc to exit with 0 to avoid
+	reject mail, as note by krzysztof snopek.
+    when server hostnam have common ip address, prefer the server
+	with the non-anonym client-id, note by krzysztof snopek.
+
+
+vernon schryver    vj@rhyolit.com
+_______________________________________________
+dcc mail list      dcc@rhyolit.com
+http://www.rhyolit.com/mailman/listinfo/dcc
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

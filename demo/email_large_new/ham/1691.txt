@@ -1,0 +1,39 @@
+re: pdf is block for print, etc. ok for acroread (it behav
+ as expect), but kpdf allow me to print it, even if it is protect! why?from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+jai berkenbilt wrote:
+> merciadri luca  wrote:
+>
+>  =20
+>
+> you might us a password if you want to provid complet access for
+> some peopl and no access for other.  for someon who ha the password=
+,
+> there is no real protect.  i sent some financi document to a loan=
+
+> offic onc as a password-protect pdf.  i email him the pdf and
+> then left the password on hi voicemail.  for my purpos, that wa
+> suffici secur, and it didn't requir ani fanci technolog or
+> softwar on hi end.
+>
+>  =20
+>
+> here it is.  i wrote thi in respons to a question from a user of my
+> pdf softwar, qpdf, which is in debian, but other than a quick mention
+> of a few specif tool, the respons is not relat to ani particular
+> pdf applic.
+>  =20
+thank for thi realli interest text about thi stuff. realli, i
+learnt some thing.
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+the weak can never forgiv. forgiv is the attribut of the strong.
+

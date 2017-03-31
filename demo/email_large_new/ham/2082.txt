@@ -1,0 +1,52 @@
+re: hardwar of acer extensa 5220, microsoft lifecam vx-3000, soni 
+	cybershot dsc-w55 7.2mpx and debian.from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=utf-8
+
+>
+>
+>
+> ##### 2 - my microphon work with lot of nois.
+> hi! i have a problem with my microphon. it work with lot of nois and
+> record sound is veri-veri quiet or simpli there is no sound but onli
+> rhythmic crack. thi result chang when i chang in alsamix l r captur
+> paramet (captur [db gain=6.00, 6.00] - lot of nois and quit sound,
+> captur [db gain=30.00, 30.00] - rhythmic crack). mayb thi is a problem
+> of bad configur. who can help?
+> i have not onli on paramet but two paramet l r captur and now i wa
+> talk about the first of them. when i turn the second paramet a bit up
+> from null than that is a loud siren. who know thi problem?
+>
+> thi happen with my inner microphon in acer 5220 and with my microsoft
+> lifecam under ubuntu 9.04 (mint 7).
+> thi is about my sound card:
+> 00:1b.0 audio devic: intel corpor 82801h (ich8 famili) hd audio
+> control (rev 03)
+> subsystem: acer incorpor [ali] devic 011f
+> control: i/o- mem+ busmast+ speccycl- memwinv- vgasnoop- parerr-
+> step- serr+ fastb2b- disintx-
+> statu: cap+ 66mhz- udf- fastb2b- parerr- devsel=fast >tabort-  serr-  latenc: 0, cach line size: 64 byte
+> interrupt: pin a rout to irq 21
+> region 0: memori at fc300000 (64-bit, non-prefetch) [size=16k]
+> capabl: 
+> kernel driver in us: hda intel
+> kernel modul: snd-hda-intel
+>
+> thank,
+> theodor
+>
+> #########
+>
+with regard to the nois produc on the microphon when plug into the
+sound card, try the sound card driver avail here,
+ www.opensound.com/oss.html . thought by some to be superior to alsa.
+
+
+i'm not clear i
+>
+> --
+> to unsubscrib, email to debian-laptop-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact
+> listmast@list.debian.org
+> archiv: http://list.debian.org/9910535707.20100507203657@csmine.org
+>
+>

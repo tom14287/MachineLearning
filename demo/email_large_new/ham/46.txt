@@ -1,0 +1,35 @@
+re: kde 3.5 ...> on a phenom x2 with 4 gib ram and a pretti new gfx card whose name
+> i don't rememb, i get random hang while do noth more than light
+> surf with some minim background activ.
+
+what browser? is it onli on specif site? flash? heavi javascript or
+even java? what doe top show?
+
+can you mayb test that on anoth distro as well? i rememb some kde
+4 version with light hang, type would seem slow, but i don't have
+that issu anymor. i don't know when it disappear.
+
+
+> kde 3.5.10 (almost) never ha thi issu. i know becaus i still us kde
+> 3.5.10 at work and even though the hardwar is _year_ older, it's a _lot_
+> faster.
+> and ye, i have nepomuk off, no fanci effect, no noth.
+> unfortun, thi is noth you can file a bug against.
+>
+
+i know, it's not even certain where to file it. kde? debian?
+
+
+-- 
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/h2s880dece01005060908mc19d59ad8b35b7e0b845dc8c@mail.csmine.org
+
+

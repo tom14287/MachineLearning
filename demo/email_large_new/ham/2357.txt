@@ -1,0 +1,4 @@
+cron  /home/yyyi/log/runm/etc/rc.d/init.d/httpd: kill: (21982) - no such pid
+/etc/rc.d/init.d/httpd: kill: (21981) - no such pid
+
+

@@ -1,0 +1,27 @@
+dragon player bad avi audioi'm run debian test on two comput, and dragon player ha 
+terribl audio when i plai avi file, but onli on *on* of the 
+comput.  it ha a lot of nois / hiss over top of the regular audio.
+
+both comput have the same packag instal, thu it must be a 
+hardwar differ.  the comput with normal audio is a laptop run 
+the built-in speaker.  the comput with the bad audio is a tower 
+plai the audio through usb speaker (built into my monitor).
+
+interestingli, mplayer give ok audio on both comput, and codein 
+(which i understand is the kde3 version of dragon player) also give ok 
+audio on both comput.
+
+all other audio applic work fine on both comput (youtub, 
+skype, system notif).
+
+ha anyon els encount thi problem?
+
+glen reesor
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc6a452.4070207@telu.net
+
+

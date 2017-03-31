@@ -1,0 +1,73 @@
+re: hash sum mismatchon wed, apr 21, 2010 at 05:34:49pm +0000, camalón wrote:
+> on wed, 21 apr 2010 15:27:59 +0200, martin wrote:
+> 
+> > when i try to instal simutran game with aptitud i got thi error
+> > and wa not abl to instal it:
+> 
+> (...)
+> 
+> > i have origin dvd. content of /cdrom/.disk/info is: debian gnu/linux
+> > 5.0.4 "lenni" - offici i386 dvd binari-3 20100131-19:16
+> > 
+> > ani idea why thi is so?
+> 
+> did you check the md5sum of the download iso befor burn the imag 
+> in a dvd? :-?
+
+oh, my ... wa i happi boi ... until now :)
+no, i did not :(
+so i download md5sum file from internet, it content is:
+202b8e90d52b7eb3ed7294211f5aadf  debian-504-i386-dvd-1.iso
+ad134f6556f8b79d39508a844ff59925  debian-504-i386-dvd-2.iso
+45b9ad2bfaa20547f23471829e2f7d7e  debian-504-i386-dvd-3.iso
+b46ee70c83e4e02107e4a5c271927459  debian-504-i386-dvd-4.iso
+ca1ec6584d9e5df2df958ce5d647fb91  debian-504-i386-dvd-5.iso
+4b07df455905e47f2db772b3715f46ca  debian-updat-5.0.4-i386-dvd-1.iso
+
+after that i wa insert my dvd in oredr 1-5 without mount it
+and issu command 'md5sum /dev/hdc' which produc thi output
+(on line for each dvd in turn):
+
+md5sum: /dev/hdc: input/output error
+d6dd905d890c6f94e164f2b6c027c8a4  /dev/hdc
+1b662e97035cce34e1e9fa42223cdfc5  /dev/hdc
+6e0279dcd3dc5ff0dcf6e6188f6df2b3  /dev/hdc
+15462fa19c0c49f517c66fb76e6ce109  /dev/hdc
+
+therefor dvd 1 seem to be serious damag (thou i had not ani
+problem with it when instal ani program - yet), and dvd 2-4 have
+differ checksum, but i am not sure if thi is proper wai to check
+dvd now when thei ar alreadi burn on disc.
+
+then i insert dvd 3, mount it and run 'cd /cdrom; md5sum -c md5sum.txt'
+it print on line per packag and conclud with:
+
+md5sum: warn: 167 of 4996 comput checksum did not match
+
+i did the same for dvd 2,4 and 5 but in now md5sum did not find ani
+packag with bad checksum! all line ar like thi:
+
+./pool/main/z/zvbi/zvbi_0.2.30-1_i386.deb: ok
+./pool/main/z/zzuf/zzuf_0.12-1_i386.deb: ok
+
+while with dvd 3 there were 167 line like thi:
+
+./pool/main/a/asc/asc-data_2.1.0.0-1_all.deb: fail
+./pool/main/b/balazar/balazar_0.3.4.ds1-3_all.deb: fail
+./pool/main/h/hgsvn/hgsvn_0.1.6-2_all.deb: fail
+./pool/main/s/simutran/simutran-data_100.0+ds1-4_all.deb: fail
+
+i guess i am do someth wrong as on method show that dvd 2,4,5
+ar bad while other test pass ok. at least i do know that
+packag i wa try to instal from dvd 3 ar bad.
+
+thank you.
+martin
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100422145935.gb2609@alfa
+
+

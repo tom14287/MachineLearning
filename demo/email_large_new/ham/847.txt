@@ -1,0 +1,233 @@
+[razor-user] preproc eras messageth follow razor debug sequenc show my mail go from 9295 byte to
+0 byte after the preproc run, which give me an exit code that is not 0.
+i includ the messag below.
+
+fox
+
+razor-log: no /etc/razor/razor-agent.conf found, skip.
+razor-log: no razor-agent.conf found, us default.
+aug 26 10:28:09.225237 check[3469]: [ 1] [bootup] log initi
+logdebuglevel=9 to stdout
+aug 26 10:28:09.225890 check[3469]: [ 5] comput razorhom=/etc/razor,
+conf=, ident=/etc/razor/ident
+aug 26 10:28:09.226006 check[3469]: [ 2] razor-agent v2.14 start
+razor-check -d -home=/etc/razor
+aug 26 10:28:09.229704 check[3469]: [ 9] unam -a: linux qmail.mckee.com
+2.4.8-34.1mdk #1 mon nov 19 12:40:39 mst 2001 i686 unknown
+aug 26 10:28:09.230155 check[3469]: [ 8] read straight rfc822 mail from
+aug 26 10:28:09.231524 check[3469]: [ 6] read 1 mail
+aug 26 10:28:09.231923 check[3469]: [ 8] client support_engin: 1 2 3 4
+aug 26 10:28:09.233017 check[3469]: [ 8] prep_mail done: mail 1 header=631,
+mime0=9295
+aug 26 10:28:09.233434 check[3469]: [ 6] skip whitelist file (empti?):
+/etc/razor/razor-whitelist
+aug 26 10:28:09.233995 check[3469]: [ 5] read_file: 1 item read from
+/etc/razor/server.discoveri.lst
+aug 26 10:28:09.234369 check[3469]: [ 5] read_file: 1 item read from
+/etc/razor/server.nomin.lst
+aug 26 10:28:09.234697 check[3469]: [ 5] read_file: 3 item read from
+/etc/razor/server.catalogu.lst
+aug 26 10:28:09.235184 check[3469]: [ 9] assign default to
+honor.cloudmark.com
+aug 26 10:28:09.235415 check[3469]: [ 9] assign default to
+truth.cloudmark.com
+aug 26 10:28:09.235624 check[3469]: [ 9] assign default to
+fire.cloudmark.com
+aug 26 10:28:09.235830 check[3469]: [ 9] assign default to
+apt.cloudmark.com
+aug 26 10:28:09.236715 check[3469]: [ 5] read_file: 11 item read from
+/etc/razor/server.truth.cloudmark.com.conf
+aug 26 10:28:09.237368 check[3469]: [ 5] read_file: 11 item read from
+/etc/razor/server.fire.cloudmark.com.conf
+aug 26 10:28:09.237825 check[3469]: [ 5] 149643 second befor closest
+server discoveri
+aug 26 10:28:09.238135 check[3469]: [ 6] truth.cloudmark.com is a catalogu
+server srl 51; comput min_cf=1, server se: 0b
+aug 26 10:28:09.238414 check[3469]: [ 8] comput support_engin: 1 2 4
+aug 26 10:28:09.238656 check[3469]: [ 8] us next closest server
+truth.cloudmark.com:2703, cach info srl 51
+aug 26 10:28:09.238871 check[3469]: [ 8] mail 1 subject: new freewar
+download
+aug 26 10:28:09.290618 check[3469]: [ 6] preproc: mail 1.0 went from 9295
+byte to 0, eras
+aug 26 10:28:09.291100 check[3469]: [ 5] connect to truth.cloudmark.com
+...
+aug 26 10:28:09.505431 check[3469]: [ 8] connect establish
+aug 26 10:28:09.505662 check[3469]: [ 4] truth.cloudmark.com >> 29 server
+greet: sn=c&srl;=51&ep4;=7542-10&a;=l
+aug 26 10:28:09.506086 check[3469]: [ 6] truth.cloudmark.com is a catalogu
+server srl 51; comput min_cf=1, server se: 0b
+aug 26 10:28:09.506342 check[3469]: [ 8] comput support_engin: 1 2 4
+aug 26 10:28:09.506604 check[3469]: [ 8] mail 1.0 skip in check
+aug 26 10:28:09.506686 check[3469]: [ 5] no queri, no spam
+aug 26 10:28:09.506787 check[3469]: [ 5] disconnect from server
+truth.cloudmark.com
+aug 26 10:28:09.507071 check[3469]: [ 4] truth.cloudmark.com << 5
+aug 26 10:28:09.507155 check[3469]: [ 6] a=q
+aug 26 10:28:09.507959 check[3469]: [ 8] razor-check finish successfulli.
+
+
+
+>>from bounc-html-sale1-21787251@lyri.execsoft.com mon aug 26 14:28:10 2002
+return-path: 
+deliv-to: log@qmail.mckee.com
+receiv: (qmail 3472 invok from network); 26 aug 2002 14:28:10 -0000
+receiv: from unknown (helo port-216-3073879-ds200.devic.datareturn.net)
+(216.46.231.87)
+  by 10.97.5.1 with smtp; 26 aug 2002 14:28:05 -0000
+x-mailer: lyri web interfac
+date: sat, 24 aug 2002 09:45:48 -0700
+subject: new freewar download
+ - jam: eric_koester@ccmail.mckee.com
+to: 
+from: "diskeep product manag, execut softwar"
+
+list-unsubscrib: 
+repli-to: execut@execut.com
+messag-id:
+
+mime-version: 1.0
+content-type: text/html; charset=us-ascii
+spam-file:
+envelop-recipi: eric_koester@ccmail.mckee.com
+statu: ro
+
+
+
+
+
+new freewar download
+
+
+
+
+
+
+
+it's
+        free!
+
+
+
+
+      
+
+
+
+
+includ the same
+advanc defragment technolog
+us in diskeep 7.0.
+
+
+ 
+
+
+
+much faster than the
+previou
+    diskeep lite and all built-in defragment.
+
+
+ 
+
+
+
+now run on window
+nt®/98/2000/xp.
+
+
+million of download attest to the popular of
+diskeep lite, but it onli ran on window nt 4.0. now it's been updat
+for all
+window oper system from window 98 onward.
+new diskeep lite is still manual-onli and cannot
+be
+schedul or run across a network, but it is far superior to ani built-in
+defragment and much faster. and it will show you why full-version
+diskeep is
+the most recommend automat defragment ever built. 
+find out what you ar realli miss.
+free!
+
+
+
+
+
+
+
+
+            full version diskeep
+
+avail for purchas from:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+notic: we period send new product
+inform electron or
+survei those individu who voluntarili give us their e-mail address. we
+hope you enjoi receiv thi time inform. howev, if you would
+like to remov yourself from thi list, pleas do not repli to thi e-mail
+to be remov.
+
+
+you have receiv thi messag from
+esi-vp-market at the e-mail
+address: eric_koester@ccmail.mckee.com
+ to unsubscrib, send the abov e-mail address in the bodi of a messag
+along with your name, on a separ line, to
+ unsubscrib@execut.com.
+
+© 2002 execut softwar intern,
+inc.
+all right reserv. diskeep, execut softwar and the execut
+softwar
+logo ar either regist trademark or trademark of execut softwar
+intern, inc. in the unit state and/or other countri. window
+and
+window nt ar regist trademark of microsoft corpor in the
+unit
+state and/or other countri. all other trademark and brand name ar
+the
+properti of the respect owner.
+ 
+
+
+
+
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+

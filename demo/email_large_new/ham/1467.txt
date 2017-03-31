@@ -1,0 +1,16 @@
+unabl to connect to my home wirelessi am run an up to date squeez system us lxde.  i us wicd as my network manag.  sinc do a full upgrad on mondai i have been unabl to connect to my home wireless network.  i can connect to variou unsecur network at work, at local restaur and coffe shop.  i just can't connect to my home network.  here, i have to connect a cat5 cabl.  sinc the onli place to do thi is sit directli in front of my desktop system it kind of defeat the purpos.  i have verifi that the wep kei is correct and i realli don't know what els to look for.
+
+when i try to connect, wicd sai that it is 'put interfac up...', 'valid authent...', 'obtain ip address...' then it time out and sai 'connect fail: unabl to get ip address.'
+
+doe anyon have ani idea what is wrong, or what config file, or error log i should look at to get more inform?
+
+ marc shapiro
+mshapiro_42@yahoo.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/762862.52678.qm@web55507.mail.re4.yahoo.com
+
+

@@ -1,0 +1,21 @@
+quicktim plugin in mobil safarii'm try to us javascript and the quicktim plugin to plai a movi 
+on the ipad but keep get a broken movi icon and 
+getpluginstatu() return "error: -12939". also, the browser debug 
+consol report: other tip - quicktim - byte_rang_error_messag
+
+ani idea?
+
+-rolf
+-- 
+rolf howarth
+squar box system ltd
+stratford-upon-avon, uk.
+http://www.squarebox.co.uk
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

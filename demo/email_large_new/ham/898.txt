@@ -1,0 +1,26 @@
+re: ~/.xsession-error file grow wai too bigon wed, 19 mai 2010 11:33:02 -0500, boyd stephen smith jr. wrote:
+
+>> i took a look, the reason and cure is veri simpl -- have x to trunk
+>> it each time when start
+>> (http://bug.debian.org/cgi-bin/bugreport.cgi?bug=287876) wherea
+>> current, my ~/.xsession-error kept log back to stone ag.
+> 
+> for what reason can't you simpli modifi you xsession file to do as you
+> like? it is a conffil, so your chang would be preserv through
+> upgrad.
+
+read the abov url again, carefulli. the answer is right there befor you 
+ey. you don't agre with it?
+
+-- 
+tong (remov underscor(s) to repli)
+  http://xpt.sourceforg.net/techdoc/
+  http://xpt.sourceforg.net/tool/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/ht52oh$485$1@dough.gmane.org
+
+

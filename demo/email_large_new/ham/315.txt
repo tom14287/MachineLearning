@@ -1,0 +1,40 @@
+re: cycl through window caus freezeexcel! thank all!
+
+on thu, apr 22, 2010 at 4:21 pm, jeremi huddleston  wro=
+te:
+> http://xquartz.macosforg.org/trac/wiki/releas#automaticupdatesforbetav=
+ersion
+>
+> on apr 22, 2010, at 16:01, jon markl wrote:
+>
+>> link pleas.
+>>
+>> thank,
+>>
+>> jon
+>>
+>> on apr 22, 2010, at 4:45 pm, jeremi huddleston wrote:
+>>
+>>>
+>>>
+>>> thi wa fix in 2.5.1_beta1 3 week ago. =a02.5.1_beta2 wa just rele=
+as a few minut ago which also contain thi (and other) fix.
+>>>
+>>> --jeremi
+>>
+>
+> =a0_______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> x11-user mail list =a0 =a0 =a0(x11-user@list.appl.com)
+> help/unsubscrib/updat your subscript: http://list.appl.com/mailman=
+/option/x11-user/jamezilla%40csmine.org
+>
+> thi email sent to jamezilla@csmine.org
+>
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

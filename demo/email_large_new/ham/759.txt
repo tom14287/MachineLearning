@@ -1,0 +1,48 @@
+re: shouldn't apt-get upgrad, you know, upgrad ?on tue, 06 apr 2010 06:50:37 +0200
+johan gr=c3=b6nqvist  wrote:
+
+>
+> my first guess:
+>=20
+> perhap you did not quot enough text from the man page?
+>=20
+> [from the text on upgrad]
+>=20
+>             new version of
+>             current instal packag that cannot be upgrad
+> without chang the instal statu of anoth packag will be left
+>             at their current version.
+>
+
+that wa a veri good guess.
+=20
+>=20
+>=20
+> as ooffic is a rather complex packag, it seem plausibl to me that
+> a new version would requir other packag to be instal as well,
+> and upgrad is not bold enough to do that.
+
+it doe seem plausibl, doesn't it ? :-)
+
+>=20
+> i think you mai be interest in the dist-upgrad command instead.
+>=20
+
+i thought of that, but i thought it wa for go from stabl to
+test, or a similar sort of thing.  the man page tell all !
+
+dist-upgrad in addit to perform the function of upgrad,
+           also intellig handl chang depend with new
+version of packag;
+
+thank you,
+
+brian
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100406063454.706fd3bd@windi.deldotd.com
+
+

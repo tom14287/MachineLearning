@@ -1,0 +1,42 @@
+re: broken signatur for dsa-2040-1from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=utf-8
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on mon, 3 mai 2010 00:47:25 +0200 sebastien delafond wrote:
+
+> on mai/02, francesco poli wrote:
+> > could it be a sylphe bug?
+>=20
+> we've narrow it down to an encod issu: the origin dsa email wa
+> sent as iso-8859-1, and mutt wa abl to verifi it just fine; howev,
+> on a system us utf-8, ani kind of past of the origin text will
+> produc a file that gpg doe not verifi:
+
+the fact is that i didn't perform ani past: even run "gpg
+--verifi" directli on the messag file fail (sylphe store e-mail
+messag in mh format, henc each messag is on a separ file).
+
+i receiv the messag encod as quot-printabl: mayb someth in
+the middl perform some re-encod, that broke the signatur?
+
+howev, that doe not explain why mutt is abl to correctli verifi
+the signatur...
+damn mutt, alwai on step beyond!  ;-)
+
+> that'll teach me to includ the
+> "=c3=a9" in my firstnam instead of a plain "e" ;)
+
+wouldn't we be better off us pgp/mime sign messag (rfc 2015)
+in order to avoid encod issu?
+as far as i've heard, clear-sign e-mail messag ar deprec precis
+becaus of thi kind of signatur breakag, due to possibl re-encod.
+
+ani thought?
+
+
+--=20
+ http://www.inventati.org/frx/prog/script/pdebuild-hook.html
+ need some pdebuild hook script?
+..................................................... francesco poli .
+ gnupg kei fpr =3d=3d c979 f34b 27ce 5cd8 dc12  31b5 78f4 279b dd6d fcf4

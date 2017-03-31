@@ -1,0 +1,17 @@
+automot softwar easter egg discoveredurl: http://boingbo.net/#85506836
+date: not suppli
+
+slashdot's report that accord to the current ish of popular scienc, an 
+easter egg ha been discov in the transmiss control softwar for the bmw 
+m3: 
+
+    ...the proper combin of command to the electron control 
+    manual transmiss will caus the car to rev up to 4000rpm and drop the 
+    clutch... 
+
+ar we sure that thi is a featur and not a bug? link[1] discuss[2]
+
+[1] http://slashdot.org/articl.pl?sid=02/09/29/2232249&mode;=flat&tid;=126
+[2] http://www.quicktop.com/bo/h/svzhehqjgbc
+
+

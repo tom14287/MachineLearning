@@ -1,0 +1,35 @@
+debian lenni + grub2 + kernel messag log capturingfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+
+hello=2c
+
+i wa hope to get some feedback or tip on how to setup a pci serial card=
+ (not onboard) for kernel messag log captur. i am us debian lenni x6=
+4 with the grub2 bootload.
+
+thi might sound like an easi question=2c but doe the linux kernel modul =
+have to be compil with the run kernel in order to log messag at boo=
+t time? i mean obvious the driver is requir to be load in debian gnu/=
+linux when the serial/com devic is us in conjunct
+with /dev/ttyd[01].
+
+i have found a websit provid patch for the chip on the pci serial car=
+d i am us at:
+http://izto.org/mc9865/
+
+doe debian not includ driver for serial card in ani packag or would t=
+hese driver be consid non-free?
+
+thank.
+
+=20
+
+-m
+
+
+ 		 	   		 =20
+_________________________________________________________________
+video that have everyon talk! now also in hd!
+http://go.microsoft.com/?linkid=3d9724465=

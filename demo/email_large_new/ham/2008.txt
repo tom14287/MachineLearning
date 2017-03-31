@@ -1,0 +1,19 @@
+is there privat mac address space?for ip address there ar 10.x.x.x , 192.168.x.x ip address that can
+be us for privat network. is there someth similar for mac
+address of network card that can be safe us with virtual
+emul and to be sure not to collid with ani real network card
+(current or futur)?
+
+current i am us mac address
+52:54:00:12:34:x
+i guess i got it form some exampl for qemu usag or similar.
+
+martin
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100510095014.gc2640@alfa
+
+

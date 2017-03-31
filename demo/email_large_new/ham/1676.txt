@@ -1,0 +1,24 @@
+re: what need to improv in kde 4?from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+hello,
+
+on antradieni 18 gegu=c5=be=c4=97 2010 18:02:53 b. alexand wrote:
+> on both system, click either on the desktop or the cashew and selecti=
+ng
+> desktop activ set caus the panel and the desktop background to
+> disappear. i no longer get a menu when right click on the (black)
+> desktop. i am also no longer abl to chang desktop, but i can still
+> access the window on the current (onli) desktop.
+
+that's symptom of plasma-desktop crash.
+
+> the onli wai to recov
+> from thi is to go into a termin window and restart kdm or reboot.
+
+run plasma-desktop from krunner or x termin.
+
+=2d-=20
+modesta vainiu 

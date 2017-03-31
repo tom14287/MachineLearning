@@ -1,0 +1,40 @@
+[novic] pl/pgsql and return timestamp typehi all,
+
+i cannot to get thi to run...  i think i am mistak some basic concept or i have a big brain-lock .  somebodi know what is the problem to execut thi function ?
+
+thank in advanc...
+
+--====================================
+drop tabl test;
+creat tabl test
+(
+  clave numer(7,0) not null,
+  primari kei (clave)
+) without oid;
+--====================================
+drop function f_test(numer(7,0), numer(7,0));
+creat or replac function f_test(numer(7,0), numer(7,0)) return timestamp as '
+  declar
+    p_datod alia for $1;
+    p_datoh alia for $2;
+    --
+    tdesd timestamp;
+    thasta timestamp;
+  begin
+    tdesd := now();
+    --
+    for x in p_datod..p_datoh loop
+      insert into test valu (x);    
+    end loop;
+    --
+    thasta := now() - tdesd;
+    return thasta;
+  commit;
+  end;
+' languag 'plpgsql';
+--====================================
+select f_test(1,9);
+
+---------------------------(end of broadcast)---------------------------
+tip 1: subscrib and unsubscrib command go to majordomo@postgresql.org
+

@@ -1,0 +1,40 @@
+re: [ilug-social] onlin bookstorescaolan mcnamara wrote:
+> on tue, aug 06, 2002 at 04:21:22 +0100, david o'callaghan wrote:
+> > 
+> > hello,
+> > 
+> > what ar your recommend for bui book (technic and
+> > otherwis) onlin, from irish or european seller. is there 
+> > anywher that ha as good a select as, sai, amazon but
+> > deal in euro?
+> 
+> amazon.de and amazon.fr ? :-)
+
+have recent check out both of these, for a select of
+book, the exact same basket of book cost more in both .de and
+.fr (take deliveri charg, vat et al into account) than bui
+the same thing in amazon.co.uk
+
+the book i us to check were 
+1) c unleash (heathfield et al)
+2) design pattern (gamma et al)
+3) comput graphic, principl and practic (folei et al)
+
+i wa huge surpris that amazon.co.uk work out cheapest - by
+a consider margin, too - someth like 12 euro after
+freight wa taken into account.
+
+cheer,
+dave.
+
+-- 
+       david neari,
+    marseil, franc
+  e-mail: bolsh@gimp.org
+
+-- 
+irish linux user' group social event: social@linux.ie
+http://www.linux.ie/mailman/listinfo/social for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

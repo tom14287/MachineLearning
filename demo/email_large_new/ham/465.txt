@@ -1,0 +1,28 @@
+re: [ot] spam-tag> from: nuno magalh=c3=a3es [mailto:nunomagalha@eu.ipp.pt]
+> sent: wednesdai, mai 05, 2010 1:52 pm
+>=20
+> hi,
+>=20
+> an idea that just came to me... with all the (small amount of,
+> grant,) spam that ha been come through the list, would there be a
+> feasibl wai for us to repli to spam-messag to the list with some
+> sort of tag, so that those would be tag as spam asap? i.e. on
+> receiv spam, on repli to it (to the list) with a string like
+> "spam debian@list" or whatev, and after a few hit of those the
+> mailer or whatev would tag that messag as spam.
+>=20
+> it would probabl take some load of the maintain' back and give the
+> spame a warm comfi feel.
+>=20
+> /* duck for cover */
+
+what good would that do?  everyon on the list will have alreadi =
+receiv the spam.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/024301caec97$171f3b20$455db160$@net
+
+

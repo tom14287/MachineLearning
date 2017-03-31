@@ -1,0 +1,17 @@
+problem with iwl3954 i had the dmesg messag that i need us iwllwifi-3945-2 instead
+iwlwifi-3945-1.
+i find the packeg firmwar-iwlwifi-0.23~bpo50+1 and instal that
+instead 0.14+lenni2.
+now i have the next record in dmesg:
+ [   49.170257] iwl3945 0000:02:00.0: firmwar: request
+iwlwifi-3945-2.ucod
+[   49.272362] iwl3945 0000:02:00.0: load firmwar version 15.32.2.9
+ is it wrong?!
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc46a95.9050309@csmine.org
+
+

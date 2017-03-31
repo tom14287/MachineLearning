@@ -1,0 +1,31 @@
+re: cross-connect consol port?from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+hi mile,
+
+on mon, mai 17, 2010 at 04:59:38pm -0400, mile fidelman wrote:
+> short of bui a remot kvm, it occur to me that it might be possibl =
+=20
+> to cross-connect the serial port on the two comput - us a termin=
+=20
+> program on on, to access the other, and vice versa.
+
+thi work fine; i do it all the time when test hardwar.
+
+> ha anybodi done thi?  ani suggest on where to start - both re. =20
+> cabl (usb vs. serial cross-over), and/or softwar?
+
+these dai it becom easier to have a bunch of usb port than a
+bunch of serial port, so usb/serial convert ar cheap and us
+and i've yet to find on that doesn't just work under debian.
+
+i us to us minicom, but late i us "screen /dev/ttyusb0 9600"
+or whatev.
+
+cheer,
+andi
+
+--=20
+http://bitfolk.com/ -- no-nonsens vp host

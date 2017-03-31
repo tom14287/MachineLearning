@@ -1,0 +1,51 @@
+re: non-ascii environ>
+>
+>
+>---- origin messag ----
+>from: jgmb65@rezoz=2enet
+>to: debian-user@list=2edebian=2eorg
+>subject: re: non-ascii environ
+>date: sat, 10 apr 2010 00:14:14 +0800
+>
+>>hello list,
+>>
+>>i am write some c code which involv ascii charact:
+>>in c relat book, we can find a lot of comment about
+>>ascii charact issu, as far as we ar concern with portabl=2e
+>>
+>>nevertheless, someth bother me: where non-ascii environ can
+>be found =3f
+>>
+>>furthermor, can such an environ be creat on a debian box =3f
+>>the aim is to check the portabl of my code=2e
+>>
+>>thank in advanc,
+>>jerom
+>>
+>>
+>>
+>>--=20
+>>jerom benoit
+>>jgmbenoit-at+rezoz*dot=5fnet
+>>
+>>
+>>--=20
+>>to unsubscrib, email to debian-user-request@list=2edebian=2eorg=20
+>>with a subject of "unsubscrib"=2e troubl=3f contact
+>listmast@list=2edebian=2eorg
+>>archiv: http://list=2edebian=2eorg/4bbf5256=2e40104@rezoz=2enet
+>>
+usual the "correct" answer is to stick to the ansi standard and all
+will be well=2e  howev if you have some specif issu or some
+specif question code, why not post it=3f
+larri
+>>
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/380-22010459204526234@netptc.net
+
+

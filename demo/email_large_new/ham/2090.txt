@@ -1,0 +1,42 @@
+re: acroread not see printerson thu, 2010-04-15 at 10:49 -0700, carl johnson wrote:
+> "john a. sullivan iii"  write:
+>=20
+> > on thu, 2010-04-15 at 13:05 +0000, camal=c3=b3n wrote:
+> >>=20
+> >> make sure that lid_librari_path point to the locat for libcup and=
+=20
+> >> also cup lp and lpr ar in path.
+> >>=20
+> >> when you invok the print dialog us control+p, all the printer=20
+> >> configur show up in the printer name dropdown.
+> >> ***
+> >>=20
+> >> i'm not sure how to check thi in debian, mayb someon els can give =
+you=20
+> >> a hint on thi :-)
+> > 
+> > thank.  i tri set lid_librari_path and i know the binari ar i=
+n
+> > the path but it didn't help :(
+>=20
+> i don't know if you notic, but i think that should be
+> ld_librari_path, without the extra 'i'.  i don't know enough to help
+> otherwis.
+
+argh!! i did upgrad to acroreat 9.3.1 from multimedia unstabl upon
+these respons and the referenc articl which wa base upon 9.x.  i
+even set a lid_librari_path variabl in case it wa not a typo.  it
+still doesn't work.  set the command line debug variabl, i
+found that it cannot find the ppd file.  doe it onli work if the cup
+server is run local? in our case, we us a central cup server
+run on a non-standard port.  thi is reflect
+in /etc/cup/client.conf.  how do we tell acroread where the printer
+server and ppd file ar? thank - john
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1271387362.4177.24.camel@famili.pacifera.com
+
+

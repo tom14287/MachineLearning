@@ -1,0 +1,62 @@
+re: kde 4.4.3 in unstablefrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="iso-8859-15"
+content-transfer-encod: quot-printabl
+
+am freitag 07 mai 2010 schrieb boyd stephen smith jr.:
+> on fridai 07 mai 2010 05:42:55 martin steigerwald wrote:
+> > am donnerstag 06 mai 2010 schrieb boyd stephen smith jr.:
+> > > on thursdai 06 mai 2010 04:59:35 martin steigerwald wrote:
+> > > > am donnerstag 06 mai 2010 schrieb boyd stephen smith jr.:
+> > > > > heck, just stop kmail from migrat.  korgan and
+> > > > > kaddressbook have  requir akonadi sinc 4.2 or earlier.
+> > > >=20
+> > > > again, afaik, kmail doe not us akonadi in kde 4.4.
+> > >=20
+> > > have you instal and tri it?  i have.  it doe requir akonadi
+> > > in kde 4.4.3.
+> >=20
+> > again, no. kaddressbook doe. and kmail us kaddressbook for address
+> > complet.
+>=20
+> kmail did not hang dure address complet.  i compos a repli
+> without have keyboard focu enter ani of the address field.  onc i
+> hit the "[send]" button, the ui froze for both the compos and the
+> main (kontact) window.
+>=20
+> close either stall and then kwin ask if i want to forcefulli
+> termin the applic.  after do so, i restart contact from a
+> shell in order to watch the variou messag print.
+>=20
+> kontact start normal and my messag wa in my draft folder.  i
+> open the messag from there and click "[send]".  again, the ui
+> froze in both the compos and the main window.  on the consol,
+> about onc everi .5 sec. or so, an error messag wa print
+> indic that the applic could not connect to the local akonadi
+> server (or mayb it wa that akonadi couldn't connect to the local
+> db).
+>=20
+> in either case, kmail 4.4.3 will not send mail unless i have akonadi
+> and mysql instal.  i do not have kaddressbook or korgan
+> instal, sinc even the version from test have a indirect
+> depend relationship on mysql.
+
+hmmm, strang. well mayb kmail doe address complet more directli than=
+=20
+via kaddressbook. there might be a compon in kdepim lib do that for=
+=20
+kmail. for - just for look up email address - kmail realli call into=20
+akonadi.
+
+but afaik it doesn't us akonadi - through what wai ever - for anyth=20
+other than retriev contact data. thu the us of akonadi could not be=20
+that wide-spread in kmail.
+
+howev, kdepim will us akonadi more and more, so imho it better to have=
+=20
+akonadi improv and fix than to remov the akonadi depend in kmail=20
+temporarili.
+
+=2d-=20
+martin 'helio' steigerwald - http://www.lichtvol.de
+gpg: 03b0 0d6c 0040 0710 4afa  b82f 991b eaac a599 84c7

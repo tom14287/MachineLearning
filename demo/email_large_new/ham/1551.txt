@@ -1,0 +1,32 @@
+bbkei: nextwindow command doe not work with java programspackag: bbkei
+version: 0.9.0-7.1
+sever: normal
+
+i am not shure if thi is for bbkei or blacbox!
+when i run ani java program i am not abl to switch to it by bbkei
+bind that work for everi other program just fine.
+in my ~/.bbkeysrc i have:
+
+    [nextwindow]      (mod4-tab)
+    [prevwindow]      (mod4-shift-tab)
+    [nextworkspac]   (mod4-control-tab)
+    [prevworkspac]   (mod4-control-shift-tab)
+
+and it work. it is just java program ar not includ in 'switch to...'
+window that pop up. to be more concret i just download 
+omegat_2.1.5_beta_linux.tar.bz2 from http://www.omegat.org and thi
+java program (nor ani other window that it creat) doe not appear in
+'switch to...' list. when i click with mous on the arrow in the
+blackbox toolbar it doe cycl all open window on workspac
+(includ java program).
+
+martin
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100425155505.ga6884@alfa
+
+

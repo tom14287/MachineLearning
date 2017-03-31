@@ -1,0 +1,21 @@
+re: nessu?on tue, 2002-10-08 at 00:05, matthia saou wrote:
+
+> it's 100% untest, although the build should be ok. the new menu wa
+> ad, but some configur file mai be better with new or differ
+> default.
+> 
+> feedback is veri welcom!
+
+look good to me, just instal it, and ran a local scan, everyth
+work smoothli.  thank a bunch!
+
+-- 
+\/ill skyttä
+vill.skytta at iki.fi
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

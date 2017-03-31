@@ -1,0 +1,37 @@
+re: how to keep debian current??from nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+op 18-05-10 21:21, mark allum schreef:
+> on 5/18/2010 10:34 am, osamu aoki wrote:
+>> on mon, mai 17, 2010 at 11:07:10am -0500, mark allum wrote:
+>=20
+>>> thank you.  thi is contrari to what the main debian site sai in
+>>> multipl place, but it is plausibl.  good to know.
+>>
+>> could you be more specif where you saw them or where you got thi
+>> impress?  so we can make correct action to reduc confus.
+>=20
+> ...
+>
+
+> inform regard secur is central in a singl point,
+> http://secur.debian.org/.
+>=20
+anywai, to also clearli answer the question about test secur
+support, same manual #8:
+q: how is secur handl for test?
+
+a: if you want to have a secur (and stabl) server you ar strongli
+encourag to stai with stabl. howev, there is secur support for
+test: the debian test secur team handl issu for test.
+thei will make sure that the fix packag enter test in the usual
+wai by migrat from unstabl (with reduc quarantin time), or, if
+that still take too long, make them avail via the the normal
+http://secur.debian.org infrastructur. to us it, make sure the
+follow line is in /etc/apt/sourc.list:
+
+so ye, test *doe* receiv secur support
+
+sjoerd
+

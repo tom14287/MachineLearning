@@ -1,0 +1,73 @@
+[ot] re: job: thought on javaon 30 apr 2010, at 07:42, niagarasoft20-jdev@yahoo.com wrote:
+
+> java _is_ allow on osx.
+
+the situat between flash and java isn't even compar.
+
+java is open and us, flash is neither.
+
+java still share the the lowest-common-denomin cross-platform =
+weak/strength (depend on perspect), which appl mai not want =
+to promot on the iphon, becaus, let's face it, there ar so mani =
+patent on the iphon that lot of that stuff can't be done in a =
+cross-platform wai, becaus other platform won't be allow to have the =
+same function.
+so cross-platform code on the iphon/ipod/ipad just doesn't make sens. =
+the market is big enough that if their product sell on these devic, =
+the develop can afford to make a first-class citizen nativ app =
+rather than be lazi and try to write the same thing for =
+deploy everywher.
+
+noth stop anyon from us a portabl code engin (e.g. c code or =
+java compil to c) and then put a nativ cocoa touch gui on it.
+
+flash from the get-go wa design to captiv a part of the internet =
+and make it privat own, just like silverlight and a slew of other =
+effort, too. flash and frame ar the bane of the web. can't properli =
+search, bookmark, print, copi&past;, etc. ani of these. mai thei die a =
+quick, pain death, thei caus enough suffer for user and web =
+develop alik.
+
+have a sever dozen web page open suck the life out of the fastest =
+machin, becaus of all the flash. that i onli could suspect until 10.6 =
+put plug-in in subprocess. the rel cpu load between all of =
+safari vs. the flash plug-in speak volum.
+
+as much as i have to critic about the close natur/censorship of the =
+appstor ecosystem, i'm thrill that appl isn't bend. i hope appl =
+can give the blow of death to flash, which ha been more than an =
+annoy for mani year. i can't wait until that's a chapter in =
+comput histori. bravo job&co.;!!!
+
+i also support hi statement about adob be lazi. no version of ani =
+macromedia/adob suit ha ever run properli on ani machin that ha a =
+case-sensitv root file system. if softwar is properli written, it =
+shouldn't even notic a differ, and the onli parti which have to =
+be awar of the differ ar user that copi file in a mix file =
+system environ, or writer of backup/file-manag softwar (where =
+2 file on on file system might map to on file on anoth).
+
+onli sloppi code where path ar not #defin-ed in on place but more =
+or less accur copi&past-ed; all over the code base caus issu =
+with resourc and path name mismatch when the softwar is instal on =
+a case-sensit file system. for a decad and sever product cycl =
+adob didn't fix that, even though there were mani bug report about the =
+matter and even though appl emphas sever time on variou =
+occas at wwdc that develop shouldn't make ani assumpt on the =
+natur of the file system that the system is instal.
+
+adob didn't (want to) get it. thei just want to continu milk =
+their old pre-os9 code base for as long as possibl. i wish appl would =
+us some of their war chest to produc true competitor to adob's crap =
+that ar reason price. adob charg up the wazoo, and didn't care =
+to be a good platform citizen, and were it not for the 64-bit =
+transit, thei'd still ship old, buggi carbon base code. barf! i'm =
+glad job final said it and broke with corpor polit.=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

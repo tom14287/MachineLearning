@@ -1,0 +1,34 @@
+re: rpm's %post, %postun etchav you tri rebuild your packag on a system that ha a stock (or
+no) .rpmmacro file? doe it still build (and instal/uninstal) the wai
+you intend it to?
+
+on tue, 2002-08-20 at 09:38, torsten bronger wrote:
+> halloechen!
+> 
+> at the moment i creat an rpm that also add some file to
+> tetex's texmf/ tree.
+> 
+> therefor i defin in my .rpmmacro a %texhash that
+> call texhash if it exist and in the spec file
+> 
+> %post
+> %{texhash}
+> 
+> %postun
+> %{texhash}
+> 
+> but thi is a costli oper.  is it nevertheless worth it?
+> in particular, if thi rpm is instal togeth with (veri mani)
+> other, ar those %pre, %post etc. skip and an 'omnipot' 
+> script call that e.g. updat tex's file databas?
+> 
+> tschoe,
+> torsten.
+
+-- 
+chri kloiber
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

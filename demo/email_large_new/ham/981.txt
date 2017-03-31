@@ -1,0 +1,30 @@
+re: gnome 2.30 icon (wa: ha iceweasel adopt chrome's icon?)on 2010-05-06, tixi  wrote:
+> on thu, 2010-05-06 at 08:44 +0000, liam o'tool wrote:
+>> you're probabl see the new (version 2.30) gnome icon theme. i don't
+>> particulari like the new navig button, but i suppos i'll get us
+>> to them.
+>
+> i found the new icon don't have enough contrast to be easili
+> distinguish so i chang the icon theme. unfortun, some app
+> still us the new on; i'm guess thi mai be due to gnome icon
+> symlink name gtk-*.
+>
+> onc gnome 2.30 is fulli in squeez, i'm hope to find some time to
+> discov what hack ar requir to get legibl icon again.
+>
+
+you could try download the 2.28 icon and place them under
+~/.icon/gnome. hopefulli thei will overrid the system-wide 2.30 icon.
+
+-- 
+liam o'tool
+birmingham, unit kingdom
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/slrnhu5lck.bu7.liam.p.otool@dipsi.selfip.org
+
+

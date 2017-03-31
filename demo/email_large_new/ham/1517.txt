@@ -1,0 +1,22 @@
+re: how to keep debian current??on 05/15/2010 08:16 am, ryanjb wrote:
+> thank for the comprehens repli, it's like you just whip up
+> a new document for thi problem ;)
+>
+> i think it's best for me to run lenni with backport. my need is
+> actual onli a stabl home system. i do favor current app
+> though; i often us beta (but not alpha), but i can live with
+> old app.
+>
+
+then us sid.  lot of non-geek do.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4beea03d.1000905@cox.net
+
+

@@ -1,0 +1,43 @@
+re: how to remov oowrit delai on open document?on 2010-04-19 13:11, sthu deu wrote:
+> thank you for your time and answer, ron:
+> 
+>> what version is that?  v3.2 from sid open much faster than ani 
+>> other version i've seen.
+> 
+> 3.2.0-4
+
+for me, that version perform much better than an other than the old 
+1.x on.
+
+>> "hang" ha a specif mean.
+>> do you mean "seemingli doe noth"?
+> 
+> correct, just hang for a while (no ani respons) then open the document.
+> 
+>> upgrad to v3.2; add more ram; bui a faster cpu; learn c++ and join 
+>> the ooo develop team.
+> 
+> thank you for the wisdom - so i will do.
+
+also, run top(1) sort by (m)emori.  you'll almost definit see 
+ooo grind up cpu and ram.
+
+>> there us to be a "preload", but i don't see it anymor.
+> 
+> ?
+> 
+
+there wa a featur where gnome or kde would pre-load ooo at de 
+startup.  that wai, it *appear* that ooo load much faster, even 
+though it wa realli just shift.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bccab01.6050505@cox.net
+
+

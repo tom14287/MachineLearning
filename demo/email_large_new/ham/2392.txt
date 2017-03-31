@@ -1,0 +1,43 @@
+re: devic namesfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+on tuesdai 27 april 2010 13:46:23 frank mccormick wrote:
+> i recent instal ubuntu 10.04 on the "other" partit on my
+> hd ( /dev/hda3) and came across a problem no on on the
+> ubuntu forum could realli resolv.
+> grub2 wa instal at the same time as ubuntu, and the whole
+> instal work fine..for ubuntu.
+> howev grub2 could not boot debian squeez on /dev/hda2.
+> updat-grub kept put /dev/sda2 in it grub.cfg and squeez
+> could not boot from that. it also did not us uuid for debian
+> despit the face that seem to be the default.
+> grub2 is instal in the mbr.
+>=20
+> the onli solut i could find after dai wa to instal grub2 from
+> debian, again in the mbr. it config boot both fine, us uuid.
+>=20
+> is thi a grub bug in ubuntu, or will debian eventu start
+> call hd partit by the same syntax?
+
+the kernel from lenni-backport, test, or sid will probabl be us the=
+=20
+same devic name as ubuntu.
+
+like it is not us uuid try to be compat with initramf-es or=20
+other system that don't like them.  but, as you've seen, us the "raw"=20
+devic name doesn't realli help either.  differ kernel version, and ev=
+n=20
+kernel compil with differ option, will us differ "raw" name for=
+=20
+the devic.  in odd setup, the devic name might chang from boot to boot=
+ as=20
+devic ar (now) discov asynchron so thei mai be assign name i=
+n a=20
+differ order base how quickli thei respond to the kernel.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

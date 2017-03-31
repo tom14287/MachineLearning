@@ -1,0 +1,37 @@
+aptitud updat think there ar no updat! (solv by delet 
+	apt/list)hi all,
+
+after about a fortnight, i tri to updat my debian squeez desktop,
+and i wa us the mirror.cse.iitk.ac.in mirror. after download
+the repositori list, it tell me there ar no updat -- i am
+surpris as i know that gnome 2.30 is alreadi in test. think
+that it could be a problem with the mirror, i switch to
+ftp.ch.debian.org and updat. thi time, it doe sai there ar about
+300 updat.
+
+i issu a safe-upgrad, but the electr goe out just as the
+updat begin download. after i turn the comput back on, issu
+a safe-upgrad show there ar no updat! i try to aptitud updat
+but it think that the repositori ar alreadi updat, though
+apt-cach show nautilu give the version 2.28.4. as i wa in a hurri
+at the time, i just delet /var/lib/apt/list, so aptitud had no
+choic but to realli download the list. after thi the safe-upgrad
+proceed as usual. i realis after delet /var/lib/apt/list that
+i should have kept a copi, but too late.
+
+though the problem is (in a sens) solv, i am curiou as to how thi
+(bug?) could have occur. after all thi i check
+mirror.cse.iitk.ac.in  and it doe have nautilu 2.30.1, so mayb the
+first no-updat scenario wa also caus by thi bug/problem.
+
+abhishek
+--
+pleas cc me as i am not subscrib to debian-user.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktinkeqchqnw2ja6zije7g9eslap37wjjb3yfu_lp@mail.csmine.org
+
+

@@ -1,0 +1,22 @@
+re: lenni to squeez upgrad problemson 05/12/2010 04:16 pm, boyd stephen smith jr. wrote:
+> on wednesdai 12 mai 2010 16:04:07 jordan metzmeier wrote:
+>> thi issu is becaus the new udev requir a>  .31 kernel with
+>> sysrq_deprec=n (i am go off memori here so don't quot me). thi
+>> mean you need to first upgrad to the squeez kernel, reboot, then upgrad
+>> udev and proce with the "updgrad".
+>
+> ad tag: need-to-be-in-releas-note
+
+to heck with the releas note!  thi need to be front and center 
+when you when you do the "apt-get updat".
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4beb1c75.6080800@cox.net
+
+

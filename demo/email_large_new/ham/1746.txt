@@ -1,0 +1,16 @@
+[ilug] hay accura isdn pcido anyon know if thi is support under 2.4.18 kernel or higher?
+
+i need to bui an isdn ta quick, and pc world have these in stock for ˆ65.
+
+thank,
+	david.
+
+david hamilton
+senior technic consult
+hp ireland 
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

@@ -1,0 +1,24 @@
+re: rh 8 no dma for dvd driveon mon, 2002-10-07 at 09:56, matthia saou wrote:
+
+> > thank you, that wa exactli what i need.
+> > dvd work great now.
+> 
+> btw, i think i'll kake it so that my ogl packag automat insert
+> thi "option id-cd dma=1" to /etc/modul.conf! it current creat the
+> /dev/dvd link to /dev/cdrom (which will work most of the time, if there's
+> onli on drive) if no /dev/dvd exist.
+
+eek.  mayb it's just me, but i don't think that's a good idea. 
+output a messag in %post and provid a readm of some kind would
+be better, as well as perhap ad a note in %descript.
+
+-- 
+\/ill skyttä
+vill.skytta at iki.fi
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

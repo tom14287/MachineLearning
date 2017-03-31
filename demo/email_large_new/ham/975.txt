@@ -1,0 +1,31 @@
+re: lilo remov in squeez (or, "pleas test grub2")sven joachim put forth on 5/23/2010 1:05 am:
+> on 2010-05-23 07:47 +0200, stan hoeppner wrote:
+> 
+>> no, resist forc conform.  thi is linux.  we have multipl choic with
+>> everyth els, so we should darn well have our choic of boot loader.
+> 
+> you're welcom to work on lilo so that can cope with the increas size
+> of kernel imag and initramf.
+
+my point wa exactli that.  for user who run tight, tini, custom kernel
+either without initrd (such as myself) or with tini initrd tailor to a
+specif hardwar config, lilo should be allow as an option for these user.
+
+grub is bloat becaus it is design to accommod bloat.  lilo is the
+antithesi of bloat.
+
+mani op don't need or want lilo to be abl to accommod bloat kernel
+imag or initrd.  the current version of lilo is fine.  we just want the
+option to be abl to us lilo becaus our kernel imag aren't bloat, and
+grub is a pita to work with, and is unnecessari on our system.
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf9a150.50600@hardwarefreak.com
+
+

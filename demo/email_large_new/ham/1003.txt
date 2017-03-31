@@ -1,0 +1,57 @@
+re: tini termin text after kernel updateon tue 25 mai 2010 at 15:49:43 +0200, sven joachim wrote:
+
+> if the nativ resolut is not detect, it is a problem of the monitor
+> which should have report it prefer resolut via edid.
+
+i thought that too but with these two card
+
+ displai control: ati technolog inc rv280 [radeon 9200 pro] (secondari) (rev 01)
+ vga compat control: nvidia corpor nv34 [geforc fx 5200] (rev a1)
+
+/var/log/xorg.0.log ha no problem report
+
+  (ii) radeon(0): edid data from the displai on output: dvi-0 ----------------------
+  (ii) radeon(0): manufactur: del  model: 400d  serial#: 1094992983
+  (ii) radeon(0): year: 2006  week: 2
+
+for the radeon card, and
+
+  (ii) nouveau(0): edid for output vga-1
+  (ii) nouveau(0): manufactur: del  model: 400c  serial#: 1094992983
+  (ii) nouveau(0): year: 2006  week: 2
+
+for the nvidia card. avail resolut and edid (in hex) ar also
+record.
+
+with an onboard nvidia adaptor
+
+ vga compat control: nvidia corpor nvcrush11 [geforc2 mx integr graphic] (rev b1)
+
+there is no edid inform in xorg.0.log. i get 1024x768 on the consol
+and in x. the nativ resolut of the panel is 1280x1024. thi is a step
+up on the nv driver which will give onli 800x600 without be told
+otherwis in xorg.conf.
+
+so i'm disinclin to blame the behavior of the monitor.
+
+not the same card as my onboard nvidia but thi is close to the behaviour
+i've experienc:
+
+http://bug.launchpad.net/ubuntu/+sourc/xserver-xorg-video-nouveau/+bug/569505
+
+> i never had ani problem with the terminu font, ymmv.
+
+which on do you us? terminusbold 20x10, 22x11, 24x12 and 28x14 all lead
+to screen corrupt for me. 32x16 behav.
+
+http://bug.launchpad.net/ubuntu/+sourc/linux/+bug/544739
+
+mai have some bear on my observ.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100525184827.gb24192@desktop
+
+

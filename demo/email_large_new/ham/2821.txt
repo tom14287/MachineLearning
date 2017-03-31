@@ -1,0 +1,22 @@
+re: chang locat of incom mail. exmh not work!!from nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset=us-ascii
+
+
+on thu, 05 sep 2002 14:40:53 pdt, siva doriaswami write:
+>recent, my incom mail (or spool) locat move to anoth disk.
+>i'm not quit clear how to reconfigur procmail/rcvstore/exmh to accept
+>mail from the new locat.
+
+how do you feed procmail? not with a .forward, i'd guess.
+
+how doe mail enter your system anywai? per fetchmail mayb? or direct 
+ smtp-deliveri? or doe it just magic hit your spool?
+
+lotsa question...
+
+cheer,
+&rw;
+-- 
+-- booz: becaus on doesn't solv the world's problem over white wine.
+
+

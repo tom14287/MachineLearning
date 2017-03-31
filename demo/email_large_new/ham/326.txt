@@ -1,0 +1,32 @@
+bright osd in squeezehi,
+
+i am run up-to-date squeez on a dell latitud d420. i have a
+trivial problem, but such thing bother me :-)
+
+the hotkei for volum and bright adjust work out of the box in a
+gnome session. howev, when i adjust the volum us the hotkei, i see
+a nice transluc on-screen displai of the volum level. thi is not
+the case for bright control.
+
+interestingli, i briefli instal kde a coupl of dai ago. i then
+found that, *dure a gnome session*, the bright osd did appear. it
+vanish again after i remov kde.
+
+so, the kde instal seem to pull in some packag which is
+respons for the bright osd. ani idea which of the dozen of
+packag it might be?
+
+liam
+
+-- 
+liam o'tool
+birmingham, unit kingdom
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/slrnhvctlr.b3s.liam.p.otool@dipsi.selfip.org
+
+

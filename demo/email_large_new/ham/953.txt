@@ -1,0 +1,154 @@
+re: [razor-user] ricochet question actual
+
+formail did the trick. thank to those who answer. for the sake of
+archiv, here's how to "patch" ricochet:
+
+
+1. procmailrc (/tmp/pmrc):
+
+ricochet=/usr/local/etc/ricochet
+pmdir=/tmp
+logfil=$pmdir/pmlog
+verbos=ye
+maildir=/tmp
+logabstract=all
+
+:0 f
+| /usr/local/bin/ri2
+
+
+2. /usr/local/bin/ri2 (to test):
+
+#!/bin/sh
+/usr/local/bin/ricochet -dont_send >/tmp/rico.$$
+
+3. formmail exec:
+
+formail -ds procmail /tmp/pmrc  -----origin messag-----
+> from: razor-user-admin@exampl.sourceforg.net
+> [mailto:razor-user-admin@list.sourceforg.net]on behalf of sven
+> willenberg
+> sent: tuesdai, august 13, 2002 4:06 pm
+> to: zeek@sparklehous.com
+> cc: razor-user@exampl.sourceforg.net
+> subject: re: [razor-user] ricochet question actual
+>
+>
+>
+>
+> ----- origin messag -----
+> > from: "zeek" 
+> > to: 
+> > date: tue, 13 aug 2002 12:07:10 -0400
+> > subject: [razor-user] ricochet question actual
+> >
+> >
+> > greet,
+> >
+> > i've not been abl to find a list regard ricochet (close relat to
+> > razor: http://www.vipul.net/ricochet/) so i'm post here.
+> >
+> > everi few dai i manual go through a spam harvest that spamassassin
+> > collect (by wai of check against osirosoft, razor, et.
+> al.). i do thi
+> > with elm and for each piec of verifi spam i pipe it to ricochet which
+> > send it off to the variou parti involv (not as accur
+> as i'd like
+> > btw). needless to mention thi is quit tediou and take a consider
+> > amount of time.
+> >
+> > my question, which is more of a perl/regexp question, is anyon
+> awar of a
+> > script that can take an entir mailbox (in proper unix mbox format) and
+> > handl each piec of mail in it? to clarifi, i'm look for someth
+> which
+> > take each piec of mail in a mailbox and pipe it to ricochet. thi is
+> veri
+> > similar to what razor-report doe with the -m option.
+> >
+>
+> assum that you have procmail instal you also have it companion
+> formail. formail can be us to pars an mbox into it compon
+> email and
+> pass them to procmail. specifii a procmailrc file to us to
+> filter/test/send
+> each email and you're good to go. you could even set it up as a cron ...
+>
+> exampl: assum your mailbox/email is "spambox"
+>
+> `formail -ds procmail /home/spambox/customprocmailrc < /var/mail/spambox`
+>
+> thi will take the mbox /var/mail/spambox break it apart at the messag
+> separ ('^from '), send it off to procmail and instruct procmail to us
+> the "customprocmailrc" config file found in spambox's home directori. that
+> "customprocmailrc" would contain your rule for how to handl
+> each mail and
+> send it where it need to go ....
+>
+>
+> > cheer,
+> > -zeek
+> >
+> >
+> >
+> > --__--__--
+> >
+> > messag: 11
+> > date: tue, 13 aug 2002 11:58:03 -0500
+> > to: razor-user@exampl.sourceforg.net
+> > from: justin shore 
+> > subject: [razor-user] strip the spamassassin report
+> >
+> > i'm assum i need to strip the spamassassinreport.txt attach
+> > from my spam mailbox befor i run the mailbox through razor-report,
+> > correct?  doe anyon know of an easi wai to do thi?
+> >
+> > thank
+> >   justin
+> > --
+> >
+> > --
+> > justin shore, es-ss es-ssr      pittsburg state univers
+> > network & system manag       kelc 157q
+> > offic of inform system   pittsburg, ks 66762
+> > voic: (620) 235-4606           fax: (620) 235-4545
+> > http://www.pittstat.edu/oi/
+> >
+> > warn:  thi messag ha been quadrupl rot13'ed for your protect.
+> >
+> >
+> >
+> > --__--__--
+> >
+> > _______________________________________________
+> > razor-user mail list
+> > razor-user@list.sourceforg.net
+> > http://list.sourceforg.net/list/listinfo/razor-user
+> >
+> >
+> > end of razor-user digest
+>
+>
+>
+> -------------------------------------------------------
+> thi sf.net email is sponsor by: dice - the lead onlin job board
+> for high-tech profession. search and appli for tech job todai!
+> http://seeker.dice.com/seeker.epl?rel_code=31
+> _______________________________________________
+> razor-user mail list
+> razor-user@list.sourceforg.net
+> http://list.sourceforg.net/list/listinfo/razor-user
+>
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: dice - the lead onlin job board
+for high-tech profession. search and appli for tech job todai!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

@@ -1,0 +1,67 @@
+re: what prevent mount of usb devic?-----begin pgp sign messag-----
+hash: sha1
+
+florian kulzer wrote:
+> did you have ani secur upgrad late 
+
+sure, i instal them regularli. doesn't everybodi?
+
+> or did you instal packag from backport or volatil
+
+i do have the follow as part of my sourc.conf:
+
+deb http://volatil.debian.org/debian-volatil lenni/volatil main
+contrib non-free
+deb-src http://volatil.debian.org/debian-volatil lenni/volatil main
+contrib non-free
+deb http://www.debian-multimedia.org lenni main
+
+i am not sure if i actual instal anyth from volatil.
+
+> or ani non-debian stuff? 
+
+ye, from debian-multimedia.org. presum that count as non-debian.
+
+> anoth thing to try is to activ the desktop icon for remov
+> devic and test if user can mount the devic by click on the
+> icon.
+
+sorri to sound stupid, but how do i activ those? right now i don't
+see ani icon on the desktop when plug devic in.
+
+> i suspect that the fstab entri is not realli a problem. mayb you can
+> setup pmount for the individu user so that it is more conveni.
+
+ye, the pmount work fine now, it did not even requir set anyth up.
+
+> unfortun i do not understand what els your dbu error messag is
+> try to tell us. i would run "lshal --monitor", then plug in a usb
+> stick and try to mount it; mayb that will turn up someth us.
+> 
+> see what hal know about a usb stick might also help; hal can be
+> queri like thi:
+> 
+> lshal -u $(hal-find-by-properti --kei block.devic --string "/dev/sdx")
+> lshal -u $(hal-find-by-properti --kei block.devic --string "/dev/sdx1")
+> 
+> (replac "sdx" as is appropri)
+
+thank for show and explain lshal to me. i'll explor with it and
+report if i find someth interest.
+
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: us gnupg with mozilla - http://enigmail.mozdev.org
+
+ieyearecaayfakvdqa4acgkq+vsrxyk4408syacelv3a1tt3vkgvtwya+obz71nu
+igqan0hgk+w/0ykmqb/vtjnrf1oelyib
+=3b0a
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc3a80f.5010907@web.de
+
+

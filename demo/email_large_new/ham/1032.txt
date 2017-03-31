@@ -1,0 +1,14 @@
+altern to dhcp?i edit /etc/resolv.conf to add a nameserv, edit /etc/dhcp3/dhclient.conf 
+to do the same and ad the dn to wicd.  howev, i keep get the same 
+old dn from the router, i.e., resolv.conf keep chang to the router's 192 
+ip.  the router doe not allow edit dn.  i think thi is due to us 
+dhcp.  is there an altern which wouldn't caus a default to the router's 
+dn?  ani pointer appreci.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004141717.48733.edjabr@csmine.org
+
+

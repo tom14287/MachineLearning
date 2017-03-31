@@ -1,0 +1,60 @@
+re: [solv] debian-multimedia break mplayer .mov playback on
+ lenni?on tue, 2010-04-20 at 00:00 +0200, clive mcbarton wrote:
+> -----begin pgp sign messag-----
+> hash: sha1
+> 
+> ron johnson wrote:
+> > on 2010-04-19 16:19, clive mcbarton wrote:
+> > [snip]
+> >>
+> >> how come there is no link anywher on debian.org point to
+> >> debian-multimedia.org? anyth to establish a chain of trust. as it is,
+> >> i look and look but didn't find. even when search for
+> >> "multimedia" on debian.org, it doe not mention debian-multimedia.org at
+> >> all. not even when search for "debian-multimedia". everi new debian
+> >> user try to verifi the credibilitii of debian-multimedia.org would
+> >> have given up at thi point for sure.
+> > 
+> > googl is pretti darn ubiquit, and ha been for 8+ year.
+> > 
+> > put "debian plai" in the ff/iw search bar auto-complet "debian
+> > plai encrypt dvd", and each of the first 5 link mention d-mm.o.
+> 
+> ye, googl (and all other search site) quickli lead to d-m. but what
+> doe thi realli prove? we all know that googl (and all other search
+> site) ar far from immun against find malwar site. exampl:
+> googl "window multimedia". on the first page of result, half the hit
+> ar site with pretti dubiou name. i wouldn't be surpris if some of
+> them actual distribut malwar.
+> 
+> linux is gener better protect against malwar as window, but thi
+>  is on vulner that is common to both: if you instal anyth
+> from an untrust repo, and if that repo had malwar, you're toast.
+> 
+> > "mention" doe *not* mean "endors".  never ha, never will.
+> 
+> > d-mm.o is not an offici debian site, so it's nor mention anywher 
+> > except hi person page and the list archiv.
+> 
+> i understand that point of view. but it is a point of view that will
+> make peopl stai awai from d-m (and pretti much all other repo for that
+> matter).
+> 
+> it would help a lot if the kei of d-m (packag
+> debian-multimedia-keyr) wa in the debian repo, not just the d-m repo.
+
+all the stuff at debian-multimedia can't be includ in debian for
+variou reason, mostli freedom i think, so you won't find it in debian
+at all. it's made for debian but it isn't debian.
+
+i start us d-mm.o from the repli to a question i post in thi
+list mani year ago and i suspect most peopl still find it todai the
+same wai.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1271725695.3636.3.camel@debian.ok.shawcabl.net
+
+

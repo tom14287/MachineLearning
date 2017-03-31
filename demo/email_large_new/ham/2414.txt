@@ -1,0 +1,25 @@
+re: [satalk] ot: dn mx record clarif pleaseon fri, 2002-09-13 at 14:33, vernon wrote:
+> 
+> but onli some of the mail is actual be scan which lead me to
+> believ that not all of the mail is actual hit that box and the 10
+> never goe down. why? have i got someth confus here?
+> 
+send mail directli to a backup mail server in the hope that it ha
+less stringent spam scan is a common spammer trick.
+
+-- 
+jason kohl                                 jkohl@redhat.com
+senior engin                 red hat profession consult
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

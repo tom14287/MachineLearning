@@ -1,0 +1,25 @@
+re: fwd: re: kde 3.5 ...from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on mon,10.mai.10, 09:25:42, dotan cohen wrote:
+>=20
+> sorri for ccing to you messag that ar meant for you, lisi. if you
+> haven't notic the mail list header ar broken and repli send
+> messag off list. therefor i us repli all and oh no, you get cced.
+
+http://www.unicom.com/pw/repli-to-harm.html
+http://woozl.org/~neal/paper/repli-to-still-harm.html
+
+(no, i don't want to start *that* discuss yet again; interest=20
+peopl can just search the archiv)
+
+i can't tell what mailer you ar us, but most of the floss mailer=20
+have repli-to-list.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

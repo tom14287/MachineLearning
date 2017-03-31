@@ -1,0 +1,281 @@
+cnet: copycat worm and a pgp outlook flaw
+
+cnet viru & secur newslett
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+juli 17, 2002
+
+
+
+
+
+
+						--robert vamosisenior associ editorcnet softwar and internet servic
+ 
+
+dear reader,
+so far, 2002 ha been a year mark with variat on earlier
+worm. if you updat your antiviru softwar on a regular basi,
+these new version of frethem and yaha shouldn't be a nuisanc.
+but if you haven't updat in a while, these variant--plu the
+continu threat of klez.h--should motiv you. in secur
+new, a flaw in certain version of pgp encrypt could affect
+outlook user. read on to learn whether you're vulner.
+ 
+						 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+frethem.k worm want to give you a password
+ an e-mail messag that promis to reveal secret inform with
+a password is yet anoth variant from the peski frethem worm
+famili. frethem.k, technic known as w32.frethem.k@mm, also
+call frethem.l by some vendor, us it own smtp engin to
+send e-mail us address obtain from infect system. thi
+worm doe not carri a destruct payload. mac and linux user
+ar not affect.
+
+
+
+yaha.e screensav worm spread
+ the yaha.e mass-mail worm masquerad as a friendli
+screensav, prove that user worldwid ar still open
+attach file from total stranger. yaha.e (w32.yaha.e@mm, also
+known as lentin.e, yaha.f, and yaha.g) is a success variant of
+a worm first seen around valentin's dai thi year. thankfulli,
+thi worm doe not affect mac, linux, or unix user.
+
+
+
+
+
+
+leaki pgp outlook plug-in 
+pgp 7.03 and 7.04, wide us plug-in for microsoft's outlook
+e-mail client, inadvert weaken secur and leav the mail
+program open to attack. fortun, there is a patch avail.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+digit photographi starter kitthi guid to digit photo will show you the best product to take your imag from snap to finish.
+
+
+	 panason's littlest lumix
+	 minolta"s 4-megapixel dimag f100
+
+
+
+
+
+
+
+
+
+
+
+most popular product
+digit camera
+	1. canon powershot g2
+	2. canon powershot s30
+	3. canon powershot s40
+	4. canon powershot a40
+	5. soni cyber shot dsc-f707
+ see all most popular camera
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+search 
+
+ in softwareal cnet    the web
+  
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+the e-mail address for your subscript is qqqqqqqqqq-cnet-newslett@exampl.com
+unsubscrib |
+ manag my subscript
+ | faq |
+ advertis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+price comparison |
+product review |
+tech new |
+download |
+all cnet servic
+
+
+
+
+
+        copyright 2002 cnet network, inc. all right reserv.          
+
+
+

@@ -1,0 +1,51 @@
+re: alsa (almost) made easythank matthia.  actual i got all four speaker with subwoof
+work in digit out mode with gamix.
+(http://www1.tcnet.ne.jp/fmurata/linux/down/)
+
+howev switch between analog and digit, i'm still baffl.  as i
+have a tuner and cassett deck hook up to "line in" on a sblive! 5.1,
+which is in analog mode.  but digit out work great now!
+
+on wed, 2002-08-28 at 23:26, matthia saou wrote:
+> onc upon a time, lanc wrote :
+> 
+> > ok, i got alsa instal and there is no static inbetween mp3s like
+> > befor which is great!  my setup is digit 4.1 but sound is onli come
+> > from front 2 speaker and subwoof, rear speaker there is no sound. 
+> > also alsamix or aumix ar unrespons as well. 
+> 
+> mayb you could find more info or tip on the alsa page for your card?
+> also, you could try "alsactl store", edit /etc/asound.state" by hand
+> (for me it contain data similar to what i can control with "alsamix")
+> then run "alsactl restor" and see if you're abl to chang what you want
+> that wai.
+> 
+> matthia
+> 
+> -- 
+> matthia saou                                world trade center
+> -------------                                edificio nort 4 planta
+> system and network engin                  08039 barcelona, spain
+> electron group interact                 phone : +34 936 00 23 23
+> 
+> _______________________________________________
+> rpm-list mail list 
+> http://list.freshrpm.net/mailman/listinfo/rpm-list
+-- 
+:
+####[ linux on stanza tip (lost) ]###########################
+
+sub : find out file larger than given size       lost #324
+
+to find out all file in a dir over a given size, try:
+find /path/to/dir_of_file -type f -size +nk
+[where n is a number like 1024 for 1mb, and multipl thereof] 
+
+####[discuss on lih : 04 jul 2002]########################
+:
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

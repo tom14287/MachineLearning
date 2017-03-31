@@ -1,0 +1,52 @@
+re: monitor internet avail and send sm alert?adam hardi on 14/05/10 14:13, wrote:
+> ron johnson on 14/05/10 12:54, wrote:
+>> on 05/14/2010 06:32 am, adam hardi wrote:
+>>> merciadri luca on 14/05/10 11:31, wrote:
+>>>> ron johnson wrote:
+>>>>> on 05/13/2010 06:28 pm, adam hardi wrote:
+>>>>>> i figur thi is probabl someth i would have to script myself
+>>>>>> becaus i can't find anyth us look out there, but i thought
+>>>>>> i'd ask befor i try (or perhap befor i procrastin again):
+>>>>>>
+>>>>>> i have a machin here at home run some 24x5 program which i 
+>>>>>> realli
+>>>>>> need to keep up and run, along with my broadband so it can get 
+>>>>>> it
+>>>>>> datafe.
+>>>>>>
+>>>>>> i figur i could run a program on my webserv to ping my home 
+>>>>>> machin
+>>>>>> regularli and in case it start to slow down, lose packet or die
+>>>>>> complet, it could send me an sm to alert me to the fact.
+>>>>>>
+>>>>>> is there someth like thi alreadi in exist?
+>>>>>>
+>>>>> smsclient, ping and bash should do the trick...
+>>>>>
+>>>> might not be too hard to implement, as explain by ron.
+>>>
+>>> i shall look into these option. i'll obvious have to open up the ping
+>>> port on my firewal.
+>>>
+>>
+>> outgo port ar randomli assign, though, aren't thei?
+> 
+> sure. i mean on the box at home that i'm monitor from the onlin 
+> server. aaaah, just realis i don't have a fix ip ?$*!(*)"*"!!!
+
+actual the more i think about it, the more i realis that i would rather have 
+some kind of full blood monitor app which let me see stat (or even chart 
+like ntop) of internet speed over the week, although i bet that is just dream.
+
+i read on thread somewher out there about app like cacti, zenoss and 
+groundwork - if you know anyth about such packag, then you know more about 
+them than me: is thi kind of packag remot suitabl or am i bark up the 
+wrong tree?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bed4f8d.2080007@cyberspaceroad.com
+
+

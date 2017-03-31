@@ -1,0 +1,32 @@
+re: chromium in sidon fri, mai 21, 2010 at 11:41:38am -0500, john hasler utter:
+> johnrchamplin write:
+> > ...which us to be avail from unstabl, but which i have heard is
+> > now in sid.
+> 
+> unstabl _is_ sid.
+> 
+> in ani case, a few week is not old.
+
+it is on a fast move target, and especi in the case of a major
+releas. mani improv ar roll into the recent 6.x releas.
+
+if debian isn't go to keep up with the current trunk; then there
+realli is no point in packag it here. as it stand i'm not go to
+go backward a full version, so i have revert to the ppa build.
+
+i don't feel that it's necessari to packag it daili, but
+weekli should be done as that's the releas cycl that googl-chrome
+develop version usual follow.
+
+for those of us that also us debian on a desktop/laptop besid a
+server; us old version isn't usual desir on the
+workstat where stabil isn't as necessari as that of a
+product server.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100522170838.gc8488@googl.com
+
+

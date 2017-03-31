@@ -1,0 +1,44 @@
+re: libc6 upgrad lenni to squeez fail, now dpkg is brokenon 2010-05-11 22:11 +0200, chri austin wrote:
+
+> i wa requir to upgrad libc6 from lenni to squeez in order to meet
+> depend to instal a packag from unstabl, but the libc6 upgrad
+> fail becaus libc-bin wa not instal.
+
+how could thi happen, given that libc6 depend on libc-bin?
+
+> now dpkg is broken.  i
+> tri a manual reinstal of the lenni libc6, as suggest in anoth
+> thread on thi list, but it did not work.  the result wa:
+
+> debian:/home/chri# dpkg -i libc6_2.7-18lenni2_i386.deb
+> dpkg: `ldconfig' not found on path.
+> dpkg: 1 expect program(s) not found on path.
+> nb: root's path should usual contain /usr/local/sbin, /usr/sbin and /sbin.
+>
+> how can thi be fix?
+
+us the "--forc-bad-path" option, see "dpkg --forc-help".
+
+>  and shouldn't there be a big warn that try to upgrad libc6 can
+>  break dpkg, on the debian websit page for libc6?
+
+there is, actual thi hold for ani packag:
+
+,----[ http://packag.debian.org/en/squeez/i386/libc6/download ]
+| if you ar run debian, it is strongli suggest to us a packag
+| manag like aptitud or synapt to download and instal packag,
+| instead of do so manual via thi websit.
+`----
+
+follow thi advic and do not us dpkg directli if you don't know what
+you're do.  especi not for requir packag.
+
+sven
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87vdaujggp.fsf@turtl.gmx.de
+
+

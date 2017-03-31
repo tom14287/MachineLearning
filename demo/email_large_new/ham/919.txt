@@ -1,0 +1,44 @@
+re: tool tip remain after window switchingon tue, 27 apr 2010 10:40:58 -0500
+"boyd stephen smith jr."  wrote:
+
+> on mondai 26 april 2010 21:09:06 celejar wrote:
+> > i us a
+> > number of applic that implement tool tip, those littl box
+> > that come up explain some on screen widget.  veri often, when on
+> > come up and i then switch to a differ window,
+> > the tool tip remain, superimpos over the new
+> > applic, and won't go awai until i switch back to the first app,
+> > move the cursor somewher els to get it to go awai, and then switch
+> > back to the other applic.
+> > 
+> > should i file a bug,
+> 
+> sound like a bug to me.  not exactli high-prioriti, but a bug nonetheless.
+> 
+> > and against
+> > what?
+> 
+> well, doe thi onli happen with tooltip from a singl applic?  multipl 
+> relat applic (e.g. multipl qt-4 applic)?  everi applic?
+> 
+> singl -> that app.
+> multipl -> that librari / relat "thing".  or ani on of the applic, 
+> but includ inform about which other applic ar affect.
+> everi -> probabl your window manag, mayb x.
+
+the main offend is oowrit.  i think that i've seen a similar
+problem with other applic, but i can't reproduc such right now.
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100427171801.53fff689.celejar@csmine.org
+
+

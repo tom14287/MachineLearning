@@ -1,0 +1,66 @@
+re: ctrl+alt+fn not show consolesfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+how about singl user mode?  ar you abl to get virtual consol there.
+also try to disabl gdm/kdm, see whether virtual consol ar work.
+
+on tue, apr 27, 2010 at 16:08, rudu  wrote:
+
+> le 27/04/2010 03:48, hugo vanwoerkom a =e9crit :
+>
+>>
+>> rudu wrote:
+>>
+>>> le 26/04/2010 20:55, hugo vanwoerkom a =e9crit :
+>>>
+>>>>
+>>>> so ar you still run nv?
+>>>>
+>>> ye
+>>>
+>>>  and what wa the driver that wouldn't compil?
+>>>> i run x86-195.36.15 on the latest sid kernel and it compil just
+>>>> fine, but i don't (yet) have a amd64 system.
+>>>>
+>>>
+>>> excerpt from /var/log/nvidia-instal.log :
+>>>
+>>>> us: nvidia-instal ncurs user interfac
+>>>> warn: skip the runlevel check (the util `runlevel` fail
+>>>> to run).
+>>>> -> licens accept.
+>>>> -> instal nvidia driver version 195.36.15.
+>>>> -> perform cc saniti check with cc=3d"cc".
+>>>> -> perform cc version check with cc=3d"cc".
+>>>> -> the cc version check fail:
+>>>>
+>>>>   [...]
+>>>>
+>>>
+>>>
+>> inde. forget thi if it is beat a dead hors, but did you have
+>> gcc-4.3 + gcc-4.4 both instal? i did and i set the symlink gcc to
+>> gcc-4.3 and that got rid of the messag.
+>>
+>
+> thank you hugo, i manag to compil the proprietari driver.
+> now everi ctrl+alt+fn lead to a complet black screen, with no prompt or
+> cursor or anyth.
+> ctrl+alt+f7 work as expect.
+> could it be that my system stop creat the consol at boot time ?
+> what should i check and where ?
+>
+> tia,
+> jean-marc
+>
+>
+>
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org with a
+> subject of "unsubscrib". troubl? contact listmast@list.debian.org
+> archiv: http://list.debian.org/4bd6bea3.3060705@cegetel.net
+>
+>

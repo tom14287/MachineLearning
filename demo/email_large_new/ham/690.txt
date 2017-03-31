@@ -1,0 +1,26 @@
+re: kde 4.4.3 in unstableon 2010-05-06 diederik de haa wrote:
+> postgresql is appar capabl of provid the proper featur and
+> tobia koenig ha made akonadi  work with postgresql sinc the end of
+> last year (http://toko-kde.blogspot.com/2009/12/akonadi-
+> and-postgresql.html). that patch wa commit to trunk at that time, but
+> appar didn't make into sc 4.4 (?).
+> so if you want to us postgresql, your best bet would be to port/base that
+> patch on 4.4.
+
+i don't want to reinstat thi discuss, but i just found sth which i haven't heard/read about 
+befor, which might help you (haven't tri it myself).
+
+i just start the akonadi trai util, then right-click on the trai icon and chose configur...
+the second tab, label "akonadi server configur" ha a set for databas driver, which 
+allow you to choos between mysql and ... postgresql
+with postgresql select, you can specifi your databas set.
+
+mayb that help.
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005081944.08205.didi.debian@cknow.org
+
+

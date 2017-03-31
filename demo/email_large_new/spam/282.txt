@@ -1,0 +1,67 @@
+[spam]  watch hi mistak
+
+
+newslett - octob 11, 2009
+
+
+
+bodi {
+font-size: 12px;
+font-famili: arial, verdana, san-serif;
+font-weight: normal;
+font-style: normal;
+}
+
+physicaladdress {
+color: grai;
+font-size: 10px;
+font-famili: arial, verdana, san-serif;
+font-weight: 100;
+}
+
+whiteongrai {
+	color:#ffffcc; text-decor:underlin; font-size:22px; border:0px;
+}
+
+
+
+
+
+if you ar have troubl view thi newslett, pleas go to onlin version. 
+
+ 
+
+
+ 
+
+
+new octob
+			11, 2009
+ 
+            subscrib  |  send feedback  |  pdf version
+
+
+
+
+
+
+
+
+
+
+
+
+
+previou issu  |  follow us on twitter  |  
+              subscrib  |  send feedback  |  unsubscrib
+
+
+
+
+
+u.s. depart of labor, franc perkin build, 200 constitut av., nw, washington, dc 20210
+
+
+
+
+

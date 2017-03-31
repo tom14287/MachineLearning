@@ -1,0 +1,37 @@
+[sacv] cv: spamassassin manifest,1.100.2.11,1.100.2.12updat of /cvsroot/spamassassin/spamassassin
+in directori usw-pr-cv1:/tmp/cv-serv6501
+
+modifi file:
+      tag: b2_4_0
+	manifest 
+log messag:
+remov old evolv
+
+index: manifest
+===================================================================
+rc file: /cvsroot/spamassassin/spamassassin/manifest,v
+retriev revis 1.100.2.11
+retriev revis 1.100.2.12
+diff -b -w -u -d -r1.100.2.11 -r1.100.2.12
+--- manifest	28 aug 2002 13:50:15 -0000	1.100.2.11
++++ manifest	28 aug 2002 16:55:16 -0000	1.100.2.12
+@@ -50,7 +50,6 @@
+ mass/corpu_polici
+ mass/corpu_submit
+ mass/craig-evolv.c
+-mass/evolv.cxx
+ mass/freqdiff
+ mass/hit-frequenc
+ mass/lib/mail/archiveiter.pm
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: jabber - the world's fastest grow 
+real-time commun platform! don't just im. build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+spamassassin-commit mail list
+spamassassin-commit@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-commit
+

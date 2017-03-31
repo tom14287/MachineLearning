@@ -1,0 +1,67 @@
+re: filesystem recommendationsron johnson put forth on 4/26/2010 2:37 am:
+> on 04/26/2010 02:14 am, stan hoeppner wrote:
+>> mark allum put forth on 4/25/2010 1:19 am:
+>>
+>>> (why? ext3 and 4 ar exception well support by linux and gnu.  xf
+>>> will be, too, probabl.)
+>>
+>> ar you kid?  xf alreadi is all of the thing you mention.  you
+>> appar need a histori lesson.
+>>
+>> xf went into product system start in 1993 on sgi's indi
+>> workstat.  xf wa gpl'd by sgi in 2000, and wa in linux mainlin
+>> just
+>> befor ext3, sinc mid 2001 in kernel 2.4.  it wa us almost
+>> exclus
+>> on the ia64 altix machin.  it took a while befor non sgi custom
+>> start try out xf on i386 hardwar.
+> [snip]
+> 
+> thei couldn't have directli take the irix code and brought it directli
+> to linux.  it just wouldn't work, and linu wouldn't allow such shim
+> code into the mainlin.
+> 
+> so, while there's an xf which is 17 year old, the linux xf code is
+> "onli" 9-10 year old.
+
+absolut correct.  i wasn't try to impli the same exact code ha been
+around for 17 year.  hell if that wa the case i wouldn't be us it.
+whilst the initi linux port effort wa more than a simpl recompil, i
+don't believ it wa a herculanean effort.  far more chang to the xf code
+have been made sinc inclus in mainlin than the chang requir to get
+from irix to linux.
+
+i actual saw a brief video interview of on of the sgi irix dev quit
+some time ago in which he describ the initi linux port effort to get it
+run on sgi's big origin 3000 mip machin.  thei had to do thi to
+start valid how everyth would run under linux becaus thei didn't
+have the first itanium altix system manufactur yet.
+
+iirc their testb wa a 32 processor origin 3000 run mip r14k
+processor.  thi wa back befor the linux mip port project exist so
+thei were in essenc creat the first linux mip port as part of their
+effort.  he clearli state that develop/maintain a linux mip port wa
+not in the card for sgi, that thi effort wa strictli a valid effort.
+ he said it took about a week to get linux boot on the origin system, and
+anoth week to get it stabl.  the first xf port to linux wa part of thi
+effort.  if it took onli 2 week for the bulk of thi effort, i can't
+imagin thei had to modifi a ton of xf code.  irix wa written in c as is
+linux, so the chang in xf were probabl fairli minor.
+
+i'd ventur to guess that the most signific linux xf chang were those
+for the 32bit x86 code base.  irix and thu xf were born on 64bit mip risc
+cpu.  move that to a linux 64bit itanium environ wa probabl
+rel straight forward.  move down to a 32bit platform probabl
+requir a lot of code chang, as did the initi linux 64bit port up to
+alpha, hppa, itanium, and eventu mip64.
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd54de6.9060605@hardwarefreak.com
+
+

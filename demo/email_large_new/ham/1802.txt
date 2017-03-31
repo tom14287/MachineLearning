@@ -1,0 +1,59 @@
+re: [razor-user] strip the spamassassin reportat 12:20 pm -0500 8/13/02, mike burger wrote:
+>make sure you have thi in your .spamassassin/user_pref:
+
+thi might be a problem.  i'll have to look into it further.  i just 
+got sa work yesterdai.  it's be call from mimedefang.  i'm 
+not sure if it will look for user prefer when run like that. 
+on would hope it would be i can't sai for certain.  i'll look in to 
+it.
+
+># by default, the subject line of suspect spam will be tag.
+># thi can be disabl here.
+>#
+>rewrit_subject 0
+
+yeah, i disabl the subject rewrit.  i also lower requir_hit 
+to 1 (wonder if i can do zero) so that almost all mail is score--i'm 
+test it right now.  auto_report_threshold wa rais to 100 to 
+make sure that all mail get through to me for now.
+
+># by default, spamassassin will includ it report in the bodi
+># of suspect spam. enabl thi caus the report to go in the
+># header instead. us 'us_ters_report' for thi is recommend.
+>#
+>report_header 1
+
+ah, now i didn't notic thi.  i rather like thi option.  i mai set 
+my global default to thi.
+
+>the first tell it not to add *****spam***** to the subject, the second
+>tell it to put the report in the header, instead of the bodi.
+>
+>if the report is in the header, it won't be calcul in the
+>razor-check.
+
+thi make sens.  i mai do that for just thi reason.  thank!
+
+justin
+-- 
+
+--
+justin shore, es-ss es-ssr      pittsburg state univers
+network & system manag       kelc 157q
+offic of inform system   pittsburg, ks 66762
+voic: (620) 235-4606           fax: (620) 235-4545
+http://www.pittstat.edu/oi/
+
+warn:  thi messag ha been quadrupl rot13'ed for your protect.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: dice - the lead onlin job board
+for high-tech profession. search and appli for tech job todai!
+http://seeker.dice.com/seeker.epl?rel_code=31
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

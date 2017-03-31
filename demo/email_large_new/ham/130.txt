@@ -1,0 +1,31 @@
+re: password mess upon tuesdai 04 mai 2010 05:30:25 don wrote:
+> hi,
+> 
+> i have a problem (actual more than on, but let's tackl thi on
+> first) with my password on kde log in screen no be accept.  the
+> password doe work ok when log in us command line / termin.
+> 
+> i have 3 user, and all have thi same situat.  their password work
+> on cli but not on the welcom log in screen graphic.
+> 
+> us 2.6.32-3-686 #1 smp with squeez/sid.
+> 
+> never a problem like thi previou to past month or so (cannot pinpoint
+> date as i wa out of circul in hospit for a week late march).
+> 
+> ani help appreci -- knowledg enough to be danger, so even
+> though i'm not a newbi, don't assum i'm an expert.
+> 
+> regard,
+> don
+> 
+first idea would be keyboard countri in x, but i bet you thought about that?
+thierri
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005040632.39783.tchatelet@free.fr
+
+

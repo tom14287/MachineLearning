@@ -1,0 +1,48 @@
+cross-platform developmenthei all,
+
+	i realiz thi ha come up befor, but i am still confus after  
+read through the old email. i have an app that us quicktim for  
+java. i would like to, mayb not right awai, but at some point, updat  
+my app to do the right thing. the right thing, appar, is to us  
+qtkit, becaus it is the onli 64-bit solut.
+
+	thi seem crazi to me, though, becaus it is os x specif, which  
+mean i need anoth solut for window. what is the 64-bit solut  
+(go to be) for window? doe thi mean everi develop who want to  
+write cross-platform qt code (not just java) is suppos to write  
+their own portabl layer for quicktim? is there an open sourc  
+solut out there or in the work? is there anoth solut that  
+peopl ar us other than qt?
+
+i need file convers from a wide varieti of file type (esp audio)  
+and video playback, although i will need some edit in the futur.  
+jmf+javasound won't cut it. not even close. i need wai more file  
+format than thei support. you us to be abl to us qtj as a plugin  
+for jmf to provid file read/write. perhap there is a wai to do  
+that with a minim qt java layer? okai, now i'm just think out  
+loud. sorri.
+
+	ani thought, advic pointer ar appreci. i have not seen the  
+cross-platform issu address, and the onli replac for qtj i've  
+seen ar os specif (eg rococoa).
+
+thank,
+
+	bjorn
+
+-----------------------------
+bjorn roch
+xo wave
+digit audio product and post-product softwar
+http://www.xowav.com
+http://blog.bjornroch.com
+http://myspac.com/xowav
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

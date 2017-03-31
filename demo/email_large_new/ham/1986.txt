@@ -1,0 +1,36 @@
+re: boot / lvm best practiceson 2010-04-13 11:13, thib wrote:
+> ron johnson wrote:
+>> on 2010-04-13 05:23, jon dowland wrote:
+>>> stan hoeppner wrote:
+>>>> if you're go to bui two
+>>>> drive, you'd be stupid to not us mirror for fault toler and a
+>>>> littl ad read perform here and there (depend on applic).
+>>>
+>>> i disagre. mirror onli protect you against drive failur and not
+>>> human error.
+>>
+>> and i disagre with that.  mirror *definit* make both read and 
+>> write go faster, due to parallel.
+> 
+> hmm.  don't ^ these.
+> 
+> backup ar alwai necessari, mirror is option but speed up 
+> recoveri from hardwar failur *onli*.  sometim, you can't backup (it 
+> doesn't make sens, it's too big, ..) and thu, ye, you also *need* 
+> mirror (not just to speed up thing).  but it will not help you in 
+> case of human error, as stan said.
+> 
+
+note that i didn't mention human error; probabl should have snip 
+out that part.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc4aa3a.1040007@cox.net
+
+

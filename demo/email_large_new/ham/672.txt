@@ -1,0 +1,42 @@
+[razor-user] re: can't call method "log" with sa/razor2thi is happen due to insuffici write access to the
+"razor-agent.log" file. i wa get the same error, but
+onli as a non-root user.  as a quick workaround, you can do
+"chmod go+w razor-agent.log".
+
+in agent.pm, when then the logger object is creat, it
+doesn't check whether the logfil is writabl by the current
+user. then, when a write attempt is made, it bail out with
+the "unbless refer" error.
+
+hope that help,
+michael
+
+> i just notic the follow log entri in my syslog with the latest
+> spamassassin cv (set up us spamc/spamd) and razor-agent 2.14:
+>
+> jul 26 17:30:09 timmi spamd[54928]: razor2 check skip: no such file or
+> directori can't call method "log" on unbless refer at
+> /usr/local/lib/perl5/site_perl/5.6.1/razor2/client/agent.pm line 211,
+>  line 25.
+>
+> i saw thi after check if my upgrad from razor-agent 2.12 to 2.14 went
+> okai, but the problem is still there after downgrad back to 2.12.  i
+> don't realli know when thi start happen, :-/
+>
+> ani idea on the problem?
+>
+> - robert
+
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+

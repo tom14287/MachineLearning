@@ -1,0 +1,45 @@
+re: set -xmx dynam at launch time under 64bit-----begin pgp sign messag-----
+hash: sha1
+
+
+on mai 21, 2010, at 9:49 am, willi mors wrote:
+
+> 1) creat a nativ launcher that queri ram statu and launch  
+> the java execut with an appropri -xmx paramet. there ar  
+> sever open-sourc launcher project  (such as launch4j) that will  
+> do thi, but these onli support window launcher and thei will  
+> onli run under window. ha anyon heard of a mac equival?
+
+
+what about a java launcher stub. us runtim exec to launch a java  
+process. i think thi is what the apach common launcher project code  
+amount to. it is base on the tomcat or some such product launcher  
+code and us a ant task approach but i think in the end just amount  
+to runtim exec'd java. assum you can decid at runtim what  
+paramet you want to us.
+
+mike hall        hallmik at att dot net
+http://www195.pair.com/mik3hall
+http://www195.pair.com/mik3hall/home.html
+http://sourceforg.net/project/macn
+
+
+
+
+-----begin pgp signatur-----
+version: gnupg/macgpg2 v2.0.14 (darwin)
+
+ijweaqecaayfakv316oacgkquvk/zsathtiuygqa1mpcm7+pv50rbyd42czosna
+lfzhnq9/wvn2bz4jgtslb/trwl37m9rur9+pfyt8ssfjl+v0t4tpo3jj5tu0geat
+czuemvvi1i3qowyjead9e+k7xv2jl7f5qpibqnwklsq2ichoazltu9obah8gmbr
+ul2u2ohgwq3fsj2jrdg=
+=tmky
+-----end pgp signatur-----
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

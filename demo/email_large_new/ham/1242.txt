@@ -1,0 +1,54 @@
+re: move to debian: updat softwareon 2010-04-22, dotan cohen  wrote:
+>> i don't know of ani backport binari, so you would have to compil it
+>> yourself. that, howev, would be a major undertak, and presuppos
+>> that the latest kde4 even compil against the version of the variou
+>> librari includ in lenni.
+>>
+>
+> ye, compil kde is not a hassl that i want to take.
+>
+>
+>> an altern is to upgrad to test/unstabl, but then you would no
+>> longer have the uncompl life of a lenni user :-)
+>>
+>
+> exactli, i need a stabl distro.
+>
+>
+>> or you could wait for the next stabl releas, or at least for the
+>> freez announc.
+>>
+>
+> that is not realli an option, as i want the _latest_ kde, not simpli
+> 4.4. i contribut to kde and it is import for me to be on the
+> latest version. i cannot be on a distro that is perpetu a few
+> point releas behind.
+
+unfortun, the goal of alwai have the latest kde and a stabl distro
+ar not compat.
+
+>
+> thank, liam! i am still weigh my option, includ debian-base
+> distro that mai be more up to date. i am current on kubuntu, but
+> the 10.04 releas is simpli terribl and i'm look for a new distro.
+> suse would be my next choic, but i prefer debian-base.
+>
+
+anoth thing you could consid: run test/unstabl in a virtual
+machin or a chroot on your lenni system. bewar, though, that even in
+unstabl the upload of major packag can be delai.
+
+have you ask other kde contributor about their setup?
+
+-- 
+liam o'tool
+birmingham, unit kingdom
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/slrnht0gta.bu7.liam.p.otool@dipsi.selfip.org
+
+

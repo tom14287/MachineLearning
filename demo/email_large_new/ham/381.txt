@@ -1,0 +1,32 @@
+re: disabl server so it doe not start on reboot (even after
+ upgrad)?from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on thu,13.mai.10, 11:13:43, allan wind wrote:
+> i us insserv to boot my laptop and us `updat-rc.d apach2=20
+> remov` to indic that i do not want apach2 to start on=20
+> reboot.  inde thi work fine for while.  either an apach2=20
+> (apach2.2-common upgrad) or some other packag instal/upgrad=20
+> then seem to revert my choic and apach is onc again start=20
+> in reboot.
+>=20
+> is there a better wai to disabl server from start?
+
+as far as i know, the proper wai to disabl a servic is to chang the=20
+sxy link in kxy for the respect runlevel (thi can also be done with=20
+ani of the avail runlevel editor, like sysv-rc-conf).
+
+remov all sxy symlink will result in them be recreat on the=20
+next upgrad (as you have experienc).
+
+you can also make chang to the init.d script, but i'm not sure which=20
+on will be detect by dpkg. textual chang will, but don't know=20
+about remov the execut bit or the like.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

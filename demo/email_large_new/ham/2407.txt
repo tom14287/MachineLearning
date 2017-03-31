@@ -1,0 +1,40 @@
+[razor-user] re: keep submit known spam?craig r.hugh wrote:
+> 
+> on thursdai, august 8, 2002, at 11:15  am, mika hirvonen wrote:
+> 
+>> i do not know the algorithm us to calcul confid valu, but it
+>> probabl penal heavili when someon revok spam that everyon els
+>> consid as spam. or at least it should.
+> 
+> 
+> the problem with that is that invari, there ar "grai" mail.  some 
+> peopl will vote "spam", other will vote "nonspam" -- under your 
+> propos system, anyon who ever call "grai" mail nonspam will have a 
+> shitti trust score.  and onc you have a shitti trust score, your own 
+> submiss won't even be us to flag your own spam as spam.  that's 
+> bound to confus a lot of peopl.  "but i just mark that exact messag 
+> as spam.  why is it not be consid spam?  i'm an honest submitt."
+
+i assum that how much the trust goe down depend of the proport of 
+report vs revok. if everybodi except on sai that a mail is spam, the 
+on gui will see hi trust go down dramat. if you ar with the 
+major, your trust goe up. if you ar against the major, your 
+trust goe down. if peopl 50-50, whatev you vote, your neither 
+against the major nor with it, so your trust won't chang. so your
+"grai" mail won't have much influenc on your trust (neither good nor 
+bad, just... grai)
+
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

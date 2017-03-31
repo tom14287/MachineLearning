@@ -1,0 +1,37 @@
+re: c program questionon thu, 15 apr 2010 20:43:21 -0400 (edt), ron johnson wrote:
+> on 2010-04-15 19:37, stephen powel wrote:
+>> 
+>> i'm go to be file a bug report against part for (a) miscalcul
+>> the start block of the implicit partit on an ldl (linux disk layout)
+>> format disk on the s390 architectur when the block size is other than
+>> 4096, and (b) no support for cm-format disk.
+> 
+> if practic, i hope you file 2 bug.
+
+i hear you.  i'll have to look at the code to see if that's easili separ
+out.  i start with the purpos of ad an enhanc to support cm
+format disk.  i stumbl across the bug in the start block calcul
+for ldl format disk in the process.  cm format disk ar handl
+*exactli* the same as ldl format disk if the disk is not reserv.  i
+would have had to fix that bug anywai to add support for cm disk, sinc
+i want the cm support to be correct.  the onli wrinkl wa correctli
+handl reserv cm disk.  to do that i had to access the reserv block
+offset in the cm label, which prompt thi thread.
+
+all of thi is specif to the s390 architectur and ha no bear on i386,
+amd64, ia64, etc.  i hope upstream (gnu, i believ) will accept the fix.
+i have no reason to believ that thei won't.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/65674052.56609.1271380183436.javamail.root@md01.wow.synacor.com
+
+

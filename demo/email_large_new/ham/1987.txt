@@ -1,0 +1,27 @@
+re: problem with me modem huawei on debian lennychristian simo wrote:
+
+> the problem is, nm-applet or wvdialconf don't detect my modem.
+> so i can set it.
+> 
+
+the modem is commun with the system over a driver. you have to find
+out how to setup the modem on system level. thi ha to be done prior to
+get it us by an applic like a dialup program as wvdial.
+
+i setup last year two huawei modem and fail to setup on. as peopl
+post the product/vendor id ar crucial for the system to load the
+appropri setup and as far as i rememb not all huawei modem ar
+support under linux by the fact that some chipset ar not support.
+
+good luck
+
+regard
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hqv7jq$e1u$1@dough.gmane.org
+
+

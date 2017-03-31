@@ -1,0 +1,49 @@
+[ilug] connect at 1200bp in rh7.3 (help!)hi all,
+
+anyon ever try connect at 1200bp in linux? i've got a usr 56k
+faxmodem which is meant to connect to anoth (same) modem and i have to
+connect at thi speed due to the (nt) port set on the remot side,
+but the modem handshak alwai fail at thi speed.
+
+the modem handshak work at slightli higher speed (4800bp to
+~57600bp) but that is no good for tx/rx'ing data to the remot server
+as it insist at talk at the speed of treacl/1200bp.
+
+note minicom fail to handshak at 1200bp, but hyperterm in window
+work first time(!?), ani idea?
+
+baud 1200 7 data bit even pariti
+
+i am do a atz3 to reset the modem then i send thi init string:
+
+at&f1e1v1q0x4y0s32;=232&a1;&b0;&c1;&d2;&h0;&i0;&k1;&m4;&n0;&p0;&r1;&s0;&u0;&y1;
+
+... which is most of the default.
+
+usr said to set s15=128 (disabl v.42)) 
+& set s32=98 (disabl v.92 & x2)
+
+but the s15=128 just make the handshak lockup instead of just give
+up.
+
+btw thi is a bank's system i am connect to so reconfigur their
+modem mai be difficult.
+
+colin.
+
+
+-- 
+colin nevin,
+softwar engin,
+merit solut ltd. (dublin),
+5 goatstown cross,
+dublin 14.
+------------------------------------------
+print us 100% recycl electron.
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

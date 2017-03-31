@@ -1,0 +1,30 @@
+re: [satalk] microsoft develop newslett tag as spamthi msdn mail thing remind me of how i've document thi featur of
+spamassassin here so that our user understand it.
+
+i defin "solicit commerci email" vs "unsolicit commerci email" -
+the latter be spam. as spamassassin basic look for "commerci
+email", both get hit, and that's someth thei must understand.
+
+our sa document further tell user to filter off their sce befor
+appli a sa rule - get rid of 100% of the problem as the user know who
+is send them sce.
+
+-- 
+cheer
+
+jason haar
+inform secur manag, trimbl navig ltd.
+phone: +64 3 9635 377 fax: +64 3 9635 417
+pgp fingerprint: 7a2e 0407 c9a6 caf6 2b9f 8422 c063 5ebb fe1d 66d1
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

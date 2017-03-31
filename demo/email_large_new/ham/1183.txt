@@ -1,0 +1,22 @@
+re: kde 4.4.3 in unstablefrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain;
+  charset="iso-8859-15"
+content-transfer-encod: quot-printabl
+
+am donnerstag 06 mai 2010 schrieb boyd stephen smith jr.:
+> on thursdai 06 mai 2010 04:59:35 martin steigerwald wrote:
+> > am donnerstag 06 mai 2010 schrieb boyd stephen smith jr.:
+> > > heck, just stop kmail from migrat.  korgan and kaddressbook
+> > > have  requir akonadi sinc 4.2 or earlier.
+> >=20
+> > again, afaik, kmail doe not us akonadi in kde 4.4.
+>=20
+> have you instal and tri it?  i have.  it doe requir akonadi in
+> kde 4.4.3.
+
+again, no. kaddressbook doe. and kmail us kaddressbook for address=20
+complet.
+
+=2d-=20
+martin 'helio' steigerwald - http://www.lichtvol.de
+gpg: 03b0 0d6c 0040 0710 4afa  b82f 991b eaac a599 84c7

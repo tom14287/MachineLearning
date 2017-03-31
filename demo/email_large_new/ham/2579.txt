@@ -1,0 +1,36 @@
+re: safe delet (35-pass) file with a java applic
+on 3. mai 2010, at 14.36, matev=c5=be markovi=c4=8d wrote:
+
+> sinc i am still an amateur in the java languag, i want to practic
+> as much as possibl. not long ago i came along with an idea, that i
+> want to write a applic (swing applic), from which on will
+> be abl to choos a file and safe delet it (e.g. renam,delet,
+> overwrit 35-time, possibl less).
+
+i'm not realli sure if thi is guarate to work on all java =
+implement, but you could try to open the file for random access =
+(http://java.sun.com/j2se/1.5.0/doc/api/java/io/randomaccessfil.html), =
+then write random data to the entir content of the file befor you =
+delet. it might even work if you first open, then delet, befor =
+write random data if you prefer that.=20
+
+but it might be that you ar better off find a command-line tool that =
+handl the secur delet for you, and creat a swing app that =
+deleg the heavi lift to the command-line tool. low-level file =
+system access isn't realli on of java's strong point, as it fouc ha =
+alwai been be cross-platform (java 7's nio.2 function might fix =
+some of these issu though) .
+
+
+best regard,
+
+--=20
+harald k=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

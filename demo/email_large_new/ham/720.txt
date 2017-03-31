@@ -1,0 +1,30 @@
+re: temporari deconnect from the internet when too much page
+ ar loadedfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+camal=c3=b3n wrote:
+> on wed, 14 apr 2010 23:34:54 +0200, merciadri luca wrote:
+>
+>  =20
+>
+> (...)
+>
+> ar you get the same result with a wire connect or just happen=
+=20
+> when us a wireless interfac?
+>  =20
+i am us a wire connect. i should have specifi it: i am link
+to my router us rj-45 wire. i never tri wireless anymor for so
+mani reason!
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+get someth done is an accomplish; get someth done
+right is an achiev.
+

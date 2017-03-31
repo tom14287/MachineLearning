@@ -1,0 +1,43 @@
+re: xquartz 2.5.0_rc2hello all,
+
+on apr 7, 2010, at 10:49 pm, jeremi huddleston wrote:
+
+> there is a bug in your remot mesa.
+> see http://bug.freedesktop.org/show_bug.cgi?id=3d24226
+>=20
+>=20
+> you should be abl to do it via:
+> libgl_alwai_indirect=3d1 glxgear
+
+do you mean to set a shell environ variabl
+%> setenv libgl_alwai_indirect 1
+then=20
+%> glxgear
+
+> that work for me.
+
+thi still give me the  heinou error:
+
+x error of fail request:  badalloc (insuffici resourc for =
+oper)
+  major opcod of fail request:  147 (glx)
+  minor opcod of fail request:  3 (x_glxcreatecontext)
+  serial number of fail request:  19
+  current serial number in output stream:  21
+
+
+my remot linux machin is run cento 5.4 with everyth up-to-date =
+via yum. would you recommend file a bug report with the develop of =
+mesa and hope that some dai it trickl down to rhel and then to cento? =
+or should i build my own mesa? and just to clarifi, thi is not an x11 =
+problem right?
+
+thank,
+scott=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

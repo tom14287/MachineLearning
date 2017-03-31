@@ -1,0 +1,41 @@
+re: onli output the nth linefrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+on thursdai 13 mai 2010 10:49:22 jozsi vadkan wrote:
+> 2010. 05. 12, szerda keltez=c3=a9ssel 12.25-kor hugo vanwoerkom ezt =c3=
+=adrta:
+> > jozsi vadkan wrote:
+> > > i have a file:
+> > > and i want to onli output the first, second, and fourth line to anoth=
+er
+> > > file.
+> >
+> > hugo@debian:~$ sed -n '1,2p;4p' file.txt
+>=20
+> ye, that's the problem, it onli output the first, second, and fourth
+> line!
+
+i think that perhap there is some languag barrier.
+
+your origin post indic that you want line 1, 2, 4 and no other outp=
+ut. =20
+"i want onli output the first, second, and fourth line"
+
+your most recent post sai that is "the problem".  which i infer mean=20
+someth you don't want.
+
+could you mayb rephras the question, or at least be a bit more verbos?
+
+=2e..
+
+if you want the output to go to a file try someth like (sed -ne '1,2p;4p=
+'=20
+"$input" > "$output").
+
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

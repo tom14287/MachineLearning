@@ -1,0 +1,63 @@
+re: who initi mount in debian?on tue, 04 mai 2010 21:46:56 +0200, jona stein wrote:
+
+> it look if some devic ar mount automat (after plug into usb
+> slot)
+> and some wait until i click on the devic name in dolphin/thunar or
+> similar.
+> 
+> i dont understand who mount when...
+> i suppos some of the "magic" is done by udev, automount and kde and
+> so on.
+
+ye, in stabl, it's a mix between hal/udev and desktop environ mount 
+system. 
+ 
+> i am look for a set of rule which softwar is allow to do mount
+> and in which hierachi.
+> is there a kind of debian polici about mount?
+
+i suppos debian follow fh ("/media" for remov devic and "/mnt" for 
+temporarili mount point) :-?
+ 
+> on a debian stabl pc i user ar not allow to umount their usb stick,
+> if it mount in kde. but it work on consol.
+
+on gnome ye, user can mount/umount their own usb devic via nautilu.
+
+> on a debian test pc i'd like to have some automat action after
+> insert my gp devic in the usb slot. first it should be mount
+> somewher 
+
+it should be automat mount anywher under "/media" as akaik, that 
+is the default action for remov storag.
+
+> and second the latest trackfil should be move to /foo
+
+you will need a bit of script to achiev thi.
+ 
+> is it a good wai to us a udev rule for that? 
+
+there must be some pre-made applic to get that but you can also try 
+to get it done with udev rule. a quick exampl, courtesi of googl:
+
+http://www.gradstein.info/hardwar/how-to-automat-run-a-script-after-insert-a-usb-devic-on-ubuntu/
+
+> should i us /media to mount the usb devic, or is /media reserv for 
+> the system?
+
+you can us /media, and as boyd alreadi suggest, give the devic a 
+label to get a static name so it alwai get mount under the 
+same path, i.e., "/media/mygp".
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.05.08.09.47@csmine.org
+
+

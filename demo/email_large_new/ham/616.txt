@@ -1,0 +1,25 @@
+re: what need to improv in kde 4?from nobodi sun sep 18 20:45:28 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+on mondai, 2010-05-10, dotan cohen wrote:
+> on 10 mai 2010 19:33, nate bargmann  wrote:
+
+> > for *my us* i have found kde 4.4 quit pleasant over the past few dai,
+> > perhap aid by move the old config directori out of the wai.
+> > devic notifi is now us for me due to the tip provid by anoth
+> > list member in that thread.
+>=20
+> ye, 4.2 and now 4.4 seem to behav badli without a clean ~/.kde. i
+> find that veri disturb and unstabl.
+
+thi might depend somewhat on the actual configur.
+i have been upgrad thi machin sinc earli kde3 time, alwai us the=
+=20
+same .kde directori and i can't rememb have ani problem.
+certainli not when upgrad from 4.3.4 to 4.4.3 the past weekend.
+
+cheer,
+kevin
+

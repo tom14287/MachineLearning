@@ -1,0 +1,26 @@
+re: unseen window versu sequenc windowfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+
+> from:  hal devor 
+> date:  tue, 01 oct 2002 23:21:21 -0500
+>
+> on possibl that occur to me would be a button or mous
+> click that "shrink" the sequenc window to show onli the
+> sequenc in the "alwai show" list.  and of cours a wai to 
+> expand it back.
+
+that's a pretti good idea.  i'm not sure i'll get to it ani time soon.  (i 
+alreadi have a known bug report on 9/25 that i haven't been abl to get to.)
+
+chri
+
+-- 
+chri garrigu                 http://www.deepeddi.com/~cwg/
+vircio                          http://www.vircio.com
+716 congress, suit 200
+austin, tx  78701		+1 512 374 0500
+
+  world war iii:  the wrong-doer vs. the evil-doer.
+
+
+

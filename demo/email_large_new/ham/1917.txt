@@ -1,0 +1,39 @@
+re: gnome panel trai icon transparancyon sun, 02 mai 2010 17:33:59 +0200, steven wrote:
+
+> on sun, 2010-05-02 at 14:17 +0000, camalón wrote:
+
+(...)
+ 
+>> two easi test:
+>> 
+>> 1/ creat a new panel and drop there the "faulti" icon. ar thei still
+>> show with a solid background?
+> creat a new panel with notif area keep show the issu on
+> thi new panel.
+> 
+> 
+>> 2/ creat a new user, login and check if the same behaviour continu.
+> a new user ha the same issu.
+
+there is an open bug, but the weird thing is that in your case it work 
+in on comput and fail in the other :-?
+
+***
+gnome-panel: some applic icon lost transpar in notif area
+http://bug.debian.org/cgi-bin/bugreport.cgi?bug=551751
+***
+
+anywai, check if the affect applic make us of "eggtrayicon".
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.02.15.46.27@csmine.org
+
+

@@ -1,0 +1,114 @@
+re: electr car an edsel...ouch.... hooooo....
+
+cheer,
+rah
+
+--- begin forward text
+
+
+statu: ro
+date: thu,  5 sep 2002 09:17:13 -0700
+from: same gui
+subject: re: electr car an edsel...
+to: "r. a. hettinga"  
+
+bob,
+
+thi gui's an idiot.
+
+i design load for system with the 50 kv capacitor.  on of those ha 864
+of such capacitor and store onli 10 megajoul, which mean 11 kilojoul
+each.  thei weigh 125 kg.
+
+you need high energi per unit mass, and the capacit system i pick
+maxim that.
+
+it is precis the system that maxwel is tout for electr brake
+and power augment for regen us in automobil.  you also need
+voltag you can us in a dc motor, which is why though the actual
+capacitor in the system ar charg to 2.5 volt, the system ha them
+arrang in seri to boost the voltag.
+
+ignor him.  he's a wast of my time.
+
+
+
+------------------------
+  from: "r. a. hettinga" 
+  subject: re: electr car an edsel...
+  date: wed, 4 sep 2002 15:31:39 -0400
+  to: some peopl...
+
+
+
+--- begin forward text
+
+
+statu: ro
+date: wed, 4 sep 2002 07:59:10 -0700 (pdt)
+from: "adam l. beberg" 
+to: "r. a. hettinga" 
+cc: 
+subject: re: electr car an edsel...
+
+on wed, 4 sep 2002, r. a. hettinga wrote:
+
+> maxwel (www.maxwel.com) make and sell high energi densiti capacitor,
+> call ultracapacitor.  thei deliv them in an air-cool, voltag
+> regul modul that will charg to 42 v and hold 128 kilojoul -- roughli
+> the energi in 2 teaspoon of sugar or a bite of a donut -- and weigh 16
+> kilogram.  if that electr energi could all be convert to kinet
+> energi, there's enough to get the capacitor modul up to about 200 mph -- in
+> a vacuum.
+
+sinc the energi you can pack into a capacitor is someth like
+1/2*c*(v^2), you want to design your system with the lowest voltag possibl
+to fulli exploit that v^2 ;) so yea, a 42v system will onli be us for
+acceler insect, not car. that must be why 40kv is standard not 42.
+(the joke of put 42 into goggl to find that model wa not miss btw)
+
+most product system us a mix of batteri and capacitor, as veri few
+real world applic run for less then 10 second like the car we were
+talk about origin. even 10 second is push the "capactior is the
+wrong choic" limit. that why the landspe record model is a batteri on,
+it's got to run for a much longer period of time and need a steadi
+discharg curv.
+
+but it should be safe to sai that most peopl want the indi 500 version, not
+the 1/4 mile sprint version when thei ar look for a vehic :) for those
+you dont want a batteri or a capacitor, you want to take advantag of whole
+atom, not just electron. then you can suck off the electron you need with
+a fuel cell. howev, you will us both capacitor for the brake/accel,
+and batteri to not just dump excess energi in the design.
+
+- adam l. "duncan" beberg
+  http://www.mithral.com/~beberg/
+  beberg@mithral.com
+
+--- end forward text
+
+
+-- 
+-----------------
+r. a. hettinga 
+the internet bearer underwrit corpor 
+44 farquhar street, boston, ma 02131 usa
+"... howev it mai deserv respect for it us and antiqu,
+[predict the end of the world] ha not been found agreeabl to
+experi." -- edward gibbon, 'declin and fall of the roman empir'
+
+
+---------------end of origin messag-----------------
+
+--- end forward text
+
+
+-- 
+-----------------
+r. a. hettinga 
+the internet bearer underwrit corpor 
+44 farquhar street, boston, ma 02131 usa
+"... howev it mai deserv respect for it us and antiqu,
+[predict the end of the world] ha not been found agreeabl to
+experi." -- edward gibbon, 'declin and fall of the roman empir'
+

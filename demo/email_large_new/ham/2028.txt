@@ -1,0 +1,41 @@
+re: aptitud errorfrom nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=iso-8859-1
+
+on sat, mai 1, 2010 at 10:15 pm, daniel burrow  wrote:
+
+> on sat, mai 01, 2010 at 10:09:32pm +0200, jame stuckei <
+> jhstuckei@csmine.org> wa heard to sai:
+> > on sat, mai 1, 2010 at 9:14 pm, daniel burrow 
+> wrote:
+> > >  did you mean to drop debian-user?
+> > >
+> > > on sat, mai 01, 2010 at 06:29:55pm +0200, jame stuckei <
+> > > jhstuckei@csmine.org> wa heard to sai:
+> > > > i have the nvidia driver, among other packag, from sid.
+> > >
+> > >   what's in your /etc/apt/sourc.list?
+> >
+> > no i didn't, thank.
+> >
+> > deb ftp://ftp.debian-multimedia.org squeez main non-free
+> >
+> > deb http://ftp.de.debian.org/debian/ squeez main contrib non-free
+> > #deb-src http://ftp.de.debian.org/debian/ squeez main contrib non-free
+> >
+> > #deb http://ftp.de.debian.org/debian sid main contrib non-free
+> > deb-src http://ftp.de.debian.org/debian/ sid main contrib non-free
+> >
+> > deb http://secur.debian.org/ squeez/updat main contrib non-free
+> > #deb-src http://secur.debian.org/ squeez/updat main contrib
+> non-free
+>
+>   that's the problem -- you have no (activ) "deb" line for unstabl,
+> so apt doesn't know which packag ar from it.
+>
+>  daniel
+>
+
+the aptitud search ~aunstabl appear to just list all the packag in the
+repositori. as so with the other command. the list of packag is so long
+that gmail freez when i try to past it in, and past.debian.net tell me
+that it is over 90kb and cannot be past.

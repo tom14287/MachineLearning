@@ -1,0 +1,59 @@
+re: fwd: re: kde 3.5 ...from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+
+hi mike!
+
+am montag 10 mai 2010 schrieb mike bird:
+> on mon mai 10 2010 05:47:08 dotan cohen wrote:
+> > just let them go, adrian. when i to to fix kde 4 for these two, i am
+> > "obstruct kde 3.5 at everi opportun". let them troll themselv
+> > into obscur. at least thei cannot complain that nobodi tri to
+> > help them get the featur thei need into kde 4. well, thei will
+> > complain about that becaus appar i "order" them to tell me
+> > what is wrong with kde 4, instead of simpli deduc that out of thin
+> > air.
+>=20
+> pleas note the subject of thi thread.  thi thread is about
+> how user can best continu us kde 3.5, or altern
+> where to migrat when lenni is eol'd.
+
+what do you want to achiev in thi thread on thi debian-kde user support=
+=20
+mailinglist?
+
+resurrect kde 3.5 for debian?
+
+well did you?
+
+if not, i suggest you to try it elsewher.
+
+possibl place ar:
+
+=2d debian-qt-kde@list.debian.org sinc that is where develop of debia=
+n=20
+kde packag is coordin
+
+=2d triniti desktop environ / vector linux
+
+thi is for kde user support. kde 3.5 in lenni. kde 4 in squeez unless=20
+someon - except the current debian kde / qt develop team - doe and=20
+maintain kde 3.5 packag that ar co-instal and meet debian high=20
+packag standard.
+
+thi list is not for develop issu like develop / maintain kde=20
+3.5 packag for squeez.
+
+so imho ani further request for kde 3.5 in squeez is off topic on thi=20
+list as debian kde/qt maintain repeatedli said thei won't.
+
+you want kde 3.5 for squeez? spend your energi toward that goal. here it=
+=20
+appar doe not chang the situat.
+
+ciao,
+=2d-=20
+martin 'helio' steigerwald - http://www.lichtvol.de
+gpg: 03b0 0d6c 0040 0710 4afa  b82f 991b eaac a599 84c7

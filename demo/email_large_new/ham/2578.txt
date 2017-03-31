@@ -1,0 +1,49 @@
+re: [ilug] dhcp
+
+> quot paul o'neil :
+> 
+> > excus me for ask an old question here but iv been run suse 
+with a
+> > cabl modem for a coupl month. about 5-6 week ago the internet 
+access
+> > wa
+> > not work and i reboot notic i came up with a new ip 
+address, and it
+> > work fine. how doe it work exactli when the cabl compani 
+releas and
+> > renew an ip address. do thei mere setup their system to issu 
+new ip
+> > address when cusomt reboot their comput or doe it take 
+affect
+> > immedi and it caus the internet disrupt that requir a 
+reboot or
+> > at least a network reload? if so, can thi be detect 
+automat and
+> > taken care of or is that just how it work?
+> 
+> a dhcp client daemon (dhcpcd, pump) can do thi automat.  some 
+cabl
+> compani appar reassign the same address over and over when the 
+leas run
+> out, so you get awai without a daemon for long enough to make you 
+think you
+> don't need on. :-)
+> 
+> ronan
+> 
+> 
+
+is what your talk about, thi process is run all the time. 
+
+root       422  0.0  0.4  1332  500 ?        s    03:18   
+0:00 /sbin/dhcpcd -d -n -y -t 999999 -h cabl-modem-1 eth0
+
+if alright then mayb coincid, i'll wait and see when i get anoth 
+address.
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

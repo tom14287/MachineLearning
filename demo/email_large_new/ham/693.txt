@@ -1,0 +1,35 @@
+re: [ilug] socket latenc queryvinc cunniff wrote:
+> doe anyon have ani practic experi with high-perform socket 
+> code in c++ under linux, and is there ani speed differ between unix 
+> domain socket, loopback socket, and a real ethernet interfac if all 
+> of the packet ar go from on process on the machin to anoth 
+> process on the same machin?
+
+in short ye. the more logic involv the longer
+the cpu is execut it. i.e. there is more logic
+execut (includ nic logic) when go down
+to the metal than when us lo. so how much
+logic is involv for each type of ipc (why
+ar you limit yourself to socket? there ar
+mutex, share mem, file, messag...). anywai the
+best ipc method to choos is dictat by the data
+you want to commun between the process,
+as the variou ipc mechan ar tune for
+variou data type.
+
+ibm ar run a seri compar doze and linux ipc mechan.
+the socket (which refer the other at the bottom) is here:
+http://www-106.ibm.com/developerwork/linux/librari/l-rt6/?t=gr,redhat=socket
+
+the follow in googl gave us info also:
+"linux ipc mechan compar"
+
+pádraig.
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

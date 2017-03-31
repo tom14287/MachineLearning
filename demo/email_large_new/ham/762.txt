@@ -1,0 +1,54 @@
+re: ani file detail on an execut binari file?>
+>
+>
+>---- origin messag ----
+>from: viaum@sheridanc=2eon=2eca
+>to: debian-user@list=2edebian=2eorg
+>subject: re: ani file detail on an execut binari file=3f
+>date: fri, 14 mai 2010 11:02:42 -0400
+>
+>>
+>>hello list,
+>>
+>>i wa wonder if anyon could suggest a packag or mean to look
+>at ani or all of the inform from a given execut binari file:
+>>
+>>- what compil compil it
+>>
+>>- what (sourc) languag wa it compil from
+>>
+>>- what comput architectur the file wa compil for
+>>
+>>- how mani hardwar bit wa the file intend for (eg=2e 32-bit or
+>64-bit encod)
+>>
+>>- endian
+>>
+>>
+>>if ani of the abov a simpli not possibl becaus of the natur all
+>binari file, it would be help to know that too=2e
+>>
+>>thank=2e
+>>=20
+>>
+>>-m
+>>
+>>
+i have never seen an execut with thi info=2e=2e  usual the
+compil itself strip out ani info such as you request=2e=20
+larri
+>> =09=09 =09   =09=09 =20
+>>=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=
+=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=
+=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f=5f
+>>msn date: find someon special=2e start now=2e
+>>http://go=2emicrosoft=2ecom/=3flinkid=3d9729707
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/380-220105514231329703@netptc.net
+
+

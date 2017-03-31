@@ -1,0 +1,68 @@
+re: filesystem recommendationson mon, apr 26, 2010 at 01:56:21pm +0200, javier barroso wrote:
+> on mon, apr 26, 2010 at 11:53 am, stan hoeppner  wrote:
+> > mark allum put forth on 4/26/2010 3:22 am:
+> >> on 4/26/2010 2:14 am, stan hoeppner wrote:
+> >>> mark allum put forth on 4/25/2010 1:19 am:
+> >>
+> >> sorri stan,  your defens of xf ha put me into troll mode.  it's a
+> >> reflex.  i don't bui it, but i shouldn't troll.
+> >>
+> >> i think you ar confus what is with what should be.
+> >
+> > a'ight, you forc me to pull out the big gun.  choke on it.  the master
+> > penguin himself, kernel.org, ha run on xf sinc 2008.  sorri for the bodi
+> > slam.  is your back ok mark? ;)  pretti sure i just "won" thi discuss.
+> > err, actual, xf win. ;)  btw, the main debian mirror in the u.s. is
+> > actual hous in kernel.org last i check.  thu, the file on your
+> > system were veri like origin serv from xf.
+> >
+> >  the linux kernel archiv
+> >
+> > "a bit more than a year ago (as of octob 2008) kernel.org, in an ever
+> > increas need to squeez more perform out of it's machin, made the
+> > leap of migrat the primari mirror machin (mirror.kernel.org) to xf.
+> > we site a number of reason includ fscking 5.5t of disk is long and
+> > pain, we were hit variou cach issu, and we were seek better
+> > perform out of our file system."
+> >
+> > "after initi test look posit we made the jump, and have been quit
+> > happi with the result. with an instant increas in perform and
+> > throughput, as well as the worst xf_check we've ever seen take 10
+> > minut, we were quit happi. subsequ we've move all primari mirror
+> > file-system to xf, includ www.kernel.org , and mirror.kernel.org. with
+> > an averag constant movement of about 400mbp around the world, and with
+> > peak into the 3.1gbp rang serv thousand of user simultan it's
+> > been a file system that ha taken the brunt we can throw at it and held up
+> > spectacularli."
+> >
+> > http://www.xf.org/index.php/xf_compani#the_linux_kernel_archiv
+> hello stan,
+> 
+> why debian instal doesn't chang it default filesystem to xf if
+> it is better than ext3 / ext4? i think alwai is better stick to
+> default if it is possibl
+> 
+i've read articl which state that ext3 ha superior resili to
+sudden power loss.  that sentiment ha been echo in thi thread, by
+stan i think, with statement like (paraphras):  xf is good for
+product server which have uninterrupt power suppli.
+
+the resili is due to the wai the journal is written, if i
+understand correctli.  mayb somebodi on thi list who understand it
+better can confirm or deni.  there is a journal_data_writeback option
+for ext3 which will speed up write to the filesystem, but reduc it
+resili to power loss.  with thi option enabl, i recal read
+that the ext3 benchmark ar pretti similar to xf.
+
+i'm not an expert, so don't take my word for it.  do some research on it
+yourself, or wait for the real expert to chime in and correct me :)
+
+-rob
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100429012405.ga8530@aurora.owen.net
+
+

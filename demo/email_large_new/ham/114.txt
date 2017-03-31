@@ -1,0 +1,21 @@
+re: monitor internet avail and send sm alert?
+
+
+on fri, mai 14 at 14:26, adam hardi pen:
+> actual the more i think about it, the more i realis that i would
+> rather have some kind of full blood monitor app which let me
+> see stat (or even chart like ntop) of internet speed over the
+> week, although i bet that is just dream.
+
+have you look at smokep?
+
+-- 
+moniqu
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100517220613.gd1446@mail.bounceswoosh.org
+
+

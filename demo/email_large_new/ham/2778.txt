@@ -1,0 +1,25 @@
+re: how to keep debian current??on fri mai 14 2010 11:43:41 pm ryanjb wrote:
+> >if you want the latest i'd run either test
+> >or unstabl. i have both stabl
+> >and unstabl instal.
+> >most of the time i run unstabl.
+>
+> so consid that, the extra debian iso have practic no us sinc
+> later i'll be upgrad packet from sid anywai?? ani clarif?
+
+i'm not sure what you mean. what is an "extra" iso?
+
+you mean the full set of cd or dvd imag? i find a net instal work best 
+nowadai. then you just download and instal packag as you want to.
+
+the archiv is simpli huge now so it's a lot to download and burn unless you 
+have machin that ar not connect to the net that you want to instal or 
+updat.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005150002.41195.agianson@csmine.org
+
+

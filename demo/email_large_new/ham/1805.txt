@@ -1,0 +1,80 @@
+re: acceler directori's content's view: how, is directori
+ is huge?from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=iso-8859-15
+content-transfer-encod: quot-printabl
+
+boyd stephen smith jr. wrote:
+> on tuesdai 18 mai 2010 13:16:27 merciadri luca wrote:
+>  =20
+>> hi,
+>>
+>> i have mani media file in some specif directori (folder, call it as=
+
+>> you want). load the folder take ~30 sec., even if i am us quit=
+
+>> fast hdd, etc. thei're all on the same partit. i have disabl
+>> preview, or thumbnail.
+>>
+>> how can i do to make thi process faster?
+>>    =20
+>
+> slow to ls?  reiserf, xf, btrf, or the dir_index option and hash_alg=
+=20
+> extend option of ext3.
+>
+> is the directori fast to ls, but slow to render in a gui?  problem is l=
+ik=20
+> with the gui.
+>  =20
+sorri, it is onli slow to gui (nautilu).
+> how mani file?
+~25,000.
+>  it mai be better to convert to a "step" directori=20
+> structur.
+>
+> e.g.:
+> instead of:
+> /home/abel
+> /home/alfr
+> /home/ada
+> [...]
+> /home/zelda
+> /home/zola
+> /home/zooland
+>
+> us:
+> /home/a/abel
+> /home/a/alfr
+> /home/a/ada
+> [...]
+> /home/z/zelda
+> /home/z/zola
+> /home/z/zooland
+> or: (usual onli when name ar fix-length)
+> /home/a/bel
+> /home/a/lfred
+> /home/a/da
+> [...]
+> /home/z/elda
+> /home/z/ola
+> /home/z/ooland
+>
+> i'm most familiar with us thi for ascii name, but it can be conver=
+ted to=20
+> work with other name.  japanes can us stroke count of the first char=
+acter=20
+> instead of first charact, for exampl.
+>  =20
+ye. good idea. i am howev astonish that nautilu take ~30 sec. to
+open such a directori.
+
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+
+

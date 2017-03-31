@@ -1,0 +1,74 @@
+re: kde 4.4.3 in unstablefrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+hello,
+
+on ketvirtadieni 06 gegu=c5=be=c4=97 2010 02:13:50 boyd stephen smith jr. =
+wrote:
+> > debian packag don't have that much time to spend on packag (thei
+> > ar volunt after all), and hardli thei can do decis about which
+> > particular branch is better.
+> > thei have to packag the last on which ha
+> >=20
+> >  been releas, unless ha been releas veri soon and there is no time
+> >  for test.
+>=20
+> stabl is go to be with those user for at least a year, probabl more.
+> thei deserv more than whatev upstream want to throw at the wall thi
+> week.
+
+debian user deserv qualiti packag of upstream softwar, good integrati=
+on=20
+of it throughout the whole distribut and gener assumpt that it won'=
+t=20
+eat their kitten (yet data loss bug happen). but whether upstream softwar=
+e=20
+meet user' need is out of debian scope. just find anoth softwar/solut=
+ion=20
+which doe, develop it by yourself, pai somebodi to develop it for you or a=
+sk=20
+kindli and wait till somebodi els is motiv enough to do it.
+
+> >  also, is special hard to decid which branch is better, becaus
+> >  branch a can have applic x in a great shape, and applic y in=
+ a
+> >  bad on, while in branch b the case might be the opposit. and have =
+to
+> >  go back on whole releas of the whole softwar compil just becau=
+se
+> >  on app ha on annoi depend is a littl bit overkil, isn't it?
+>=20
+> just block the kdepim 4.4 app from migrat to test.  the kdepim 4.3
+> program alreadi work with the kdebas 4.4 librari.
+>=20
+> heck, just stop *kmail* from migrat.  korgan and kaddressbook have
+> requir akonadi sinc 4.2 or earlier.
+
+move on. kdepim 4.3 is gone. given that kde sc 4.5 might releas with kdepi=
+m=20
+from 4.4 anywai extend kdepim 4.4 codebas lifetim to 1 year, beat d=
+ead=20
+hors (4.3) make absolut no sens. i recommend you to face realiti here.
+
+> these respons ar quit frustrat.  i read ana's post as "pleas make
+> sure kde 4.4 is readi for stabl".  my post wa "kde 4.4 is inappropri
+> for stabl".  all the repli have been "too bad, we ar go to releas
+> it anywai".
+
+don't you see that you alwai put yourself in the front in your rational?=
+=20
+you run a dozen of db server, you don't want anoth on, you don't trust=
+=20
+mysql, you sai kde 4.4 is inappropri for stabl. noth object and y=
+ou=20
+assum that your truth is an ultim on. pet bug ar alwai rc to the=20
+report, but yet again, we need to face realiti here. if you have so mani=
+=20
+problem with particular piec of softwar, look for better option or read=
+=20
+the first part of thi mail again.
+
+=2d-=20
+modesta vainiu 

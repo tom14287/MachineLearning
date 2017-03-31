@@ -1,0 +1,47 @@
+[l7-filter-develop] updat on migrat to clearfoundationhello l7-filter member.
+
+thi is just an updat on how thing ar move along with the l7-filter 
+project chang.
+
+svn import
+----------
+
+the l7-filter sourc code ha been import into svn.  darryl took the 
+time and effort to creat the repositori with chang histori intact.
+feel free to take a look at the result:
+
+http://code.clearfound.com/svn/list.php?repnam=l7-filter
+
+
+bug tracker
+-----------
+
+the new bug tracker is also onlin.  the tracker is integr with the 
+svn system.  it will also be integr with build system and ci 
+infrastructur at some point in the futur.  pleas let me know if you 
+would like an account creat!
+
+http://l7-filter.clearfound.com/tracker/roadmap_page.php
+
+
+document
+-------------
+
+we ar slowli be sure make some progress on migrat and updat 
+the document.
+
+http://l7-filter.clearfound.com/doc/
+
+
+that's all for now.  we're make progress and you should see some 
+l7-filter updat roll out in june/juli.
+
+peter baldwin
+clearfound
+
+------------------------------------------------------------------------------
+_______________________________________________
+l7-filter-develop mail list
+l7-filter-develop@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/l7-filter-develop
+

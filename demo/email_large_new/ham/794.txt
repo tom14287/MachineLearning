@@ -1,0 +1,41 @@
+[us perl] stori for 2002-09-20us perl daili newslett
+
+in thi issu:
+    * perlqt 3 releas
+
++--------------------------------------------------------------------+
+| perlqt 3 releas                                                  |
+|   post by ziggi on thursdai septemb 19, @10:41 (tool)         |
+|   http://us.perl.org/articl.pl?sid=02/09/19/1443213              |
++--------------------------------------------------------------------+
+
+[0]dom2 write "as seen on the dot, a new version of [1]perlqt is out!
+appar sport a perl version of [2]uic for develop ui's from
+xml. a [3]tutori is avail for those want to know more detail."
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/09/19/1443213
+
+link:
+    0. mailto:dom@happygiraff.net
+    1. http://perlqt.infonium.com/
+    2. http://doc.trolltech.com/3.0/uic.html
+    3. http://perlqt.infonium.com/dist/current/doc/index.html
+
+
+
+copyright 1997-2002 pudg.  all right reserv.
+
+
+======================================================================
+
+you have receiv thi messag becaus you subscrib to it
+on us perl.  to stop receiv thi and other
+messag from us perl, or to add more messag
+or chang your prefer, pleas go to your user page.
+
+	http://us.perl.org/my/messag/
+
+you can log in and chang your prefer from there.
+
+

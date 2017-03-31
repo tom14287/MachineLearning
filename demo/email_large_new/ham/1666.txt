@@ -1,0 +1,44 @@
+re: pdf grief - wa re: flash is open?on 05/14/2010 01:40 pm, john a. sullivan iii wrote:
+> on fri, 2010-05-14 at 06:31 -0500, ron johnson wrote:
+>> on 05/14/2010 06:14 am, john a. sullivan iii wrote:
+>>> on fri, 2010-05-14 at 06:52 +0000, camalón wrote:
+>>> 
+>>>> look at pdf. pdf becam a iso/iec standard but we (at linux) still lack
+>>>> for a pdf editor that can compet with acrobat profession.
+>>> 
+>>> that comment realli strike home.  we ar work on a potenti major
+>>> window desktop replac project.  the two thing that ar absolut
+>>> kill us ar email and a viabl substitut for acrobat standard.  we
+>>> can roughli mimic everyth acrobat doe
+>>
+>> form, you mean?
+> no, edit the pdf file, e.g., ad text, stamp, markup.
+
+but, but, but... you're not *suppos* to edit pdf file!
+
+>>>                                             but onli with creat
+>>> complex, take ten time longer to get it done, us sever
+>>> applic in the process, have less than compar result, and
+>>> make the process detest to the end user who wonder why would
+>>> anyon give up window for thi.  there ar coupl of admir effort
+>>> out there but thei have a veri, veri long wai to go - john
+>>>
+>>
+>> disabl internet access and thei can't get infect by malwar.
+> not someth that will sell the solut.  thei can run their busi
+> with the distract of malwar and the expens of malwar solut.
+> thei can't run their busi if the function is miss with no
+> viabl workaround.  edit a page at a time in gimp, edit a page at
+
+you miss my point: leav them on window and disabl internet access.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4beda36a.4040303@cox.net
+
+

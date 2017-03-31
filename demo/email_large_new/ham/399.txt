@@ -1,0 +1,43 @@
+[vua 63-1] updat python-clamav versionfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+
+---------------------------------------------------------------------------
+debian volatil updat announc vua 63-1     http://volatil.debian.org
+debian-volatil@list.debian.org                            adam d. barratt
+april 24th, 2010
+---------------------------------------------------------------------------
+
+packag              : python-clamav
+version              : 0.4.1-1.1~volatil1 (lenni)
+import           : medium
+
+python-clamav, which provid python bind to clamav, a viru scan
+engin, need a recompil with the newer clamav 0.95.3.  if you us
+python-clamav directli or through nautilu-clamscan, we strongli recommend
+you to upgrad to thi version, as the old version the packag wa link
+against stop work.
+
+
+upgrad instruct
+--------------------
+
+you can get the updat packag at
+
+http://volatil.debian.org/debian-volatil/pool/volatil/main/p/python-clamav
+
+and instal them with dpkg, or add the volatil archiv for lenni
+to your /etc/apt/sourc.list:
+
+ deb http://volatil.debian.org/debian-volatil lenni/volatil main
+ deb-src http://volatil.debian.org/debian-volatil lenni/volatil main
+
+you can also us ani of our mirror.  see
+http://www.debian.org/volatil/volatil-mirror for the full list of
+mirror.  the archiv sign kei were includ in debian lenni.
+
+for further inform about debian-volatil, pleas refer to
+http://www.debian.org/volatil/.
+
+if there ar ani issu, pleas don't hesit to get in touch with the
+debian-volatil team.

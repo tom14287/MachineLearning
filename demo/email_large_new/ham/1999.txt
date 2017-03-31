@@ -1,0 +1,37 @@
+suspend to disk + blacklist modul = still troublehello,
+
+i am have problem with the uvcvideo modul (driver for webcam)
+when resum from suspend to disk on debian lenni (with the latest
+updat) with a 2.6.30 kernel.
+
+when i want to blacklist thi modul for suspend, i notic that
+it is alreadi in /etc/hibern/blacklist-modul.
+
+my hibern.conf:
+trymethod suspend2.conf
+trymethod disk.conf
+trymethod ram.conf
+
+=> so i guess i am us swsuspend2, and suspend2.conf contain
+the line:
+includ common.conf
+
+and common.conf contain thi:
+unloadblacklistedmodul ye
+
+so doe thi command caus hibern to read
+/etc/hibern/blacklist-modul, or do i have to add
+unloadmodul uvcvideo
+?
+
+thank in advanc,
+-- 
+felix natter
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87d3xrd8hu.fsf@smail.inf.fh-br.de
+
+

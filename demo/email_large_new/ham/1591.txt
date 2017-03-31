@@ -1,0 +1,21 @@
+re: plan for basket> do you have ani plan for basket?
+> there is a qt 4 port avail basket 2.0 beta 1 (1.80).
+>
+> it didn't show ani basket content after instal to my home
+> directori, but that might have been a problem with the instal script in
+> the upstream archiv.
+
+basket is in under our radar.
+the packag should be review befor the upload.
+
+cheer,
+
+fathi
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktinbtggq10eqovpr2iiopu2t4w1_wdgzx0ts7twg@mail.csmine.org
+
+

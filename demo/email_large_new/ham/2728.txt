@@ -1,0 +1,13 @@
+shader integr: merg shade technolog on the nintendo
+    gamecubeurl: http://www.newsisfre.com/click/-0,8613661,159/
+date: 2002-10-06t18:12:59+01:00
+
+render polygon is not as easi as it us to be, the reason be the vast 
+amount of differ render techniqu, method and algorithm avail. not 
+onli is choos the right on a problem, even wors, all that ar select 
+need to work togeth. there ar some algorithm which simpli do not work 
+togeth, and in that case, onli on mai be us whilt the other on need to 
+be replac witha more compat method. thi featur explor how factor 5 
+approach the problem when develop rogu leader for gamecub.
+
+

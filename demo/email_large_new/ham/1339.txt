@@ -1,0 +1,47 @@
+re: how to trick my debian in think that a packag is not installedfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+on tuesdai 27 april 2010 08:48:48 daniel burrow wrote:
+>   aptitud's resolv will *still* upgrad held packag
+
+oh noe!
+
+>   a temporari solut for you is to cancel the auto flag on ani
+> packag you hold.
+
+simpl enough.
+
+>   long-term solut in the code could includ postpon depend
+> resolut until after the resolv finish (which could have
+> wide-rang implic), refus to remov unus held packag, and
+> somehow "rememb" the held flag on packag that were remov
+> becaus thei were unus.
+>=20
+>   of these three solut, i prefer the second on, refus to remov
+> unus held packag.  it fit in with the intuit mean of "hold",
+> it's easi to implement, and it doesn't have a high risk of surpris
+> side-effect, sinc it onli affect a fairli precis defin set of
+> packag.
+
+as a user, i also prefer that approach, for all the reason you mention.
+
+> essenti, it caus held packag to be ad to the root
+> set (and that's the best implement, i think: modifi aptitud's
+> custom root set function to includ held packag).
+
+you lost me, but i haven't delv into the aptitud sourc code.  my approa=
+ch=20
+would have been just make the 'hold' action also clear the 'automat=
+=20
+instal' flag; essenti "institution" the temporari solut. =
+=20
+but, i defer to your solut as it sound more flexibl.
+
+$(reportbug -k aptitud)
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

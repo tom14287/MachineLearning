@@ -1,0 +1,59 @@
+re: how to uninstal java preview?on apr 6, 2010, at 10:40 am, gabriel kahlout wrote:
+
+> hello,
+>=20
+> todai present my applic to a macbook user with the latest java
+> releas (1.6.17)
+> my applic fail to instal properli (see the java consol) and
+> error joptionpan .
+>=20
+> on my machin the same work flawlessli. howev i've thi preview
+> instal (1.6.19) and so i'm fail to re-produc the same test
+> environ. so i'd like to go back to the version my user have to be
+> abl to better assist them, unless you have better suggest.
+>=20
+> i'd be veri thank if you could also report to me if other have
+> problem, just launch thi (you need to choos an instal
+> directori, and after do so the error should appear):
+> http://sourceforg.net/project/memorizeasi/
+
+warn: thi is a veri bad thing to do, and will put your machin into =
+an unsupport configur!
+
+there is no offici wai to roll back to the gm version, howev the =
+instal for 10.6 updat 1 is at , =
+and the 10.5 updat 6 is at .
+
+if you manual modifi the bundl version in the =
+/system/librari/framework/javavm.framework/resourc/info.plist, the =
+instal should instal on top of the develop preview, howev it =
+will not be awar of some of the new content in the dp. thi caus some =
+tool like java visualvm to fail, becaus it's bundl will contain a =
+hodgepodg of gm and dp bit, and the gm instal doesn't know to =
+remov the dp bit (becaus when it wa creat, the dp bit we not =
+invent yet).
+
+thi should be enough to test the 1.6.0_17 jvm, but thi is hardli a =
+"valid" configur. instal the 10m3044/9m3144 dp again on top of =
+thi mix mess _should_ clean up the gm bit and put you into a valid =
+dp configur. probabl. most like.
+
+if thing get too out of control, you should alwai be abl to move =
+asid the /system/librari/framework/javavm.framework/version =
+directori, and re-run either the gm or dp instal, and you should get =
+a fulli coher java instal (modulo the tool in /usr/share/java =
+and a other few except in /system/librari which don't realli chang =
+between version).
+
+best of luck,
+mike swingler
+java runtim engin
+appl inc.=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

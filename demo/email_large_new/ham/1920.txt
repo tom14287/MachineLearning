@@ -1,0 +1,30 @@
+[satalk] spamassassin an razor problemhi....
+
+i instal razor an spamassassin on an redhat 6.3 with a fresh per 5.8.0.
+when i instal mail::spamassassin us the cpan the followin error in make
+test appear.
+
+t/forg_rcvd...........ok
+t/nonspam...............ok
+t/razor.................        test skip: razor is not instal.
+t/razor.................ok
+        2/2 skip: razor is not instal.
+t/reporthead..........ok
+
+how can i get the razor run with the spamassassin ?
+
+thank for help
+
+alex
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

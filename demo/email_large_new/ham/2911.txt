@@ -1,0 +1,14 @@
+daemonsi have sever run daemon  that write some data to file
+what happen with these open file when init 6 command  is issu?
+ar these file that ar us by daemon delet? or ar thei close regularli and save ?
+and what happen, if the  linux box is shut down in a dirti wai( out of electr)?
+thank
+l.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be0079d.4796.6039abb@export.hope.cz
+
+

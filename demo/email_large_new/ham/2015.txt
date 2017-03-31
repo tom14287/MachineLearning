@@ -1,0 +1,240 @@
+effector 15.28: motion file in morpheu peer-to-peer case,
+    eff's 2nd annual share-in thi weekendeffector onlin newslett
+
+effector      vol. 15, no. 28      septemb 11, 2002      ren@eff.org
+
+a public of the electron frontier foundat     issn 1062-9424
+in the 227th issu of effector:
+
+    * motion file in morpheu peer-to-peer case
+    * eff's second annual share-in thi weekend!
+    * help with our internet block in school project
+    * deep link
+    * administrivia
+
+for more inform on eff activ & alert: http://www.eff.org/
+
+to join eff or make an addit donat:
+  http://www.eff.org/support/
+eff is a member-support nonprofit. pleas sign up as a member todai!
+
+
+*motion file in morpheu peer-to-peer case
+judg to consid legal of gnutella softwar
+
+lo angel - attornei for streamcast network, develop of the
+popular morpheu peer-to-peer (p2p) file share softwar, file
+brief in feder court on mondai seek a rule that distribut
+of the softwar doe not violat copyright law.
+
+morpheu is a popular file-share applic base on the
+decentr gnutella p2p network protocol.
+
+in their brief seek summari judgment, attornei from the
+electron frontier foundat (eff) and the law firm of brobeck,
+phleger and harrison argu that distribut of the softwar is legal
+becaus the product is capabl of substanti noninfring us and
+becaus streamcast cannot control the variou us of the softwar.
+
+support streamcast in the motion is nine time grammi nomine jani
+ian, who believ that peer-to-peer softwar repres import new
+opportun for artist.
+
+on octob 2, 2001, 28 of the world's largest entertain compani
+su streamcast for the allegedli infring action of user of it
+product (mgm et al v. grokster et al, case no. 01-cv-8541 svw).
+
+addit brief will be file in the month to come, with oral
+argument set for decemb 2, 2002, befor u.s. feder district court
+judg stephen wilson in lo angel.
+link:
+
+for thi releas:
+http://www.eff.org/ip/p2p/mgm_v_grokster/20020909_eff_pr.html
+
+document relat to metro-goldwyn mayer v. grokster case:
+http://www.eff.org/ip/p2p/mgm_v_grokster/
+
+jani ian's "internet debacl" articl:
+http://www.janisian.com/articl-internet_debacl.html
+
+- end -
+
+
+*electron frontier foundat hold second annual share-in
+john perri barlow, mountain girl garcia host free music fest
+
+san francisco - join the electron frontier foundat and five bai
+area band for an afternoon of live music and outdoor fun at eff's
+second annual share-in. the festiv will be held in golden gate
+park's music concours bandshel on saturdai, septemb 14th from noon
+- 5pm. the celebr of independ music will be host by grate
+dead lyricist and eff co-founder john perri barlow and former wife of
+the late great jerri garcia, mountain girl garcia.
+
+artist particip in thi event will permit record of their
+perform by those in attend in support of eff open audio
+licens (oal). musician perform at the event includ: the box set
+duo - clown princ of folk-rock, the classic funk band funkmonst,
+celtic world-fusion group hy brassyl, harmoni base folk-pop band
+atticu scout, and berkelei-base parti band shadi ladi.
+
+in addit to music, the share-in will featur perform includ
+ashlei foster the on wheel wonder, the existenti circu,
+frantast hand, the metronom dancer, and willi bologna and hi
+sideshow circu. bring your famili and friend!
+
+ben and jerri's will sell their famou ic cream, and cartwheel
+cater will be on site with hot dog, pretzel, and churro.
+
+proce from the share-in will go directli to eff's campaign for
+audiovisu free express (cafe), which overse project such as
+the open audio licens. cafe empow the creativ commun in
+cyberspac by protect the public's access to and us of audiovisu
+technolog.
+
+the open audio licens is a tool that eff ha develop in order to
+help artist share music more directli with their fan, without
+sacrif recognit for their creativ. the oal encourag
+collabor, provid artist with an altern to a busi
+model strictli driven by profit. base on the open sourc and free
+softwar initi for softwar develop, the oal encourag
+artist to share with on anoth and their fan
+
+adopt of the oal doe not mean that artist go unreward for their
+work. on the contrari, the oal permit artist to share singl track
+or perform and gain widespread recognit for their work without
+reli on intermediari. eff encourag new model of music
+distribut in the digit world that benefit the artist themselv.
+the internet make it possibl to drastic reduc the overhead for
+packag and distribut music, which is where record compani
+current spend most of the monei that could be go to artist. eff
+is commit to develop tool that empow artist to take control
+over their own art and to be compens appropri for their work.
+
+when: saturdai, septemb 14th, noon-5pm
+
+where: music concours bandshel in golden gate park, near the
+japanes tea garden between mlk drive and jfk drive
+
+more inform and travel direct:
+http://www.eff.org/event/share-in/
+link:
+
+eff's cafe project:
+http://www.eff.org/cafe/
+
+the open audio licens:
+http://www.eff.org/ip/open_licens/eff_oal.html
+
+- end -
+
+
+*help with our internet block in school studi
+
+if you know of ani public school student, teacher, school
+administr, school board member, parent, or recent public school
+alumni in the unit state who ar will to speak about the impact
+of internet block on educ opportun, the eff would like
+to make contact with them. we ar especi look for peopl in or
+near the follow area:
+
+    * ashevil, nc
+    * boston, ma
+    * nashvil, tn
+    * new york citi
+    * san francisco, ca
+
+pleas have them contact:
+will doherti
+wild@eff.org
+
+- end -
+
+
+*deep link
+deep link featur noteworthi new item, victori, and threat from
+around the internet.
+
+commun wireless allow peopl to break awai from czech telekom
+anoth wireless commun help bring access to rural area and those
+who otherwis would not have access. see the stori at:
+http://www.pbj.cz/user/articl.asp?articleid=158576
+
+- end -
+
+googl block in china
+a populat search engin is block in china and internet traffic is
+constantli be monitor. read about it at:
+http://new.bbc.co.uk/2/hi/technolog/2231101.stm
+
+- end -
+
+ipod clone spoil by drm
+second gener usb speed render useless by drm encrypt us in
+toshiba's mobilphil:
+http://www.zdnet.com/product/stori/review/0,4161,2877898,00.html
+
+- end -
+
+the netizen in 2002
+what doe it mean to be a netizen todai? contribut to the call for
+submiss found at:
+http://www.well.com/~doctorow/netizen.txt
+
+- end -
+
+
+*administrivia
+
+effector is publish by:
+
+the electron frontier foundat
+454 shotwel street
+san francisco ca 94110-1914 usa
++1 415 436 9333 (voic)
++1 415 436 9993 (fax)
+  http://www.eff.org/
+
+editor:
+ren bucholz, activist
+  ren@eff.org
+
+to join eff onlin, or make an addit donat, go to:
+  http://www.eff.org/support/
+
+membership & donat queri: membership@eff.org
+gener eff, legal, polici or onlin resourc queri: ask@eff.org
+
+reproduct of thi public in electron media is encourag.
+sign articl do not necessarili repres the view of eff. to
+reproduc sign articl individu, pleas contact the author for
+their express permiss. press releas and eff announc &
+articl mai be reproduc individu at will.
+
+to chang your address, pleas visit http://action.eff.org/subscrib/.
+>>from there, you can updat all your inform. if you have alreadi
+subscrib to the eff action center, pleas visit
+http://action.eff.org/action/login.asp.
+
+to unsubscrib from the effector mail list, send an email to
+alert@action.eff.org with the word "remov" in the subject.
+
+(pleas ask ren@eff.org to manual remov you from the list if thi
+doe not work for you for some reason.)
+
+back issu ar avail at:
+  http://www.eff.org/effector
+
+to get the latest issu, go to:
+  http://www.eff.org/effector/current.html
+
+
+++++++++++++++++++++++++
+you receiv thi messag becaus qqqqqqqqqq-eff@spamassassin.taint.org is a member of
+the mail list origin from alert@action.eff.org. to unsubscrib 
+from all mail list origin from alert@action.eff.org, send an 
+email from qqqqqqqqqq-eff@spamassassin.taint.org to alert@action.eff.org with 'remov' as the
+onli text in the subject line.
+
+

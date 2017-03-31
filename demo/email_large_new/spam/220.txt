@@ -1,0 +1,93 @@
+[spam]  excess file on desktop
+
+
+
+infomin
+
+
+
+	td {
+		text-align: top;
+	}
+
+	a, a:link, a:activ {
+		color: #003399;
+	}
+
+	a:visit {
+		color: #780000;
+	}
+
+	a:hover {
+		color: #ff0000;
+	}
+	.main-content h3 a {
+		text-decor: none;
+	}
+
+	.main-content p {
+		margin: 12px 0px;
+	}
+
+	.main-content img {
+		border: 1px solid #cccccc;
+	}
+
+	.sidebar a {
+		text-decor: none;
+	}
+	.sidebar div.entrycont div {
+		margin: -2px 0px;
+	}
+
+	.sidebar div.entrycont hr {
+		border-top: 1px solid #ffcc00;
+		border-bottom: 1px solid #707070;
+		background-color: #ffcc00;
+		height: 1px;
+		margin: 0px;
+		pad: 0;
+		line-height: 0;
+	}
+
+	.entrycont img {
+		border: 10px solid #ffffff;
+	}
+
+	.entri h2 a {
+		text-decor: none;
+	}
+
+
+
+
+
+		you ar receiv thi email becaus the email address hibodi@csmine.org wa subscrib to the infomin email list "infomin". you mai unsubscrib at ani time.
+
+
+
+
+
+ 
+
+eventsmin
+						 
+
+
+
+
+
+
+
+
+
+
+
+ copyright © 2009 infomin inc. suit 640 - 580 hornbi street, vancouv, british columbia, canada 
+			v6c 3b6. pleas do not respond to thi autom messag. 
+
+			if you would no longer like to receiv "infomin" you mai unsubscrib yourself at ani time. 
+
+
+
+

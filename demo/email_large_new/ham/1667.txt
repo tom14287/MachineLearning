@@ -1,0 +1,31 @@
+re: kde menu wierdnessfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="iso-8859-15"
+content-transfer-encod: quot-printabl
+
+heyho!
+
+on tuesdai 04 mai 2010 04.44:48 b. alexand wrote:
+> [ kde menu chao ]
+> anyon got a fix for it?
+
+have you tri creat a new account and look if it's there as well? =20
+the menu is basic system wide, but user mai custom it (and i=20
+absolut don't understand how system wide and local menu ar merg.)
+
+if it's not system wide, remov the right file from your ~/.kde, ~/.loca=
+l=20
+and/or ~/.config directori should probabl cure the probl,  (if you=20
+didn't do much custom you can obvious nuke your whole configur=
+=20
+but in my case, that would lose quit a few hour configur work, not t=
+o=20
+speak of stuff like address book/calendar data etc. ...)
+
+cheer
+=2d- vbi
+
+=2d-=20
+i have opinion of my own - strong opinion - but i don't alwai agre
+with them.
+        -- georg w. bush

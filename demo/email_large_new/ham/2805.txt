@@ -1,0 +1,46 @@
+re: [texliv] thi math formula work a few month a go, but  nowadai
+ it didn't work anymor2010-04-30 00:04, marcelo laia skrev:
+>> accord to the debian site, howev, the file is not avail
+>> in squeez:
+>>
+>> it seem to come from a cmex packag. can that packag have
+>> chang and drop the fmex* file? it now seem to contain
+>> cmex*-file instead, but i do not know if that is the correct interpret.
+>>
+>
+>
+> hummm! and now? what to do?
+>
+> if i do a search in i386 (i have both kernel), the result is the same!
+> what you suggest me? contact to maintain? who is he/she?
+>
+
+
+as you do not explicitli request the font to be us, i expect latex 
+to choos some other font instead. doe it work if you run the command 
+updat-updmap and try again?
+
+otherwis, i have two suggest:
+
+1) send and email to the debian-tex mail list 
+(). that list is the offici 
+maintain address for texliv-base, accord to 
+().
+
+2) report the problem as a bug. ().
+
+befor do ani of those two, you should rewrit the exampl document 
+to be as small and simpl as possibl (still show the problem) and 
+perhap also translat the text to english.
+
+regard
+
+johan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hrdo3l$np6$1@dough.gmane.org
+
+

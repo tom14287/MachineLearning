@@ -1,0 +1,61 @@
+re: resiz raid 1 partitionsaaron toponc wrote:
+> on 05/19/2010 12:47 pm, erwan david wrote:
+>> 	hi,
+>>
+>> i have a setup with 2 disk and follow raid set:
+>>
+>> sda1+sdb1 -> md0, /
+>> sda2+sdb2 -> md1 swap
+>> sda3+sdb3 -> md2 /home
+>>
+>> i'd like to resiz partit to get more space on md2 and less on md0.	
+>>
+>> what would bea good wai to achiev thi ?
+> 
+> the "best" wai to acheiv thi would be to us lvm abov your softwar
+> raid. at that point, it would be veri painless, compar to what is
+> ahead of you now. if you're curiou, here would be the step:
+> 
+> mdadm -c /dev/md0 -n 2 -l 1 -a ye /dev/sd{a,b}
+> pvcreat /dev/md0
+> vgcreat home /dev/md0
+> lvcreat -l 1g -n swap home
+> lvcreat -l 10g -n root home
+> lvcreat -l 100%free -n home home
+> 
+> then, for give more space to home, and less to root, boot off a live
+> cd, and (assum you're us ext3/4):
+> 
+> e2fsck /dev/home/root
+> resiz2fs /dev/home/root 6g
+> lvreduc -l 6g /dev/home/root
+> lvextend -l +4g /dev/home/home
+> resiz2fs /dev/home/home
+> 
+> that's it! howev, becaus you chose not to us lvm, you will need to
+> boot of a live cd that support linux softwar raid, rebuild the arrai,
+> and perform the resiz there. i'm not sure if gpart support thi or
+> not. worth check out, howev.
+> 
+> i would person recommend back up your data, and reinstal,
+> with lvm on top of your softwar raid. you still have the redund,
+> and you have the awesom flexibl of resiz volum with great eas.
+> 
+
+thank. but i would have prefer avoid full reinstal...
+
+i found thi tutori
+http://www.howtoforg.com/how-to-resiz-raid-partit-shrink-and-grow-softwar-raid
+
+i will try first.
+
+-- 
+erwan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf4eb53.9060908@rail.eu.org
+
+

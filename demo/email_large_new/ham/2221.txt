@@ -1,0 +1,39 @@
+re: lilo remov in squeez (or, "pleas test grub2")stephen powel  write:
+
+> ferenc wagner wrote:
+>
+>> stephen powel  write:
+>>>
+>>> both grub-legaci and grub-pc us sector on the hard disk outsid of
+>>> the master boot record and outsid of a partit ...
+>>
+>> you mai want to try extlinux, it work much like lilo in thi respect.
+>
+> it doe not us the master boot record.  it reli on a master boot
+> record program to chain load it from the partit boot sector.  (i
+> us the mbr packag for that.)
+
+the extlinux packag itself also contain an mbr.bin, which you can us
+(it's strong point is probabl ebio support).
+
+> speak of document, that seem to be it main weak.
+> document is sketchi and spread out over a number of differ file.
+
+/usr/share/doc/extlinux.txt.gz refer syslinux.txt, which is fairli
+comprehens accord to my standard, at least as far as the core is
+concern.  what did you miss?  some modul mai be less well document.
+
+> it instal hook script that i don't want (and that have bug).
+
+i hope we can fix them soon (thei ar debian specif addit).
+-- 
+cheer,
+feri.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/874ohwt3td.fsf@tac.ki.iif.hu
+
+

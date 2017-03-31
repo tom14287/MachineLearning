@@ -1,0 +1,19 @@
+fluxboxi've note that there ar packag version of
+blackbox and hackedbox avail from freshrpm.  what
+about fluxbox? http://fluxbox.sf.net
+
+i'd certainli enjoi a packag version, sinc it
+creator seem hesit to provid .rpm (.deb, ye,
+but no .rpm).
+
+.doug
+
+__________________________________________________
+do you yahoo!?
+yahoo! financ - get real-time stock quot
+http://financ.yahoo.com
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

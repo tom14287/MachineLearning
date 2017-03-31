@@ -1,0 +1,38 @@
+re: suspend to disk + blacklist modul = still troubleon sat, 24 apr 2010 20:33:59 +0200, felix natter wrote:
+
+> camalón write:
+> 
+>> what doe "/var/log/hibern.log" sai?
+> 
+> /var/log/hibern* doe not exist after a (succes) resum, although
+> thi is in common.conf:
+> 
+> verbos 0
+> logfil /var/log/hibern.log
+> logverbos 1
+> 
+> ani idea?
+
+ye, you can increas the log verbos:
+
+verbos 4
+logfil /var/log/hibern.log
+logverbos 4
+
+and check that file after suspend/restor.
+
+but if you alreadi got a success resum, why ar you in the need of 
+blacklist modul? :-?
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.24.19.10.17@csmine.org
+
+

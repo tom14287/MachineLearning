@@ -1,0 +1,43 @@
+re: kde 4.4.3 upgrad eat 141 mb of /homefrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+on wednesdai, 2010-05-12, mike kasick wrote:
+> on wed, mai 12, 2010 at 10:48:43am +0200, richard hartmann wrote:
+> > > - disabl "kre-migrat".  or at least add a debconf option to
+> > >  kdepim-runtim present the option of run kre-migrat by
+> > > default or disabl it.
+> >=20
+> > did you do ani research as to what the longer-term implic
+> > of forego thi might be? i am not sai there ar ani, i
+> > honestli don't know.
+>=20
+> there shouldn't be ani long-term implic as long as the old kresourc
+> code still exist.  i'm assum it's be deprec as of kde 4.4, but
+> i'd be surpris if it's remov in kde 4.5, especi sinc delai
+> migrat is an offici recommend.
+
+the kresourc api is public api of kde4, it can at best remov at the fir=
+t=20
+kde5 version (which is probabl still sever year awai).
+some of it plugin ar public api as well (those from kdepimlib) so thei=
+=20
+stai too.
+problemat ar plugin from kdepim, thei can be replac by respect=20
+akonadi base resourc implement.
+
+> onc the db mess is sort out (kde 4.5?), on can manual migrat the
+> data by run "kre-migrat".  i actual did thi accident.  the
+> migrat _might_ also run if we remov the configur bit, but i've not
+> tri.
+
+right, i think it will run if it doe not find it configur, thu not=
+=20
+know whether it ha alreadi run.
+could lead to duplic resourc on akonadi side though (if it ha been r=
+un=20
+befor).
+
+cheer,
+kevin

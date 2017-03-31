@@ -1,0 +1,36 @@
+re: timezon for kontact serious broken in lennyon mon, 19 apr 2010 22:28:37 -0400, john a. sullivan iii wrote:
+
+> ah, thi is so deepli frustrat! kde 4.4 sound great but it is
+> nowher to be found in debian but in experiment and it sound like it
+> is nowher near readi for product.  3.5.10 is truli and complet,
+> unus broken for calendar other than in a standalon world.
+
+if you ar us lenni then you ar stuck. unless you compil kde sc 4.4 
+from sourc which i don't recom unless you know what ar you do :-/
+
+for squeez and sid there ar kde sc 4.3 and 4.4, respect:
+
+http://pkg-kde.alioth.debian.org/
+
+> it look like evolut ha introduc webdav support for contact in
+> 2.24 and we can grab 2.28 from test.  that sound better than
+> experiment so mayb we need to abandon kmail (sigh) and think about
+> evolut instead.  thank, all - john
+
+not sure if you alreadi test, but thunderbird+lightn (icedov
++iceowl) have also support for webdav calendar :-?
+
+btw, i agre. i miss some of the kmail/kontact featur :-)
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.03.06.08.01@csmine.org
+
+

@@ -1,0 +1,22 @@
+re: icedov alwai load epiphani when url is clickedok..solv my own question:
+
+should have been:
+
+$ updat-altern --displai x-www-browser
+
+instead of:
+
+$ updat-altern -displai x-www-browser
+
+for the want of a dash an error messag is return.
+
+-- 
+c
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100415131305.28e9489f@mondo
+
+

@@ -1,0 +1,21 @@
+re: gstreamer repositoryon 14 aug 2002 10:59:22 -0400, "thoma j. baker"  wrote:
+
+> ha anyon had ani luck with the gstreamer repositori? i'm us rh 7.3
+> and ximian gnome 2 snap and the gstreamer stuff just doesn't work at
+> all. rhythmbox crash on startup, gst-player can't plai a simpl mpg
+> file, etc.
+
+    i'm in your same shoe- i can get it upgrad and all, but i can never seem to work out where to start out with the thing; it strike me as confus!  but to be fair, i appreci the piplin idea; just as it's us on the commandlin, it'll be emens power for manipul multimedia, too.    it's just not easi yet.  i'm sure all kindsa glade-produc front-end will come up for it soon, though.  and the doc ar complet, too...
+ 
+------------------------------------------------------------------------
+brian fahrländer              linux zealot, conserv, and technomad
+evansvil, in                    my voyag: http://www.countermoon.com
+icq  5119262
+------------------------------------------------------------------------
+"waddl" into the mainstream?  i suppos...
+http://www.usatodai.com/usatonlin/20020805/4333165s.htm
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,24 @@
+re: [ot] ubuntu vs debian forum (wa recompil the kernel with a 
+	differ version name)> ar you sai that onli those who want to learn to administ it should be
+> allow to us linux?
+>
+
+no, no, not at all. it mai have been like that onc, but todai anyon
+can pick it up and us it. maintain and fix it, no, but us it until
+problem aris, most certainli. and for some distro, there ar much
+fewer problem per usag hour than even the big w.
+
+
+-- 
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/k2y880dece01004110348s3a5cb07fo5b8196af8e70837e@mail.csmine.org
+
+

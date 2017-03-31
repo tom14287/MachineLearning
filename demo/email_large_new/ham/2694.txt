@@ -1,0 +1,43 @@
+re: [razor-user] new to razori concur, but just ignor the razor error dure the make test of
+spamassassin.  that recent start fail but appear just to be the
+test fail.  
+
+-----origin messag-----
+from: justin mason [mailto:yyyi@spamassassin.taint.org] 
+sent: thursdai, august 08, 2002 9:07 am
+to: michael graff
+cc: razor-user@exampl.sourceforg.net
+subject: re: [razor-user] new to razor 
+
+
+
+michael graff said:
+
+> i'm try to get spamassassin 2.31 and razor (latest) to plai 
+> togeth.  from what i see, thi isn't like to happen trivial,
+
+mike -- us the cv version of spamassassin.  it work well and support
+razor 2.
+
+--j.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf _______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

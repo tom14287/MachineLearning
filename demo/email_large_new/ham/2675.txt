@@ -1,0 +1,21 @@
+re: [ilug] us normal id devic with a dell latitud cpx laptopon tue, aug 27, 2002 at 11:38:00pm +0100, vincent cunniff mention:
+> there is absolut no wai to us a convent 3.5" drive with a
+> laptop directli. howev, you can get an extern firewir or usb
+> cradl and attach it to the laptop like that, and ani 3.5" drive
+> will work in that case.
+
+ ah, thei told me that about my a1200. just got a video box, cut air hole
+and a hole for the cabl, then got an extra-long 2.5" to 3.5" id cabl,
+and connect it up. had to make a few hole in the a1200 case for the
+id cabl too.
+
+ work a charm. until i drop the disk on dai onto concret.
+
+kate
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

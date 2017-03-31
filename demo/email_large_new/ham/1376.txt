@@ -1,0 +1,35 @@
+re: kernel (de)bug inform sent, even if there is no connect-----begin pgp sign messag-----
+hash: sha1
+
+thi look like kerneloop send the oops through a simpl
+url. strang. it seem not to even ping a refer ip to see if the
+connexion is still aliv. weird.
+
+submit-url = http://submit.kerneloop.org/submitoop.php is append
+at the end of my kerneloop.conf.
+
+
+
+- -- 
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+- -- 
+
+life is like a box of chocol, you never know what you're gonna
+  get.
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: process by mailcrypt 3.5.8 
+
+ieyearecaayfakvtwzcacgkqm0llzlt8mhxaoaczasvlasan6dqtrtgoojdfiti
+stkanjwrxyotnvuf6zxson6y1fkwy3e7
+=uuad
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87r5m4d0w8.fsf@merciadriluca-eee.workgroup
+
+

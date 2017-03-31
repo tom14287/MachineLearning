@@ -1,0 +1,35 @@
+re: 64 bit-flash fail sitesron johnson wrote:
+
+> on 05/11/2010 09:23 am, delopt wrote:
+>> jordan metzmeier wrote:
+>>
+>>>> --
+>>>> camalón
+>>>>
+>>>
+>>> http://hulu.com is an exampl. afaik it onli avail to peopl with
+>>> u.s. ip.
+>>>
+>>
+>> i'm in europ and it's work fine, though it said that it can not show
+>> video becaus of 64bit limit on linux.
+>>
+> 
+> "unabl to stream video" isn't actual what "it's work fine" mean.
+> 
+
+we don't know what's the issu with thi site exactli. it look like a
+commerci showstopp not a limit in flash or it look like it's a
+commerci limit, someth i would not consid as flash problem. but
+if the  gui sai it's work in 32bit then it's probabl a 64bit flash for
+linux issu, for real ... strang thing happen all the time.
+
+regard
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hsbu31$km8$2@dough.gmane.org
+
+

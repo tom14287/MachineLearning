@@ -1,0 +1,28 @@
+re: 64-bit netbook with debian linuxon 05/05/2010 08:49 am, camalón wrote:
+> on wed, 05 mai 2010 09:42:03 +1000, alex samad wrote:
+>
+>> right tool for the job, i never ever thought about put 64bit os on
+>> my netbook - it physic limit to 2g of memori
+>
+> 64-bit kernel ar not onli intend for system with ton of ram. those
+> kernel usual have enabl the "nx bit" and afaik, onli 32 bit pae
+> kernel enabl such featur.
+>
+> btw, my shuttl box ha also a ram limit of 2 gib (and current
+> us onli 1 gib) but ha instal "amd64". it run fine, without
+> notic drawback.
+>
+
+the question, though, is: "what -- beyond geek -- is the 
+*benefit* of amd64 in 'low' ram system?"
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be17920.2030606@cox.net
+
+

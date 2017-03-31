@@ -1,0 +1,19 @@
+re: [semi-ot] access gmail from pythonfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on fri,07.mai.10, 15:49:27, ron johnson wrote:
+
+> >i just set up getmail do do thi.
+> >that seem a lot simpler than fetchmail withh the certif.
+>=20
+> mayb the certif ar alreadi somewher in /usr/share?
+
+iiuc getmail doesn't check the certif.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

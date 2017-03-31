@@ -1,0 +1,31 @@
+re: go wirelesson sat, 10 apr 2010 07:59:11 -0500
+nate bargmann  wrote:
+
+> if at all possibl, avoid wep and us wpa pre-share kei encrypt. 
+> wep is easili crack while wpa offer the us of a 63 charact kei. 
+> us random charact (as gener at:
+> http://www.grc.com/password.htm ) will give you a network that will
+
+or someth like pwgen.
+
+> be extrem hard to crack via a brute forc attack.  virtual all
+> consum wireless router/acess point support wpa psk.
+
+but thei mai not all support wpa2 / ae / ccmp, and old wpa / tkip is
+insecur:
+
+http://en.wikipedia.org/wiki/wi-fi_protect_access#secur_in_pre-share_kei_mode
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100410223033.55fa2dba.celejar@csmine.org
+
+

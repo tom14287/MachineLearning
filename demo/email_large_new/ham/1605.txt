@@ -1,0 +1,31 @@
+re: best wai to instal kde-standardon 2010-05-08 sven joachim wrote:
+> > suggest?
+> 
+> file a bug report.
+
+i first want to know if i'm the onli on and/or try to find the caus of the issu befor file a bug 
+report.
+but i'll start a separ thread for it.
+ 
+> > sinc the noveau driver didn't seem capabl of render kde/kdm properli
+> > i instal the nvidia  driver (the debian wai).
+> 
+> doe hibern work with the nvidia driver?  btw, nouveau should work
+> fine if you disabl desktop effect.
+
+nope, hibern doe not work with the nvidia driver, but i didn't/couldn't test it with the 
+nouveau driver, sinc i couldn't get a login screen to begin with and ctl+alt+f1 didn't respond 
+either, so it wa unus for me.
+had to do ctl+alt+sysrq+(reisub) and boot into singl user mode to get my system work again.
+
+desktop effect seem to be disabl by default on laptop, so that's probabl not it.
+
+diederik
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005082057.11661.didi.debian@cknow.org
+
+

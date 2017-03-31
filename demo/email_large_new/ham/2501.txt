@@ -1,0 +1,37 @@
+re: fwd: re: kde 3.5 ...on fridai 07 mai 2010 12:28:03 sjoerd hardeman wrote:
+> pleas do not judg kde4 by not be a copi of kde 3.5. if that wa the
+> case, there would be no point in make a new version anywai. the
+> import question is whether kde lack function that should be
+> there (thi includ, but is not limit to, function present in
+> kde <4) and if that's the case, file a bug report. but of cours, don't
+> be bother if the function *look* differ. again, if all the
+> function would look the same, there would be no point creat a
+> new version.
+
+no - that is the problem!!  i love kde 3.5.x and have becom quit slick with 
+it.  kde 4 is differ.  i don't like it.  if i have to, in effect, chang 
+de, and go through the learn curv again, there is no reason why it would 
+have to be to kde 4.  when the time come that i cannot sensibl go on us 
+kde 3, i shall chose where i go next on the basi of what the option ar 
+look like at the time.  i can see littl liklihood that that choic will 
+be kde 4.  i mai even switch to a window manag without a de, and chose 
+other wai of work, if that is the onli wai that i can avoid the glitz 
+that is now all the rage.
+
+how thing look is veri import to me.  i have problem with my ey, and 
+how a thing look can influenc whether i can work on a thing for on minut, 
+ten minut or an hour.
+
+i have no problem with other peopl like and want to us kde 4.  i have a 
+problem with their, in some case, not allow me the freedom _not_ to us 
+it.  and i person shall mourn the pass of kde 3.
+
+lisi
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005072313.11626.lisi.reisz@csmine.org
+
+

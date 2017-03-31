@@ -1,0 +1,262 @@
+broken dependencieshello,
+
+becaus a stupid mistak, i have interrupt apt-get dure earli stage of  
+dist-upgrad from lenni to squeez.
+
+now i cannot get apt-get work and i don't know how to fix it.
+
+could anyon of you pleas help me? i'll be also happi with advic on how  
+to get proper debug info for you, of cours.
+
+$ apt-get -fyo debug::pkgproblemresolv=ye upgrad
+
+...return:
+
+---------------------------------------------------
+read packag list...
+build depend tree...
+read state inform...
+the follow packag have been kept back:
+   abiword abiword-plugin-grammar abiword-plugin-mathview alacart  
+alsa-util
+   amul amul-common amul-util apt apt-util aptitud at at-spi  
+avahi-daemon
+   bash bind9-host bluetooth bogofilt-bdb brasero bsh bsh-gcj  
+capplet-data
+   chees cmake cpp cpp-4.3 cron cup cup-bsd cup-client
+   cup-driver-gutenprint cupsddk dasher dasher-data dbu dbu-x11
+   debian-keyr debianutil default-jre default-jre-headless  
+deskbar-applet
+   devscript diff djvulibr-desktop dnsutil dpkg-dev einstein ekiga  
+empathi
+   eog epiphani-browser epiphani-browser-data epiphani-extens
+   epiphani-gecko evinc evolut evolut-common evolut-data-server
+   evolut-data-server-common evolut-exchang evolut-plugin
+   evolut-webcal exim4 exim4-base exim4-config exim4-daemon-light  
+exo-util
+   fast-user-switch-applet file-roller filezilla filezilla-common foo2zj  
+ftp
+   g++ g++-4.3 gcalctool gcc gcc-4.3 gcc-4.3-base gconf-editor gconf2
+   gconf2-common gdebi gdebi-core gdm geani gedit gedit-common ghostscript  
+gimp
+   gimp-data gksu gnome gnome-access gnome-access-theme
+   gnome-applet gnome-applet-data gnome-bluetooth gnome-card-data
+   gnome-control-center gnome-core gnome-desktop-environ gnome-game
+   gnome-game-data gnome-icon-theme gnome-keyr gnome-mag gnome-media
+   gnome-media-common gnome-mount gnome-netstatu-applet gnome-nettool
+   gnome-offic gnome-orca gnome-panel gnome-panel-data gnome-power-manag
+   gnome-screensav gnome-session gnome-set-daemon  
+gnome-system-monitor
+   gnome-system-tool gnome-termin gnome-termin-data gnome-theme
+   gnome-util gnome-volum-manag gnuchess gnumer gnumer-common gnupg  
+gok
+   gpart gpgv grub gstreamer0.10-alsa gstreamer0.10-ffmpeg
+   gstreamer0.10-gnomevf gstreamer0.10-plugin-bad  
+gstreamer0.10-plugin-base
+   gstreamer0.10-plugin-good gstreamer0.10-plugin-ugli gstreamer0.10-tool
+   gstreamer0.10-x gthumb gthumb-data gtk2-engin gtk2-engin-pixbuf
+   gtk2-engin-xfce gucharmap guil-1.8-lib gvf gvf-backend hal hpij
+   hplip hplip-data ia32-lib ia32-lib-gtk icedov iceweasel  
+iceweasel-l10n-cs
+   imagemagick info inkscap iprout kdelib4c2a kdiff3 kerneloop
+   latex-xft-font lib32asound2 lib32gcc1 lib32ncurs5 lib32nss-mdn
+   lib32stdc++6 lib32z1 libafterimag0 liballegro4.2  
+liballegro4.2-plugin-jack
+   libaprutil1 libapt-pkg-perl libarch1 libart2.0-cil libart1c2a  
+libasound2
+   libasound2-dev libatspi1.0-0 libavc1394-0 libavformat52 libbonobo2-0
+   libbonobo2-common libbonobo2-dev libbonoboui2-0 libbonoboui2-common
+   libbonoboui2-dev libboost-date-time-dev libboost-dev libboost-doc
+   libboost-filesystem-dev libboost-graph-dev libboost-iostream-dev
+   libboost-program-option-dev libboost-python-dev libboost-regex-dev
+   libboost-serial-dev libboost-signal-dev libboost-test-dev
+   libboost-thread-dev libboost-wave-dev libc6 libc6-dev libc6-i386  
+libcairo2
+   libcairo2-dev libcairomm-1.0-1 libcdio-cdda0 libcdio-paranoia0
+   libclass-accessor-perl libcompress-raw-zlib-perl libcompress-zlib-perl
+   libcrypt-ssleai-perl libcup2 libcupsimag2 libcurl3 libcurl3-gnutl
+   libdbu-glib-1-2 libdc1394-22 libdigest-sha1-perl libdirac-encod0
+   libdirectfb-dev libdirectfb-extra libdjvulibr21 libdvdnav4 libebook1.2-9
+   libec1.2-7 libedata-book1.2-2 libedata-cal1.2-6 libedataserverui1.2-8
+   libedit2 libegroupwis1.2-13 libempathi-common libempathi-gtk-common
+   libench1c2a libept0 libesd0 libesd0-dev libexchang-storag1.2-3
+   libexo-0.3-0 libfcgi-perl libfluidsynth1 libfreebob0 libgail-common
+   libgail-dev libgail-gnome-modul libgail18 libgcc1 libgcj-bc libgconf2-4
+   libgconf2-dev libgconf2.0-cil libgdl-1-common libgfortran3 libgimp2.0
+   libgksu2-0 libgl1-mesa-dev libgl1-mesa-dri libgl1-mesa-glx libglad2-0
+   libglad2-dev libglad2.0-cil libglib-perl libglib2.0-0 libglib2.0-cil
+   libglib2.0-dev libglibmm-2.4-1c2a libgnom-keyr-dev libgnom-keyr0
+   libgnom-media0 libgnom-vf2.0-cil libgnom-window-set1 libgnom2-0
+   libgnom2-common libgnom2-dev libgnom2-perl libgnom2-vf-perl
+   libgnomecanva2-0 libgnomecanva2-common libgnomecanva2-dev
+   libgnomecup1.0-1 libgnomekbd-common libgnomeprint2.2-0
+   libgnomeprint2.2-data libgnomeprintui2.2-0 libgnomeprintui2.2-common
+   libgnomeui-0 libgnomeui-common libgnomeui-dev libgnomevf2-0
+   libgnomevf2-common libgnomevf2-dev libgnomevf2-extra libgomp1
+   libgphoto2-2 libgphoto2-port0 libgpod-common libg8 libgsf-1-114
+   libgsf-gnome-1-114 libgstream-plugin-base0.10-0 libgstream0.10-0
+   libgtk2-perl libgtk2.0-0 libgtk2.0-bin libgtk2.0-cil libgtk2.0-dev
+   libgtkhtml3.14-19 libgtkmathview0c2a libgtkmm-2.4-1c2a  
+libgtksourceview2.0-0
+   libgtksourceview2.0-common libgtop2-7 libgweath1 libhsqldb-java-gcj
+   libhtml-parser-perl libicu-dev libiec61883-0 libio-compress-base-perl
+   libio-compress-zlib-perl libjack0 libjaxp1.3-java-gcj  
+liblist-moreutil-perl
+   liblocal-gettext-perl liblua5.1-0 liblua5.1-0-dev libluabind-dev
+   libmail-box-perl libmono-addin-gui0.2-cil libmono-addin0.2-cil
+   libmono-cairo1.0-cil libmono-corlib1.0-cil libmono-corlib2.0-cil
+   libmono-data-td2.0-cil libmono-i18n1.0-cil libmono-i18n2.0-cil
+   libmono-secur2.0-cil libmono-sharpzip2.84-cil libmono-sqlite2.0-cil
+   libmono-system-data2.0-cil libmono-system-web1.0-cil
+   libmono-system-web2.0-cil libmono-system1.0-cil libmono-system2.0-cil
+   libmono1.0-cil libmono2.0-cil libnautilu-extens1
+   libndesk-dbu-glib1.0-cil libndesk-dbu1.0-cil libneon27 libneon27-gnutl
+   libnet-libidn-perl libnet-ssleai-perl libnotifi1 liboob-1-4 liborbit2
+   liborbit2-dev libossp-uuid-perl libpam-gnome-keyr libpam-modul
+   libpam-runtim libpanel-applet2-0 libpanel-applet2-dev libpango1.0-0
+   libpango1.0-dev libperl5.10 libpisock9 libportaudio2 libpq5  
+libpstoedit0c2a
+   libpt-1.10.10-plugin-alsa libpurpl0 libqca2 libqca2-plugin-ossl
+   libqt4-assist libqt4-core libqt4-dbu libqt4-design libqt4-dev
+   libqt4-gui libqt4-help libqt4-network libqt4-opengl libqt4-opengl-dev
+   libqt4-qt3support libqt4-script libqt4-sql libqt4-sql-mysql libqt4-svg
+   libqt4-test libqt4-webkit libqt4-xml libqt4-xmlpattern libqtcor4  
+libqtgui4
+   librsvg2-2 librsvg2-common libsan libsasl2-2 libsasl2-modul
+   libschroeding-1.0-0 libsdl1.2-dev libsdl1.2debian libsdl1.2debian-alsa
+   libsmbclient libsnmp15 libsoap-lite-perl libsoup2.4-1 libsox-fmt-alsa
+   libsox-fmt-base libsplashi1 libstartup-notif0 libstdc++6
+   libstdc++6-4.3-dev libsvn1 libtag1c2a libtagc0 libtelepathi-glib0
+   libtest-pod-perl libthai-data libthai0 libthunar-vf-1-2 libt-0.0-0
+   libvcdinfo0 libvoikko1 libvt9 libwbclient0 libwin libwin-alsa  
+libwin-cm
+   libwin-gl libwin-gphoto2 libwin-ldap libwin-print libwin-sane  
+libwnck22
+   libwxbas2.6-0 libwxbas2.8-0 libwxgtk2.6-0 libwxgtk2.8-0 libx11-6
+   libx11-dev libxalan2-java-gcj libxapian15 libxcb1 libxcb1-dev
+   libxerc2-java-gcj libxfc4util4 libxfcegui4-4 libxi-dev libxi6 libxin1
+   libxin1-bin libxin1-consol libxin1-ffmpeg libxin1-misc-plugin
+   libxin1-plugin libxin1-x libxml2-util liferea lintian
+   linux-imag-2.6-amd64 lmodern local lp-solv lynx lynx-cur menu
+   mesa-common-dev metac metac-common moc mono-gac mono-runtim  
+mousepad
+   mousetweak mutt nautilu nautilu-data netatalk network-manag
+   network-manag-gnome network-manag-openvpn  
+network-manag-openvpn-gnome
+   network-manag-vpnc network-manag-vpnc-gnome nf-common  
+nf-kernel-server
+   notif-daemon ntf-3g ntp obex-data-server odbcinst1debian1
+   openoffic.org openoffic.org-base openoffic.org-base-core
+   openoffic.org-calc openoffic.org-common openoffic.org-core
+   openoffic.org-draw openoffic.org-gcj openoffic.org-gtk
+   openoffic.org-help-cs openoffic.org-help-en-us openoffic.org-impress
+   openoffic.org-java-common openoffic.org-l10n-cs openoffic.org-math
+   openoffic.org-officebean openoffic.org-report-builder-bin
+   openoffic.org-style-andromeda openoffic.org-style-tango
+   openoffic.org-writer openoffic.org-writer2latex openssh-client
+   openssh-server orag perl perl-base perl-doc perl-modul perlmagick  
+picard
+   pidgin pidgin-blinklight pidgin-data planner poppler-util postgresql
+   postgresql-client postgresql-contrib postgresql-doc proftpd-basic
+   proftpd-mod-ldap proftpd-mod-mysql proftpd-mod-pgsql psi pstoedit python
+   python-apt python-cairo python-cup python-dbu python-dev
+   python-eggtrayicon python-glade2 python-gnome2 python-gobject  
+python-gst0.10
+   python-gtk2 python-gtkhtml2 python-gtkmozemb python-gtksourceview2
+   python-libxml2 python-minim python-notifi python-pyatspi python-pygam
+   python-pyorbit python-qt4 python-sip4 python-svn python-tk python-twist
+   python-twist-conch python-twist-core python-twist-lore
+   python-twist-mail python-twist-name python-twist-new
+   python-twist-runner python-twist-web python-twist-word python-vte
+   python2.5 python2.5-dev python2.5-minim qt4-qmake qt4-qtconfig  
+radeontool
+   rdesktop reportbug rhythmbox ristretto rpm rss-glx rtorrent rxvt-unicod
+   samba samba-common scrollkeep scummvm seahors sg3-util  
+share-mime-info
+   smartmontool smbclient smbf sound-juicer sox subvers svn-workbench  
+swat
+   synapt system-tool-backend sysv-rc telepathi-gabbl telepathi-salut
+   tex-common texliv-base texliv-common texliv-doc-base
+   texliv-font-recommend texliv-font-recommend-doc  
+texliv-latex-base
+   texliv-latex-base-doc thunar thunar-data thunar-media-tag-plugin tipa
+   tomboi totem totem-common totem-gstreamer totem-mozilla totem-plugin
+   transmiss-common transmiss-gtk tsclient uae udev  
+unattend-upgrad
+   unixodbc updat-inetd updat-manag-core updat-notifi usermod  
+vinagr
+   vino vlc vlc-nox wesnoth wesnoth-data wesnoth-httt wesnoth-tsg  
+wesnoth-ttb
+   winbind wine wine-bin wine-util wireless-tool wpagui wpasupplic
+   x11-common x11proto-input-dev xfce4 xfce4-appfind xfce4-batteri-plugin
+   xfce4-clipman-plugin xfce4-cpugraph-plugin xfce4-datetim-plugin
+   xfce4-diskperf-plugin xfce4-fsguard-plugin xfce4-goodi
+   xfce4-mailwatch-plugin xfce4-messeng-plugin xfce4-mixer
+   xfce4-netload-plugin xfce4-note-plugin xfce4-panel
+   xfce4-quicklaunch-plugin xfce4-screenshoot-plugin  
+xfce4-sensor-plugin
+   xfce4-session xfce4-smartbookmark-plugin xfce4-systemload-plugin
+   xfce4-taskmanag xfce4-termin xfce4-timer-plugin xfce4-util
+   xfce4-verv-plugin xfce4-wavelan-plugin xfce4-weather-plugin
+   xfce4-xkb-plugin xfdesktop4 xfdesktop4-data xfmedia xfprint4 xfwm4 xinput
+   xorg xsane xsane-common xserver-xorg xserver-xorg-core
+   xserver-xorg-input-evdev xserver-xorg-input-kbd xserver-xorg-input-mous
+   xserver-xorg-input-synapt xserver-xorg-input-wacom  
+xserver-xorg-video-apm
+   xserver-xorg-video-ark xserver-xorg-video-ati xserver-xorg-video-chip
+   xserver-xorg-video-cirru xserver-xorg-video-dummi  
+xserver-xorg-video-fbdev
+   xserver-xorg-video-glint xserver-xorg-video-i128 xserver-xorg-video-intel
+   xserver-xorg-video-mach64 xserver-xorg-video-mga  
+xserver-xorg-video-neomag
+   xserver-xorg-video-nv xserver-xorg-video-openchrom  
+xserver-xorg-video-r128
+   xserver-xorg-video-radeon xserver-xorg-video-radeonhd
+   xserver-xorg-video-rendit xserver-xorg-video-s3
+   xserver-xorg-video-s3virg xserver-xorg-video-savag
+   xserver-xorg-video-siliconmot xserver-xorg-video-si
+   xserver-xorg-video-sisusb xserver-xorg-video-tdfx xserver-xorg-video-tga
+   xserver-xorg-video-trident xserver-xorg-video-tseng  
+xserver-xorg-video-v4l
+   xserver-xorg-video-vesa xserver-xorg-video-vmware  
+xserver-xorg-video-voodoo
+   xterm yelp zeniti
+perl: warn: set local fail.
+perl: warn: pleas check that your local set:
+	languag = (unset),
+	lc_all = (unset),
+	lang = "en_us.utf-8"
+     ar support and instal on your system.
+perl: warn: fall back to the standard local ("c").
+can't exec "local": no such file or directori at  
+/usr/share/perl5/debconf/encod.pm line 16.
+us of uniniti valu $debconf::encod::charmap in scalar chomp at  
+/usr/share/perl5/debconf/encod.pm line 17.
+0 upgrad, 0 newli instal, 0 to remov and 744 not upgrad.
+2 not fulli instal or remov.
+after thi oper, 0b of addit disk space will be us.
+dpkg: warn: 'ldconfig' not found on path.
+dpkg: 1 expect program(s) not found on path.
+nb: root's path should usual contain /usr/local/sbin, /usr/sbin and  
+/sbin.
+e: sub-process /usr/bin/dpkg return an error code (2)
+---------------------------------------------------------------
+
+
+thank a lot!!!
+al.
+
+
+
+
+
+-- 
+us opera's revolutionari e-mail client: http://www.opera.com/mail/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/op.vb08w6ej53tp3f@hugo.lennycz-depot
+
+

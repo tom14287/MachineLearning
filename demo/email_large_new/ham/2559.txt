@@ -1,0 +1,28 @@
+re: [ot] ubuntu vs debian forum (wa recompil the kernel with
+ a  differ version name)ron johnson put forth on 4/8/2010 9:58 pm:
+> on 2010-04-08 21:38, stephen powel wrote:
+> [snip]
+>>
+>> for some reason, thi well-known proverb is go through my head:
+>>
+>>    give a man a fish and you feed him for a dai.
+>>    teach a man to fish and you feed him for a lifetim.
+>>
+>> i'd rather learn to fish.
+>>
+> 
+> there's anoth proverb: teach a man to fish and he get angri for
+> make him work.
+
+i've never heard that.  must be a socialist thing...
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbf9fce.3010400@hardwarefreak.com
+
+

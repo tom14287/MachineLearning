@@ -1,0 +1,71 @@
+re: usb devic attach via rs232 adaptoron 19 april 2010 12:15, ron johnson  wrote:
+> on 2010-04-19 02:54, dotan cohen wrote:
+>>>
+>>> so, is doe thi sc reader (a) serial-over-usb or (b) usb-over-serial?
+>>>
+>>
+>> i should imagin (b), but i have not gotten there yet to see.
+>>
+>
+> then he probabl is clueless.
+>
+
+well, he is turn to _me_ for advic, so that is a reason assumpt!
+
+
+>>> (a) is common, (b) is what you describ, but i've never heard of (b).
+>>> =c2=a0ar
+>>> you sure you wrote what you realli mean?
+>>>
+>>
+>> no, i have not gotten there yet to look at the machin. but i want to
+>> get there prepar, which is why i ask here.
+>>
+>
+> queri the list without the slightest bit of *fact* is a great wai to p=
+iss
+> peopl off.
+>
+
+i am sorri if i upset peopl. i wa face with a situat that i did
+not understand and thought that i would queri those with far more
+experi after search the web yield noth us. would you
+suggest that it is prefer for me to go to thi gui's place not
+know a thing about what i'm get into, especi when the goal
+"read from / write to the card reader" is so straightforward?.
+
+
+>>> thi is the import quot, i think: "infin usb smart is base on t=
+he
+>>> hid standard, no custom driver ar need".
+>>>
+>>
+>> hid is for keyboard and mice, not card reader. it doe not handl
+>> file from what i understand. thi is turn into a big pile of wtf.
+>>
+>
+> smart card don't pass much info, and kb emul work well in such
+> environ (also like with bar code scanner).
+>
+
+i have seen barcod and magnet scanner that simpli pass string.
+mayb you ar right, mayb that is how thi work. we'll see.
+
+thank.
+
+--=20
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+pleas cc me if you want to be sure that i read your messag. i do not
+read all list mail.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/s2m880dece01004190229s60eac67o91963d5b4d4652e@mail.csmine.org
+
+

@@ -1,0 +1,44 @@
+re: pdftk or relat: how to make a bookmark for everi insert  pdf?-----begin pgp sign messag-----
+hash: sha1
+
+camalón  write:
+
+> pdf manipul is still veri limit in linux so don't expect the same 
+> manag and easi of acrobat profession or such program 
+> here :-)
+mmh okai, but what i want look basic, doesn't it? no problem.
+
+> that said, i would make first the big pdf file (with all the need 
+> append file in there) and then make the bookmark with a program that 
+> allow creat/edit them, like "jpdfbookmark¹".
+thank. i'll check it out.
+
+> dunno whether "pdfkt" or "pdfedit" will allow creat/edit
+> bookmark.
+i think you meant `pdftk' at the place of `pdfkt'.
+
+> ¹ http://flavianopetrocchi.blogspot.com
+thank for thi link. i'll check it.
+- -- 
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+- -- 
+
+to live is the rarest thing in the world.  most peopl exist, that's
+ all. (oscar wild)
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: process by mailcrypt 3.5.8 
+
+ieyearecaayfakvl17macgkqm0llzlt8mhxbagcfypgyruq1p851+ob77z/eup92
+5qsan0fmua7ihdb+i3pymga1tdiusryv
+=q+pr
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87pr16yte3.fsf@merciadriluca-station.merciadriluca
+
+

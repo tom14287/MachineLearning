@@ -1,0 +1,69 @@
+re: kde unabl to plai complet k3b .wav fileshi,
+
+on sat, mai 8, 2010 at 11:34 pm, nate bargmann  wrote:
+> * on 2010 08 mai 09:10 -0500, diederik de haa wrote:
+>> on 2010-05-08 nate bargmann wrote:
+>> > in system set configur notif (also from the same menu in
+>> > configur k3b) onli the first note is plai.
+>>
+>> tri it from k3b and i can confirm your find
+>>
+>> > in dolphin click on k3b_success1.wav launch gnome-mplayer and the
+>> > entir file is plai.
+>>
+>> same here, although i've plai it with both amarok as smplayer
+>>
+>> > also in dolphin with k3b_success1.wav highlight click the plai
+>> > button in the far right hand pane plai the first three note.
+>>
+>> same here.
+>>
+>> > here is an odditi i've notic
+>>
+>> it sure is odd.
+>
+> thank for the confirm, diederik. =c2=a0i wonder which packag to fi=
+le a
+> bug report against? =c2=a0the k3b packag mai in fact be easiest to requ=
+st
+> that the sound file be packag in .ogg format, but that onli mask
+> that fact that someth in the kde sound stack is have an issu with
+> .wav file.
+>
+> my system is configur to us the phonon xine backend in sound and video
+> configur. =c2=a0could that be the culprit and how can we test?
+>
+> - nate >>
+>
+> --
+>
+> "the optimist proclaim that we live in the best of all
+> possibl world. =c2=a0the pessimist fear thi is true."
+>
+> ham radio, linux, bike, and more: http://n0nb.us/index.html
+>
+
+trii with dragonplay it also fail with xine backend, amarok and
+kaffein on the other hand plai it complet.
+
+switch to gstreamer backend and dragonplay plai it successfulli.
+
+i think you mai have to file two separ bugreport: on to k3b
+suggest as a new featur to us ogg file instead of wav; and a
+separ to phonon indic to xine backend fail to plai k3b's
+file.
+
+but sinc it doe plai ok with amarok (which also us phonon)
+probabl will be nice to ask thi question to a phonon develop,
+mayb that the issu is in k3b and dragonplay.
+
+cheer,
+ismael
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktimu1d6au0ofejqt8rzssvo71x-anngggtc4ato4@mail.csmine.org
+
+

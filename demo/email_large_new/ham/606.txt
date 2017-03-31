@@ -1,0 +1,19 @@
+re: ditch muttfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=utf-8
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+tzafrir cohen wrote at 2010-04-11 07:41 -0500:
+> on thu, apr 08, 2010 at 06:08:22pm -0700, michael elkin wrote:
+>=20
+> > both sup (sup.rubyforg.org) and notmuch (notmuchmail.org) ar
+> > interest work-in-progress that ar base off the xapian search
+> > engin, and have curs-base interfac.  for peopl who like the gmail
+> > interfac, thi might be of interest.
+>=20
+> sup ha a curs interfac (notmuch ha a command-line interfac and an
+> emac front-end).
+
+notmuchmail.org mention a curs interfac for nutmuch but it doe not see=
+m to=20
+be avail in debian's notmuch packag.

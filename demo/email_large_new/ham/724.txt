@@ -1,0 +1,67 @@
+movieaudioextractionfillbuff call exit?i'm run quicktim on window (xp sp3) and have a reproduc wai to
+make movieaudioextractionfillbuff in a c++ program do someth strang.
+it look like it's call exit() or do someth equival, but i can't
+sai for sure.   what i do see is that immedi after call
+movieaudioextractionfillbuff, execut continu in the destructor of my
+static alloc object.  if i replac the call to
+movieaudioextractionfillbuff with a call to exit(), i see the same thing.
+
+i'm us version 7.3 of the quicktim sdk, but 
+
+long version;
+gestalt(gestaltquicktimevers,&version;);
+
+popul version with 0x07668000.  i can reproduc the same behavior with
+version 7.1 of the quicktim sdk, but gestalt still return the same thing
+in thi case.
+
+the quicktim-relat thing that happen befor thi ar:
+
+- quicktim initi normal
+- quicktim read metadata from on aac file
+- quicktim read metadata from a second aac file
+- quicktim read the audio properti of an mp3 file
+- and then i call movieaudioextractionfillbuff
+
+the audio-relat function call ar:
+
+movieaudioextractionbegin
+movieaudioextractiongetproperti(kqtpropertyclass_movieaudioextract_audio,
+ 
+kqtmovieaudioextractionaudiopropertyid_audiostreambasicdescript);
+movieaudioextractionsetproperti(kqtpropertyclass_movieaudioextract_audio,
+ 
+kqtmovieaudioextractionaudiopropertyid_audiostreambasicdescript);
+
+all of which work as expect (or at least i think thei do).
+
+and then
+
+movieaudioextractionfillbuff
+
+i can give more detail about the api call if necessari.  i think i'm
+call quicktim correctli sinc it decod audio successfulli almost all
+the time -- with thi file and mani other (i.e.
+movieaudioextractionfillbuff return normal).  i've had custom report
+similar problem, but thi is the first time i've been abl to reproduc it
+reliabl myself.  unfortun it's with a complex program.  my attempt to
+reproduc thi with a simpler program have fail.  it seem to be
+time-relat but i can't do better than that at the moment.
+
+i'd love some help figur out what's happen in
+movieaudioextractionfillbuff, and even better some help make it go awai.
+if i need to report thi in some more offici wai to appl to make that
+happen, pleas let me know.
+
+thank much.
+
+-db
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,38 @@
+re: epiphani browser continu to get wors and worseon tue, 20 apr 2010 19:51:47 -0400 (edt), andrew malcolmson wrote:
+> on mon, apr 19, 2010 at 10:00 pm, stephen powel wrote:
+>> on mon, 19 apr 2010 21:01:41 -0400 (edt), andrew malcolmson wrote:
+>>> couldn't sai why thei switch, but i find page in epiphani 2.29 in
+>>> squeez look vivid compar with the gecko version.
+>>
+>> i have switch back and forth between epiphani and iceweasel sever
+>> time, on the same comput and monitor, and i have not notic ani
+>> differ in imag qualiti between iceweasel, which is base on
+>> gecko (xulrunn-1.9.1) and epiphani-browser, which is base on webkit
+>> (libwebkit-1.0-2).
+>>
+> 
+> well, i could be hallucin, but fyi i test thi by compar the
+> two epiphani version side by side.  version 2.29 wa run in a sid
+> chroot (schroot -p).  the new version look brighter and a wee bit
+> clearer. i first notic thi improv on anoth comput i'd just
+> upgrad to squeez.  howev, mayb the differ is someth to do
+> with x.org?
+
+even if there is a measur differ in imag bright or sharp,
+it's a moot point for me.  if i can't download file or repli to e-mail,
+the squeez version is useless to me.  i'll check thing out again onc
+the sid version migrat to squeez.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1905300792.199120.1271856145572.javamail.root@md01.wow.synacor.com
+
+

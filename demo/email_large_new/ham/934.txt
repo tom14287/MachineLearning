@@ -1,0 +1,23 @@
+oo.writer can't it file.good dai.
+
+
+i can not open a file in 'oowrit' by 'edit' user, the program sai, "write error. the file could not be written." run from consol give no addit info. the version is 3.2.0-4.
+
+ls -l 1.odt
+return:
+-rw-r--r-- 1 edit we 64145 2010-03-29 10:39 1.odt
+
+therefor i see that the problem doe not lai in permiss. then what? - buggi oowrit?
+
+
+thank for your time.
+
+ps pleas, repli to the list.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bed0fd9.8c4bdf0a.54d3.ffff8f4b@mx.googl.com
+
+

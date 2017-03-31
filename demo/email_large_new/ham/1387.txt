@@ -1,0 +1,20 @@
+re: debian on a raid5 (4tb) issuesisrael garcia put forth on 4/16/2010 11:11 am:
+> hi, mayb ot but, i\m try to instal debian lenni on a raid5 with
+> 4tb. os see on big sda with 4tb, i can particion /boot, / and swap
+> but it onli recogn 78gb instead the 4tb avail. is thi becaus
+> the partit in booteabl? can i instal debian os  on thi hdd with
+> these 3 partit and us the rest for lvm? thank in advanc,
+
+what pcie raid card ar you us?
+
+-- 
+stan
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc8fcdc.2060007@hardwarefreak.com
+
+

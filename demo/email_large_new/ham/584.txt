@@ -1,0 +1,43 @@
+re: anoth bugfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=us-ascii
+
+> from:  chri garrigu 
+> date:  mon, 22 jul 2002 13:33:13 -0500
+>
+> > from:  ander eriksson 
+> > date:  mon, 22 jul 2002 20:15:11 +0200
+> >
+> > my feel of thi is that we realli do not want to have a 
+> > ftoc_clearcurr, but rather just a rescanlin and the caller had 
+> > better know the line or msgid. that routin shoud just put in the '+' 
+> > if the line/msg in question happen to be the cur msg. thought?
+> 
+> intuit, that sound right to me.  it doe also call "tag remov", so 
+> you'll have to make sure that get set correctli as well.
+> 
+> i think ani chang that make it behav more intuit ar a good thing even 
+> if thei mean we have someth els to fix.  of cours, that attitud is why 
+> i've been fix exmh bug for 3 week.
+
+i just check in a code cleanup which doesn't address thi issu, but doe 
+take a machet to code right around it.  you ought to 'cv updat' and see if 
+your issu becom ani clearer with all the brush remov.
+
+my patch note that 'msgid' and 'line' ar redund with on anoth and remov 
+on or the other from function which take both.  the caller ar then 
+chang to pass what the function expect.  in the case of msg_chang, the 
+'line' argument is remov and we onli have the msgid argument.  ftoc_clearcurr
+is now the first line of msgchang.
+
+chri
+
+-- 
+chri garrigu                 http://www.deepeddi.com/~cwg/
+vircio                          http://www.vircio.com
+716 congress, suit 200
+austin, tx  78701		+1 512 374 0500
+
+  world war iii:  the wrong-doer vs. the evil-doer.
+
+
+

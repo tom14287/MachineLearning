@@ -1,0 +1,32 @@
+re: make onscreen font read-abl[wa:new monitor, how to chang 
+	screen resolut?]on thu, 29 apr 2010 22:20:36 +0200, jame stuckei wrote:
+
+> on thu, apr 29, 2010 at 10:15 pm, camalón wrote:
+
+>> option   "dpi" "96 x 96"
+>>
+>> under your /etc/x11/xorg.conf "monitor" section?
+>>
+>> (make a backup copi of the origin file befor make ani chang)
+>>
+>> i can't tell if that made a chang or not. in either case, the font
+>> still
+> look like garbag/aren't easi to read. 
+> i should note, the font in what
+> i'm type right now (gmail) aren't bad -- it's the font on the menu
+> bar in iceweasel/icedov/whatev program.
+
+can you pleas upload a snapshot so we can see what you get?
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.29.21.05.08@csmine.org
+
+

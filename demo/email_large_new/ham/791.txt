@@ -1,0 +1,27 @@
+re: migrat os to smaller drive?clive mcbarton wrote:
+> ron johnson wrote:
+>> never destroi the origin until you know the copi work!
+> 
+> in my earlier dai i would have avoid mv for exactli that reason. but
+> when copi (includ rsync), you cannot easili see that it work
+> from the empty of the origin file system. and compar larg
+> filesystem tree (not just 4gb as in thi case) is trickier than most
+> peopl realiz. at least a simpl "diff -r" will be far from do it.
+> mayb you have some good wai of compar fs tree?
+> 
+>  [snip]
+
+includ rsync?  i'd sai that's the exact purpos of rsync.
+
+anywai, there ar mani filesystem comparison tool if on want to do it 
+"manual", like dirdiff.  for file content, just hash and re-hash.
+
+-thib
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc23ba5.7030406@stam.net
+
+

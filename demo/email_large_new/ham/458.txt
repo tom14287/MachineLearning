@@ -1,0 +1,31 @@
+re: ot: script to add line to file if it doesn't existon 2010-04-07 16:12, ron johnson wrote:
+[snip]
+> 
+> mart's method is the shell wai.  the 3gl wai is:
+> 
+> grep -w "$name" "$file"
+> tmp=$?
+> if [ "$tmp" = "1" ];
+
+that should be:
+
+if [ "$tmp" = "0" ];
+
+> then
+>     echo -e "$name\n" >> "$file"
+> fi
+> 
+> 
+
+
+-- 
+"histori doe not long entrust the care of freedom to the weak
+or the timid."  dwight eisenhow
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbd0c09.4070304@cox.net
+
+

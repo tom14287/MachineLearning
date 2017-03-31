@@ -1,0 +1,22 @@
+re: apt-get problem ?on mon, 07 oct 2002 08:01:24 +0200, roi dayan  wrote:
+
+> when i try to us apt-get upgrad
+> it want to instal libusb while i got it
+> (same version)
+> and all collaps becaus of thi.
+
+    i had that too; i remov libusb (i don't think it need --nodep) and then 'apt-get -f instal' and all wa well.
+
+------------------------------------------------------------------------
+brian fahrländer              linux zealot, conserv, and technomad
+evansvil, in                    my voyag: http://www.countermoon.com
+icq  5119262
+------------------------------------------------------------------------
+angegangen, schlang-hüften, sein es ganz rüber jetzt. bügel innen fest,
+weil es ein lang, süsse fahrt ist. 
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

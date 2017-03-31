@@ -1,0 +1,50 @@
+re: kde issu under "squeez"rene engelhard wrote:
+
+> hi,
+> 
+> on sat, apr 24, 2010 at 10:49:44pm -0500, lrhorer wrote:
+>>         secondli, kpackag is badli broken.  it onli show a hand
+>>         of
+>> applic instal or avail.  synapt or aptitud show
+>> thousand avail and hundr instal, of cours.  what's more,
+>> i
+> 
+> then us aptitud.. ;)
+
+        i've us it, of cours.  kpackag is much easier.  it's rare i sai
+that about a gui util vs. a cli on, but in thi case it's true.
+
+>> no longer see how on can manag the sourc in the new kde4
+>> kpackag.
+> 
+> featur. just don't :-) (person opinion)
+
+        neither of those comment ar help.  without kpackag, kde isn't
+much us.
+
+>> in kde3, on could not onli easili manag the apt sourc from insid
+>> the app, but also rpm repositori.  now i don't see how to manag
+>> the apt sourc (i can manual edit /etc/apt/sourc.list, of
+>> cours) or how to manag rpm sourc, at all.
+> 
+> you must not instal rpm on a debian system if you need sanitii.
+> besid that instal rpm from a repo would not work becaus you
+> don't have the depend thei requir (becaus thei're either not
+> there, have "wrong" packag name, or simpli ar not record in the
+> rpm databas)
+
+        that's just nonsens.  mani packag simpli do not have debian sourc,
+and i have us kpackag to successfulli instal mani alien packag. 
+in some case, there mai be a reason .deb subsitut, but mani
+packag, most notabl hardwar drive, simpli have no substitut.  two
+of my raid control, for exampl, onli have rpm distro.  sure you
+ar not suggest a pc - debian or otherwis - can do without it hard
+drive?  thei instal fine under kde3.
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/r72dnsxskbrxwuhwnz2dnuvz_qmdnz2d@giganew.com
+
+

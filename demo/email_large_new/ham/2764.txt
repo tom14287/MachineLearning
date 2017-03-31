@@ -1,0 +1,28 @@
+re: network printer and cupsel 2010-05-12 a la 06:58 +1930, germana oliveira escribió:
+
+(forward to the list)
+
+> exactli, thank camaleon, and sorri not to answer quick... im go to try
+> some idea and talk to you!
+
+o.k, but better repli to list so anyon can help and benefit from your 
+find :-)
+
+> >
+> > those machin have their own samba implement, ldap, hard disk and
+> > so on... thei act as a central hub for manag all the job and task
+> > (scan, fax and print) so you can creat user and group and
+> > grate them differ permiss level base on their credenti.
+
+greet,
+
+-- 
+camalón 
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100511113642.ga6396@stt008.linux.site
+
+

@@ -1,0 +1,57 @@
+re: asignar hora a pcon wed, 28 apr 2010 10:03:15 -0400 (edt), camal=c3=b3n wrote:
+> on wed, 28 apr 2010 09:28:23 -0400, stephen powel wrote:
+>> that is inde strang.  i have never heard of an e-mail system that
+>> allow e-mail out but not in.  (except for spam setup, of cours!) =20
+>=20
+> look at hi e-mail address :-/
+>
+> thi won't be the first time i see problem with user come from some=20
+> restrict network.=20
+>>
+>> he must have *some* wai of receiv repli, such as view the=20
+>> mail list archiv via a browser.  otherwis, why would he ask a=20
+>> question to which he know that he cannot receiv repli? and if=20
+>> memori serv me correctli, thi user ha been repeatedli told that=20
+>> debian-user is for english onli.  i must therefor conclud that he is=
+=20
+>> either (a) stupid, (b) careless, or (c) obnoxi. and none of those=20
+>> altern speak well of him or motiv peopl to help him.
+>=20
+> there is still anoth option: "d) other" :-)
+>=20
+> mani cuban user ar not abl to brows the web (thei have internet but=
+=20
+> onli e-mail access, no web brows) so if that is the case, he cannot=20
+> review the mail list post us web archiv and if he is not=20
+> receiv e-mail come from extern user (non *.cu address), he is=
+=20
+> then stuck.
+>=20
+> but i'm just guess, true is that in the spanish mail list there ar=
+=20
+> some post come from him, but *not* repli.
+
+if what you sai is true, then he is wast hi time (and our) by post
+to *ani* list.  if he can
+onli receiv e-mail from fellow cuban, then even if there ar fellow
+cuban who could help him and ar subscrib to the list, thei will never
+receiv hi post, sinc the list server is outsid of cuba.  in fact,
+no-on in cuba could even subscrib to the list, sinc thei will never
+receiv the confirm e-mail.  and if thei don't have web access
+either, then post to *ani* list is an exercis in futil for cuban.
+list ar black hole to cuban.  everyth goe in, noth come out.
+appar he hasn't figur that out yet.
+
+--=20
+  .''`.     stephen powel   =20
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/950694474.55773.1272469647953.javamail.root@md01.wow.synacor.com
+
+

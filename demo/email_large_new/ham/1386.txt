@@ -1,0 +1,38 @@
+re: tini termin text after kernel updateon 2010-05-25 10:41 +0200, brian wrote:
+
+> on mon 24 mai 2010 at 17:11:37 +0200, sven joachim wrote:
+>
+>> you can blacklist the modul or us nouveau.modeset=0 kernel paramet,
+>> leav you with the nv (or nvidia) driver for x.
+>
+> chang the consol resolut is easili done with the nouveau driver
+> by us 'video=vga-1:1024x768' as a kernel option. the output (vga-1
+> in my case) can be omit.
+
+interest, i did not know that.
+
+> thi is also us to emploi if the driver and card do not plai well
+> togeth and the nativ resolut of the screen is not detect. with
+> on card i forc 'video=vga-1:1280x1024', otherwis i get 1024x768.
+
+if the nativ resolut is not detect, it is a problem of the monitor
+which should have report it prefer resolut via edid.
+
+>>                                                    anoth possibl
+>> is to us a bigger font.  instal the consol-setup and kbd packag and
+>> us "dpkg-reconfigur consol-setup" to choos your prefer font.
+>
+> i don't know which bigger consol font you have in mind but if it is
+> on of the terminu famili screen corrupt will most like happen.
+
+i never had ani problem with the terminu font, ymmv.
+
+sven
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87632c3xc8.fsf@turtl.gmx.de
+
+

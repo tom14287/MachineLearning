@@ -1,0 +1,58 @@
+ack, apt-get still fail for me, stump. [rh8]
+i post about thi last week, and i'm still stump.  apt-get is just
+not work for me, and i can't figur out what the problem is.
+
+i've tri remov the apt rpm, make sure to remov ani trace left
+behind (/etc/apt /var/state/apt /var/cach/apt), and still, i get
+"couldn't find packag xmm-mp3" when run "apt-get instal xmm-mp3".
+
+ani clue?  here's a log of a fresh try:
+
+root@canarsi:/tmp # rpm -e apt apt-devel
+root@canarsi:/tmp # rm -rf /etc/apt /var/cach/apt /var/state/apt
+root@canarsi:/tmp # rpm -ivh apt-0.5.4cnc7-fr1.i386.rpm apt-devel-0.5.4cnc7-fr1.i386.rpm
+warn: apt-0.5.4cnc7-fr1.i386.rpm: v3 dsa signatur: nokei, kei id
+e42d547b
+prepar...                ########################################### [100%]
+   1:apt                    ########################################### [ 50%]
+   2:apt-devel              ########################################### [100%]
+root@canarsi:/tmp # apt-get updat
+ign http://apt.freshrpm.net redhat/8.0/en/i386 releas
+get:1 http://apt.freshrpm.net redhat/8.0/en/i386/os pkglist [1276kb]
+get:2 http://apt.freshrpm.net redhat/8.0/en/i386/os releas [108b]
+get:3 http://apt.freshrpm.net redhat/8.0/en/i386/updat pkglist [14b]
+get:4 http://apt.freshrpm.net redhat/8.0/en/i386/updat releas [113b]
+get:5 http://apt.freshrpm.net redhat/8.0/en/i386/freshrpm pkglist
+[57.1kb]
+get:6 http://apt.freshrpm.net redhat/8.0/en/i386/freshrpm releas
+[125b]
+get:7 http://apt.freshrpm.net redhat/8.0/en/i386/os srclist [152kb]
+get:8 http://apt.freshrpm.net redhat/8.0/en/i386/updat srclist [14b]
+get:9 http://apt.freshrpm.net redhat/8.0/en/i386/freshrpm srclist
+[14.4kb]
+fetch 1500kb in 11s (125kb/s)
+read packag list... done
+root@canarsi:/tmp # apt-get instal xmm-mp3
+read packag list... done
+build depend tree... done
+e: couldn't find packag xmm-mp3
+root@canarsi:/tmp # apt-cach search xmm
+root@canarsi:/tmp #
+
+
+beat me..
+
+-stevek
+
+
+
+-- 
+  steve kann - chief engin - 520 8th av #2300 ny 10018 -  (212) 533-1775
+                horizonl.com - collabor . interact . learn
+   "the box said 'requir window 95, nt, or better,' so i instal linux."
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

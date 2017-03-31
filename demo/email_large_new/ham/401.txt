@@ -1,0 +1,39 @@
+re: kernel (de)bug inform sent, even if there is no connectionon sat, 24 apr 2010 22:52:11 +0200, merciadri luca wrote:
+
+> camalón write:
+
+(...)
+
+>> i dunno what method us kerneloop to send the data (e-mail?). if
+>> send the info by e-mail, you could check exim's queue by be root
+>> and issu "mailq" command.
+>
+> actual, mailq seem to give noth.
+
+i dig a bit about how the kerneloop daemon work and i guess it doe 
+not us e-mail but some kind of mix between dbu system to gather 
+inform about the crash and then it send the report to the url 
+defin in "kerneloop.conf" file:
+
+http://submit.kerneloop.org/submitoop.php
+
+if you directli load that page, it sai:
+
+***
+200 thank you for submit the kernel oop inform remoteip: [...]
+***
+
+although noth wa send :-p
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.25.10.26.12@csmine.org
+
+

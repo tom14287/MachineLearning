@@ -1,0 +1,26 @@
+re: is there a workaround for bug #578937(let's keep thi on-list!!!)
+
+on 05/17/2010 05:05 pm, alan chandler wrote:
+> on 17/05/10 21:11, ron johnson wrote:
+>
+>> we us courier-imap and have courier-base 0.64.2-1 instal but don't
+>> seem to have that problem. what's a reproduc?
+>>
+>
+> i am not sure what you mean by thi - but i am us thunderbird on
+> linux and have us outlook on window 7, and my wife us thunderbird
+> on window xp, and thei all throw up thi error.
+>
+
+step by step, how do i reproduc thi error?
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf1d705.8090503@cox.net
+
+

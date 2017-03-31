@@ -1,0 +1,46 @@
+secur updat for debian test - 2010-04-29thi automat mail give an overview over secur issu that were recent 
+fix in debian test. the major of fix packag migrat to test 
+from unstabl. if thi would take too long, fix packag ar upload to the 
+test-secur repositori instead. it can also happen that vulner 
+packag ar remov from debian test.
+
+migrat from unstabl:
+=======================
+alien-arena 7.33-6 (contrib):
+ : alien-arena: server do
+               http://bug.debian.org/575621
+
+
+
+how to updat:
+--------------
+make sure the line
+
+	deb http://secur.debian.org squeez/updat main contrib non-free
+
+is present in your /etc/apt/sourc.list. of cours, you also need the line
+point to your normal squeez mirror. you can us
+
+	aptitud updat && aptitud dist-upgrad
+
+to instal the updat.
+
+
+more inform:
+-----------------
+more inform about which secur issu affect debian can be found in the 
+secur tracker:
+
+	http://secur-tracker.debian.org/tracker/
+
+a list of all known unfix secur issu is at
+
+	http://secur-tracker.debian.org/tracker/statu/releas/test
+
+
+-- 
+to unsubscrib, email to debian-test-secur-announc-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/e1o7hl-0005nh-55@soler.debian.org
+
+

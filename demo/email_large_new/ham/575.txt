@@ -1,0 +1,28 @@
+re: usb devic attach via rs232 adaptoron 4/18/2010 3:27 pm, brad roger wrote:
+> on sun, 18 apr 2010 15:15:53 -0500
+> ron johnson  wrote:
+>
+> hello ron,
+>
+>> plz show us a link to a usb adapt that plug into a pc's serial port.
+>
+> i've never even look for on.  i'm just go what by dotan wrote.  by
+> the sound of it, he's not seen the set up yet, anyhow.  it could well
+> be that hi neighbour ha got a usb-rs232 adapt plug in the wrong
+> wai round.  of cours, at thi point, i'm just guess.
+>
+
+that ought actual to work, if a comput were plug into the usb 
+side.  then you would have a veri slow transfer cabl.
+
+maa
+
+(useless, i know.  not help.)
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bccd2f1.10202@allum.com
+
+

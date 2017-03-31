@@ -1,0 +1,25 @@
+re: acceler directori's content's view: how, is directori
+ is huge?on tue, 18 mai 2010 20:16:27 +0200, merciadri luca wrote:
+
+> i have mani media file in some specif directori (folder, call it as
+> you want). load the folder take ~30 sec., even if i am us quit
+> fast hdd, etc. thei're all on the same partit. i have disabl
+> preview, or thumbnail.
+> 
+> how can i do to make thi process faster?
+
+did you also turn off "count number of item" and "show text in icon" in 
+nautilu "preview" prefer?
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.18.20.20.40@csmine.org
+
+

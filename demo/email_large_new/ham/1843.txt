@@ -1,0 +1,39 @@
+re: filesystem recommendationson 04/24/2010 05:31 pm, b. alexand wrote:
+> on sat, apr 24, 2010 at 3:11 pm, ron johnson  wrote:
+[snip]
+>>
+>> xf is the canon fs for when you have lot of big file.  i've also
+>> seen simpl benchmark on thi list show that it's faster than ext3/ext4.
+>>
+>
+> that cool. what about lot of littl file? that wa anoth of the draw
+> of reiser3. i have a space i mount on /media/archiv, which ha everyth
+> from mp3/ogg and movi, to book to a bunch of tini file. thi will
+> probabl be the first victim for the xf test partit.
+
+that same unoffici benchmark show surpris small-file speed by 
+xf.
+
+>> xf and ext[34] can all be extend.  for product server with a work
+>> up, i'd go with ext3 for /&  /boot and xf (sinc it hate sudden power
+>> outag) for the "/data" directori.  for product workstat, i'd
+>> stick with the standbi ext3 for /&  /boot and ext3 or xf for /home and
+>> "/data" (depend on the workload).
+>>
+>
+> defin "hate sudden power outag"...is it recover?
+>
+
+thei got pretti corrupt.  mayb it's been robustifi in the 
+interven year.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd37551.3070109@cox.net
+
+

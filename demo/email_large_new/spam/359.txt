@@ -1,0 +1,163 @@
+[spam]  catch you =)
+
+
+bodi, p, td, td p, td ul, td blockquot, blockquot {
+    color: black;
+    font-famili: verdana, "trebuchet ms" , san-serif;
+    font-size: 10pt
+}
+a:link { color: #003366 }
+a:visit { color: #003366 }
+a:activ { color: #0000ff }
+
+bodybold {  font-weight: bold} /* thi is for make bodi text bold */
+bodybold10px {  font-weight: bold; font-size: 10px} /* thi is for make bodi text bold at 10px */
+bodybold11px {  font-weight: bold; font-size: 11px} /* thi is for make bodi text bold at 11px */
+bodybold12px {  font-weight: bold; font-size: 12px} /* thi is for make bodi text bold at 12px */
+bodybold13px {  font-weight: bold; font-size: 13px}
+bodybold14px {  font-weight: bold; font-size: 14px}
+bodybold15px {  font-weight: bold; font-size: 15px}
+bodi8px {  font-size: 8px} /* thi is for make bodi text smaller */
+bodi9px {  font-size: 9px} /* thi is for make bodi text smaller */
+bodi10px {  font-size: 10px} /* thi is for make bodi text smaller */
+bodi11px {  font-size: 11px} /* thi is for make bodi text smaller */
+bodi12px {  font-size: 12px} /* thi is for make bodi text smaller */
+bodi14px {  font-size: 14px} /* thi is for make bodi text smaller */
+bodi16px {  font-size: 16px} /* thi is for make bodi text smaller */
+bodi18px {  font-size: 18px} /* thi is for make bodi text smaller */
+bodyunderlin {  text-decor: underlin}
+bodyital {  font-style: ital}
+none {list-style-type: none}
+titleital {  font-weight: bold; font-style: ital}
+titlebold {  font-weight: bold} /* thi is for make titl text bold */
+titlebold10px {  font-weight: bold; font-size: 10px}
+titlebold11px {  font-weight: bold; font-size: 11px}
+titlebold12px {  font-weight: bold; font-size: 12px}
+titlebold13px {  font-weight: bold; font-size: 13px}
+titlebold14px {  font-weight: bold; font-size: 14px}
+titlebold15px {  font-weight: bold; font-size: 15px}
+titlebold16px {  font-weight: bold; font-size: 16px}
+titlebold17px {  font-weight: bold; font-size: 17px}
+titlebold18px {  font-weight: bold; font-size: 18px}
+titlebold19px {  font-weight: bold; font-size: 19px}
+titlebold20px {  font-weight: bold; font-size: 20px}
+titlebold21px {  font-weight: bold; font-size: 21px}
+titlebold22px {  font-weight: bold; font-size: 22px}
+titlebold23px {  font-weight: bold; font-size: 23px}
+titlebold24px {  font-weight: bold; font-size: 24px}
+titlebold25px {  font-weight: bold; font-size: 25px}
+titlebold26px {  font-weight: bold; font-size: 26px}
+titlebold27px {  font-weight: bold; font-size: 27px}
+titlebold28px {  font-weight: bold; font-size: 28px}
+titlebold29px {  font-weight: bold; font-size: 29px}
+titlebold30px {  font-weight: bold; font-size: 30px}
+flashtitl { font-famili: georgia, "time new roman", time, serif; font-size: 18px} /* us for advocaci campaign titl */
+monospac { font-famili: courier, monospac;}/* monospac font for input form */
+roll   { text-decor: none; font-weight: normal; color: black }/* roll link */
+a.roll:hover { text-decor: none; font-weight: normal; color: d10000 }
+
+daili digest - 09.02.2009
+
+a:link { color: #0000ff; text-decor: none }
+a:visit { color: #0000ff; text-decor: none}
+a:activ { color: #0000ff; text-decor: none}
+a:hover {text-decor: underlin}
+
+td.sojomail_small {font-famili: verdana, arial, helvetica, san-serif; font-size: 9px; color: #666666}
+p.sojomail_small {font-famili: verdana, arial, helvetica, san-serif; font-size: 9px; color: #666666}
+td.sojomail_header {font-famili: arial, helvetica, san-serif; font-size: 14px; color: #ff9933; font-weight: bold}
+div.sojomail_header {font-famili: arial, helvetica, san-serif; font-size: 14px; color: #ff9933; font-weight: bold}
+div.sojomail_titl {font-famili: verdana, arial, helvetica, san-serif; font-size: 14px; color: #000000; font-weight: bold}
+div.grai {font-famili: verdana, arial, helvetica, san-serif; font-size: 12px; color: #666666; font-weight: normal}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+top stori -
+ sep. 4, 2009 
+like to protect your love-gun from failur? easi as 1-2-3!
+on p-ilul from our store is a full protect of such kind, plu you get more
+pleasur and give more pleasur also.you will never have your face turn
+red of shame. it's your ticket to success!
+
+
+continu read todai's top stori by 
+click here
+
+
+
+
+
+
+
+
+contact
+us: gener inquiri: click here |
+advertis: click here
+privaci
+notic: we won't trade, sell, or give awai your
+e-mail address. read our privaci
+polici.
+subscrib
+| about
+us | tell-a-friend
+
+
+
+
+
+
+
+
+
+
+
+
+
+   visit the link below to tell your friend about thi e-mail.
+
+tell-a-friend!
+
+
+
+
+
+
+
+
+    if you receiv thi messag from a friend, you can
+    sign up for
+	daili top stori.
+  
+
+
+
+
+
+
+
+to stop receiv daili new summari, click to unsubscrib.to stop all email from
+	our compani, click to remov yourself from our list (or repli via email with "remov" in the subject line).
+to chang your email address or chang other subscript set, click to updat your email set.
+
+
+
+
+
+

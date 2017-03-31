@@ -1,0 +1,35 @@
+re: [ot] ubuntu vs debian forum (wa recompil the kernel with a 
+	differ version name)>> no, these ar normal everydai peopl who don't know what window or
+>> what linux is. thei have a problem, thei call me. no bitch, no
+>> blame.
+>>
+>>
+> in that case there is no realli meter what thei have. onli you will do hi=
+m a
+> big favor if you put debian becaus in that case thei will be much =c2=a0=
+safer
+> from viru's and it's much easier to open synapt, hit refresh button,
+> upgrad and appli then manual download all app. and next, next, next,
+> reboot.
+> from my experi it is realli much easier to have debian then window.
+> thei will call you less :-)
+>
+
+that is exactli what i do! howev, i us a debian deriv as it
+ha slightli better hardwar support out of the box and more
+up-to-date packag than straight debian. that is exactli what thi
+thread is about.
+
+--=20
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/p2g880dece01004110349x335b1dcdx88bdf3472c07fb1c@mail.csmine.org
+
+

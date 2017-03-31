@@ -1,0 +1,65 @@
+re: gforc 9400on sat, 10 apr 2010 09:53:20 +0200, steef wrote:
+
+> camalón wrote:
+
+(...)
+
+>>   so i would
+>> test with the nvidia debian driver. if thei do not work, you can
+>> alwai come back and activ the intel on.
+>>
+>>
+> that is what i did when the nvidia driver from *their site* work out
+> disastr
+
+i fear newer driver. 
+
+the first time i instal nvidia proprietari driver wa 3/4 year ago. 
+in that time i wa run opensus 10.1 and hopefulli, nvidia provid 
+rpm driver in their site so instal went straightforward (veri easi 
+and work fine: i need 3d for run googl earth and twinview setup 
+for the two displai i had attach).
+
+that time (and that time wa 4 year ago) i instal the same driver i 
+have nowadai (173.xx). why i have not updat to the latest on 
+(195.x)? becaus "if it work, don't touch it" and i don't need to do 
+fanci thing in that comput and the old version wa (and is still) 
+work without glitch.
+ 
+>>> i'll look into that wiki (again),
+>>>
+>>>
+> it is almost like the old dai of potato and woodi. had to fresh up my
+> old brain again.   so i instal nvidia-glx and the other requir
+> packag. that 's nowadai much easier than in the wiki thank to apt if
+> you start with 
+
+ye, i have also encount the "debian-wai" plain easi. i thought 
+instal nvidia driver wa go to be a headach but truli wa not :-)
+
+> after that i put the appropri section in my /etx/x11/xorg.conf.
+> nvidia instead of in tel and i made a modul section with load "glx" in
+> it.
+> 
+> i restart the x-server and now *everyth is work like a charm*
+> 
+> he camalón, i realli ow you, man! you realli help me out.
+> 
+> mani regard,
+
+glad you got it work! :-d
+
+you're welcom.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.11.09.40.42@csmine.org
+
+

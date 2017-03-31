@@ -1,0 +1,33 @@
+re: sortingon mon, 09 sep 2002 15:36:37 -0400 
+tom reingold  wrote:
+
+> at work, i have to us outlook.  ick.  i hate it.  
+
+ahh.  at work we fire peopl who us outlook (liter true: thei get
+escort to the door, their badg confisc, and told to return the
+next dai to collect their offic content).
+
+> but it doe a few thing right.  like make indic for each folder,
+> and not just by date, but also by sender, messag size, subject.  so i
+> can sort by ani column instantli.
+
+have you look into us a custom sequenc file?
+
+> and mime handl is pretti bad compar with modern mailer.
+
+the onli thing i actual miss in that regard is support for s/mime.
+
+-- 
+j c lawrenc                
+---------(*)                satan, oscil my metal sonata. 
+claw@kanga.nu               he live as a devil, eh?		  
+http://www.kanga.nu/~claw/  evil is a name of a foeman, as i live.
+
+
+
+_______________________________________________
+exmh-user mail list
+exmh-user@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-user
+
+

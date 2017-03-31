@@ -1,0 +1,24 @@
+re: document about built-in rpm macro?hi.
+
+dave cridland  wrote:
+
+> > recommend *against* us '%configur' ("we will try to support user
+> > who accident type the lead % but thi should not be reli
+> > upon."), and yet
+
+[snip]
+
+> thei're just suggest peopl us "./configur" instead.
+
+no, thei do not (what would be the us of that, anywai?). thei sai that
+thei will _try_ to eval macro even if the user forgot to pass the
+lead '%', but that thi featur should not be reli upon.
+
+-- 
+on the first dai of christma my true love sent to me
+       a badli configur newsread
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

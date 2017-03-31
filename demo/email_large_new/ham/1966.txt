@@ -1,0 +1,28 @@
+re: asynchron load fail with i386 build in a cmd line tool> 
+>> if i try to creat my qtmovi object on a secondari thread, i get the
+>> follow except :
+>> *2010-04-21 20:09:05.949 qtasyncloadcmdlin[5123:3303] an uncaught
+>> except wa rais*
+>> *2010-04-21 20:09:05.950 qtasyncloadcmdlin[5123:3303] qtmovi_quicktim
+>> class must be initi on the main thread.*
+>> *
+>> *
+>> so it's seem's to be imposs to make asynchron load on a
+>> secondari thread.
+> 
+> 
+> i would read that except as sai that the qtmovi class cannot be initi on a secondari thread, not that a qtmovi object cannot be initi on a secondari thread.  try call [qtmovi class] on the main thread befor creat a qtmovi instanc on a thread.
+
+no wai, the except is not anymor rais but the movi doesn't load to full complet.
+
+i think i must try with quicktim c api.
+
+christoph
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,65 @@
+re: kde 3.5 ...-----begin pgp sign messag-----
+hash: sha1
+
+on thursdai 06 mai 2010 it wa so written:
+> so, let me ask the abov question again: where is your code ?
+
+i wa think about get all obsequi and fawn at the high 
+priest of develop, to verbal bow in thank for the scrap of 
+code that we mere user ar abl to pick up off the ground after the 
+priest have pass, but then i realiz that there ar lot of 
+peopl for whom english isn't a first languag, and sarcasm doesn't 
+work in email veri well anywai.
+
+what's left for a user to do? as nate put it a moment ago, just move 
+on.
+
+> ar _you_ interest in do it ?
+
+backport kde4 applic to a kde3 work environ is beyond 
+my skill. i can't even get squeez kdm to us a differ background 
+as it is.
+
+> at that game, there ar two type of player: those who rant and
+> contribut to fix the root of their rant (aka code) and those who
+> rant and do noth.
+
+go back to obsequi pander is look veri tempt. ye, us 
+mere user have noth to contribut, sinc we don't write code.
+
+> we ar all volunt and among those volunt, nobodi is
+> interest in maintain kde 3.5 within debian. i don't see thi
+> as a problem; it just a fact.
+
+inde. and i assur you, that fact is not lost on anyon.
+
+> rant wont chang the fact.
+
+let them eat cake.
+
+> odyx
+
+curt-
+
+- - -- 
+those who torment us for our own good will torment us without end,
+for thei do so with the approv of their conscienc.
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+
+iqevawub+llac9y35yitigbaqklvwf/tprme9p/nghvduvj14lao0+ejea7vdro
+adksguihkxyx1pzcw4qisxkc3vl1zwz8zzcxxn6o2z/c/5582tif4a/tpaeispfg
+lgc2rsnrlzigoqo4t9iwwp8ccwbnpmp1gzaq/prh6aafdvk+bj7kdp7wg/jjk7xe
+iilxzb0s+goylacvj6f28nv9sqjmslfcql4g6f3mkkaekwerwi5y36ncunjvdew
+5/90k1zwwav7hmr7iawmix61pg6voru7kewlw+0oesebdpf28whcphqazhhr4ep+
+wcp88a/uya9s+wc/khguz8v12bfgm/zl4k8wctrxholx6rbjhgyea==
+=svyh
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005060958.24930.howland@priss.com
+
+

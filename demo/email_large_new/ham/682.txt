@@ -1,0 +1,46 @@
+alsa-driver rebuild fail with undeclar usb symboli am try to rebuild the recent post alsa driver packag for my 
+kernel.  although i run red hat 7.3, i am not us a red hat kernel 
+packag: my kernel is lovingli download, configur, and built by 
+hand.  call me old fashion.
+
+sadli, the rpm rebuild fail part wai through:
+
+     % rpm --rebuild alsa-driver-0.9.0rc3-fr6.src.rpm
+
+     gcc -dalsa_build -d__kernel__ -dmodul=1 \
+     -i/usr/src/redhat/build/alsa-driver-0.9.0rc3/includ \
+     -i/lib/modul/2.4.18/build/includ -o2 \
+     -mprefer-stack-boundari=2 -march=i686 -dlinux -wall \
+     -wstrict-prototyp -fomit-frame-pointer -pipe   -dexport_symtab \
+     -c sound.c
+
+     sound.c:41: `snd_hack_usb_set_interfac' undeclar here (not in a \
+     function)
+
+     sound.c:41: initi element is not constant
+
+     sound.c:41: (near initi for \
+     __ksymtab_snd_hack_usb_set_interfac.valu')
+
+     make[1]: *** [sound.o] error 1
+
+the line in question look like thi:
+
+	/* usb workaround */
+	#if linux_version_code < kernel_version(2, 5, 24)
+	#if defin(config_snd_usb_audio) || \
+	defin(config_snd_usb_audio_modul) || \
+	defin(config_snd_usb_midi) || \
+	defin(config_snd_usb_midi_modul)
+-41-> 
+export_symbol(snd_hack_usb_set_interfac);
+	#endif
+	#endif
+
+ani suggest?
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

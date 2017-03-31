@@ -1,0 +1,30 @@
+[razor-user] re: can't us and undefin valu.." error> date: mon, 30 sep 2002 14:00:12 -0400 (edt)
+> from: dayv gastonguai 
+>
+> i just instal razor 2.152 on a freebsd 4.4-releas box and have
+> problem with razor-check.  ani time razor-check is run, (with or without
+> argument), i get thi error:
+>
+> can't us an undefin valu as a symbol refer at
+> /usr/local/lib/perl5/site_perl/5.005/i386-freebsd/razor2/client/agent.pm
+> line 756.
+>
+ try instal the latest perl (at least 5.6.1) port on freebsd and make
+sure you set the system to us perl from port (i.e. in the
+port/lang/perl5/file directori run ./us.perl port. reinstal the relev
+perl modul need by razor and try again.
+
+sven
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

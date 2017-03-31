@@ -1,0 +1,29 @@
+re: kde 4.4.3 upgrad eat 141 mb of /homefrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+on wednesdai 12 mai 2010 11:47:08 modesta vainiu wrote:
+> on tre=c4=8diadieni 12 gegu=c5=be=c4=97 2010 18:48:04 boyd stephen smith=
+ jr. wrote:
+> > virtuoso, akonadi, and strigi (among
+> > other) mai be appropri for a upgrad befor either the freez or the
+> > kde sc 4.5.0 releas.  the kde-integr part might be miss, but =
+as
+> > long as new version don't crippl kde (afaik, their onli "consum" in
+> > debian) new upstream version and bug fix can be accept until the
+> > freez.
+>=20
+> except that kdesupport applic ar typic not the problem. it is
+>  kde integr where major of bug ar.
+
+i propos we drop kde from stabl for the squeez releas, then. ;p
+
+serious though, if the rc-bug list keep fall, there's no time to wait=
+ on=20
+kde sc 4.5.  let's try and get a high-qualiti kde sc 4.4 readi for squeez.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

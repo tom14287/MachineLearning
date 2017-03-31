@@ -1,0 +1,26 @@
+re: f-rpm] python 2.2 site lib?on fri, 4 oct 2002, mark derricutt wrote:
+
+> anyon know why red hat insist on stick with python 1.5.2?
+
+ehhh?  ianahnbarh -- rhl 8.0 is fulli python-2, with a back
+compat v 1 shim set.  thi ha been work and freeli
+avail in their raw hide for 5 month for earli adopt
+and back-porter.
+
+red hat maintain binari compat across major releas.  
+it server manag tool ar heavili python, and becom 
+more so.
+
+to have ad mid-stream the python-2 seri in the rhl 7.x
+seri would have been quit disrupt to an exist 
+instal base.
+
+-- russ herrold
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

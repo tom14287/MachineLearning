@@ -1,0 +1,100 @@
+re: how to control tty to extern monitor or local lcdfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=iso-8859-1
+
+on wed, apr 7, 2010 at 11:55 am, stephen powel wrote:
+
+> on tue, 6 apr 2010 18:53:46 -0400 (edt), alex samad wrote:
+> >
+> > okai a coupl of thing, i thing we ar talk similiar and dissimiliar
+> > thing.
+> >
+> >
+> > turn on laptop - not connect to ext monitor
+> > load debian
+> > start gdm
+> > login
+> > connect to extern monitor
+> > us xrandr to move screen to ext monitor
+> > close lid on laptop
+> > us alt+ctrl+f1 to get to tty1
+> >
+> > the ext monitor stai on the x screen and the laptop monitor goe to
+> > the tty - but the lid is close, i want to move the tty to the ext
+> > monitor
+> >
+> > hope that clear it up...
+>
+> how can you us ctrl+alt+f1 to switch to virtual termin number 1 if the
+> lid is close?  ar you us an extern keyboard as well as an extern
+> monitor?  you never mention that.
+>
+
+yep extern keyboard - doe that make a differ !
+
+
+>
+> i have an ibm thinkpad 600.  here's what i do:
+>
+> (1) while the laptop is power off, i connect the extern monitor.
+> i do not connect an extern keyboard.
+>
+> (2) i power on the extern monitor, then i power on the laptop.
+>
+> (3) as soon as possibl dure the boot process, usual after "lilo"
+> ha been written to the screen but befor the timeout occur to
+> boot the default kernel (which for me is a four-second window),
+> i us fn+f7 on the intern keyboard to switch to the extern monitor.
+>
+
+i don;t need to do that, my laptop autoam pick the extern monitor
+if the lid is close - on boot up
+
+
+>
+> (4) by the time the kernel boot, the displai is on the extern
+> monitor for the text-mode portion of the boot.
+>
+> (5) when gdm start, the graphic consol also displai on the
+> extern monitor.
+>
+> (6) when i us ctrl+alt+f1 on the *intern* keyboard, without
+> close the lid, the displai switch to virtual termin 1 on
+> the extern monitor.
+>
+> (7) when i us alt+f7 to switch back to the graphic consol,
+> the displai stai on the extern monitor.
+>
+
+yep thi doesn't work on mine, plu i want to do it from softwar. i would
+like a xrandr for the consol if such a thing exist
+
+
+>
+> i don't have your hardwar, but i would assum that some function
+> is provid on your laptop to do what fn+f7 doe on mine.
+>
+> when i do thing thi wai, the x server pick a decent vertic
+> refresh rate (about 75 hz) for my crt-base extern monitor.
+> i leav the lid open and us the intern keyboard for everyth.
+> the intern displai is black from the moment i press fn+f7 the
+> on and onli time.  i leav the lid open and i us the intern
+> keyboard for everyth.  everyth, text mode virtual termin
+> and the graphic x server, stai on the extern monitor.
+>
+> hth
+>
+> --
+>  .''`.     stephen powel    
+>  : :'  :
+>  `. `'`
+>   `-
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact
+> listmast@list.debian.org
+> archiv:
+> http://list.debian.org/875011336.1550981270605358122.javamail.root@md01.wow.synacor.com
+>
+>

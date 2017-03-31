@@ -1,0 +1,16 @@
+apt-get problem ?when i try to us apt-get upgrad
+it want to instal libusb while i got it
+(same version)
+and all collaps becaus of thi.
+
+roi
+
+
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

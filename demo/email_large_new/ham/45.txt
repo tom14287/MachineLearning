@@ -1,0 +1,31 @@
+xine cannot plai dvd - "liba52: a52_block error"sinc libdvdcss-1.2.0, i have been unabl to plai dvd us ogl, xine,
+vlc, or mplayer.  thei all show a scrambl pictur with (veri) choppi
+audio.  when i run xine i see ton of these in the consol: 
+
+liba52: a52_block error
+liba52: a52_block error
+liba52: a52_block error
+liba52: a52_block error
+audio_out: insert 5859 0-frame to fill a gap of 10989 pt
+metronom: audio jump
+liba52: a52_block error
+
+ha anyon seen thi befor and know how to fix it?  or should i file a
+bug report?  
+
+thank for your help.  
+
+- jon
+
+-- 
+jon@tgpsolut.com
+
+administr, tgpsolut
+http://www.tgpsolut.com
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,176 @@
+isilo announc (august 15, 2002)----------------------------------------------------------------------
+1. isilo(tm) 3.2 for palm os and pocket pc enter beta1
+2. isilo(tm) 3.2 for window enter beta1
+3. isilox 3.2 for window and mac os enter beta1
+4. isiloxc 3.2 for window, linux, freebsd, mac os x,
+   and solari enter beta1
+----------------------------------------------------------------------
+
+======================================================================
+1. isilo(tm) 3.2 for palm os and pocket pc enter beta1
+----------------------------------------------------------------------
+isilo(tm) 3.2b1 add the follow new featur to isilo 3.15:
+
+- a system inform dialog, access from either the document
+  list view or while view a document through the tool menu.
+  the dialog displai the user name (e.g., owner name) and the
+  associ user id of the devic.  for palm os, the dialog also
+  displai the free and total amount of dynam and storag memori.
+- support for isilox/isiloxc gener password protect document.
+  the password protect is embed into the document dure
+  convers and can not be modifi nor remov from the convert
+  document.
+- support for isilox/isiloxc gener registr code protect
+  document. the registr code protect is embed into the
+  document dure convers.
+- support for isilox/isiloxc gener document that includ an
+  expir date. the expir date is embed into the document
+  dure convers.
+- support for displai titl, author, and publish inform
+  messag through the document inform dialog access through
+  the edit menu while view a document.
+
+pleas note that thi is a beta version of the softwar, and as
+such is intend for test purpos to help elimin problem
+and issu befor the releas.
+
+pleas report ani problem or issu you encount by send an
+email to email@isilo.com.  when report problem, pleas includ
+all potenti relev detail, includ the exact step us
+to reproduc the problem, os version, and hardwar configur.
+
+to download isilo(tm) 3.2b1 for palm os(r), pleas go to thi url:
+
+    
+
+to download isilo 3.2b1 for pocket pc, pleas go to thi url:
+
+    
+
+
+======================================================================
+2. isilo(tm) 3.2 for window enter beta1
+----------------------------------------------------------------------
+isilo(tm) 3.2 will be the first version of isilo for window
+and ha the requir shown here.
+
+basic requir:
+- pentium or compar processor
+- window 95 with internet explor 4.0.1 or later, window 98,
+  window millennium, window nt 4.0 with servic pack 6,
+  window 2000, or window xp
+- 16mb of ram for windowsr 95 and window 98 (32mb recommend),
+  32mb of ram for window millennium and window nt 4.0,
+  64mb of ram for window 2000 and window xp
+- 5mb of avail hard-disk space for instal
+
+addit function specif requir:
+- addit memori requir for document storag.
+- isilox requir for creat document util maximum document
+  present capabl.
+
+pleas note that thi is a beta version of the softwar, and as
+such is intend for test purpos to help elimin problem
+and issu befor the releas.
+
+pleas report ani problem or issu you encount by send an
+email to email@isilo.com.  when report problem, pleas includ
+all potenti relev detail, includ the exact step us
+to reproduc the problem, os version, and hardwar configur.
+
+to download isilo 3.2b1 for window, pleas go to thi url:
+
+    
+
+
+======================================================================
+3. isilox 3.2 for window and mac os enter beta1
+----------------------------------------------------------------------
+isilox 3.2b1 add the follow featur to isilox 3.15:
+
+- in the secur properti, ad support for protect a document
+  with ani or all of a password, registrationn code, and expir
+  date.
+- ad a messag properti page for specifi titl, author,
+  publish, password, registr code, and expir date
+  messag for the document.
+- ad cooki support and a cooki properti page for manag
+  cooki.
+
+pleas note that thi is a beta version of the softwar, and as
+such is intend for test purpos to help elimin problem
+and issu befor the releas.
+
+pleas report ani problem or issu you encount by send an
+email to email@isilo.com.  when report problem, pleas includ
+all potenti relev detail, includ the exact step us
+to reproduc the problem, os version, and hardwar configur.
+
+to download isilox 3.2b1 for window, pleas go to thi url:
+
+    
+
+to download isilox 3.2b1 for mac os, pleas go to thi url:
+
+    
+
+
+======================================================================
+4. isiloxc 3.2 for window, linux, freebsd, mac os x,
+   and solari enter beta1
+----------------------------------------------------------------------
+isilox 3.2b1 add the follow featur to isilox 3.15:
+
+- ad , , and  contain
+  element under the  element for protect a
+  document with ani or all of a password, registr code, and
+  expir date. see .ixl file format for more inform.
+- ad  element for specifi titl, author, publish,
+  password, registr code, and expir date messag for the
+  document. see .ixl file format for more inform.
+- ad cooki support and the  element for manag
+  cooki. see .ixl file format for more inform.
+
+pleas note that thi is a beta version of the softwar, and as
+such is intend for test purpos to help elimin problem
+and issu befor the releas.
+
+pleas report ani problem or issu you encount by send an
+email to email@isilo.com.  when report problem, pleas includ
+all potenti relev detail, includ the exact step us
+to reproduc the problem, os version, and hardwar configur.
+
+to download isiloxc 3.2b1 for window, pleas go to thi url:
+
+    
+
+to download isiloxc 3.2b1 for linux, pleas go to thi url:
+
+    
+
+to download isiloxc 3.2b1 for freebsd, pleas go to thi url:
+
+    
+
+to download isiloxc 3.2b1 for mac os x, pleas go to thi url:
+
+    
+
+to download isiloxc 3.2b1 for solari, pleas go to thi url:
+
+    
+
+
+----------------------------------------------------------------------
+you have receiv thi messag becaus you subscrib to the
+isilo(tm) mail list.  if you would like to be remov from
+thi list, pleas send an email with the subject "unsubscrib"
+to: .
+
+pleas note that thi email address onli handl subscript
+and unsubscript of the mail list.  ani other messag
+sent to thi email address ar automat delet.
+
+----------------------------------------------------------------------
+isilo(tm)             http://www.isilo.com             email@isilo.com
+

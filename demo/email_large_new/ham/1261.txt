@@ -1,0 +1,28 @@
+re: no altern for firefox/mozillat o n g wrote:
+> hi,
+> 
+> have upgrad iceweasel, i am no longer abl to call firefox or mozilla 
+> from command line ani more. i don't mind firefox is call iceweasel or 
+> whatev in debian, but entir stop me from start firefox is 
+> someth i don't feel comfort.
+> 
+> pleas comment. 
+
+
+i fail to see the problem, firefox is now '/user/bin/iceweasel'
+
+'updat-altern --config x-www-browser' and enter your choic.
+-- 
+jimmi johnson
+
+bakersfield, ca. u.s.a.
+regist linux user #380263
+k.i.s.s. (keep it simpl stupid)
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be3bfce.1020900@csmine.org
+
+

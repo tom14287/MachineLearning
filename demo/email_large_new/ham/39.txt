@@ -1,0 +1,59 @@
+re: leopard or snow l?
+on mai 12, 2010, at 05:58, eeri kask wrote:
+
+> am 05/08/2010 12:45 am, fred  schrieb:
+>> folk --
+>>=20
+>> i final am forc to upgrad from tiger, intend to go directli
+>> to snow leopard unless there is some reason not to. i live in x11
+>> (emac, vmac) so stabil is all.
+>=20
+>=20
+> hello,
+>=20
+> mai i followup thi thread, despit be off-topic, in the hope to
+> find technic savvi peopl give good advic...  :-)
+>=20
+>=20
+> (1)  doe it make sens to upgrad tiger to leopard run on a
+> g4-powerbook-12" laptop?
+
+1) well, if it ain't broke, don't fix it.
+
+2) it is no longer receiv secur updat, so that mai urg you to =
+upgrad.
+
+> otherwis i would probabl upgrad, mostli becaus of qtkit which in
+> leopard includ
+>=20
+>    qtcapturesess
+
+if that's us, then you should upgrad.
+
+> (the downsid mean move awai from xfree-x11 which ha proven
+> exception solid too.)
+
+you can give the new version a try while on tiger if you want to instal =
+macport.
+
+> (2)  i am consid to instal a second cpu into a current 4-core
+> xeon macpro (as on processor socket is still empti).  local appl
+> gui sai thi is not suppos to be done (in particular becaus of
+> some heat problem which could aris then etc), but i cannot see
+> if thi is simpli a "salesman's talk" while try sell a
+> complet new machin instead.  though have 8 core in total
+> make more comput (... and financi) sens as to bui a
+> machin of todai with, e.g. 6 core.
+>=20
+> is there anyth of substanc known in these suppos heat issu?
+
+that seem bizarr to me.  i'd do a littl googl investig about =
+that rather than trust on salesman.
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

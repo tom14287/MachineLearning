@@ -1,0 +1,44 @@
+re: [razor-user] authent errortabor j. well wrote:
+> and where doe it sai product-readi? http://razor.sourceforg.net
+> sai at the top of the page:
+>
+> june 13, 2002 - vipul's razor v2 releas! the first beta of vipul's
+> razor v2 is now avail for public download.
+
+1)  i think the code is still veri much pre-beta.
+
+2)  when you go to the "download" page, it tell you "fetch the latest
+version of razor-agent and razor-agent-sdk packag"  it is not at all
+clear that these ar develop packag.
+
+the site is badli design, and veri mislead.  imo.  the fact that the
+word "beta" appear in the middl of some introductori text on the front
+page is hardli a valid argument.  (well accept softwar design "fact":
+user don't read *anyth*)
+
+i get the impress that vipul & co ar deliber try to mislead
+user into download the dev code in order to get more unwit test
+site.
+
+but that's just my opinion, i could be wrong.
+
+rod.
+
+--
+anywai... long stori short...
+...is a phrase whose origin ar complic and rambl.
+
+>> do the blog thang again at http://www.groovymoth.com/ <<
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

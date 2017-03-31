@@ -1,0 +1,33 @@
+re: altern to dhcp?on wed, apr 14, 2010 at 5:23 pm, eduardo m kalinowski
+ wrote:
+> on 04/14/2010 06:17 pm, ed jabbour wrote:
+>>
+>> i edit /etc/resolv.conf to add a nameserv, edit
+>> /etc/dhcp3/dhclient.conf
+>> to do the same and ad the dn to wicd. =a0howev, i keep get the
+>> same
+>> old dn from the router, i.e., resolv.conf keep chang to the router'=
+s
+>> 192
+>> ip. =a0the router doe not allow edit dn. =a0i think thi is due to =
+us
+>> dhcp. =a0is there an altern which wouldn't caus a default to the
+>> router's
+>> dn? =a0ani pointer appreci.
+>
+> there's an option in dhclient.conf that allow you to specifi your own dn=
+s
+> server.
+
+supersed domain-name-server "..."
+
+although, if wicd is like nm, you mai have to set your dn server(s)
+in the wicd gui.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/v2t6d4219cc1004141429ga7e449dai6328f4e5dd2e74dc@mail.csmine.org
+
+

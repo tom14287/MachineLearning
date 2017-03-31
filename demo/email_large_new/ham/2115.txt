@@ -1,0 +1,33 @@
+re: cannot open ep file with inkscapeon sat, 24 apr 2010 00:04:48 +0800, umarzuki mochli wrote:
+
+> on fri, apr 23, 2010 at 11:44 pm, camalón wrote:
+
+>> ar you get ani warn messag?
+>>
+>>
+> when i tri to open it from command line $ inkscap
+> t-shirtmodel-by_apestar.ep t-shirtmodel-by_apestar.ep:1: parser
+> error : start tag expect, '<' not found
+> ����
+> ^
+> 
+> and there's a pop-up with messag "fail to load the request file
+> t-shirtmodel-by_apestar.ep"
+
+that error is quit similar to the on report at debian bt. 
+
+check if the version of inkscap that you ar run is affect by that 
+bug. as per the report, start from 0.47 the error should be fix.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.23.16.18.29@csmine.org
+
+

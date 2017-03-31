@@ -1,0 +1,42 @@
+problem with xquartz 2.5.0hi !
+
+i'm get some problem with xquartz (2.5.0). i'm run on mac os =
+10.6.3. my problem is the follow :
+
+i us the option of the termin to automat launch xquartz when =
+launch termin. it work well, and xquartz is launch. i can then =
+launch applic which need x11, like nedit.
+
+after work, i close all the open x11 window, i close xquartz and =
+termin with "command-q" kei.
+the problem appear here : if i want to relaunch nedit, do exactli =
+the same procedur, i obtain the "can't open displai" exit statu for =
+nedit. howev, xquartz is normal launch.
+
+i don't understand thi behaviour. somebodi ha an idea ? probabl a =
+problem with the environ variabl ?
+
+thank you !
+
+cyril georgi
+
+--------------------------------------------------
+cyril georgi
+t=e9l direct: +41 22 379 24 55
+mail: cyril.georgi@unig.ch
+--------------------------------------------------
+observatoir de gen=e8ve
+facult=e9 de scienc
+chemin de maillett 51
+ch - 1290 versoix
+--------------------------------------------------
+
+
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

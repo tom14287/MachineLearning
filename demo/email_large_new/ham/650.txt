@@ -1,0 +1,115 @@
+re: fwd: re: kde 3.5 ...on 11 mai 2010 13:50, delopt  wrote:
+> delopt wrote:
+>
+> screenshot - i need at least those app/let work to even start think
+> of us kde
+>
+> - teatim
+
+p   kteatim                                                       -
+kde 4 util for make a fine cup of tea
+
+> - weather
+
+http://kde-look.org/content/show.php/yawp+%28yet+anoth+weather+plasmoid%29?content=94106
+
+
+> - moon
+
+check!
+
+
+> - clock/calendar
+
+check!
+
+
+> - wireless manag
+
+knetworkmanag work, but i prefer wicd, which ha integr in
+kde's system set. it's in the system trai, not on the panel. you
+can configur it to alwai show, though.
+
+
+> - skype
+
+integr into kopet!
+
+
+> - korgan
+
+check!
+
+
+> - kwallet
+
+check!
+
+
+> - cpu monitor
+
+check, but you might want to comment here:
+http://bug.kde.org/show_bug.cgi?id=172312
+http://bug.kde.org/show_bug.cgi?id=191341
+http://bug.kde.org/show_bug.cgi?id=191342
+
+
+> - infrar control
+
+how did you do thi in kde 3?
+
+
+> - powermanag
+
+check!
+
+
+> - keyboard
+
+i   plasma-widget-kbstate                                          - a
+plasma widget that show the state of the modifi kei
+
+
+> - screen manag (xrandr interfac)
+
+ye, built into system set.
+
+
+> - krypt
+>
+
+http://kde-app.org/content/show.php/krypt?content=80641
+
+
+> i forgot to mention that the keyboard froze after press alt+f2 and
+> switch languag set
+>
+
+pleas, pleas comment on thi bug:
+http://bug.kde.org/show_bug.cgi?id=205369
+
+
+> a huge troubl i see is with the keyboard layout for my mother
+> languag "bulgarian"
+> who the hell have chang the default keyboard layout for the phonet setup?
+> i've been us thi for year now hen i press "w" i get seomth
+> differ ..
+> _thi_ _is_ _realli_ _odd_ - _stupid_ _monkei_!
+>
+
+i don't speak bulgarian, so i cannot reproduc. pleas file a bug!
+
+
+-- 
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktinoxmbi3v2htcnli-955bwcfwkhxlpg7prcbaw@mail.csmine.org
+
+

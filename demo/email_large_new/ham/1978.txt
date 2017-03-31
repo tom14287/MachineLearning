@@ -1,0 +1,37 @@
+re: lenni - gnome ftp connect to serveron wed, 12 mai 2010 19:16:42 +0200, toma kral wrote:
+
+> i mount an ftp site us gnome connect to server. but i cannot put
+> ani file over ftp to host. it sai: error "bad file handl" while
+> copi. howev i can get file over ftp from host alright.
+> 
+> on etch it work both wai, get and put, onli on lenni i have got these
+> error.
+> 
+> would anyon see why?
+
+i just have test with lenni and seem to be work fine (connect to 
+server → ftp w/login). that creat a new network place i can connect to.
+
+after that, i open the ftp session by provid credenti and copi a 
+local file to remot ftp locat and is store fine, no error messag or 
+someth that indic the put oper ha fail. 
+
+then, if i connect from anoth dedic ftp client, i can see the new 
+file there, so all look good. 
+
+have you test with anoth ftp server?
+
+p.s. afaik, i don't have instal "gvf-fuse".
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.13.07.02.21@csmine.org
+
+

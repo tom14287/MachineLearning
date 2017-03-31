@@ -1,0 +1,13 @@
+ann: libktorr 1.0rc1 && ktorrent 4.0rc1from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain;
+  charset="us-ascii"
+content-transfer-encod: quot-printabl
+
+hello,
+
+till libktorr wait in new, both libktorr 1.0rc1 && ktorrent 4.0rc1 a=
+re=20
+avail in experiment-snapshot repositori on http://qt-kde.debian.net/
+
+=2d-=20
+modesta vainiu 

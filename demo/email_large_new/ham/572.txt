@@ -1,0 +1,31 @@
+re: usb devic attach via rs232 adaptoron mon, apr 19, 2010 at 04:12:14am -0500, ron johnson wrote:
+> on 2010-04-19 02:58, dotan cohen wrote:
+> >>>it's a 2.6 kernel, so etch.
+> >
+> >>"plonk"
+> >>
+> >
+> >why plonk me? sure thi is not the last etch machin out there? in
+> >ani case, i could probabl convinc him to upgrad if you think that
+> >etch is not up to the task.
+> >
+> 
+> you complet miss (probabl becaus gmail's web interfac so
+> incred suck) why he's plonk you.
+> 
+
+lol! that is an hilari and brilliant edit. i'll miss that part. 
+
+-- 
+kind regard,
+freeman
+
+http://bug.debian.org/releas-critic/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100420015846.ga17169@europa.offic
+
+

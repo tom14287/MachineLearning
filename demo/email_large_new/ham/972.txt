@@ -1,0 +1,84 @@
+re: dual channel memori questionon saturdai 17 april 2010 05:35:45 nick boyc wrote:
+> on 17/04/2010 01:03, stan hoeppner wrote:
+> > camal=c3=b3n put forth on 4/16/2010 8:31 am:
+> >> it can be worst, though. there ar manufactur that paint all the ram
+> >> slot in black or us the same color and so forc us to read the
+> >> manual >:-)
+> >
+> > the manufactur have bastard the color code to the point it's
+> > useless; thu read the manual is the onli safe bet to get dual chann=
+el
+> > oper setup correctli.
+>
+> um ... just my 2p: [score -1, redund]
+>
+> my current rig - abit nf7-s v2 mobo (nforc 2 chipset) and athlon xp cpu
+> - ha 3 dimm slot all the same fetch shade of blue.  i initi
+> ad two 256mb stick in slot 1 & 2, and got dual channel oper
+> (the bio report it at boot time : "dual channel oper enabl").
+> when i subsequ ad anoth 512mb stick in slot 3 thi did not
+> appar affect dual channel oper (the messag still appear).
+> mayb i get dual channel for the first 512mb, but onli singl channel
+> for the second 512mb.
+
+i too have an  abit nf7 (tho' not an -s).  the memori wa instal by the=
+=20
+shop where i bought the compon of my comput.  (i wa intend to bui=
+ld=20
+it myself and he didn't trust me with the cpu or memori!!)  he told me taht=
+ i=20
+had dual channel memori instal, and would need to replac both 256 mb=20
+stick if i increas the memori capac.
+
+i have never seen ani sign of dual channel oper. (tho' i didn't know w=
+hat=20
+to look for, which hardli help!)
+
+dmidecod give:
+
+memori devic
+       [snip]
+        size: 256 mb
+        form factor: dimm
+        set: none
+        locat: a0
+        bank locat: bank0/1
+        [snip]
+
+memori devic
+        [snip]
+        size: no modul instal
+        form factor: dimm
+        set: none
+        locat: a1
+        bank locat: bank2/3
+        [snip]
+
+memori devic
+        [snip]
+        size: 256 mb
+        form factor: dimm
+        set: none
+        locat: a2
+        bank locat: bank4/5
+       =20
+would i be correct in take thi to mean  that the memori modul appear t=
+o=20
+be incorrectli instal, and that i could improv my memori perform by=
+=20
+move on of the modul that dual channel function?  and also, if that=20
+doe not give me enough improv (which it almost certainli won't), i=20
+could add anoth modul in the third channel, which would not necessarili=
+=20
+need to be the same size as the other two?
+
+tia
+lisi
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004171604.06301.lisi.reisz@csmine.org
+
+

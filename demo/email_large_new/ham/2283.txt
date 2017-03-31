@@ -1,0 +1,55 @@
+re: minor featur request> how easi would it be to code a menu item that mark as read all messag 
+> befor the current messag?  i often have problem read heavi-traffic 
+> mail list in exmh becaus i want to read onli a subset of a list 
+> messag, but i lose track of where i wa in the particular folder.  
+> 
+> thi could also be code more gener in the new sequenc code as a wai to 
+> remov all messag befor current from a particular sequenc.
+
+easi.
+
+first, you'll have to excus me as i'm still us 2.3.1 (*), so, thi
+mai not plai well with recent chang.  (i did look at 2.5.1, too).
+and, i just did thi off the top of my head (i want to see if it
+(**) still work), so thi is somewhat untest.
+
+ad a menu entri is trivial; add thi to your ~/.exmh/exmh-default:
+
+*fop.more.m.uentrylist:	ketchup
+*fop.more.m.l_ketchup:		catch-up all b4 cur
+*fop.more.m.c_ketchup:	 	my_mark2curseen
+
+then you just need to provid the sourc for my_mark2curseen and 
+arrang for exmh to includ it (put it in your ~/.tk/exmh directori
+in your user.tcl; or in pick.patch if you enabl the "sourc hook"
+under pref->hack support)
+
+it's go to look someth like thi:
+
+proc my_mark2curseen {} {
+    global exmh pick msg
+    exmh_statu "clear unseen up to cur..." red
+    mh_setcur $exmh(folder) $msg(id)
+    set pick(id) [...get messag id for "pick 1-cur"...]
+    busi pickmarkseen
+    exmh_statu ok blue
+}
+
+(that's base upon the gut of pick_markseen)
+
+you need to fill in the code for the [...get...] section; i ran out of
+time!
+
+john
+
+(*) "it just work" (tm)
+(**) "it" == my head
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+
+

@@ -1,0 +1,19 @@
+re: [ilug] secur remot file accessrsync over ssh.. veri nice!
+
+donncha.
+
+
+on tuesdai 13 august 2002 12:22, niall o broin wrote:
+> what ar the best option avail on linux ? sftp ? webdav ? someth
+> els ? linux server - linux and mac os-x client.
+>
+>
+>
+> niall
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

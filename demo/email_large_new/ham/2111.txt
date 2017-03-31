@@ -1,0 +1,35 @@
+re: [satalk] sa veri slow (hang?) on thi messag, or is it just me?urban boquist wrote:
+
+> it seem to hang. memori usag goe up to 73mb and stai there. i have
+> let it run for an hour befor i kill it. thi wa on a
+> pentium-ii-366. ye, i know, a bit slow, but still...
+> 
+> can anyon els confirm thi hang? mayb i should just upgrad...
+> 
+> my environ is: sa-2.31, perl-5.6 run on netbsd-1.6f.
+
+version 2.40-cv (from todai) on netbsd/i386 1.5.2 (athlon 1500):
+
+  aug 29 17:55:53 silenc spamd[2052]: process messag
+  <20020829093613.6a00319300@groda.boquist.net> for kh:1234, expect
+  1744014 byte. 
+  aug 29 17:57:10 silenc spamd[2052]: clean messag (2.5/5.0) for
+  kh:1234 in  77 second, 1744014 byte. 
+
+resid size about 75mb, accord to top.
+
+ciao
+     klau
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

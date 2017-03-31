@@ -1,0 +1,53 @@
+re: how to control tty to extern monitor or local lcdfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on tue, apr 06, 2010 at 05:23:02pm -0400, stephen powel wrote:
+> on tue, 6 apr 2010 16:41:53 -0400 (edt), alexand samad wrote:
+> > on wed, apr 7, 2010 at 1:03 am, stephen powel wrote:
+> >>
+> >> i'm not familiar with your laptop, but most laptop have a wai to swit=
+ch
+
+[snip]
+
+>=20
+> i'm talk about an either/or scenario, where by mean of a kei
+> combin on the intern keyboard the monitor is switch to intern
+> or extern.  us both monitor simultan with differ imag
+> on each on (i.e. displai a web browser in on window and plai
+> solitair in the other on) is a whole differ thing.  if that's what
+> you want to do, you're out of my leagu.  i have no experi with that.=
+=20
+> >=20
+> > but i realli want to be abl to do it from the cmd line !
+>=20
+> well, there's chvt, but that is someth complet differ.
+> that's multipl logic (text-mode) termin on a singl physic
+> termin.
+>=20
+
+okai a coupl of thing, i thing we ar talk similiar and dissimiliar
+thing.
+
+
+turn on laptop - not connect to ext monitor
+load debian
+start gdm
+login
+connect to extern monitor
+us xrandr to move screen to ext monitor
+close lid on laptop
+us alt+ctrl+f1 to get to tty1
+
+the ext monitor stai on the x screen and the laptop monitor goe to
+the tty - but the lid is close, i want to move the tty to the ext
+monitor
+
+hope that clear it up...
+
+alex
+
+
+--=20

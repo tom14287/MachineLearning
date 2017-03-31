@@ -1,0 +1,41 @@
+apt repositori authent: it's time
+    clipe from the latest cert.org warn list:
+
+-----------------------------------------------------------------------------------------------
+"i. descript
+
+   the  cert/cc  ha receiv confirm that some copi of the sourc
+   code  for  the  sendmail  packag have been modifi by an intrud to
+   contain a trojan hors.
+
+   the follow file were modifi to includ the malici code:
+
+     sendmail.8.12.6.tar.z
+     sendmail.8.12.6.tar.gz
+
+   these  file  began  to  appear  in  download  from  the  ftp  server
+   ftp.sendmail.org  on  or  around  septemb  28,  2002.  the  sendmail
+   develop  team  disabl  the  compromis ftp server on octob 6,
+   2002  at  approxim  22:15  pdt.  it  doe  not appear that copi
+   download  via  http contain the trojan hors; howev, the cert/cc
+   encourag  user  who  mai  have  download the sourc code via http
+   dure  thi  time  period  to take the step outlin in the solut
+   section as a precautionari measur."
+
+     ok, it's now time to work out the pgp secur of apt repositori traffic. i've never gotten anyth but "sitenam.whatev will not be authent" until run redhat 8.0 when i get someth about have "no kei" for variou file.
+
+    what's it take to ensur we're cover against thi kind of childish/moron/microsoft-era problem?
+ 
+------------------------------------------------------------------------
+brian fahrländer              linux zealot, conserv, and technomad
+evansvil, in                    my voyag: http://www.countermoon.com
+icq  5119262
+------------------------------------------------------------------------
+angegangen, schlang-hüften, sein es ganz rüber jetzt. bügel innen fest,
+weil es ein lang, süsse fahrt ist. 
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

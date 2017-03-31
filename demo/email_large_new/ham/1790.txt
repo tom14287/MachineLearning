@@ -1,0 +1,25 @@
+re: how to list packag in variou prioriti or sectionson mon, apr 05, 2010 at 06:14:42pm -0400, mike viau  wa heard to sai:
+> both "aptitud search ~pextra ~smisc" and "aptitud search ~pextra search ~smisc" result in a list of packag which did not necessarili meet both the search pattern specifi.
+
+  that's becaus "aptitud search" implicitli put an ?or between it
+paramet.  around them.  whatev.
+
+  if you quot the argument so thei end up in a singl command-line
+paramet, thi should work.
+
+  on the surfac, thi behavior is dumb.  on the other hand, if an
+implicit ?and wa us, "aptitud search gnome kde" would return onli
+packag match *both* gnome and kde, which probabl isn't what the
+user want.  trade-off in both direct; the on aptitud pick
+mean that if you want to us complex pattern, you need to be awar
+of where your command-line argument ar.
+
+  daniel
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100430143733.gf22310@emurlahn.burrow.local
+
+

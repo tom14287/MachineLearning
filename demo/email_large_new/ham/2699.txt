@@ -1,0 +1,52 @@
+re: switch from nv to nouveau in squeezeon 05/12/2010 08:08 am, mark allum wrote:
+> on 5/12/2010 6:49 am, snood wrote:
+>
+>> i'm look forward to see if nouveau will be an improv,
+>> perform-wise, without caus reliabl issu.
+>>
+>> i am, howev, go to wait and instal nouveau the easi wai, onc the
+>> upgrad to xserver-xorg-core becom avail in the repositori. if
+>> thi weren't my main system i might be tempt to experi, but i just
+>> need thi thing to keep work.
+>
+>
+> peopl run non-stabl (even squeez) ar go to run into problem
+> now and then. it's an unavoid certainti. nouveau is, well, new.
+> there ar go to be problem with it.
+
+of cours. but the problem i had with gnome and xfce on thi system 
+occur not onli in squeez, but also when run an ubuntu lt 
+version and debian stabl. i onli saw those problem when us the 
+restrict / glx driver. never with nv or vesa. i think thi is, 
+perhap, more a measur of the card itself than the driver. but i know 
+a number of peopl with "high end" graphic card from nvidia who have 
+report the same sort of issu that i saw. it doesn't realli matter 
+much as these particular system ar no longer us as graphic 
+workstat. as thei've ag we stuck linux on them and us them as 
+admin workhors, a job for which thei ar admir suit becaus of 
+all of the screen real estat.
+
+> regard reliabl of video driver: run mani differ thing,
+> hardwar- and driver-wise, over time, i have learn that
+> dpkg-reconfigur is your friend, especi
+>
+> dpkg-reconfigur linux-imag-2.6.32-5
+>
+> which regener the initrd.img. (i need thi recent. substitut
+> the packag name of your kernel.) occasion veri help, that, when
+> troubleshoot driver.
+
+ye. in my earlier experi i would just wipe the drive and start 
+over when i suspect that hangov from previou experi with 
+driver were get in the wai of new configur. but after i 
+becam comfort with a few differ method of instal and 
+initi configur i start pai attent to thing like 
+dpkg-reconfigur and debconf-show.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4beab6c8.2070409@comcast.net
+
+

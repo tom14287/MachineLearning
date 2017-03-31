@@ -1,0 +1,23 @@
+re: apt.freshrpm.netonc upon a time, joshua wrote :
+
+> doe anyon know how often the apt.freshrpm.net repositori is 
+> updat? is it rsync'ed? it's quit a bit out of date right now. for a
+> bind updat releas mid-juli, for exampl, it ha:
+
+thi is veri strang... the red hat mirror updat is run at least 3 or 4
+time a week, i'll look into it right now.
+
+thank for report thi!
+
+matthia
+
+-- 
+matthia saou                                world trade center
+-------------                                edificio nort 4 planta
+system and network engin                  08039 barcelona, spain
+electron group interact                 phone : +34 936 00 23 23
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

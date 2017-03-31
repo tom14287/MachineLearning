@@ -1,0 +1,28 @@
+re: notif baron mon, 10 mai 2010 07:42:33 -0700, mark wrote:
+
+> on mon, mai 10, 2010 at 1:28 am, camalón wrote:
+> 
+> 
+>> afaik, in lenni, the updat icon onli appear in system trai when
+>> secur patch ar avail.
+>>
+> i'm run lenni and the updat icon alert me for program updat,
+> etc., as well as secur updat.
+
+unless i'm wrong, lenni doe not get packag updat for newer version 
+of program, onli patch for bug.
+
+what repositori do you have enabl in your "/etc/apt/sourc.list"? :-?
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.10.14.50.47@csmine.org
+
+

@@ -1,0 +1,32 @@
+re: class variableskind of a catch-22, isn't it? why doe it exist?
+
+-daniel
+
+on apr 13, 2010, at 12:16 pm, greg parker wrote:
+
+> on apr 13, 2010, at 11:37 am, daniel decovnick wrote:
+>> out of curios, what is thi for
+>> class_getclassvari
+>> return the ivar for a specifi class variabl of a given class.
+>> 
+>> ivar class_getclassvari(class cl, const char* name)
+> 
+> it return a class variabl from a class. sinc no class have class variabl, it won't actual do anyth.
+> 
+> the implement is approxim: 
+>    return class_getinstancevari(cl->isa, name);
+> 
+> 
+> -- 
+> greg parker     gparker@appl.com     runtim wrangler
+> 
+> 
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

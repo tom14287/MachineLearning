@@ -1,0 +1,19 @@
+req: beast/bsehttp://beast.gtk.org
+
+there's a reali nasti shortag on sequenc :(
+
+(actual i'd like thi run on my main box, which is irix but that
+i'll probabl try to tackl myself :)
+
+-- 
+rule #1: all softwar suck
+rule #2: all hardwar suck.
+rule #3: my vacuum-cleaner is hardwar. it never obei rule #2?
+		-- tanuki the raccoon-dog, scari devil monasteri
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

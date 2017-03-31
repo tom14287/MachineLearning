@@ -1,0 +1,40 @@
+re: don't be too quick to assum that -xx:+usecompressedoop is a
+ good 	thingon 27/04/2010 02:30, benson marguli wrote:
+> a quick benchmark of some cpu-intens code of our show a quit mark
+> slowdown with that option turn on.
+
+(not disagre with the gener point.)
+
+for what it's worth, i've been run eclips (on 10.6, 64-bit) with
+the usecompressedooop option for month now - if anyon recal, appl
+fix the issu with the default garbag collector so that it now
+automat choos on that doesn't crash with that option - and it's
+veri fast.
+
+of cours, i onli have my work comput to compar it against (which is
+a pentium 4 pc, with a hard drive that appear to have some kind of
+ident issu, sinc it obvious think it's a c64 cassett) - but
+still, i don't notic ani perform problem.
+
+also note, i'm sure the behaviour is differ on differ benchmark.
+i did a quick search and found two benchmark:
+
+http://www.matsim.org/book/export/html/330
+http://blog.juma.me.uk/tag/compress-oop/
+
+as it happen, both these show a perform win for the option, but
+these ar onli two sampl. i'm sure certain usag pattern ar inde
+notic slower so i agre, if us cpu-critic code where
+perform is a concern, it's probabl best to work out a repeat
+test and try both option. just sai, 'assum' is never a good idea,
+but don't assum it'll be slower either. :)
+
+--sam
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

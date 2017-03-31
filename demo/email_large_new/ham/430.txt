@@ -1,0 +1,44 @@
+troubl with transfermodei'm develop a qt app on window, and am us a wsh javascript to =
+control output from the applic. i have everyth work, except i =
+want to make a track blend 50% with the background and it just doesn't =
+seem to work. here is what i'm us:
+
+qttargetmovi.qtcontrol.movi.track(3).top =3d =
+qttargetmovi.qtcontrol.movi.height-qttargetmovi.qtcontrol.movi.track(=
+3).height;
+qttargetmovi.qtcontrol.movi.track(3).transfermod =3d =
+qttransfermodesenum.qttransfermodeblend;
+qttargetmovi.qtcontrol.movi.track(3).operationcolor =3d =
+"32768,32768,32768";
+qttargetmovi.qtcontrol.movi.track(3).highqualitymod =3d true;
+
+the first line is chang the locat of the track, which it doe just =
+fine, so i know i have the right track address. the next line just =
+doesn't seem to happen. the track is alwai set to dither when i check =
+the movi properti. i am us version 7.6.6 of qt on window.
+
+i also tri:
+
+qttargetmovi.qtcontrol.movi.track(3).transfermod =3d =
+qttransfermodesenum.qttransfermodestraighalphablend;
+
+i'm us the book "quicktim for .net and com develop" by john =
+cromi as my refer (which is excel, btw).
+
+
+patrick besong
+manag, creativ design & develop
+educ technolog servic
+the pennsylvania state univers
+210 rider bldg. univers park pa 16802
+814 865-2154
+pzb4@psu.edu
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

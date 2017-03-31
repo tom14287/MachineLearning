@@ -1,0 +1,52 @@
+re: patent on tmda-like system-----begin pgp sign messag-----
+hash: sha1
+
+on tuesdai 27 august 2002 07:45 am, justin mason wrote:
+> toni svanstrom, on spamassassin-talk, note thi us patent:
+>
+> http://appft1.uspto.gov/netacgi/nph-parser?sect1=pto2&sect2;=hitoff&u;=/netah
+>tml/pto/search-adv.html&r;=62&f;=g&l;=50&d;=pg01&s1;=spam&p;=2&os;=haiku&rs;=spam
+>
+>   method of anti-spam
+>
+>   abstract
+>
+>   a method of anti-spam is to set an option trustcod, or a trustlist, or
+>   at least a trustweb base on onlin mail deliveri at a recipi's e-mail
+>   address. a mail sender is compel at the first time to deliv a mail
+> by wai of: take the wai of "visit trustweb and send onlin", or
+> enclos the recipi's trustcod in the mail and send in anoth wai
+> other than the mention. after the sender's e-mail address ha been store
+> automat in the recipi's trustlist, the sender mai send mail to
+> the same recipi in whatev the wai feasibl.
+>
+>
+> sound a lot like tmda to me. :(  file date is juli 26, 2001,  grant
+> mai 16, 2002.
+>
+> tmdaer, have you seen thi befor?  i'd presum tmda is prior art, but
+> still, it could be troublesom...
+>
+>
+i took a bit of time to review what is on the abov url.  if i were a new 
+editor, the headlin would be:
+
+"inventor" from countri that ignor patent and copyright, seek patent for 
+invent the wheel!
+- -- 
+- ------------------------------------------------------------------------
+robin lynn frank---director of oper---paradigm, omega, llc
+http://paradigm-omega.com              http://paradigm-omega.net
+© 2002.  all right reserv.  no duplic/dissemin permit.
+us of pgp/gpg encrypt mail prefer. no html/attach accept.
+fingerprint:  08e0 567c 63cc 5642 db6d  d490 0f98 d7d3 77ea 3714
+kei server:  http://paradigm-omega.com/keymast.html
+- ------------------------------------------------------------------------
+-----begin pgp signatur-----
+version: gnupg v1.0.7 (gnu/linux)
+
+id8dbqe9beckd5jx03fqnxqramtfakdm6bdsepbg8fb9or0xu5jb4t1wcfbtcw
+/pbxqxo7pei1f9lij4gd0/c=
+=pnjx
+-----end pgp signatur-----
+

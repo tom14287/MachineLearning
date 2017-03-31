@@ -1,0 +1,51 @@
+re: hi how to escap under ` ` in shon wed, apr 21, 2010 at 2:16 pm, mart frauenlob
+ wrote:
+>
+> how about:
+> ... -p 'my$qlpw' -n ...
+>
+
+# `mysql -u root -p 'my$qlpw' -n -b -e 'show databas'`
+enter password:
+
+ask for pw
+
+# `mysql -u root -p'my$qlpw' -n -b -e 'show databas'`
+-bash: inform_schema: command not found
+
+> or
+> ... -p "my\$qlpw" -n ...
+>
+
+# `mysql -u root -p "my$qlpw" -n -b -e 'show databas'`
+enter password:
+
+again ask for password
+
+# `mysql -u root -p"my$qlpw" -n -b -e 'show databas'`
+error 1045 (28000): access deni for user 'root'@'localhost' (us
+password: ye)
+
+
+> or
+> ... -p my\\\$qlpw -n ...
+>
+
+# `mysql -u root -p\\\my$qlpw -n -b -e 'show databas'`
+error 1045 (28000): access deni for user 'root'@'localhost' (us
+password: ye)
+
+# `mysql -u root -p \\\my$qlpw -n -b -e 'show databas'`
+enter password:
+
+thank :-)
+
+--siju
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/p2pb713df2c1004210157rbd1eed9clc11e1f8b7f6cfe52@mail.csmine.org
+
+

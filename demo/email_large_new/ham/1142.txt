@@ -1,0 +1,39 @@
+re: dvd+rw tool avail (wa: re: how to add servic port ?)on wed, 2002-08-14 at 05:23, matthia saou wrote:
+> onc upon a time, chri wrote :
+> 
+> > to bring thing back on topic, i wa practic my "rpmbuild'n skillz"
+> > and made an rpm with some simpl softwar tool to drive my dvd+rw
+> > burner. no gui frontend, but it work just fine from the command line. i
+> > even us it to burn a bootabl dvd version of red hat 7.3.
+> > 
+> > ftp://peopl.redhat.com/ckloiber/dvd+rw-tool-0.1.src.rpm
+> 
+> nice! :-)
+> what about the "dvdrecord" packag that's alreadi includ in 7.3? it
+> doesn't do what thi on doe? i'm ask thi becaus i've got a friend
+> with an imac run yellowdog linux (basic red hat linux for ppc), and
+> it's on of the newer version with a dvd burner. i'd be veri interest in
+> us hi drive to burn dvd full of 2-cd movi or full of "file for
+> xmame" ;-)
+
+no, the 7.3 dvdrtool work with dvd-r and dvd-rw, thi packag work
+with dvd+r and dvd+rw. (confus yet?) unfortuant these tool don't
+have a gui frontend, but sinc the workhors is a wrapper for mkisof,
+that shouldn't be too hard for someon who know how to do those thing.
+
+> also, a bootabl dvd of red hat linux 7.3 would be great as i've still not
+> burn the cd even onc for myself sinc i alwai instal through the
+> network (and haven't found an easi wai of purchas an english box set
+> here in spain...).
+
+well that wa an imag i put togeth of just the first three disk of
+the distro. make it bootabl too. fun, but slower than a network
+instal.
+
+-- 
+chri kloiber
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

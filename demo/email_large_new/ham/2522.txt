@@ -1,0 +1,24 @@
+[scoop] scoop ms word .doc file into someth that plucker or other palm app can displai?i am wonder whether there's a wai that i can us sitescoop and/or plucker
+or some other free util to convert word document into someth a bit
+more palmo friendli?
+
+i don't have a window machin, so it becom problemat to convert them;
+i know that if thi were not the case, in word i could save them as some
+other more friendli format.
+-- 
+tcl'2002 sept 16, 2002, vancouv, bc http://www.tcl.tk/commun/tcl2002/
+larri w. virden  
+even if explicitli state to the contrari, noth in thi post should 
+be constru as repres my employ's opinion.
+-><-
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+sitescoop-talk mail list
+sitescoop-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/sitescoop-talk
+

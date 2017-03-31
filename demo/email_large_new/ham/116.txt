@@ -1,0 +1,68 @@
+[us perl] stori for 2002-07-31us perl daili newslett
+
+in thi issu:
+    * mac os x confer registr open
+    * new pumpk is crown
+
++--------------------------------------------------------------------+
+| mac os x confer registr open                             |
+|   post by ziggi on mondai juli 29, @22:58 (event)               |
+|   http://us.perl.org/articl.pl?sid=02/07/30/0317236              |
++--------------------------------------------------------------------+
+
+[0]gnat write "[1]registr is now open for the o'reilli [2]mac os x
+confer. look for session by randal schwartz and brian d foi ("[3]program
+perl on mac os x"), dan sugalski ("[4]program cocoa with perl"),
+david wheeler ("[5]migrat from linux to mac os x"), and mani other
+peopl from the world of perl."
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/07/30/0317236
+
+link:
+    0. mailto:gnat@oreilli.com
+    1. http://confer.oreillynet.com/pub/w/19/regist.html
+    2. http://confer.oreillynet.com/macosx2002/
+    3. http://confer.oreillynet.com/cs/macosx2002/view/e_sess/3281
+    4. http://confer.oreillynet.com/cs/macosx2002/view/e_sess/3114
+    5. http://confer.oreillynet.com/cs/macosx2002/view/e_sess/3155
+
+
++--------------------------------------------------------------------+
+| new pumpk is crown                                            |
+|   post by pudg on tuesdai juli 30, @16:15 (releas)            |
+|   http://us.perl.org/articl.pl?sid=02/07/30/2016230              |
++--------------------------------------------------------------------+
+
+[0]dan write "on of the mani thing that's come out of thi year's tpc
+is the appoint of a new pumpk. no, not hugo van der sanden, who
+hopefulli everyon know is take on the task of 5.9 and 5.10. no, i'm
+talk about the inimit michael schwern, who's now holder of the
+perl 1 pumpkin and, i'm assur, is well on the wai to a new mainten
+releas. detail ar over on [1]dev.perl.org. join the porter list and
+help schwern out!" ye, he said "perl 1".
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/07/30/2016230
+
+link:
+    0. http://yetanoth.org/dan/
+    1. http://dev.perl.org/perl1/
+
+
+
+copyright 1997-2002 pudg.  all right reserv.
+
+
+======================================================================
+
+you have receiv thi messag becaus you subscrib to it
+on us perl.  to stop receiv thi and other
+messag from us perl, or to add more messag
+or chang your prefer, pleas go to your user page.
+
+	http://us.perl.org/my/messag/
+
+you can log in and chang your prefer from there.
+
+

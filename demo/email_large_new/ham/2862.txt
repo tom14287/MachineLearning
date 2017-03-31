@@ -1,0 +1,13 @@
+[spambay] understand high fals neg rate[jeremi hylton]
+> here's clarif of why i did:
+
+that's pretti much what i had guess.  thank!  on more to try:
+
+> first test result us token.token.token_header()
+> unmodifi. 
+> ...
+> second test result us mboxtest.mytoken.token_header().
+> thi us all header except receiv, data, and x-from_.
+> ...
+
+try the latter again, but call the base token_header() too.

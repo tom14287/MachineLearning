@@ -1,0 +1,45 @@
+re: java web start offlin problemsthank gabriel.  i wa abl to launch your app onlin without a =
+problem, but i could not launch it offlin.  i do have the latest =
+develop preview instal and i suspect that might be the problem: i =
+believ the bug mai have been introduc with java 1.6.0_18.
+
+- nick
+
+
+on apr 16, 2010, at 12:47 pm, gabriel kahlout wrote:
+
+> http://memorizeasi.mysimpatico.com
+>=20
+> it's actual 2 jnlp, on setup and on launch.
+>=20
+> should it not work offlin with you, pl let me know. i'm awar that
+> it doe work (i've test that some time ago, and just now,  but ...).
+>=20
+> i also verifi that your doesn't launch offlin.
+>=20
+>=20
+> 2010/4/16, nick how :
+>> on apr 16, 2010, at 11:18 am, gabriel kahlout wrote:
+>>=20
+>>>> launch without an internet connect caus the applic to
+>>>> "hang".
+>>>=20
+>>> in the case of my applic thi doesn't happen. must be specif =
+to
+>>> some case.
+>>=20
+>> thank for that inform.
+>>=20
+>> mayb it's someth about our jnlp file
+>> .  could you mayb share the =
+jnlp
+>> file for the case that doesn't hang?
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

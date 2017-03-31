@@ -1,0 +1,24 @@
+re: class variableson sun, apr 11, 2010 at 4:15 pm, ariel feinerman  wrote:
+
+> can we us static variabl as a class variabl in object c?
+
+object-c doesn't have class variabl, but you can us c's static
+variabl in a similar wai, sinc thei're global within the scope of
+the file in which thei're defin. so, you need to defin them in your
+.m file (not as part of your class @interfac), and keep in mind that
+thei won't be visibl from categori method that ar defin in a
+differ .m file.
+
+sherm--
+
+-- 
+cocoa program in perl:
+http://www.camelbon.org
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

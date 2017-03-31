@@ -1,0 +1,76 @@
+will amd64 instal on my pc???1. here is my cpuinfo:
+
+root@ni:/home/franx# cat /proc/cpuinfo 
+processor	: 0
+vendor_id	: genuineintel
+cpu famili	: 6
+model		: 15
+model name	: intel(r) core(tm)2 duo cpu     e6550  @ 2.33ghz
+step	: 11
+cpu mhz		: 1998.000
+cach size	: 4096 kb
+physic id	: 0
+sibl	: 2
+core id		: 0
+cpu core	: 2
+apicid		: 0
+initi apicid	: 0
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: ye
+fpu_except	: ye
+cpuid level	: 10
+wp		: ye
+flag		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov
+pat pse36 clflush dt acpi mmx fxsr sse sse2 ss ht tm pbe nx lm
+constant_tsc arch_perfmon peb bt pni monitor ds_cpl vmx smx est tm2
+ssse3 cx16 xtpr lahf_lm
+bogomip	: 4664.29
+clflush size	: 64
+power manag:
+
+processor	: 1
+vendor_id	: genuineintel
+cpu famili	: 6
+model		: 15
+model name	: intel(r) core(tm)2 duo cpu     e6550  @ 2.33ghz
+step	: 11
+cpu mhz		: 1998.000
+cach size	: 4096 kb
+physic id	: 0
+sibl	: 2
+core id		: 1
+cpu core	: 2
+apicid		: 1
+initi apicid	: 1
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: ye
+fpu_except	: ye
+cpuid level	: 10
+wp		: ye
+flag		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov
+pat pse36 clflush dt acpi mmx fxsr sse sse2 ss ht tm pbe nx lm
+constant_tsc arch_perfmon peb bt pni monitor ds_cpl vmx smx est tm2
+ssse3 cx16 xtpr lahf_lm
+bogomip	: 4660.87
+clflush size	: 64
+power manag:
+
+2. it look like amd64 will run; if i burn an amd64 instal cd-rom
+and try to boot it on a 32-bit processor, do i get a
+"don't be a smartars" type error messag, or doe it crash???
+
+tia, fcg.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1271922217.3108.7.camel@ni.bigpond
+
+

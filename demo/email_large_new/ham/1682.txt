@@ -1,0 +1,73 @@
+re: vm softwar for person us?on 04/23/2010 06:31 pm, richard lawrenc wrote:
+> hi all,
+>
+> i am look to run some virtual machin for person us: i'd like
+> to (attempt to) try out some altern os from within my lenni
+> host.  my goal ar to be abl to get a tast of some more "exot"
+> system (mayb: bsd, plan 9, open genera) without threaten my
+> stabl environ, and with easi cleanup.  my understand is that
+> the easiest wai to do thi is to run these system as virtual
+> machin, though if other have differ suggest, pleas let me
+> know.
+>
+> i would also just like to learn more about run a vm, sinc i'd
+> like to be abl to help my dad out. he ha a window develop
+> machin that is choke to death on anti-viru softwar.  it would be
+> nice to be abl to help him convert that into a vm insid gnu/linux,
+> so the machin will becom usabl again for thing other that don't
+> requir window.
+>
+> i am wonder if other have recommend for where to start with
+> thi project.  i am pretti much a complet newb with respect to
+> virtual machin technolog; i don't realli know how to assess whether
+> xen, virtualbox, qemu, kvm, or someth els would be the best
+> softwar for me to start learn.
+>
+> i valu:
+> - free over non-free
+> - eas of us and good document over perform
+> - instal via apt and reason default configur
+> - simpl network on commod hardwar
+> - other basic integr with host os servic (perhap file share,
+> usb, print)
+>
+> i realiz that these thing mai not all come in the same packag. but
+> if thei do, or if someon could give me some guidanc about how to
+> sort out the tradeoff, i'd be most appreci!
+>
+> thank,
+>
+> richard
+>
+> p.s.  apolog if thi question seem too far off-topic for
+> debian-user.  if there's a better place to ask thi question, i'd like
+> to know that, too.
+>
+>
+hi,
+i have sun virtualbox. it's easi to us and instal.
+the guest os that i tri and work: debian, mepi, opensolari, 
+opensus, solari 10, xp and some other linux distro. desktopbsd and 
+freebsd work but can't get gui -that can be lack of my knowledg.
+
+same with open virtualbox except i think that there is no usb support.
+
+aqemu (qemu) easi to us and instal -desktopbsd work's with gui.
+
+i think that all vm have file share, print depend on usb if you 
+have usb printer.
+
+-- 
+bye,
+goran dobosev
+hrvatski: www.dobosev.com
+  english: www.dobosev.com/en/
+regist linux user #503414
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd260c5.1020600@dobosev.com
+
+

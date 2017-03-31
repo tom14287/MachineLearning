@@ -1,0 +1,11 @@
+bruce loebrich ha scrape rss feed for googl new, and a rss
+    2.0 successurl: http://scriptingnew.userland.com/backissu/2002/09/24#when:3:59:56pm
+date: tue, 24 sep 2002 22:59:56 gmt
+
+bruce loebrich[1] ha scrape rss feed for googl new, and a rss 2.0 success 
+stori. in other word, it's okai to us the featur in 2.0. we're do it at 
+userland and so is bruce.
+
+[1] http://radio.weblog.com/0104308/2002/09/24.html
+
+

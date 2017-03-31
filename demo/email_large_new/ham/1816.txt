@@ -1,0 +1,41 @@
+netscap 7 reviewthi is my netscap 7.0 review.
+
+o thei final got the email search speed back up to
+   where it wa in 4.7.x
+o set up user mail account doesn't have that realli
+   odd, sometim it let me sometim it doesn't problem that
+   previou version had.
+o i still have to manual updat all my address book by
+   hand but at least it let me import them as netscap 4.x
+   address book (there's not 6.x import as thei just assum
+   it work--which it doesn't)
+o the mail filter ar still broken and have the same problem that
+   i've tri to report sinc 4.0.2 where you can't store a mail
+   filter of the type: ag in dai, is greater than, 21 (or some number)
+   gawd i'd realli wish thei'd fix that freakin' bug, it's the singl
+   biggest annoy that i have with netscap as it's on of the
+   most effect anti-spam tool that i have.
+o webex doesn't support netscap 7.0 and the plugin doesn't
+   work which caus problem when you want to us webex to
+   work on someth with someon remot.
+
+i've given up try to report bug and ani chang to the
+sourc i send alwai get lost.
+
+greg
+
+
+-- 
+gregori alan bolcer, cto  | work: +1.949.833.2800
+gbolcer at endeavor.com  | http://endeavor.com
+endeavor technolog, inc.| cell: +1.714.928.5476
+
+
+
+
+
+
+
+
+
+

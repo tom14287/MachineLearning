@@ -1,0 +1,69 @@
+re: delet some regexp/simpl express from lot of file in a secur wayfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+on fridai 14 mai 2010 12:52:45 merciadri luca wrote:
+> "boyd stephen smith jr."  write:
+> > on fridai 14 mai 2010 12:04:42 merciadri luca wrote:
+> >> i have mani text file (actual .tex file) which contain some
+> >> sequenc or regexp (it depend on the file) that i would like to
+> >> remov. is there a commandlin/gui for do thi massiv edit?
+> >
+> > (sed -i -e "s/$regexp//" "$file") for a singl file.  (gnu sed onli.)
+> >
+> > (find $dir -type f -exec sed -i -e "s/$regexp//" {} \;) for all file in
+> > a directori.
+>=20
+> i am us the second command. the problem is that, for on set of
+> file (that i have select, no problem for thi), i have to us a
+> realli simpl express: i need to find all the occur of
+> `\paragraph{}' and replac them with noth (i.e. with `'). i know
+> regexp, but replac `$regexp' with `\paragraph{}' give error
+> messag. ani idea? thank.
+
+=46irst you need a (basic) regular express (bre) that match "\paragrap=
+h{}". =20
+the '\' is a bre special charact, so it need to be escap.  also, the "=
+{}"=20
+is a bit troublesom with find/-exec, so we will match it us the constru=
+ct=20
+"[{][}]".
+
+the definit document for regular express is the singl unix=20
+specif, version 3 -- base definit, chapter 9.  i don't actual=
+=20
+like (man 7 regex) for thi.
+
+thi give us the regex "\\paragraph[{][}]".  now, we need to get that regu=
+lar=20
+express to sed.  (find $dir -type f -exec sed -i -e "s/\\paragraph[{][}]=
+//"=20
+{} \;) won't work, sinc dure quot remov, on of the '\'s ar drop =
+and=20
+neither find nor sed "see" it.
+
+the shell doe a *lot* of process to the text you type befor it reach=
+=20
+the command you ar invok.  singl unix specif, version 3 -- shel=
+l=20
+and util, chapter 2 is the core document, but some shell ar muc=
+h=20
+more featur.
+
+we can either us (find $dir -type f -exec sed -i -e 's/\\paragraph[{][}]//=
+'=20
+{} \;) or--my prefer--(regex=3d'\\paragraph[{][}]'; find $dir -type f -=
+exec=20
+sed -i -e "s/$regex//" {} \;) to make sure sed get that import '\'.
+
+also, i left it out, but you mai want the "g" flag to the "s"ubstitut comm=
+and=20
+in sed.  otherwis, onli on occurr of the regex will get elimin pe=
+r=20
+line.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

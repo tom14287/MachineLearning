@@ -1,0 +1,33 @@
+re: umont ownership?on tue, 06 apr 2010 16:22:19 -0400, stephen powel wrote:
+
+> on tue, 6 apr 2010 13:51:31 -0400 (edt), camalón wrote:
+>> 
+>> note the devic "mount" option, automat ad by hal:
+>> 
+>> ***
+>> /dev/sdc1 on /media/disk type vfat
+>> (rw,nosuid,nodev,uhelp=hal,shortnam=lower,uid=1000) ***
+> 
+> i didn't see that in your /etc/fstab file, camalón.  where did thi
+> come from? (pardon my ignor; but as i said befor, i never us usb
+> hot plug and i am larg ignor of thi subject.  i know a few thing
+> about the regular mount and umount command issu from a shell prompt. 
+> but thi hotplug stuff is new to me.)
+
+noth to pardon :-)
+
+that wa the output of the "mount" command i sent in an earli post, just 
+after i plug the usb kei.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.06.21.42.21@csmine.org
+
+

@@ -1,0 +1,45 @@
+re: how to uninstal java preview?on 07/04/2010 19:48, gabriel kahlout wrote:
+> i'll be even more thank now, if you gui mai report to me if an error is
+> encount just launch thi (you need to choos an instal
+> directori, and after do so the error could appear):
+>> http://sourceforg.net/project/memorizeasi/
+
+ye an error occur.
+/user/sam/crap2/desktop/memorizeasi/derbi.properti (no such file or
+directori).
+
+it's a correct error too. us the instal dialog i tri to make
+folder ~/desktop/crap2, but mayb mess up (that dialog is horrid)
+becaus it's actual creat a folder ~/crap2. which is empti, and note
+thi isn't ~/crap2/desktop as in the error messag abov. so it's
+look in the wrong place.
+
+by the wai that instal dialog is realli horribl. :) especi that
+you're just thrown into it. i hope you can remov the instal process.
+you could make it into a .dmg-distribut .app-bundl for mac user
+instead of webstart at all, which would be nice.
+
+webstart can be ok too, but pleas make it realli be webstart, ie let
+java manag where the program file ar store. either wai, there's no
+need to make user select a folder for user data either - you can
+automat store ani user data file somewher reason like
+~/librari/applic support/yourapp on mac, the equival applic
+data folder on window, and ~/.appnam on other platform.
+
+either 'normal webstart' or '.app bundl in dmg' would give you an app
+that requir no configur or instal process, make it much
+easier/less scari for user to instal and try out your app. would
+probabl also sidestep thi platform bug (?). :)
+
+--sam
+
+ps if it wasn't clear, i haven't instal the develop preview yet, so
+still on 1.6.0_17... realli need to do that soon.
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

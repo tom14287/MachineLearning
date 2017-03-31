@@ -1,0 +1,35 @@
+re: xorg synapt driver no longer work with udev?on thu, apr 15, 2010 at 23:27:41 +0200, sjoerd hardeman wrote:
+
+[...]
+
+> hal is certainli no longer work, see #567389. yet, udev now also
+> stop work...
+
+ok, i think i understand a littl bit better how thi is suppos to be
+work now. try to add your touchpad option to the inputclass section
+of the file /usr/lib/x11/xorg.conf.d/10-synapt.conf as a first test.
+
+there seem to be a new mechan that allow for multipl such
+inputclass section match the same devic, so that it configur
+can be spread over sever file, with each file be abl to add
+option and to overrid set made in previou file. if thi work
+as advertis then it should be possibl to add your custom in a
+separ inputclass section in, sai, 99-local.conf and thu make sure
+that thei ar not overwritten when the synapt driver is upgrad.
+that seem to have all the modular advantag of the earlier hal/udev
+method with the ad bonu of the simpler xorg.conf syntax.
+
+i am curiou to hear if thi actual work becaus i cannot try it
+myself. (my up-to-date sid desktop doe not have a touchpad.)
+
+-- 
+regard,            |
+          florian   |
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100416184645.ga4281@isar.localhost
+
+

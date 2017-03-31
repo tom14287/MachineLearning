@@ -1,0 +1,97 @@
+[spam]  these girl ar angel!
+
+
+
+a { color: 000066 }
+copi {
+font-famili: "ms san serif", geneva, san-serif;
+font-size: 10px;
+color: 969696; }
+smheader {
+font-famili:
+verdana, arial, helvetica;
+font-size: 8pt;
+color: #960303;
+font-weight: bold }
+boxtitl {
+font-famili: arial;
+font-size: 10pt;
+color: 000066;
+font-weight: bold; }
+item {
+font-famili: verdana;
+font-size: 8pt;
+}
+item2 {
+font-famili: verdana;
+font-size: 8pt;
+pad: 5px;
+background-color: #ffffff;
+}
+pagebodi {
+font-famili: verdana;
+font-size: 11px;
+line-height: 15px }
+a:hover {
+text-decor:underlin;
+}
+
+
+
+
+view thi messag
+	onlin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if you receiv thi email from a friend and would like to subscrib to thi and other newslett, pleas click here
+
+ .
+  you ar subscrib to thi newslett as: hibodi@csmine.org click here
+ to updat your email address.
+
+
+
+
+
+to unsubscrib from thi newslett, pleas click here
+
+ .
+	(c) 2009 alufalab media inc. usa.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+autom instal - copi file from cd?greet all-
+
+i need to modifi a product base on debian. it instal from a cd and us the debian instal system. sinc thi product doe not contain the proper driver for some of my hardwar, i need a wai to have the instal copi some file from the cd (which i'll add to the master iso) to the appropri locat on the instal target. i've been through the prese document and cannot seem to find it there.
+
+ani tip/pointer/etc?
+
+thank!
+
+--tim
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/30407954.92.1272995170409.javamail.root@mail
+
+

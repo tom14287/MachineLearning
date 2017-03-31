@@ -1,0 +1,23 @@
+re: lite smtp server/daemoncelejar put forth on 4/30/2010 3:20 pm:
+
+> it is still small, though - under 70 line of actual perl code,
+> although it doe, of cours, requir the basic perl instal and
+> about a half-dozen other modul.
+> 
+> if anyon ha ani feedback, or suggest for improv, i'd love
+> to hear them.
+
+if you're write an smtpd from scratch in perl, why reinvent the wheel?
+
+http://wiki.qpsmtpd.org/
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdb4b76.1070108@hardwarefreak.com
+
+

@@ -1,0 +1,18 @@
+re: chromium in sidon fri, mai 21, 2010 at 8:23 am, steve fishpast
+ wrote:
+> why is the chromium-browser in sid so old? chromium ha been on the
+> 6.x branch for a coupl of week now and debian is still us the 5.x
+> branch.
+
+question, on lenni is there a differ repositori for chromium? just
+did a apt search to find chromium.
+
+onli packag is some arcad game.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktilbhlidmec40pe70dnlnqundq-em_0mogazwz@mail.csmine.org
+
+

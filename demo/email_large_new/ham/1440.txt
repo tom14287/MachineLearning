@@ -1,0 +1,30 @@
+re: make onscreen font read-abl[wa:new monitor, how to chang 
+	screen resolut?]on thu, 29 apr 2010 21:46:31 +0200, jame stuckei wrote:
+
+>> > i don't us gnome or kde.
+>>
+>> and what de (if ani) ar you us? :-)
+>>
+> i'm us wmii
+
+uh... and how doe on chang dpi set in that :-)?
+
+you could try run:
+
+xrandr --dpi 96
+
+or if you have instal nvidia control panel applic, iirc you can 
+also chang it from there.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.29.20.03.03@csmine.org
+
+

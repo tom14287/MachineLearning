@@ -1,0 +1,30 @@
+re: [solv] debian-multimedia break mplayer .mov playback on lenni?from nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset=iso-8859-1
+
+on sat, apr 17, 2010 at 6:03 am, liam o'tool wrote:
+
+>
+> i have been us debian-multimedia with debian stabl for year without
+> ani problem. it is a vauluabl and reliabl servic, and is provid by
+> a well-known debian develop.
+>
+> to the op: do you have an exampl of a file that (the debian-multimedia
+> version of) mplayer refus to plai?
+>
+
+i also have been us debian-multimedia for lame mp3 and am veri thank
+for it exist.  the file wa a quicktim .mov file thei made with their
+own camera and is on their machin so unfortun i cannot get a snippet
+of it.
+
+fwiw, i did 2 fresh lenni instal on my friend's machin, the first on
+with debian-multimedia which result in the .mov file not plai back in
+mplayer, and a subsequ second lenni instal, ident to the first
+except without the debian-multimedia, in which the .mov file plai great in
+mplayer.  i don't know if it's a bug or not, but ha anyon els had thi
+specif problem (with .mov file in mplayer)?  if so i will gladli file the
+bug report.  i've read about sever differ bug with mplayer on variou
+forum but have not seen thi on specif.
+
+thank you,
+mark

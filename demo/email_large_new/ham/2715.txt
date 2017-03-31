@@ -1,0 +1,54 @@
+re: [volatil] updat clamav-relat packag avail fortestinghello,
+
+on fridai 16 april 2010 10:01:46 you wrote:
+> hi,
+>
+> jason self wrote/schrieb @ 15.04.2010 21:52:
+> > kurt roeckx  wrote ..
+> >
+> >> what doe thi mean exactli?
+
+> deb http://volatil.debian.org/debian-volatil \
+> lenni-propos-updat/volatil main contrib non-free
+
+the imho more interest point is: what doe it mean in the long term?
+the current situat is: 
+volatil ha clamav 0.95, while upstream ha 0.96.  there ar secur relat 
+issu in 0.95 (do etc.?) [1] that might affect(?) volatil - futhermor the 
+clamav-peopl ar suggest to us the latest version [2] - that is 0.96.
+volatil itself is not support by the secur team [3] and the secur 
+team refus the support the current stabl version [4].
+
+as a sysop run lenni/clamav on a few host, i start build clamav from 
+sourc and read clamav's announc list.
+but i wonder, what doe it mean in the long run:
+- will volatil be updat to 0.96 soon?
+- will clamav (in volatil) receiv offici secur support?
+- ar there ani (better support) altern to clamav in lenni?
+- afair there is no specif eol-/kill-switch in clamav: clamav <= 0.94 is 
+unabl to handl "big" increment updat and a "too" big updat wa 
+ship. is it - from a naiv point of view - just a bug that can be fix in 
+debian [5]? just appli the given patch [6] in lenni's clamav and be 
+happi? ;-)
+
+thank,
+keep smile
+yanosz
+
+
+
+[1] 
+http://git.clamav.net/gitweb?p=clamav-devel.git;a=blob_plain;f=changelog;hb=clamav-0.95.3
+[2] http://www.clamav.net/lang/en/2009/10/05/eol-clamav-094/
+[3] http://www.debian.org/volatil/index.en.html
+[4] http://list.debian.org/debian-secur-announc/2009/msg00228.html
+[5] http://www.clamav.net/bugzilla/show_bug.cgi?id=1395
+[6] http://www.clamav.net/bugzilla/show_bug.cgi?id=1395#c12
+
+
+-- 
+to unsubscrib, email to debian-secur-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004182252.41966.debian-secur@stephan.homeunix.net
+
+

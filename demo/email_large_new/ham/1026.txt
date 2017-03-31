@@ -1,0 +1,26 @@
+re: python 2.2 site lib?from nobodi sun sep 18 20:45:29 2016
+content-type: text/plain
+content-transfer-encod: quot-printabl
+
+on thu, 2002-10-03 at 08:16, mark derricutt wrote:
+> anyon know where on could get rpm for alot of the python librari for=
+=20
+> 2.2?
+>=20
+> it darn annoi the wai rh ship python 1.5.2 and python 2.2 (as python2=
+)=20
+> and lib that onli work with on or the other :(
+>=20
+> esp. the pgdb and xml modul.
+>=20
+> anyon know why red hat insist on stick with python 1.5.2?
+>
+
+thei ar on python 2.2 for 8.0 - but thei don't like to break
+compat dure major releas.
+
+therefor: 6.x wa 1.5.2 b/c that wa current
+7.x wa 1.5.2 b/c that wa current when 7.0 wa releas.
+
+-sv
+

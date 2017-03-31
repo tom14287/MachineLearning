@@ -1,0 +1,45 @@
+re: [ot] home up (wa filesystem recommend)kelli clower put forth on 4/29/2010 12:07 pm:
+
+> furthermor most almost all power outag here ar veri brief,
+> and i end up not have to shutdown at all, which is just pure
+> conveni. for me, my back-up xs 1000 wa on of my
+> best comput-relat purchas.
+
+i've got an old apc rm1400net in the bottom of my home rack back just on
+server at the moment, a rare us crt, and my comm gear.  i get about an
+hour out of it dure a total outag.  i bought it us from a local "off
+leas equip" resel/liquid.  gave just over $100 usd for it.  the
+batteri pack last 6 month.  bought a replac pack from batteri.com
+for a littl over $100 with ship.  i've got over 4 year on the current
+batteri pack.  averag lifespan on the 1400 pack is 5-7 year depend on
+the number and durat of invert cycl.  as with you, thi is on of the
+smartest hardwar purchas i ever made.  the electron and electr
+part in ups veri rare fail, so as long as you replac batteri everi 5
+year or so you'd got reliabl power backup, and cheap--$20 per year
+basic for batteri.  thi level of power (and piec of mind) protect
+cost less per year than on trip to the movi theater to see avatar.
+
+i've got an equal old minuteman 650 floor model back my home
+workstat.  again i purchas thi on us from a liquid (differ
+on in thi case) for around $40 back in 1998.  i've replac the batteri
+onc after 6 year and am about readi to replac it again.  the batteri for
+thi on run around $40.
+
+todai you can bui a 700kva class consum up for $100.  if the batteri
+last you 5 year, you've paid $20/year for power/surg and data protect.
+ not to mention conveni.
+
+i can't imagin ever go without a up, whether server or workstat.
+laptop ar great becaus, for all practic purpos, you get a free up
+built in.
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd9ce86.90009@hardwarefreak.com
+
+

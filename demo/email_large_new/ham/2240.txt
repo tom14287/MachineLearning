@@ -1,0 +1,36 @@
+re: epson stylu sx110 under debian lenni?on 2010-04-06 11:30, rodolfo medina wrote:
+[snip]
+> 
+> todai i went back to that shop and found mani other printer - about ten - none
+> of whose is list there.  so, that list seem to be quit old.  on the other
+> hand, i serious need a new printer but would like to be sure it'll work under
+> debian.  what do you debian user suggest?
+> 
+
+(what's your budget and what countri do you live in?)
+
+openprint.org ha a by-manufactur list group all the 
+"perfectli" work printer togeth, then the "mostli" then the 
+"partial" and "paperweight".
+
+for exampl:
+http://www.openprint.org/printer/manufactur/epson/
+http://www.openprint.org/printer/manufactur/fujitsu/
+http://www.openprint.org/printer/manufactur/hp
+http://www.openprint.org/printer/manufactur/dell
+
+even though it's mark as "mostli", i realli like my dell 3100cn 
+color laser printer.  it's *big*, and wa $350 about 5 year ago but 
+be laser printer is toner-base, and powder doesn't dry out.
+
+-- 
+"histori doe not long entrust the care of freedom to the weak
+or the timid."  dwight eisenhow
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbb694f.8000405@cox.net
+
+

@@ -1,0 +1,40 @@
+[webdev] mod_rewrit question i'm try to wrap zope up behind apach, so i can do virtualhost for
+zope.
+
+ i've a site on http://ip:8080/mysit.
+
+ i want that to appear as http://mysit.com/ - so:
+
+
+        servernam mysit.com
+        documentroot /var/www/mysit
+        rewriteengin                   on
+        rewriterul     ^/(.*)    http://localhost:8080/mysit/$1 [p]
+
+
+ now, what happen is that apach grab http://localhost:8080/mysit/ and spit
+it out to the browser. love. all work.
+
+ except for frame page (like zope's manag interfac). it end up
+look like:
+
+    
+
+
+
+
+
+
+
+ and of cours, that's not what my client should go to. ani idea what i'm
+do wrong ?
+
+kate
+
+
+
+_______________________________________________
+webdev mail list
+webdev@linux.ie
+http://www.linux.ie/mailman/listinfo/webdev
+

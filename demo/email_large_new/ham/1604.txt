@@ -1,0 +1,58 @@
+transact edit-----begin pgp sign messag-----
+hash: sha1
+
+off-topic. but sai thi is of cours be done in java (on os x).
+if you were write sai a onlin program for enter stock bui and  
+sell transact. how do you imagin avoid someon enter a  
+$15,000,000,000 transact instead of a $15,000,000 transact?
+
+how about someth like...
+
+if (transactionamount > reasonablelimit.maximumtransactionamount) {
+	
+	if (transactionamount - reasonablelimit.maximumtransamount <  
+1000000000l)
+		showreenteramountandverifydialog();
+	els if (transactionamount -  
+reasonablelimit.maximumtransactionamount < 5000000000l)
+		for (i=0;i<3;i++)
+			showreenteramountandverifydialog();
+	els
+		throw new illegaltransactionexcept("the ceo is the onli on  
+author to enter thi transact with cfo and board of director  
+approv");
+}
+
+p&g;: trade error behind sudden share price drop - marketwatch
+http://www.marketwatch.com/stori/pg-trade-error-behind-sudden-share- 
+price-drop-2010-05-06
+
+youtub - trade error caught on tape! p&g;/dow meltdown -- dow jone  
+fall almost 1000 point!
+http://www.youtub.com/watch?v=nxybpd8taxq
+
+mike hall        hallmik at att dot net
+http://www195.pair.com/mik3hall
+http://www195.pair.com/mik3hall/home.html
+http://sourceforg.net/project/macn
+
+
+
+
+-----begin pgp signatur-----
+version: gnupg/macgpg2 v2.0.14 (darwin)
+
+ijweaqecaayfakvjruyacgkquvk/zsathtimqqqah5qmhgmfcsdllc/ml9yelfwd
+j6fvilyrv5stby4rywn63ok6j/idszox4dicnof4hx5zfwubudrsgig8ddyn4x0k
+3hzjdutib/5wgtwqkijq7z08wmyqif/o52fdhg9demfgt7zot+5ll4p274sj5fq
+hn7d4wwetqt6zcwiupo=
+=k9e6
+-----end pgp signatur-----
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

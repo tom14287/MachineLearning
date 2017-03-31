@@ -1,0 +1,38 @@
+re: how to manag multipl internet connect?from nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+mark allum wrote:
+>> andrei popescu wrote:
+>
+>>> probabl a good start (whatev technolog you end up us) is a
+>>> gnu/linux (prefer debian) machin connect to both internet link=
+s
+>>> and your intern network sinc consum gatewai don't even have mor=
+e
+>>> than on wan port[2].
+>
+> i would like to point out that cradlepoint make a few router that
+> have a port that can be assign as either a switch port or a 2nd wan
+> port. these cardlepoint router have load-balanc capabl.
+>
+> thei accept 3g wireless aircard, have a pcmcia or express slot, as
+> well as usb port (for usb aircard or tether smartphon).  these
+> router can also failov from the ethernet wan to aircard.
+>
+> i have a cradlepoint mbr1200 model.  i us it with a blackberri.  i
+> have not experi extens with multipl wan connect, howev=
+r.
+>
+> on big downsid is that thei ar expens.
+thank for point thi out. i didn't know it.
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+
+

@@ -1,0 +1,36 @@
+re: problem with 'apt-get -f instal'i have fail depend in rpm databas to i am unabl to us
+apt-get.  i request to run 'apt-get -f instal' to fix these
+depend, howev, i get these error when run 'apt-get -f
+instal' :
+
+[root@localhost root]# apt-get -f instal
+process file depend... done
+read packag list... done       
+build depend tree... done
+correct depend... done
+the follow extra packag will be instal:
+  libgcj 
+the follow new packag will be instal:
+  libgcj 
+0 packag upgrad, 1 newli instal, 0 to remov(replac) and 68 not
+upgrad.
+need to get 2407kb of archiv. after unpack 8598kb will be us.
+do you want to continu? [y/n] y
+get:1 http://apt-rpm.tuxfamili.org redhat-7.2-i386/redhat/os libgcj
+2.96-27 [2407kb]
+fetch 2407kb in 22s
+(105kb/s)                                                                                                                         
+execut rpm (-u)...
+prepar...                ###########################################
+[100%]
+   1:libgcj                 error: unpack of archiv fail on file
+/usr/share/libgcj.zip;3c5b5e75: cpio: md5 sum mismatch
+e: sub-process /bin/rpm return an error code (1)
+[root@localhost root]# 
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

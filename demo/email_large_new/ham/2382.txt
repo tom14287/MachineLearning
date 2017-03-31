@@ -1,0 +1,26 @@
+re: problem detect sleep in 10.6hi brandon,
+
+on 30 apr 2010, at 17:14, brandon moon wrote:
+
+[..]
+>   i also tri attach visualvm to it, but i couldn't even see the  
+> thread dump option.
+the easiest wai is to right-click on your applic and invok  
+'thread dump' from a context menu.
+
+bye,
+--
+toma hurka   
+netbean profil http://profil.netbean.org
+visualvm http://visualvm.dev.java.net
+softwar engin, develop platform group
+sun microsystem, praha czech republ
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

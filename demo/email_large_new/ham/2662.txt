@@ -1,0 +1,52 @@
+re: what need to improv in kde 4?on 11 mai 2010 00:58, martin steigerwald  wrote:
+> am montag 10 mai 2010 schrieb nate bargmann:
+>> * on 2010 10 mai 11:50 -0500, dotan cohen wrote:
+>> > ye, 4.2 and now 4.4 seem to behav badli without a clean ~/.kde. i
+>> > find that veri disturb and unstabl.
+>>
+>> for the record, i had a clean ~/.kde for 4.2 when it hit sid about a
+>> year ago and upgrad the offer kde packag through 4.3.4, iirc, and
+>> then start with a clean ~/.kde for sid's new 4.4.3.
+>>
+>> - nate >>
+>
+> imho when a config set is not handl properli on upgrad of kde it a
+> bug.
+>
+
+agre, but it's not on that is like to be fix. there seem to be
+no backward-compat in kde anymor. it's a problem, i know.
+
+
+> i migrat configur from kde 3.5.10 and just press on "reset to
+> default" for quit some appear relat set in order to switch
+> them to oxygen. there have been issu, but i mostli didn't file them as
+> bug.
+>
+> onli on i triag and file: the separ "58" for colon for web
+> shortcut in kuriikwsrc or someth like that it wa is not recogn by
+> krunner, onli by konqueror. ":" instead work with both. unfortun
+> konqueror save it as "58" not as ":".
+>
+
+it _should_ be escap.
+
+
+> anywai i suggest to file those issu as concret as possibl as bug as
+> you manag to take time for it.
+>
+
+
+-- 
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktinu0fqaz1n_yux04g3cq6ohd8x0eeltz57joq1y@mail.csmine.org
+
+

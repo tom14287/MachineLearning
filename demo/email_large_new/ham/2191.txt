@@ -1,0 +1,46 @@
+re: is acroread blind, or ps2pdf danger?from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+sjoerd hardeman wrote:
+> op 13-05-10 23:40, merciadri luca schreef:
+>  =20
+>> sven joachim wrote:
+>> thank for thi answer. there ar *mani* reason not to us pdflatex.
+>> thei do not enter in the scope of thi mail list, but i am pretti
+>> sure you will find them directli on the internet. for exampl, pdflate=
+x
+>> encourag on to us directli jpg, etc., for the inclus in the
+>> document, which is pretti bad. there ar also mani incompat
+>> with differ packag.
+>>    =20
+> or png or pdf which basic is ep or even real ep via the epstopdf
+> packag.
+>  =20
+/
+> sorri, pdflatex offer more choic. that's not a bad thing.
+>  =20
+i do not agre, sorri. pdflatex gener write bigger pdf, simpli
+becaus there is no compress (consid for exampl
+http://www.tug.org/pipermail/pdftex/2004-june/005046.html). moreov, i
+think that pstrick doe not work with pdflatex (you need to us pdftrick=
+s).
+
+i also vagu rememb about mani situat where, if i had had to us
+pdflatex, i would not have been abl to produc the same document,
+becaus i would have had to chang mani packag which were incompat.=
+
+
+you might ask on comp.text.tex, thi is a better place for thi, becaus
+thi is my point of view, and it is not share by the whole commun.
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+instruct end in the schoolroom, but educ end onli with life.
+(f. w. robertson)
+

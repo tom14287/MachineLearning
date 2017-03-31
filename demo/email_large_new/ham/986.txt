@@ -1,0 +1,13 @@
+jon hanna, on the rss-dev list, sai that rss, wa "not design
+    to be of aurl: http://scriptingnew.userland.com/backissu/2002/09/25#when:6:25:23am
+date: wed, 25 sep 2002 13:25:23 gmt
+
+jon hanna, on the rss-dev list, sai[1] that rss, wa "not design to be of 
+ani particular us to blogger, aggreg, or metadata provid." thi is 
+not true. half of rss 0.91 wa scriptingnew format[2], which wa total 
+design to model a weblog in xml. 
+
+[1] http://group.yahoo.com/group/rss-dev/messag/4023
+[2] http://my.userland.com/stori/storyread$11
+
+

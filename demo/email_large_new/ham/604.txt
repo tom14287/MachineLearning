@@ -1,0 +1,25 @@
+re: debian+kde 4.4.3jimmi johnson wrote:
+> here we go, current i have onli done the safe upgrad, still 176 
+> packag to upgrad, i can remov yawp (yet anoth weather plasma) and 
+> get a full upgrad or keep yawp, do the upgrad and break kde, i will 
+> stick with the safe upgrad for awhil, caus i don't want to lose yawp 
+> or break kde.
+
+> hopefulli it won't be the last minut when yawp get upgrad.
+
+
+"yawp" will be fix in a few dai 
+http://bug.debian.org/cgi-bin/bugreport.cgi?bug=580002
+-- 
+jimmi johnson
+
+debian-live instal at sda14
+regist linux user #380263
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdf1bb1.7000209@csmine.org
+
+

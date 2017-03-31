@@ -1,0 +1,18 @@
+re: kvm disk read errorfrom nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on sat,22.mai.10, 17:16:22, briand@aracnet.com wrote:
+> try to instal window xp pro
+>=20
+> the instal goe just fine but when i try to run the vm i get
+
+for what purpos do you want to run window? mayb we can suggest better=20
+altern (like virtualbox, packag virtualbox-os).
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

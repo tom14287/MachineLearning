@@ -1,0 +1,39 @@
+re: fglrx driver in debian squeez in limbo - ani idea?le 03/05/2010 22:49, carlo miranda molina (mstaaravin) wrote:
+> on mon, mai 3, 2010 at 9:43 am, tv.debian@googlemail.com
+>   wrote:
+>> hi, what exactli is broken ?
+>> as a workaround you could us sid packag if squeez's ar in bad shape. i
+>> have two mostli squeez (amd64, kde with desktop "effect" enabl) machin
+>> run sid's fglrx at the moment and thei seem fine, glxinfo and fglrxinfo
+>> doesn't spit ani error, xorg log doesn't contain error, and the few opengl
+>> stuff i just tri ar work fine (name "torc" and "xmoto").
+>
+> hi
+> everyon is wrong, fglrx in debian squeez need non-free packag in
+> /etc/apt/sourc.list
+> ll thei need is modul-assist and fglrx
+>
+> root@forest:~# aptitud instal fglrx-driver fglrx-glx fglrx-control
+> fglrx-sourc fglrx-kernel-2.6.32-3-amd64 modul-assist -y
+> root@forest:~# modul-assist (and follow assist, select fglrx,
+> make, build and instal)
+> root@forest:~# modprob fglrx
+> root@forest:~# aticonfig --initi (replac /etc/x11/xorg.conf if exist)
+> root@forest:~# /etc/init.d/gdm restart (or kdm if you have  qt vaccin)
+>
+>
+hi carlo miranda molina, pleas work on your messag trim 
+techniqu, the op wa alreadi hint toward non-free by camalón earlier 
+in thi thread so i could onli assum he wa awar of the need to us 
+non-free. i just mention that for me fglrx from sid is work fine.
+i am sorri if "everyon" is wrong, but your messag trim suggest i 
+am "everyon" all by myself...
+i like your prompt by the wai.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdf49fe.6080906@googlemail.com
+
+

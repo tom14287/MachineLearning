@@ -1,0 +1,34 @@
+re: apt repositori authent: it's timeonc upon a time, brian wrote :
+
+>      ok, it's now time to work out the pgp secur of apt repositori
+>      traffic. i've never gotten anyth but "sitenam.whatev will not
+>      be authent" until run redhat 8.0 when i get someth
+>      about have "no kei" for variou file.
+
+i don't think gpg sign my repositori will help anyth, as it will
+just ensur that my passphras wa type to confirm the md5 signatur of
+all pgklist and srclist. basic, you'll then just be sure that it's me
+who gener the file, and thi will of cours prevent autom the
+process of updat the apt repositori when red hat updat show up.
+
+in red hat linux 8.0 though, the warn about "no kei" appear until you
+import the right gpg public kei directli with rpm, for exampl :
+rpm --import /usr/share/doc/apt-0.5.4cnc7/rpm-gpg-kei
+(thi will import my kei, which is us to sign all freshrpm.net packag)
+
+hopefulli it is possibl to the tell rpm to instal *onli* packag who
+verifi against an import gpg kei? thi for me would be the optim wai to
+ensur integr with the wai thing curent work.
+
+matthia
+
+-- 
+clean custom red hat linux rpm packag : http://freshrpm.net/
+red hat linux releas 7.3 (valhalla) run linux kernel 2.4.18-10acpi
+load : 0.14 0.18 0.17
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

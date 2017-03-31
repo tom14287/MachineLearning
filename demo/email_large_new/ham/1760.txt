@@ -1,0 +1,28 @@
+re: when build a rpm i386-redhat-linux- is append to man pageonc upon a time, harig, wrote :
+
+> > 
+> > the workaround is to pass an extra argument to configur as follow :
+> > 
+> > %configur --program-prefix=%{?_program_prefix:%{_program_prefix}}
+> > 
+> 
+> thi work when you ar defin a switch that %configur
+> doe not alreadi defin, but how can we overrid an
+> exist switch?
+
+well, %configur doesn't defin "--program-prefix=", so that's why it
+work. mayb you thought that wa an exampl, but no, it's the exact syntax
+to us as a workaround ;-)
+
+matthia
+
+-- 
+matthia saou                                world trade center
+-------------                                edificio nort 4 planta
+system and network engin                  08039 barcelona, spain
+electron group interact                 phone : +34 936 00 23 23
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

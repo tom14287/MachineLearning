@@ -1,0 +1,31 @@
+re: advic on 7.3.92 to 7.3.93, and apt compilingmatthia saou wrote:
+> onc upon a time, ""angl" wrote :
+> 
+> 
+>>ani sage advic on the most painless wai to upgrad from old limbo (.92)
+>>to new limbo (.93)?
+>>
+>>apt for rpm from the 7.3 dai bare work on limbo1, and the packag:
+>>apt-0.5.4cnc6-dwd2.src.rpm will not compil on the libbo1 box (i wa
+>>go to us that to dist-upgrad to limbo2).
+> 
+> 
+> well, the 7.3 binari should work as long as you instal the "rpm404" (iirc)
+> compat librari. the onli problem i have with some rpm 4.1 version
+> is that it sometim hang at the and of oper (-e, -i, -f or -u) and
+> the onli workaround is to kill it, "rm -f /var/lib/rpm/__*" and try again.
+
+well, you're lucki if it sometim work for you.  mine hang all the 
+time, have to kill 'em with -9.  and after that, rpm doesn't work at all 
+(hang right after i run the command, print noth).  have to reboot 
+the machin to get anyth rpm-relat to work again.
+
+> matthia
+
+-silent
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,31 @@
+re: [razor-user] report and revok the same messageon fri, aug 09, 2002 at 12:27:25am -0500, steve price wrote:
+> mayb i'm the onli on confus but what you ar sai is that you
+> have a spamtrap that receiv bugtraq messag and you ar auto-
+> matic report them as spam onli to revok them shortli there-
+> after???  either wai automat report is a bad thing (tm) imho.
+
+to be more precis, automat report is a good thing onli if there's
+/zero/ possibl of report posit fals (or as close to zero
+as make no differ in the end).
+
+cmeclax's exampl (which incident point out a major vulner
+of auto-report trollbox) basic sai "i'll blindli report as
+spam whatev some other user(s) have report as spam".  that "blindli"
+part undermin the veri purpos of razor, so i too hope that:
+
+> if that's what you ar do that it neg impact your rate
+> at a near exponenti rate with everi report/revok cycl.
+
+- adrian
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

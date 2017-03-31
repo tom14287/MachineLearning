@@ -1,0 +1,67 @@
+re: all set for red hat linux 8.0i would appreci it if you could get gabber packag for red hat 8. i 
+will be make a new releas soon, but even in the meantim, 0.8.7 
+packag would be ok.
+
+i know that in the beta, red hat wa us a modifi version of 
+gnome-lib which is incompat with the latest gnomemm. if thi is 
+still the case in 8, i can send you a patch which make gnomemm work 
+again...
+
+julian
+
+on mondai, sep 30, 2002, at 03:28 us/eastern, matthia saou wrote:
+
+> hi all,
+>
+> all freshrpm.net is now set for the immin releas of red hat linux 
+> 8.0.
+> the whole releas process is a lot less secret as usual sinc there 
+> have
+> been some leak, includ a mirror purpos wide open :-(
+>
+> see thi articl about the releas and the leak :
+> http://new.com.com/2100-1001-959434.html?tag=fd_top
+>
+> as it's no secret anymor, the file will be avail todai (morn 
+> for
+> you american, afternoon for us european), and to go with them, there 
+> ar
+> alreadi quit a few freshrpm.net packag readi!
+>
+> mirror list for download (thei're not open yet) :
+> http://freshrpm.net/mirror/psych.html
+>
+> new freshrpm.net packag list :
+> http://psych.freshrpm.net/
+>
+> of cours, apt is also avail (now version 0.5.4!) and fulli 
+> test. if
+> you like apt for your desktop machin, i also recommend check out 
+> the
+> new "synapt" packag as it ha now been port to gtk+ and blend
+> perfectli into the distribut!
+>
+> i'll probabl post to the list onc i open up ftp.freshrpm.net so you 
+> can
+> be the first on to get in and download, although i doubt you'll have
+> troubl find access to at least on fast mirror us my mirror 
+> list.
+>
+> have fun with psych!
+> matthia
+>
+> -- 
+> clean custom red hat linux rpm packag : http://freshrpm.net/
+> red hat linux releas 7.3 (valhalla) run linux kernel 2.4.18-10acpi
+> load : 0.16 0.18 0.17
+>
+> _______________________________________________
+> rpm-list mail list 
+> http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

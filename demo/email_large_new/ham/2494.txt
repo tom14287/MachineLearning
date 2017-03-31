@@ -1,0 +1,38 @@
+re: re (2): xorg-server fail on ibm netvista with intel 82815
+ videoon wed, 19 mai 2010 18:43:41 -0400 (edt), peter easthop wrote:
+> now in the log there is no (ee) and no /dev/fb0.  
+> thi is what appear on the screen after startx is issu.
+> 
+> peter@dalton:~$ startx 
+>   [mani line omit]
+> (==) us system config directori "/usr/share/x11/xorg.conf.d"
+> error set mtrr (base = 0xf8000000, size = 0x03000000, type = 1) inappropriat
+> e ioctl for devic (25)
+> selinux: disabl on system, not enabl in x server
+> 
+> wait for x server to shut down ...error set mtrr (base = 0xf8000000, size
+>  = 0x03000000, type = 1) inappropri ioctl for devic (25)
+> 
+> 
+> peter@dalton:~$
+> 
+> regard,        ... peter e.
+
+thi mai be unrel, but i notic from the log that acpi is disabl.  a standard
+stock debian kernel ha acpi enabl by default.  the onli wai it should fail is if
+you have a kernel boot paramet to disabl it.  pleas post your /etc/lilo.conf
+file.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/2022607631.279778.1274320646171.javamail.root@md01.wow.synacor.com
+
+

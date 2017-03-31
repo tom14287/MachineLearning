@@ -1,0 +1,80 @@
+re: basic author not work on quicktim x player osstatu
+	error -128hi  thorston
+
+thank for the quick respons.
+
+i just got it to work anoth wai by have quicktim player 7 open  
+befor i click the link on the web page which ha the emb attribut  
+of target="quicktimeplay".  quicktim 7 player then displai the  
+author dialog and that work correctli.
+
+martin koob
+
+on 7-mai-10, at 2:33 pm, thorsten philipp wrote:
+
+> hi martin,
+>
+> i file a bug report some month ago. unfortun it wa close  
+> (duplic). the duplic (id: 7275187 ) radar entri is not  
+> viewabl by me.
+>
+> a workaround (also nasti...). open the url in safari and store the  
+> password. therefor it is in the keychain. quicktim x can now  
+> access the resourc.
+>
+> if you find anoth solut or here anyth from appl.. pleas  
+> let me know.
+>
+>
+> thorsten
+>
+> on 07.05.2010, at 20:25, martin koob wrote:
+>
+>> hi.
+>>
+>> i have some movi on a websit in a protect directori on the  
+>> server.  when i open them in quicktim player 7 i  get the dialog  
+>> for the usernam and password and i can enter the and then the  
+>> movi will load.  if i emb these movi in a web page the  
+>> password author  will also work correctli on snow leopard.
+>>
+>> when try to open the url in quicktim player x  i get an error  
+>> osstatu error -128.
+>>
+>> if i set the target in the emb tag for the movi to  
+>> quicktimeplay  i will also get the same error and the movi will  
+>> not open.
+>>
+>> if i turn off the folder protect on the folder on the server  
+>> then the movi will open correctli,  so it seem it is the  
+>> author that is not work.
+>>
+>> is thi a known problem?   ha it been report as a bug?
+>>
+>> martin
+>> _______________________________________________
+>> do not post admin request to the list. thei will be ignor.
+>> quicktim-user mail list      (quicktim-user@list.appl.com)
+>> help/unsubscrib/updat your subscript:
+>> http://list.appl.com/mailman/option/quicktim-user/kyrio% 
+>> 40csmine.org
+>>
+>> thi email sent to kyrio@csmine.org
+>
+>  _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> quicktim-user mail list      (quicktim-user@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/quicktim-user/mkoob% 
+> 40roger.com
+>
+> thi email sent to mkoob@roger.com
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-user mail list      (quicktim-user@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

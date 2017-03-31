@@ -1,0 +1,140 @@
+[spam]  default kei
+
+
+
+
+
+ncte inbox
+
+<!--
+toplink    { font-size: 9px; font-famili: arial, helvetica, san-serif }
+toplink    a:link {
+	font-size: 9px;
+	font-famili: arial, helvetica, san-serif;
+	text-decor: underlin;
+}
+toplink    a:activ {
+	font-size: 9px;
+	font-famili: arial, helvetica, san-serif;
+	text-decor: underlin;
+}
+toplink    a:visit {
+	font-size: 9px;
+	font-famili: arial, helvetica, san-serif;
+	text-decor: underlin;
+}
+toplink    a:hover {
+	font-size: 9px;
+	font-famili: arial, helvetica, san-serif;
+	text-decor: none;
+}
+topimag {
+	background: #ffffff;
+	text-decor: underlin;
+	font-size: 20px;
+	font-famili: verdana, arial, helvetica, san-serif;
+	color:#5151ff;
+}
+masthead    {
+	font-size: 16.5px;
+	font-famili: verdana, arial, helvetica, san-serif;
+	font-weight: bold;
+	color: #ffffff;
+}
+bodytext    { font-famili: verdana, arial, helvetica, san-serif; font-size: 12px }
+bodytext    a:link {
+	font-famili: verdana, arial, helvetica, san-serif;
+	font-size: 12px;
+	text-decor: underlin;
+}
+bodytext    a:activ {
+	font-famili: verdana, arial, helvetica, san-serif;
+	font-size: 12px;
+	text-decor: underlin;
+}
+bodytext    a:visit {
+	font-famili: verdana, arial, helvetica, san-serif;
+	font-size: 12px;
+	text-decor: underlin;
+}
+bodytext    a:hover {
+	font-famili: verdana, arial, helvetica, san-serif;
+	font-size: 12px;
+}
+
+date        { font-famili: verdana, arial, helvetica, san-serif; font-size: 12px;
+               font-weight: bold; color: #15477a }
+sectionhead { font-size: 18px; color: #15477a; font-famili:
+               verdana, arial, helvetica, san-serif; font-weight: bold }
+disclaim  { font-size: 9.5px; font-famili: arial, helvetica, san-serif }
+itemhead  { font-famili: arial, helvetica, san-serif; font-size: 15px; font-weight: bold;
+               color: #a91112 }
+sponsor     { font-famili: verdana, arial, helvetica, san-serif; font-size: 11px }
+p            { margin: 0px; pad: 0px }
+-->
+
+
+
+
+
+
+pleas add us to your
+	  address book and/or safe sender list
+ 	 to ensur deliveri of your inbox e-newslett.
+
+
+
+
+octob 8, 2009
+
+
+
+
+
+
+	...new
+
+
+
+
+
+
+
+
+
+
+
+
+       
+      
+
+		subscrib to (or unsubscrib from) the inbox.
+
+		read the current issu onlin  if
+		you aren't abl to access the link in your email version of inbox.
+
+		contact the inbox staff with content or technic question.
+
+		see the last two issu of inbox in the archiv.
+
+		advertis in an issu of inbox.
+
+it is the polici of ncte in
+	  it journal and other public to provid a forum for the open
+	  discuss of idea concern the content and teach of english and
+	  languag art. public accord to ani particular point of view doe not
+	  impli endors by the execut committe, the board of director, or
+	  the membership at larg, except in announc of polici, where such
+	  endors is clearli specifi. paid advertis ha been identifi as
+	  such.
+
+      copyright 2009 
+	  nation council of teacher of english
+ncte, 1111 w. kenyon rd., urbana,
+	  il 61801-1096
+ 
+
+
+
+
+

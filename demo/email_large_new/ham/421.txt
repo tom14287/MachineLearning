@@ -1,0 +1,29 @@
+re: filesystem recommendationsmik castl put forth on 4/25/2010 10:29 am:
+> on sat, apr 24, 2010 at 10:53 am, b. alexand  wrote:
+>> doe anyon have suggest and practic experi with the pro and con
+>> of the variou filesystem?
+> 
+> googl is switch (ha switch by now?) all of it's server over to
+> ext4.  a web search will turn up more detail on the subject.  but
+> thei ar mostli lot of big file.
+
+if it weren't for the live migrat requir, i read thi to sai that
+googl would be us xf due to it superior perform:
+
+"in a mail list post, googl engin michael rubin provid more insight
+into the decis-make process that led the compani to adopt ext4. the
+filesystem offer signific perform advantag over ext2 _and nearli
+rival the high-perform xf filesystem_ dure the compani's test.
+ext4 wa ultim chosen over xf becaus it would allow googl to do a
+live in-place upgrad of it exist ext2 filesystem."
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd54389.1030604@hardwarefreak.com
+
+

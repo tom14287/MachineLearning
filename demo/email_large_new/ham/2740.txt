@@ -1,0 +1,44 @@
+re: where to find setup for env variabl?paul chani wrote:
+> liam o'tool  write:
+>
+>   
+>> on 2010-04-14, paul chani  wrote:
+>>     
+>
+>   
+>>> i have setup somewher the java_home environ variabl, but
+>>> don't know where?
+>>>       
+>> ---snip---
+>>
+>> mayb /etc/environ?
+>>     
+>
+> here on my gnu/linux lenni system thi file is empti.
+>
+> --
+> regard, paul chani
+> you can freeli correct me in my english.
+> http://csanyi-pal.info
+>   
+
+given that you have (presum) instal some or all 'openjdk' 
+packag, you could get a list of the instal file, per packag, and 
+see if ani of the name list point to anyth of "interest".
+
+file in /etc, /etc/... (where ... might be 'openjdk'?), file in /lib 
+or /usr/lib that ar not librari file, etc. could either be the sourc, 
+or point to other file to check.
+
+thi is a 'brute forc' sort of techniqu, but it ha help me in a 
+coupl of case where all els had fail.
+
+bob
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc5f317.1020008@symantec.com
+
+

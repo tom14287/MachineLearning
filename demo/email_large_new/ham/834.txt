@@ -1,0 +1,25 @@
+more acroread print problemshello, all.  with the appreci help from thi list, we final learn
+we need to instal acrobat reader version 9.3.2 from unstabl into our
+lenni system in order for acrobat to see our cup printer.  howev we
+ar still have problem print anyth other than letter size job.
+it look like acroread is creat an lpr command us the -o
+pageregion and set that option incorrectli.  for exampl, in on
+case we saw -o pages=11x17 -p pageregion=letter which print the
+11x17 print job on letter size paper.  on a plotter we saw -o
+pages=24x36 -p pageregion=a4 which result in the plotter reject
+the job as an invalid page size.  bypass the acroread print command
+by us a custom printer and send the job to kprinter work so thi
+seem to be a clear bug in how acrobat is read the ppd file and
+creat the print command.
+
+ha anyon els encount thi problem? is there a workaround? if not,
+i suppos i'll need to figur out how on report bug for acroread to
+adob.  thank - john
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1273092061.19539.74.camel@famili.pacifera.com
+
+

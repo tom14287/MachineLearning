@@ -1,0 +1,40 @@
+quicktim player 7 record problem (maximum durat for the file
+	ha been reach)after on of the recent quicktim updat qt player 7 (pro) seem to  
+have lost it abil to record movi from video digit  
+compon. it show preview all right but onc the user press the  
+record button, it write exactli on frame to the .mov file and stop  
+with the error messag "record stop becaus the maximum durat  
+for the file ha been reach". the same thing happen with all vdig  
+i have instal on my mac, includ appl's softvdigx sampl.
+
+qt player doe record movi from isight but unfortun it's not  
+do that via quicktimeusbvdcdigit (otherwis it would be  
+possibl to trace qt compon call and find the differ between  
+appl's vdig and mine). and everi piec of softwar that work with  
+quicktimeusbvdcdigit, work with my vdig too. ugh...
+
+the follow version do not work for me:
+
+quicktim player 7 version 7.6.6 (1709) + quicktim version 7.6.6  
+(1729) + mac os x 10.6.3
+quicktim player version 7.6.6 (1632) + quicktim version 7.6.6 (1674)  
++ mac os x 10.5.8
+
+thi on (still) doe work:
+
+quicktim player version 7.6.4 (518.35) + quicktim version 7.6.4  
+(1327.73) + mac os x 10.4.11
+
+doe anyon know a wai to make a vdig compon (sai, softvdigx)  
+compat with the latest qt player 7?
+
+thank in advanc,
+-slava
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

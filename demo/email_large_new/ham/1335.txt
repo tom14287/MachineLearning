@@ -1,0 +1,15 @@
+jformattedtextfield backspac issu in 6u20 + 5u24i'm us leopard, so i'm not sure if thi also appli to snow leopard.
+
+run ani of the jformattedtextfield demo here (web start is fine):
+
+http://java.sun.com/doc/book/tutori/uisw/compon/formattedtextfield.html
+
+the backspac kei is now delet two charact at a time.
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,27 @@
+re: ldconfig: /usr/lib/libwin.so is not an elf file - it ha the
+ wrong magic byte at the starton mon, 26 apr 2010 14:40:30 +0200, merciadri luca wrote:
+
+> camalón wrote:
+>>> did you try "file /usr/lib/libwin.so" to see the file type?
+>>>     
+> it give `/usr/lib/libwin.so: data'.
+
+review your "/var/log/apt/term.*" file to find ani hint about where that 
+file come from. i cannot find ani refer to it in ani place :-?
+
+> p.s.: thi time, your messag wa correctli receiv in my e-mail inbox.
+
+good :-)
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.26.14.40.06@csmine.org
+
+

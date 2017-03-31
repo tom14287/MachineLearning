@@ -1,0 +1,35 @@
+re: retriev hardwar and modul info..on wed, 7 apr 2010 07:45:25 -0400 (edt), lubo rendek wrote:
+> on mon, apr 5, 2010 at 8:53 am, stephen powel wrote:
+>> on sun, 4 apr 2010 17:36:03 -0400 (edt), lubo rendek wrote:
+>>>
+>>> thank gui for thi.. now what is the best wai to link modul to a
+>>> specif hardwar. for exampl my lsmod show that i us 'ecb' modul.
+>>> for someon like me thi name doe not sai much. is there a wai to
+>>> find which modul belong to which piec of hardwar?
+>>
+>> =c2=a0 /sbin/modinfo ecb
+>>
+>> the "descript" line is help of cours. =c2=a0and the "alia" line
+>> identifi which piec of hardwar will caus the modul to be load,
+>> for most devic driver. =c2=a0(some older devic driver don't have ani
+>> intern alias and requir help from extern alias to load
+>> automat when the correspond hardwar devic is detect.
+>
+> thank stephen thi is exactli what i wa look for. :-)
+
+you're welcom.  but pleas don't "top post".
+http://en.wikipedia.org/wiki/top_post
+
+--=20
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/766271365.1619171270649684391.javamail.root@md01.wow.synacor.com
+
+

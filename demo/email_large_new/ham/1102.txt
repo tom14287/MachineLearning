@@ -1,0 +1,17 @@
+re: gentoo 0.11.31 releas...hi, matthia..
+
+> ..it's a major releas and support now sgi's fam technolog
+
+..requir current some chang for the spec becaus the dep to fam
+2.6.7-6.
+for compil fam.h (fam-evel) is requir too.
+
+-- 
+regard from germani
+                   matthia
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

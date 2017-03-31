@@ -1,0 +1,54 @@
+[ilug] cdrecord + 2.4.19 = hard-lockhi all,
+i've run into a fairli intract (for me) problem, and wa wonder
+if anybodi could give me pointer on how to deal with it.
+
+i am run debian woodi on a pentium iii id base system.
+i have a ricoh 7083a id cd rewrit, which i us us cdrecord and the
+scsi over id kernel modul.  i wa run kernel 2.4.18 until
+probabl last weekend when i notic 2.4.19 wa out.  download patch
+and instal new kernel with no real problem.  thi morn i went to
+burn a cdrom, and the system lock hard.  reboot into 2.4.18 allow
+cdburn to work fine.
+
+thi problem is veri reproduc (on my system at least).
+the cdrecord command i wa us wa
+    cdrecord -v speed=4 blank=fast dev=0,1,0 -data bak.iso
+the blank appear to go ok, but when it tri to write data, it just
+lock up the entir system (can't ping it from outsid even).  afaic,
+the system just stop.  hard reset is onli wai back in, and when it doe
+reboot, i cannot see anyth us in ani logfil (/var/log/messag
+/var/log/kern.log /var/log/syslog, at ani rate).
+cdrecord -scanbu work fine and report the two pseudo-scsi devic (my
+cdr drive and my cdrw).
+the same lock occur even if there is no blank.
+
+i tri upgrad to 2.4.20-pre1-ac1 (on assumpt that if there wa a
+kernel issu it might have been fix in these patch), but it give
+the same error.  i also download and compil the sourc for
+cdrecord 1.1.10, and instal it instead of the debian packag (i wa
+wonder if mayb there wa some compil option the packag had us
+which mayb would caus the problem), and still the problem persist.
+
+anywai, i'm complet stump.  googl search ha not done me much
+good, and i'm a littl bit lost.  what i'd like to know is
+a)  how to fix the problem ;-)
+b)  is thi like to be an applic or kernel problem?  the sever
+    of the crash would make me suspect it is a kernel problem, but i'm
+    not veri knowledg on these thing.
+c)  should i post a descript of thi to the kernel mail list? if
+    thi is an appropri cours of action, ar there ani tip (beyond
+    the guidelin on kernel.org)?
+
+like i said, i'm lost on thi on, so ani info is veri gratefulli
+receiv.
+mick
+-- 
+michael conri   ph.:+353-1-7161987, web: http://www.acronymchil.com
+kei fingerprint = 5508 b563 6791 5c84 a947  cb01 997b 3598 09de 502c
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

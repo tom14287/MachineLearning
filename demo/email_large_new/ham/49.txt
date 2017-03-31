@@ -1,0 +1,42 @@
+autom forward
+hi folk,
+
+i've been try to set a button call which automat
+forward mail us a '-form mycomp' without go through
+the editor, but so far haven't got the right recip.
+
+i current have in my .exmh-default:
+
+*mop.spam.text:        spam
+*mop.spam.command:     msg_forward -form spamcomp -noedit -nowhatnowproc ; msg
+_remov
+
+
+i've also tri with "seditsend {$draft $t 0}" after the forward command.
+it should forward to a spam address (where filter get adjust) and then
+delet.  it doe so, but not without produc the edit window.
+
+ani help appreci.
+
+wendi robert
+
+
+
+===========================================
+wendi robert          
+head system administr                             
+high energi astrophs divis
+harvard-smithsonian center for astrophys
+cambridg, ma usa 02138
+wendi@cfa.harvard.edu  
+phone:  617-495-7153  
+===========================================
+
+
+
+_______________________________________________
+exmh-user mail list
+exmh-user@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-user
+
+

@@ -1,0 +1,23 @@
+sun donat ellipt curv code to openssl? (fwd)---------- forward messag ----------
+date: 19 sep 2002 22:18:46 -0400
+from: perri e. metzger 
+to: cryptographi@wasabisystem.com
+subject: sun donat ellipt curv code to openssl?
+
+
+accord to thi:
+
+http://www.sun.com/smi/press/sunflash/2002-09/sunflash.20020919.8.html
+
+sun is donat some ellipt curv code to the openssl project. doe
+anyon know detail that thei would care to share on the natur of the
+donat?
+
+-- 
+perri e. metzger		perri@piermont.com
+
+---------------------------------------------------------------------
+the cryptographi mail list
+unsubscrib by send "unsubscrib cryptographi" to majordomo@wasabisystem.com
+
+

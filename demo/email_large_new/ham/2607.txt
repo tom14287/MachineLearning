@@ -1,0 +1,20 @@
+re: [ilug] sparc solari (wa: dell gx260 v redhat 7.3)on tue, 06 aug 2002 12:56:17 bst, kevin lyda said:
+>
+>sorri, i miss thi.  redhat suppli someth similar call kickstart
+>(guess who inspir them?).  pc hardwar is dumb, so you'll need to us
+>a floppi.  otoh, everi jumpstart config i've seen requir rarp plu
+>plug the new box's ethernet+ip into a file.  a kickstart boot can
+>just us a dhcp server.
+
+ay, but it'll still need a /boot/kickstart/$ver/$ip-kickstart won't it
+to proce automat?  [or am i complet off track there?]
+
+-- 
+	niall
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

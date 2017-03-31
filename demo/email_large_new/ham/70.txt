@@ -1,0 +1,30 @@
+re: [volatil] updat clamav-relat packag avail for
+	test> on thu, apr 15, 2010 at 02:29:58pm -0600, jason kolpin wrote:
+> > as a user of thi softwar in product environ and a long
+> > time debian user at variou level i must admit thi clamav issu is
+> > simpli a pain.
+
+on 16.04.10 03:04, gaijin wrote:
+> 	i would think clamav would be an integr part of debian 
+> secur, and ani chang to it would move in revers, from the bottom 
+> up (old & stabl into unstabl & volatil), and not the other wai 
+> around.  it just seem the logic progress for softwar like clamav 
+> and rkhunter, which is still sai the hdparm line in my init script 
+> ar a possibl rootkit.   perhap anoth"secur.volatil" file group that concentr on the stabl version first, then trikl to old and unstabl?
+
+debian-secur ha differ goal. debian-volatil is here for thi kind of
+issu. i hope new clamav will appear in next lenni updat.
+-- 
+matu uhlar - fantoma, uhlar@fantoma.sk ; http://www.fantoma.sk/
+warn: i wish not to receiv e-mail advertis to thi address.
+varovani: na tuto adresu chcem nedostavat akukolvek reklamnu postu.
+thei that can give up essenti liberti to obtain a littl temporari
+safeti deserv neither liberti nor safeti. -- benjamin franklin, 1759
+
+
+-- 
+to unsubscrib, email to debian-volatil-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100419180150.ga2732@fantoma.sk
+
+

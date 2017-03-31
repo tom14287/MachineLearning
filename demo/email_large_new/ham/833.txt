@@ -1,0 +1,30 @@
+re: about apt, kernel updat and dist-upgradeonc upon a time, peter wrote :
+
+> i start wonder how doe apt react when it find a newer kernel in
+> the bunch of "to be updat" file?
+
+it skip it. see the /etc/apt/apt.conf file for thi.
+
+> and ha anyon ever tri to do a dist-upgrad, sai from 7.1 to 7.2? 
+> should it work? if not, why?
+
+i've done a dist-upgrad from 7.2 to a quit broken rawhid releas... it
+wa a mess, still, it went much faster and smoother than if i had done it
+"manual" with rpm -u or -f. i think that updat between stabl releas
+should still be done with the instal sinc iirc, sometim a few
+twitch ar done by anaconda to migrat configur to new format. it
+should work though... i still prefer backup config file and
+reinstal a clean system when i have the time.
+
+matthia
+
+-- 
+matthia saou                                world trade center
+-------------                                edificio nort 4 planta
+system and network engin                  08039 barcelona, spain
+electron group interact                 phone : +34 936 00 23 23
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

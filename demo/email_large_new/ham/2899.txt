@@ -1,0 +1,49 @@
+re: batteri monitor tool?am dienstag, den 20.04.2010, 12:33 +0200 schrieb jona andrada:
+hi jona et al, 
+> 
+> in my humbl opinion, thi statement hold true if you keep the
+> "origin" window that came with your laptop.  
+
+...i'm not us my origin window softwar which wa preinstal on
+my laptop. i bought it seper but it's also softwar origin
+belong to a laptop but a differ model than my own. 
+
+mayb thi might plai a role, but i'm far awai from be an expert in
+thi item.
+
+on can read on some linux websit which deal with thi energi save
+problem, that it make no sens anywai to chang, for exampl, your cpu
+state in order to save batteri power, i.e. that it is useless to choos
+the mode "powersav" or "conserv"  for save power. on the other
+side. it is likewis useless to choos the mode "perform" to tune
+your cpu effici.
+
+for me thi make sens. modern cpu's ar flexibl enough to quickli
+chang between "low" and "perform" if need. modern notebook hdd's
+ar likewis alreadi optim for energi save mode. 
+
+but someth must be differ between window and linux. us my
+window there is inde a differ if i would set the power manag
+to "perform" or to "powersav". thi make nearli an hour or a half
+differ in batteri lifetim of my multiboot laptop! of cours thi
+drepend on what you do, but the differ is obviou.
+
+us my debian i seldom reach a larger time span as if us window in
+"perform" mode, in spite of it is so "quiet" when work with it or
+when idl, and window alwai is so "restless" as if alwai someth
+happen on the disk, some process ar run etc.
+
+mayb thi after all ha someth to do with the differ kernel? 
+
+greet dirk 
+
+
+
+
+
+-- 
+to unsubscrib, email to debian-laptop-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1271769864.30038.54.camel@linux-d59.netz
+
+

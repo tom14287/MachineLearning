@@ -1,0 +1,37 @@
+re: class structur questionson wed, mai 19, 2010 at 4:13 am, jason t. slack-moehrl
+ wrote:
+> it is not true, i am not look for a free ride, i am look to learn. i
+> think i get confus becaus of all the possibl (view, datasourc,
+> deleg, control, etc) i dont have a strong mvc background.
+
+i think you should pick up a book that cover mvc in the iphon world.
+"begin iphon 3 develop" by dave mark and jefflamarch is
+probabl your best bet.
+
+> i actual attend the big nerd ranch with aaron mani year ago in 2002 in
+> whitesburg georgia. it wa a fabul week, but i made the mistak of never
+> us what i learn after that my job chang, had 3 kid ugh the list goe
+> on.
+> i wa consid go again thi summer as i have between semest off.
+
+that mai be worthwhil.  even if you had retain your 2002-era bnr
+knowledg, the prevail us of framework-provid view control
+in uikit is a pretti signific chang with lot of interest (and
+mostli veri posit) consequ.  even some cocoa old-timer had a
+hard time grasp it at first--i'm live proof!  that be said, i
+don't know if bnr is cover a lot of iphon materi now (though i
+assum that's the case) or if thei're still more mac-focus, so check
+first.
+
+-- 
+// jack
+// http://nuthol.com
+// http://learncocoa.org
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

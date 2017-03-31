@@ -1,0 +1,37 @@
+re: secur sofwar kei-----begin pgp sign messag-----
+hash: sha1
+
+> what do you mean by "cd-kei or the like" (i presum that "of" wa a
+> typo)? and what do you mean by "unbreak"?
+
+"of" wa a typo
+
+unbreak would mean here that no on, even previous authoris entiti, 
+could us the system without pai the period subscript fee.
+
+> you need to be far more explicit about the problem which you wish to
+> solv, and about the constraint involv.
+
+it could be an onlin system that work 95% offlin but poll frequent an 
+offsit server.  no mass product cd, mayb mass personalis d/l like sun 
+jdk.
+
+noth is fix yet, we ar look at the wai a softwar can be protect 
+from unauthor utilis.  
+
+is the us of "trust hardwar" realli worth it ?  doe it realli make it 
+more secur ?  look at the dvd.
+
+- -- 
+yannick gingra
+coder for obb : obdur buteonin bellweth
+http://openbeatbox.org
+-----begin pgp signatur-----
+version: gnupg v1.0.6 (gnu/linux)
+comment: for info see http://www.gnupg.org
+
+id8dbqe9drrnuv7g0dnfo+qrak8nakclahtmyrugp3ko+dejcvj0mqfjzacgwqvo
+wz6/cmua23hcmzvycd7xd1q=
+=v2g8
+-----end pgp signatur-----
+

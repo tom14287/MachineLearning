@@ -1,0 +1,31 @@
+re: cannot type power of 1 or 2, 4-9 ar typeabl.jeremi jozwik  write:
+
+>im try to type [copi from charact map] power of 2. i can read
+>power of 2 on webpag but if i were to cope > past from that page,
+>the power displai as a normal charact 2. is thi a
+>dpkg-reconfigur local issu?
+
+>how can i gain the abil to type a power of 2?
+
+i can tell you how i do it - there mai be other wai.
+
+i set up a "compos" kei through the gnome set: 
+system -> prefer -> keyboard -> layout tab -> layout option button
+
+>from there you can set up a kei to be the "compos" kei in the "compos
+kei posit" section. i us "cap lock" sinc i do not us that kei
+otherwis, but you can choos ani of the kei avail.
+
+onc you have a compos kei defin you can enter the power of two
+charact by type:  ^ 2
+
+thi is three separ kei press. you do not hold down the compos
+kei.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/15ed.4bc2be5a.3bab1@getafix.xdna.net
+
+

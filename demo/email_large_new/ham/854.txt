@@ -1,0 +1,111 @@
+smtp-error 451 while us smarthost for mail deliveryhello alltogeth
+
+current i am try to set up a debian lenni server, but i am stuck at
+mail deliveri. the server i am try to set up, ha no fqdn, so i us
+my isp-mailserv as a smarthost (i enabl the proper smtp
+authent in exim4).
+thi setup work a few dai, befor i suddenli receiv 451 error.
+at first i thought it to be a problem with exim4, so i switch to
+postfix. but postfix also give me the 451 error:
+
+apr 22 15:53:31 openshoolproxi postfix/smtp[24368]: 413cf26ef9:
+to=, orig_to=,
+relai=smtp.strato.com[81.169.145.132]:25, delai=2137,
+delai=2136/0.05/0.33/0.12, dsn=4.0.0, statu=defer (host
+smtp.strato.com[81.169.145.132] said: 451 local error (in repli to end
+of data command))
+
+to further troubleshoot my problem i us telnet to connect to
+smtp.strato.com and to send a mail manual.
+
+thi is what i did:
+
+telnet smtp.strato.de 25
+try 81.169.145.133...
+connect to smtp.strato.de.
+escap charact is '^]'.
+220 smtp.passthru
+ehlo openshoolproxi
+250-smtp.passthru
+250-enhancedstatuscod
+250-8bitmim
+250-deliverbi
+250-size 104857600
+250-auth plain login cram-md5
+250 help
+auth login
+334 vxnlcm5hbwu6
+d2vic2vydmljzubimw9ubgluz5kzq==
+334 ugfzc3dvcmq6
+xxxxmypassword_in_base64xxxx
+235 2.0.0 ok authent
+mail from: webservic@b1onlin.de
+250 2.1.0  sender ok
+rcpt to: benedikt@b1onlin.de
+250 2.1.5  recipi ok
+data
+354 start mail input; end with .
+test
+.
+451 local error
+
+
+
+
+veri odd. after thi fail i tri the same procedur from my arch linux
+box at home. it succeed:
+
+
+
+
+telnet smtp.strato.com 25
+try 81.169.145.132...
+connect to smtp.strato.com.
+escap charact is '^]'.
+220 post.strato.de [fruni mo3] esmtp rzmta 23.0 readi; thu, 22 apr 2010
+15:55:55 +0200 (mest)
+ehlo openshoolproxi
+250-post.strato.de [fruni mo3] greet 79.230.91.82
+250-enhancedstatuscod
+250-8bitmim
+250-pipelin
+250-deliverbi
+250-size 104857600
+250-auth plain login cram-md5
+250-starttl
+250 help
+auth login
+334 vxnlcm5hbwu6
+d2vic2vydmljzubimw9ubgluz5kzq==
+334 ugfzc3dvcmq6
+xxxxmypassword_in_base64xxxx
+235 2.0.0 ok authent
+mail from: webservic@b1onlin.de
+250 2.1.0  sender ok
+rcpt to: benedikt@b1onlin.de
+250 2.1.5  recipi ok
+data
+354 enter data for mail with id g0718am3md7ajw
+test mich
+.
+250 queu as g0718am3md7ajw
+
+
+thi look veri strang to me. independ from my mailserv the
+telnet command should have succeed on both machin. but it fail on
+my debian box. what could be wrong? is thi a problem of my setup, or is
+my isp block someth?
+
+thank in advanc
+
+benedikt
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1271946001.11753.18.camel@localhost.localdomain
+
+

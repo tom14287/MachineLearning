@@ -1,0 +1,26 @@
+re: no altern for firefox/mozilla> have upgrad iceweasel, i am no longer abl to call firefox or mozilla 
+> from command line ani more. i don't mind firefox is call iceweasel or 
+> whatev in debian, but entir stop me from start firefox is 
+> someth i don't feel comfort.
+> pleas comment. 
+
+if i understand correctli, you cannot find execut.
+i encount similar on my bsd box, when file chang
+the name to firefox3. after a bit of climb up and
+fall down, the answer ha shown.
+if the question is: what is an altern to firefox,
+i could sai: conkeror. depend on libxul. almost the
+same look and feel, but no tabl nor bar. i recompil
+from the sourc both lib and the browser. i assum for
+debian alreadi mai be found the binari file.
+if i miss the point, sorri.
+
+                           zoran
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100507150339.ga980@faust.net
+
+

@@ -1,0 +1,47 @@
+weird qtkit memori manag behavior when us grand central
+	dispatchthi specif applic plai movi in a loop.
+
+there ar no problem when i us the follow qtmoviedidendnotif =
+notif handler:
+
+- (void)moviedidend: (nsnotif *)notif
+{
+	[self performselectoronmainthread: @selector(startnextmovi) =
+withobject: null waituntildon: no];
+}
+
+howev qtkit doe not releas the qtmovi object when i us the gcd =
+version:
+
+- (void)moviedidend: (nsnotif *)notif
+{
+	dispatch_async(dispatch_get_main_queue(), ^{
+		[self  startnextmovi];
+	});
+}
+
+-(void) startnextmovi
+{
+	[movieview setmovi: [self nextmovi]];
+}
+
+now come the weird part, the qtmovi object ar releas when the user =
+interact (click in menubar/window etc) with the applic.
+
+sinc thi is a kiosk applic that never happen and after a while =
+the applic simpli run out of memori.
+
+i thi a known issu?
+
+- henk
+
+
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

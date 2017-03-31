@@ -1,0 +1,66 @@
+re: need help instal an "altern"on fri, 09 apr 2010 04:40:12 +0200
+godo  wrote:
+
+> ron johnson wrote:
+> > hi,
+> > 
+> > i just local instal upstream firefox, and of cours debian 
+> > altern doesn't know about it, so iceweasel, which us 
+> > x-www-browser load iceap, which i don't want.
+> > 
+> > "updat-altern --instal" seem to be what i want in order to
+> > add /usr/local/firefox/firefox to the x-www-browser list, but can't
+> > get it to work.
+> > 
+> > # updat-altern --instal x-www-browser firefox \
+> >                                        /usr/local/firefox/firefox 3
+> > updat-altern: error: altern link is not absolut as it 
+> > should be: x-www-browser
+> > 
+> > what am i do wrong?
+> > 
+> > tia
+> > 
+> i think i got it.
+> 
+> updat-altern --instal /usr/bin/x-www-browser x-www-browser 
+> /home/my_usernam/.firefox/firefox 3
+> 
+> i didn't got ani error.
+> 
+
+wouldn't it be better if the syntax wa thi:
+
+updat-altern --instal /usr/bin/x-www-browser
+x-www-browser /opt/firefox/firefox 3
+
+of cours, thi would be make us of /opt for what it wa
+origin intend, for all the softwar and add-on packag that ar
+not part of the default instal.
+
+refer point:
+http://www.tldp.org/ldp/linux-filesystem-hierarchi/html/opt.html
+http://wiki.debian.org/filesystemhierarchystandard
+
+
+
+
+
+
+-- 
+regard,
+
+chri
+
+"when the peopl fear their govern, there is tyranni; when the
+govern fear the peopl, there is liberti."
+
+           -- thoma jefferson
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100408233853.08eed76f@makeworld.com
+
+

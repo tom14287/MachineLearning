@@ -1,0 +1,30 @@
+re: re (6): xorg-server fail on ibm netvista with intel 82815
+ videoon fri, 21 mai 2010 14:55:52 -0400 (edt), peter easthop wrote:
+> stephen powel wrote:
+>> if you need
+>> instruct for how to pull in the sid kernel without upgrad
+>> your whole system ...
+> 
+> as far as i know thi line should be append to /etc/apt/sourc.list
+> deb     http://debian.oregonst.edu/debian/ sid main
+> and then updat and upgrad.
+
+not unless you want to upgrad your entir system to sid.  to instal
+onli certain cherri-pick applic from sid, you have to us
+apt pin.  and don't us synapt.  (but sinc you don't have x
+run, you can't us synapt.  yet.  but onc you get it run,
+don't us synapt.  i've heard that it doe not respect apt pin.)
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1018134636.325971.1274469195306.javamail.root@md01.wow.synacor.com
+
+

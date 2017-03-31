@@ -1,0 +1,28 @@
+jakob nielsen on offshor usabl: "to save cost, some
+    compani ar ouurl: http://www.joelonsoftwar.com/new/20020917.html
+date: not suppli
+
+jakob nielsen on offshor usabl[1]: "to save cost, some compani ar 
+outsourc web project to countri with cheap labor. unfortun, these 
+countri lack strong usabl tradit and their develop have limit 
+access -- if ani -- to good usabl data from the target user." 
+
+offshor usabl is a specif case of the gener "offshor design" problem. 
+put simpli, softwar team ar not success when 
+design or manag ar done in a differ physic locat than 
+program. onc i actual had a job where i wa in new york, my direct 
+manag wa in singapor, _hi_ manag wa in hyderabad, and if i need 
+ani manag input i had liter no choic but to go to the ceo becaus at 
+least he wa awak dure the same hour as i wa. you can't get thing done 
+like thi. a good project team reli on hundr of small interact a dai. 
+here in the fog creek offic, we have 10 small convers about fogbugz 3.0 
+develop everi dai. 
+
+what i don't understand is peopl who think it's ok to move the develop ten 
+time zone awai from their manag and expect good result. those same peopl 
+would scream bloodi murder if you told them that you were go to 
+send the whole _manag_ team to bangalor or beij.
+
+[1] http://www.useit.com/alertbox/20020916.html
+
+

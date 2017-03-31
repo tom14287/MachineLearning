@@ -1,0 +1,62 @@
+re: fsevent error after the remov of a watch directoryon mai 5, 2010, at 9:12 pm, ext domin giampaolo wrote:
+
+>> - i creat a fseventstream with the right directori to watch
+>> - if the user add or remov a directori, i delet the current fsevent=
+tream and creat a new on with the right valu
+>>=20
+> ar you sure that you're properli tear down and
+> releas the old fsevent stream befor creat=20
+> the new on?=20
+>=20
+
+ye, i am sure of that.
+i print all the step on the output to check:
+
+# creat stream=20
+## schedul stream=20
+### start stream=20
+[stuff happen]
+#### stop stream=20
+##### invalid stream=20
+###### releas stream=20
+# creat stream=20
+## schedul stream=20
+### start stream=20
+[...]
+#### stop stream=20
+##### invalid stream=20
+###### releas stream=20
+
+i don't unschedul the stream from the run loop sinc i invalid it.
+
+> also, is it possibl that on fseventstream get=20
+> delet on on thread and anoth is creat on
+> anoth thread at the same time?  can you see if
+> put all fseventstream creation/delet on=20
+> the same thread make the problem go awai?
+>=20
+
+
+all the stream relat stuff is happen on the same thread (at least for =
+now).
+plu, in my exampl, i don't creat a new stream after delet the first o=
+ne (sinc i have noth left to watch).
+
+it seem to me the stream mai not be properli close, or it is try to ac=
+cess someth that doesn't exist anymor.
+but i am follow all the step for properli stop and releas the st=
+ream.
+
+--=20
+fabien frele
+softwar engin, platform team
+nokia, qt develop framework
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+filesystem-dev mail list      (filesystem-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/filesystem-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

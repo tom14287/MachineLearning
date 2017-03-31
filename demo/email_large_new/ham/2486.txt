@@ -1,0 +1,35 @@
+asterisk in debian/lenni without junghann.net support?hi!
+
+asterisk in debian/lenni claim to be bristuf, not? at least the
+the debian patch track system show the bristuff-patch:
+
+[1] http://bit.ly/brrhe7
+
+we have a quadbri-card and recent need support from junghann.net
+but thei refus tell us there is no bristuff instal becaus of
+the show version output:
+
+*cli> show version
+asterisk 1.4.21.2~dfsg-3+lenni1 built by pbuilder @ grnetbox on a  
+x86_64 run linux on 2009-12-14 19:04:56 utc
+
+why wa the "bristuf" line remov? debian/etch did have that
+postfix.
+
+after tell them debian/lenni is bristuf thei said thi
+"instal method" is not support. huh?!
+doe anyon ha a comment on thi?
+
+greet,
+ - darsha
+
+
+p.s.: x-post to debian-user and asterisk-user list.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc20ab.1020103@syn-net.org
+
+

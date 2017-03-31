@@ -1,0 +1,50 @@
+toshiba satellit pro l305 seri overh solvedon thu, nov 12, 2009, i had written:
+ 
+> i don't have proper fan control of my toshiba l305 seri
+> laptop. the wai i control the fan is by restart the
+> laptop immedi after an overh shutdown. thi
+> somehow lock the fan on it maximum set.
+> 
+> toshiba ha not been forthcom with technic data that
+> would help my better control my fan (and hotkei, etc.)
+
+i solv the overh problem i had by us util
+under vista enabl to set the processor for low frequenc
+oper (as oppos to dyamic frequenc control), and to
+select the power-save mode.
+
+on of the util wa in a toshiba folder under all
+program, anoth wa in the vista util folder.  (sorri
+to be vagu, i'm not keen to risk undo my present success
+to doubl-check. :-)
+
+vista report that the os would need to be reboot
+for the set to take effect.
+
+when i reboot into linux, i discov that the
+fan would speed up at temperatur of 80c.
+also, plai video no longer caus overheat
+and shutdown.
+
+idl temperatur ar wai down in a reason rang,
+around 60c.
+
+the laptop us insyd h2o bio, which provid
+no facil for set power-relat paramet.
+fan control and other function ar reportedli 
+avail via the omnibook modul. i have yet to test
+thi, and no immedi need, have dealt with the
+biggest thorn.
+
+regard,
+
+-- 
+joel roth
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100410064405.ga8549@sprite
+
+

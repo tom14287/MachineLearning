@@ -1,0 +1,22 @@
+re: inbox mail notif broken    date:        tue, 06 aug 2002 09:04:58 +0100
+    from:        marc baaden 
+    messag-id:  
+
+  | ani hint ?
+
+probabl a privat sequenc ha gotten set, the highlight onli
+work for public on.
+
+if "scan unseen" work as you'd expect, but highlight doesn't,
+that's the usual explan.
+
+kre
+
+
+
+_______________________________________________
+exmh-user mail list
+exmh-user@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-user
+
+

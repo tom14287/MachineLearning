@@ -1,0 +1,17 @@
+re: shouldn't apt-get upgrad, you know, upgrad ?from nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+quot johan gr=f6nqvist on 2010-04-05 23:50:37:
+>
+> i think you mai be interest in the dist-upgrad command instead.
+
+now call full-upgrad (though dist-upgrad remain for backcompat).
+upgrad is now safe-upgrad.
+
+--=20
+ _  brian ryan 8b2a 54c4 e275 8cfd 8a7d 5d0b 0ad0 b014 c112 13d0     .
+( ) icq uin: 43190205 | mail/msn/jabber: brianlryan@csmine.org       ..:
+ x  ascii ribbon campaign against html mail and v-card: asciiribbon.org
+/ \ ani technolog distinguish from magic is insuffici advanc

@@ -1,0 +1,28 @@
+re: flash is open?on fri, 2010-05-14 at 21:47 -0500, ron johnson wrote:
+> on 05/14/2010 09:20 pm, john a. sullivan iii wrote:
+> [snip]
+> > 
+> > i would disagre.  it wa quit enlighten to see on of our client
+> > work in a highli paperless wai.  thei receiv fax via email as pdf,
+> > open them in acrobat, deskew, ocr to grab text for other document base
+> > on those fax, make ani annot, and save the fax into their
+> > directori structur.  thei receiv construct draw as larg pdf
+> > file, bind them, optim them, stamp them as receiv, approv, etc.,
+> > mark them up for distribut without print off set of larg plotter
+> > print- all done with acrobat and noth specif to window.  in fact,
+> > thei ar desper try to move awai from window and acrobat is the
+> > major stumbl block - john
+> >
+> 
+> wine/crossov?
+
+with a lot of work on can get it to instal but it doe not print -
+thu it's pretti useless for everydai us - john
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1273894423.3747.5.camel@localhost
+
+

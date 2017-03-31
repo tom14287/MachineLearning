@@ -1,0 +1,66 @@
+re: traceback in new exmhfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+
+> from:  scott lipcon 
+> date:  sun, 22 sep 2002 22:58:16 -0400
+>
+> i just updat to the latest cv - i had been run a build from june.  
+> hit the flist button give the follow traceback:
+> 
+> syntax error in express "int(17+1+(222-)*(19-17-2)/(224-))"
+>     while execut
+> "expr int($minlin+1+($msgid-$minmsg)*($maxlin-$minlin-2)/($maxmsg-$minm
+> g))"
+>     (procedur "ftoc_findmsg" line 57)
+>     invok from within
+> "ftoc_findmsg $i"
+>     (procedur "ftoc_showsequ" line 16)
+>     invok from within
+> "ftoc_showsequ $f"
+>     (procedur "scanfold" line 81)
+>     invok from within
+> "scanfold inbox 0"
+>     invok from within
+> "time [list scanfold $f $adjustdisplai"
+>     (procedur "scan_folder" line 2)
+>     invok from within
+> "scan_folder $exmh(folder) $ftoc(shownew)"
+>     (procedur "inc_presortfinish" line 7)
+>     invok from within
+> "inc_presortfinish"
+>     invok from within
+> ".fop.flist invok"
+>     ("uplevel" bodi line 1)
+>     invok from within
+> "uplevel #0 [list $w invok]"
+>     (procedur "tkbuttonup" line 7)
+>     invok from within
+> "tkbuttonup .fop.flist
+> "
+>     (command bound to event)
+> 
+> 
+> it seem to onli happen in a folder with no unseen messag.
+> 
+> chri, is thi relat to your recent chang?
+
+curiou.  i chang the argument to ftoc_showsequ to drop the folder 
+argument and instead have an option msgid argument.  somehow your version 
+of scanfold is still try to pass $f.  you seem to have the latest 
+ftoc.tcl (1.36), but not the latest scan.tcl (1.27).
+
+i don't know how that happen, but try get your sourc tree complet 
+up to date.
+
+chri
+
+-- 
+chri garrigu                 http://www.deepeddi.com/~cwg/
+vircio                          http://www.vircio.com
+716 congress, suit 200
+austin, tx  78701		+1 512 374 0500
+
+  world war iii:  the wrong-doer vs. the evil-doer.
+
+
+

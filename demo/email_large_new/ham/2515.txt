@@ -1,0 +1,23 @@
+re: kde 4.4.3 in unstableel juev 06 mayo 2010 12:50:52 facundo aguilera =20
+escribi=f3:
+>=20
+> just for add a good comment, i'm test 4.4.3 and it work veri good!!
+> thank!!
+>=20
+>=20
+> the onli problem i'm have is that kmail is not search in the full
+> address list when write a new messag. but i can drag from kaddressbook
+> for now...
+
+
+solv, i just creat again the akonadi resourc in systemset... the o=
+ld=20
+set wa remov in the upgrad.
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005061259.42306.budinero@csmine.org
+
+

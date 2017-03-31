@@ -1,0 +1,31 @@
+re: pin + apt-get vs aptitudeandrei popescu wrote:
+> on sat,15.mai.10, 10:32:36, hugo vanwoerkom wrote:
+>> hi,
+>>
+>> (on sid) i pin grub-legaci, to avoid go to grub2.
+>  
+> [...]
+>  
+>> so why doe aptitud pai no attent to my pin?
+> 
+> pleas post the output of 'apt-cach polici grub'.
+> 
+hugo@debian:~$ apt-cach polici grub
+grub:
+   instal: 0.97-47lenni2
+   candid: 0.97-61
+   version tabl:
+      0.97-61 0
+         500 http://ftp.de.debian.org unstabl/main packag
+  *** 0.97-47lenni2 0
+         100 /var/lib/dpkg/statu
+
+hugo
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hsv4rt$1s4$1@dough.gmane.org
+
+

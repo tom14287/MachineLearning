@@ -1,0 +1,80 @@
+re: invis consoleon fri, 30 apr 2010 06:47:13 -0400 (edt), jan willem stumpel wrote:
+> 
+> i like an old-fashion vga text look on the consol; in
+> /etc/default/consol-setup i have
+> 
+> fontfac="vga"
+> fontsiz="16"
+> 
+> thi us to work.
+> 
+> but after a dist-upgrad around april 10th, the behaviour chang.
+> 
+> 1 -- cold startup work normal (and look normal).
+> 2 -- startx work ok
+> 3 -- press control-alt-f2 (to go to the consol temporarili)
+> now give a (framebuff?) screen with veri small letter; at the
+> top of the screen there is a messag from "drm" state that the
+> resolut is set to 1250 x 1024 (instead of 640 x 480 which is
+> what i want).
+> 4 -- prese alt-f7 get me back into x.
+> 5 -- press control-alt-f2 again give a complet black
+> screen. noth visibl. go back to x with alt-f7 is still
+> possibl.
+> 
+> unam -a give:
+> linux vega 2.6.32-3-686 #1 smp thu feb 25 06:14:20 utc 2010 i686 gnu/linux
+>
+> thi kernel wa instal recent; boot an earlier kernel,
+> e.g. 2.6.29-2, get the old (proper) behaviour back.
+> 
+> configur error? or bug? if the latter, which packag?
+
+i think that thi is a bug, but i don't know where.  i'm
+guess that it ha someth to do with km in newer kernel.
+but that's just a guess.  i do a lot of work in the text
+consol.  i often us an 80x50 video mode
+(via the vga option of lilo), which gener
+work everywher.  anywai, i wa not happi with the font provid
+by consol-setup; and i want to go back to the legaci font that ar
+us by lenni.  i open
+a thread on thi forum about the problem
+(http://list.debian.org/debian-user/2009/12/msg01438.html) and
+got a satisfactori resolut.  here's what i would recommend
+that you try.  first, make sure that the consol-data packag
+is instal.  then, in /etc/default/consol-setup, set
+
+   fontfac=""
+   fontsiz=""
+
+then add
+
+   font=lat1u-16.psf.gz
+
+in my case, i us lat1u-08.psf.gz as the font, sinc the 80x50 video
+mode requir an eight-pixel-high font; but in your case, sinc you
+appar us the tradit vga boot-up hardwar text mode
+(no framebuff, i presum), you will need the sixteen-pixel-high
+font.
+
+give that a whirl and see how it goe.  thi method give a larger
+select of font to choos from.  (lat1u-16 is a suggest,
+but there ar other sixteen-pixel-high font you can choos from.
+see the /usr/share/consolefont directori for a complet list.)
+and in my opinion, these font look better too.  but most importantli,
+thi method mai circumv the bug you ar experienc.  if it
+doe circumv the bug, consol-setup is the most suspect packag.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/436712575.112714.1272634609803.javamail.root@md01.wow.synacor.com
+
+

@@ -1,0 +1,39 @@
+re: unabl to connect to my home wireless* on 2010 21 mai 17:30 -0500, thoma pircher wrote:
+> boyd stephen smith jr. wrote:
+> >> a) without ask me,
+> >> b) without tell me and
+> >> c) without be told to do so.
+> >
+> > from what i understand, all 3 of these ar primari goal of the network-
+> > manag packag.
+> 
+> i'm sure network-manag will live up to it goal, eventu. for the time 
+> be i have creat a new bug with the titl "network-manag ignor 
+> configur interfac in /etc/network/interfac". ;-)
+> it doesn't yet show up on bug.debian.org, i guess it take some time.
+
+as i understand it, both network manag and wicd ar intend to
+control the network interfac.  if you want to control the interfac
+manual, remov nm.  if you want to us nm then onli the loopback
+interfac should be defin in /etc/network/interfac.  
+
+nm work veri well for me on my ubuntu lucid laptop.  meanwhil, my
+debian desktop util /etc/network/interfac as it doesn't roam
+anywher.
+
+- nate >>
+
+-- 
+
+"the optimist proclaim that we live in the best of all
+possibl world.  the pessimist fear thi is true."
+
+ham radio, linux, bike, and more: http://n0nb.us/index.html
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100522022951.ge2171@n0nb.us
+
+

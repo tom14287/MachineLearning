@@ -1,0 +1,24 @@
+re: dash-as-bin-shwe garland  wrote:
+> 2 - is there wai to detect that a script is run as dash, instead of a
+> shell like solari' /bin/sh
+
+if you write your script portabl it will work with /bin/sh, for mani
+valu of sh. if you reli on featur of ksh or bash you should specifi
+on of those shell on the #! line.
+
+
+> 4 - reason for #2, is there a wai to list all function declar in a script
+> with dash?
+
+"set" work for ksh, bash, and dash. on (at least) solari 9 & 10 and
+debian. is that enough?
+
+chri
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/75r2a7xre1.ln2@new.roaima.co.uk
+
+

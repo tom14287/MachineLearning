@@ -1,0 +1,126 @@
+re: multipl graphic card and hdmi: how to?victor padro wrote:
+> on thu, apr 29, 2010 at 6:53 pm, ks  wrote:
+>> hi all,
+>>
+>> i have setup a system with gigabyt ma-790gpt-ud3h motherboard and us a
+>> nvidia geforc 8600gt pci-e video card. it also ha an onboard ati
+>> radeon hd 3300 graphic chipset. the pci-e card is be us at the
+>> moment for the monitor (nvidia driver). i wa think of us the hdmi
+>> port(onboard) to plai movi directli on the tv rather than us a
+>> dvd-rw (current method).
+>>
+>> i did configur the onboard chipset to be detect after the pci-e card
+>> as d-sub+hdmi output in the bio. thi is on a debian unstabl box.
+>>
+>> the question is: would it be possibl to us two graphic card from
+>> differ manufactur?
+>>
+>> i also notic that the onboard chipset doe not come up with lspci.
+> 
+> afaik, when you us a pci-e vga onboard video is disabl, and your
+> lspci state that...
+> 
+
+ye, that seem to what wa happen. i have remov the pci-e card and
+the machin wa abl to detect the onboard vga chipset (us modul
+radeonhd).
+
+at the moment, when i boot, i get 1024x768 resolut on both of them
+(monitor and tv) with both show the same imag. i have tri to
+creat an xorg.conf us
+http://wiki.debian.org/xstrikeforc/howtorandr12 but it is not be
+appli (both output have 1024x768 resolut even though i have
+specifi the prefer resolut in xorg.con). doe anyon see obviou
+mistak in the file or if i have miss someth?
+
+thank,
+ks.
+ps: i just realiz that i could have us a dvd-hdmi adapt for my
+nvidia 8600gt card too. howev, it fan is realli noisi :(
+
+--------------
+section "modul"
+        #load    "bitmap"
+        #load    "dbe"
+        #load    "ddc"
+        #load   "dri"
+        #load    "extmod"
+        #load    "freetyp"
+        #load    "int10"
+        #load    "record"
+        #load   "type1"
+        #load    "vbe"
+endsect
+
+section "inputdevic"
+        identifi      "gener keyboard"
+        driver          "kbd"
+        option          "xkbrule"      "xorg"
+        option          "xkbmodel"      "pc104"
+        option          "xkblayout"     "us"
+endsect
+
+section "inputdevic"
+        identifi      "configur mous"
+        driver          "mous"
+        option          "corepoint"
+        option          "devic"                "/dev/input/mice"
+        option          "protocol"              "imp/2"
+        option          "button"               "7"
+        option          "zaxismap"          "4 5"
+        option          "buttonmap"         "1 2 3 6 7 4 5"
+endsect
+
+section "devic"
+        identifi      "ati technolog inc radeon hd 3300 graphic"
+        driver          "radeonhd"
+#       busid           "01:05.0"
+        option          "accelmethod"   "exa"
+        option          "monitor-vga-0" "lenovo monitor"
+        option          "monitor-hdmi-0" "extern tv"
+        option          "audio" "on"
+        option          "hdmi" "all"
+endsect
+
+section "monitor"
+        identifi      "lenovo monitor"
+        modelin        "1920x1200_60.00"  193.16  1920 2048 2256 2592
+1200 1201 1204 1242  -hsync +vsync
+        option          "preferredmod" "1920x1200_60.00"
+endsect
+
+section "monitor"
+        identifi      "extern tv"
+        displays     1600 900
+        modelin        "1360x768_60.00"  84.72  1360 1424 1568 1776
+768 769 772 795  -hsync +vsync
+        option          "preferredmod" "1360x768_60.00"
+        option          "rightof" "lenovo monitor"
+endsect
+
+section "screen"
+        identifi      "big screen"
+        devic          "ati technolog inc radeon hd 3300 graphic"
+        defaultdepth    24
+        subsect      "displai"
+                depth           24
+                #virtual screen size add width + max(height of monitor)
+for right+left config
+                virtual         3280 1200
+        endsubsect
+endsect
+
+section "serverlayout"
+        identifi      "default layout"
+        screen          "big screen"
+        inputdevic     "gener keyboard"
+        inputdevic     "configur mous"
+endsect
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bdd99f6.4020803@fastmail.fm
+
+

@@ -1,0 +1,57 @@
+re: x11 window come to front with mous click in non-x11 window
+	(fwd)thi is a duplic of #391, but i can't reproduc it.  pleas help by =
+follow up in #391.
+
+thank,
+jeremi
+
+on apr 25, 2010, at 14:04, robert deliu royar wrote:
+
+> i enter the follow ticket in the bug tracker on =
+xquartz.macosforg.org
+>=20
+> #392: x11 window come to front with mous click in non-x11 window
+> thi occur onli after the screen or comput goe to sleep and the =
+mous
+> is click or a kei is press to wake the comput or unblank the =
+screen.
+>=20
+> i am run 2.5.1_beta3, but thi bug wa also in 2.5.0, and the two
+> previou beta 2.51s.  i have a latest revis 13" mbp.
+>=20
+> if there ar open x11 window (i.e. not minim), thei come to the =
+front
+> even though thei were not when the comput went to sleep or the =
+screen
+> blank.  the menu bar doe not chang--i.e. it stai as the program =
+(such
+> as safari) that wa on top when the comput went to sleep (or the =
+screen
+> blank).  also, click on the window section of the applic which =
+wa
+> suppos to be on top, do not bring the window back to the front.  i =
+have
+> to click on the statu bar or the top area of the window (the area =
+that
+> let you drag the window around the screen).
+>=20
+> --=20
+> ticket url: 
+> xquartz 
+>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> x11-user mail list      (x11-user@list.appl.com)
+> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/jeremyhu%40freedesktop.or=
+g
+>=20
+> thi email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

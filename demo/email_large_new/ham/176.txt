@@ -1,0 +1,47 @@
+re: pdf grief - wa re: flash is open?on fri, 2010-05-14 at 14:22 -0500, boyd stephen smith jr. wrote:
+> on fridai 14 mai 2010 13:40:35 john a. sullivan iii wrote:
+> > on fri, 2010-05-14 at 06:31 -0500, ron johnson wrote:
+> > > on 05/14/2010 06:14 am, john a. sullivan iii wrote:
+> > > > on fri, 2010-05-14 at 06:52 +0000, camal=c3=b3n wrote:
+> > > >> look at pdf. pdf becam a iso/iec standard but we (at linux) still
+> > > >> lack for a pdf editor that can compet with acrobat profession.
+> > > >
+> > > > that comment realli strike home.  we ar work on a potenti ma=
+jor
+> > > > window desktop replac project.  the two thing that ar
+> > > > absolut kill us ar email and a viabl substitut for acrobat
+> > > > standard.  we can roughli mimic everyth acrobat doe
+> > >
+> > > form, you mean?
+> >=20
+> > no, edit the pdf file, e.g., ad text, stamp, markup.
+> >=20
+> > thei can't run their busi if the function is miss with no
+> > viabl workaround.  edit a page at a time in gimp, edit a page at
+> > a time in inkscap and watch it crash on larg construct draw
+> > after consum 3gb of ram, import a page at a time in scribu onli
+> > to have it displai anyth half the time, see neg imag or
+> > text flow over the margin in openoffic pdfimport, the abil to
+> > onli add text in pdfedit, xournal, or flpsed, deskew and ocr in
+> > gscan2pdf realli aren't viabl option.
+>=20
+> that's the most cogent argument i've heard for pai for adob acrobat (=
+or=20
+> whatev thei call it now) for now, and donat *at least* as mani resou=
+rce=20
+> toward and profession f(l)oss pdf editor.
+ye, exactli.  we ar hope that, as we build our busi and becom
+cash posit, a part of our profit can be us to shore up those area
+where foss is still weak as a desktop solut.  we have just put out
+and receiv a respons to our first bounti for fix kontact in kde
+3.5 so it is robust enough for enterpris us and integr with
+zimbra.  a viabl pdf editor is high on our list - john
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1273866189.16485.22.camel@localhost
+
+

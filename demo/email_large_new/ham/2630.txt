@@ -1,0 +1,44 @@
+load a qtmovi when there is no graphic loginhello,
+
+i have a web-servic that produc static imag from variou sourc =
+us quartz.
+
+recent i want to add the capabl of ad qtmovi screenshot =
+there, but i'm have some issu.
+
+when the servic is run by a user which current ha a graphic login, =
+it work fine - i can load a qtmovi, and grab a frame from a specif =
+time to be us in the imag export.
+
+
+howev, in the product environ, the app is run by a user which =
+is not log in. everyth els (quartz) work fine, but qtmovi =
+load bail out with thi:
+
+=
+/sourcecach/qtothercompon/quicktim-1674/midval/ava_vp3_qt/compon=
+/ava_hdutilitieshw.c: cggetonlinedisplaylist fail with code 1011=20
+=
+/sourcecach/qtothercompon/quicktim-1674/midval/ava_vp3_qt/compon=
+/ava_hdutilitieshw.c: cggetonlinedisplaylist fail with code 1011=20
+_registerappl(), fail to establish the default connect to =
+the windowserv, _cgsdefaultconnect() is null
+=
+/sourcecach/qtothercompon/quicktim-1674/midval/ava_vp3_qt/compon=
+/ava_hdutilitieshw.c: cggetonlinedisplaylist fail with code 1011=20
+
+is there a wai to work around thi? i onli want to get the poster imag =
+from that movi, noth els. i can detect in my code when i'm not =
+connect to the windowserv with cggetonlinedisplaylist, so i can =
+switch to a differ code path if requir.
+
+regard,
+oresti markou=
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

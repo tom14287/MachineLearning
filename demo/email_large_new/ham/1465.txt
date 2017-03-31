@@ -1,0 +1,22 @@
+re: autom record of ip-radio streamson sat, mai 08, 2010 at 09:13:12pm +0200, michel konzack wrote:
+> hello *,
+> 
+> can someon suggest me a light commandlin tool, with which i can record
+> http ip-radio (mp3 and ogg) stream and cut it automaticali in piec of
+> 60 minut?
+> 
+> current i do thi with wget but it is the last crap, becaus i can not
+> cut exactli without loss between two cut.
+
+
+take a look at streamripp: http://streamripp.sourceforg.net/  'ti part
+of debian. there ar also a number of front end that might do what you ask in
+regard to the 60 minut thing. 
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100508194817.ga2074@phobo
+
+

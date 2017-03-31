@@ -1,0 +1,38 @@
+re: try to instal googl earth on lenni.  how on earth??????on mon, 24 mai 2010 10:47:35 -0400 (edt), lisi wrote:
+> 
+> i have been try to instal googl earth on lenni ... 
+
+lisi,
+
+thi is not realli an answer to your question, but rather
+an altern, especi sinc you ar short of time.
+both yahoo and mapquest have aerial photo avail, down
+to fairli decent resolut in most area.  i can clearli
+pick out my hous on a 60'x120' lot us it.  it mai be
+adequ for your purpos.  and in public place, such
+as the capitol build, i can pick out individu peopl,
+though i obvious can't tell who thei ar.  try, for exampl,
+
+   http://www.mapquest.com/
+
+to see actual photograph, click on "aerial map" in the
+upper right hand corner.  by default, it show street name
+too, but you can turn that off by click off the check
+box for "show label".  the zoom control is in the upper
+left-hand corner of the pictur.
+
+hth
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/564011095.7859.1274713903361.javamail.root@md01.wow.synacor.com
+
+

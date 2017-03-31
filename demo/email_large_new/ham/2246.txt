@@ -1,0 +1,78 @@
+re: [iiu] ie nameserv problemsjam rafteri wrote:
+> 
+> i don't know what role ns0 plai in relat to the ie zone. it's
+> certainli not involv in the regular resolut process. it mai
+> be involv in zone distribut as you suggest. iirc (and i often
+> don't) on fridai ns0 had a serial that none of the ie nameserv
+> share. unfortun i don't have a record of that.
+
+>>from index cno, ns0 appear to be iedr's cno nameserv for it cno
+domain (iedr.com and other).
+ 
+> > thi whole thing doe serious bring into question iedr's decis to
+> > outsourc the technic admininstr of .ie to a compani that
+> > appar doe not even admin it own dn. it is a nice stori though -
+> > almost as good as the time that .ie disappear for 8 hour in juli
+> > 1998.
+> 
+> ... and onli you notic :)
+> [ messag on the iedr-forum list at the time don't support
+>   your assert ]
+
+yeah but i wa right and i wa there. the peopl who were sai that it
+did not happen did not see the fadeout in progress. it onli came back
+after the server wa reboot properli. howev improb it seem at
+the time, the nameserv came back up after a power outag without the
+.ie zonefil. as a result it, there wa noth in the file that the
+secondari pick up. at the time, i thought that the file wa on an
+nf. but if it regener after reboot, and the nf input wa not
+there, it would have gener a blank zonefil - that make some sens.
+histori now but it ha an alarm relev. :)
+ 
+> as an asid, shortli after my note on fridai uucp-gw-1.pa.dec.com and
+> uucp-gw-2.pa.dec.com stop respond to dn request. so ie had
+> two dead nameserv, four stuck a week in the past and three
+> work correctli. marvel.
+
+confirm that. the nameserv themselv had connect problem from
+what i could see and it wa go on for a while, even *after* the
+initi soa problem. 
+
+i am think of write a simpl .ie secondari state monitor for
+inclus on whoisireland.com as these gui seem to be technolog
+incap of run their own dnse. what kind of distort logic hand
+the admin of a nation tld to a compani that doe not even handl dn
+for it own domain? whatev select process iedr us should be
+investig by the relev govern depart, especi as the
+compani supposedli provid technic administr to iedr did not
+actual spot thi loss of synch. the iedr contract with the compani
+should be review in the light of thi event. thi kind of 1 week loss
+of synch should not happen with a nation domain. ireland as e-hub -
+more like e-jit central! :)
+
+regard...jmcc
+-- 
+********************************************
+john mccormac            * hack watch new
+jmcc@hackwatch.com       * 22 viewmount, 
+voic:   +353-51-873640  * waterford,
+bb&fax;: +353-51-850143  * ireland
+http://www.hackwatch.com/~kooltek
+********************************************
+
+-----begin pgp public kei block-----
+version: 2.6
+
+mqcnazaypnsaaaeeapgthanyitutnawf8bu6mf5pcblqxdeuhf3xt6uol+/od+z+
+zocax8ka9ljbjuqyw8hlqvtv5kcellrp2hpqmk7ypow1fqwlptjof+zmcxevd1qz
+tret2vs/kirqryvkoaxojhqizur1g3ovbnidpkeo4kkulz9xkuxcgzsulkkvaaux
+tcjkb2huie1jq29ybwfjidxqbwnjqghhi2t3yxrjac5jb20+tbjqbwnjqghhy2t3
+yxrjac5jb20=
+=stfy
+-----end pgp public kei block-----
+_______________________________________________
+iiu mail list
+iiu@iiu.taint.org
+http://iiu.taint.org/mailman/listinfo/iiu
+
+

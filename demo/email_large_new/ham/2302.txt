@@ -1,0 +1,22 @@
+re: kde 3.5 ...on thu, mai 6, 2010 at 18:14, dotan cohen  wrote:
+
+> system set -> input and output
+> rightclick -> new -> global shortcut -> command
+
+it's call "input action".
+but ye, thi work. still, the current wai thing ar done ar
+less than ideal.
+
+thu:
+http://bug.kde.org/show_bug.cgi?id=236617
+
+
+richard
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/w2y2d460de71005061315h83c91b98zd136a27fe5433d16@mail.csmine.org
+
+

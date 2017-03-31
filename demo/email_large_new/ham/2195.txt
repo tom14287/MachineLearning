@@ -1,0 +1,28 @@
+re: autom updat in lenni-----begin pgp sign messag-----
+hash: sha1
+
+ron johnson wrote:
+> anywai, the cron-apt packag doe what you want.  it is recommend,
+> though, to us it onli for download.
+
+it doe help the op sinc he us apt-get, but what about the peopl who
+normal us aptitud? there's no "cron-aptitud" packag. and though
+cron-apt can be configur to actual run aptitud, i don't get the
+impress that it ha realli been test that wai.
+
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: us gnupg with mozilla - http://enigmail.mozdev.org
+
+ieyearecaayfaku/ujoacgkq+vsrxyk44081hacgi1ereskuegr3ucmtvanuvrfj
+6uuani0/x+hetbqxe0iaemksl3gaiff
+=znjl
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbfba3b.20009@web.de
+
+

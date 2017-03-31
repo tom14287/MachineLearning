@@ -1,0 +1,52 @@
+for hibodi, we cut price to -80%
+
+
+
+newslett
+
+<!--
+a:visit
+{ color: #816fba; text-decor: underlin; }
+
+azyni
+{
+ margin-top: 0px;
+ margin-bottom: 6.5pt;
+ line-height: 13px;
+ font-famili: tahoma;
+ font-size: 13px;
+ color: #6a599a;
+}
+
+a:link
+{ color: #6c359c; }
+
+a:hover
+{ color: #776018; text-decor: none; }
+
+-->
+
+
+
+
+
+
+to view thi email onlin,
+		click here.
+      
+
+
+
+
+
+
+ 
+click here to
+	unsubscrib. 
+read our privaci polici.
+(c) 2008-2010 rydyxajudebi. all right reserv.
+
+
+
+
+

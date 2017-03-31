@@ -1,0 +1,272 @@
+[lockergnom window daili]  mediev mocha
+
+<!--
+ bodi      { background-imag: url(http://imag.lockergnom.com/imag/issu/top-right.gif); color: #990000 }
+ a:link    { color: #000000; text-decor: underlin; font-weight: normal }
+ a:visit { color: #c84200; text-decor: underlin; font-weight: normal }
+ a:activ  { color: grai; text-decor: none }
+ a:hover   { color: grai; text-decor: none }
+ p.titl   { background: #ffcc99; border-bottom: #ff9966 4px solid; border-left: #ffeedd 4px solid; border-right: #ff9966 4px solid; border-top: #ffeedd 4px solid; color: #990000; font-famili: comic san ms, trebuchet ms, helvetica, arial; font-size: 14pt; font-weight: normal }
+ p.sidebar { background: #ffeedd; text-align: center; border-bottom: #ffcc99 3px solid; border-left: #ffffff 3px solid; border-right: #ffcc99 3px solid; border-top: #ffffff 3px solid; color: #990000; font-famili: comic san ms, trebuchet ms, helvetica, arial; font-size: 10pt; font-weight: bold } 
+ .url      { font-size: 8pt; font-famili: verdana, tahoma, arial }
+-->
+20020717 lockergnom window daili
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  07.17.2002 gnomereport 
+
+free color printer from xerox - $4,500 valu enrol in the xerox freecolorprint program and get a phaser network color printer for free.  small busi, school and non-profit have been particip in thi risk free program sinc 1999. learn more.  
+
+
+fall asleep at the wheel is no laugh matter. still, it kinda
+happen with yesterdai's
+tip. i forgot to mention that the string valu's label
+is "log" (san quot). that wa almost like a cliffhang,
+eh? the oversight wa total my fault. i've been think about
+ask gretchen and brian to help with futur review. don't be
+surpris if that happen soon. i'm sure you'd welcom a femal
+perspect on thi stuff, right? she help on of our landlord
+pick a paint color for the "offic" wall thi even. doe that
+qualifi her to talk about cool stuff that we find for you on the
+internet? you betcha. let's see how she doe with the drape and
+rug. i have a feel i'll be the on tweak furnitur layout.
+shouldn't be too much of an issu - yet. i wonder if ikea ha an
+affili program?
+
+
+
+i've mention how yahoo mail's beta is mangl our comma, but
+did you know that it's also (possibl) rewrit your e-mail? if
+you send an html messag to someon who ha a yahoo.com account,
+someth mai get lost in the translat. try send thi
+sentenc: "my mediev mocha ha an express to evalu."
+again, be sure thi note is sent in html format. the result will
+surpris you. as far as i can tell, thei're do thi to stop ani
+script from be distribut to their user base. i must credit
+marion schroll for make me awar of the "problem." it's kinda
+funni, in a weird sort of wai. not that i would want anyth i
+send chang in ani wai, shape, or form. it beg the question:
+what next? i mean, where doe it all stop? give them a bit, and
+thei just might take a byte. censorship is onli a stone's throw
+awai.
+
+
+
+i realli feel for lockergnomi sharon clark, who ask: "what is
+thi crazi busi with the broadband meter? what thei
+advertis doesn't seem to be what you get. now that i'm fork
+out $60 per month for a suppos meter rate of 640 down / 320
+up, i'm feel clueless and left out in the cold. not sure what
+i'm pai for, not sure what's go on at the offic, not sure
+if i'm cap, not sure if i'm get rip off! can you help me
+out here? i'm feel li to; why can't i download 'til my 40 gig
+is full? that is what thei promis me and that is what i thought
+i wa pai for. i want consist speed - is thi too much to
+ask?" it's not too much to ask the question, but it's probabl too
+much to get the answer. i'm face the same dilemma right now,
+even though cabl-base connect isn't avail in my area.
+expect more and more "filter" to be put in place as time march
+on. watch those eula, folk.
+
+
+
+see you in august,              chri pirillo       
+ gnomedownload
+
+latest download
+antivir pe 6.14.00.63
+mp3 renam 7.1.4.0
+oe-quotefix 1.15.5
+antivir pe f 6.14.00.63
+mykazaa 1.0
+erasetemp 3.1.0.2
+zap audio player 1.20
+pocomail 2.61.1056
+webserv stress  5.3.4
+photomeist 1.04
+popupwar 3.0.75
+disk triag 6.3.1.0
+broccoli ad 2.0
+mail redirect 1.3.240
+mindex imag vie 2.7.16
+
+directori lister v0.5.2 [547k] w9x/2k/xp free
+
+http://freewar.prv.pl/
+
+{list directori content} when i wa younger, i'd get so frustrat at those game where you'd have to pick out all of the subtl differ between two pictur. i'd alwai end up with on or two that i just could never see. when i want to do the same type of comparison between two directori on my comput, i us directori lister and i never miss a thing. not onli doe directori lister displai the content of your chosen directori, it will also let you save the output to an html file. thi is great for web develop who want a quick wai to list the content of a zip file befor archiv it and upload it to their websit. as an ad bonu, directori lister also show the date, time, and attribut of the file in your directori, make it easier than ever to compar the differ in file between two directori.
+
+
+web calendar [25k] w2k/xp free
+
+http://member.lyco.co.uk/bleucanard/webcalendar.htm
+
+{web page remind} surf the web as much as i do, i'll occasion run into a site or page that commit the horrend faux pa of displai an "under construct" banner. i could forget about the site and mayb somehow encount it later, or i could drop the site into web calendar and have thi handi-dandi app remind me to check the page again in a week. the same techniqu hold true for my normal brows... for exampl, i can us web calendar to remind me to check out the digit media newslett everi morn, or to check amazon for a cd that i know will be releas in a week. now, i will have no excus for miss the dvd releas of "lord of the ring"...
+
+
+
+recommend it!
+ gnomeclick
+
+
+
+
+
+
+
+
+
+
+ gnomesystem
+sqlview v2.1.0.20 [5.2m] w9x/2k/xp free
+
+http://mywebpag.comcast.net/fredbubb/softwar/
+
+{view odbc output} sqlview is "a sql databas view util. (it) automat detect all avail odbc data sourc and displai them in an explor-like tree. user(s) mai doubl-click on data sourc to access the databas, brows tabl, execut custom queri and export (the) data to .csv or .xml file." i didn't realli have much on my machin to throw at thi program. howev, the on data sourc i did have (mostli relat to music cd creation) displai perfectli in sql view. (and i have the .csv file to prove it!  nyah!)
+
+
+
+
+recommend it!
+ gnomewildcard
+collegebar v8.0 [5.9m] w9x/2k/xp us$20
+    unearth by shawn verral
+
+http://www.pracx.com/collegebar.asp
+ 
+{mix your own drink} when i wa in colleg, my room us to be known as "the bar." it mai have had someth do with my l-shape desk that resembl a bar, and the fact that i had seen the movi cocktail too mani time and want to be a bottl-flip bartend. i never achiev my goal of be the world's best geek bartend, but mayb with colleg bar i could have. colleg bar contain recip for over 11,600 drink. with an onlin updat featur, you can download new drink as thei becom avail... or you can add your own creativ concoct to the databas! colleg bar also ha a calcul to determin someon's blood alcohol level... drink respons, folk. as an ad bonu, you can load some of your favorit parti pictur into the program and you'll see a slide show of those pictur - a great wai to rememb the good time... unless you don't rememb experienc them in the first place, that is. dude, where's my car?
+
+
+
+
+
+submit your thought | recommend it!
+ gnomefavorit
+
+bui on inkjet cartridg - get two free!! bui 1 get 2 free on most epson, canon, and appl cartridg. wholesal price on lexmark cartridg. free ship on order $25 or more!! u.s. ship onli. click here for a complet list of cartridg.
+
+beliefnet
+
+http://www.beliefnet.com/
+
+{daili enlighten} whether you're buddhist, hindu, muslim, christian, jewish, or anyth els, beliefnet.com ha someth for you. you can sign up for ani of the ten beliefnet newslett - there's even on devot to religi joke. howev, if you aren't look for enlighten for your inbox, then just feel free to brows around. you're sure to find someth interest in the inspir section; the parent section ha help featur and articl. or, test your savvi with "stump our bibl expert." if you're seek someth new in the wai of your spiritu, or ar look for some affirm of your exist belief, it's like you'll find it at beliefnet.
+
+
+
+
+recommend it!
+ gnometip
+
+i am a sucker for keyboard shortcut. anyth that can save me from us the mous is good in my book. occasion i like to view the web or window explor in full screen mode... to do thi i just hit f11 on the keyboard and there i am in full screen mode. hit it again and i am back to regular mode. if you aren't as much of a fan of keyboard shortcut as me, then all you have to do is press and hold the ctrl kei while click on the maxim button and you will have the same effect. you will notic, howev, that your start menu isn't anywher to be seen. never fear, anoth keyboard shortcut is here... just press ctrl kei plu the esc kei and your start menu will be back where it belong. altern, if you have a window kei on your keyboard you can us that kei to bring up your start menu as well.
+
+
+
+
+recommend it!
+
+
+
+http://www.lockergnom.com/issu/daili/20020717.html
+your subscrib e-mail address is: [qqqqqqqqqq-lg@exampl.com] - to unsubscrib or chang your deliveri address, pleas visit the subscript manag page. for further inform, pleas refer to the gnomecredit in the sidebar.
+
+
+
+
+
+look over here
+
+ download our tip file
+
+ latest window daili
+ latest digit media
+ latest tech specialist
+ latest penguin shell
+ latest appl core
+ latest web weekli
+ latest bit & byte
+
+ find the lowest price
+
+ suggest a featur
+ advertis with us
+ the gnomestor
+ high-tech job search
+ chat with gnomi
+ watch the webcam
+ comput power user
+
+ read past issu
+ download x-setup
+ about lockergnom
+ our privaci polici
+ view more option
+ our xml / rss feed
+ syndic our tip
+ link to lockergnom
+ get chri's book
+
+ tell a friend about us!
+
+ gener feedback
+ e-mail the editor
+ the editor's blog
+ 
+search
+
+
+ gnomespeci
+ manag your workgroup
+ form pilot
+ sai the time 5.0
+ boomer - stream now
+ creat web/cd catalog
+ easi web editor
+ kleptomania
+ tag&renam
+ pretti good solitair
+ visual color combo
+ firststop websearch
+ ecobuild
+ book collector
+get list here
+question: which group is 250,000+ strong and alwai look for stuff to make their person and profession live run smoother? 
+
+
+ happi fun stuff
+and now, we see how sprocket think he ha a right to eat pumpkin seed. or, would that be "pupkin" seed?
+
+not for the puppi
+ 
+
+
+click here to zoom
+
+ 
+
+ 
+byte me now
+
+©2002, lockergnom llc. issn: 1095-3965. all right reserv. pleas read our term of servic. our web site is host by digitaldaz. domain regist at dn central.
+
+
+
+
+the "zip" in zip code stand for "zone improv plan."
+
+
+
+

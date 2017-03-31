@@ -1,0 +1,95 @@
+re: realtek ethernet (wa re: recent mobo recommend)ron johnson put forth on 4/14/2010 10:14 pm:
+
+> noth i've seen in dmesg ha ever led me to think that the r8169
+> driver in my sid linux-sourc-2.6.31 kernel (ye, it's old; .32 and 33
+> fail to build) load a blob.
+
+almost all nic load firmwar blob.  it's in dmesg somewher.  when the
+firmwar doesn't load you get someth like thi in dmesg:
+
+eth1: rtl8168d/8111d at 0xffffc90000c4e000,xx:xx:xx:xx:xx:xx, xid 083000c0
+irq 32
+eth1: unabl to appli firmwar patch
+
+that's a past from on of the op here who wa bitten by the 2.6.32-trunk
+upgrad which iirc is the on that rip out the rtl firmwar blob.
+
+i can't find via googl a dmesg snippet of a success rtl firmwar load.
+here's what it look like for intel 8255x us the e100 driver, with the
+firmwar blob all compil into the kernel:
+
+e100 0000:00:0d.0: firmwar: us built-in firmwar e100/d101m_ucod.bin
+
+"built-in" signifi that the firmwar blob ha been includ in the kernel
+at compil time.  i do thi to avoid issu such as thi rtl problem.  it
+onli add a coupl hundr k to the kernel imag.  and i us the vanilla
+kernel.org sourc to avoid ani debian "non-free" issu.
+
+just about everi nic on the planet us a firmwar blob.  there ar, iirc, 3
+wai to load the devic firmwar into the linux kernel.  thi appli to all
+devic that requir soft firmwar, not just nic:
+
+1.  compil all devic firmwar blob into the kernel
+2.  compil the individu blob into the driver, us initrd
+3.  put firmwar file in root filesystem, tell kernel the path
+
+#3 won't work with driver that ar need dure the boot process such as
+block devic driver.  those requir method 1 or 2.  nic should be abl to
+us 1-3.
+
+there ar 3 differ dmesg statement and 3 differ error depend on
+which method 1-3 abov that you're us.
+
+>> at least a coupl of peopl on thi list went out and bought
+>> non-realtek pci
+>> nic to fix the problem instead of revert to the older kernel.
+> 
+> i sort of rememb that.
+
+yeah, i just pull the mail.  on upgrad to 2.6.32-trunk on hi
+firewal, brick it until he disabl the onboard rtl and instal an
+intel e100 iirc.  thei thought it wa a udev issu til i notic the
+firmwar load failur messag referenc up abov in thi email.  the other
+had an rtl wireless that fail for the same reason.  i can't recal how
+thei fix that on.  iirc the op didn't swap hardwar to achiev the fix,
+so thei did someth with the kernel/driver/firmwar.
+
+> i'm not surpris.  sinc i'm onli connect to a small 100mbp lan
+> which then connect to a 12mbp cabl modem, it doesn't realli affect me.
+
+do some ftp or scp test back and forth to anoth lan machin and see what
+transfer rate you get out of that rtl chip.  i bet you get 1/3rd wire
+speed at best, about 30mb/s, if even that.  the machin themselv need to
+be modern to satur the link--no slow cpu or disk.  ani ~2ghz cpu with
+512mb ram and a decent 7.2k rpm sata disk should be abl to push/pull 50mb/s
+across the wire.  for that matter, elimin the disk by creat a 200mb
+ram disk on each machin.  creat a test file with dd and ftp/scp it back
+and forth between the ram disk.  if your rtl chip can peak the wire it'll
+be a 2-3 second transfer if your network chip and linux tcp stack ar up
+to the task.
+
+> mayb if i ever get .32 or .33 i'll squeal in anger.  until then...
+
+it's look like the rtl firmwar blob issu mai have been limit to the
+trunk kernel.  you mai get lucki.  then again, if you roll your own and put
+the firmwar blob in the kernel itself as i do, you shouldn't have a
+problem.  that is, if the debian kernel sourc doesn't have the blob rip
+out for be "non-free".
+
+you mention you had problem build 2.6.32 and .33 kernel sourc.  do
+you us the debian kernel sourc or kernel.org sourc?  i've been us the
+kernel.org sourc for quit some time and have never had ani real problem
+with it (knock on wood).  i had a build problem with .33 a while back but
+that turn out to be due to a slight bit too much overclock on my machin
+in thi warmer weather.  ;)
+
+-- 
+stan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc6960e.7020202@hardwarefreak.com
+
+

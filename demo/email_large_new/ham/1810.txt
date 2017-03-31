@@ -1,0 +1,13 @@
+re: linux compat mainboard -anoth thoughtfrom nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=iso-8859-1
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on wed, apr 21, 2010 at 06:04:01pm +0000, camal=f3n wrote:
+> i find it a bit more difficult to manag (if you chang the kernel, you=
+=20
+> need to recompil the driver again).
+
+imho that onli depend on what debian distro you us :p. i can live with lo=
+gging in to the basic shell, run the .sh again and restart kdm/gdm o=
+nce everi two or three month.

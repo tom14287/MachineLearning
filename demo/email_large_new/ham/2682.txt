@@ -1,0 +1,63 @@
+set up java1.6 on os 10.5hi all,
+
+i'm try to get java1.6 work on my macbook pro 1,1 which ha  
+10.5.8 on it. i've download a packag from the openjdk project, and  
+i've got it setup us the direct
+that i've found at the bottom of thi thread:
+
+http://www.mailarki.com/thread.php?page=1&id;=197627
+
+where i've setup an openjdk6.jar folder in my ~/librari/java/ 
+javavirtualmachin directori. i've got the proper directori  
+structur, but no luck in have it recogn by the
+/usr/libexec/java_home function. nor is it recogn if i try to  
+symlink it as a the 1.6.0 folder in the /system/librari/.../version  
+path. i think then the culprit mai be my info.plist
+file.
+
+doe anyon have ani experi with do thi setup? i've includ  
+what my info.plist look like below to see if it's not format  
+properli.
+
+thank in advanc.
+--
+melih onvur
+http://www.onvur.net/melih
+
+
+cfbundledevelopmentregion
+english
+cfbundleidentifi
+com.exampl.openjdk
+cfbundleexecut
+libjava.dylib
+cfbundleinfodictionaryvers
+6.0
+cfbundlenam
+openjdk 1.6.0
+cfbundlepackagetyp
+bndl
+cfbundleshortversionstr
+1.0.0
+cfbundlesignatur
+???
+cfbundlevers
+1.0.0
+javavm
+	jvmcapabl
+
+		commandlin
+
+	jvmplatformvers
+	1.6
+	jvmversion
+	1.6.0_00
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,52 @@
+re: visual glitch all over the placehi,
+
+i sent the email below earlier todai to thi list, but appar it
+didn't go through. mayb attach ar not allow? if that's the
+case, i apolog.
+
+anywai, the origin email is below, and the figur show the visual
+glitch i mention can be retriev at
+www.cefala.org/~vilela/visual_glitch.png
+
+ani help is greatli appreci.
+
+thank you,
+
+adriano
+
+
+on fri, apr 23, 2010 at 9:57 am, adriano vilela barbosa
+ wrote:
+> hi,
+>
+> i'm us kde 4.3.4 on debian test and over the past few dai i
+> start see lot of visual glitch all over the place. to have an
+> idea of what i'm talk about, pleas take a look at the attach
+> file, which is a screenshot of my desktop. even non-qt applic
+> ar affect. look for exampl at the horizont scroll-bar in the
+> window show an audio waveform at the bottom. it's total
+> corrupt. that's a praat (http://packag.debian.org/squeez/praat)
+> window, which us the lesstif toolkit.
+>
+> these problem happen on my laptop. howev, i don't see ani of that
+> on my desktop, which also run debian test, with pretti much the
+> same set of packag instal. an immedi differ between the
+> two system is that the laptop ha an ati card us the free radeon
+> driver, wherea the desktop ha an nvidia geforc card us the
+> proprietari nvidia driver. i suspect some upgrad over the past few
+> dai is the culprit. i'm go to do some test over the weekend so
+> i can provid more detail, but for now i would like to know if
+> anybodi els ha experienc such problem.
+>
+> thank a lot,
+>
+> adriano
+>
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/l2u1dd9db81004232128te1a60a2ct7c45bbcfc05e5058@mail.csmine.org
+
+

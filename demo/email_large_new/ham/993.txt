@@ -1,0 +1,27 @@
+re: [ilug] autorun cdson fri, aug 16, 2002 at 01:59:55pm +0100, padraig bradi wrote:
+> kenn humborg wrote:
+> >>cheer all for your word of wisdom.
+> >>
+> >>i came across thi which ha work a treat:-
+> >>
+> >>http://www.avdf.com/mar97/art_autorun.html
+> >
+> >
+> >(thi is all window-relat autorun stuff).
+> 
+> which wa obviou sinc he mention:
+> `start file.html`
+> and the reason i didn't repli, doh!
+> 
+i actual assum that the window implement wa the onli
+on he'd seen, and he want the same for linux.
+
+where's that rick moen thing about how to ask a question?
+
+l.
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

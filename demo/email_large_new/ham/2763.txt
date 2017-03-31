@@ -1,0 +1,66 @@
+re: [ilug] how to copi some fileson sat, jul 20, 2002 at 08:24:47pm +0100, aidan keho wrote:
+>  ar an 20ú lá de mí 7, scríobh kevin lyda :
+>  > actaulli i think soft link were invent becaus you can't hard link
+>  > directori. 
+> but you could hard link directori, back when soft link were
+> be invent, afaik. 
+
+that wa befor my time.  all unix system i've us didn't allow hard
+link to directori, or if thei did thei were restrict to root.
+the reason why is becaus you could caus infinit loop in the kernel -
+usual a bad place for infinit loop.
+
+>  > appar some system limit soft link to the same devic but
+>  > gave up after a while.  
+> why?
+
+to make them consist with hard link.
+
+> a better wai of do it would be a) have global uniqu filesystem
+> identifi for everi fs creat (such that the chanc of two of them
+> clash is miniscul; 64 bit creativ us would do it, i'd sai),
+> and b) implement the target info for the soft link as a {fsid, inod}
+> pair; the os can work out if the thing link to is now on a differ
+> mount point, or ha been move. (hf fan, is that what's done? or ar
+> alias implement differ?)
+
+let's call these super-soft-link.  ln -ss
+
+    % ln -ss foo bar
+    % ls -i foo
+    111 foo
+    % mv floyd foo
+    % ls -i foo
+    222 foo
+
+and now bar no longer point to foo.
+
+    % ln -ss foo bar
+    % ls -i foo
+    111 foo
+    % rm foo
+    % touch floyd
+    % ls -i floyd
+    111 floyd
+
+the fs would need to maintain a tabl of link go the other direct.
+so when the move command unlink foo in the first exampl, it could
+check the tabl and mark that bar is now disconnect.  the same would
+be true for the second exampl - and even more import sinc bar point
+to floyd if no tabl is consult.
+
+and thi all fail to handl nf mount file system or filesystem
+that have dynam inod (the fat fs's and reiser lack inod i think).
+
+kevin
+
+-- 
+kevin@suber.net     that a believ is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspac place: home       than a sober on. the happi of credul is a
+http://ie.suber.net/~kevin   cheap & danger qualiti -- g.b. shaw
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie

@@ -1,0 +1,62 @@
+dear hibodi hot 79% off
+
+
+
+newslett
+
+<!--
+a:link
+{
+color: #27a4bf;
+}
+
+a:visit
+{
+color: #c649e9;
+text-decor: underlin;
+}
+
+a:hover
+{
+color: #792002;
+text-decor: none;
+}
+
+weke
+{
+        font-famili: verdana;
+        font-size: 13px;
+        line-height: 13px;
+        color: #435a67;
+        margin-top: 0px;
+        margin-bottom: 6.5pt;
+}
+-->
+
+
+
+
+
+
+to view thi email as a webpag, go here.
+
+
+
+
+
+
+
+
+ 
+thi email wa sent to: hibodi@csmine.org
+thi email wa sent by: aqabisii compani
+        003 ogi street, 5560
+		qenanio, qv 68868  usa
+go here to remov your address. 
+go here to modifi your email address and other subscrib inform and prefer.
+we respect your right to privaci. view our mail host's privaci polici.
+
+
+
+
+

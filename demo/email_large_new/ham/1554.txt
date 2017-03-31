@@ -1,0 +1,53 @@
+re: need help instal an "altern"ron johnson wrote:
+> on 2010-04-08 19:50, godo wrote:
+>> ron johnson wrote:
+>>> hi,
+>>>
+>>> i just local instal upstream firefox, and of cours debian 
+>>> altern doesn't know about it, so iceweasel, which us 
+>>> x-www-browser load iceap, which i don't want.
+>>>
+>>> "updat-altern --instal" seem to be what i want in order to 
+>>> add /usr/local/firefox/firefox to the x-www-browser list, but can't 
+>>> get it to work.
+>>>
+>>> # updat-altern --instal x-www-browser firefox \
+>>>                                        /usr/local/firefox/firefox 3
+>>> updat-altern: error: altern link is not absolut as it 
+>>> should be: x-www-browser
+>>>
+>>> what am i do wrong?
+>>>
+>>> tia
+>>>
+>> hi
+>> first i newer us updat-altern so i don't know but is it mayb a
+>> problem: "firefox 3" in # updat-altern --instal x-www-browser 
+>> firefox /usr/local/firefox/firefox 3
+>> shouldn be /usr/local/firefox/"firefox 3" mayb?
+>>
+> 
+> the paramet to "updat-altern --instal" ar:
+> link      x-www-browser
+> name      firefox
+> path      /usr/local/firefox/firefox
+> prioriti  3
+> 
+> 
+> 
+ahh sorri. wrong interpret.
+
+-- 
+bye,
+goran dobosev
+hrvatski: www.dobosev.com
+  english: www.dobosev.com/en/
+regist linux user #503414
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbe8a00.9040205@dobosev.com
+
+

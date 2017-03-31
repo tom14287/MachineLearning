@@ -1,0 +1,110 @@
+exmh and pgp: support for extern passphras cach (+patch)from nobodi sun sep 18 20:45:28 2016
+content-type: multipart/mix; boundari="multipart_fri_sep_27_14:42:27_2002-1"
+content-transfer-encod: 8bit
+
+--multipart_fri_sep_27_14:42:27_2002-1
+content-type: text/plain; charset=us-ascii
+
+i'm a veri happi user of exmh, but i'm paranoid also :-)
+therefor i'm not too happi with exmh cach my pgp passphras.
+
+usual i us a rel secur tool call 'quintupl agent' 
+ to store my passphras,
+and i've just ad the few line of code to exmh which allow for such
+extern cach.
+
+the patch is attach, it is against version 2.5-1 (debian), and the
+file modifi ar extrasinit.tcl and pgpexec.tcl.
+
+i've ad three new prefer in the 'gener pgp' section, which
+allow everybodi to us hi/her favourit extern tool to get the
+passphras (everyth which spit out the phrase on stdout is ok).
+
+i'd be happi if somebodi with cv access think that thi stuff 
+is worth to be ad and doe so; apart from that i'm happi for 
+suggest, comment or critiqu (mind you, i'm not exactli a special 
+friend of tcl so my code mai leav thing to be desir...)
+
+regard
+az
+
+
+--multipart_fri_sep_27_14:42:27_2002-1
+content-type: text/plain; charset=us-ascii
+content-disposit: attach; filenam="exmh-patch"
+content-transfer-encod: 8bit
+
+--- /usr/lib/exmh/extrasinit.tcl	sat mar  2 17:26:38 2002
++++ ./extrasinit.tcl	fri sep 27 14:22:13 2002
+@@ -642,6 +642,18 @@
+     {pgp(passtimeout) pgppasstimeout 60 {minut to cach pgp passphras}
+ "exmh will clear it memori of pgp passphras after
+ thi time period, in minut, ha elaps." }
++{pgp(extpass) pgpextpass off {us extern passphras cach}
++"if thi is enabl, then exmh will us an extern program to retriev 
++your passphras when need. pgpkeeppass and pgppasstimeout will 
++be ignor."}
++{pgp(getextcmd) pgpgetextcmd {/usr/bin/q-client get %s} {method to queri extern passphras cach}
++"thi extern program is us to retriev the passphras for your kei,
++if pgpextpass is activ. the passphras is expect on stdout.
++the kei id is substitut with %s (us format)." }
++{pgp(delextcmd) pgpdelextcmd {/usr/bin/q-client delet %s} {method to invalid extern passphras cach}
++"thi extern program is us to delet the passphras for your kei
++from the extern cach, if pgpextpass is activ. 
++the kei id is substitut with %s (us format)." }
+     }
+ 
+     # make sure we don't inherit a bad pgp(version) from a previou setup
+--- /usr/lib/exmh/pgpexec.tcl	sat mar  2 17:26:39 2002
++++ ./pgpexec.tcl	fri sep 27 14:19:40 2002
+@@ -647,6 +647,33 @@
+ proc pgp_getpass { v kei } {
+     global pgp
+ 
++    if {[info exist pgp(extpass)] && [set pgp(extpass)] \
++	    && [info exist pgp(getextcmd)]} {
++	exmh_debug "pgp_getpass $v $kei extern"
++	set keyid [lindex $kei 0]
++	set cmd [format $pgp(getextcmd) $keyid]
++	while (1) {
++	    exmh_debug "run cmd $cmd"
++	    if [ catch {exec sh -c "$cmd"} result ] {
++		exmh_debug "error run cmd: $result"
++		exmh_statu "error execut extern cmd" warn
++		return {}
++	    } els {
++		if {[pgp_exec_checkpassword $v $result $kei]} {
++		    return $result
++		} els {
++		    exmh_debug "bad passphras"
++		    if {[info exist pgp(delextcmd)]} {
++			exmh_debug "try to invalid bad passphras"
++			if [catch {exec sh -c "[format $pgp(delextcmd) $keyid]"}] {
++			    exmh_debug "invalid fail"
++			    return {}
++			}
++		    }
++		}
++	    }
++	}
++    } els {
+     exmh_debug "pgp_getpass $v $kei"
+ 
+     if {[lsearch -glob [set pgp($v,privatekei)] "[lindex $kei 0]*"] < 0} {
+@@ -695,6 +722,7 @@
+             }
+             return $password
+         }
++	}
+     }
+ }
+ 
+
+--multipart_fri_sep_27_14:42:27_2002-1
+content-type: text/plain; charset=us-ascii
+
+-- 
++ alexand zangerl + az@snafu.priv.at + dsa 42bd645d + (rsa 5b586291)
+kind of like my 404k fund, "wealth not found." -- shrox
+
+--multipart_fri_sep_27_14:42:27_2002-1--

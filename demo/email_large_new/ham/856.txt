@@ -1,0 +1,33 @@
+re: new gkrellm 2.0.0, gtk2 versionon mon, 26 aug 2002 19:14:54 +0200, matthia saou  wrote:
+
+> hi all,
+> 
+> i've repackag the new gkrellm 2.0.0 which is now port to gtk2
+> (woohoo!). unfortun, the plugin ar incompat with the previou
+> 1.2.x on, and sinc not mani/all have been port yet, i prefer not to
+> releas the packag on the main freshrpm.net site for now.
+> 
+> for those of you who'd like to try it out, you can grab it here :
+> http://ftp.freshrpm.net/pub/freshrpm/test/gkrellm/
+> 
+> i think the theme ar still compat, but haven't tri to instal some
+> with 2.0.0 yet.
+> last note, the abov packag ar for valhalla. and ye, although gnome 2
+> is not in valhalla, gtk2 and glib2 have been from the veri begin! ;-)
+
+    sweet, dude- i wa realli hope it'd be out sooner or later; thank a bunch!
+
+------------------------------------------------------------------------
+brian fahrländer              linux zealot, conserv, and technomad
+evansvil, in                    my voyag: http://www.countermoon.com
+icq  5119262
+------------------------------------------------------------------------
+i've been complain for year, and almost no on listen. "window is
+just easier" you said. "i don't want to learn anyth new", you said.
+tell me how easi thi is:
+http://www.guardian.co.uk/archiv/articl/0,4273,4477138,00.html
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

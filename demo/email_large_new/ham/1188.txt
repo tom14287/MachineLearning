@@ -1,0 +1,60 @@
+re: the futur of "nv" driver (wa: linux compat mainboard -anoth
+ thought)
+on 01/-10/-28163 02:59 pm, boyd stephen smith jr. wrote:
+> and i claim he would be better off us a card that doesn't us firmwar[1]
+> or us free firmwar, sinc non-free firmwar is an issu for distributor
+> and it's rel easi to "accident" particip in distribut
+> softwar in violat of it licens.
+
+that's an interest stick point. in realiti, the probabl of my 
+accident particip in distribut of the softwar is probabl 
+pretti low, but i can certainli see the principl involv.
+
+> i wouldn't want to be stuck without non-free avail, but i recommend make
+> hardwar purchas that allow you to avoid non-free as much as possibl.  i'm
+> gradual move that wai myself.  (desktop and laptop each need on driver
+> from non-free.)
+
+that is most certainli my aim.
+
+> onc you've got the hardwar, you might as well us it, even if it requir
+> non-free driver.  the manufactur ha alreadi got their cut of what you
+> paid; you ar hurt none but yourself by not us it.  you should try and
+> avoid becom depend on that hardwar, sinc that make you depend on
+> non-free softwar.
+
+and, if i were stuck in a situat where i realli, realli need to us 
+(for instanc) proprietari driver so that i could us the 3d 
+acceler capabl of the nvidia card, or if i need to us the 
+wireless card that requir proprietari firmwar, i'd do so -- though it 
+would irk me a littl bit, perhap enough to goad me on into get new 
+hardwar.
+
+it's not a religion, but the idea ar import to me. and, as i said, 
+i'm also just genuin interest in see how well i can do without 
+the proprietari bit. the resolv is made all the stronger by my 
+experi in industri where i see what i think ar some pretti unwis 
+decis be made by compani who ar often unwittingli ty their 
+fortun irrevoc to the whim (busi model, i think thei call 
+them) of other compani -- compani whose interest might (and do) run 
+in a counter direct.
+
+the industri i've work in might not have had veri mani choic (at 
+least without incur huge develop cost) when make their 
+hardwar / softwar decis. but, as an individu, i can do what i 
+dang well pleas -- even if other mai think that it look like i'm 
+just cut off my nose to spite my face.
+
+;)
+
+> [1] "firmwar" here is specif limit to execut data transmit to
+> the devic from a host oper system, and doe not includ execut data
+> load from an eeprom (or similar) that is provid with the devic.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd7208b.1000703@comcast.net
+
+

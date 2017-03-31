@@ -1,0 +1,29 @@
+epiphani browser continu to get wors and worsei am continu to suffer the on-go de-volut of the onc-decent
+epiphani browser under debian squeez.  first thei broke file
+download.  thei still haven't fix that.  i'll bet it's been
+six month or more.
+
+now i can't repli to ani e-mail us the wow basic
+webmail client.  i click on the "repli" button, the mail compos
+screen appear for a fraction of a second, then i get thi error
+screen.  the problem doe not occur with iceweasel.  the problem is
+veri recent.  it broke with a recent
+"aptitud updat;aptitud full-upgrad" sequenc.  i suppos i could
+report a bug, but i'm not about to give them my password so thei
+can logon as me to test it!  i'm go back to iceweasel again.
+i kept us epiphani so i would know when the file download featur
+got fix.  instead thei broke someth els.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/17634273.96763.1271524660328.javamail.root@md01.wow.synacor.com
+
+

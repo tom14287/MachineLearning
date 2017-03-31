@@ -1,0 +1,22 @@
+re: composit two movi> ok... there ar also some warn:
+>
+> 'qtcapturesess' mai not respond to '-setdeleg:'
+> 'qtcapturesess' mai not respond to '-seten:'
+>
+> 'qtcapturevideopreviewoutput' mai not respond to '-connectedchannel'
+> 'qtcapturevideopreviewoutput' mai not respond to '-setvisualcontext:forchannel:'
+>
+> it doe mix two movi now, it just doesn't see my comput's camera.
+
+ye, sure, but my point wa onli about have two movi perfectli in sync,
+and thi sampl code is just a wai to achiev it !
+
+raphael
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

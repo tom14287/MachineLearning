@@ -1,0 +1,61 @@
+re: support appl remot from a java app?the email thread below is from fall of 2006.
+i don't suppos anyon ha ani new comment to add to thi question?
+
+iremot is still popular ( http://danbri.org/word/2009/10/18/478 ).   
+and the licens look friendli.
+
+also i notic thi:
+http://www.martinkahr.com/2007/07/26/remot-control-wrapper-20/index.html
+
+doe anyon have ani first hand experi with these or other  
+possibl?
+
+regard,
+  - jeremi
+
+greg guerin wrote:
+
+> joshua smith wrote:
+>
+> >i would like the allow mac user to control my full-screen java/jogl
+> >applic us the new appl remot thingi.
+>
+> for person us onli, you could us amit singh's iremot:
+>   
+>
+> it emit a line on stdout for everi appl remot command receiv.   
+> spawn
+> it in a child process with exec(), then read the inputstream and  
+> pars the
+> text.
+>
+> the execut for iremot can't be redistribut, henc the "for  
+> person
+> us onli" caveat abov.  howev, you might be abl to negoti  
+> someth
+> with it author.
+>
+> in ani case, exec()'ing a child process and pars it inputstream  
+> seem
+> like an ideal wai to add appl-remot featur to a java app,  
+> becaus the
+> child process doesn't need to depend on or be constrain by the jvm.
+>
+> mayb there's a version of martin kahr's code that alreadi doe  
+> someth
+> daemon-like.  if not, it would probabl be a fairli straightforward  
+> objc
+> tool to write.  much simpler than try to get it to work under  
+> jni, i
+> suspect.
+>
+>   -- gg
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

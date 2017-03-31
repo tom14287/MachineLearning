@@ -1,0 +1,20 @@
+re: [ot] ubuntu vs debian forum (wa recompil the kernel with
+ a differ version name)from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on sun,11.apr.10, 00:00:24, dotan cohen wrote:
+=20
+> i wa think of squeez as (if i'm not mistaken, correct me if i am)
+> lenni is still on kde 4.2.x and open offic 2.x. kde 4.4 is such an
+> improv over 4.2, and ooo 3.2 is world ahead of 2.4.
+
+actual lenni is still on kde 3.5, but you can get ooo 3.2 from=20
+backport.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

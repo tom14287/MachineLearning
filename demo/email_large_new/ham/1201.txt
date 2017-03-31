@@ -1,0 +1,87 @@
+thi littl domain went to china....the riaa continu to amaz me.    everyon might want to grok the
+new yahoo ha:
+
+http://rd.yahoo.com/dailynew/nm/tc_nm/inlink/*http://listen4ever.com
+
+
+and if you're realli bore, go ahead and read the paper that were
+file by the riaa against the major backbon provid.
+
+http://www.riaa.com/pdf/listen4ever.pdf
+
+
+so it look like the riaa is get bore with it usual tack of
+su the peer-to-peer servic, and is instead us the dmca
+to sue isp and backbon into complianc --  thei want said backbon
+to block the ip address of the listen4ever.com server due to
+listen4ever's alleg infring of copyright.  to quot
+the motion that the riaa issu:  "plaintiff request that
+the court issu a preliminari injunct requir defend to block
+commun to and from listen4ever's server that travel through
+defend' backbon rout system".
+
+at least accord to the riaa (probabl for bonu terror tactic )
+the listen4ever site is even more formid than that bane of p2p
+good, napster, due to the fact that it on a central server,
+out of their reach of riaa/dmca control (it locat in china), and
+becaus accord to the riaa it facilit the download of entir album.
+appar listen4ever ha a few other site float around, and the riaa ha been
+unsuccess in get ani of them to voluntarili surrend
+servic(1).
+
+gotta love the riaa for jump into thi lawsuit with the custom's
+interest in mind.  how lawyer can write drivel along the line of
+'if you dont stop these gui, we'll run out of monei and we won't be
+abl to suppli you new music!' just blow my mind, especi in thi
+dai and ag.   the riaa ha enough monei to file inan lawsuit
+against backbon provid, but thei don't have enough monei to
+produc new artist?  someth seem wrong here.
+
+here's my problem.  sai the riaa win in court, and the backbon
+provid compli.   their biggest hurdl is now accomplish, and on
+hell of a terribl precid is/can be set.   at least in the riaa's
+case, i'm sure onc thei get a court-mandat ok for thi particular
+site, thei'll just go ahead, write their nice friendli lawyer letter,
+and demand that subsequ ip address also be block, as thei too
+rout to site that ar problemat to the riaa.
+
+even wors, the concept that other group (the first that flash into
+my littl brain be the scientologist) also decid that thi is the wai
+to go.   if the riaa prevail, thei have record set, albiet in ny
+onli, that can be point back to, and us in other case.
+eventu thi will hit a larg enough court that precid will set,
+ and we have a veri quiet, veri non-report event occur from then
+ on, the systemat c&ding; of the internet.   anyth that violat the
+dmca, given it takedown provis, might now potenti
+fall prei to a ceas & desist letter.  rather than appeal, the
+backbon provid will just agre -- as thei seem like to do
+'provid a court order'.
+
+point be is that soon thi won't take a court order.  a nastygram
+will suffic and we'll wonder where all the new
+music/inform/dissent opinion/ critic went.
+
+thi is a scari road we're run down here.   so nice to see that
+it still hush-hush in the geek commun.
+
+what more bizzar is some of the support(?) that the riaa seem to
+get.   i'm curiou for instanc, how dave farber got drag into
+thi...  (2) dave, you still read fork?
+
+(1) save for on, lmp3.com, which wa list as a redirect site in the
+court document, ha sinc gone down.   their websit ha a humor littl note:  "lmp3
+will be close and will never come back! ".  listen4ever.com is not
+respond, but i'm not quit sure if that due to backbon complianc
+or the site be overburden.
+
+(2) declar of prof. david j. farber:
+http://www.riaa.com/pdf/listen4ever.pdf (p. 95)
+
+
+a veri disgruntl,
+
+bitbitch
+
+
+http://xent.com/mailman/listinfo/fork
+

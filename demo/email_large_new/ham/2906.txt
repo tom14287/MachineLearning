@@ -1,0 +1,41 @@
+re: jokefrom nobodi sun sep 18 20:45:33 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+on tuesdai 27 april 2010 02:50:08 thoma pomber wrote:
+> yo debian, i'm happi for you, and i'ma gonna let you finish, but ubuntu is
+>  the greatest oper system of all time!
+
+i don't find that "joke" funni.  it's not offens or anyth, just the=20
+context is all mess up. =20
+
+> or not! what do you think lol?
+
+i prefer debian becaus more packag ar well-maintain under main.  ubun=
+tu=20
+provid good support for univers, i guess.  but, the fact that ubuntu fee=
+ls=20
+those packag need to be separ just demonstr that thei ar "second-
+class".
+
+ubuntu lt is my second choic, and someth i recommend if it is like t=
+hat=20
+the user want a commerci support contract.  i find the packag manag t=
+hat=20
+ubuntu share with debian to be enough of an advantag to put it abov oth=
+r=20
+solut like rhel or sle(d/s).
+
+i am comfort enough to us and maintain rhel and sle(s/d) in fairli sim=
+ple=20
+environ, if the user ha some specif need for on of those system. =
+=20
+that's rare, but is often relat to third-parti hardwar or softwar be=
+=20
+certifi with on of those.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

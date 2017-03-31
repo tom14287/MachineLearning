@@ -1,0 +1,19 @@
+re: [sadev] [bug 840] spam_level_char option chang/removalfrom nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on fri, sep 06, 2002 at 10:09:19am -0700, bugzilla-daemon@hugh-famili.org=
+ wrote:
+> anoth (or would look terribl).  let's just us a letter.  if
+> aesthet ar your concern, i think an "x" will look just fine.
+
+"x" is fine, but let's not take out the config option.  if peopl realli
+want to have it be someth els, we shouldn't hinder them.
+
+--=20
+randomli gener taglin:
+"and the next time you consid complain that run lucid emac
+ 19.05 via nf from a remot linux machin in paraguai doesn't seem to
+ get the background color right, you'll know who to thank."
+ (by matt welsh)

@@ -1,0 +1,26 @@
+re: debian-user-digest digest v2010 #630on wednesdai 14 april 2010 00:59:14 debian-user-digest-
+request@list.debian.org wrote:
+> > ~$ sudo /etc/init.d/clamav-daemon start
+> > start clamav daemon: clamd error: unknown group 20 incorrect number
+> > of  argument
+> >
+> >  fail!
+> > 
+> >
+> > after latest upgrad. anyon have a quick fix?
+> 
+> ye :
+> chang the 2 line in /etc/clamav/clamd.conf :
+> 
+> localsocketgroup amavi
+> localsocketmod 770
+> 
+> bug #577499
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004141547.08063.d_baron@012.net.il
+
+

@@ -1,0 +1,26 @@
+re: forg whitelist spamon sun, 11 aug 2002, russel turpin wrote:
+
+> if you're us the mail client on your person
+> machin, there's no reason you would need to enter
+> a passphras, unless that is part of how you secur
+> the data on your person machin. you're privat
+
+the origin comment's context wa digit signatur. a digit signatur
+is worth sqrat if ani userspac app or rogu superus code can grab your
+keyr in clear, and send out stuff in your name. a passphras unlock
+the keyr for that particular us is a minim protect (sinc not
+immun to passphras snarfer), but thi is much, much better than alwai
+leav your kei in the lock. (why then have at all the kei, in the
+first place?)
+
+> kei is as secur as ani other data on your machin.
+> if you're work remot, you alreadi have to
+> enter a passphras to get to your email.
+
+a passphras is a (long, secur) password unlock (decrypt) your 
+keyr. you don't us a passphras to read your email. unless it resid 
+on a crypto file system.
+
+http://xent.com/mailman/listinfo/fork
+
+

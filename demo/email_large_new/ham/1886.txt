@@ -1,0 +1,19 @@
+re: advic on 7.3.92 to 7.3.93, and apt compilingonc upon a time, doug wrote :
+
+> perm ar bork on your en/ directori.  can't get in.
+
+inde, sorri.
+fix now, happi download :-)
+
+matthia
+
+-- 
+matthia saou                                world trade center
+-------------                                edificio nort 4 planta
+system and network engin                  08039 barcelona, spain
+electron group interact                 phone : +34 936 00 23 23
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

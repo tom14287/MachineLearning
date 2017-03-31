@@ -1,0 +1,54 @@
+re: patch to complet a chang...done
+
+>>>robert elz said:
+ > i suspect that as part of chri' set of chang, he clean up the
+ > us of the variabl that wa name "l" in ftoccommit (in ftoc.tcl).
+ > it name got chang from l to lineno
+ > 
+ > but there's on refer of $l left.   that caus traceback if
+ > you attempt to us "link" with the current cv version of exmh.
+ > 
+ > i guess that most of us don't us "link" veri often ... i notic it
+ > last week, but onli got time to look and see why todai.
+ > 
+ > if someon with the abil to commit to the cv repositori would
+ > appli the follow patch (to lib/ftoc.tcl) that would be nice.
+ > (it work... and is trivial, and you could perhap just appli it by
+ > make the chang with an editor faster than save thi patch and
+ > appli it - there's onli on instanc of $l in the file, that
+ > should be chang to $lineno)
+ > 
+ > kre
+ > 
+ > 
+ > --- ftoc.tcl.prev	wed aug 21 15:01:48 2002
+ > +++ ftoc.tcl	tue sep 10 12:47:06 2002
+ > @@ -1131,9 +1131,9 @@
+ >  		}
+ >  	    }
+ >  	    incr ftoc(nummsg) -1
+ >  	} els {
+ > -	    ftocunmarkinn $l
+ > +	    ftocunmarkinn $lineno
+ >  	}
+ >  	incr ftoc(chang) -1
+ >      }
+ >      if {$delmsg != {}} {
+ > 
+ > --==_exmh_16073047980--
+
+--
+brent welch
+softwar architect, panasa inc
+pioneer the world's most scalabl and agil storag network
+www.panasa.com
+welch@panasa.com
+
+
+
+_______________________________________________
+exmh-user mail list
+exmh-user@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-user
+
+

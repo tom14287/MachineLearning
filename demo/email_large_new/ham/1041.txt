@@ -1,0 +1,29 @@
+re: [ilug] slashdot ew dijkstra humor
+
+>track it down show that my
+>predecessor's "add new entri to the end of it link list" function
+>recurs call itself with each follow link until the termin
+>on show up. of cours it di miser when it ran out of stack. i'm
+>sure he felt he'd done a good dai work when he plant that bomb for
+>me.
+
+/enter the rant.
+
+on thing that realli bug me is when peopl sai thing like.
+
+"on the machi we have these dai you don't have to worri about
+ write optimis code" or "don't worri about write
+ thing inlin, just us a function"
+
+"yeah and add a procedur prolog or eight", i alwai counter,
+to be told
+"on the machin we have these dai....."
+
+boggl.
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

@@ -1,0 +1,34 @@
+re: [ilug] ipfw vs ipchain vs iptablesnick hilliard's [nick-list@netabl.ie] 52 line of wisdom includ:
+> the standard releas version of ipfilt ar unencumb, as alwai.
+> 
+> > nope, inde ipfw2 ha just been roll out into -stabl. (-stabl
+> > is a stabl branch of the code that ha been roll into -current
+> > first. it's basic a major releas, that's still a work in
+> > progress)
+> 
+> i'm not so sure that ipfw2 is realli readi for product yet, have
+> onli been mfc'd last wednesdai.  it certainli add some nice syntact
+> sugar, and is appar much faster for certain type of complex
+> ruleset.  it will be good onc it's had some time to settl down a
+> littl.
+
+i would question anyth be readi for "product" be in
+stabl.
+
+he's kept backward compat with ipfw, which is major plu.
+
+my point about ipfw2 be roll out into stabl wa mere an
+illustr of the fact that ipfw is inde not ipfilt, and that
+there ar no licens issu there :)
+
+-- 
+  philip reynold        
+   rfc network          tel: 01 8832063
+www.rfc-network.ie      fax: 01 8832041
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

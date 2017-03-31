@@ -1,0 +1,48 @@
+re: what need to improv in kde 4?well, i have an issu that remain on my debian system from kde 4.3
+or even 4.2 (and i have it now in 4.4).
+it's a krunner freez when type (usual i got it when i mistyp someth).
+if i'm not alon, then it's definit the bug that must be solv.
+
+--
+best regard,
+valentin pavlyuchenko
+
+
+
+2010/5/10 dotan cohen :
+> pleas tell us what problem, bug, or issu kde 4 that make it
+> difficult to us. pleas be veri specif so that bug can be file
+> and the softwar can be fix. gener statement such as "kde4 sux"
+> ar not welcom, as thei do not give ani indic as to what can be
+> fix.
+>
+> comparison to kde 3 ar welcom, but pleas do not simpli state
+> "should be like kde 3". rather, pleas state how kde 4 behav, and
+> how you would prefer it to behav (even if that mean describ in
+> detail kde 3 behaviour).
+>
+> my intent is to file issu and get bug fix, not to fight.
+> nobodi is order to particip in thi thread, but all ar welcom.
+>
+>
+> --
+> dotan cohen
+>
+> http://bido.com
+> http://what-is-what.com
+>
+>
+> --
+> to unsubscrib, email to debian-kde-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+> archiv: http://list.debian.org/aanlktilqtvstnerew1lmnlsyto1-3zpxsygph-tejgiv@mail.csmine.org
+>
+>
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktilmjh5xc584vbdbnqgdnjrxpzxy-gjzkobtjtc0@mail.csmine.org
+
+

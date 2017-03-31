@@ -1,0 +1,44 @@
+[sadev] [bug 1052] new: bondedsend.com is a scamhttp://www.hugh-famili.org/bugzilla/show_bug.cgi?id=1052
+
+           summari: bondedsend.com is a scam
+           product: spamassassin
+           version: unspecifi
+          platform: other
+               url: http://www.bondedsend.com/
+        os/version: other
+            statu: new
+          sever: normal
+          prioriti: p2
+         compon: rule
+        assignedto: spamassassin-devel@exampl.sourceforg.net
+        reportedbi: friedman+spamassassin@splode.com
+
+
+the default score for bondedsend-certifi domain is -10, but i do not
+believ thei should be trust and encourag you to chang the default.
+
+* i have been spam by their custom.
+* there is no document on their websit about how i can complain about
+  thi and have their custom financi penal for send me unsolicit
+  mail.
+* what proof do ani of us have that thei realli even do anyth about it?
+  their contract is with their custom, not with us.
+
+thi is a scam!  don't trust them!
+
+
+
+------- you ar receiv thi mail becaus: -------
+you ar the assigne for the bug, or ar watch the assigne.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-devel mail list
+spamassassin-devel@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-devel
+
+

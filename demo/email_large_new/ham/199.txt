@@ -1,0 +1,16 @@
+re: filesystem recommendationson 4/26/2010 2:14 am, stan hoeppner wrote:
+
+> xf ha had just as much develop support in linux as ext3/4 have,
+> possibl more in some area.
+
+what doe thi prove?  develop doe not equal support.
+
+maa
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd54a7f.5010908@allum.com
+
+

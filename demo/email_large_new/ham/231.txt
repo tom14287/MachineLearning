@@ -1,0 +1,450 @@
+[infoworld] ballmer describ what a chief softwar architect doesrohit wa wonder what microsoft's definit of a chief softwar
+architect is (and, consequ, what microsoft think is a roadmap).
+here you go, from mr. ballmer to mr. gillmor to mr. fork...
+architectur is war; love 'em or hate 'em, at least microsoft
+understand that: as chief sa, billg overse all product strategi.
+
+"there ar two thing a road map can be. on is just a piec of paper
+that tell what everyon is do and record a bunch of bottom-up
+plan. or it can be someth where we impos more broadli our vision
+from the top. we ar not go to try to get everyth share. ...
+that's a path for get everyth stop up. but at the same time we
+ar try to take the top four or five thing we ar try to do in
+the longhorn wave, yukon wave, or the .net wave and realli have enough
+time to have some cross-cut discuss about how we make that happen."
+
+"bill [gate] is dedic full-time to be chief softwar
+architect. he also happen to be chairman of the compani, but he spend
+most of hi time be chief softwar architect. we have a bodi now that
+meet everi month -- the sltt [senior leadership technic team],
+basic the top peopl involv in the product-creat strategi --
+and we present and discuss the issu. bill is drive a process for
+each of these wave. for instanc, [he will ask] what ar the
+cross-cut scenario that i want, and then [he will] get all the
+right product group togeth and bring these thing in front of the sltt."
+
+"peopl talk about what it take to be a good manag, and peopl talk
+about be a good coach and get peopl to like you. in a larg
+organ those thing ar import, but at a certain level, ... the
+most import thing you can do for your peopl to make them better is
+to give them a framework where thei can work in harmoni with the other
+peopl in the compani. and from bill's perspect, [thi framework] is
+the technic road map and the sltt process; it is the scenario. from
+my perspect, it is the p&l; [profit and loss] structur and the
+multipl busi becaus, given how we work, give peopl a
+framework that get them to make the whole bigger than the sum of the
+part will mean we have better offer."
+
+
+
+http://www.infoworld.com/articl/pl/xml/02/07/22/020722plballmer.xml
+
+ballmer in charg 
+juli 18, 2002 1:01 pm pt
+
+no on know better than microsoft ceo steve ballmer that, as the .net
+platform evolv, the success of microsoft depend on how well the
+compani coordin it tool, server, and client strategi and how well
+it commun that vision. in an interview with infoworld test center
+director steve gillmor and infoworld editor at larg ed scannel at
+microsoft fusion 2002, ballmer discuss the progress of .net, chang
+in the compani's approach to product develop, and microsoft's
+effort to simplifi product licens and inspir trust in custom and
+partner.
+
+> last time we talk wa two year ago, at the begin of the .net
+> era. so where ar we now in the .net evolut?
+
+let me start by talk about where i think we ar in the xml revolut
+first, and then [i will] talk about where we ar with .net. i believ
+that the it industri collect decid over the last three or four
+year that the world wa go to be replatform with xml as the kei
+foundat. it's not like anyon ever got togeth to decid thi, but
+it's like magnet north, where it's been clearli indic that
+everyon is ralli around the concept. but i think the degre to which
+[xml] is pervas might still be underestim. a lot of partner,
+even at thi confer, see it as b-to-b for big compani. but it is
+realli about the wai softwar in gener is design. it is all about
+the wai secur should work. manag -- everyth is chang.
+
+so to answer your direct question, two year ago i might have said the
+juri is still out about whether [xml] wa go to happen. we were
+question if it wa go to be a legitim competitor to java. but
+now the world ha decid to embrac [xml] as the basi for the next
+gener of technolog. and there ar a lot of benefit that come with
+it. could it have been someth other than xml? sure it could have. it
+wasn't the specif technic implement; it is mere the fact that
+it come out of internet standard. it ha deeper semant abil. it
+is all about interoper and connect.
+
+so in that context, where ar we with .net? i'll sai a coupl
+thing. no. 1, i would sai we have some momentum in the market. we have
+custom us the .net product line, like merril [lynch], credit
+suiss, mark & spencer, citibank, and a varieti of other. peopl who
+ar do some thing for real. i feel like the degre we ar out front
+is in some wai smaller and in some wai larger.
+
+> how so?
+
+smaller in the sens that everyon is talk the xml talk, even sun;
+bigger in the execut sens: we've deliv. we deliv the first
+batch of product that realli were built xml to the core -- visual
+studio .net and biztalk server -- and we ar get traction. so i feel
+good about where our execut is rel to everyon els. that is not
+to sai that other peopl aren't do some reason bolt-on xml
+support for the stuff thei have.
+
+> you have some heavi lift to do to convinc your custom and
+> partner to follow along. what do you have to do to set the standard
+> for adopt and upgrad to thi next gener?
+
+we have to present the pictur that we ar behav consist within
+the framework of focus on custom issu and custom satisfact
+and trustworthi comput, which we have articul. now there ar some
+thing i would have done differ, in 20-20 hindsight. i would have
+increas the focu on not just secur but deploy, becaus a lot
+of the secur problem ar actual deploy problem. we have the
+fix, but sometim we can't get the tool in their hand to deploi those
+fix fast enough. licens -- i know i would have given more time, and
+there ar better wai to plan around the kind of chang we made. we
+ar still go to have to get smart about the full ramif.
+
+> do you expect ani chang to be made between now and juli 31 to
+> licens 6.0? there is a lot of push-back on thi.
+
+no, there is noth that will happen between now and juli 31. and we
+will continu to learn over time what we need to do to earn our
+custom' trust and earn their busi. i think mani of the peopl who
+ar push back realli don't even know the new term.
+
+> isn't that your fault for not educ them?
+
+ye, it is our fault. but you meet with plenti of custom whose
+compani alreadi have licens, and thei ar sai, 'i think there's a
+problem.' i don't deni there ar some problem. i am sure there ar some
+issu we will have to work on over time.
+
+after juli 31 we ar go to see what the real issu ar. i wa
+talk to a custom at the show who wa sai he thought there would
+be a problem, and i told him that we just complet a deal with hi
+compani and that he is now univers licens and that total cost to
+hi compani ar now lower than thei were befor. and he said, 'oh realli?'
+
+so we'll go through juli 31. we have a lot of custom who have sign
+licens, and i am sure we ar go to find some issu. my bigger
+concern todai ar probabl not in the larger account, but there mai be
+some issu we need to address among the smaller-size compani, and we will.
+
+> how doe the .net initi chang the wai in-hous client and server
+> develop work togeth? 
+
+what we ar try to do for the health of .net and the health of the
+compani and the saniti of the peopl who work there and the qualiti of
+the product we produc is to have a more orchestr, ¸ber-road map
+of where we ar go.
+
+now there ar two thing a road map can be. on is just a piec of paper
+that tell what everyon is do and record a bunch of bottom-up
+plan. or it can be someth where we impos more broadli our vision
+from the top. we ar not go to try to get everyth share. ...
+that's a path for get everyth stop up. but at the same time we
+ar try to take the top four or five thing we ar try to do in
+the longhorn wave, yukon wave, or the .net wave and realli have enough
+time to have some cross-cut discuss about how we make that happen.
+
+bill [gate] is dedic full-time to be chief softwar
+architect. he also happen to be chairman of the compani, but he spend
+most of hi time be chief softwar architect. we have a bodi now that
+meet everi month -- the sltt [senior leadership technic team],
+basic the top peopl involv in the product-creat strategi --
+and we present and discuss the issu. bill is drive a process for
+each of these wave. for instanc, [he will ask] what ar the
+cross-cut scenario that i want, and then [he will] get all the
+right product group togeth and bring these thing in front of the sltt.
+
+peopl talk about what it take to be a good manag, and peopl talk
+about be a good coach and get peopl to like you. in a larg
+organ those thing ar import, but at a certain level, ... the
+most import thing you can do for your peopl to make them better is
+to give them a framework where thei can work in harmoni with the other
+peopl in the compani. and from bill's perspect, [thi framework] is
+the technic road map and the sltt process; it is the scenario. from
+my perspect, it is the p&l; [profit and loss] structur and the
+multipl busi becaus, given how we work, give peopl a
+framework that get them to make the whole bigger than the sum of the
+part will mean we have better offer.
+
+> it seem the scenario construct is realli work for you. is thi an
+> evolut of the solut approach? 
+
+i would sai it is a pretti direct extrapol from the solut
+stuff, onli i think we ar just get a littl more experi. i
+think we us the word scenario more often and solut less, becaus
+solut sound more like a fix thing. at the end of the dai, most of
+the thing we do ar customiz and programm, and so peopl make
+them into the solut thei want. but thei ar still scenario. what
+will softwar deploy look like? well, that is a scenario becaus it
+involv window, offic, and other applic.
+
+we ar work hard to make sure the whole is bigger than the sum of the
+part. that's not to sai peopl ar alwai comfort with thi. i
+can't even sai we will do it perfectli. all we have to do is do it a lot
+better than we had been do it. i think that would be a big step
+forward for the custom.
+
+> will thi approach cut down on some of the technolog civil war
+> microsoft ha had in the past involv who is go to gain control of
+> a project? thi seem to be a veri democrat approach to develop.
+
+i would not us the word democraci to describ it. peopl have to come
+togeth and ultim make some decis. thi is not a vote
+process here, the agenda of what we think is import. we get a lot of
+input. [but] onc it is decid, peopl don't get to vote with their feet.
+
+we try to make a quantum leap here in term of our abil to improv
+pull togeth all the piec. our custom want us to do
+that. simplifi concept by unifi them. the custom don't sai
+thei want us to do that, but when we do do that, thei go, 'ahhh, i get
+it. that make sens.'
+
+i don't want to go to six more meet where peopl sai, 'is your
+workflow strategi biztalk?' ... or 'what's your offic workflow
+strategi?' or 'why is synchron in some wai better for e-mail and
+outlook than it is for file folder and web page?'
+
+to get that sort of synchron sometim -- to get that high-level
+road map to work -- you have to build someth we don't have todai. so
+we have been talk about unifi storag. and so the best wai to get
+all thi stuff to work is to get them all to work just on wai. then you
+just keep tune on set of paramet instead of have a thousand
+flower bloom.
+
+> in your fusion keynot todai, you talk about who your competitor
+> ar, and it wa the usual suspect. but on you didn't mention is
+> yourself. you ar compet against the last gener of your technolog.
+
+alwai. given that our stuff doesn't wear out or break down -- you can
+question whether it break or not [ballmer grin] -- but it doesn't
+break down like machineri doe. to get anyon to do someth new, we
+have to have someth interest and innov.
+
+peopl think, ok, should we just do more upgrad or try to sell more
+new product? we decid that user like us to do a level of system
+integr so thei don't have to get involv in that. so take
+sharepoint team servic, which we put in offic. we could have sold
+team servic as a separ product, and we could have introduc a new
+sku [stock keep unit]. we could have decid if it should work down
+level with the old offic or just the new version of offic, and we
+could do that with real-time commun. but we tend to like to put
+thing togeth, integr them, and then releas batch?1202?-- which
+ar then 'upgrad' -- as a form of introduc our new innov. but
+no matter how you do it, becaus our stuff doe not wear out, we have to
+convinc peopl that some idea we have is better or more power than
+the older idea we had.
+
+and there ar two aspect of do that. on aspect is, on a given
+product or upgrad releas, doe that make sens? or do we convinc you
+that over an nyear period of time we will have enough innov that
+you will want to be licens for that innov. and thi is part of
+thi whole licens discuss we ar have.
+
+we move to the new licens for two reason, i would sai. no. 1, we
+want to simplifi our licens. when we look back a year from now, i
+guarante you that where we ar now is simpler than where we
+were. noth is simpler dure a transit becaus thei ar learn
+the new and ar more familiar with the old, but i think peopl will
+eventu realiz thi is simpler. our licens got pretti complic
+over the year, and some peopl came to not understand it all.
+
+the other issu is [the time of deliv] our innov. i don't
+want to have a lot of rough question [from custom]. so when we do
+have new idea, it's like, ok, should we put it in thi upgrad or that
+on or just have a stream of stuff that onli our best custom have
+access to under the term of their contract? i think in the long run we
+have a better chanc of satisfi them with the latter than with
+hit them with six differ upgrad. i am a fan of [let] the
+custom decid, ok, i want that piec or thi piec. but thei ar
+licens for all of it. so those ar the two thing we sought to do.
+
+> that get back to the trust issu, where if you front-load it, that's
+> the big, lumpi upgrad; and if you back-load it with the vision, the
+> .net 2003 server, you have a long gap in the middl where you have to
+> sell into an untrust audienc.
+
+the truth is, we need to be better at both. there ar some thing you
+can onli do big and lumpi, like a new file system. it's not like some
+sort of small user featur; if you chang the file system, then the
+storag, the backup, probabi those thing ar go to chang. probabl
+the shell ought to chang.the applic ... a lot of thing ar go
+to chang. can you call that lumpi? or you can put out four new featur
+in powerpoint, sure -- that would not look lumpi to user.
+
+i think we have to build trust in the model, and we ar go to have to
+deliv more over time. it will not come overnight. peopl will have to
+see that we do a few thing, ... that not all of our innov is
+lumpi, that more of it come evenli and steadili. peopl develop a
+confid and faith; thei like both aspect of the model. over time,
+our support need to becom more intim involv in that stori.
+
+we know that, but we don't know exactli what that mean yet. and thi
+whole notion of softwar as a servic -- thi is not a licens or
+busi discuss. it's how doe softwar get rearchitect in the
+world of the internet? i mean, how mani softwar product ar
+fundament differ becaus of the internet? not mani. probabl the
+anti-viru gui keep up the best. thei ar alwai feed new viru
+support in. i ask the audienc [at fusion] how mani us window
+updat. now that's a small piec of softwar, but it is big. that's the
+consum market; we've got to get that to realli purr in the corpor market.
+
+> the lack of broadband build-out and adopt seem to be hold up
+> the abil for user to take advantag of some new servic you're
+> talk about. when bill [gate] invest in comcast cabl, it
+> trigger the babi bell to get on board with dsl. what ar you do
+> now to deal with that issu?
+
+the no. 1 thing is, we have to make softwar that is so compel that
+peopl will start sai, 'well, of cours i am go to get broadband.'
+
+> and 802.11 is on of those compel featur?
+
+ye, it is. i wa in a hotel in sun vallei, [utah], thi week that wa
+not wire. so i turn on my pc, and xp tell me there is a wireless
+network avail. so i connect to someth call mountain. well, i
+don't know what that is. but i have a vpn into microsoft; it work. i
+don't know whose broadband i us. i didn't see it in bill's room. i
+call him up and said, 'hei, come over to my room.' so soon everyon is
+there and connect to the internet through my room.
+
+we have to support all the modal, whether it is gpr [gener
+packet radio servic] or 802.11. we have to make it easi to provis
+from a softwar perspect for thing that go on with dsl [and] cabl
+modem. ... and the softwar ha to want a broadband link. there ar not
+mani thing you do where you sai i realli care about the perform. if
+i am download powerpoint file, then i want broadband. so when you
+can do thing with speed that you otherwis can't do without speed, that
+is go to put a lot of pressur on the broadband commun.
+
+that's the weird answer. the more normal answer is, yeah, isn't it
+aw: there is not enough broadband, and the price thei charg ... . i
+agre with all that. if you look at what happen in japan recent,
+there wa a big drop -- it is now $25 a month for dsl. vroom. thei have
+gone from almost no dsl connect a year ago to 1.5 [million] or 1.8
+million [subscrib].
+
+> so how do we make that happen in thi countri?
+
+i think that is beyond us. if there is enough interest where the
+consum ar look intens for broadband, whether it is at todai's
+price or tomorrow's price, that is go to shake out the
+marketplac. and i think the marketplac will do a good job. we just
+have to make it someth obviou that consum want. now i happen to
+live in a neigborhood where there is no broadband network. no dsl or
+cabl modem. well, i have a neighbor, [teledes chairman and co-ceo]
+craig mccaw, who ha a wireless network that i think i can piggyback off
+of [ballmer laugh]. so, ye, broadband is a bottleneck -- but i also
+think we have to look at ourslev as a softwar industri and sai,
+'aren't we, too, some of that bottleneck?' we have not built softwar
+that make broadband a must-have.
+
+> microsoft ceo weigh in
+> 
+> ballmer address a number of kei issu for custom and partner.
+> 
+> on secur and trust: "there ar some thing i would have done
+> differ."
+> 
+> on coordin product group: "we ar work hard to make sure
+> the whole is bigger than the sum of the part."  
+>
+> on product licens: "we ar still go to have to get smart
+> about the full ramif." 
+
+
+----
+adam@xent.com -- long .sig alert!
+
+
+
+i believ it is quit possibl to product appli both supposedli
+incompat approach [rest & soap] togeth.  i'll sketch it out
+below, both in prescript form.  note: while thi is proscript, it
+is expect that local adapt will be provid.
+
+1. start by model the persist resourc that you wish to expos.
+by persist resourc, i am refer to entiti that have a typic
+life expect of dai or greater.  ensur that each instanc ha a
+uniqu url.  when possibl, assign meaning name to resourc.
+
+2. whenev possibl, provid a default xml represent for each
+represent.  unlik tradit object orient program
+languag where there is a uniqu getter per properti, typic there
+will be a singl represent of the entir instanc.  these
+represent will often contain xlink (a.k.a. pointer or
+refer) to other instanc.
+
+3. now add high level method which take care of all composit creat,
+updat, and delet oper.  a kei aspect of the design is that
+messag for these oper need to be self contain - both the
+sender and receiv should be abl to make the absolut minimum of
+assumpt as to the other's state, and multipl request should not be
+requir to implement a singl logic oper.  all request should
+provid the appear of be execut atom.
+
+4. queri oper deserv special consider.  a gener purpos
+xml syntax should be provid in everi case.  in addit, when a
+reason expect exist that queri paramet will be of a
+rel short size and not requir signific encod, then a http
+get with the paramet encod as a queri string should also be
+provid.
+
+implic  
+
+the follow tabl emphas how thi unifi approach differ from
+the "pure" (albeit hypothet) differ posit describ abov.
+
+1. resourc -- post oper explicitli have the possibl of
+modifi multipl resourc.  put and delet oper ar rare
+us, if ever.  get mai contain queri argument.
+
+2. get -- get must never be us for oper which observ chang
+the state of the recipi.  post should be us instead.
+
+3. messag -- do not presum that url ar static, instead presum that
+thei identifi the resourc.  in particular, recogn that url can be
+dynam gener.  expect url of other soap resourc in
+respons.  us the soap respons mep for pure retriev oper.
+
+4. procedur -- treat the url itself as the implicit first paramet.
+allow url to be dynam gener, and return in structur.  us
+http get for retriev oper.
+
+conclus  
+
+look to the futur, the applic level inter-network protocol
+that emerg todai will like be the applic level intra-network
+protocol of the next decad.  both rest and soap contain featur that
+the other lack.  most significantli:
+
+rest - soap = xlink
+
+the kei bit of function that soap applic miss todai is the
+abil to link togeth resourc.  soap 1.2 make signific progress
+in address thi.  hopefulli wsdl 1.2 will complet thi import work.
+
+soap - rest = store procedur
+
+look at how other larg scale system cope with updat provid some
+kei insight into product area for futur research with respect to rest.
+
+final, it bear repeat.  just becaus a servic is us http get,
+doesn't mean that it is rest.  if you ar encod paramet on the
+url, you ar probabl make an rpc request of a servic, not retriev
+the represent of a resourc.  it is worth read roi field's
+ thought
+on the subject.  the onli except to thi rule that is routin
+condon within the rest crowd is queri.
+
+  -- sam rubi, http://radio.weblog.com/0101679/stori/2002/07/20/restsoap.html
+http://xent.com/mailman/listinfo/fork
+
+

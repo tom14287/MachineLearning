@@ -1,0 +1,25 @@
+re: us new apt to do null to rh8 upgrad?onc upon a time, ""angl" wrote :
+
+> matthia saou (matthia@egwn.net) wrote*:
+> >you're realli better off backup all place where you know you've hand
+> >edit or instal some file. for me that's onli /etc/, /root/ and
+> >/home/. then you reinstal cleanli, format "/", put your /home/ file
+> >back into place and you're readi to go.
+> 
+> matthia i gotta believ you, i've been us your rpm for some time now
+> :) that's the wai i'll do it.
+
+i'm no "messiah", just do what you think suit you the best :-)
+
+matthia
+
+-- 
+clean custom red hat linux rpm packag : http://freshrpm.net/
+red hat linux releas 7.3 (valhalla) run linux kernel 2.4.18-10acpi
+load : 0.05 0.06 0.03
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,50 @@
+re: what need to improv in kde 4?on 12 mai 2010 09:58, ferdinand thomm  wrote:
+>> > nepomuk / strigi need to improv a *lot*.
+> ye, for sure
+
+it ha, it's down to 2 mb of memori in kde 4.5.
+
+
+>> what version? strigi in 4.4 seem rather usabl, those issu sound
+>> like familiar 4.3 issu.
+>
+> the whole virtuoso/strigi ensembl need a lot of polish. it is not re=
+adi
+> for simpl usag yet.
+> i have spent some dai fiddl with that stuff base on my own experienc=
+e and
+> feedback i got from user at sidux.
+> the best wai i found to have a usabl index is:
+> =c2=a0- stop nepomuk and strigi in systemset
+> =c2=a0- move awai or delet everyth in:
+> ~/.kde/share/app/nepomuk/repositori/main/data/virtuosobackend
+> (there might be incompat databas from virtuoso 5.x in there)
+> =c2=a0- out and back in to your account
+> =c2=a0- start nepomuk andv strigi
+> =c2=a0- let it do the index
+> =c2=a0- test (in dolphin, krunner is unreli atm) your index
+> =c2=a0- see if e.g. file under kmail got index
+>
+> for me to have a complet index i had to do 5 run of strigi.
+> in the first 3 run it would not even touch ani dot file under .kde
+> in the end it work fine now but popular search us a lot of ram.
+>
+
+pleas test strigi and nepomuk in kde trunk / 4.5, and if you have
+problem let me know or file issu. it's all been heavili rework
+and should realli be usabl now.
+
+
+--=20
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktikfcrd13r2hral2uiw1ochlzwijvkcmg_kei_b@mail.csmine.org
+
+

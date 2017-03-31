@@ -1,0 +1,19 @@
+problem with xosd-xmmsafter instal and enabl xosd-xmm i get the follow error when
+try to start xmm
+
+xlib: unexpect async repli (sequenc 0x30)!
+
+xmm start, but it doe not detect mous command.
+
+thank,
+mike
+-- 
+d. michael basing
+dbasing@speakeasi.net
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

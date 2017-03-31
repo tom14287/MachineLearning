@@ -1,0 +1,20 @@
+re: icedov alwai load epiphani when url is clickedon my system, sid, thi command wouldn't work:
+
+>$ updat-altern --displai x-www-browser
+
+thi command will:
+
+$ updat-altern --config x-www-browser
+
+why is that?
+
+-- 
+c
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100415130630.23ae910e@mondo
+
+

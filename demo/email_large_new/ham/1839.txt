@@ -1,0 +1,39 @@
+re: recompil the kernel with a differ version nameon 04/08/2010 12:06 pm, jochen schulz wrote:
+> lorenzo bettini:
+>>
+>> sorri i past the wrong name: --revis actual took effect sinc the
+>> gener .deb is now (note the 'lore01')
+>>
+>> linux-imag-2.6.32.10+drm33.1-recompil_lore01_i386.deb
+>>
+>> but what i need to do is to get rid of '+drm33.1' which seem to be
+>> automat ad...
+>
+> take a look at the first few line of the makefil in the top-level
+> directori of your kernel sourc. it might be defin in there (for a
+> reason).
+>
+> j.
+
+found it:
+
+extravers
+
+i chang it and now it work fine :)
+
+thank
+	lorenzo
+
+-- 
+lorenzo bettini, phd in comput scienc, di, univ. torino
+home: http://www.lorenzobettini.it music: http://www.purplesuck.com
+blog: http://tronprog.blogspot.com  http://longlivemus.blogspot.com
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hpkj0o$qdj$1@dough.gmane.org
+
+

@@ -1,0 +1,22 @@
+re: batteri monitor tool?simon chen wrote:
+> i mai be a light debian user. 'caus i simpli us gnome power manag as
+> batteri tool, suppos to be the default power manag in gnome. i think
+> it is kind of dull. i've found batteri us up much more quickli under
+> debian than it under window(ye, i'm us a dual-boot laptop).
+> 
+
+
+a good start point to evalu potenti batteri wast is the tool
+powertop. some x server can help to save energi with dynam clock set.
+
+-- 
+regard,
+jörg-volker.
+
+
+-- 
+to unsubscrib, email to debian-laptop-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hqkvko$d2e$1@dough.gmane.org
+
+

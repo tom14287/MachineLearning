@@ -1,0 +1,39 @@
+re: make onscreen font read-abl[wa:new monitor, how to chang 
+	screen resolut?]from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+on thu, apr 29, 2010 at 9:39 pm, camal=f3n  wrote:
+
+> on thu, 29 apr 2010 21:27:59 +0200, jame stuckei wrote:
+>
+> (...)
+>
+> > i don't recal how the config file wa made. the resolut i want is
+> > 1920x1080. restart x gave me thi resolut. now my font on screen
+> > (like on the menu bar in iceweasel/icedov, for exampl) aren't too ea=
+y
+> > to read. thei just don't look right. how do i fix that?
+>
+> that is probabl due to a low dpi valu. you can chang it to whatev
+> valu you feel more confort with.
+>
+> dpi valu can be modifi in gnome under "font set / detail" and
+> in kde there should be a similar wai under it control center / font.
+>
+> a valu of "96 dpi" should render font just fine.
+>
+> greet,
+>
+> --
+> camal=f3n
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact
+> listmast@list.debian.org
+> archiv: http://list.debian.org/pan.2010.04.29.19.39.08@csmine.org
+>
+>
+i don't us gnome or kde.

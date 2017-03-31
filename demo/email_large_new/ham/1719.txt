@@ -1,0 +1,22 @@
+compil multipl java toolsi'm not sure thi is the right list to write to... sorri in ani case...
+
+i have three differ tool (e.g. a, b, c) that us the same packag (a 
+packag i creat).
+is there a wai to put it all in a sing xcode project that creat the 
+packag, then a.jar, b.jar and final c.jar?
+i tri with multipl target, but it didn't work (mai be i forgot to 
+set some option?).
+
+ani idea?
+
+mani thank in advanc,
+best regard,
+livio.
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

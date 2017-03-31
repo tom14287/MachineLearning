@@ -1,0 +1,41 @@
+re: lenni to squeez upgrad problemsfrom nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on wed, mai 12, 2010 at 04:44:12pm -0500, boyd stephen smith jr. wrote:
+> on wednesdai 12 mai 2010 16:27:08 nick douma wrote:
+> > on wed, mai 12, 2010 at 04:24:05pm -0500, ron johnson wrote:
+> > > on 05/12/2010 04:16 pm, boyd stephen smith jr. wrote:
+> > >> on wednesdai 12 mai 2010 16:04:07 jordan metzmeier wrote:
+> > >>> thi issu is becaus the new udev requir a>  .31 kernel with
+> > >>> sysrq_deprec=3dn (i am go off memori here so don't quot me)=
+=2e thi
+> > >>> mean you need to first upgrad to the squeez kernel, reboot, then
+> > >>> upgrad udev and proce with the "updgrad".
+> > >>
+> > >> ad tag: need-to-be-in-releas-note
+> > >
+> > > to heck with the releas note!  thi need to be front and center wh=
+en
+> > > you when you do the "apt-get updat".
+> >=20
+> > it doe appear when you do the aptitud full-upgrad, but it doesn't bl=
+ock
+> >  the output, it just shoot by.
+> >=20
+> > i do wonder how thei will handl thi when squeez get stabl. the who=
+le
+> >  updat your kernel, reboot, updat the rest is a bit too easi to fuck =
+up
+> >  for my tast. i complet assum that i could just chang the apt
+> >  sourc.list and do the full-upgrad.
+>=20
+> you should *alwai* read the releas note first.  it is actual rather =
+rare=20
+> that a releas just need an 'aptitud full-upgrad'.  usual, perl, apt=
+,=20
+> aptitud, or dpkg should be updat first.
+
+well, i did try to look for releas note, but i did not find ani for squee=
+ze.

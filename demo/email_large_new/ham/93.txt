@@ -1,0 +1,47 @@
+re: doe linux respect gratuit arp repli?on thu, 15 apr 2010 16:33:03 +0200
+axel freyn  wrote:
+
+> hi celejar,
+> on wed, apr 14, 2010 at 05:20:31pm -0400, celejar wrote:
+> > doe linux respect gratuit arp repli?  thi page claim that it
+> > doe:
+> > 
+> > linux kernel will respect gratuit arp frame.
+> > 
+> > http://linux-ip.net/html/ether-arp.html
+> 
+> it depend on your configur:
+> 
+> if you do:
+> 
+> echo 1 > /proc/sy/net/ipv4/conf/all/arp_accept
+> 
+> it will accept them.
+> 
+> with
+> 
+> echo 0 > /proc/sy/net/ipv4/conf/all/arp_accept
+> 
+> thei ar ignor.
+
+thank much for thi inform.  i see that it's current set
+(default?  i don't recal ever touch thi set) to 0, so that mai
+have been the problem.  i don't have access to the other system
+current, but i'll certainli check whether chang thi work, when i
+get a chanc.
+
+thank again,
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100415153853.f46e5f69.celejar@csmine.org
+
+

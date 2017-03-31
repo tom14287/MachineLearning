@@ -1,0 +1,16 @@
+re: instal sugar in test> pleas see [1]. you probabl want sucros-0.86 for now; sucros-0.88 still
+> ha a few problem [2,3] (the fix got delai by the recent
+> ri.debian.org outag).
+
+thank, sucros-0.86 inde seem to instal properli.
+
+
+        stefan
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/jwv1vepbfeq.fsf-monnier+inbox@gnu.org
+
+

@@ -1,0 +1,55 @@
+re: pdf is block for print, etc. ok for acroread (it behav
+ as expect), but kpdf allow me to print it, even if it is	protect! why?from nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+johann wiedersich wrote:
+> merciadri luca wrote:
+> > johann wiedersich wrote:
+> >> just us a grei-by-dot watermark for black text, merg the layer=
+s
+> >> and it will
+> >> be rather difficult to remov the watermark.
+> > i did not merg the layer befor send it to them. problemat?
+>
+> difficult to judg, sinc i somehow lost track of what exactli you trie=
+d
+> to achiev and what is the natur of the document.
+>
+> if you ar simpli afraid, that someon would us thi document as
+> her/hi own work
+that is my main concern, ye.
+> you could watermark the pdf and convert it to a low
+> resolut bitmap (as other have alreadi suggest). if the document
+> wa later misus, you could just show your nice, high qualiti printout=
+
+> without watermark to prove that you ar the real author.
+ye. that is what i will do next time (if applic). i wa initi
+not as much suspici, and that is why i simpli let a mere watermark on
+each page of the document.
+>
+> anoth wai might be to hand out that bad qualiti printout on some
+> special paper, either colour or with rule and keep the pdf version t=
+o
+> yourself. it will be about as difficult to retyp/recreat such a
+> document from paper as from retyp it from screen, which wa your
+> first choic (disallow print, allow screen view).
+nice idea too.
+>
+> i think you might have gotten better repli in shorter time, if you ha=
+d
+> been more explicit and clear about what you try to achiev.
+no problem, but i do not like (and want) to express my person opinion
+and problem to the _whole_ commun.
+
+thank.
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+if it's worth do, it's worth over-do.
+
+

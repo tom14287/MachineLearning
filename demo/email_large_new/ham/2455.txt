@@ -1,0 +1,82 @@
+[ot] enforc polici (wa: pdf is block for print, etc. ok
+ for acroread (it behav  as expect), but kpdf allow me to print it,
+ even if it is protect! why?)on mon, 19 apr 2010 22:56:05 +0200, merciadri luca wrote:
+
+> camalón write:
+> 
+>> ianal, but you can alwai take the "legal" path and requir that the
+>> person you ar give the document first sign a contract to prevent
+>> share, extract or print data. i know thi can sound a bit
+>> strict measur but is a veri usual method in mani compani to prevent
+>> data leakag, depend upon the import of the materi thei share
+>> with anoth "partner".
+
+> ye. but what happen if thei do not sign? 
+
+if thei do not agre with the term, then thei cannot access the doc.
+
+> do you then have ani proof
+> that you did not ask/blackmail them to prevent them from sign? 
+
+in ani kind of contract, both part have to agre the term. no 
+agreement, no contract.
+
+> more
+> gener, how can you prove that if thei did not sign, it is becaus of
+> their person opinion? 
+
+all of us hold our "person opinion" and nobodi can forc ani user to 
+sign ani contrat thei don't agre. but then the relat between two 
+part stop there. as i don't know what ar all of your specif 
+situat detail, i'm also unawar if thi kind of agreement is out of 
+place or just fit well within your environ.
+
+> that is some part of the problem. note that next
+> year, i will make peopl sign. i think that in a > 18 yr. world with
+> engin student, student should be more respons about their
+> duti/i.
+
+in open sourc world, it is not so uncommom to make peopl who want to 
+particip in some aspect of sensit develop (i.e. fsf) to sign 
+and agre with their term, regardless the ag of the develop (if thei 
+ar young, thei parent have to agre). that is the onli wai to protect 
+(free) the code.
+
+>> you can enforc a pdf to us drm *and* activ measur. i have
+>> found some e-book that i wa not abl to open with linux box and
+>> forc the user read it on screen just under window machin with
+>> acrobat reader
+>>>6.
+>>
+>> more info here:
+>> http://kb2.adob.com/cp/329/329059.html
+>>
+>> what you have to ask your boss if thi is worth for it as you ar
+>> impos mani limit to the person you ar "lend" the document
+>> and also, you need a server (and a licens of "adob content server")
+>> to host the file and manag the drm licenc and restrict :-/
+
+> thank. i read it, but thi is quit commerci, isn't it?
+
+"quit"? full, i'd sai :-)
+
+but is you who seek for a "comerci" solut. onli proprietari tool 
+(adob reader?) enforc the us of the kind of polici you ar look 
+for.
+
+insid open sourc world is a bit difficult to find program or tool 
+that make what you ar look for, that is, prevent user to make 
+their own :-)
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.20.07.55.03@csmine.org
+
+

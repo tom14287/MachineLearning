@@ -1,0 +1,36 @@
+re: libc6 upgrad lenni to squeez fail, now dpkg is brokenon 5/13/2010 1:51 am, sven joachim wrote:
+> on 2010-05-12 23:24 +0200, chri austin wrote:
+>
+>> i've learn todai that when there ar circular conflict while upgrad, e.g.
+>> libcairo2 ha to be upgrad to instal xulrunn-1.9.1, but upgrad
+>> libcairo2 break xulrunn-1.9, it help to us the dpkg --auto-deconfigur
+>> option befor the -i action-paramet, e.g.
+>>
+>> dpkg --auto-deconfigur -i libcairo2_1.8.10-4_i386.deb
+>>
+>> then dpkg give a nice messag about consid deconfigur of
+>> xulrunn-1.9, then decid to do it, and it work, or at least, it ha done,
+>> the two or three time i have tri it todai.
+>
+> thi is inde a nice trick to know, but apt would do thi for you
+> automat.
+
+
+not alwai.  apt depend on the depend graph be consist, other 
+than perhap contain a cycl or two.  if the debian maintain slip 
+up and screw up the depend (or the user is switch back and 
+forth between distribut, sai among stabl, test, and unstabl), 
+apt can get confus.  it ha happen to me sever time.  in such 
+case, us aptitud sometim help.  i have also resort to 
+instal by hand, though thi mai not have been strictli necessari.
+
+maa
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bed2a89.4000902@allum.com
+
+

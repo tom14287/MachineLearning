@@ -1,0 +1,56 @@
+re: problem with xquartz 2.5.0i have never seen thi.  you'll have to provid more detail.  what is =
+the output of 'echo $displai' befor launch nedit each time?
+
+on apr 11, 2010, at 03:14, cyril georgi wrote:
+
+> hi !
+>=20
+> i'm get some problem with xquartz (2.5.0). i'm run on mac os =
+10.6.3. my problem is the follow :
+>=20
+> i us the option of the termin to automat launch xquartz when =
+launch termin. it work well, and xquartz is launch. i can then =
+launch applic which need x11, like nedit.
+>=20
+> after work, i close all the open x11 window, i close xquartz and =
+termin with "command-q" kei.
+> the problem appear here : if i want to relaunch nedit, do exactli =
+the same procedur, i obtain the "can't open displai" exit statu for =
+nedit. howev, xquartz is normal launch.
+>=20
+> i don't understand thi behaviour. somebodi ha an idea ? probabl a =
+problem with the environ variabl ?
+>=20
+> thank you !
+>=20
+> cyril georgi
+>=20
+> --------------------------------------------------
+> cyril georgi
+> t=e9l direct: +41 22 379 24 55
+> mail: cyril.georgi@unig.ch
+> --------------------------------------------------
+> observatoir de gen=e8ve
+> facult=e9 de scienc
+> chemin de maillett 51
+> ch - 1290 versoix
+> --------------------------------------------------
+>=20
+>=20
+>=20
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> x11-user mail list      (x11-user@list.appl.com)
+> help/unsubscrib/updat your subscript: =
+http://list.appl.com/mailman/option/x11-user/jeremyhu%40freedesktop.or=
+g
+>=20
+> thi email sent to jeremyhu@freedesktop.org
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

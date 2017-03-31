@@ -1,0 +1,717 @@
+[solv] re: nvidia mcp61, no sound...dear anand,=20
+
+i tri your configur file, but noth chang.
+
+for all of you who were so kind to try to help me, here ar some good
+new: i tri to instal kernel 2.6.32 from lenni backport and the
+sound seem to work now. at least i could here the "login.wav" that most
+lenni user know.
+
+the bad part is that now i cannot make the graphic card to work,
+becaus i should recompil the nvidia driver, but to accomplish thi
+task i need linux-header-$(unam -r), and thi packag depend on  the
+correspond linux-kbuild, which won't instal, accord to apt-get
+messag.
+
+thi is a piti, but at least now i'm sure the sound card is work. my
+pc is brand new, so i'm happi it's not a hardwar problem, even though
+it's still a problem.
+
+so i would sai the issu is solv, from my point of view. i won't ask
+some help to forc the instal of linux-header in thi thread,
+mayb i'll start anoth on.
+
+mani mani thank to everyon!
+
+on sun, 2010-05-02 at 09:26 +0530, anand sivaram wrote:
+> on sat, mai 1, 2010 at 22:49, andrea giuliano  wro=
+te:
+> > here is /usr/share/alsa/alsa.conf (that's a lot of line!)
+> >
+> > best regard.
+> >
+> > #
+> > #  alsa librari configur file
+> > #
+> >
+> > # pre-load the configur file
+> >
+> > @hook [
+> >        {
+> >                func load
+> >                file [
+> >                        "/etc/asound.conf"
+> >                        "~/.asoundrc"
+> >                ]
+> >                error fals
+> >        }
+> > ]
+> >
+> > # load card-specif configur file (on request)
+> >
+> > card.@hook [
+> >        {
+> >                func load
+> >                file [
+> >                        {
+> >                                @func concat
+> >                                string [
+> >                                        { @func datadir }
+> >                                        "/card/alias.conf"
+> >                                ]
+> >                        }
+> >                ]
+> >        }
+> >        {
+> >                func load_for_all_card
+> >                file [
+> >                        {
+> >                                @func concat
+> >                                string [
+> >                                        { @func datadir }
+> >                                        "/card/"
+> >                                        { @func privat_string }
+> >                                        ".conf"
+> >                                ]
+> >                        }
+> >                ]
+> >                error fals
+> >        }
+> > ]
+> >
+> > #
+> > # default
+> > #
+> >
+> > # show all name hint also for definit without hint {} section
+> > default.namehint.showal off
+> > # show just basic name hint
+> > default.namehint.basic on
+> > # show extend name hint
+> > default.namehint.extend off
+> > #
+> > default.ctl.card 0
+> > default.pcm.card 0
+> > default.pcm.devic 0
+> > default.pcm.subdevic -1
+> > default.pcm.nonblock 1
+> > default.pcm.ipc_kei 5678293
+> > default.pcm.ipc_gid audio
+> > default.pcm.ipc_perm 0660
+> > default.pcm.dmix.max_period 0
+> > default.pcm.dmix.rate 48000
+> > default.pcm.dmix.format "unchang"
+> > default.pcm.dmix.card default.pcm.card
+> > default.pcm.dmix.devic default.pcm.devic
+> > default.pcm.dsnoop.card default.pcm.card
+> > default.pcm.dsnoop.devic default.pcm.devic
+> > default.pcm.front.card default.pcm.card
+> > default.pcm.front.devic default.pcm.devic
+> > default.pcm.rear.card default.pcm.card
+> > default.pcm.rear.devic default.pcm.devic
+> > default.pcm.center_lfe.card default.pcm.card
+> > default.pcm.center_lfe.devic default.pcm.devic
+> > default.pcm.side.card default.pcm.card
+> > default.pcm.side.devic default.pcm.devic
+> > default.pcm.surround40.card default.pcm.card
+> > default.pcm.surround40.devic default.pcm.devic
+> > default.pcm.surround41.card default.pcm.card
+> > default.pcm.surround41.devic default.pcm.devic
+> > default.pcm.surround50.card default.pcm.card
+> > default.pcm.surround50.devic default.pcm.devic
+> > default.pcm.surround51.card default.pcm.card
+> > default.pcm.surround51.devic default.pcm.devic
+> > default.pcm.surround71.card default.pcm.card
+> > default.pcm.surround71.devic default.pcm.devic
+> > default.pcm.iec958.card default.pcm.card
+> > default.pcm.iec958.devic default.pcm.devic
+> > default.pcm.modem.card default.pcm.card
+> > default.pcm.modem.devic default.pcm.devic
+> > default.rawmidi.card 0
+> > default.rawmidi.devic 0
+> > default.rawmidi.subdevic -1
+> > default.hwdep.card 0
+> > default.hwdep.devic 0
+> > default.timer.class 2
+> > default.timer.sclass 0
+> > default.timer.card 0
+> > default.timer.devic 0
+> > default.timer.subdevic 0
+> >
+> > #
+> > #  pcm interfac
+> > #
+> >
+> > # redirect to load-on-demand extend pcm definit
+> > pcm.card card.pcm
+> >
+> > pcm.default card.pcm.default
+> > pcm.front card.pcm.front
+> > pcm.rear card.pcm.rear
+> > pcm.center_lfe card.pcm.center_lfe
+> > pcm.side card.pcm.side
+> > pcm.surround40 card.pcm.surround40
+> > pcm.surround41 card.pcm.surround41
+> > pcm.surround50 card.pcm.surround50
+> > pcm.surround51 card.pcm.surround51
+> > pcm.surround71 card.pcm.surround71
+> > pcm.iec958 card.pcm.iec958
+> > pcm.spdif iec958
+> > pcm.dmix card.pcm.dmix
+> > pcm.dsnoop card.pcm.dsnoop
+> > pcm.modem card.pcm.modem
+> > pcm.phonelin card.pcm.phonelin
+> >
+> > pcm.hw {
+> >        @arg [ card dev subdev ]
+> >        @arg.card {
+> >                type string
+> >                default {
+> >                        @func getenv
+> >                        var [
+> >                                alsa_pcm_card
+> >                                alsa_card
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name default.pcm.card
+> >                        }
+> >                }
+> >        }
+> >        @arg.dev {
+> >                type integ
+> >                default {
+> >                        @func igetenv
+> >                        var [
+> >                                alsa_pcm_devic
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name default.pcm.devic
+> >                        }
+> >                }
+> >        }
+> >        @arg.subdev {
+> >                type integ
+> >                default {
+> >                        @func refer
+> >                        name default.pcm.subdevic
+> >                }
+> >        }
+> >        type hw
+> >        card $card
+> >        devic $dev
+> >        subdevic $subdev
+> >        hint {
+> >                show {
+> >                        @func refer
+> >                        name default.namehint.extend
+> >                }
+> >                descript "direct hardwar devic without ani conversi=
+on"
+> >        }
+> > }
+> >
+> > pcm.plughw {
+> >        @arg [ card dev subdev ]
+> >        @arg.card {
+> >                type string
+> >                default {
+> >                        @func getenv
+> >                        var [
+> >                                alsa_pcm_card
+> >                                alsa_card
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name default.pcm.card
+> >                        }
+> >                }
+> >        }
+> >        @arg.dev {
+> >                type integ
+> >                default {
+> >                        @func igetenv
+> >                        var [
+> >                                alsa_pcm_devic
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name default.pcm.devic
+> >                        }
+> >                }
+> >        }
+> >        @arg.subdev {
+> >                type integ
+> >                default {
+> >                        @func refer
+> >                        name default.pcm.subdevic
+> >                }
+> >        }
+> >        type plug
+> >        slave.pcm {
+> >                type hw
+> >                card $card
+> >                devic $dev
+> >                subdevic $subdev
+> >        }
+> >        hint {
+> >                show {
+> >                        @func refer
+> >                        name default.namehint.extend
+> >                }
+> >                descript "hardwar devic with all softwar conversio=
+ns"
+> >        }
+> > }
+> >
+> > pcm.plug {
+> >        @arg [ slave ]
+> >        @arg.slave {
+> >                type string
+> >        }
+> >        type plug
+> >        slave.pcm $slave
+> > }
+> >
+> > pcm.shm {
+> >        @arg [ socket pcm ]
+> >        @arg.socket {
+> >                type string
+> >        }
+> >        @arg.pcm {
+> >                type string
+> >        }
+> >        type shm
+> >        server $socket
+> >        pcm $pcm
+> > }
+> >
+> > pcm.tee {
+> >        @arg [ slave file format ]
+> >        @arg.slave {
+> >                type string
+> >        }
+> >        @arg.file {
+> >                type string
+> >        }
+> >        @arg.format {
+> >                type string
+> >                default raw
+> >        }
+> >        type file
+> >        slave.pcm $slave
+> >        file $file
+> >        format $format
+> > }
+> >
+> > pcm.file {
+> >        @arg [ file format ]
+> >        @arg.file {
+> >                type string
+> >        }
+> >        @arg.format {
+> >                type string
+> >                default raw
+> >        }
+> >        type file
+> >        slave.pcm null
+> >        file $file
+> >        format $format
+> > }
+> >
+> > pcm.null {
+> >        type null
+> >        hint {
+> >                show {
+> >                        @func refer
+> >                        name default.namehint.basic
+> >                }
+> >                descript "discard all sampl (playback) or gener =
+zero sampl
+> > (captur)"
+> >        }
+> > }
+> >
+> > #
+> > #  control interfac
+> > #
+> >
+> > ctl.default {
+> >        type hw
+> >        card {
+> >                @func getenv
+> >                var [
+> >                        alsa_ctl_card
+> >                        alsa_card
+> >                ]
+> >                default {
+> >                        @func refer
+> >                        name default.ctl.card
+> >                }
+> >        }
+> > }
+> >
+> > ctl.hw {
+> >        @arg [ card ]
+> >        @arg.card {
+> >                type string
+> >                default {
+> >                        @func getenv
+> >                        var [
+> >                                alsa_ctl_card
+> >                                alsa_card
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name default.ctl.card
+> >                        }
+> >                }
+> >        }
+> >        type hw
+> >        card $card
+> > }
+> >
+> > ctl.shm {
+> >        @arg [ socket ctl ]
+> >        @arg.socket {
+> >                type string
+> >        }
+> >        @arg.ctl {
+> >                type string
+> >        }
+> >        type shm
+> >        server $socket
+> >        ctl $ctl
+> > }
+> >
+> > #
+> > #  rawmidi interfac
+> > #
+> >
+> > rawmidi.default {
+> >        type hw
+> >        card {
+> >                @func getenv
+> >                var [
+> >                        alsa_rawmidi_card
+> >                        alsa_card
+> >                ]
+> >                default {
+> >                        @func refer
+> >                        name default.rawmidi.card
+> >                }
+> >        }
+> >        devic {
+> >                @func igetenv
+> >                var [
+> >                        alsa_rawmidi_devic
+> >                ]
+> >                default {
+> >                        @func refer
+> >                        name default.rawmidi.devic
+> >                }
+> >        }
+> > }
+> >
+> > rawmidi.hw {
+> >        @arg [ card dev subdev ]
+> >        @arg.card {
+> >                type string
+> >                default {
+> >                        @func getenv
+> >                        var [
+> >                                alsa_rawmidi_card
+> >                                alsa_card
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name default.rawmidi.card
+> >                        }
+> >                }
+> >        }
+> >        @arg.dev {
+> >                type integ
+> >                default {
+> >                        @func igetenv
+> >                        var [
+> >                                alsa_rawmidi_devic
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name default.rawmidi.devic
+> >                        }
+> >                }
+> >        }
+> >        @arg.subdev {
+> >                type integ
+> >                default -1
+> >        }
+> >        type hw
+> >        card $card
+> >        devic $dev
+> >        subdevic $subdev
+> >        hint {
+> >                descript "direct rawmidi driver devic"
+> >                devic $dev
+> >        }
+> > }
+> >
+> > rawmidi.virtual {
+> >        @arg [ merg ]
+> >        @arg.merg {
+> >                type string
+> >                default 1
+> >        }
+> >        type virtual
+> >        merg $merg
+> > }
+> >
+> > #
+> > #  sequenc interfac
+> > #
+> >
+> > seq.default {
+> >        type hw
+> > }
+> >
+> > seq.hw {
+> >        type hw
+> > }
+> >
+> > #
+> > #  hwdep interfac
+> > #
+> >
+> > hwdep.default {
+> >        type hw
+> >        card {
+> >                @func getenv
+> >                var [
+> >                        alsa_hwdep_card
+> >                        alsa_card
+> >                ]
+> >                default {
+> >                        @func refer
+> >                        name default.hwdep.card
+> >                }
+> >        }
+> >        devic {
+> >                @func igetenv
+> >                var [
+> >                        alsa_hwdep_devic
+> >                ]
+> >                default {
+> >                        @func refer
+> >                        name default.hwdep.devic
+> >                }
+> >        }
+> > }
+> >
+> > hwdep.hw {
+> >        @arg [ card dev ]
+> >        @arg.card {
+> >                type string
+> >                default {
+> >                        @func getenv
+> >                        var [
+> >                                alsa_hwdep_card
+> >                                alsa_card
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name default.hwdep.card
+> >                        }
+> >                }
+> >        }
+> >        @arg.dev {
+> >                type integ
+> >                default {
+> >                        @func igetenv
+> >                        var [
+> >                                alsa_hwdep_devic
+> >                        ]
+> >                        default {
+> >                                @func refer
+> >                                name default.hwdep.devic
+> >                        }
+> >                }
+> >        }
+> >        type hw
+> >        card $card
+> >        devic $dev
+> > }
+> >
+> > #
+> > #  timer interfac
+> > #
+> >
+> > timer_queri.default {
+> >        type hw
+> > }
+> >
+> > timer_queri.hw {
+> >        type hw
+> > }
+> >
+> > timer.default {
+> >        type hw
+> >        class {
+> >                @func refer
+> >                name default.timer.class
+> >        }
+> >        sclass {
+> >                @func refer
+> >                name default.timer.sclass
+> >        }
+> >        card {
+> >                @func refer
+> >                name default.timer.card
+> >        }
+> >        devic {
+> >                @func refer
+> >                name default.timer.devic
+> >        }
+> >        subdevic {
+> >                @func refer
+> >                name default.timer.subdevic
+> >        }
+> >        hint.descript "default direct hardwar timer devic"
+> > }
+> >
+> > timer.hw {
+> >        @arg [ class sclass card dev subdev ]
+> >        @arg.class {
+> >                type integ
+> >                default {
+> >                        @func refer
+> >                        name default.timer.class
+> >                }
+> >        }
+> >        @arg.sclass {
+> >                type integ
+> >                default {
+> >                        @func refer
+> >                        name default.timer.sclass
+> >                }
+> >        }
+> >        @arg.card {
+> >                type string
+> >                default {
+> >                        @func refer
+> >                        name default.timer.card
+> >                }
+> >        }
+> >        @arg.dev {
+> >                type integ
+> >                default {
+> >                        @func refer
+> >                        name default.timer.devic
+> >                }
+> >        }
+> >        @arg.subdev {
+> >                type integ
+> >                default {
+> >                        @func refer
+> >                        name default.timer.subdevic
+> >                }
+> >        }
+> >        type hw
+> >        class $class
+> >        sclass $sclass
+> >        card $card
+> >        devic $dev
+> >        subdevic $subdev
+> > }
+> >
+> >
+> > on sat, 2010-05-01 at 21:40 +0530, anand sivaram wrote:
+> >> on sat, mai 1, 2010 at 20:55, andrea giuliano  =
+wrote:
+> >> > here aplai -l:
+> >> >
+> >> > card 0: nvidia [hda nvidia], devic 0: hda gener [hda gener]
+> >> >  subdevic: 1/1
+> >> >  subdevic #0: subdevic #0
+> >> >
+> >> > here is amix info, too:
+> >> >
+> >> > card default 'nvidia'/'hda nvidia at 0xf9ef8000 irq 22'
+> >> >  mixer name    : 'via id 397'
+> >> >  compon    : 'hda:11060397'
+> >> >  control      : 4
+> >> >  simpl ctrl  : 3
+> >> >
+> >> > actual, you ar right, it's rather strang i see just a few contro=
+ls,
+> >> > thei should be mani more (my card is a 7.1 point on).
+> >> >
+> >> > on sat, 2010-05-01 at 14:08 +0000, camal=c3=b3n wrote:
+> >> >> on sat, 01 mai 2010 15:52:46 +0200, andrea giuliano wrote:
+> >> >>
+> >> >> > alsamix doesn'i show mute input. not doe gnome-volum-set=
+s. i
+> >> >> > also check out gnome-sound-properti, and it give no error a=
+t all,
+> >> >> > as if it think everyth is work fine.
+> >> >> >
+> >> >> > here is the output from amix:
+> >> >>
+> >> >> onli "master", "pcm" and "captur"?
+> >> >>
+> >> >> no "mic" and no addit "aux" or "surround" output? :-?
+> >> >>
+> >> >> > and here is /proc/asound/card
+> >> >> >
+> >> >> >  0 [nvidia         ]: hda-intel - hda nvidia
+> >> >> >                       hda nvidia at 0xf9ef8000 irq 22
+> >> >> >
+> >> >> > i'm go to try a livecd or such, but i'm not veri optimist.
+> >> >>
+> >> >> modern motherboard us to includ 5.1 or 7.1 audio channel chipset=
+, it's
+> >> >> a bit weird your amix output onli show 3 devic...
+> >> >>
+> >> >> thi mai sound silli, but have you tri to plug the speaker jack =
+in all
+> >> >> the outlet avail?
+> >> >>
+> >> >> what doe "aplai -l" sai?
+> >> >>
+> >> >> greet,
+> >> >>
+> >> >> --
+> >> >> camal=c3=b3n
+> >> >>
+> >> >>
+> >> >
+> >> >
+> >> > --
+> >> > to unsubscrib, email to debian-user-request@list.debian.org
+> >> > with a subject of "unsubscrib". troubl? contact listmast@list.d=
+ebian.org
+> >> > archiv: http://list.debian.org/1272727535.20670.1.camel@debian
+> >> >
+> >> >
+> >>
+> >> what is the output of /usr/share/alsa/alsa.conf
+> >>
+> >>
+> >
+>=20
+> thi is the work alsa.conf of my athlon mcp61 machin.
+> could you try the follow.
+> cd /usr/share/alsa
+> mv alsa.conf alsa.conf.origin (_do_ _not_ delet it, just move it so
+> that you could copi  it back in case requir)
+> gunzip /path/to/download/alsa.conf.gz
+> mv /path/to/download/alsa.conf ./
+> restart machin.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1272811347.3525.8.camel@debian
+
+

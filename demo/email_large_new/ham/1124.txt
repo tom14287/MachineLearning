@@ -1,0 +1,15 @@
+look like googl did a deal to index the ny time. if you do
+    thi new seaurl: http://scriptingnew.userland.com/backissu/2002/09/24#when:8:53:42am
+date: tue, 24 sep 2002 15:53:42 gmt
+
+look like googl did a deal to index the ny time. if you do thi new search
+[1], and mous over the link, you'll see there's a partner attribut on the 
+url, like the on in our link[2]. what ar the implic of thi? here's 
+on. martin nisenholtz mai now have a _chanc_ of win hi bet[3] with me. 
+";->"
+
+[1] http://new.googl.com/new?hl=en&q;=%22new+york+time%22+blog
+[2] http://www.nytim.com/2002/09/24/technolog/24goog.html?ex=1033444800&en;=0557fe246dd68b12&ei;=5007&partner;=userland
+[3] http://www.googl.com/search?hl=en&lr;=&ie;=utf-8&oe;=utf-8&safe;=off&q;=nisenholtz+winer&btng;=googl+search
+
+

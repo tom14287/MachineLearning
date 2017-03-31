@@ -1,0 +1,41 @@
+from nobodi sun sep 18 20:45:32 2016
+content-type: multipart/altern;
+ boundari="------------744so1so2"
+
+
+--------------744so1so2
+content-type: text/plain; charset=us-ascii
+content-transfer-encod: 7bit
+
+
+to: 
+from: 
+subject: hello
+my name is danni creech.  i am from knoxvil, tn.  sinc septemb 11th, 2001....peopl have been try to get back on their own two feet.  now is the time to protect your home, and your famili.  todai, you can receiv a free in home famili secur system at no cost to you!!  that's right...
+
+$0.00..........for equip
+
+$0.00..........for instal
+
+
+famili protect fee of $29.99 a month(cover polic, fire, medic, burglari, & home invas).  pleas take advantag of thi offer!!  after septemb 11th.......we don't need terrorist come into your home at all!!
+for more inform, pleas contact danni creech at (865-454-5398)
+--------------744so1so2
+content-type: text/html; charset=us-ascii
+content-transfer-encod: 7bit
+
+to: 
+from: 
+subject: hello
+my name is danni creech.  i am from knoxvil, tn.  sinc septemb 11th, 2001....peopl have been try to get back on their own two feet.  now is the time to protect your home, and your famili.  todai, you can receiv a free in home famili secur system at no cost to you!!  that's right...
+
+$0.00..........for equip
+
+$0.00..........for instal
+
+
+famili protect fee of $29.99 a month(cover polic, fire, medic, burglari, & home invas).  pleas take advantag of thi offer!!  after septemb 11th.......we don't need terrorist come into your home at all!!
+for more inform, pleas contact danni creech at (865-454-5398)
+
+
+--------------744so1so2--

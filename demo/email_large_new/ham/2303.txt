@@ -1,0 +1,42 @@
+re: pdf is block for print, etc. ok for acroread (it behav
+ as expect), but kpdf allow me to print it, even if it is protect! why?from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+jai berkenbilt wrote:
+> merciadri luca  wrote:
+>
+>  =20
+>
+> the pdf specif itself recommend us extern encrypt in
+> thi case.  from section 7.6.1 of the pdf specif:
+>
+>   note: conform writer have two choic if the encrypt method
+>   and syntax provid by pdf ar not suffici for their need: thei
+>   can provid an altern secur handler or thei can encrypt whole
+>   pdf document themselv, not make us of pdf secur.
+>
+> it is veri easi to defeat pdf secur in ani file that ha a blank us=
+r
+> password sinc it is just up to the applic to enforc secur.
+>  =20
+ye, but if you ask for some non-void password, you need to send the
+password by some wai to the receiv. onc thei have the password, thei
+can do pretti much thei want. so, why would you us a password?
+> i've written a detail explan of thi which i can dig up and send=
+
+> you if you're interest.
+>  =20
+sure. i am veri interest in it.
+
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+you cannot escap the respons of tomorrow by evad it todai.
+(abraham lincoln)
+

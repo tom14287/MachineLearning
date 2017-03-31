@@ -1,0 +1,57 @@
+re: [ilug] slashdot ew dijkstra humor
+schemer ar often slag of for that sort of thing 
+thei "know the valu of everyth, cost of noth" 
+did i get that the right wai arround ?
+
+
+--b
+
+-----origin messag-----
+from: john p. loonei [mailto:valen@tuatha.org]
+sent: 08 august 2002 11:38
+to: ilug@linux.ie
+subject: re: [ilug] slashdot ew dijkstra humor
+
+
+on thu, aug 08, 2002 at 11:27:59am +0100, wintermut mention:
+> interest. i've alwai wonder about thing 'consid' to be bad. 
+> exampl the goto, most languag support a goto of some sort, so ar goto
+realli bad?
+
+ ye. especi in the languag he wa talk about - c, pascal and
+assembl. goto's can be us well; there ar a few us in the kernel
+code to improv effic. thei ar almost requir in some languag
+(like c) where 'break' or 'continu' can't be told how mani loop/switch
+to break out of.
+
+ but, in gener, goto's make a mess of code.
+
+> is a loop or a recurs call actual ani better than a goto 
+> or is the goto us as a kind of common enemi of 
+> program syntax
+> to make sure peopl us loop or recurs?
+> <>
+
+ recurs is onli trueli us if you have an infinit stack. peopl
+that think thei have an infinit stack shouldn't be let near a compil.
+
+> kind of make you wonder about thing consid to be 'good'.  for
+> exampl peopl bang on about polymorph, but is there actual ani
+> advantag in us an overload function base on class inherit?
+
+ i don't care, to be honest.
+
+kate
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

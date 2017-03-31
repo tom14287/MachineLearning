@@ -1,0 +1,11 @@
+gdc 2002: game script in pythonurl: http://www.newsisfre.com/click/-0,8613669,159/
+date: 2002-10-06t18:12:51+01:00
+
+script languag allow rapid develop of game behavior without the 
+pitfal that await the unwari c++ programm. us an exist script 
+languag save the time and cost of develop a custom languag, and typic 
+give you a far more power languag than you could creat on your own. 
+python is an excel choic for a game script languag becaus it is 
+power, easili embed, can seamlessli be extend with c/c++ code
+
+

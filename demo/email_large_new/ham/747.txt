@@ -1,0 +1,36 @@
+re: debian and advanc layer3 9924ton 2010-04-06 02:08, andrea weber wrote:
+> on 2010-04-04 01:42, stan hoeppner wrote:
+>> tell the op to throw out a multi thousand dollar 24 port manag gige
+>> switch due to a minor issu with on pc or server is not veri sage advic.
+> 
+> i said "try chang", not "throw out" (read and quot is a basic
+> skill). have sold mani _multi-thousand-euro-switch_ let me tell you
+> that thei can be broken right from the start. doa should ring a bell. a
+> simpl temporari chang of the switch (often the replac is provid
+> by the vendor) would immedi show if thi could be the problem.
+> 
+> it's a bit of a gener problem on list like thi on (veri technic
+> on) that some veri smart peopl dislik simpl straight forward
+> solut to be check first, although it happen all the time that
+> smart peopl stumbl over simpl problem. instead thei like to tell
+> other peopl thei're not sage enough.
+> 
+> so sorri for my "is the cabl ok?" approach as a first aid, i will keep
+> my mouth shut now, know that there's a savvi elit around.
+> 
+
+stan definit did not exercis suffici read comprehens.
+
+ad the word "temporarili" would have reduc all ambigu, though.
+
+-- 
+"histori doe not long entrust the care of freedom to the weak
+or the timid."  dwight eisenhow
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbb0a8a.9010407@cox.net
+
+

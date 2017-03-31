@@ -1,0 +1,31 @@
+re: lilo remov in squeez (or, "pleas test grub2")on sun, 23 mai 2010 16:11:30 -0400 (edt), william pitcock wrote:
+> "stephen powel"  wrote:
+>> (blah blah blah blah)
+>
+> nobodi care if you ar oppos to it.  unless you ar offer to becom
+> lilo upstream, it's go awai.
+> 
+> william
+
+i do understand why a debian packag maintain doe not wish to becom
+"upstream".  and i hope that someon who is both will and abl to do
+so step up to the plate.  but withdraw it from the distribut seem
+like overkil to me, especi sinc you want to withdraw it from squeez
+and not squeez+1.  lilo, as it exist todai, work just fine for my
+purpos.  and appar it work just fine for a lot of other peopl too.
+
+the lord bless you, william.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1170680188.363342.1274662130640.javamail.root@md01.wow.synacor.com
+
+

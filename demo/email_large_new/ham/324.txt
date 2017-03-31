@@ -1,0 +1,49 @@
+re: how to find a printer driver?kent west wrote:
+> i tri instal hpij-ppd, but i still don't see the cm3530 
+> list; i do now see a color laserjet 3550 (without the cm, and not 
+> the 3530), but who know if that'd work? not me.
+>
+> the hplip-gui packag is alreadi instal, but run "hplip-gui" 
+> did noth. "man hplip-gui" did noth (i thought all debian 
+> packag ar suppos to have a man page, even if it doe noth more 
+> than point to some other document?). (look in 
+> /usr/share/doc/hplip-gui would have eventu mayb clu me to the 
+> hp-toolbox, but thankfulli you've alreadi point me to it so i didn't 
+> have to dig blindli.)
+>
+> the hp-toolbox said no devic is set up, and to run hp-setup (as 
+> root). it fail to automag find my printer, but i chose to us 
+> the manual button and enter the printer's ip address, and now it 
+> present me with a list of six possibl ppd driver, none of which 
+> have name veri close at all to my printer (cm4730, cm6030, cm4730, 
+> and postscript variant of those).
+>
+> arg.
+>
+> thank for the help though. at least i'm see stuff i've never seen 
+> befor. (and thei sai window is hard to configur. pfft. (sorri for 
+> the rant; i'm just frustrat. i realli do love debian, and realli 
+> do hate window.))
+>
+
+so i manual download hplip from hp's web site 
+(http://hplipopensourc.com/hplip-web/download.html), but when i try to 
+run it, it complain about gcc not be instal. so i aptitud 
+instal gcc, and then tri again, and it still complain about gcc 
+not be instal.
+
+arg!
+
+-- 
+kent west     <*)))><
+http://kentwest.blogspot.com
+prais yah! \o/
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4be871ba.3050805@acu.edu
+
+

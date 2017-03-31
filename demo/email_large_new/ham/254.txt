@@ -1,0 +1,47 @@
+re: auto mount a partit with nobrows
+on mai 13, 2010, at 19:10 pm, chri suter wrote:
+
+> hi dale,
+>
+> on thu, mai 13, 2010 at 7:29 pm, websrvr
+>  wrote:
+>
+>> us diskarbitr seem to offer the result i need so i  
+>> start code
+>> a littl test app but due to the lack of sampl code i'm not sure  
+>> i'm do
+>> ani of it properli sinc it segfault when i us  
+>> dadiskmountwithargu().
+>
+> i'm not sure why you're pursu thi approach. in my opinion, unless
+> i'm misunderstand your requir, i think it'll be much easier
+> for you to chang the content hint paramet for your iomedia object
+> (so that disk arbitr doesn't try and mount it) and then mount the
+> volum directli us the mount system call (or by call the mount
+> command-line util which is arguabl more futur proof).
+
+have to reli on the exist of the /etc/fstab to do ani work is a  
+bad choic.
+
+i wasn't awar that the samplecontentfilt project ha option to  
+prevent mount.
+
+whatev solut is us must onli allow the partit to be  
+avail where the softwar is instal and must do thi  
+automat in the background.
+
+i'm open to other solut if someon ha on that work.
+
+> kind regard,
+>
+> chri
+>
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+filesystem-dev mail list      (filesystem-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/filesystem-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

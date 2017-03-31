@@ -1,0 +1,26 @@
+debian and touch-screenshi all.
+
+i=b4m work in a project that we would like to instal in a =
+touch-screen compact comput. my intent is to us debian as the os, =
+and i'm search for that kind of hardwar with support for =
+debian/linux. most of them support window but it=b4s not clear if =
+debian will work as well. i've found some support for touch screen =
+(some model), but not clear for integr/compact system. someon =
+know where to look for?, or ha some experi?, some url?
+
+thank in advanc,
+--
+jose manuel p=e9rez (+34 943 018705)
+rede y sistema / sarea eta sistemak
+red acad=e9mica i2basqu sare akademikoa
+--
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/01c59d38-a97c-4794-afb6-4370245e2f8e@i2basqu.es
+
+

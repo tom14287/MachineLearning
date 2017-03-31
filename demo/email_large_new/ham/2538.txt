@@ -1,0 +1,64 @@
+re: hptalx is buggi onc calcul is plug and linkedon fri, 07 mai 2010 23:29:10 +0200, merciadri luca wrote:
+
+> camalón write:
+> 
+>> how about...?
+>>
+>> 1/ press "o.k", instead "save", it will keep your set onli for
+>> the current session but it just to test if it work :-?
+
+> imposs without modifi .hptalx, as the applic directli bug
+> when i type `hptalx'. thi is instantan.
+> 
+> i just renam .hptalx in .hptalx2, and the program start normal,
+> without bug.
+> 
+> press `o.k.' doe not make the app bug, but onc i click on
+> `connect', bug buddi directli aris! (and, without the connect
+> capabl, the program is total unus, as it is it goal.)
+
+befor press "connect" be sure your calcul is setup as describ 
+here:
+
+http://hptalx.sourceforg.net/manual.shtml#aen171
+
+can you see the "await server cmd." messag in calcul's displai?
+
+>> 2/ look at "~/.hptalx" file and check if the previous save set
+>> seem right (port connect point to /dev/ttyusb0, and so on...).
+> ==
+> ~$ cat .hptalx
+> 
+> 
+>  100
+>  9600
+>  1
+>  1
+>  15
+>  gedit
+> 
+> ==
+> 
+> strang, realli. i compil it the other dai, and the whole process went
+> through without ani issu.
+
+port "100"? what kind of port nomenclatur is that? :-? 
+
+i would expect "/dev/ttyusb0" for an usb devic or "/dev/tty0" for the 
+first rs-232 port...
+
+i think the applic is crash becaus cannot establish a connect 
+with the devic.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.08.17.12.26@csmine.org
+
+

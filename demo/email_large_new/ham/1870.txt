@@ -1,0 +1,46 @@
+re: x freez with 2.6.32-5; okai with 2.6.26-2from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on thu, mai 13, 2010 at 08:42 -0500, kent west wrote:
+> i've got an older 600mhz piii run sid; if i boot into the
+> instal 2.6.26-2-68 kernel, everyth's fine, but if i boot into
+> the instal 2.6.32-5-68 kernel, everyth's fine until x is
+> start (either manual or with a session manag or even when
+> try to creat a new xorg.conf file us "x -config"). at that
+> point, the screen goe black, the keyboard stop respond, and the
+> xorg.log fill up with :
+>=20
+> (ee) r128(0): idl time out, reset engin...
+> (ee) r128(0): r128ccewaitforidl: cce stop -9
+> (ee) r128(0): r128ccewaitforidl: cce start -9
+> (ee) r128(0): r128ccewaitforidl: cce idl -9
+> (ee) r128(0): idl time out, reset engin...
+> (ee) r128(0): r128ccewaitforidl: cce stop -9
+> (ee) r128(0): r128ccewaitforidl: cce start -9
+> (ee) r128(0): r128ccewaitforidl: cce idl -9
+
+i've seen thi recent in #debian and we were abl to "fix" thi with
+the follow in /etc/x11/xorg.conf
+
+section "devic"
+        identifi "r128"
+        driver "r128"
+        option "noaccel"
+endsect
+
+the relat bug report is [1] and thi will disabl acceler for
+your card, so it is not realli a good fix. you might also want to make
+sure that you have the firmwar packag(s) instal.
+
+good luck
+
+    wolodja
+
+[1] http://bug.debian.org/cgi-bin/bugreport.cgi?bug=3d581216
+--=20
+  .''`.     wolodja wentland    =20
+ : :'  :   =20
+ `. `'`     4096r/caf14efc=20
+   `-       081c b7cd ff04 2ba9 94ea  36b2 8b7f 7d30 caf1 4efc

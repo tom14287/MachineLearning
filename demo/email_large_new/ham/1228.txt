@@ -1,0 +1,22 @@
+re: [fwd: error exmh 2.5 07/13/2001 ]from nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii
+
+chri,
+
+i think you ar refer to a problem i notic last octob (see 
+attach email). if i rememb correctli, the bind for seditbeautifi
+is be appli outsid of the sedit window and that result in the 
+behavior observ.
+
+kevin
+
+in messag <1027546301.610.tmda@deepeddi.vircio.com>, chri garrigu write:
+> 
+> am i the onli on for whom type control-l to the main window caus thi 
+> error?
+> 
+> i can't figur out why it occur.
+> 
+> chri
+> 
+

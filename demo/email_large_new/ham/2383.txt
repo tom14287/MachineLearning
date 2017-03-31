@@ -1,0 +1,16 @@
+gaim offici rpm repositorygaim offici apt-rpm repositori :)
+
+#gaim
+rpm http://gaim.sourceforg.net/apt redhat/7.3/en/i386 releas
+rpm-src http://gaim.sourceforg.net/apt redhat/7.3/en/i386 releas
+
+thought i should post that on too just fell over it :)
+
+bye,
+che
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

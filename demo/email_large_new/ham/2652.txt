@@ -1,0 +1,28 @@
+[sadev] [bug 1053] img tag base ruleshttp://www.hugh-famili.org/bugzilla/show_bug.cgi?id=1053
+
+
+
+
+
+------- addit comment from mgm@starlingtech.com  2002-10-03 21:46 -------
+look great! on note: most "imag-onli" spam actual ha some text (a few 
+word at the top, a disclaim at the end) so keep that in mind. the typic 
+imag spam that slip through sa seem to have a bit of text, on huge imag, 
+then a bit more.
+
+
+
+------- you ar receiv thi mail becaus: -------
+you ar the assigne for the bug, or ar watch the assigne.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-devel mail list
+spamassassin-devel@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-devel
+
+

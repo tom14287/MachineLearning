@@ -1,0 +1,44 @@
+re: monitor internet avail and send sm alert?ron johnson on 14/05/10 20:46, wrote:
+> on 05/14/2010 10:04 am, adam hardi wrote:
+> [snip]
+>>>>>
+>>> isn't thi what snmp wa design for?
+>>
+>> there wa probabl a lot more that it wa design for. plu on of the
+>> first thing to appear in googl:
+>>
+>> "despit it acronym, snmp is not exactli simpl! in fact, it never
+>> ceas to amaz me how much of a black art implement and us snmp"
+> 
+> but snmp reli on the network, no?
+> 
+>> i don't necessarili want to avoid it, it's just got that 'can-of-worm'
+>> sort of feel to it and i'm hope i onli need the littl script in bash.
+>> or at least i did until i realis i'd have to tie ping togeth with
+>> dyndn.org and smsclient. possibl a brainer. i mean, not a no-brainer.
+>>
+> 
+> shell program is *incred* rich.  with pipe, "variabl 
+> substitut" redirect, file io, all manner of control oper, 
+> dialog/zeniti, etc, etc.
+> 
+> if (as i suspect) you're new to bash program, do thi yourself 
+> will open you up to a world of possibl you bare knew exist.
+
+i wouldn't sai i'm new to it, but i'm not experienc. i write littl snippet 
+everi now and again and edit system startup file etc.
+
+thi is certainli a challeng though. i guess if i can interfac dyndn.org and 
+smsclient rel simpli with option you mention, i'll probabl manag it.
+
+i might also put a check in there for other protocol like http, just in case 
+ping happen to be the last protocol stand when the machin or connect is 
+about to keel over! (thank to joe in the other msg for the tip)
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4beda3.4020803@cyberspaceroad.com
+
+

@@ -1,0 +1,141 @@
+re: 2.6.32-3 doe not recogn pata wd disk...thi is not a kernel bug, but the wai debian us driver.  there ar
+two differ driver in the kernel now.
+old id driver and newer pata driver.  old id driver ar go to
+get deprec.
+for some reason debian stock kernel is take onli id driver.  i
+have seen thi with both my desktop (id amd74xx us, pata_amd is not
+at all compil) and laptop (both id piix and pata ata_pii modul
+ar compil, but id piix us)
+becaus of that my hard drive is shown as /dev/hda instead of /dev/sda
+with the debian stock kernel.
+
+what i did wa to compil a custom kernel by includ onli the pata driver=
+s.
+now with thi custom kernel everyth is fine and consist.
+
+2010/4/28 =c3=e9=fe=f1=e3=ef=f2 =d0=dc=eb=eb=e1=f2 :
+> hi to everybodi!
+>
+> i =a0just got a wd caviar blue, with the classic id interfac and tri =
+to
+> connect it to my debian squeez pc which alreadi ha a wd sata devic, wh=
+er
+> the os live.
+>
+> the problem is that 2.6.32-3 doe not recogn the disk and although i'm
+> not an expert, i tend to think that it is a kernel bug. i boot with
+> 2.6.30-2-686 and it see the disk:
+> [ =a0 =a01.560374] hda: wdc wd3200aajb-56r1a0, ata disk drive
+>
+> about the id control, here's what lspci -v sai:
+>
+> on both 2.6.30 =a0and 2.6.32 :
+>
+> 00:14.1 id interfac: ati technolog inc sb600 id (prog-if 8a [master
+> secp prip])
+> =a0 =a0 =a0 subsystem: giga-byte technolog gigabyt ga-ma69g-s3h motherb=
+oard
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0flag: bu master, 66mhz, medium devsel, laten=
+cy 32, irq 16
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0i/o port at 01f0 [size=3d8]
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 i/o port at 03f4 [si=
+ze=3d1]
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 i/o port=
+ at 0170 [size=3d8]
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =
+=a0 i/o port at 0374 [size=3d1]
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =
+=a0 =a0 =a0 =a0 i/o port at f900 [size=3d16]
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =
+=a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0kernel driver in us:
+> atiixp_id
+> the onli differ between lspci -v for 2.6.30 and 2.6.32 ar the
+> follow:
+> # diff 2.6.30-2-lspci 2.6.32-3-lspci
+> 23c23
+> < =a0 =a0 =a0 kernel driver in us: pcieport-driver
+> ---
+>> =a0 =a0 =a0 kernel driver in us: pcieport
+> 38c38
+> < =a0 =a0 =a0 kernel driver in us: pcieport-driver
+> ---
+>> =a0 =a0 =a0 kernel driver in us: pcieport
+> 95d94
+> < =a0 =a0 =a0 kernel driver in us: piix4_smbu
+>
+> where the pcieport differ refer to
+> 00:02.0 pci bridg: ati technolog inc rd790 pci to pci bridg (externa=
+l
+> gfx0 port a) (prog-if 00 [normal decod])
+> and
+> 00:0a.0 pci bridg: ati technolog inc rd790 pci to pci bridg (pci
+> express gpp port f) (prog-if 00 [normal decod])
+>
+> the lshw util show almost perfect match between 2.6.30 and 2.6.32 wit=
+h
+> the differ that under the id section which is ident in both
+> kernel:
+>
+> =a0 =a0 =a0 *-id
+> =a0 =a0 =a0 =a0 =a0 =a0descript: id interfac
+> =a0 =a0 =a0 =a0 =a0 =a0product: sb600 id
+> =a0 =a0 =a0 =a0 =a0 =a0vendor: ati technolog inc
+> =a0 =a0 =a0 =a0 =a0 =a0physic id: 14.1
+> =a0 =a0 =a0 =a0 =a0 =a0bu info: pci@0000:00:14.1
+> =a0 =a0 =a0 =a0 =a0 =a0version: 00
+> =a0 =a0 =a0 =a0 =a0 =a0width: 32 bit
+> =a0 =a0 =a0 =a0 =a0 =a0clock: 66mhz
+> =a0 =a0 =a0 =a0 =a0 =a0capabl: id bu_master
+> =a0 =a0 =a0 =a0 =a0 =a0configur: driver=3datiixp_id latenc=3d32
+> =a0 =a0 =a0 =a0 =a0 =a0resourc: irq:16 ioport:1f0(size=3d8) ioport:3f6
+> ioport:170(size=3d8) ioport:376 ioport:f900(size=3d16)
+> =a0 =a0 =a0 =a0 =a0*-id
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 descript: id channel 0
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 physic id: 0
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 bu info: id@0
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 logic name: id0
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 clock: 66mhz
+>
+> but in 2.6.32 noth disk relev follow, where with 2.6.30, the disk
+> section follow:
+>
+> =a0 =a0 =a0 =a0 =a0 =a0 *-disk
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0descript: ata disk
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0product: wdc wd3200aajb-56r1a0
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0vendor: western digit
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0physic id: 0
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0bu info: id@0.0
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0logic name: /dev/hda
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0version: 01.03e01
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0serial: wd-wcav2h175667
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0size: 298gib (320gb)
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0capabl: ata dma lba iordi smart =
+secur pm
+> partit partit:do
+> =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0configur: mode=3dudma5 signatur=
+=3d08040000 smart=3don
+>
+> bit strang, isn't it?
+>
+> ani idea?
+>
+> as well as that, i can't report it via reportbug, becaus with: reportbug
+> linux-imag-2.6.32-3-686
+> i alwai get
+>
+> queri debian bt for report on linux-2.6 (sourc)...
+> unabl to connect to debian bt; continu [y|n|?]?
+>
+> after a coupl of minut...
+>
+> giorgo
+>
+>
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/p2ld0bf7b0b1004280643kde8b73f1q3a496cfa6602cbb0@mail.csmine.org
+
+

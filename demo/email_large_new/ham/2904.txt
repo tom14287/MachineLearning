@@ -1,0 +1,25 @@
+re: java graphicsgener on mac server without graphic
+	hardwar >>>>> "stuart" == stuart wier  write:
+
+ stuart> "headless=true" is not a help sinc the program
+ stuart> need to run just as if it had graphic.
+
+i don't understand thi explan.  i gener larg imag file all
+the time us java.awt.headless=true.  my graphic code can't tell the
+differ whether it's run on real awt or headless awt, it work
+fine either wai.  i didn't have to do anyth special for thi to work.
+ar you sure it matter to your code?
+
+just check...
+
+-- 
+seth tisu @ northwestern univers | http://tisu.net
+lead develop, netlogo: http://ccl.northwestern.edu/netlogo/
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

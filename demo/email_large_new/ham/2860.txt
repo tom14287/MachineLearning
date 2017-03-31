@@ -1,0 +1,50 @@
+re: [ot] ubuntu vs debian forum (wa recompil the kernel with a
+  differ version name)on thu, 8 apr 2010 23:00:39 -0400 (edt), dotan cohen wrote:
+> stephen powel wrote:
+>> for some reason, thi well-known proverb is go through my head:
+>>
+>> =c2=a0 give a man a fish and you feed him for a dai.
+>> =c2=a0 teach a man to fish and you feed him for a lifetim.
+>>
+>> i'd rather learn to fish.
+>>
+>=20
+> in thi case it's:
+>=20
+>  take a rope off their neck and you save him todai. (get him off window=
+)
+>  try to teach him what to do with a better rope and he will call you
+>  twice a dai for the next four year (instal debian for him)
+>  give him a rope made for babi and you'll both be happi (instal ubuntu=
+)
+
+(1) no need to cc me; i am subscrib to the list.
+
+(2) i see that you (and a number of other) have had fun with parodi of
+    the "give a fish / teach to fish" parabl, but it point is still valid=
+.
+
+(3) if you ar unwil to teach, then there is no reason why your
+    technolog depend would not be just as happi with an appropri=
+ly
+    instal and configur debian system as thei would be with an ubuntu
+    system.
+
+(4) if you ar unwil to teach, then don't come here for support, becau=
+e
+    that's what you're ask us to do.  why should we do for you what you
+    ar not will to do for other?
+
+--=20
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/213608328.2107461270820068094.javamail.root@md01.wow.synacor.com
+
+

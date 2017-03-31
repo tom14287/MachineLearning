@@ -1,0 +1,67 @@
+re: what need to improv in kde 4?from nobodi sun sep 18 20:45:31 2016
+content-type: text/plain;
+  charset="utf-8"
+content-transfer-encod: quot-printabl
+
+i ccd you sinc you ccd me. pleas do not cc me in the futur. i read the=20
+list and that new thread group featur of kmail ar realli handi ;).
+
+am dienstag 11 mai 2010 schrieb dotan cohen:
+> on 11 mai 2010 00:58, martin steigerwald  wrote:
+> > am montag 10 mai 2010 schrieb nate bargmann:
+> >> * on 2010 10 mai 11:50 -0500, dotan cohen wrote:
+> >> > ye, 4.2 and now 4.4 seem to behav badli without a clean ~/.kde.
+> >> > i find that veri disturb and unstabl.
+> >>=20
+> >> for the record, i had a clean ~/.kde for 4.2 when it hit sid about a
+> >> year ago and upgrad the offer kde packag through 4.3.4, iirc,
+> >> and then start with a clean ~/.kde for sid's new 4.4.3.
+> >>=20
+> >> - nate >>
+> >=20
+> > imho when a config set is not handl properli on upgrad of kde
+> > it a bug.
+>=20
+> agre, but it's not on that is like to be fix. there seem to be
+> no backward-compat in kde anymor. it's a problem, i know.
+
+well i got no repli to my detail bug report yet.
+
+> > i migrat configur from kde 3.5.10 and just press on "reset
+> > to default" for quit some appear relat set in order to
+> > switch them to oxygen. there have been issu, but i mostli didn't
+> > file them as bug.
+> >=20
+> > onli on i triag and file: the separ "58" for colon for web
+> > shortcut in kuriikwsrc or someth like that it wa is not
+> > recogn by krunner, onli by konqueror. ":" instead work with
+> > both. unfortun konqueror save it as "58" not as ":".
+>=20
+> it _should_ be escap.
+
+it doesn't work in krunner when it is. see here:
+
+[bug 218272] new: webshortcut broken after upgrad kde 3 to 4 due to=20
+decim in keyword delimit which krunner doesnt support
+
+http://bug.kde.org/218272
+=20
+> > anywai i suggest to file those issu as concret as possibl as bug
+> > as you manag to take time for it.
+
+i did so realli. thi bug report contain quit some hint on test with=
+=20
+an empti configur. it as easi as that:
+
+mkdir ~/.kde-test
+export kdehom=3d~/.kde-test
+
+then start your kde applic you want to test with empti set from=20
+thi shell. you can also easili see what configur file the applicatio=
+n=20
+or the subsystem it us creat.
+
+ciao,
+=2d-=20
+martin 'helio' steigerwald - http://www.lichtvol.de
+gpg: 03b0 0d6c 0040 0710 4afa  b82f 991b eaac a599 84c7

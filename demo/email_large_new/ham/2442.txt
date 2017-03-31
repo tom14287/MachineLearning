@@ -1,0 +1,32 @@
+delet some regexp/simpl express from lot of file in a secur wai-----begin pgp sign messag-----
+hash: sha1
+
+hi,
+
+i have mani text file (actual .tex file) which contain some
+sequenc or regexp (it depend on the file) that i would like to
+remov. is there a commandlin/gui for do thi massiv edit?
+
+thank.
+- -- 
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+- -- 
+
+you can fool all of the peopl some of the time, some of the peopl all of the time, but you can't fool all of the peopl all of the time. (abraham lincoln)
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+comment: process by mailcrypt 3.5.8 
+
+ieyearecaayfakvtgqkacgkqm0llzlt8mhwzowcfty31uax4o3gm9wkn2cvrxcx
+jmkan28qe1qvuxlkyvhhozb0xc4c0dvj
+=huwz
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87iq6qwh1x.fsf@merciadriluca-station.merciadriluca
+
+

@@ -1,0 +1,39 @@
+[us perl] stori for 2002-10-10us perl daili newslett
+
+in thi issu:
+    * tpf octob newslett
+
++--------------------------------------------------------------------+
+| tpf octob newslett                                             |
+|   post by pudg on tuesdai octob 08, @22:35 (link)            |
+|   http://us.perl.org/articl.pl?sid=02/10/08/1836210              |
++--------------------------------------------------------------------+
+
+[0]delegatrix write "the octob edit of the [1]perl foundat
+newslett ha been post. thi newslett includ an interview with
+white camel winner tim maher."
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/10/08/1836210
+
+link:
+    0. mailto:lisa@perl.org
+    1. http://perlfound.org/index.cgi?page=newslett
+
+
+
+copyright 1997-2002 pudg.  all right reserv.
+
+
+======================================================================
+
+you have receiv thi messag becaus you subscrib to it
+on us perl.  to stop receiv thi and other
+messag from us perl, or to add more messag
+or chang your prefer, pleas go to your user page.
+
+	http://us.perl.org/my/messag/
+
+you can log in and chang your prefer from there.
+
+

@@ -1,0 +1,35 @@
+re: iceweasel/ff make the embed video go 4 time faster 
+ when it bug!on sun, 09 mai 2010 18:37:59 +0200, merciadri luca wrote:
+
+> camalón write:
+
+(...)
+ 
+>> check if you alreadi have the adob flash player version instal in
+>> your system.
+> sure, and even the non-free on, that i instal manual. adob
+> (http://www.adob.com/softwar/flash/about/) confirm it:
+> 
+> ==
+> you have version 10,0,22,87 instal ==
+> 
+> thank though.
+
+i've never experienc speed problem with adob flash plugin. well, 
+"buffer" issu, ye (paus) but not "doubl speed".
+
+can you send a concret uri where you ar get problem so we can 
+check?
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.09.17.04.53@csmine.org
+
+

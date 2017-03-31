@@ -1,0 +1,28 @@
+re: network setup questionon thu, 2010-05-06 at 01:05 -0700, kevin ross wrote: 
+> on 5/6/2010 12:05 am, alex samad wrote:
+> >
+[snip] 
+> 
+> what am i miss?
+
+noth in your case it work, but thei ar suppos to be host in
+differ network.  which wa the point i wa try to get at. and to
+be carefulli - especi if you ar do it remot
+
+as you & anand have point out it doe work.
+
+i have seen situat where it didn't work. cisco router return
+icmp.
+
+
+> 
+> 
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1273139772.2011.11.camel@alex-mini.samad.com.au
+
+

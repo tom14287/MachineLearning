@@ -1,0 +1,26 @@
+re: bash script - pass command line arg to embed sed script with
+ multipl argsfrom nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=us-ascii; format=flow
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on sat, apr 17, 2010 at 12:02:40pm -0400, daniel d jone wrote:
+>that wa the first thing i tri and sed gave me an error:
+>
+>sed: -e express #1, char 18: unknown option to `s'
+>
+>i just went back and tri it again and it work, so i have no idea what i
+>did the first time that made it not work.
+
+you can run into that sort of problem if your pattern to replac contain a=
+ny=20
+forward slash (/) in it.  if you need to such an expans, you probabl=
+=20
+want to do it in two pass, first do a / to \/ substitut on your=20
+replac string, then insert them into your final express:
+
+pata=3d`echo $1 | sed 's,/,\/,'`
+patb=3d`echo $2 | sed 's,/,\/,'`
+sed -e "s/pattern1/$pata/" -e "s/pattern2/$patb/" < input > output
+
+me

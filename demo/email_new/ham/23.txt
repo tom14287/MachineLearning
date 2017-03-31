@@ -1,0 +1,7 @@
+
+scifin now automat gener gpu-enabl price & risk model sourc code that run up to 50-300x faster than serial code us a new nvidia fermi-class tesla 20-seri gpu.
+
+scifin® is a deriv price and risk model develop tool that automat gener c/c++ and gpu-enabl sourc code from concis, high-level model specif. no parallel comput or cuda program expertis is requir.
+
+scifin's automat, gpu-enabl mont carlo price model sourc code gener capabl have been significantli extend in the latest releas. thi includ:
+

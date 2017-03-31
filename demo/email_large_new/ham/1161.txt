@@ -1,0 +1,32 @@
+re: pinentri window?from nobodi sun sep 18 20:45:29 2016
+content-type: text/plain;
+  charset="iso-8859-15"
+content-transfer-encod: quot-printabl
+
+am donnerstag 08 april 2010 schrieb modesta vainiu:
+> hello,
+>=20
+> on ketvirtadieni 08 balandi 2010 08:26:03 adrian von bidder wrote:
+> > heyho!
+> >=20
+> > ... and, send the last mail: is it a debian specif issu, or
+> > some local featur of my kde profil, or a kde bug: recent (4.3 to
+> > 4.4, but i'm not sure exactli which updat trigger it), the
+> > pinentri window alwai come up behind the kmail window when i sign
+> > email.  confus me a bit at first... (luckili it is still modal
+> > rel to the kmail window, so the kmail compos get grei out,
+> > indic that the pinentri might be somewher...)
+> >=20
+> > mostli everyth relat to kde is experiment or qt-kde
+> > repositori. pinentri-qt4 is 0.8.0-1.
+>=20
+> i believ thi is new pinentri-qt4 to blame rather than kde sc 4.4.
+
+second. i saw thi behavior after i upgrad to pinentri-qt4 0.8.0-1=20
+todai. i us kde 4.4.2-0rc1 packag befor and do not think that the=20
+upgrad to 4.4.2-1 made ani signific differ regard pinentri-qt4=20
+behavior.
+
+=2d-=20
+martin 'helio' steigerwald - http://www.lichtvol.de
+gpg: 03b0 0d6c 0040 0710 4afa  b82f 991b eaac a599 84c7

@@ -1,0 +1,129 @@
+re: fwd: re: kde 3.5 ...on 11 mai 2010 23:02, delopt  wrote:
+>>> - weather
+>>
+> http://kde-look.org/content/show.php/yawp+%28yet+anoth+weather+plasmoid=
+%29?content=3d94106
+>
+> thi wa not work in 4.3 and i couldn't start it in 4.4.
+>
+
+interest, it work on the ubuntu box i test kde on.
+
+
+>>> - korgan
+>>
+>> check!
+>
+> it took at least 10min to start
+>
+
+wow. ani consol output?
+
+
+>>> - infrar control
+>>
+>> how did you do thi in kde 3?
+>
+> with klirc and lircd and modifi the kernel kei map for my cinergi xx
+> dvbt card ;-)
+>
+> a big challeng wa to setup the kde kei ... it's not veri develop, bu=
+t
+> the basic function work
+>
+
+pleas, your input is need here:
+http://bug.kde.org/show_bug.cgi?id=3d197885
+
+
+>> i =c2=a0 plasma-widget-kbstate =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0=
+ =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0 =c2=
+=a0 =c2=a0 =c2=a0 =c2=a0 =c2=a0- a
+>> plasma widget that show the state of the modifi kei
+>
+> in kde3 the "idiot" didn't think of us poor peopl not us latin and
+> associ per default alt+k to switch the keymap. now if you switch from
+> english to rushian/bulgarian or whatev alt+k give a complet differ=
+nt
+> keycod ... so i had to alwai chang thi.
+>
+> now in kde4 it's even better. you have to click ... and no reason
+> languag switch combin is work. in thi point window win, as
+> it's per default configur to switch languag when type (left)alt+shi=
+ft
+>
+
+i switch between languag with the capslock kei.
+=d7=a2=d7=95=d7=91=d7=93 =d7=92=d7=9d =d7=91=d7=a2=d7=91=d7=a8=d7=99=d7=aa!=
+=e2=80=8f
+=d0=a0=d0=b0=d0=b1=d0=be=d1=82=d0=b0=d0=b5=d1=82 =d1=82=d0=be=d0=b6=d0=b5 =
+=d0=bf=d0=be =d0=a0=d1=83=d1=81=d1=81=d0=ba=d0=b8=d0=b9!
+
+
+>>> - screen manag (xrandr interfac)
+>>
+>> ye, built into system set.
+>
+> ye but not work for me and everybodi run i915 vga card. thi is a=
+lso
+> relat to x-server and the a**hole from intel. (don't judg me the
+> notebook wa given to me from the compani i'm work for :-( )
+>
+
+i don't think that's a kde issu, though.
+
+
+>> http://kde-app.org/content/show.php/krypt?content=3d80641
+>
+> the question is if it is compil in kde4? and also if it is work wel=
+l
+>
+
+it's not a core or even support app, i think. it's a third-parti
+app. i realli can't help with that.
+
+
+>>> i forgot to mention that the keyboard froze after press alt+f2 and
+>>> switch languag set
+>>
+>> pleas, pleas comment on thi bug:
+>> http://bug.kde.org/show_bug.cgi?id=3d205369
+>
+> the problem is that it wa not irespons for just 10sec but forev.
+>
+
+i see. doe that happen often, or onli that onc?
+
+
+> i'll look to get a complet list. we'll have to discuss also the stuff we
+> don't need too.
+>
+> thi wa my first impress. the conclus is that it will stai unusabl=
+e
+> for quit a long time yet.
+>
+> your commit is motiv me to do some test ... mai be it's time =
+to
+> have some closer look at upcom test debian.
+>
+> i'm still not that motiv as i would love to be, as i'm primari focus=
+d
+> on debian stabl.
+>
+
+thank. it will stai unus for you until you tell us what you need
+to us it! that's what i'm here for.
+
+--=20
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktilipkfmlb_1rbbrhkn-vzvvqegfhbjzgkpkk0m@mail.csmine.org
+
+

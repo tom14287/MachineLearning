@@ -1,0 +1,59 @@
+re: mount inform from da framework.
+on mai 18, 2010, at 18:41 pm, daniel markarian wrote:
+
+> hei dale,
+>
+> you have to us bsd.  eg.
+>
+>     1. dadiskcopydescript()
+>     2. cfdictionarygetvalu() with kdadiskdescriptionvolumepathkei
+>     3. cfurlgetfilesystemrepresent()
+>     4. statf()
+>     5. f_flag with mnt_dontbrows
+
+sampl code would have been help but i guess i can try and figur =20
+it out.
+
+> i have a suggest though.  it seem to me that the mount can be =20
+> made without the assist of an i/o kit extens and a disk =20
+> arbitr daemon.  you can mount a diskx3 partit directli =20
+> with bsd, through your applic, agent, or whatnot, without ani =20
+> requir to expos diskx3s1 in i/o kit.  eg.
+>
+>     /sbin/mount -t hf -o nobrows /dev/diskx3 /var/tmp/=20
+> com.mycompani.myproduct.x
+
+fail caus the directori doe not exist so i would have to not onli =20
+creat the directori i would have to remov it upon a dismount and =20
+creat code to manag multipl drive.
+
+> you can us posix_spawn() to invok such a command.
+>
+> dan
+>
+> ps:  disk arbitr 1 is deprec, thu the sampl code that =20
+> us disk arbitr 1 is deprec.  it is not us in modern =20
+> code, but if you must insist, look at disktool.c in the disk =20
+> arbitr project.
+
+thi code did not displai the nobrows option.
+
+ok, how can i do it us da 2?
+
+> le 2010-05-16 =e0 14:24, websrvr a =e9crit :
+>
+>> doe anyon know how i can find out if a partit is mount =20
+>> nobrows us the da framework?
+>>
+>> -- dale
+>
+>
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+filesystem-dev mail list      (filesystem-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/filesystem-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

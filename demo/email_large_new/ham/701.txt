@@ -1,0 +1,35 @@
+re: realtek ethernet (wa re: recent mobo recommend)on wed, 14 apr 2010 10:02:42 -0400, ryan manikowski wrote:
+
+> on 4/14/2010 9:28 am, ron johnson wrote:
+
+>> realli?   realtek chip ar as common as fli on hors poop, and work
+>> perfectli for me.
+>>
+
+(...)
+
+> same here. realtek 100mbit and gige chip have alwai work great
+> regardless of kernel version. the chipset that have horribl support
+> ar the marvel adapt that us the 'sky2' modul.
+> 
+> see thi thread for detail (sky2 modul ha still not been fix sinc
+> it introduct in 8/2006):
+> http://forum.gentoo.org/viewtop-t-487018-postdai-0-postord-asc-
+start-0.html
+
+mmmm... i manag some lenni system run a varieti of network adapt 
+(mainli intel -e1000e- , realtek -r8169- and marvel -skge-) and have not 
+experienc ani problem with them :-?
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.14.14.17.57@csmine.org
+
+

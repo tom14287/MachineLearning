@@ -1,0 +1,55 @@
+configur error us tor, privoxi & polipodear all
+
+on an up-to-date test machin, i am us iceweasel + tor + privoxi.  
+florian help me with an issu like thi sometim back, but revisit 
+hi help advic ha not help on thi occas.
+
+the situat is as follow:
+
+us iceweasel, i enabl the tor button and receiv a warn messag 
+"tor proxi test: local http proxi is unreach. is polipo run 
+properli?"
+
+well, no becaus polipo wasn't instal - why and when thi suddenli 
+becam a necess i don't know, but anywai i instal polipo and 
+configur it accord to the tutori on 
+http://wiki.archlinux.org/index.php/polipo which, in my circumst, 
+requir me to uncom thi line in the config file:
+
+         socksparentproxi = localhost:9050
+
+have restart the daemon, and still get the same error and no 
+connect, i point the browser at privoxi as per the polipo 
+configur page refer to abov, in the prefer/ network 
+set tab, and in the polipo config file, i uncom the line:
+
+         socksparentproxi = localhost:9050
+
+i then restart polipo, doubl-check the privoxi config file to 
+ensur that forward wa still set as requir and restart the tor 
+and privoxi daemon.  howev, i still get the same error messag 
+(basic cannot connect to web-page) and the tor test give the same 
+result as befor.
+
+ from research thi on the web, i am unabl to ascertain whether or 
+not i even need polipo, but the prefer set tab for the tor 
+button have a check-box for us polipo, so it appear as if tor is now 
+expect polipo to be instal and run as default.  but, i have 
+now reach the limit of what i know what to do or can figur out.  i am 
+also consciou of the risk of screw thing up further in an effort to 
+fix thi, so befor proceed further would like to ask thi list for 
+help and advic.
+
+i appreci ani thought/ idea.
+
+thank
+
+ag
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4befa041.10005@csmine.org
+
+

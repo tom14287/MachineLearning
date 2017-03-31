@@ -1,0 +1,49 @@
+re: blank page after everi page when print pdf with evinc -
+ debian lenni, cup, hp paintjet (pj)on sun, 25 apr 2010 06:59:33 -0400 (edt), camal=c3=b3n wrote:
+> on sat, 24 apr 2010 15:27:35 -0400, stephen powel wrote:
+>>
+>> i have notic that when print multi-page pdf file from evinc on
+>> the gnome desktop, us cup under debian lenni, i get a blank page
+>> after everi page.
+>=20
+> it doe the same when you print with anoth pdf viewer (i.e., gv)? it=20
+> happen with *ani* pdf?
+
+well, i didn't try them all, but both evinc and xpdf do the same thing.
+and ye, it seem to be everi multi-page pdf file.
+>>
+>> my printer is an hp paintjet.  thi wast paper and
+>> is veri annoi.  i have search the internet, of cours, but i did
+>> not find ani solut.  the closest i found wa debian bug report
+>> 316392, but hi work-around doesn't work for me.  my ppd file alreadi
+>> specifi letter instead of a4 for page size.  doe anyon know a
+>> work-around for thi?  sure someon ha run across thi befor.
+>=20
+> if you think is a problem of "size detect" try by set in print=
+=20
+> page layout tab a zoom scale of 90%, just for test purpos.
+
+well, that make the imag slightli smaller, but i still get a blank
+page between everi print page.
+
+further test lead me to believ that thi problem is driver-specif.
+when i print to anoth printer, an ibm proprint ii, i do not have
+thi problem.  i see that in lenni the ghostscript pj driver is us
+and in squeez thei have switch to the hpli driver.  perhap upgrad
+to squeez mai fix the problem.  in the meantim, i'm go to do some
+experi with the ghostscript driver directli and see what i can
+see.
+
+--=20
+  .''`.     stephen powel   =20
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1696116502.168906.1273361784808.javamail.root@md01.wow.synacor.com
+
+

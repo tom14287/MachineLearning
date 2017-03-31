@@ -1,0 +1,54 @@
+re: [razor-user] spamassassin+razor2
+theo,
+
+thank you veri much, it solv the problem!!!!
+
+eugen
+
+
+-----origin messag-----
+from: razor-user-admin@exampl.sourceforg.net
+[mailto:razor-user-admin@list.sourceforg.net]on behalf of theo van
+dinter
+sent: septemb 5, 2002 4:38 pm
+to: eugen chiu
+cc: razor-user@exampl.sourceforg.net
+subject: re: [razor-user] spamassassin+razor2
+
+
+on thu, sep 05, 2002 at 04:27:08pm -0400, eugen chiu wrote:
+> razor2 check skip: bad file descriptor insecur depend in open
+while runn
+> ing setuid at /usr/local/lib/perl5/site_perl/5.6.1/razor2/client/config.pm
+line
+> 410,  line 1.
+> >from info@znion.com  thu sep  5 11:55:15 2002
+>  subject: *****spam***** comput mainten
+>   folder: /home/eugen/caughtspam
+8343
+
+it look like you're run via procmail -- what ar the permiss
+on procmail?  "insecur depend" scream "i'm in taint mode!", which
+is a typic problem when procmail is setuid/setgid (the permiss
+should be 755).
+
+if thi is in fact the problem, an easi solut is to put "droppriv=ye"
+in the procmailrc. :)
+
+--
+randomli gener taglin:
+"the bu had no heat, blew over in the wind and us the driver's leg
+ as it first line of defens in an accid." - unknown about the vw bu
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+razor-user mail list
+razor-user@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/razor-user
+
+

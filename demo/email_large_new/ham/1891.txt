@@ -1,0 +1,26 @@
+re: zoot apt/openssh & new dvd plai docon tue, oct 08, 2002 at 04:36:13pm +0200, matthia saou wrote:
+> two new thing todai :
+> 
+> 1) i've had to instal a red hat linux 6.2 server becaus of an old
+> proprietari ivr softwar that doesn't work on newer releas :-( so
+> i've recompil both the latest apt and openssh packag for it, and
+> thei ar now avail with a complet "os, updat & freshrpm" apt
+> repositori at apt.freshrpm.net, for those who might be interest.
+
+oh, neat.
+
+i have similiar thing in my hand, though it might be migrat if i
+had the time to try. i've been us anoth 6.x repositori though.
+http://apt-rpm.tuxfamili.org/apt
+
+anyon tri (dist-)upgrad from 6.x to 7? theoret it should drop
+in some -compat's (notabl libc) and upgrad the rest and after a reboot
+and mayb a new kernel (and grub, but i have long befor put those to
+v6's :) run just fine. haven't had a spare machin to try it on myself,
+though.
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

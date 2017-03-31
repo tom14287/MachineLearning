@@ -1,0 +1,46 @@
+re: realtek ethernet (wa re: recent mobo recommend)le 14/04/2010 15:28, ron johnson wrote:
+> on 2010-04-13 22:50, stan hoeppner wrote:
+>> hugo vanwoerkom put forth on 4/13/2010 3:53 pm:
+> [snip]
+>>
+>> either wai, avoid onboard realtek ethernet as it's not current
+>> support
+>> well by debian. on might be abl to make it work, but the process
+>> requir
+>> some seriou hoop jump.
+>>
+>
+> realli? realtek chip ar as common as fli on hors poop, and work
+> perfectli for me.
+>
+> $ lspci -vs 03:00.0
+> 03:00.0 ethernet control: realtek semiconductor co., ltd.
+> rtl8111/8168b pci express gigabit ethernet control (rev 02)
+> subsystem: giga-byte technolog ga-ep45-ds5 motherboard
+> flag: bu master, fast devsel, latenc 0, irq 28
+> i/o port at ce00 [size=256]
+> memori at fddff000 (64-bit, prefetch) [size=4k]
+> memori at fdde0000 (64-bit, prefetch) [size=64k]
+> [virtual] expans rom at fdd00000 [disabl] [size=64k]
+> capabl: 
+> kernel driver in us: r8169
+>
+hi, i have an asu "sabertooth" 55i (socket lga1156) with the same 
+realtek lan chip (rev03 here), no problem.
+the motherboard is overpr due to it's market hype regard 
+"militari" grade compon and "ceramix" coat heatsink , but 
+otherwis it's work great, and veri cool too with an intel core i7. 
+layout is good for my need, ampl space for larg video card without 
+block ani sata port. bundl is limit to bare minimum (esata/usb 
+bracket and a few cabl). us for video process mainli, occasion 
+kernel compil, virtualbox vm and the occasion game.work with 
+squeez amd64 with stock kernel (minor sound glitch with on-board 
+chip) and current 2.6.33.2 (100% function), suspend work too.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc5f916.80103@googlemail.com
+
+

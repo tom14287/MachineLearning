@@ -1,0 +1,8 @@
+note to self: read the pingback spec. form opinion.url: http://scriptingnew.userland.com/backissu/2002/09/24#when:8:14:24pm
+date: wed, 25 sep 2002 03:14:24 gmt
+
+note to self: read the pingback spec[1]. form opinion.
+
+[1] http://www.hixi.ch/spec/pingback/pingback
+
+

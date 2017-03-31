@@ -1,0 +1,27 @@
+re: [satalk] fals posit of the week
+bob sulli said:
+
+> spamassassin (2.30) ha been toss my daili logwatch (3.3) report into 
+> the spam bucket.  a recent on gener the folow hit: ....
+
+fix in cv i think, or at least my logwatch get through fine.  if it
+is not fix in cv, then report it, us the correct bug-report
+procedur:
+
+    1. open a bugzilla bug. http://bugzilla.spamassassin.org/
+
+    2. attach a sampl mail messag *as an attach* with all
+    header intact
+
+--j.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: jabber - the world's fastest grow 
+real-time commun platform! don't just im. build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

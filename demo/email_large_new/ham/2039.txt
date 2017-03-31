@@ -1,0 +1,30 @@
+re: cyru 2.2 imapd in amd64wojciech ziniewicz escribió:
+> 2010/4/23 carlo bergero :
+>   
+>> i copi the old file, but also try to run with the origin file of the
+>> instal, in both case i have the same problema and file dont differ much.
+>>
+>>     
+>
+> did you copi cyru databas between server too ?
+>
+> regard
+>
+>
+>   
+yup i copi the mail directori and other cyru directori 
+/var/lib/cyru and /var/run/cyru , plu config file /etc/cyru.conf 
+/etc/imapd.conf
+
+think that all?
+
+cheer,
+            carlo
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd21384.20607@fcien.edu.uy
+
+

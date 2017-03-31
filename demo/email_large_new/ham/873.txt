@@ -1,0 +1,40 @@
+[ilug] re: [ot] macosx mail list?>sorri for the ot. just wonder if anybodi know of a similar type mail
+>list specif deal with macosx?  (which, fyi is a version of bsd)
+
+>slán,
+
+>tim
+
+hi tim,
+it isn't a "version" of anyth except nextstep, with a mac hackjob.
+it ha a bastardis, but function bsd -layer- which sit's atop mach and
+us case insensit hf+ but it isn't realli a bsd.
+
+(here's a neat trick, touch "makefil" and "makefil", notic the lack of
+error messag but the absenc of "makefil", and don't bother format for
+uf. the appl uf implement perform like a dog, wa frozen in 97,
+implement badli and ha not been updat sinc. hf+ get's tweak everi
+now and then, but enough scream ha them look at shove uf2 in there
+somewher down the road. )
+
+then there's the holdov next inher weird, such as multipl version
+of common unix file, but none of them do anyth, and all chang you
+would usual append to them have to go through netinfo manag.
+
+all in all, i find it to be a function, if not overli quirki desktop
+environ.
+
+as for your initi question,
+http://www.omnigroup.com/develop/mailinglist/
+
+regard,
+mark.
+
+
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

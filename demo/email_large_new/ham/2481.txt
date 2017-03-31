@@ -1,0 +1,163 @@
+re: cannot loginfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+on wed, apr 7, 2010 at 1:25 pm, smokejohn  wrote:
+
+>
+>
+> on wed, apr 7, 2010 at 2:18 pm, daniel sutil wrot=
+e:
+>
+>>
+>> un saludo,
+>>
+>> daniel sutil
+>>
+>>
+>>
+>> on wed, apr 7, 2010 at 1:17 pm, smokejohn  wrote:
+>>
+>>>
+>>>
+>>> on wed, apr 7, 2010 at 2:07 pm, daniel sutil wr=
+ot:
+>>>
+>>>>
+>>>> un saludo,
+>>>>
+>>>> daniel sutil
+>>>>
+>>>>
+>>>>
+>>>> on wed, apr 7, 2010 at 1:00 pm, smokejohn  wrote:
+>>>>
+>>>>>
+>>>>>
+>>>>> on wed, apr 7, 2010 at 1:35 pm, daniel sutil =
+wrote:
+>>>>>
+>>>>>>
+>>>>>> on wed, apr 7, 2010 at 12:15 pm, smokejohn wrot=
+e:
+>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>>> on tue, apr 6, 2010 at 11:53 pm, klau becker wro=
+te:
+>>>>>>>
+>>>>>>>> le mardi 06 avril 2010 22:41:44, daniel sutil a =e9crit :
+>>>>>>>> > final i appli the follow workaround: i remov kdm and
+>>>>>>>> instal gdm.
+>>>>>>>> > after that, i have no problem to login. i haven't investig a=
+ny
+>>>>>>>> further
+>>>>>>>> > becaus i realli don't know from where the problem come, but no=
+w,
+>>>>>>>> mayb we
+>>>>>>>> > have to undo the step appli with the skype's solut to solv=
+e
+>>>>>>>> our
+>>>>>>>> > problem.
+>>>>>>>>
+>>>>>>>>
+>>>>>>>> hi,
+>>>>>>>>
+>>>>>>>> i had the same problem with kdm, but no problem with gdm.
+>>>>>>>>
+>>>>>>>> cheer
+>>>>>>>>
+>>>>>>>> klau
+>>>>>>>>
+>>>>>>>> hi. instal gdm did not do the trick :(
+>>>>>>>
+>>>>>>> you must uninstal the kdm servic first and select in the session
+>>>>>> selector of gdm "kde". if you don't select the session type, get som=
+e
+>>>>>> error.
+>>>>>>
+>>>>>
+>>>>> i uninstal kdm and select kde as a session but i got the same
+>>>>> messag tell me that my session last lower than 10s and bla bla.=
+.
+>>>>>
+>>>>>>
+>>>>>>
+>>>>>>> when do startx as a normal user from consol i get some error
+>>>>>>> like "xkb could not initi" and "xinit: no such file or directo=
+ry" and
+>>>>>>> "xinit: could not connect to xserver"....
+>>>>>>>
+>>>>>>
+>>>>>> have you stop the kdm first?
+>>>>>>
+>>>>>
+>>>>> ye i did stop kdm when i tri that. the strang thing is that if i
+>>>>> login as root from consol and do a startx then a kde session start
+>>>>> normal. if i do that as a normal user i get the error..
+>>>>>
+>>>>
+>>>> can you past the error?
+>>>>
+>>>
+>>> when try to login with gdm it ha an option to view the
+>>> .xsession-error file. the error is mkdtmp: privat folder brows
+>>> (someth like that :p): permiss deni.
+>>>
+>>> when i wa us kdm and did a cat on the same file the second line ju=
+t
+>>> show: permiss deni.
+>>>
+>>> i check the .xauthor file and did chown to my user.
+>>>
+>>
+>> i rememb that first time i try to execut the startx with my user i ge=
+t
+>> some error but not with root. the problem wa that the /tmp directori
+>> doesn't have permiss to write with my user.
+>>
+>> the correct permiss ar:
+>>
+>>
+>> cd /tmp
+>>
+>> ls -ld
+>>
+>> drwxrwxrwt  8 root root 12288 2010-04-07 13:12 .
+>>
+>> could you check it?
+>>
+>>
+>>>
+>>>>
+>>>>>
+>>>>>>
+>>>>>>>
+>>>>>>> some friend told me to purg kde and reinstal it. i don't think th=
+is
+>>>>>>> will help. do you think i should give it a try?
+>>>>>>>
+>>>>>>>
+>>>>>>>
+>>>>>> i tri that with no success :-(
+>>>>>>
+>>>>>> if that didn't help you i will not bother..
+>>>>>
+>>>>> j
+>>>>>
+>>>>>
+>>>>
+>>>
+>> well yesterdai befor i sent the list an email i us googl to find
+> anyth that would help. i found someon report that the permiss =
+in
+> /tmp and /var/tmp could be the problem. i check both. everyth seem
+> fine :s  i will check again, just in case.....
+>
+
+check the sticki bit.. is the import think.
+
+i think is:
+
+chmod 01777 /tmp
+chmod 01777 /var/tmp

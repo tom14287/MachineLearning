@@ -1,0 +1,44 @@
+re: backup apt tree?from nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+
+if you ar ask what i think you ar ask, as in which file would you
+need to restor your system in the event that you lose your apt and dpkg
+databas, then i do the follow:
+
+/var/backup
+/var/cach/apt (less /var/cach/apt/archiv)
+/var/lib/apt
+/var/lib/dpkg
+
+thi will give you enough that apt-get updat, etc work. now the rule have
+probabl chang if you us aptitud as i believ it creat/us a
+differ databas.
+
+on tue, apr 20, 2010 at 2:49 pm, liviu andron wrote:
+
+> dear all
+> what file contain the inform on the current ("now") apt tree? i
+> would like to perform backup of these file so that i could restor
+> the tree if some packag upgrad mess up my debian test.
+>
+> thank you
+> liviu
+>
+>
+>
+> --
+> do you know how to read?
+> http://www.alienetwork.com/srtest.cfm
+> http://goodi.xfce.org/project/applic/xfce4-dict#speed-reader
+> do you know how to write?
+> http://garbl.home.comcast.net/~garbl/stylemanu/e.htm#e-mail
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact
+> listmast@list.debian.org
+> archiv:
+> http://list.debian.org/k2z68b1e2611004201149o7450ce70k995ff71346679026@mail.csmine.org
+>
+>

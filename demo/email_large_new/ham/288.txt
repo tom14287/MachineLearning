@@ -1,0 +1,12 @@
+ken dow report that the current version of omnioutlin can read
+    and writeurl: http://scriptingnew.userland.com/backissu/2002/09/25#when:8:47:05am
+date: wed, 25 sep 2002 15:47:05 gmt
+
+ken dow report[1] that the current version of omnioutlin can read and write 
+opml. thi mean, for exampl, with a littl radio script (or an applescript) 
+you could us omni as an instant outlin[2].
+
+[1] http://radio.weblog.com/0001015/imag/2002/09/25/omnioutlinerwithopml.jpg
+[2] http://davenet.userland.com/2002/04/02/jonudelloninstantoutlin
+
+

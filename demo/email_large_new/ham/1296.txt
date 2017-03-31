@@ -1,0 +1,32 @@
+ani updat inform to "fileid race detect" email thread?hello:
+
+i=92ve recent had a few user get new snow leopard machin.  thei all =
+ar have problem similar to those describ in the =93fileid race =
+detect=94 (jan 19, 2010) of thi list.  i share home directori us =
+nf (mac os x server 10.5.8).  my leopard client do not exhibit thi =
+behavior.
+
+the snow leopard client ar all patch up to 10.6.3.  i search thi =
+list and did not see ani inform indic that thi bug, allud =
+to by jim luther (respons to initi =93fileid race detect=94 post =
+also on jan 19, 2010), ha been fix by now.  doe anyon have some =
+concret inform about thi bug?  thank a bunch for your help.
+
+--
+peter schwenk  ||  campu it associ 3
+mathemat scienc  ||  univers of delawar
+newark, de  19716-2553  ||  (302) 831-0437 (v)
+schwenk @ math . udel . edu  ||  http://www.math.udel.edu/~schwenk
+
+
+
+
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+filesystem-dev mail list      (filesystem-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/filesystem-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,46 @@
+re: back up lvm volumesfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+on tuesdai 27 april 2010 16:03:55 celejar wrote:
+> i've had to give up lvm snapshot total as
+> broken, primarili becaus of thi (see my messag in the thread):
+>=20
+> http://bug.debian.org/cgi-bin/bugreport.cgi?bug=3d549691
+
+that is troublesom, probabl to the point of actual be broken.  it's=
+=20
+like that someth "behind-the-scene" in lvm is actual mess with t=
+he=20
+snapshot devic even when it is not mount and prevent the remov.
+
+i'm fairli sure the snapshot devic ha to be updat whenev a write is d=
+on=20
+to a new le in the origin devic, and it's possibl *that* is caus the=
+=20
+problem.  i hope thi issu get some attent; i doubt it is a debian-ism.
+
+> i've also been hit by thi, although it *mai* be harmless (or not -
+> thi stuff could realli us decent document):
+>=20
+> http://bug.debian.org/cgi-bin/bugreport.cgi?bug=3d503268
+
+my guess on thi on is on of two thing:
+1) udev is take a littl while to unlink "secondari" name for the lv th=
+at=20
+ar be remov, and when lvm doe it devic scan it's hit "miss"=
+=20
+devic.
+2) lvm is us devic name from it cach for devic that ar no longer=
+=20
+present for it devic scan and, again, hit "miss" devic.
+
+in either case i think the error messag ar annoi, but not indic =
+of=20
+a real problem.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

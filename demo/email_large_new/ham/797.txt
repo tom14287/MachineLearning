@@ -1,0 +1,16 @@
+composit two moviesi need to plai two movi in sync, composit them in a custom wai. 
+on approach i came up with is to put the movi in qtmovielay (core 
+anim), and then i can us a core imag filter for the composit. 
+  doe that sound reason, or is there anoth approach that is 
+like to perform significantli better?
+-- 
+   jame w. walker, innovent softwar llc
+   
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

@@ -1,0 +1,21 @@
+parallelsurl: http://diveintomark.org/archiv/2002/09/24.html#parallel
+date: 2002-09-24t20:38:57-05:00
+
+_jeffrei zeldman_: os x blue updat[1]. 
+
+    a coupl of intellectu have point out parallel between the rigid 
+    of os x, which deriv it power from unix and xml, and the rule of 
+    standard-base web develop, which also compel you to do thing the 
+    right wai instead of us five differ non-standard hack. the parallel 
+    is not without merit. build web page the right wai is hard at first, 
+    but onc you get it, you never want to go back. regardless, we miss os 9's 
+    flexibl and eas of us, and a metric ton of logic doesn't offset that 
+    feel of loss. 
+
+
+
+
+
+[1] http://www.zeldman.com/daili/0902a.html#osxbluesupd
+
+

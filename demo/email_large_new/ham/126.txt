@@ -1,0 +1,20 @@
+re: the futur of "nv" driveron 04/25/2010 07:55 am, jame p. wallen wrote:
+[snip]
+>
+> hmmm. mayb debian could set up "activ server" that could
+> determin whether or not we ar us "genuin debian".
+>
+
+but serious... each kernel modul ha a "licens" field, so if a 
+non-gpl modul get instal, the kernel know.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd442f5.6050800@cox.net
+
+

@@ -1,0 +1,51 @@
+re: fw: parallel the boot in debian squeez - readi for wider
+  testingon thu, 6 mai 2010 23:31:15 +0300
+alexand batischev  wrote:
+
+> > these dai, the init.d script depend in squeez ar quit
+> > complet, so complet that it is actual possibl to run all the
+> > init.d script in parallel base on these depend.  if you want
+> > to test your squeez system, make sure depend base boot
+> > sequenc is enabl, and add thi line to /etc/default/rc:
+> >
+> > concurr=makefil
+> >
+> > that is it.  it will caus sysv-rc to us the startpar tool to run
+> > script in parallel us the depend inform store in
+> > /etc/init.d/.depend.boot, /etc/init.d/.depend.start and
+> > /etc/init.d/.depend.stop to order the script.  startpar is configur
+> > to try to start the kdm and gdm script as earli as possibl, and will
+> > start the facil requir by kdm or gdm as earli as possibl to
+> > make thi happen.
+> >
+> > give it a try, and see if you like the result.  if some servic fail
+> > to start properli, it is most like becaus thei have incomplet
+> > init.d script depend in their startup script (or some of their
+> > depend script have incomplet depend).  report bug and get
+> > the packag maintain to fix it. :)
+> 
+> well, i did that and restart system. i didn't notic ani error, and
+> system doesn't boot faster or slower than usual. don't know is it good
+> or bad new, though…
+
+the last time we discuss thi, it wa claim that there will be no
+differ on singl core system:
+
+http://list.debian.org/debian-user/2009/09/msg00721.html
+
+i have a singl core (celeron m) system - should i bother with thi at
+all?
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100506184743.09f79826.celejar@csmine.org
+
+

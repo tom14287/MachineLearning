@@ -1,0 +1,106 @@
+re: [ilug] on command -- four typessolocdm wrote:
+> how ar there four (/bin/dnsdomainnam /bin/domainnam
+> /bin/nisdomainnam /bin/ypdomainnam) differ type of hostnam
+> link with their own separ option?
+
+the program ha differ behaviour depend on the valu of
+argv[0], probabl...
+
+here's a simpl exampl...
+
+#includ 
+#includ 
+#includ 
+
+long int add(long int a, long int b)
+{
+  return a+b;
+}
+
+long int subtract(long int a, long int b)
+{
+  return a-b;
+}
+
+int main(int argc, char **argv)
+{
+  long int a, b; /* operand */
+  long int (*oper)(long int a, long int b);
+  char *prognam, *marker;
+
+  if(argc != 3)
+  {
+    fprintf(stderr, "usag: %s [int1] [int2]\n", argv[0]);
+    exit(1);
+  }
+
+  prognam = strrchr(argv[0], '/');
+  if(prognam == null)
+    prognam = argv[0];
+  els
+    prognam ++; /* skip past the '/' */
+  
+  if(strcmp(prognam, "add") == 0)
+  {
+    oper = add;
+  }
+  els if (strcmp(prognam, subtract) == 0)
+  {
+    oper = subtract;
+  }
+  els
+  {
+    fprintf(stderr, "program call with invalid "
+            "name %s. quit.\n", argv[0]);
+    exit(1);
+  }
+
+  a = strtol(argv[1], &marker;, 0); /* us base 16 for arg
+                                    * start 0x, and base 8 for 
+                                    * arg start 0 */
+  if(*marker != '\0')
+  {
+    fprintf(stderr, "invalid charact %c in argument %s.\n",
+            *marker, argv[1]);
+    exit(1);
+  }
+
+  b = strtol(argv[2], &marker;, 0); /* us base 16 for arg
+                                    * start 0x, and base 8 for 
+                                    * arg start 0 */
+  if(*marker != '\0')
+  {
+    fprintf(stderr, "invalid charact %c in argument %s.\n",
+            *marker, argv[2]);
+    exit(1);
+  }
+  
+  printf("%ld %c %ld = %ld\n", 
+          a, 
+          (oper == add)?'+':'-', 
+          b, 
+          oper(a, b));
+          
+  return 0;
+}
+
+sai that's in oper.c, compil it us 
+
+gcc -ansi -pedant -wall -w -o2 -o add oper.c
+and then 
+ln add subtract
+and run both, with appropri argument.
+
+
+
+-- 
+       david neari,
+    marseil, franc
+  e-mail: bolsh@gimp.org
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

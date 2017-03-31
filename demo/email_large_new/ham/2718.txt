@@ -1,0 +1,37 @@
+re: debian on a super lean laptop part i - make it workfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on wed, apr 21, 2010 at 06:30:58pm -0700, scarletdown wrote:
+> thi mai, at first glanc, appear to be an exercis into insan, but it=
+ is
+> a rather import littl project to me.
+>=20
+> i have thi old toshiba satellit laptop (p-120, 6gb had drive, and a
+> whoppong 24mb ram) that is current run 98se lite.  it run adequ=
+ly
+> on window, but now i would like to make it dual boot with debian.
+
+[...]
+
+> the build box boot the bare bone build beautifulli.  howev, the laptop
+> hang when i try to boot into linux.  specif, the last thing shown =
+on
+> the screen befor noth els happen is:
+>=20
+> initrd /boot/initrd.img-2.6.32-3-486
+>   [linux-initrd @ 0x10b3000, 0x76cdf9 byte]
+>=20
+> after that, she's lock up tight, and all i can do is power off.
+>=20
+> thi is obvious a problem with initrd.  set too larg for such a low
+> memori system perhap?  if so, what can be done to fix thi?
+
+perhap. you could certainli build a kernel that doesn't requir the
+initrd. you'd probabl benefit a lot from run a custom kernel
+anywai.
+
+=2e02
+
+a

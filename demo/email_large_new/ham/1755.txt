@@ -1,0 +1,30 @@
+re: cannot instal lightn add-on for icedov 3.0.4on 05/17/2010 11:52 pm, umarzuki mochli wrote:
+> when i tri instal
+> thi messag appear:
+>
+> "lightn" could not be instal becaus it is not compat with 
+> your icedov build type (linux_x86_64-gcc3). pleas contact the author 
+> of thi item about the problem.
+>
+> doe thi mean that i have to find the 64-bit compat for thi add-on?
+>
+> -- 
+> regard,
+>
+> umarzuki mochli
+> http://debmal.my
+
+there is no x86_64's lightn packag.
+see 
+http://packag.debian.org/search?keyword=lightn&searchon;=name&suit;=all&section;=all&sourceid;=mozilla-search
+
+instead of instal from apt, you can manual download thunderbird 
+and sunbird's tar.gz from the websit, and instal ia32's runtim librari.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bf16821.1040408@csmine.org
+
+

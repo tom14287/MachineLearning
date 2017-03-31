@@ -1,0 +1,29 @@
+re: aptitud errorfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=iso-8859-1
+
+on fri, apr 30, 2010 at 5:44 pm, boyd stephen smith jr. <
+bss@iguanasuicid.net> wrote:
+
+> on fridai 30 april 2010 06:16:22 jame stuckei wrote:
+> > the unstabl/sid doesn't have to be comment out. set the default
+> >  releas will keep the system track to, in thi case, test.
+>
+> er, mostli.
+>
+> if there is a version depend that can be satisfi from sid but not
+> test, you will get the packag from sid.  thi shouldn't happen given
+> the
+> wai test is manag, unless you instal at least on packag from sid.
+>
+> > how did the packag  from sid get instal in the first place? if
+> you're
+> > track someth, you have to give it an explicit "aptitud instal -t
+> >  sid " command, right?
+>
+> with the offici test and sid repositori that should be true.  it
+> would
+> onli happen if someon manual fix up test and did it wrong.
+> --
+>
+
+i instal eclips from sid, sinc there isn't eclips in test.

@@ -1,0 +1,78 @@
+re: increas number of conflictsfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=utf-8; format=flow
+content-transfer-encod: quot-printabl
+
+b. alexand schreef:
+>=20
+>=20
+> on tue, apr 20, 2010 at 8:07 pm, john hasler  > wrote:
+>=20
+>     b. alexand wrote:
+>      > i've got an issu with a sid box that i have been maintain fo=
+r a
+>      > while. thi is my workstat, and i have notic a grow numb=
+er of
+>      > broken packag, unmet depend and conflict. i have been u=
+sing
+>      > safe-upgrad for month now, hope that it would work itself ou=
+t
+>     over
+>      > time. howev, thi hasn't happen.
+>=20
+>     no, of cours not.  sid is constantli undergo the sort of chang=
+s
+>     that take place when you upgrad from on releas to the next and w=
+hich
+>     full-upgrad is design to handl (and which safe-upgrad block):=
+
+>     transit, remov of obsolet packag, major version chang th=
+at
+>     requir new librari version that mai be incompat with other
+>     packag, etc.  sid is often also in an inconsist state when, fo=
+r
+>     exampl, a packag is upload in advanc of it depend.  by
+>     repeatedli run safe-upgrad you have forc these thing to pil=
+e
+>     up.
+>=20
+>      > so what can i do to fix the problem without lose functionalit=
+y?
+>=20
+>     "aptitud full-upgrad" and then patient sort through the resulti=
+ng
+>     mess.  it might be simplest to write down all the propos remov=
+, let
+>     it do it thing, and then instal the remov packag.
+>=20
+>=20
+> ye. i need to block out some time and do just thi.
+> =20
+>=20
+>      > no problem. most of my debian instal at home run sid, with the=
+ rest
+>      > run test...except my firewal, which run stabl for the =
+first
+>      > 6 month or so (until critic packag start get long in th=
+e
+>      > tooth), then i upgrad it to test and run until the next stab=
+le
+>      > releas.
+>=20
+>     i'm have troubl imagin what packag appropri to a firew=
+l
+>     could get long in the tooth.
+>=20
+>=20
+> ssh, ssl, iptabl, snort, etc. i don't have an extens larg=20
+> packag list on my firewal, especi compar to a workstat, but =
+
+> sinc it is on the sharp end of my network, i try to keep it as up to=20
+> date as is feasabl.
+then us stabl, as secur updat ar often avail earlier for=20
+stabl than for test. up to date is someth differ than=20
+cut-edg.
+
+sjoerd
+
+ps. if you do need cut-edg, us debian-backport!
+

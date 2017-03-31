@@ -1,0 +1,17 @@
+re: non-ascii environmentjerom benoit write:
+> nevertheless, someth bother me: where non-ascii environ can be
+> found ?  furthermor, can such an environ be creat on a debian
+> box ?  the aim is to check the portabl of my code.
+
+look at the hercul system/370, esa/390 and z/architectur emul.  i
+believ that it can us ebcdic.
+-- 
+john hasler
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/874ojkecr0.fsf@thumper.dhh.gt.org
+
+

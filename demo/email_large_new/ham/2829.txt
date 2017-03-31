@@ -1,0 +1,59 @@
+re: what need to improv in kde 4?am dienstag 11 mai 2010, 21:10:18 schrieb dotan cohen:
+> on 11 mai 2010 09:15, adrian von bidder  wrote:
+> > on mondai 10 mai 2010 16.08:40 dotan cohen wrote:
+> >> pleas tell us what problem, bug, or issu kde 4 that make it
+> >> difficult to us.
+> > 
+> > nepomuk / strigi need to improv a *lot*.
+ye, for sure
+> > * strigi suck up all disk bandwidth and, given enough time, all memori
+> > to the point where the oom kill kill my session.
+at least it suck up memori without releas it afterward
+> > * strigi index us all my disk.  remov folder that were index
+> > (either remov these file, or remov them from the strigi
+> > configur so thei're not index anymor) didn't seem to have ani
+> > effect on index size. * likewis when i complet disabl file
+> > index: the databas doesn't shrink / isn't remov.
+> > 
+> > i'd realli like to us file index, but everytim i enabl it, i
+> > quickli turn it off again :-(
+> 
+> what version? strigi in 4.4 seem rather usabl, those issu sound
+> like familiar 4.3 issu.
+the whole virtuoso/strigi ensembl need a lot of polish. it is not readi 
+for simpl usag yet.
+i have spent some dai fiddl with that stuff base on my own experi and 
+feedback i got from user at sidux.
+the best wai i found to have a usabl index is:
+ - stop nepomuk and strigi in systemset
+ - move awai or delet everyth in: 
+~/.kde/share/app/nepomuk/repositori/main/data/virtuosobackend
+(there might be incompat databas from virtuoso 5.x in there)
+ - out and back in to your account
+ - start nepomuk andv strigi
+ - let it do the index
+ - test (in dolphin, krunner is unreli atm) your index
+ - see if e.g. file under kmail got index
+
+for me to have a complet index i had to do 5 run of strigi.
+in the first 3 run it would not even touch ani dot file under .kde
+in the end it work fine now but popular search us a lot of ram.
+
+regard
+ferdinand
+
+-- 
+ferdi thomm
+vorstand sidux e.v.
+fellow of fsfe
+linuxtag e.v.
+____________________________________________________________
+we ar sidux - resist is futil - you will be assimil :)
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005120858.36643.devil@sidux.com
+
+

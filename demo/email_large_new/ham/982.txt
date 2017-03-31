@@ -1,0 +1,38 @@
+re: how to keep debian current??on tue, 2010-05-18 at 20:30 +0300, andrei popescu wrote:
+> on wed,19.mai.10, 00:34:02, osamu aoki wrote:
+> >=20
+> > new:
+> > if "sid" is us in the abov exampl instead of "lenni", the "deb:
+> > http://secur.debian.org/ =e2=80=a6" line for secur updat in the
+> > "/etc/apt/sourc.list" is not requir. thi is becaus "sid"
+> > (unstabl) is alwai updat whenev secur issu ar fix.  there
+> > is no need to have a separ secur updat archiv for "sid".
+>=20
+> mai i suggest:
+> ---
+> if "sid" is us in the abov exampl instead of "lenni", the "deb:
+> http://secur.debian.org/ =e2=80=a6" line for secur updat in the
+> "/etc/apt/sourc.list" is not requir as there is no need to have a=20
+> separ secur updat archiv for "sid". thi is becaus "sid"
+> (unstabl) is *usual* updat whenev secur issu ar fix for=20
+> stabl.
+>=20
+> howev, it can happen that the fix ar not appli immedi (e.g. =20
+> the maintain is wait for a new version from upstream which fix=20
+> the issu) or issu exist which do not affect the version in stabl or=20
+> test, in which case debian will not even issu a dsa.
+> ---
+> (dsa might need expand/explain if not alreadi done in some other=20
+> paragraph)
+i thought john hasler's respons wa veri good. it explain why i wa
+confus - there ar secur updat but thei ar not the same type of
+updat as test and stabl receiv.  perhap john's word should be
+includ; it clarifi a veri murki issu for me - john
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1274204951.20211.18.camel@famili.pacifera.com
+
+

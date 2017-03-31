@@ -1,0 +1,52 @@
+re: [ilug] backup solutionsbrian odonoghu said:
+>
+>
+>> -----origin messag-----
+>> from: ciaran johnston [mailto:cj@nolog.org]
+>> sent: 16 august 2002 15:09
+>> to: ilug@linux.ie
+>> subject: [ilug] backup solut
+>>
+>> hi folk,
+>> i maintain a coloc server on behalf of a small group of
+>> individu, and am look at backup solut. is it possibl to get
+>> some sort of low-
+>> end intern tape / other solut that could be us to back up
+>> approx. 40
+>> gig of data or am i just dream? my isp doe offer backup at extra
+>> cost
+>> but the onli problem with that is, well, the extra cost.
+>>
+>> what i wa hope to do wa to instal some kind of intern tape
+>> devic, then swap tape round everi month, so i had an onsit backup
+>> of sai the last 24 hour and an offsit backup of the last month. is
+>> thi feasibl? i'm begin to think it isn't. extern devic ar
+>> not an option as part
+>> of the charg for coloc is rackspac.
+>>
+>> thank,
+>> ciaran.
+>
+> i'd recommend a good extern dlt drive.
+> you will probabl need a scsi card for that too.
+
+yeah, so would i, but as i said, extern ain't realli an option.
+
+/ciaran.
+
+>
+> mmmm.
+>
+> --
+> irish linux user' group: ilug@linux.ie
+> http://www.linux.ie/mailman/listinfo/ilug for (un)subscript
+> inform. list maintain: listmast@linux.ie
+
+
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+

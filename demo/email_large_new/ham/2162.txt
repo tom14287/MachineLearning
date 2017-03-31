@@ -1,0 +1,23 @@
+re: http://apt.nixia.no/onc upon a time, harri wrote :
+
+> titl page ha a login screen and i can't seem to get the apt index
+> anymor. is it just me or is someth go on there?
+
+you can't get the file index from here either?
+http://apt.nixia.no/apt/file/
+
+dure the past few dai, i've experienc connect problem with that
+site from time to time, but for me right now it's work.
+
+matthia
+
+-- 
+matthia saou                                world trade center
+-------------                                edificio nort 4 planta
+system and network engin                  08039 barcelona, spain
+electron group interact                 phone : +34 936 00 23 23
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

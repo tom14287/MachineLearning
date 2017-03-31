@@ -1,0 +1,57 @@
+re: how to keep debian current??on tue, mai 18, 2010 at 11:00:41pm +0300, andrei popescu wrote:
+> 
+> how about thi instead of the last paragraph:
+> 
+> ---
+> pleas note that the secur team doe not monitor unstabl. it is up 
+> to the individu maintain to fix the issu. 
+
+ye
+
+> thi mai under circumst take longer, e.g. if the maintain is
+> wait for a new version from upstream. 
+
+is thi realist descript?  it is usual lazi mantain or dead
+upstream which delai such fix.  upstream fix should like be around
+if someon fix that for stabl.
+
+> there ar also no debian secur advisori 
+> (dsa) for issu that ar present in the unstabl version of a softwar, 
+> but not the version in stabl and/or test.
+
+i see... i now think place pointer to faq should be good idea to
+explain all these issu.
+
+i need to think think about the context of these.  thi wa in
+section describ "archiv".  (i have other place where i sai "for your
+**product server**, the `stabl` suit with the secur updat is
+recommend.")  
+
+so i am updat as:
+
+tip: if "`sid`" is us in the abov exampl instead of
+"`@-@codenam-stabl@-@`", the "`deb: http://secur.debian.org/ ...`"
+line for secur updat in the "`/etc/apt/sourc.list`" is not
+requir.   thi is becaus there is no secur updat archiv for
+"`sid`" (`unstabl`).
+
+note: the secur bug for the `stabl` archiv ar fix by the debian
+secur team.  thi activ ha been quit rigor and reliabl.
+those for the `test` archiv mai be fix by the debian test
+secur team.  for sever reason, thi activ is not as rigor as
+that for `stabl` and you mai need to wait for the migrat of fix
+`unstabl` packag.  those for the `unstabl` archiv ar fix by the
+individu maintain.  activ maintain `unstabl` packag ar
+usual in a fairli good shape by leverag latest upstream secur
+fix. see http://www.debian.org/secur/faq[debian secur faq]
+for how debian handl secur bug.
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100519142801.ga9148@osamu.debian.net
+
+

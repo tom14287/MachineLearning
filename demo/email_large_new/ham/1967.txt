@@ -1,0 +1,16 @@
+re: middl button click broken
+on apr 18, 2010, at 09:38, allen bennett wrote:
+
+> i do believ you have to logout/login onli, when you updat x11.
+
+and that's not requir.  it just updat the launchd displai socket, so =
+xquartz.app is default rather than x11.app
+
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

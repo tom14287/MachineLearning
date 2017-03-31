@@ -1,0 +1,46 @@
+sequenc grabber and movi sync - record start earlierhi everyon,
+
+we ar struggl with an offset issu in try to sync a movi
+plai in the background with the start of a sequenc grabber record.
+ the end result of the captur alwai seem to be ahead of the actual
+movi that is plai back.  we ar try to pipe the end result into
+an audio echo cancel librari and thi offset is caus pain.
+
+here is the issu.
+
+- we us sgdataproc callback for the record and preview.
+- we start by call sgstartrecord() for the preview.
+- we then prerol() the movi and set up all the captur movi.
+- we share the sg soundchannel clock with the movi, and the videochannel.
+- after thi is all complet we call setmovier() to start the
+movi.  and then log a time stamp from the clock for record.  thi
+happen about 5 second after preview.
+- we call addmediasampl() when the time stamp (adjust for scale)
+pass into the proc ar greater than the time set for record.  we
+adjust the audio buffer and sampl input so thi is cut at the right
+time base on the time stamp.
+- we ar us a usb audio mic and a usb video camera.
+- we have good a/v sync (lip sync)
+- when we compar the record track to the background track the
+record echo start befor the echo in the movi.  thi is by about
+0.1 second give or take.  on would expect the echo to happen after
+not befor.
+
+we have tri to manual offset the time stamp for start time.  but
+thi then produc a/v sync (lip sync) issu.  i assum thi is
+becaus our
+video frame is get there faster than our audio frame.  as on would expect.
+
+is there ani reason why these frame ar get drop in the
+record?  doe anyon have ani idea to get these 2 in sync.
+
+thx for your time,
+matt
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

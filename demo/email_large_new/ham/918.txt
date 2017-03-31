@@ -1,0 +1,24 @@
+re: how to remov oowrit delai on open document?on 2010-04-19 16:30, clive mcbarton wrote:
+
+> ron johnson wrote:
+>>>> there us to be a "preload", but i don't see it anymor.
+>> there wa a featur where gnome or kde would pre-load ooo at de
+>> startup.  that wai, it *appear* that ooo load much faster, even though
+>> it wa realli just shift.
+> 
+> there's still the "preload" packag. it preload whatev is need
+> most, henc presum also ooo if that is what's run often.
+> 
+
+which is not the specif-to-ooo packag i refer to.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bccccfe.6030207@cox.net
+
+

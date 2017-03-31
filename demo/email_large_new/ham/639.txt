@@ -1,0 +1,60 @@
+re: dvd+rw tool avail (wa: re: how to add servic port ?) --- matthia saou  wrote: > onc
+upon a time, chri wrote :
+> 
+> > to bring thing back on topic, i wa practic my
+> "rpmbuild'n skillz"
+> > and made an rpm with some simpl softwar tool to
+> drive my dvd+rw
+> > burner. no gui frontend, but it work just fine
+> from the command line. i
+> > even us it to burn a bootabl dvd version of red
+> hat 7.3.
+> > 
+> >
+>
+ftp://peopl.redhat.com/ckloiber/dvd+rw-tool-0.1.src.rpm
+> 
+> nice! :-)
+> what about the "dvdrecord" packag that's alreadi
+> includ in 7.3? it
+> doesn't do what thi on doe? i'm ask thi
+> becaus i've got a friend
+> with an imac run yellowdog linux (basic red
+> hat linux for ppc), and
+> it's on of the newer version with a dvd burner.
+> i'd be veri interest in
+> us hi drive to burn dvd full of 2-cd movi or
+> full of "file for
+> xmame" ;-)
+> also, a bootabl dvd of red hat linux 7.3 would be
+> great as i've still not
+> burn the cd even onc for myself sinc i alwai
+> instal through the
+> network (and haven't found an easi wai of purchas
+> an english box set
+> here in spain...).
+> 
+> matthia
+> 
+that's done by bero - not too sure whether it work on
+dvd+rw drive, i believ it support onli dvd-r.
+
+would be nice to have a unifi tool for dvd/cd
+burn - alreadi i do my cd burn from dvdrecord
+sinc it is more recent.
+
+regard,
+
+michel
+
+__________________________________________________
+do you yahoo!?
+everyth you'll ever need on on web page
+from new and sport to email and music chart
+http://uk.my.yahoo.com
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

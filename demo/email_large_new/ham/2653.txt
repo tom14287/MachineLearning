@@ -1,0 +1,28 @@
+re: east asian font in lennyon tue, 11 mai 2010 20:40:58 +0100, lisi wrote:
+
+> on tuesdai 11 mai 2010 17:24:02 nima azarbayjani wrote:
+>> hi all,
+>>
+>> how do you add support for east asian font in debian lenni?  for
+>> exampl, a default instal of lenni doe not show some of the font at
+>> the bottom of www.debian.org.
+> 
+> i us to instal japanes font via aptitud.  but i rather think that
+> thei were instal by default on my most recent instal, so i
+> can't speak for now.  
+
+i had to instal japanes font manual, no asian font were instal 
+by default. the same remain for korean and chines font.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.11.21.52.48@csmine.org
+
+

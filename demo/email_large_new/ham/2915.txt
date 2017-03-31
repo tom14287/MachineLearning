@@ -1,0 +1,36 @@
+re: autom updat in lennyfrom nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on sat,10.apr.10, 18:41:15, clive mcbarton wrote:
+> andrei popescu wrote:
+> >=20
+> > it doesn't matter. mix apt-get and aptitud is not a problem anymor.
+>=20
+> i believ that thi is not complel true. what is true is that, on the
+> command line, in interact mode, you can us either and it will work
+> fine. but the option you can pass to aptitud and apt-get ar not the sa=
+me.
+=20
+as i mention in a later mail. and the specif behaviour is also=20
+differ. but there shouldn't be ani problem in=20
+instal/upgrad/remov/packag with on or the other tool.
+
+> back to the specif question of cron-apt, i tri it myself (replac
+> "apt-get" with "aptitud" in it config) to notifi me by email of
+> pend upgrad, and it wa useless. i had to remov it. had i left
+> apt-get in it config, it probabl would have work. i could probabl
+> dig out or try to reproduc some of the error msg i got, but far more
+> help for the list would be if someon who ever manag cron-apt with
+> aptitud (if such a person exist) would post here how thei did it.
+
+last time i experi with cron-apt it did mention that aptitud is=20
+not realli support. but i don't see a problem in let it us=20
+apt-get and do your own packag manag with aptitud.
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

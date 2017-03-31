@@ -1,0 +1,47 @@
+re: flash is open?on fri, 14 mai 2010 15:45:36 +0200, artifex maximu wrote:
+
+> on fri, mai 14, 2010 at 3:28 pm, camalón wrote:
+
+>> can we (we=peopl) make our own flash implement by us adob
+>> flash spec?
+> 
+> ye. "develop ar now free to implement what is document in the
+> specif without restrict from adob."
+> 
+> i think you might separ the descript of file format (free) and the
+> code itself (proprietari). so you can write your flash player us the
+> document but you cannot get the code of adob flash player.
+
+o.k. here is what i wa look for:
+
+http://en.wikipedia.org/wiki/swf#licens
+
+>> oh, no, but... if w3c doe not trust "flash" technolog to be includ
+>> as on of their recommend standard, why should i? that is the point.
+> 
+> linux, freebsd, osx and other oss includ in that w3c standard? i
+> think the answer is no... do you have trust in them?
+
+"linux, freebsd, osx and other oss" all of them includ their own 
+licenc model, whatev it is (close or open sourc), so i can us 
+the softwar know beforehand what i can (or can't) do with it.
+
+the licens model of flash wa (veri) unclear for me, that is what i 
+meant to sai. and heck, it wa recent "open" (2008?) so it's a 
+evolv licens that could "dissolv" into someth wors.
+
+do not get me wrong, i'm onli sai that if i were a develop, i would 
+have mani doubt in choos a flash format for ani of my work.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.14.14.58.51@csmine.org
+
+

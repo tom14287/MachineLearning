@@ -1,0 +1,50 @@
+re: why ar there no latest book written for debian system?on mon, 26 apr 2010 02:24:52 -0400 (edt), martin f krafft wrote:
+> 
+> stephen powel wrote:
+>> thi is hardli a new book.  in fact, it wa written in the dai of woodi.
+>> (woodi -> sarg -> etch -> lenni -> squeez)
+> 
+> it wa written in the dai of the sarg freez and is entir
+> focus on sarg.
+>>
+>> and part of it ar obsolet.  but the author focus on the core
+>> stuff of unix/linux, and so most of it is still current. it's an
+>> excel guid for how to accomplish common comput task in
+>> linux,
+> 
+> interest analysi. ;)
+>
+> 
+> i /want/ to focu on debian and leav out the "core stuff of
+> unix/linux" and "common comput task", becaus that's document
+> elsewher.
+> 
+> it is true that in the last 5 year, some part have been obsolet,
+> but i'd sai most of it still appli.
+> 
+> regardless, there's a need for a new edit. i am work on it.
+
+i think there mai be some confus here, mr. krafft.  the comment
+i made abov were not in refer to anyth _you_ wrote.  thei were
+in refer to the origin edit of "the linux cookbook", by
+michael stutz, which wa copyright in 2001.
+
+   http://dsl.org/cookbook/cookbook_toc.html
+
+i suggest that you go back and look more close at my origin post.
+
+;-)
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/701354956.9070.1272291449420.javamail.root@md01.wow.synacor.com
+
+

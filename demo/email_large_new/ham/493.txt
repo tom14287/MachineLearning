@@ -1,0 +1,36 @@
+re: servlet, jsp, el and deprec html attributesthi is slightli off-topic, as noth about thi is appl-specif...=20=
+
+
+but anywai: i think you ar wrong. the "name" attribut is onli =
+deprec for certain element, where "id" is a better match. it's =
+still the correct wai to name "input", "textarea", "button" and other =
+form-element (control). see: =
+http://www.w3.org/tr/rec-html40/interact/form.html#control-name
+
+
+best regard,
+
+--=20
+harald k
+
+
+on 12. apr. 2010, at 15.41, mb wrote:
+
+> the servlet engin, inlcud jsp and express languag (el) as us
+> in the tomcat 6 contain server for exampl make us of the =
+deprec
+> html attribut "name" via differ built-in mechan in order to tie
+> indiviud element of a html form to server-side variabl. thi =
+mean
+> that in order to produc work jsp-page on ha to make page =
+invalid
+> accord to the html 4.01 strict spec.
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

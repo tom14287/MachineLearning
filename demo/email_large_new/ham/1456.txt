@@ -1,0 +1,20 @@
+re: mous/keyboard "hook"?on thu, apr 29, 2010 at 2:56 pm, luke scott  wrote:
+> i'm try to make a program in c/c++ that block the mous and keyboard
+> event on the local system (as if thei didn't happen) and send them to
+> anoth machin over lan. essenti my end goal is to control comput b
+> with the mous and keyboard from comput a.
+
+wrong list for thi type of question, it ha noth to do with ani
+program languag.
+
+look at cgevent and consid ask on the quartz dev list instead.
+
+-shawn
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

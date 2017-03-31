@@ -1,0 +1,22 @@
+re: [sadev] re: web subscript for spamassassin packag> eh? ani reason why?  wasn't caus ani troubl for me, and
+> seem like a good idea.
+
+becaus everi time someon submit a bug, thei'd get a respons
+sai "messag is held for moder becaus of implicit messag
+destin" or someth like that. it annoi user, it annoi me,
+and justin, you never actual got around to accept the messag :-)
+
+-- 
+duncan findlai
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-devel mail list
+spamassassin-devel@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-devel
+
+

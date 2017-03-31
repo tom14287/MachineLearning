@@ -1,0 +1,41 @@
+re: pango problemsm too, i prefer the close button in the upper left corner as well.  i
+found nice border theme iridium-blueish-0.3.tar.gz and
+iridium-greenish-0.3.tar.gz but forgot where i got them from.
+
+if you can find, thei're worth a try.
+
+lanc
+
+on fri, 2002-08-09 at 10:30, matthia saou wrote:
+> onc upon a time, harri wrote :
+> 
+> > my person problem with gnome2 is that all the wm (metac) theme ar
+> > window theme with differ colour. :) there's on pretti
+> > nice-look on from the place where you can get "stylish" theme..
+> > forgot where, have to look it up.
+> 
+> i've found some nice metac theme, includ the crux on i like so much
+> on www.sunshineinabag.co.uk. thei've also got nice gtk2 theme and realli
+> cool gdm on. my onli regret here is that i like the abil of choos
+> where the button were place in the sawfish crux theme, as i prefer the
+> close button in the upper left corner :-/
+> 
+> matthia
+> 
+> -- 
+> matthia saou                                world trade center
+> -------------                                edificio nort 4 planta
+> system and network engin                  08039 barcelona, spain
+> electron group interact                 phone : +34 936 00 23 23
+> 
+> _______________________________________________
+> rpm-list mail list 
+> http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

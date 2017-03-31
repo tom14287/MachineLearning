@@ -1,0 +1,58 @@
+re: kde 4.4.3 upgrad eat 141 mb of /homeon wed, mai 12, 2010 at 10:48:43am +0200, richard hartmann wrote:
+
+> > - disabl "kre-migrat".  or at least add a debconf option to
+> >  kdepim-runtim present the option of run kre-migrat by default
+> >  or disabl it.
+> 
+> did you do ani research as to what the longer-term implic
+> of forego thi might be? i am not sai there ar ani, i
+> honestli don't know.
+
+there shouldn't be ani long-term implic as long as the old kresourc
+code still exist.  i'm assum it's be deprec as of kde 4.4, but
+i'd be surpris if it's remov in kde 4.5, especi sinc delai
+migrat is an offici recommend.
+
+onc the db mess is sort out (kde 4.5?), on can manual migrat the
+data by run "kre-migrat".  i actual did thi accident.  the
+migrat _might_ also run if we remov the configur bit, but i've not
+tri.
+
+> > - add a warn dialog dure kdepim-runtim upgrad state that
+> >  kre-migrat will run by default and potenti consum a larg amount
+> >  of per-user disk space, unless migrat is manual disabl by the
+> >  abov command.
+> 
+> person, i would like to see such a warn, but i am not sure if
+> that is accept by debian's standard. apt-listchang exist for
+> a reason.
+
+it extend beyond just a chang in packag behavior, it's a non-revers
+and potenti aggrav alter to user data.  i've seen similar
+warn befor, most recent to rebuild openoffic.org .rdb file due to
+possibl corrupt.
+
+> > - reduc the default size of the innodb transact log in the akonadi
+> >  per-user mysql configur.
+> 
+> seem like the best bet to me. if need be, the file size could be adapt
+> automag. but that function would be in 4.5 at the earliest unless
+> it's patch downstream.
+
+forgot to mention befor, appar there's an innodb_log_wait counter
+that increment when you have write burst that exce the redo log size.
+it can be us for feedback to increas the log size if need.  perhap
+someth to suggest manual do in new.
+
+> also, what about /root?
+
+should have same problem, if on run a kde desktop as root, which i do
+not.
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100512174253.ga17540@club.cc.cmu.edu
+
+

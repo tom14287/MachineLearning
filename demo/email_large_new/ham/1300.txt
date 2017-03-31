@@ -1,0 +1,54 @@
+re: kde 3.5 ...-----begin pgp sign messag-----
+hash: sha1
+
+on thursdai 06 mai 2010, mike bird wa heard to sai:
+> debian is the sole remain major
+> distro that care enough for it user to ship kde 3.5.
+
+when lenni wa releas, kde4 wa just plain broken. sinc then, it 
+ha matur such that other distribut which have releas with 
+it.
+
+i do not believ the decis to stai with kde3 in lenni wa anyth 
+other than the simpl pragmat fact that lenni wa be releas at 
+that time.
+
+> i guess thi discuss is about try to figur
+> out what kde end user can do when debian pull the plug on us.
+
+as much as i prefer kde3, i agre that there is noth els the 
+debian develop can do, sinc to take up kde3 would requir 
+effect duplic the entir kde develop team.
+
+the drop of kde3 is a simpl fact of life becaus it is no longer 
+maintain upstream. i hope the pain will be worth it in the long 
+run.
+
+what i do not appreci is that the attitud ha been not "we have to 
+do thi", but "we're do it, must suck to be you."
+
+curt-
+
+
+- -- 
+those who torment us for our own good will torment us without end,
+for thei do so with the approv of their conscienc.
+-----begin pgp signatur-----
+version: gnupg v1.4.9 (gnu/linux)
+
+iqevawub+nb3s9y35yitigbaqlhgqf/xf1hbacgc/bxpdjv2yrsj/poo+b6w/gj
+zpvbojx6zlmr98zecphpdzlbrmykffmsbxhrfsf43x/b3pvqxegerfvdbkcvqh+/
+lxrczyaxdbcyhcgd6ntmw2zbsxra4xnngew5feqpoazi73ktu7thq0kocz4fepi
+a7y3h/ssgxuwxmwleq4ij8ivkkg4ajnw460j11vcesxueh9xyf1knkzxpquc0fzu
+2uysjbqvrrhxo+be1desnkdtuxjtwtskxrex8juy38y1ikrxmop2whxryztwo
+votpsg3xpzgcxy1i4snvffwa4rtk42v5xenuggfd9yh8oghjjl4+q==
+=8pv7
+-----end pgp signatur-----
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005062016.34977.howland@priss.com
+
+

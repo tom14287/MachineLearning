@@ -1,0 +1,25 @@
+re: my repositori...onc upon a time, brian wrote :
+
+>     also- i notic thi repo ha about an 8k bandwidth.  is there a wai
+>     i can put thi behind the other, so i don't hammer it for thing
+>     that ar at other repo?  i'm respect about bandwidth, have
+>     live on dialup for so long.  now i'm on fiber optic and it's a whole
+>     other world...
+
+sure, just us "os" and "updat" from apt.freshrpm.net for instanc then
+add the line for that repositori with onli the modul you want/need (here
+it's "test73" i guess).
+
+matthia
+
+-- 
+matthia saou                                world trade center
+-------------                                edificio nort 4 planta
+system and network engin                  08039 barcelona, spain
+electron group interact                 phone : +34 936 00 23 23
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

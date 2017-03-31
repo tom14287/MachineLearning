@@ -1,0 +1,17 @@
+re: what need to improv in kde 4?at thi moment, for me, kaddressbook?  akonadi did not  get configur right, i 
+had to follow thi advic to get it to start work:  
+http://forum.kde.org/viewtop.php?f=20&t;=79717&sid;=ce96096a96a9d8ca3ebb13105dce3d21&start;=10#p137002
+
+have done that yesterdai i notic that the concept of contact categori is 
+miss.  todai i found that i onli get empti dialog when i attempt to edit a 
+contact!  so for me kaddressbook is unstabl.
+
+- allen
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005112038.02484.blower@comput.org
+
+

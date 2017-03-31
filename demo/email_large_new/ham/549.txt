@@ -1,0 +1,73 @@
+re: aptitud erroron sat, mai 1, 2010 at 00:08, tom h  wrote:
+> on fri, apr 30, 2010 at 1:54 pm, boyd stephen smith jr.
+>  wrote:
+>> on fridai 30 april 2010 12:10:45 jame stuckei wrote:
+>>> on fri, apr 30, 2010 at 5:44 pm, boyd stephen smith jr. <
+>>>
+>>> bss@iguanasuicid.net> wrote:
+>>> > on fridai 30 april 2010 06:16:22 jame stuckei wrote:
+>>> > > the unstabl/sid doesn't have to be comment out. set the defaul=
+t
+>>> > > =a0releas will keep the system track to, in thi case, test.
+>>> >
+>>> > er, mostli.
+>>> >
+>>> > if there is a version depend that can be satisfi from sid but=
+ not
+>>> > test, you will get the packag from sid. =a0thi shouldn't happen =
+given
+>>> > the
+>>> > wai test is manag, unless you instal at least on packag fro=
+m
+>>> > sid.
+>>>
+>>> i instal eclips from sid, sinc there isn't eclips in test.
+>>
+>> it mai have pull in some depend from sid, then.
+>>
+>> i know the offici line is to us '-t $someth' as argument to apt-
+>> get/aptitud for pull in packag from sid/experiment/backport, bu=
+t i
+>> think it is better to us the '$packag=3d$version' format.=a0(after get=
+ting the
+>> version from someth like (apt-cach polici $packag).)
+>>
+>> my instinct is that '-t $someth' effect increas the prioriti o=
+f all
+>> packag from the $someth repositori, which mai make the depend
+>> resolv pull more from that repositori than is absolut necessari.
+>
+> if you ar run stabl
+> aptitud instal /test
+> will instal  from test and try to satisfi depend
+> from stabl wherea
+> aptittud instal -t test 
+> will instal  from test and try to satisfi depend
+> from test.
+>
+> i assum that
+> aptitud instal =3dtest_version
+> behav like
+> aptitud instal /test
+> and that in both these method the depend might not be satisfi
+> (i had that problem in decemb with firefox 3.6).
+>
+>
+> --
+> to unsubscrib, email to debian-user-request@list.debian.org
+> with a subject of "unsubscrib". troubl? contact listmast@list.debian=
+.org
+> archiv: http://list.debian.org/s2g6d4219cc1004301138i6947c1e1n6c12c267d=
+8e83003@mail.csmine.org
+>
+>
+
+thank for thi nice inform, tom
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/j2nd0bf7b0b1004301943o2dd0f30fwb811b71e1ef8682a@mail.csmine.org
+
+

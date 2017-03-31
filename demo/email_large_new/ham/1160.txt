@@ -1,0 +1,24 @@
+re: [satalk] my sa went crazi.
+jesu climent said:
+
+> d output: bareword found where oper expect at (eval 11) line 95,
+> near "25freemeg_url_uri_test"  (miss oper befor
+> freemeg_url_uri_test?) bareword found whe
+
+> is that a bug or is a fault in my system?
+
+look like there's an out-of-date copi of the rule file, on your system.
+that rule is call "freemeg_url" nowadai.
+
+--j.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

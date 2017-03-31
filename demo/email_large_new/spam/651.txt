@@ -1,0 +1,104 @@
+your visitor passesfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/html;content-disposit: inlin
+
+
+member onli showroom
+the #1 wai to bui direct for your home:
+
+class2 class1::func (char* respons)
+{
+         printf( respons);
+         class2* d_ = new class2;
+         d_->func (respons);
+         //print respons within class2->func print the respons
+         return d_;
+
+}
+
+snippet of class2:
+class2 {
+//constructor & destructor
+void func(char*);
+
+}; 
+templat
+class base_contain
+{
+public:
+  const t* get() const;
+  t* get();
+  void insert(t*);
+  // etc
+
+};
+
+templat
+class base_contain_special
+{
+public:
+  typedef base_contain thi_base;
+privat:
+  thi_base _base;
+public:
+  oper const thi_base&() { return _base; }
+
+  const derivedt* get() const { return static_cast(_base.get()); }
+  derivedt* get() { return static_cast(_base.get()); }
+  void insert(derivedt* p) { _base.insert(p); }
+  // etc
+
+};
+
+class base{};
+class deriv1 : public base {};
+class deriv2 : public base {};
+
+base_contain_special is not_a base_contain. it offer same,
+but type-safe, interfac as base_contain. it doe so through some
+simpl cast (from t to derivedt). it also contain base_contain,
+so that you can get a refer to that if need be (oper const
+thi_base&). oper is const, to prevent e.g. call insert with
+base* or deriv2*, as that would be bad, as other have shown. so
+that give you e.g.
+
+void f0(base_contain& c) { c.insert(new base); }
+void f0const(const base_contain&) {}
+void f1(base_contain_special&) {}
+void f2(base_contain_special&) {}
+
+void test()
+{
+  base_contain_special c1;
+  c1.insert(new deriv1); //ok
+  c1.insert(new deriv2); //bad
+  c1.insert(new base);     //bad, don't want base among deriv1
+  c1.insert(new deriv11);//ok
+  const base* b = c1.get();//ok, deriv1 is_a base
+  const deriv1* d1 = c1.get();//ok
+  const deriv2* d2 = c1.get();//bad, deriv1 !is_a deriv2
+  f0const(c1);//ok, convers oper us
+  f0(c1);//bad, could insert base among deriv1
+  f1(c1);//ok, it's us
+  f2(c1);//bad, f2 want deriv2 contain
+
+} 
+
+
+
+
+direct.bui
+member onli showroom
+the #1 wai to bui direct for your home:
+@_#megadealsourc.com/neqw.html?ne=ykhlg.pzmyhlhnnjlatasykl
+
+_____________________________________________________
+
+unsubscrib-here:
+@_#megadealsourc.com/neqw.html?ne=ykhlh.pzmyhlhnnjlatasykl
+or write: directbui im network llc, p.o. box 1572, boulder, co 80306
+
+_____________________________________________________
+
+unsubscrib_here:
+@_#megadealsourc.com/us_ylgiolkpzmyhlhnnjlatasykl_xl/
+or write: hs media, po box 105603 #32520 ,atlanta, ga ,30348-5603

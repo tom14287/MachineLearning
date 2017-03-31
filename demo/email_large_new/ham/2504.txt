@@ -1,0 +1,53 @@
+re: filesystem recommendationson 4/24/2010 10:53 am, b. alexand wrote:
+> hi,
+>
+> i have a question on filesystem. back in the dai, i start us 
+> reiser3. it wa faster than ext3, and it could be extend without 
+> umount the filesystem (which ha sinc been fix in ext3), plu, 
+> unlik ani filesystem i have encount, it could be reduc in size.
+>
+> well, now reiser3 is veri long in the tooth, reiser4 will probabl 
+> never go anywher, so i'm wonder what filesystem ar recommend. 
+> last i heard, ext4 is stabliz, but it had problem with filesystem 
+> corrupt, though that wa mid-fall last year, iirc.
+>
+> so now, i would like to slowli start replac my reiser3 partit 
+> with...someth els. there ar two option, the old standard, e.g. 
+> ext3/4, xf, etc, and then there ar a slew of new filesystem, such 
+> as nilf2, btrf and exof.
+>
+> i'm talk about a rang of machin, from workstat to server to 
+> nf and storag server with multi-terabyt disk, and a backup server 
+> with sever hundr gig of backup.
+>
+> doe anyon have suggest and practic experi with the pro 
+> and con of the variou filesystem?
+>
+> thank,
+> --b
+
+if file integr ar import to you, look for a fs that keep 
+checksum of individu file.  otherwis, if a file becom corrupt, 
+you'll never know it, unless you keep your own checksum.  there ar 
+onli a small hand of filesystem that keep checksum of your file.  
+btrf and zf come to mind.  i believ zf is more matur than btrf, 
+but it isn't in the kernel.  i believ the onli wai to get zf on linux 
+is through fuse.
+
+there's also jf, which ha been around for a number of year, and is 
+matur.  it doesn't checksum your file, but it doe us copi-on-write 
+(as do btrf and zf), which goe a long wai to keep your data from 
+get corrupt, someth xf doe not do.
+
+so if btrf were more matur, or if zf were includ in the kernel, i'd 
+recommend either of those.  but as it is, i think jf is the wai to go.
+
+-- kevin
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bd3ad1b.70001@familyross.net
+
+

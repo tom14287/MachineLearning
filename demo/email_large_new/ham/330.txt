@@ -1,0 +1,18 @@
+re: [ilug] optim for pentium pt.2liam bedford wrote:
+> that is the cv version, but it seem that more breakag is to come with the
+> kernel :(
+
+limbo seem to be abl to compil it own kernel with it own gcc 3.1. 
+that said, i don't want to know what kind of patch redhat ar appli 
+to that kernel. the .spec file alon is 128kbyte! on of the patch is 
+2.4.19-ac10. redhat don't seem to have patch limbo's gcc too heavili.
+
+paul.
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

@@ -1,0 +1,31 @@
+re: protocol implement in categori
+on apr 25, 2010, at 4:12 am, dave keck wrote:
+
+>> just includ the protocol in the categori interfac e.g.
+>> 
+>> @interfac myobject(foodeleg) 
+>> ....
+>> @end
+>> 
+>> and make sure thi is visibl to the compil when you set an instanc
+>> as a deleg.
+> 
+> ah! i wa under the fals impress that categori couldn't declar
+> themselv as implement a protocol. thi work beautifulli.
+
+i ran into a problem do thi a few year ago, where call
+-conformstoprotocol: would caus a hang when the protocol wa 
+implement in a categori.  that might be fix by now, but be 
+care if you check conform.
+
+-- 
+adam
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+objc-languag mail list      (objc-languag@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/objc-languag/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

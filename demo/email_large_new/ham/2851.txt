@@ -1,0 +1,37 @@
+re: problem with me modem huawei on debian lennyfrom nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset=iso-8859-1
+
+thank for your respons.
+
+pleas i can found the idproduct on my devic?
+
+cheer
+
+on fri, apr 23, 2010 at 4:11 pm, umarzuki mochli wrote:
+
+> i had done that onc and document it at
+> http://umarzuki.org/blogku/?p=174
+>
+> p/s: us googl translat to translat from malai to english
+>  
+> on fri, apr 23, 2010 at 11:06 pm, christian simo wrote:
+>
+>> hi dear team
+>>
+>> pleas, i am new on debian, so i try to connect my modem huawei e1752 on
+>> debian lenni.
+>> on suse, i do it easi
+>>
+>> thank for your respons.
+>>
+>> christian
+>>
+>
+>
+>
+> --
+> regard,
+>
+> umarzuki mochli
+> http://debmal.my
+>

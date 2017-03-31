@@ -1,0 +1,25 @@
+re: fw: us of base imag / delta imag for autom recoveri
+    from attacksscott mackenzi wrote:
+
+>there is a softwar packag that is us (or wa up through w2k) 
+>on microsloth for thi purpos. ghost, or some such. on essenti 
+>"take a pictur" of the machin's proper config, and then upon 
+>schedul or demand replac the machin's current config with the 
+>proper pictur. it essenti over-write the entir disk drive. 
+>especi good for student access machin at librari, etc.
+>
+and it is pretti common practic in some environ with public 
+workstat to just wipe and re-instal window machin on a weekli 
+(or even daili) basi. it's easier than try to maintain window.
+
+crispin
+
+-- 
+crispin cowan, ph.d.
+chief scientist, wirex                      http://wirex.com/~crispin/
+secur harden linux distribut:       http://immunix.org
+avail for purchas: http://wirex.com/product/immunix/purchas.html
+
+
+
+

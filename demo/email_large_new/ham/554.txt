@@ -1,0 +1,32 @@
+re: storag bitsat fermi (ye i'm back there; long stori), we're bui 4u system like 
+the fiscal year is end.  we have ~20 asa ir4us1 system (not push 
+them, there ar some other similar unit avail), with 60 more on 
+order.  thei're 2-1/2 tb for $10k, although we add a separ id or 
+scsi system disk, becaus the 3ware raid control can satur. 
+intel sd2 motherboard, 2 1.4ghz p3s, 2 gb ram, 2 3ware 7850 raid 
+control, 16 160gb maxtor, syskonnect gigabit enet, fermi redhat 7.3.
+
+http://www.asacomput.com/cgi-bin/index.fcg?action=displayscreen&templateid;=25
+
+there's some interest info at:
+
+http://mit.fnal.gov/~msn/cdf/caf/server_evalu.html
+
+we've decid to go with xf (which linu ha just merg into the 2.5 
+tree), mostli becaus none of the other journal fs's can maintain >30 
+gb/s rate with a nearli full filesystem (mostli gb file) with random 
+delet (we us these system for cach our 2 petabyt tape store). 
+  ext3 almost did it but drop from from ~38mb/s to 10 with random 
+delet, and didn't want to do direct io at all.  onli concern is an 
+occasion system lock-up we haven't chase down yet.  a load avg > 100 
+is alwai a patio of fun.
+
+oddli, even fairli beefi system like these will breath hard to keep up 
+with the new stk 9940b tape drive, which crank along at a steadi 
+30gb/s.  and you oldforktim will rememb "doofu" my old file server 
+system.  it would onli take 2.1" of rackspac now, instead of 14 rack.
+
+cheer,
+wayn
+
+

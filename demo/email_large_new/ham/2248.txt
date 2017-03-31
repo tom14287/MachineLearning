@@ -1,0 +1,31 @@
+re: umont ownership?on tue, apr 6, 2010 at 7:51 am, sjoerd hardeman
+ wrote:
+> for a regular user, you need to be in the plugdev group to mount and
+> unmount.
+
+i am not familiar with those set in linux. so i did some search.
+http://wiki.debian.org/debiandesktophowto
+
+which sai:
+"thi is a problem with the wai d-bu figur out what group you ar
+a member of. all user should be ad to plugdev, netdev, and
+option powerdev, in /etc/group. ani wai of autom thi in
+debian?"
+
+i look around in /etc/ and find there ar 2 group file.
+
+mobildebian:/etc# nano group
+group   group-
+
+im guess i need to remov group [ which is empti ] and renam
+group- to be the group file.
+
+correct?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/j2xf8d5d4f31004060808se4b0fb28te15a1c3657fd9b5a@mail.csmine.org
+
+

@@ -1,0 +1,78 @@
+re: ar bad develop librari the problem with m$ softwar?no, you need to learn how declar work in c.  you have specifi
+testbuff as "an arrai of 1024 pointer to charact".  that mean,
+you have alloc an arrai big enough to store 1024 pointer.  on
+most machin, that's 4 byte per pointer, which inde would give you
+4096.
+
+john
+
+on fri, nov 22, 2002 at 10:27:53pm +0500, ali saifullah khan wrote:
+> here is a test done on the return of size by sizeof() us pointer.
+> 
+> #includ 
+> 
+> int main(void) {
+>  char *testbuff[1024];
+> 
+>  int len = sizeof(testbuff);
+>  cout << len << "\n";
+>  return 0;
+> }
+> 
+> c:>debug\testbuff
+> 4096
+> 
+> the output from thi is 4096 but infact it should be return 1024.
+> appar, us a pointer ha multipli the valu of the origin size of
+> the testbuff[] buffer by the size of the " pointer " ?
+> 
+> char pointer have a size of 4 byte.....as is shown when output is 4 byte
+> us " int len = sizeof((char*)testbuff); "
+> 
+> c:>debug\testbuff
+> 4
+> 
+> so sizeof is return the size of the "first" entiti pass to it, that
+> be the size of the pointer. " * "
+> 
+> what confus is when sizeof output the valu for someth like " char *
+> testbuff[] "
+> here the macro seem to be multipli the size of entiti pass to it,
+> by consid the first entiti as the pointer denot by the asterisk
+> itself " * ", and then take thi valu of 4 and multipli it with the
+> size of the buffer testbuff[] which is 1024, to produc an output of 4096.
+> 
+> rather strang behaviour. ???
+> ----- origin messag -----
+> from: 
+> to: 
+> cc: 
+> sent: tuesdai, novemb 19, 2002 2:59 am
+> subject: re: ar bad develop librari the problem with m$ softwar?
+> 
+> 
+> > ----- origin messag -----
+> > from: john viega
+> > sent: 11/18/2002 2:28:08 pm
+> > to: cdavison@nucleu.com
+> > cc: secprog@securityfocu.com
+> > subject: re: ar bad develop librari the problem with m$ softwar?
+> >
+> > > strlen doe not work, becaus he wa try to get at the alloc
+> > > size of a buffer, not the actual size of the buffer.
+> >
+> > you're right. i wa look at the safe_strncpy code, and it look like
+> the author did us strlen.
+> >
+> > > sizeof will return the size of the data type pass to it.  so if you
+> > > declar mystr as char mystr[1024];, it will return as the origin
+> > > author want.
+> >
+> > it will not work with a char*, so if your string ar dynam
+> alloc, or pass to you as a pointer, these macro will not work.
+> >
+> >
+> >
+> >
+
+

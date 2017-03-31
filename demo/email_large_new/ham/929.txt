@@ -1,0 +1,61 @@
+re: lite smtp server/daemonfrom nobodi sun sep 18 20:45:29 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on sat, apr 24, 2010 at 09:19:56am +0200, export@hope.cz wrote:
+>    i us linux run in  compact flash so that the size of the compact
+>    flash memori is the limit
+>    onli smtp, no pop3 server
+>    can you suggest someth?
+
+hello,
+
+thi simpl search:
+
+$ apt-cach search mta light
+
+show some exim4 packag and the on you ar look for:
+
+$ apt-cach show msmtp-mta
+packag: msmtp-mta
+prioriti: extra
+section: mail
+instal-size: 100
+maintain: emmanuel bouthenot 
+architectur: all
+sourc: msmtp
+version: 1.4.15-1
+replac: mail-transport-agent
+provid: mail-transport-agent
+depend: msmtp
+conflict: mail-transport-agent
+filenam: pool/main/m/msmtp/msmtp-mta_1.4.15-1_all.deb
+size: 31580
+md5sum: e1023fbea1950397004a1a4dce9f56ed
+sha1: 01aff21c57739af47d4f56ec2aa6f54cca51395e
+sha256:
+e90add2d60dad2bacb1d263d088844db9b68c258b6666ffef1ad3280f1205481
+descript: light smtp client with support for server profil
+ msmtp is an smtp client that can be us to send mail from mutt and
+probabl
+ other mua (mail user agent). it forward mail to an smtp server
+(for
+ exampl at a free mail provid), which take care of the final
+deliveri.
+ us profil, it can be easili configur to us differ smtp
+server
+ with differ configur, which make it ideal for mobil
+client.
+ .
+ thi packag is compil with gsasl and tl/ssl support.
+ .
+ thi packag provid the regular mta program.
+homepag: http://msmtp.sourceforg.net/
+tag: mail::smtp, mail::transport-agent, protocol::smtp, role::program,
+work-with::mail
+
+regard.
+
+--=20
+huella de clave primaria: 0fda c36f f110 54f4 d42b  d0eb 617d 396c 448b 31eb

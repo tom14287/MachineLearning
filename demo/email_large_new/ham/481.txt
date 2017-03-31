@@ -1,0 +1,30 @@
+tramp updateurl: http://www.aaronsw.com/weblog/000611
+date: 2002-09-23t23:21:12-06:00
+
+final finish up (most of) tramp, my rdf interfac for python. (if you don't 
+us rdf or python you can probabl safe skip thi entri.)  
+
+new in thi version: rdf librari abstract (becaus rdflib's organ 
+current suck), write valu in addit to read, and unit test, all with 
+that old tramp flavor you've come to know and love.  
+
+_but wait,_ it also come with an entir page of explan/advertis[1] 
+if you're not alreadi convinc.
+
+
+
+    rdf/xml got you down? tire of have to go through contort to deal 
+    with data? want to write python and be standard-compat at the same 
+    time? need a modul to implement the psuedo-code you had on your slide? *
+    tramp mai or mai not be the answer to these problem!*
+
+
+
+enjoi, and get a free bonu prize if you can tell me[2] why it's call tramp.
+
+
+
+[1] http://www.aaronsw.com/2002/tramp
+[2] mailto:me@aaronsw.com
+
+

@@ -1,0 +1,31 @@
+re: [ilug] cv question?well, as mani have said, it's non-trivial and not smart enough.
+
+i did try just cv'ing over the exist sourc, but cv complain that my 
+file were in the wai.
+
+then i thought that i'd onli need the dri stuff, that took about 1.5 hour to 
+fetch 116m. unfortun i still need the xfree86 cv stuff as well :-( at 
+339m that took almost 3 hour.
+
+now i can start build the xfree86 cv and dri cv stuff for test the 3d 
+patch for my gvx1 card. i just hope i don't complet trash my system in 
+the process. 
+
+think i'll wait until morn to start build, though. i've been build a 
+new box from sourc thi week. a 200mhz pentiummmx with 96m. it took a full 
+dai to build xfree86 4.2.0 and 2.5 dai each to build qtlib and kdelib. 
+kdebas took just under 46 hour. i've got lot of grief from the wife for 
+the comput run 'round the clock thi week. the rest of kde should build 
+in under 20 hour increment.
+
+cheer,
+
+	john gai
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

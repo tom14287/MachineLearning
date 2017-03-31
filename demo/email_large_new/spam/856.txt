@@ -1,0 +1,117 @@
+[spam]  and.. we're back
+
+
+
+td, th
+{
+	font-size: 13px;
+	font-famili: tahoma, helvetica, san-serif;
+	line-height: 16px;
+	background-color: #ffffff;
+}
+right_menu_firm
+{
+	color: #30598f;
+	line-height: 16px;
+	font-famili: tahoma, arial, helvetica, san-serif;
+	font-size: 16px;
+	font-weight: normal;
+	pad: 0 0 5px 0;
+	margin: 0;
+}
+right_menu_header
+{
+	color: #555555;
+	line-height: 16px;
+	font-famili: tahoma, arial, helvetica, san-serif;
+	font-size: 13px;
+	font-weight: normal;
+	border-bottom: 1px solid #dfdfdf;
+}
+section_titl
+{
+	font-famili: tahoma, arial, helvetica, san-serif;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 22px;
+	color: #2371d5;
+	pad: 10px 0 5px 0;
+	margin: 0;
+}
+disclaim
+{
+	font-size: 9px;
+}
+a, a:visit, a:hover, a:activ {
+	color: #30598f;
+}
+a:hover {
+	text-decor: none;
+}
+
+	background-color: #30598f; margin: 0px;
+}
+}
+	font-famili: tahoma, arial, san-serif;
+	font-size: 10px;
+}
+	vertic-align:bottom;
+}
+
+
+
+
+
+
+
+
+
+pharmaci updat
+octob 2009
+
+
+
+
+archiv
+newslett
+
+		 
+
+
+
+
+
+
+
+thi month's articl
+
+
+
+
+
+
+
+
+
+read more...
+
+
+
+send us an email with your contact inform and
+topic you would like to cover.
+to ensur that all our mail get to you safe, we recommend you
+add us to your whitelist in your email client.
+learn
+more about how to add us to your whitelist.
+to unsubscrib
+or adjust your set for futur commerci email messag click
+here
+thi messag wa sent to hibodi@csmine.org
+copyright 2009, lorman onlin pharmaci servic
+lorman onlin pharmaci servic | 2510 alpin rd. | eau clair, wi |
+54703
+
+
+
+
+

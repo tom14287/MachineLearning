@@ -1,0 +1,36 @@
+re: usb devic attach via rs232 adaptorfrom nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+dotan cohen:
+>>>
+>>> a neighbor with an old debian (probabl etch but could be sarg)
+>>> machin need to know where a usb smart card reader attach via rs232
+>>> adaptor
+>>=20
+>> huh???
+>=20
+> he's got a few of these connect via serial adaptor:
+> http://www.infinityusb.com/default.asp?show=3dproductsdetail&productid;=3d=
+12
+>=20
+> why aren't thei on real usb, i don't know. i am go over there to
+> help him tomorrow, so to come prepar i start googl todai.
+> although the usb-serial adaptor seem to be popular, i find noth
+> about how to mount devic attach to them. i am assum that, be
+> a card reader, i will be abl to mount the media (card).
+
+it might just be me, but when i head "usb-serial adaptor" i think of
+someth like a pl2303 which can be us to attach devic with a
+serial connector to a pc that lack a serial port. it would be new to
+me if these adaptor work the other wai round, too.
+
+but if it actual work, you should be abl to talk to the devic us
+the regular /dev/tty0.
+
+j.
+--=20
+watch televis is more hip than actual speak to anyon.
+[agre]   [disagre]
+                 

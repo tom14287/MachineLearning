@@ -1,0 +1,24 @@
+re: [sadev] spamassassin v2.40 releas (final)!from nobodi sun sep 18 20:45:33 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on mon, sep 02, 2002 at 06:53:24pm +0100, justin mason wrote:
+>   - razor v2 now support fulli
+
+hmmm...  i just upgrad from my modifi 2.31 to a slightli modifi 2.40
+(i add a routin to evaltest) and get:
+
+sep  2 15:32:24 eclect spamd[20506]: razor2 check skip: no such file o=
+r directori can't call method
+"log" on unbless refer at /usr/lib/perl5/site_perl/5.6.1/razor2/clien=
+t/agent.pm line 211, 
+line 22.=20
+
+i haven't quit figur out why yet, more to come.
+
+--=20
+randomli gener taglin:
+"so on on hand, honei is an amazingli sophist and effici food
+ sourc. on the other hand it's bee backwash."
+             - alton brown, good eat, "pantri raid iv: comb alon"

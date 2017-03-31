@@ -1,0 +1,26 @@
+[satalk] updat sato updat spamassasin, all i need to do is instal the new tar.gz 
+file as if it were a new instal? i don't need to stop incom 
+mail or anyth like that? thank, mike
+
+
+-- 
+michael clark, webmast
+center for democraci and technolog
+1634 ey street nw, suit 1100
+washington, dc 20006
+voic: 202-637-9800
+http://www.cdt.org/
+
+join our activist network! your particip can make a differ!
+http://www.cdt.org/join/
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: jabber - the world's fastest grow 
+real-time commun platform! don't just im. build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

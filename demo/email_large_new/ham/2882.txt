@@ -1,0 +1,26 @@
+how to flush cach of certain disk?hi,
+
+on my netbook i'm us automat usb stick mount through udev rule,
+and i alreadi us to run 'sync' command befor unplug stick,
+so no data will be lost. but if i have few stick insert and some
+inform copi on on of them, if i run 'sync' i have to wait
+while copi end, becaus:
+
+a) sync command drop cach on disk, but copi process fill it
+again; sync will work until all the cach ar drop to disk
+b) i can't unplug stick when it stop to flash becaus i can't be sure
+that there ar no more part of cach need to be flush on that
+disk.
+
+so here is my question - how can i run sync for onli on devic?
+
+with best regard,
+alexand batischev
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/p2u28c1d5ea1005060246p3434d45dy6b9ca5b6d34a08de@mail.csmine.org
+
+

@@ -1,0 +1,39 @@
+re: kde 3.5 ...> do you know when 4.5 will be out and stabl? the gui from kde seem to drop
+> realli stabl in their x.5 branch :-)
+>
+
+august, i think.
+
+> i am also not plan move to kde4 unless i'm sure it's work for me. i
+> have a lot of custom softwar and i'm not sure it's work. i'll have to
+> test it soon (again).
+>
+
+then get out there thi weekend and test! serious, if you want the
+fix to make it in time for kde 4.4 then _now_ is the time!
+
+
+> for now my parent ar run debian test with kde4.4 (i think) and thei
+> ar veri glad. it's much much better then kde3. it took them some time to
+> get us to the new widget layout, but recent thei admit thei like it
+> much better then kde3.
+>
+
+ye, kde 4 seem to be much better for the averag joe. but that is
+the reason that power user suffer at the moment! a.joe alreadi ha
+gnome...
+
+
+-- 
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/s2w880dece01005060823jc9c053a6sf99fb0959135fb54@mail.csmine.org
+
+

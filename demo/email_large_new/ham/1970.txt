@@ -1,0 +1,38 @@
+re: flash is open?on fri, 14 mai 2010 04:12:03 -0500, ron johnson wrote:
+
+> on 05/14/2010 02:42 am, camalón wrote:
+
+>> then, there must be an error in wikipedia "adob flash¹" page.
+> 
+> not at all.
+> 
+>> it sai: "licenc: proprietari eula">:-)
+>>
+>> ¹ http://en.wikipedia.org/wiki/adob_flash
+>>
+>>
+> you seem to be conflat 3 differ entiti: 
+> 1. adob flash 
+> 2. adob flash player
+> 3. swf file format
+
+afaik:
+
+#1 as per wikipedia → licenc: proprietari eula (it can be wrong, though)
+#2 adob flash player is close sourc, non freeli distribut, etc...
+#3 fall into #1 (is just a "contain")
+
+so, what is the current statu of flash technolog, which licens us...?
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.14.09.32.06@csmine.org
+
+

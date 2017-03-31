@@ -1,0 +1,25 @@
+re: router polici questionon fridai 16 april 2010 21:00:56 glenn english wrote:
+> on my net, i need to be abl to telnet/ssh into the border router, from
+>  the insid, to futz with it.
+> 
+> but is there ani reason at all to allow anyth, asid from some icmp, to
+>  go beyond the acl on it internet face interfac -- to get to the router
+>  itself, that is?
+
+you mean packet come in from the internet with a destin ip that is 
+assign to the router itself?  ar you run ani sort of rout protocol 
+or similar that commun with your isp's router, includ thing like 
+mpl, or ani vpn/tunnel that termin at the border router? what about nat 
+or port forward on the border router?
+
+-- 
+"cloth make the man. nake peopl have littl or no influenc on societi." - 
+mark twain, american writer (1835-1910)
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004162235.18145.ddjone@riddlemast.org
+
+

@@ -1,0 +1,30 @@
+re: can't read dvdfrom nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+that work, thank!
+
+if on ha to do thi everi time, why is it that these option aren't list=
+d
+in /etc/fstab?
+
+on fri, apr 23, 2010 at 9:27 am, =e5=88=98=e5=ae=87=e8=be=89  wrote:
+
+>
+>
+> on 23 april 2010 13:54, jame stuckei  wrote:
+> >
+> > i'm not abl to read dvd in squeez. i burn thi disc on the same
+> > drive in squeez. thereaft it work fine until a week or so ago
+> > (the disc is less than a month old). i test the disc last week on a
+> > windoz and mac osx and it work without a problem.
+> >
+> > when i try to mount the cd/dvd rom drive:
+> > stuckei@debian:~$ mount /dev/scd0
+> > mount: block devic /dev/sr0 is write-protect, mount read-onli
+> > mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+>
+> try the whole option and argument
+> mount -o loop -t iso9660 /dev/scd0 /mnt
+>
+>

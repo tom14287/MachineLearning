@@ -1,0 +1,32 @@
+re: horribl mc colorschemethoma siedlich wrote:
+> hi hugo!
+> 
+> on 2010-04-06, hugo vanwoerkom  wrote:
+>> hugo vanwoerkom wrote:
+>> ok. what about thi. can anybodi explain the follow:
+>>
+>> hugo@debian:~$ which mc
+>> /usr/local/bin/mc
+>> hugo@debian:~$ mc -v
+>> gnu midnight command 4.7.0.1
+> [...]
+>> hugo@debian:~$ /usr/local/bin/mc -v
+>> gnu midnight command 4.6.1
+> [...]
+> 
+> mayb an alia?
+> 
+> what sai 'alia mc'?
+> 
+
+not found.
+
+hugo
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hpg5gr$4l5$1@dough.gmane.org
+
+

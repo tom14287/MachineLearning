@@ -1,0 +1,30 @@
+re: exmh && speed
+valdi.kletniek@vt.edu said:
+> i check on a number of small messag in a big folder (~10000 
+> msg). the delai of the next button ha increas consider:
+> 
+> 2.5-releas: 350-450 msec
+> latest cv: 1000-12000 msec
+> i'm not see a hit on 'next'. a quick "just pound on 'next' and
+> watch the wall clock" test show me abl to go through 20 messag in
+> under 5 second, so it's well under 250ms per switch, but i'm see a
+> realli piggi cpu spike (100% for a few second) in the 'flist' code.
+> of cours, it seem to be relat to number-of-folder:
+
+> [~] wc mail/.folder
+>     131     131    1122 mail/.folder 
+
+i have 167 folder (!) and run with bg-proc set to flist (1 minut). 
+i see delai, but not that much. mayb 1-3 second (which tend to 
+disappear these dai). thi is on a pii-266.
+
+br,
+/a
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+

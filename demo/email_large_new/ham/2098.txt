@@ -1,0 +1,26 @@
+copi/past .ps/.pdf often give a `snippet' iconfrom nobodi sun sep 18 20:45:31 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+hi,
+
+when copi and past a .ps or a .pdf file, or a seri of such file,
+the result (i.e. past) file' icon is often the `snippet' on,
+i.e. the on which design a broken/corrupt file. howev, when
+right-click on the file, their content appear as the icon, i.e. the
+`snippet' icon disappear. why? is it normal? i do not like copi and
+past file and see such an icon, becaus on might think that
+these ar corrupt file.
+
+thank.
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+you can fool all of the peopl some of the time, some of the peopl all
+of the time, but you can't fool all of the peopl all of the time.
+(abraham lincoln)
+

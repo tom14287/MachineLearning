@@ -1,0 +1,26 @@
+share nf folder in multipl servershi again:
+
+i have a big nf partit share and mount on 3 debian serv
+(mountpoint /snapshost). nf partit es ext3 and i have a backup
+script, on everi server, which make a tar from some   lvm snaphost .
+i mean, my 3 server maek their tar backup at the same time on
+/snapshot nf partit. thi partit is onli us to make thi
+backup. my question is:
+
+is recommend to us  gf or other filesystem inst of ext3 in
+/snapshot nf partit?
+ani other recommend?
+
+thank in advanc.
+
+-- 
+regard;
+israel garcia
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/g2i194a2c241004190108yaae7f132s9f1ff42666d8561c@mail.csmine.org
+
+

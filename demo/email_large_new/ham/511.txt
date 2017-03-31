@@ -1,0 +1,14 @@
+quick hackurl: http://www.aaronsw.com/weblog/000624
+date: 2002-10-01t22:36:19-06:00
+
+new york time as a weblog[1] (sourc code[2]) comment appreci. ye, i 
+know userland had someth like thi[3] but as you can see it doesn't seem to 
+be work anymor. 
+
+
+
+[1] http://nytim.blogspac.com/
+[2] http://nytim.blogspac.com/sourc.py
+[3] http://radio.weblog.com/0102250/
+
+

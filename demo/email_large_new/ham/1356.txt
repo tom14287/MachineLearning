@@ -1,0 +1,49 @@
+[spambay] deploymentso then, tim peter  is all like:
+
+> [guido]
+> >   ...
+> >   i don't know how big that pickl would be, mayb load it each time
+> >   is fine.  or mayb marshal.)
+> 
+> my test train on about 7,000 msg, and a binari pickl of the databas is
+> approach 10 million byte.
+
+my paltri 3000-messag train set make a 6.3mb (where 1mb=1e6 byte)
+pickl.  hammi.py, which i just check in, will option let you
+write stuff out to a dbm file.  with that same messag base, the dbm
+file weigh in at a hefti 21.4mb.  it also take longer to write:
+
+  us a databas:
+   real    8m24.741s
+   user    6m19.410s
+   sy     1m33.650s
+
+  us a pickl:
+   real    1m39.824s
+   user    1m36.400s
+   sy     0m2.160s
+
+thi is on a piii at 551.257mhz (i don't know what it's *suppos* to
+be, 551.257 is what /proc/cpuinfo sai).
+
+for comparison, spamoracl (current the gold standard in my mind, at
+least for speed) on the same data blaze along:
+
+   real    0m29.592s
+   user    0m28.050s
+   sy     0m1.180s
+
+it data file, which appear to be a marshal hash, is 448kb.
+howev, it's compil o'caml and it us a much simpler token
+algorithm written with a lexic analyz (ocamllex), so we'll never be
+abl to outperform it.  it's someth to keep in mind, though.
+
+i don't have statist yet for scan unknown messag.  (actual, i
+do, and the databas blow the pickl out of the water, but it score
+everi word with 0.00, so i'm not sure that's a fair test. ;)  in ani
+case, 21mb per user is probabl too larg, and 10mb is question.  
+
+on the other hand, my pickl compress veri well with gzip, shrink
+down to 1.8mb.
+
+neal

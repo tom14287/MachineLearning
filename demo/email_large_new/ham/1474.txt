@@ -1,0 +1,88 @@
+re: re: kde 3.5 ...on 7 mai 2010 11:56, lisi  wrote:
+> on thursdai 06 mai 2010 18:22:18 you wrote:
+>> >> you still have gnustep, xfce, lxde, no us ani or simpli never
+>> >> upgrad.
+>> >
+>> > i have look at all those, in addit to kde 4 and gnome.  none appeal
+>> > to me.  each ha someth that i strongli dislik or doe not have
+>> > someth that i like and us a lot.
+>>
+>> pleas tell me what kde 4.4 is miss, or what it ha that you
+>> dislik. i can help address those issu.
+>
+> i doubt it, becaus i think that the problem is the basic philosophi.  thei
+> have sacrif funtion in favour of glitz.
+>
+> e.g.
+> 1. you cannot turn off all those horribl, and to me actual physic
+> pain (i have problem with my ey) "special effect" _befor_ be
+> subject to them.  (all that horribl wobbl, wavi, shimmeri, spin
+> transpar glitz.)
+
+that boil down to "it's on by default". just go turn them off. and
+the default do not have wobbl window, wavi effect, or anyth
+shimmer. noth spin either, but the alt-tab dialogu doe slide.
+there is plenti of transpar, though, and i hate that too. so i
+turn it off.
+
+my mother suffer from what she call "vertigo" and the effect do not
+upset her. nor do thei upset the autist that i volunt with. thei
+ar mere an annoy to those annoi by them, noth wild.
+
+
+> 2. ctrl+tab doe not move to the next window.
+
+do you mean between tab? fix:
+http://bug.kde.org/show_bug.cgi?id=231541
+
+
+> 3. alt+f2 is cumbersom and unhelp.  (in kde 3.5.x i can type e.g. k and be
+> present with a list of all the applic that i have previous us
+> begin with k.)
+
+it work that wai in kde 4 as well, so long as you have open them
+from krunner in the past. that is how i open all my applic.
+
+
+> 4. alt+f1 doe not bring up the menu.
+
+it's alt-f5 for the kmenu. ha been sinc kde 3 i think.
+
+
+> 5. kcontrol no longer exist.
+
+it's call system set, and with the tree menu it's veri similar.
+it is be rework for kde 4.5, so if you have ani suggest then
+now is the time to make them!
+
+> etc etc.
+>
+
+tell me more!
+
+
+>> > i am, howev, veri sad that kde 3.5, which i regard as the pinnacl of
+>> > de's, is be laid to rest.
+>>
+>> then help me shape it's successor. what is not suitabl about kde 4?
+>
+> why would i rather have a toyota hatchback (especi a hybrid on) than a
+> two seater sport car?
+>
+
+you evad the question. i cannot help when you evad the question.
+
+
+-- 
+dotan cohen
+
+http://bido.com
+http://what-is-what.com
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/g2h880dece01005070919yce94d995rd670844d68f5bce1@mail.csmine.org
+
+

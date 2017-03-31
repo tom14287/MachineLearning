@@ -1,0 +1,29 @@
+re: why ar there no latest book written for debian system?also sprach stephen powel  [2010.04.26.1617 +0200]:
+> i think there mai be some confus here, mr. krafft.  the comment
+> i made abov were not in refer to anyth _you_ wrote.  thei were
+> in refer to the origin edit of "the linux cookbook", by
+> michael stutz, which wa copyright in 2001.
+
+ha! but you did quot a sentenc on my book and then start with
+"thi". i didn't actual read much further. ;)
+
+no harm done.
+
+-- 
+ .''`.   martin f. krafft       relat project:
+: :'  :  proud debian develop               http://debiansystem.info
+`. `'`   http://peopl.debian.org/~madduck    http://vc-pkg.org
+  `-  debian - when you have better thing to do than fix system
+ 
+"the scientif paper in it orthodox form doe embodi a total
+ mistaken concept, even a travesti, of the natur of scientif
+ thought."
+                                                -- sir peter medawar
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100426152640.ge1140@piper.oerlikon.madduck.net
+
+

@@ -1,0 +1,24 @@
+re: hptalx is buggi onc calcul is plug and linkedon fri, 07 mai 2010 18:40:46 +0200, merciadri luca wrote:
+
+> now that i know that my calcul is connect through ttyusb0, i have
+> configur hptalx. nice, i click `save' and it directli bug (i had
+> the bug-buddi tool which pop up). 'wa too good to be true, wasn't
+> it?
+
+(...)
+
+just a wild guess, but try to launch the applic as "root" user. 
+mayb it's a devic permiss issu :-?
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.07.16.51.41@csmine.org
+
+

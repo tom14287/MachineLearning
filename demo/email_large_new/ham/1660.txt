@@ -1,0 +1,46 @@
+re: trunk version of linux-imag issuein <1271511450.21791.6.camel@brutu>, jw foster wrote:
+>i', sent thi previous but so far no repli. can anyon tell me how to
+>get rid of thi issu. i did an updat & the trunk version of
+>linux-imag wa instal as the upgrad version. a few week later i
+>tri to instal the newer regular version & after a few attempt it
+>final instal & grub configur it. howev it is not properli
+>configur accord to the instal as it keep try to configur
+>the non-trunk version everi time i do an updat. now i've been abl to
+>select the non-trunk version & have my system run it, even though
+>it's not properli configur. i tri to then remov the trunk ver. &
+>thi is the error messag i get.
+[...]
+>examin /etc/kernel/postrm.d .
+>run-part: execut /etc/kernel/postrm.d/extlinux
+>2.6.32-trunk-686 /boot/vmlinuz-2.6.32-trunk-686
+>run-part: /etc/kernel/postrm.d/extlinux exit with return code 1
+[...]
+>a packag fail to instal.  try to recov:
+[...]
+>examin /etc/kernel/postinst.d.
+>run-part: execut /etc/kernel/postinst.d/extlinux
+>2.6.32-3-686 /boot/vmlinuz-2.6.32-3-686
+>run-part: /etc/kernel/postinst.d/extlinux exit with return code 1
+[...]
+
+i don't have ani /etc/kernel/postrm.d/extlinux or 
+/etc/kernel/postinst.d/extlinux, so i don't know what thei do, but your ar 
+evid broken.
+
+if thei ar script you wrote, fix them.
+
+if thei ar from a debian packag, it might be appropri to file a bug 
+against that packag.
+-- 
+boyd stephen smith jr.                   ,= ,-_-. =.
+bss@iguanasuicid.net                   ((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi         `-'(. .)`-'
+http://iguanasuicid.net/                    \_/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201004171022.07395.bss@iguanasuicid.net
+
+

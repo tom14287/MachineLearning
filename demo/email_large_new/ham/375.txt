@@ -1,0 +1,183 @@
+re: can't read dvdfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+on sun, apr 25, 2010 at 7:06 pm, andrew m.a. cater <
+amacat@galact.demon.co.uk> wrote:
+
+> on sun, apr 25, 2010 at 12:11:57pm +0200, jame stuckei wrote:
+> > stuckei@debian:~$ cat /etc/fstab
+> > # /etc/fstab: static file system inform.
+> > #
+> > # us 'vol_id --uuid' to print the univers uniqu identifi for a
+> > # devic; thi mai be us with uuid=3d as a more robust wai to name
+> devic
+> > # that work even if disk ar ad and remov. see fstab(5).
+> > #
+> > #      
+> > proc            /proc           proc    default        0       0
+> > # / wa on /dev/sda1 dure instal
+> > uuid=3dcca7add1-981f-469f-9285-ae17722e24bd /               ext3
+> > error=3dremount-ro 0       1
+> > # swap wa on /dev/sda5 dure instal
+> > uuid=3d334c0de5-c6b2-4990-a49b-83f4dd0c0a0d none            swap
+> > sw              0       0
+> > /dev/scd0       /media/cdrom0   udf,iso9660 user,noauto     0       0
+> > /dev/fd0        /media/floppi0  auto    rw,user,noauto  0       0
+> >
+> > by the wai, how do i repli to the list on gmail?
+> >
+> >
+> > on sun, apr 25, 2010 at 10:55 am, andrew m.a. cater <
+> > amacat@galact.demon.co.uk> wrote:
+> >
+> > > on fri, apr 23, 2010 at 11:21:33am +0200, jame stuckei wrote:
+> > > > that work, thank!
+> > > >
+> > > > if on ha to do thi everi time, why is it that these option aren=
+'t
+> > > list
+> > > > in /etc/fstab?
+> > > >
+> > > > on fri, apr 23, 2010 at 9:27 am, =e5=88=98=e5=ae=87=e8=be=89  wrote:
+> > > >
+> > > > >
+> > > > >
+> > > > > on 23 april 2010 13:54, jame stuckei  wrote=
+:
+> > > > > >
+> > > > > > i'm not abl to read dvd in squeez. i burn thi disc on the
+> same
+> > > > > > drive in squeez. thereaft it work fine until a week or so
+> ago
+> > > > > > (the disc is less than a month old). i test the disc last wee=
+k
+> on a
+> > > > > > windoz and mac osx and it work without a problem.
+> > > > > >
+> > > > > > when i try to mount the cd/dvd rom drive:
+> > > > > > stuckei@debian:~$ mount /dev/scd0
+> > > > > > mount: block devic /dev/sr0 is write-protect, mount
+> read-onli
+> > > > > > mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+> > > > >
+> > > > > try the whole option and argument
+> > > > > mount -o loop -t iso9660 /dev/scd0 /mnt
+> > > > >
+> > > > >
+> > >
+> > > mount /cdrom usual work - what doe your fstab sai for /dev/sr0 ?
+> > >
+> > >
+> if you look at the /etc/fstab -
+>
+> you have someth that will read cd (iso9660) and dvd (udf) format for
+> a devic mount at /media/cdrom0 in thi case.
+>
+> gnome automount daemon or equival would find it there and offer to
+> open it for you.
+>
+> in root ( /)
+> =3d=3d=3d=3d=3d=3d=3d=3d=3d=3d=3d=3d
+>
+> in /, you mai have a symlink which point cdrom -> /media/cdrom
+>
+> further down in the filesystem, under /dev, udev or it equival
+> normal point an alia to the same physic devic dure the
+> instal process.
+>
+> in /dev
+> =3d=3d=3d=3d=3d=3d=3d=3d
+> in my case /dev/hda is the physic devic, so in /dev, cdrom is link
+> to hda as is cdrw - all point back ot /dev/hda
+>
+> ls -al cdrom give
+>
+> cdrom -> hda
+>
+> same for dvd. [dvd, dvdrw]
+>
+> if you want to mount someth temporarili e.g. to copi someth off an
+> .iso imag (it's also worth look at and learn how to loop mount an
+> .iso imag), someth like the follow as root where /tmp/tempcd is a
+> temporari mountpoint you'll remov later.
+>
+> mkdir /tmp/tempcd
+>
+> mount -t iso9660 /dev/hda /tmp/tempcd
+>
+> cp /tmp/tempcd/* /home/
+> so the second line is the equival of the mount command you normal
+> have in your /etc/fstab
+>
+> repli to list on gmail - add as a secondari addresse?
+> hth,
+>
+> andyc
+>
+>
+i'm not us a de.
+
+root@debian:/home/stuckei# mount -t iso9660 /dev/scd0 /media/cdrom0/
+
+mount: block devic /dev/sr0 is write-protect, mount read-onli
+mount: wrong fs type, bad option, bad superblock on /dev/sr0,
+       miss codepag or helper program, or other error
+       in some case us info is found in syslog - try
+       dmesg | tail  or so
+
+root@debian:/home/stuckei#
+
+root@debian:/dev# ls -al cdrom
+lrwxrwxrwx 1 root root 3 2010-04-25 20:05 cdrom -> sr0
+
+i don't know but thi might be relev:
+[43045.166624] sr 2:0:0:0: [sr0] result: hostbyt=3ddid_ok
+driverbyt=3ddriver_sens
+[43045.166629] sr 2:0:0:0: [sr0] sens kei : illeg request [current]
+[43045.166633] sr 2:0:0:0: [sr0] add. sens: illeg mode for thi track
+[43045.166638] sr 2:0:0:0: [sr0] cdb: read(10): 28 00 00 00 00 00 00 00 40
+00
+[43045.166646] end_request: i/o error, dev sr0, sector 0
+[43045.166649] buffer i/o error on devic sr0, logic block 0
+[43045.166653] buffer i/o error on devic sr0, logic block 1
+[43045.166656] buffer i/o error on devic sr0, logic block 2
+[43045.166659] buffer i/o error on devic sr0, logic block 3
+[43045.166661] buffer i/o error on devic sr0, logic block 4
+[43045.166664] buffer i/o error on devic sr0, logic block 5
+[43045.166666] buffer i/o error on devic sr0, logic block 6
+[43045.166669] buffer i/o error on devic sr0, logic block 7
+[43045.166671] buffer i/o error on devic sr0, logic block 8
+[43045.166674] buffer i/o error on devic sr0, logic block 9
+[43045.169471] sr 2:0:0:0: [sr0] result: hostbyt=3ddid_ok
+driverbyt=3ddriver_sens
+[43045.169474] sr 2:0:0:0: [sr0] sens kei : illeg request [current]
+[43045.169476] sr 2:0:0:0: [sr0] add. sens: illeg mode for thi track
+[43045.169479] sr 2:0:0:0: [sr0] cdb: read(10): 28 00 00 00 00 00 00 00 02
+00
+[43045.169483] end_request: i/o error, dev sr0, sector 0
+[43045.237078] sr 2:0:0:0: [sr0] result: hostbyt=3ddid_ok
+driverbyt=3ddriver_sens
+[43045.237082] sr 2:0:0:0: [sr0] sens kei : illeg request [current]
+[43045.237085] sr 2:0:0:0: [sr0] add. sens: illeg mode for thi track
+[43045.237089] sr 2:0:0:0: [sr0] cdb: read(10): 28 00 00 00 00 00 00 00 02
+00
+[43045.237096] end_request: i/o error, dev sr0, sector 0
+[43045.237943] sr 2:0:0:0: [sr0] result: hostbyt=3ddid_ok
+driverbyt=3ddriver_sens
+[43045.237946] sr 2:0:0:0: [sr0] sens kei : illeg request [current]
+[43045.237949] sr 2:0:0:0: [sr0] add. sens: illeg mode for thi track
+[43045.237953] sr 2:0:0:0: [sr0] cdb: read(10): 28 00 00 00 00 00 00 00 02
+00
+[43045.237960] end_request: i/o error, dev sr0, sector 0
+[43094.764257] sr 2:0:0:0: [sr0] result: hostbyt=3ddid_ok
+driverbyt=3ddriver_sens
+[43094.764262] sr 2:0:0:0: [sr0] sens kei : illeg request [current]
+[43094.764266] sr 2:0:0:0: [sr0] add. sens: illeg mode for thi track
+[43094.764271] sr 2:0:0:0: [sr0] cdb: read(10): 28 00 00 00 00 10 00 00 01
+00
+[43094.764279] end_request: i/o error, dev sr0, sector 64
+[43094.764353] isof_fill_super: bread fail, dev=3dsr0, iso_blknum=3d16,
+block=3d16
+
+i alwai see that in dmesg when i insert a cd/dvd.

@@ -1,0 +1,11 @@
+i've been hear a lot about foaf, which is an acronym for
+    friend of a friurl: http://scriptingnew.userland.com/backissu/2002/09/23#when:10:34:18am
+date: mon, 23 sep 2002 17:34:18 gmt
+
+i've been hear a lot about foaf, which is an acronym for friend of a friend. 
+it's an rdf-base file format that let you walk a network of peopl who ar 
+friend. it's a lot like a network of blogrol[1]. 
+
+[1] http://radio.outlin.com/stori/storyread$85
+
+

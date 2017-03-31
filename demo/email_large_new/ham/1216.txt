@@ -1,0 +1,29 @@
+[ilug] cup question i seem to be have a littl troubl with it. my printer.conf is:
+
+
+info hp4050
+locat local
+deviceuri ipp://192.168.2.90:9100/
+state idl
+accept ye
+jobsheet none none
+quotaperiod 0
+pagelimit 0
+klimit 0
+
+
+ and cupd us that to make a printcap of:
+
+lp:
+
+ sound dodgi to me. if someon ha an exampl printer.conf/printcap for
+a jetdirect printer, i'd appreci it if thei sent it on.
+
+john
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

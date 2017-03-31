@@ -1,0 +1,24 @@
+doe qtvisualcontextcopyimagefortim block?the document isn't clear, will qtvisualcontextcopyimagefortim() =
+block or just return nil if the data isn't there yet.
+
+i'm iter a movi frame by frame from a secondari thread. rather =
+than poll/spin on qtvisualcontextisnewimageavail() for each =
+frame, can i just copyimagefortim() and let it block until the data is =
+avail? the altern is to instal a hook via =
+qtvisualcontextsetimageavailablecallback() and trigger a semaphor, but =
+block on the copi call would be much more straightforward.
+
+thank!
+
+matt slot / bitwis oper / ambrosia softwar, inc. -- =
+http://www.ambrosiasw.com/
+
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

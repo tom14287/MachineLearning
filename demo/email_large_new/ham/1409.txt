@@ -1,0 +1,50 @@
+re: flash is open?[thank to everyon who respond.]
+
+on fri, 14 mai 2010 07:39:47 -0500
+mark allum  wrote:
+
+> on 5/13/2010 6:31 pm, celejar wrote:
+> > adob claim that thei publish the flash spec:
+> > http://www.adob.com/choic/openmarket.html
+> >
+> > i alwai thought that the reason for all the troubl with flash on
+> > linux is that flash wa a close standard.  if the spec is publish,
+> > why ar the floss player so far behind adob's player?  is it just
+> > that difficult to design a good player?
+> 
+> i alwai perceiv a lack of interest.  few peopl realli want to work 
+> on it, it seem.  i root for gnash, but i go ahead and us adob's 
+> non-free player.
+
+i us adob, too, but onli becaus i've never gotten the floss player
+to work properli.  i'd dearli love to ditch adob.
+
+...
+
+> flash mai not be a prioriti, sens it perform two function.  on, it 
+> act as the standard web video player.  two, it tri to be a standard 
+> web program interfac and sdk.
+> 
+> the former is becom moot by the advent of html5.  the latter is 
+> bore, sinc there ar 1000s of other wai to write program that run 
+> in web browser, e.g., javascript.  no on realli want flash to be the 
+> go-to standard for program, even if it offer a few shini gewgaw. 
+> don't you hate flash-base site?  i know i do.
+
+of cours i do, but as long as thei're out there, i need to be abl to
+access them.  and i'm not talk about silli game - there ar seriou
+site that requir flash.
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100514143925.d0b7a0ef.celejar@csmine.org
+
+

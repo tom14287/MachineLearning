@@ -1,0 +1,92 @@
+re: debuild of evolut-data-server failson fri, 2010-05-07 at 22:57 +0200, sven joachim wrote:
+> on 2010-05-07 22:17 +0200, john a. sullivan iii wrote:
+>=20
+> > hello, all. we ar try to rebuild the evolut-data-server packag
+> > after patch it to hopefulli end our current email nightmar.  the
+> > base system is lenni but we ar us evolut from squeez.  when i
+> > try to debuild, i am get the follow error:
+> >
+> > check for gnome_platform... configur: error: packag requir
+> > (glib-2.0 >=3d 2.16.1
+> >         gtk+-2.0 >=3d 2.14.0
+>=20
+> i think thi is the problem, sinc lenni ha onli gtk+-2.0 2.12.12.  the
+> build depend in debian/control might not be correct.  note that
+> lenni-backport ha a newer version, though.
+>=20
+> >         orbit-2.0 >=3d 2.9.8
+> >         libbonobo-2.0 >=3d 2.20.3
+> >         gconf-2.0 >=3d 2.0.0
+> >         libglad-2.0 >=3d 2.0.0
+> >         libxml-2.0 >=3d 2.0.0
+> >         libsoup-2.4 >=3d 2.3.0) were not met:
+> >
+> > packag zlib wa not found in the pkg-config search path.
+> > perhap you should add the directori contain `zlib.pc'
+> > to the pkg_config_path environ variabl
+> > packag 'zlib', requir by 'gnutl', not found
+> >
+> > zlib is instal.
+>=20
+> true, but the zlib1g-dev packag in lenni doe not ship a zlib.pc file;
+> the version in squeez doe.
+>=20
+> > i did not check all the list packag but the on
+> > i check were instal with the latest version.  my command sequenc
+> > wa:
+> >
+> > apt-get -t test sourc evolut-data-server (as non-root)
+> > apt-get -t test build-dep evolut-data-server (as root)
+>=20
+> thi might not do what you want.  when you fetch the build depend
+> from test, the built packag will like also depend on librari
+> not present in stabl.  but it appear to be imposs to build
+> squeez's evolut-data-server in lenni anywai (see abov).
+>=20
+> > patch evolut-data-server
+> > edit debian/changelog and debian/rule (disabl gnome-kei-ring - al=
+o
+> > tri it with thi enabl as per the default)
+> > debuild -uc -us
+> >
+> > what am i do wrong? we ar rather desper to get thi run.
+>=20
+> there ar variou possibl, all not veri appeal:
+>=20
+> - instal the lenni backport of gtk+-2.0 and see what's necessari to get
+>   the zlib.pc file into the libz1g-dev packag.  resolv further build
+>   problem by instal packag from lenni-backport or creat your
+>   own backport.  you mai want to hire somebodi to do the work.
+>=20
+> - upgrad to squeez, deal with the ensu breakag and hope that it
+>   will freez in a few month.
+>=20
+> - us ubuntu 10.04 or whatev current distribut ha the new
+>   evolut-data-server and deal with whatev bug these distribut
+>   have.
+>=20
+> i would go for the first option, but note that you should set
+> gdk_nativ_window=3d1 in the environ if you upgrad gtk+-2.0 to
+> version 2.18, otherwis sever applic might break=c2=b9.
+>=20
+> sven
+>=20
+>=20
+> =c2=b9 http://blog.gurulab.com/dax/2009/10/what-gdk-nativ.html
+>=20
+>=20
+the upgrad to the squeez zlib did the trick but now i've hit what i
+think is a linker problem:
+
+libtool: link: onli absolut run-path ar allow
+
+i ran libtool and acloc but that didn't seem to help.  off to
+googl to find out what thi is.  thank - john
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1273266682.17252.30.camel@famili.pacifera.com
+
+

@@ -1,0 +1,41 @@
+re: correct wai to (re)compil a kernel on debian sidthu, 8 apr 2010 11:01:01 -0400 (edt), celejar wrote:
+> on thu, 8 apr 2010 10:40:46 -0400 (edt), stephen powel wrote:
+>> it sound to me like you want to get pristin kernel sourc directli
+>> from kernel.org and compil them and run them on a debian system.
+>> i've never done that, but other tell me that thei do it.  of cours,
+>> thi is not support by debian.
+> 
+> i'm not sure that it's correct to sai that us kernel-packag to
+> build and instal vanilla kernel sourc is "not support by debian".
+> my understand is that the packag is suppos to work on ani kernel
+> tree, not just debian's packag on.  perhap manoj will comment?
+
+i didn't sai it wouldn't work.  i said it is unsupport.  there's
+a differ.  debian doe make modif to the kernel sourc.
+the offici debian kernel sourc packag have been modifi by the
+debian kernel team after download them from kernel.org.  there is
+a reason for all of these modif.  often it's to prune "non-free"
+driver from the kernel sourc tree.  but there mai be other modif
+made for other reason.  the debian kernel team onli support their
+own kernel sourc.  if you obtain kernel sourc code directli from
+upstream, and you have problem run it, you will have to seek
+support and file bug report directli with upstream kernel develop.
+you can't file a bug report against the debian kernel sourc packag
+becaus it's not the debian kernel sourc.  and you can't ask for
+help from the debian kernel team on their list becaus it's not
+their sourc.  thei will have noth to do with it.  that's what
+i mean by unsupport.
+
+-- 
+  .''`.     stephen powel    
+ : :'  :
+ `. `'`
+   `-
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1200713718.1886941270739784899.javamail.root@md01.wow.synacor.com
+
+

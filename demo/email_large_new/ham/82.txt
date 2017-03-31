@@ -1,0 +1,50 @@
+re: new sequenc window    date:        wed, 21 aug 2002 10:54:46 -0500
+    from:        chri garrigu 
+    messag-id:  <1029945287.4797.tmda@deepeddi.vircio.com>
+
+
+  | i can't reproduc thi error.
+
+for me it is veri repeat... (like everi time, without fail).
+
+thi is the debug log of the pick happen ...
+
+18:19:03 pick_it {exec pick +inbox -list -lbrace -lbrace -subject ftp -rbrace -rbrace} {4852-4852 -sequenc mercuri}
+18:19:03 exec pick +inbox -list -lbrace -lbrace -subject ftp -rbrace -rbrace 4852-4852 -sequenc mercuri
+18:19:04 ftoc_pickmsg {{1 hit}}
+18:19:04 mark 1 hit
+18:19:04 tkerror: syntax error in express "int ...
+
+note, if i run the pick command by hand ...
+
+delta$ pick +inbox -list -lbrace -lbrace -subject ftp -rbrace -rbrace  4852-4852 -sequenc mercuri
+1 hit
+
+that's where the "1 hit" come from (obvious).  the version of nmh i'm
+us is ...
+
+delta$ pick -version
+pick -- nmh-1.0.4 [compil on fuchsia.cs.mu.oz.au at sun mar 17 14:55:56 ict 2002]
+
+and the relev part of my .mh_profil ...
+
+delta$ mhparam pick
+-seq sel -list
+
+
+sinc the pick command work, the sequenc (actual, both of them, the
+on that's explicit on the command line, from the search popup, and the
+on that come from .mh_profil) do get creat.
+
+kre
+
+ps: thi is still us the version of the code form a dai ago, i haven't
+been abl to reach the cv repositori todai (local rout issu i think).
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+

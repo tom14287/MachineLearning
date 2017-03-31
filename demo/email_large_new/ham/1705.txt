@@ -1,0 +1,36 @@
+re: [iiu] octr unlicens band chang ...
+doe that mean that you could reach further, but you couldn't take up as 
+much bandwidth then?
+
+a.
+
+at 04:27 pm 7/26/2002 +0100, berni goldbach wrote:
+>hi,
+>
+>i believ the higher allow nation come with a prescrib specif 
+>frequenc constraint, so if you want 2 watt, you will have to confin 
+>yourself to a tighter limit of the open spectrum. that could affect 
+>deploy that channel-hop when thei encount degrad in signal 
+>strength.
+>
+>regard
+>berni goldbach
+>::talk to sign::
+>
+>
+>_______________________________________________
+>iiu mail list
+>iiu@iiu.taint.org
+>http://iiu.taint.org/mailman/listinfo/iiu
+
+--
+
+antoin o lachtnain
+**  antoin@eir.com ** http://www.eir.com ** +353-87-240-6691
+
+_______________________________________________
+iiu mail list
+iiu@iiu.taint.org
+http://iiu.taint.org/mailman/listinfo/iiu
+
+

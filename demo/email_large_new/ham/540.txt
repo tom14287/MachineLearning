@@ -1,0 +1,46 @@
+re: [satalk] permsgstatu.pm error?it's possibl...i perform the updat via "rpm -u"...which, of cours, 
+creat all the new ruleset as "xx_rulenam.cf.rpmnew"  crud.  i'll have 
+to start move thing around.
+
+on thu, 5 sep 2002, malt s. stretz wrote:
+
+> on thursdai 05 septemb 2002 04:10 cet mike burger wrote:
+> > just load up sa 2.40 from theo's rpm...spamassassin-2.40-1 and
+> > perl-mail-spamassassin-2.40-1 on a rh 7.1 system with perl 5.6.1 run
+> > on it.
+> >
+> > i'm get messag that seem to indic that sa can't find
+> > permsgstatu, like so:
+> >
+> > sep  4 21:01:59 burger spamd[17579]: fail to run ctype_just_html
+> > spamassassin test, skip: ^i(can't locat object method
+> > "check_for_content_type_just_html" via packag
+> > "mail::spamassassin::permsgstatu" (perhap you forgot to load
+> > "mail::spamassassin::permsgstatu"?) at
+> > /usr/lib/perl5/site_perl/5.6.1/mail/spamassassin/permsgstatu.pm line
+> > 1814,  line 21. )
+> >
+> >[...]
+> >
+> > ani idea?
+> 
+> perl doesn't complain that it can't find permsgstatu.pm but the function 
+> check_for_content_type_just_html(). do you probabl have some old rule 
+> file still lurk around? thi test exist in 2.31 but is gone/wa 
+> renam with 2.40.
+> 
+> malt
+> 
+> 
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

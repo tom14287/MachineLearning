@@ -1,0 +1,52 @@
+re: akonadi first time start bug with kde 4.4.3from nobodi sun sep 18 20:45:27 2016
+content-type: text/plain;
+  charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+am donnerstag 06 mai 2010 schrieb frederik schwarzer:
+> [martin steigerwald - donnerstag 06 mai 2010 11:34:57]
+>=20
+> > hi!
+> >=20
+> > jfyi as thi might (partli) be packag relat.
+> >=20
+> > i found the follow bug with akonadi sinc i upgrad to kde 4.4.3
+> > happen often, possibl alwai when i start kontact for the first
+> > time after start a kde session. on further start of kontact it
+> > work as
+>=20
+> > expect:
+> umm, that's interest. i had thi sinc kde 4.4.0 (self-compil) and
+> it vanish when switch from the 4.4.2 deb to the 4.4.3 on.
+> so i thought it wa just fix for 4.4.3. now i wonder what i did to
+> make it work.
+
+well: that what i mean. do you *understand* what go on there?
+
+i am a linux trainer, consult and administr sinc >5 year and=20
+still don't get *why* thi happen and *what* it trigger. i might get it=20
+when i studi mysql, dbu, resourc agent, nepomuk, *whatev* els it=20
+us - but i am and i want to be *just a user* of thi stuff.=20
+
+so i think thi is for upstream to solv - and if it ain't work reliabl=20
+in kde 4.4 i think it ha to be fix within kde 4.4 seri. akonadi might=
+=20
+us mysql or not, but it if us it, kaddressbook should still just work=20
+*predict*.
+
+thu i suggest report anyth like that upstream - especi to you,=20
+boyd - complain here probabl just won't help. and if upstream doe not=
+=20
+get bug report thei probabl don't even know that someth is broken on=20
+probabl onli *some* system.
+
+some issu might be packag relat, but then i hope to get hint back=20
+from upstream develop so that i can file debian bug report with proper=
+=20
+suggest. until then i think i default to report upstream, unless=20
+someon convinc me to do elsewis.
+
+ciao,
+=2d-=20
+martin 'helio' steigerwald - http://www.lichtvol.de
+gpg: 03b0 0d6c 0040 0710 4afa  b82f 991b eaac a599 84c7

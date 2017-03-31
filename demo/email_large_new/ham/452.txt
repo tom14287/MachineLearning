@@ -1,0 +1,32 @@
+re: about apt, kernel updat and dist-upgradeon thu, feb 07, 2002 at 12:29:14am +0200, peter peltonen wrote:
+> about apt.conf there ar these line:
+> ----
+> rpm 
+> {
+>    // leav list empti to disabl
+>    allowedduppkg {"^kernel$"; "kernel-smp"; "kernel-enterpris"; };
+>    holdpkg {"kernel-sourc"; "kernel-header"; };
+> }
+> ----
+> 
+> how do i tell apt hold all kernel packag? can i us syntax like 
+> "kernel*"; ? 
+> 
+> and i don't quit understand what the part "^kernel$"; mean?
+
+you could read about regular express.
+^kernel$ match "kernel" and nothimg more.
+kern, kernel-smp and kernel-enterpris ar the kernel packag you
+might be run in a rh system. packag like kernel-header,
+kernel-boot and kernel-doc aren't match. if it just said "kernel", it
+would match *all* those packag.
+
+-- 
+"you were good with that record." (=nokkahuilu)
+"soitit hyvin sitä mankkaa."
+	-- (suomenno) men behav badli
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+

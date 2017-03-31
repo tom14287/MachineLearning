@@ -1,0 +1,48 @@
+[spambay] understand high fals neg rateher's clarif of why i did:
+
+first test result us token.token.token_header()
+unmodifi. 
+
+train on 644 ham & 557 spam
+      0.000  10.413
+      1.398   6.104
+      1.398   5.027
+train on 644 ham & 557 spam
+      0.000   8.259
+      1.242   2.873
+      1.242   5.745
+train on 644 ham & 557 spam
+      1.398   5.206
+      1.398   4.488
+      0.000   9.336
+train on 644 ham & 557 spam
+      1.553   5.206
+      1.553   5.027
+      0.000   9.874
+total fals po 139 5.39596273292
+total fals neg 970 43.5368043088
+
+second test result us mboxtest.mytoken.token_header().
+thi us all header except receiv, data, and x-from_.
+
+train on 644 ham & 557 spam
+      0.000   7.540
+      0.932   4.847
+      0.932   3.232
+train on 644 ham & 557 spam
+      0.000   7.181
+      0.621   2.873
+      0.621   4.847
+train on 644 ham & 557 spam
+      1.087   4.129
+      1.087   3.052
+      0.000   6.822
+train on 644 ham & 557 spam
+      0.776   3.411
+      0.776   3.411
+      0.000   6.463
+total fals po 97 3.76552795031
+total fals neg 738 33.1238779174
+
+jeremi
+

@@ -1,0 +1,26 @@
+re: doe bcm4310 work with debian lenni?mark [2010.04.13 1542 -0700]:
+> hi,
+> 
+> i'm consid purchas a new laptop like thi on
+> http://www.thelinuxlaptop.com/viper-linux-laptop.php which us a dell
+> wireless 1490 card a.k.a. bcm4310.  i've us b43-fwcutter with great
+> result on older dell bcm43xx card in lenni but bcm4310 is not list here
+> http://wireless.kernel.org/en/user/driver/b43#support_chip_type.  i'm
+> also curiou about the video card (intel graphic media acceler x4500hd)
+> but that appear to be support base on what i've read.
+>
+i don't know about thi particular card, but i got a dell 1505 (bcm
+4323) to work with the linux driver avail from broadcom (googl
+broadcom sta linux).  thi is not an open-sourc driver.  some part of
+it is, anoth part is a binari blob, but it work beautifulli for me.
+
+cheer,
+norbert
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100415181732.gz22422@cs.dal.ca
+
+

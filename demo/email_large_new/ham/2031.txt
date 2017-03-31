@@ -1,0 +1,35 @@
+re: lilo remov in squeez (or, "pleas test grub2")stephen powel  write:
+
+> on mon, 24 mai 2010 05:36:32 -0400 (edt), ferenc wagner wrote:
+>> kurt roeckx  wrote:
+>>> on sun, mai 23, 2010 at 01:11:48pm +0200, cyril bruleboi wrote:
+>>>> william pitcock  (22/05/2010):
+>>>>> thi mean that user should *test grub2 extens* befor squeez
+>>>>> is releas so that ani issu can be resolv now.
+>>>> 
+>>>> there should also be some folk fix the discov issu.
+>>>
+>>> grub2 current seem to be have 18 rc bug, plu a whole bunch
+>>> of merg bug, while lilo onli ha 1 rc bug.  
+>> 
+>> i chat about thi with the grub upstream a coupl of dai ago.
+>> accord to vladimir, most of those bug ar alreadi fix, but there's
+>> nobodi around to do a new upload.  both grub maintain (felix zielk
+>> and robert millan) unexpectedli disappear some time ago.
+>
+> what about jordi mallach and colin watson?
+
+i realli don't know, i just echo what i heard on the #grub irc
+channel.  i saw articl from colin watson recent, so he's around, but
+i don't know how he feel about grub mainten.
+-- 
+regard,
+feri.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87y6f9z0il.fsf@tac.ki.iif.hu
+
+

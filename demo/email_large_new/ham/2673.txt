@@ -1,0 +1,14 @@
+re: boot / lvm best practicesfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=iso-8859-1
+content-transfer-encod: quot-printabl
+
+on 14/04/10 ron johnson wrote:
+> that is correct.  no raid protect against user stupid.=20
+
+in my person experi, user stupid (even my own) is as common a
+caus of data loss as hardwar failur.
+
+
+--=20
+jon dowland
+

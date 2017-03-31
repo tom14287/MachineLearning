@@ -1,0 +1,39 @@
+re: c program questionon 20100414_123342, ron johnson wrote:
+> on 2010-04-14 09:31, paul e condon wrote:
+> [snip]
+> >
+> >non-obviou --- to the point that there wa an open contest with
+> >prize award for the most obfusc exampl of c code. the prize
+> >went to the code for which the judg were most surpris on see
+> >it run after thei read the code and tri to figur out what would
+> >happen when it wa run.
+> 
+> http://www1.us.ioccc.org/main.html  i guess thei got bore look at
+> normal product c code...
+> 
+> there wa also an obfusc perl contest, but that onli ran for 5
+> year due to the "perl" and "obfusc" be redund.
+> 
+> >but the union construct is now there in the languag in order to allow
+> >the profession practition to make hi code slightli less
+> 
+> union have been in c for at least 20 year; probabl sinc the earli
+> dai.
+
+i check. union is describ in the ritchi, johnson, lesk, and
+kernighan, the c program languag, in bell system technic
+journal of juli-august 1978, p. 1991. at that time the bell system had
+c compil run on pdp-11, honeywel 6000, ibm system/370, and
+interdata 8/32.  you're right. >20year.
+
+-- 
+paul e condon           
+pecondon@mesanetwork.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100414205849.gc22738@big.lan.gnu
+
+

@@ -1,0 +1,23 @@
+re: how to setup my environ variabl for vim ?> try put thi in ~/.bashrc:
+>
+> export editor=/usr/bin/vim
+>
+> regard,
+> andrei
+> --
+
+
+you can also make it a system wide configur with
+"updat-altern --config editor". i have not tri it shell
+other than bash but i assum it is portabl.
+
+-- 
+jordan metzmeier
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/g2s50e5edd51004241315vb494b3b0jfeabf8a9c839c553@mail.csmine.org
+
+

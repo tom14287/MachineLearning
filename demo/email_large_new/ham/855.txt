@@ -1,0 +1,35 @@
+re: make onscreen font read-abl[wa:new monitor, how to chang 
+	screen resolut?]on thu, 29 apr 2010 22:06:08 +0200, jame stuckei wrote:
+
+> on thu, apr 29, 2010 at 10:03 pm, camalón wrote:
+> 
+>> you could try run:
+>>
+>> xrandr --dpi 96
+>>
+>> or if you have instal nvidia control panel applic, iirc you can
+>> also chang it from there.
+>>
+> xrandr --dpi 96 or --dpi [ani other valu] doesn't chang anyth. i
+> don't see anyth in nvidia-set about dpi.
+
+mmmm... how about specifi:
+
+option   "dpi" "96 x 96"
+
+under your /etc/x11/xorg.conf "monitor" section?
+
+(make a backup copi of the origin file befor make ani chang)
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.04.29.20.15.51@csmine.org
+
+

@@ -1,0 +1,25 @@
+re: kde 3.5 ...on thursdai 06 mai 2010, dotan cohen wrote:
+>
+> the "kde 4 sux" time ha pass. if you still have problem with kde
+> 4, then pleas let me know what thei ar so that thei can be fix.
+>
+> thank!
+>
+>
+i agre with thi statement and to thi end i built a sid sandbox to give 
+kde4 a whirl.  i've just start but the chang to the whole desktop 
+paradigm have me confus.  ar desktop vs. activ vs. dashboard 
+explain anywher.  i'd like to assum thei ar more than candi.  ar 
+there document that demonstr their practic applic?  googl 
+hasn't been my bf on thi on.
+
+so far, so confus,
+steve
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005160943.59726.newsdebian@jetciti.org
+
+

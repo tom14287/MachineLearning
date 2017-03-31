@@ -1,0 +1,28 @@
+re: [fwd: error exmh 2.5 07/13/2001 ]in messag <5378.1027548783@dimebox>, hal devor write:
+>
+>>>>>> on wed, 24 jul 2002, "chri" == chri garrigu wrote:
+>
+>  chri> am i the onli on for whom type control-l to the main
+>  chri> window caus thi error?
+>
+>get it here too on a copi i haven't updat from cv sinc 
+>about mai sometim.
+
+it's in 2.5 as well.
+
+//christer
+
+-- 
+| sy admin @ medic              www: http://www.dtek.chalmer.se/            |
+| email: mort@dtek.chalmer.se   phone: (0)31 772 5431, (0)707 53 57 57	      |
+"i fought the loa and the loa won, i fought the loa and the loa won..."
+        -- dave aronsson, a.s.r.
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+
+

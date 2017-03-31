@@ -1,0 +1,24 @@
+re: which kernel for thinkpad 760xd ?from nobodi sun sep 18 20:45:27 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on mon, apr 19, 2010 at 19:04 +0200, merciadri luca wrote:
+> i have no answer to your question, but i am wonder...
+>=20
+> ionreflex wrote:
+> > [quot]
+> > linux lol 2.4.27-3-586tsc #1 tue dec 5 22:06:26 utc 2006 i586 gnu/linux
+> > [/quot]
+> what doe `lol' mean here? is it some version of someth, or did you
+> simpli put thi over there becaus you have some sens of humor and you
+> like to make your (somewhat old) config appear less depress to the
+> other' ey?
+
+a veri uniqu and invent hostnam - if that is the output of 'unam
+-a'
+--=20
+  .''`.     wolodja wentland    =20
+ : :'  :   =20
+ `. `'`     4096r/caf14efc=20
+   `-       081c b7cd ff04 2ba9 94ea  36b2 8b7f 7d30 caf1 4efc

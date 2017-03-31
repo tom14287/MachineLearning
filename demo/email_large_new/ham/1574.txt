@@ -1,0 +1,14 @@
+xterm crash when utf-8 is enabledshortli after i turn utf-8 on xterm will crash for no appar reason. =
+it doesn't have to be utf-8 charact. simpli turn on utf-8 and do =
+"find /" and there it goe. i can reproduc thi 100% of the time.
+
+(if thi is not the right list for thi, a pointer to the right list =
+would be appreci.)
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+x11-user mail list      (x11-user@list.appl.com)
+help/unsubscrib/updat your subscript: http://list.appl.com/mailman/option/x11-user/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

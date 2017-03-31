@@ -1,0 +1,26 @@
+re: [ilug] tcpdon sat, jul 27, 2002 at 11:58:10am -0700, paul o'neil wrote:
+> if i want to us tcpd for ftp and onli on user will ever ftp but i dont
+> know what ip that user is becaus it dialup dhcp how do i setup tcpd for
+> that user?
+
+pleas don't repli to messag to send a new topic to ilug.  those of
+us us thread mail client find that realli annoi.
+
+tcpd is host base filter/auth.  so if the ip is dynam, you can't
+realli us it.  howev ftp support user base auth - actual it kind
+of requir a user, so just set up an account for that person.
+
+kevin
+
+-- 
+kevin@suber.net     that a believ is happier than a skeptic is no more to
+fork()'ed on 37058400    the point than the fact that a drunken man is happier
+meatspac place: home       than a sober on. the happi of credul is a
+http://ie.suber.net/~kevin   cheap & danger qualiti -- g.b. shaw
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

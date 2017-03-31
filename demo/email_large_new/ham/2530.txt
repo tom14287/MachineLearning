@@ -1,0 +1,33 @@
+re: dvd-ramfrom nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="iso-8859-15"
+content-transfer-encod: quot-printabl
+
+on wednesdai 12 mai 2010 10:53:27 boyd stephen smith jr. wrote:
+> on wednesdai 12 mai 2010 10:21:53 curt howland wrote:
+> > anywai, i believ the dvd drive handl dvd-ram, and thi is the
+> > messag i get in the kern.log:
+> >
+> > [10357.909024] udf-fs: no anchor found
+> > [10357.909032] udf-fs: no partit found (1)
+> > [10359.847262] isof: unabl to identifi cd-rom format.
+>=20
+> sound like you need to creat a filesystem on it.  i think normal,
+>  you'll want to us udf for a dvd-ram.  packag udftool, binari mkudff
+>  should do someth like that.  the pktsetup binari might also be us,
+>  but i'm not sure.
+
+you can us udf, if you want, but you can also us ani file system you want=
+=20
+base on os compat and speed, as long as it can handl the 2k sector=
+s=20
+size.
+
+"pktsetup" is for when you want to us a normal cd-r/dvd-r as a read/write =
+udf=20
+file system.
+=2d-=20
+boyd stephen smith jr.           	 ,=3d ,-_-. =3d.
+bss@iguanasuicid.net            	((_/)o o(\_))
+icq: 514984 ym/aim: datwinkdaddi 	 `-'(. .)`-'
+http://iguanasuicid.net/        	     \_/

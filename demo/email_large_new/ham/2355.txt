@@ -1,0 +1,51 @@
+re: my brain hurtsmor than a dozen joke - thank gui and girl!
+(plu some anti-french abus from the usual suspect).
+
+well my brain doesn't hurt so much ani more, and it wa well worth it.
+i've now got an even faster method for ellipt-curv point count,
+both pratic and asymptot.
+
+it lift a curv over a field of degre n in time o(n^(2+1/2+ep)),
+or o(n^(2+ep)) with precomput.  befor the best method took
+o(n^(3+ep)) without precomput, or o(n^(2+1/2+ep)) with it.
+the precomput is done onc per field, not per curv, and take
+time o(n^(3+ep)).  here ep is an arbitrarili small number, hide
+some logarithm factor.
+
+after lift, you comput a norm in time o(n^(2+1/3+ep)) to get the
+number of point on the curv.
+
+here's an exampl over a 1009-bit field, without precomput, us
+a 1 ghz pentium iii:
+
+------------------------------------------------------------------------------
+> ./ecpc4 -d 1009 -j 0x123
+info: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+info: -=-=-=-=-= ecpc: ellipt curv point count, made easi! =-=-=-=-=-
+info: -=-=-=-=-= v4.0.0. (c) argotech 2001. all right reserv. =-=-=-=-=-
+info: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[...]
+info: pick field polynomi 1+x^55+x^1009.
+info: start ecpc on j = 0x123...
+info: done after 138.33 second.
+info: check... ok ok ok ok ok ok ok ok ok ok
+[...]
+curv: 5486124068793688683255936251187209270074392635932332070112001988456197381759672947165175699536362793613284725337872111744958183862744647903224103718245568925556758419805069056847065147709058947190200192542277555125346128173135573355537502225974504428432790108988791795746287271944131683364548299056172016
+[...]
+info: 1 curv process.
+info: bye!
+------------------------------------------------------------------------------
+
+
+l8r,
+  rob.
+     .-.                    robert.harlei@argot.ch                    .-.
+    /   \           .-.      softwar develop       .-.           /   \
+   /     \         /   \       .-.     _     .-.       /   \         /     \
+  /       \       /     \     /   \   / \   /   \     /     \       /       \
+ /         \     /       \   /     `-'   `-'     \   /       \     /         \
+            \   /         `-'       argotech      `-'         \   /
+             `-'                http://argot.ch/              `-'
+http://xent.com/mailman/listinfo/fork
+
+

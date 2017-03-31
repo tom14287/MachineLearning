@@ -1,0 +1,27 @@
+[sadev] [bug 1052] bondedsend.com is a scamhttp://www.hugh-famili.org/bugzilla/show_bug.cgi?id=1052
+
+
+
+
+
+------- addit comment from rod-spamassassin@arsecandl.org  2002-10-03 18:51 -------
+ignor the conspiraci theori, can you suppli exampl of spam which wa 
+score with rcvd_in_bondedsend?  the onli mail i have receiv which score 
+thi were from amazon.com.
+
+
+
+------- you ar receiv thi mail becaus: -------
+you ar the assigne for the bug, or ar watch the assigne.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-devel mail list
+spamassassin-devel@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-devel
+
+

@@ -1,0 +1,24 @@
+re: [ilug] re: remov lilo> == solocdm
+>> == bryan hunt
+
+>> choos the repair option when instal window nt/2000/whatev
+
+> what is the "repair option"?
+
+when you boot from the wnt/w2k/whatev instal cd, it offer you the
+choic of instal a new system, or repair an exist
+instal.
+
+           colm
+
+-- 
+colm bucklei | colm@tuatha.org | +353 87 2469146 | www.colm.bucklei.name
+why be difficult when, with a bit of effort, you could be imposs?
+
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

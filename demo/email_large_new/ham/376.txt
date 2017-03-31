@@ -1,0 +1,44 @@
+re: my brain hurt
+
+begin forward messag:
+
+> from: ian andrew bell 
+> date: tue jul 23, 2002  02:02:20 pm us/pacif
+> to: foib@ianbel.com
+> subject: @f: [gener] evil poll
+>
+> i know you're sit there ask yourself, "who is the most evil 
+> person on the planet?".  wonder no more, your local search engin 
+> will tell you.  just search for the phrase +" is evil" and 
+> let the internet tell you the real truth.  i us two engin to 
+> verifi accuraci.
+>
+> phrase: 							googl	hotbot
+> +"bert is evil"						14700	5100
+> +"microsoft is evil"				1730	1600
+> +"saddam hussein is evil"			98		100
+> +"erni is evil"					75		69
+> +"osama bin laden is evil"			61		72
+> +"janet reno is evil"				44		19
+> +"georg bush is evil"				39		17
+> +"canada is evil"					19		82
+> +"georg w. bush is evil"			22		21
+> +"toni blair is evil"				11		12
+> +"adolf hitler is evil"				1		23
+> +"dick chenei is evil"				4		6
+> +"pat buchanan is evil"				3		6
+> +"ghandi is evil"					2		5
+> +"bart simpson is evil"				0		1
+> +"geoff gachallan is evil"			0		0
+>
+>
+> -ian.
+>
+>
+> -----------
+> foib mail list -- bit, analysi, digit group therapi
+> http://foib.ianbel.com/mailman/listinfo/foib
+
+http://xent.com/mailman/listinfo/fork
+
+

@@ -1,0 +1,123 @@
+re: [iiu] spywar call home?thank, martin, iwil try that, howev i've onli approv the minim
+standard app - i'll give it a go anywai. i think thi is someth more
+insidi than the standard adprogram - mayb i'm paranoid!!!
+brian
+----- origin messag -----
+from: "martin whelan" 
+to: 
+sent: saturdai, august 03, 2002 10:01 pm
+subject: re: [iiu] spywar call home?
+
+
+> it mai be worth remov all your app from the approv list. (a bit of a
+> pain, i agre) then check the first app which make the connect. with a
+> bit of luck it won't be anyth standard
+>
+> at 21:47 03/08/02 +0100, you wrote:
+> >unfortun, i don't. zonealarm normal give that info but not thi
+> >time. it just block the outward access and warn me that the attempt
+> >occur.
+> >brian
+> >----- origin messag -----
+> >from: "martin whelan" 
+> >to: 
+> >sent: saturdai, august 03, 2002 9:32 pm
+> >subject: re: [iiu] spywar call home?
+> >
+> >
+> > > do you know which app is make the connect?
+> > >
+> > >
+> > > at 20:18 03/08/02 +0100, you wrote:
+> > > >hello all
+> > > >i'm look for advic. my pc ha develop a disturb tendenc of
+> >try
+> > > >to access ip 62.17.143.253 without my consent. it ha got to the
+stage
+> >where
+> > > >normal web-brows is almost imposs.
+> > > >i have check ip address on ripe databas and i know precis who
+is
+> >be
+> > > >call. i contact that compani on 14 juli, when the problem first
+aros
+> > > >and ask for a remedi but (surpris) got no repli.
+> > > >a help person on the ie.comp list suggest adawar spywar
+remov. i
+> > > >ran thi and haven't had a problem again until todai.
+> > > >the offend program is obvious not in adawar db. (i run adawar
+with
+> > > >current ref file everi dai now).?
+> > > >ani suggest, pleas,  for remov whatev the f*** is caus
+thi
+> > > >from my pc?
+> > > >brian
+> > > >
+> > > >
+> > > >_______________________________________________
+> > > >iiu mail list
+> > > >iiu@iiu.taint.org
+> > > >http://iiu.taint.org/mailman/listinfo/iiu
+> > >
+> > >
+========================================================================
+> > > martin whelan | déis design | www.deisedesign.com | tel : 086-8888975
+> > >
+> > > " our core product déiseditor © allow organis to publish
+> >inform
+> > > to their web site in a fast and cost effect manner. there is no
+need
+> >for
+> > > a full time web develop, as the site can be easili updat by the
+> > > organis own staff.
+> > > instant updat to keep site inform fresh. site which ar
+updat
+> > > regularli bring user back. visit www.deisedesign.com/deiseditor.html
+for
+> >a
+> > > demonstr "
+> > >
+> > > déiseditor © " manag your inform "
+> > >
+========================================================================
+> > >
+> > > _______________________________________________
+> > > iiu mail list
+> > > iiu@iiu.taint.org
+> > > http://iiu.taint.org/mailman/listinfo/iiu
+> > >
+> >
+> >_______________________________________________
+> >iiu mail list
+> >iiu@iiu.taint.org
+> >http://iiu.taint.org/mailman/listinfo/iiu
+>
+> ========================================================================
+> martin whelan | déis design | www.deisedesign.com | tel : 086-8888975
+>
+> " our core product déiseditor © allow organis to publish
+inform
+> to their web site in a fast and cost effect manner. there is no need
+for
+> a full time web develop, as the site can be easili updat by the
+> organis own staff.
+> instant updat to keep site inform fresh. site which ar updat
+> regularli bring user back. visit www.deisedesign.com/deiseditor.html for
+a
+> demonstr "
+>
+> déiseditor © " manag your inform "
+> ========================================================================
+>
+> _______________________________________________
+> iiu mail list
+> iiu@iiu.taint.org
+> http://iiu.taint.org/mailman/listinfo/iiu
+>
+
+_______________________________________________
+iiu mail list
+iiu@iiu.taint.org
+http://iiu.taint.org/mailman/listinfo/iiu
+
+

@@ -1,0 +1,38 @@
+re: [ilug] lcd monitor and linuxon fri, aug 02, 2002 at 05:21:22pm +0100, conor dali wrote:
+
+> my 17" crt monitor have drown in a flood (10cm squar of burn 
+> circuit board urgh!) , i'm think of a 15" lcd as a replac.  
+> what with me go to the contin and all next week, i might wait and 
+> bui on there (for a reason price (dave neari!  ani good sourc?)).
+
+conor - it's a rather larg contin - peopl might need to know where you
+ar go to suggest sourc. and if you're bui abroad, make sure you get
+to test it - mani place won't have facil for you to do that.
+
+> question is: can i just plug in _ani_ lcd monitor and expect it to work?  
+> ar there special incant need for xfree86 to work.  needless to
+> sai, it'll be a bit difficult to bring it back to the shop onc i'm home 
+> in dublin and find it doesn't work!
+
+ani monitor should just work - thei all have vga connector and ani half
+decent brand will be know about by xfree setup program in modern
+distribut. howev, if you have the budget (insur pai for the
+dead monitor, perhap ? - and where wa your monitor that it got caught in a
+flood ?) get a monitor with a dvi input is best. of cours, you'll need
+a dvi out video card then, too. dvi provid a much better pictur than vga
+becaus it remov the analog stage - basic dvi give you a direct
+connect from video ram pixel to monitor pixel - the best pictur i've
+ever seen on a comput is on my notebook screen at 1400x1050 (which doesn't
+us dvi, but an intern connect which ha the same effect). brand wise,
+i like iiyama a lot and i think thei mai have a europ wide warranti.
+
+
+
+niall
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

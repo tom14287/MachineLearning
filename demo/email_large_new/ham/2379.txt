@@ -1,0 +1,65 @@
+re: batteri monitor tool?from nobodi sun sep 18 20:45:32 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+i mai be a light debian user. 'caus i simpli us gnome power manag as
+batteri tool, suppos to be the default power manag in gnome. i think it
+is kind of dull. i've found batteri us up much more quickli under debian
+than it under window(ye, i'm us a dual-boot laptop).
+
+so, is thi just becaus i choos a unsuit tool? or it ha ani other
+reason. in the comparison mention abov, i wa do some file work and/o=
+r
+run emac
+
+on mon, apr 19, 2010 at 11:29 pm, bob proulx  wrote:
+
+> joe emenak wrote:
+> > i'm look for a good batteri charg/discharg profil tool for my
+> > ubuntu laptop.
+>
+> of cours i am sure that you know you ar post about ubuntu to the
+> debian laptop mail list?  the least you could do is to lie to us
+> and sai you ar run debian when post to a debian list.  :-)
+>
+> > a coupl of year ago, i came across a realli neat tool for window for
+> > estim the time remain until the batteri is complet charg o=
+r
+> > discharg. it wa pretti clever about how it went about it. it would
+> > ...
+> > tool wa learn what "80%" /realli/ meant to that batteri.
+>
+> i have often want thi too.  and your other wishlist item as well.
+> as far as i know there isn't a tool that doe exactli thi for
+> gnu/linux in gener or on debian in particular.  if you find on i
+> would be interest in it.
+>
+> there ar some us tool avail though.  you might look at 'ibam'.
+>
+>  ibam is an advanc batteri monitor for laptop, which us
+>  statist and adapt linear method to provid accur
+>  estim of minut of batteri left or of the time need until
+>  full recharg. it requir apm, acpi or pmu.
+>
+> it need some train.  but given that it doe perform fairli well.
+> unfortun it isn't ti into the system trai tool and so isn't
+> go to be a seemless integr there.  it is avail in gkrellm
+> if you us that stack.  see the gkrellm-ibam packag.
+>
+> bob
+>
+> -----begin pgp signatur-----
+> version: gnupg v1.4.9 (gnu/linux)
+>
+> ieyearecaayfakvmyzoacgkq0prco8e2ulydhacdgu6+dgfyc/jebz7zkj1dadeq
+> qqianifmqo0x0ow6l6rsl4pqzdputg6z
+> =3debsh
+> -----end pgp signatur-----
+>
+>
+
+
+--=20
+mit freundlichen gr=c3=bc=c3=9fen
+
+zichen chen

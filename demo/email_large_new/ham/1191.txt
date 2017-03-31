@@ -1,0 +1,22 @@
+re: spam
+on apr 7, 2010, at 6:24 am, john hasler wrote:
+
+> the latter is mostli a matter of sheer bulk: almost everi messag that
+> hit the debian server is spam. =20
+
+the debian listmom might want to pass on their block techniqu to =
+openbsd -- lotsa spam over there...
+
+--=20
+glenn english
+ghe@slsware.com
+
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/cc1a8249-a515-46a9-af4f-f448f429dd18@slsware.com
+
+

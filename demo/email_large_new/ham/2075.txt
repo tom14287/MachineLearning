@@ -1,0 +1,40 @@
+re: 32000 directori (somewhat ot)paul e condon write:
+> i work on a person project last year in which i ran into the 32k
+> limit and solv the problem by impos a simpl structur on my
+> directori name.
+
+it's easi if you ar plan ahead.  thi gui is stuck with an
+applic (presum close-sourc) that alreadi requir a flat file
+structur.
+
+> i think becaus appl didn't want to troubl their user with
+> difficult concept, like telephon and dial a telephon number.
+
+the on-screen rebu for a directori wa a littl dohicki that appl's
+design imagin look like a pictur of a manila folder.  the idea
+wa to sooth computerphob offic worker by make their screen look
+just like their desktop.  that's the origin of the "desktop metaphor".
+fortun, thei did not decid to label disk drive "drawer".
+
+> who rememb dial?
+
+i do, of cours.  i even have sever work 500ds somewher in the
+junk box.
+
+> where did that word come from? ;-)
+
+wikipedia sai "the word diall origin refer to the creation of
+the mathemat requir to creat a sundial face to tell time base on
+the posit of the sun. those skill in the art were refer to as
+dialist or gnomonist; taken from the word gnomon (a devic us a
+shadow as an indic)."
+-- 
+john hasler
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/87och676xx.fsf@thumper.dhh.gt.org
+
+

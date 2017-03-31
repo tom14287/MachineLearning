@@ -1,0 +1,25 @@
+re: updrad or reinstal?ryanjonathanb@csmine.org wrote:
+> hi there,
+> 
+> just on question,
+> 
+> is it better to upgrad debian us dist-upgrad or just download the new iso and reinstal it?? i'm wait for the squeez final releas.. current still us lenni.
+
+
+as a kde user i current know of on bug (it ha been report to the 
+debian maintain), appli to unstabl or squeez, "plasma-widget-yawp" 
+will not connect/work, ani version yawp, ani version kde 4, it can be 
+reproduc by upgrad lenni to squeez or unstabl, kde 3 to kde 4.
+-- 
+jimmi johnson
+
+debian squeez at sda9
+regist linux user #380263
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bee1c5f.1080800@csmine.org
+
+

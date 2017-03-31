@@ -1,0 +1,17 @@
+re: filesystem recommendationson sat, apr 24, 2010 at 10:53 am, b. alexand  wrote:
+> doe anyon have suggest and practic experi with the pro and con
+> of the variou filesystem?
+
+googl is switch (ha switch by now?) all of it's server over to
+ext4.  a web search will turn up more detail on the subject.  but
+thei ar mostli lot of big file.
+
+mrc
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/j2v537f90651004250829j1b0cb458y681b1732c2c2da4a@mail.csmine.org
+
+

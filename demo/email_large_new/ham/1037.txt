@@ -1,0 +1,53 @@
+re: the futur of "nv" driver (wa: linux compat mainboard
+ -anoth thought)on mon, 26 apr 2010 08:03:24 -0400
+"jame p. wallen"  wrote:
+
+> 
+> 
+> on 01/-10/-28163 02:59 pm, celejar wrote:
+> > on sat, 24 apr 2010 09:53:27 -0400
+> > "jame p. wallen"  wrote:
+> >
+> > ...
+> >
+> >> heck, i haven't even instal the non-free firmwar to make wireless
+> >> work in a coupl of these notebook.
+> >
+> > firmwar run on the extern hardwar, not the system, so system
+> > stabil shouldn't be an issu.  i assum that here it's just the
+> > principl of the thing.
+> >
+> > celejar
+> 
+> i'd character it as a combin of principl and curios. i 
+> realli want to see how well i can accomplish what i want to do and what 
+> i need to do us onli foss. i'm rel new to gnu/linux, but i've 
+> had veri few problem that were at all difficult to resolv. come to 
+> think of it, the onli problem that were absolut indomit were 
+> caus by the us of non-free softwar / driver in my earlier forai 
+> into the variou distribut. i guess those experi have 
+> strengthen my resolv to stick with foss.
+
+what make the non-free firmwar question particularli interest is
+that the altern is often to hardcod the function into the
+hardwar.  now, if you had a board with complet close hw, but that
+present an open, well document interfac for the driver, most
+peopl would be veri happi (although there ar, of cours, the open
+hardwar crusad - more power to them!).  so, now that thei've simpli
+implement some of that function in sw, in the form of firmwar
+which the driver instal on the card, but which ha noth to do with
+your host machin, ar you realli ani wors off?
+
+celejar
+-- 
+foffl.sourceforg.net - feed offlin, an offlin rss/atom aggreg
+mailmin.sourceforg.net - remot access via secur (openpgp) email
+ssud.sourceforg.net - a simpl sudoku solver and gener
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100426160957.ac880f31.celejar@csmine.org
+
+

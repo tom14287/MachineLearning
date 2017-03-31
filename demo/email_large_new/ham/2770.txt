@@ -1,0 +1,29 @@
+detect a close ssl connectioni've written my appl push notif client code in java (on my =
+server). i open an ssl socket to appl with a client-side cert, and push =
+a stream of byte.
+
+if part of that stream is mal-form, as i understand it, appl close =
+their end of the connect. also as i understand it, thi is made =
+evid to a c client becaus the number of byte written to the socket =
+is 0 (or less than wa intend).
+
+howev, in java, i'm find no evid at all that appl ha stop =
+accept push notif, except that i can see the last =
+notif doesn't go through (i set up a test case with on good and =
+on bad token. by chang the order, i can see it work or not work).
+
+what do i need to do to detect thi condit in java? i tri check =
+that the connect is still open and not half-open after each token, =
+but it alwai look good.
+
+tia,
+rick
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

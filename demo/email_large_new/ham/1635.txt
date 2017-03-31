@@ -1,0 +1,35 @@
+re: put date on log file name?hi!
+
+* vr  wrote:
+> i'd like to have the date in the file name so visual i'll know
+> what span is in each file.
+>
+> can thi be done? (put date into the file name)
+depend. see the other post about logrot
+> should thi be done? (put the date into the file name)
+no clue
+
+> if you're do someth like thi alreadi, how did you do it?
+i am log to syslog (the protocol) and replac syslog (the packag)
+with syslog-ng. syslog-ng can be configur to do thi:
+
+destin df_syslog {
+        file("/var/log/$host/$year/$month/$dai/syslog"
+        templat("$isod $host $msg\n")
+        owner(root) group(root) perm(0600) dir_perm(0700) creat_dir(ye));
+};
+
+thi is a snip that configur a file in a directori-structur match
+the hostnam and the date (you should be abl to guess the detail...)
+
+http://www.syslog.org/syslog-ng/v2/ ha some more exampl.
+
+ timo
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100517211206.ga5127@spinnennetz.org
+
+

@@ -1,0 +1,35 @@
+re: support get info "lock" checkbox in a file system driverth lock bit come into a vf as the uf_immut flag.  see man chflag
+
+on apr 23, 2010, at 3:02 pm, mogambo wrote:
+
+> hi,
+>=20
+> it seem that click that checkbox make the file read-onli.  =
+howev, the actual permiss do not chang on the file when i check =
+with ls.  try to modifi the file, with vi sai, fail sai it's a =
+read-onli file.
+>=20
+> is it handl with some extend attribut?  what ar the =
+expect from a file system driver for a remot file system to =
+support thi featur?
+>=20
+> thank,
+> -m.
+> _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> filesystem-dev mail list      (filesystem-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> =
+http://list.appl.com/mailman/option/filesystem-dev/nelson%40thursbi.com=
+
+>=20
+> thi email sent to nelson@thursbi.com
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+filesystem-dev mail list      (filesystem-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/filesystem-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

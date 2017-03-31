@@ -1,0 +1,37 @@
+re: [satalk] bug: spamd --allow-ip=[127.0.0.1 must be first]
+"zeek" said:
+
+> thi wa thoroughli confus, but by plai music chair with the spamd
+> arg i smash a bug:
+> 
+> ok:
+> spamd --debug --daemon --auto-whitelist --usernam=nobodi --allow-ip=1
+> 27.0.0.1"
+> ok:
+> spamd --debug --daemon --auto-whitelist --usernam=nobodi --allow-ip=1
+> 27.0.0.1, 192.168.1.1"
+> not ok:
+> spamd --debug --daemon --auto-whitelist --usernam=nobodi --allow-ip=1
+> 92.168.1.1, 127.0.0.1"
+
+fwiw, i can't reproduc thi with
+
+  spamd --debug --auto-whitelist --allow-ip="127.0.0.1"
+  spamd --debug --auto-whitelist --allow-ip="127.0.0.1, 192.168.1.1"
+  spamd --debug --auto-whitelist --allow-ip="192.168.1.1, 127.0.0.1"
+
+which i presum is what you meant (except for the miss arg
+of cours).  thei all seem to work ok.
+
+--j.
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: osdn - tire of that same old
+cell phone?  get a new here for free!
+http://www.inphon.com/r.asp?r=sourceforg1&refcod1;=vs3390
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+

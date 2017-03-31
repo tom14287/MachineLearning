@@ -1,0 +1,74 @@
+re: java for mac os x develop preview (10m3050+9m3150)should on restart the comput after it?
+i run java -version and it seem the updat is immedi, yet click
+'show cach file' in java prefer still doesn't do anyth.
+
+2010/4/15, mike swingler :
+> java develop,
+>
+> pleas download and instal the new develop preview of java for mac os =
+x
+> (10m3050+9m3150) at
+> .
+> thi preview is for both mac os x 10.6 and 10.5, so be sure to download t=
+he
+> correct disk imag for your system.
+>
+> even if you don't instal the build, pleas read the html releas note.
+> we've fix sever regress and made mani interest enhanc we
+> think you will want to know about befor "java for mac os x 10.6 updat 2=
+"
+> and "java for mac os x 10.5 updat 7" goe live to custom.
+>
+> pleas report ani issu you find at  with =
+a
+> reproduc test case attach, if possibl.
+>
+> as a remind, pleas do not discuss the content of thi preview on thi=
+ or
+> ani other public forum.
+>
+> thank you,
+> mike swingler
+> java runtim engin
+> appl inc.
+>
+>  _______________________________________________
+> do not post admin request to the list. thei will be ignor.
+> java-dev mail list      (java-dev@list.appl.com)
+> help/unsubscrib/updat your subscript:
+> http://list.appl.com/mailman/option/java-dev/gabriel%40mysimpatico.co=
+m
+>
+> thi email sent to gabriel@mysimpatico.com
+>
+
+
+--=20
+regard,
+k. gabriel
+
+--- unchang sinc 25/1/10 ---
+p.s. unless a notif (lon), pleas repli either with an answer
+or with " ack" append to thi subject within 48 hour. otherwis, i
+might resend.
+in(lon, thi) =e2=88=a8 in(48h, timenow) =e2=88=a8 =e2=88=83x. in(x, myinbo=
+x) =e2=88=a7 isanswerto(x,
+thi) =e2=88=a8 (in(subject(thi), subject(x)) =e2=88=a7 in(ack, subject(x)=
+) =e2=88=a7
+=c2=acisanswerto(x,thi)) =e2=87=92 =c2=aciresend(thi).
+
+also note that correspond mai be receiv onli from specifi a
+priori sender, or if the subject of thi email end with a code, eg.
+-licht01x, then also from sender whose repli contain it.
+=e2=88=80x. in(x, myinbox) =e2=87=92 in(senderaddress(x), mysafesenderlist)=
+ =e2=88=a8 (=e2=88=83y.
+in(y, subject(thi) ) =e2=88=a7 in(y,x) =e2=88=a7 iscodelik(y, -licht01x) =
+).
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

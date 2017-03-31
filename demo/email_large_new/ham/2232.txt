@@ -1,0 +1,39 @@
+re: issu between kde 4.xfrom nobodi sun sep 18 20:45:31 2016
+content-type: text/plain;
+  charset="iso-8859-15"
+content-transfer-encod: quot-printabl
+
+am samstag, 10. april 2010 schrieb christoph prud'homm:
+
+> ** veri slow desktop
+>=20
+> with 4.3.x and 4.4.1 (and possibl earlier version of kde 4 i cannot
+> rememb ) i
+> had also plasma or the desktop that would becom incred slow to
+> the  point of be unus then sometim
+> after a littl while it would be back.
+
+just for the record, i am experienc similar problem: x (or kde) becomin=
+g=20
+almost unus slow. fwiw, i have a lenovo z61m with a radeon mobil x14=
+00=20
+chipset.
+
+when i'm just work on the notebook displai, everyth is fine usual, =
+but=20
+when i connect a separ displai, perform decreas a lot.
+
+suspend work fine for me, though. with 4.4.2, i even get a nice notificati=
+on=20
+that the displai set have chang afer have plug the notebook in =
+the=20
+dock station and wake up from suspend.
+
+> in my opinion, there is someth wrong kde/plasma and it us of opengl.
+> befor thi experi, i blame nvidia and wa look
+> for chang my laptop and us ati but now i definit blame kde/plasma
+
+have you tri not us desktop effect? doe that make a differ?
+=20
+cheer,
+carsten

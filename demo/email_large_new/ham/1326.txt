@@ -1,0 +1,19 @@
+re: [solv] debian-multimedia break mplayer .mov playback on
+ lenni?on mon, 2010-04-19 at 20:34 -0500, john hasler wrote:
+> alan ianson write:
+> > all the stuff at debian-multimedia can't be includ in debian for
+> > variou reason, mostli freedom i think, so you won't find it in
+> > debian at all. it's made for debian but it isn't debian.
+> 
+> most of it is free softwar but encumb by activ-enforc
+> patent.  d-mm.o ha a non-free section for non-free stuff.
+
+that's a much better descript, thank for the clarif.
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/1271739338.4132.1.camel@debian.ok.shawcabl.net
+
+

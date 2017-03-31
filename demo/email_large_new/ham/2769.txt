@@ -1,0 +1,42 @@
+re: keyboard get stuck when close ppp
+on wed, apr 07, 2010 at 09:07:14pm +0200, rodolfo medina wrote:
+
+>> the problem is report here:
+>> 
+>>  http://bug.debian.org/cgi-bin/bugreport.cgi?bug=508589
+>> 
+>> doe anyon know if it ha been fix, and how?  i don't have the
+>> possibl of instal sid.
+
+
+
+"a. f. cano"  write:
+
+> don't know if it's been fix.  most like not in lenni and the
+> standard kernel.  i encount thi problem much too often and each time
+> it requir a hard reboot.  strang, the mous still work so i can
+> log out of kde, but then the shutdown process hang until i hit
+> ctrl-alt-del.  then it continu, but the laptop doesn't shut down all
+> the wai.  i have to hold the power button for 10 second and then it
+> doe shut down.  thi is a veri low level issu.
+>
+> i don't us kppp.  thi happen with regular pon/poff.  i suspect
+> it's relat to the cdc_acm driver which is the on be us by my
+> phone (motorola e815) through a usb cabl.  it's not 100% repeat.
+> i suspect someth in the close routin is overwrit part of the
+> keyboard driver, but onli some time.  btw, thi is on a dell 8600,
+> with the nvidia-legaci driver.
+
+
+mayb instal a new version of the kernel would fix it?  haven't you tri,
+a.?
+
+rodolfo
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/8739z6b649.fsf@csmine.org
+
+

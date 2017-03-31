@@ -1,0 +1,37 @@
+appl: heinou dvd piratesurl: http://www.aaronsw.com/weblog/000644
+date: 2002-10-08t01:21:33-06:00
+
+decss detractor have repeatedli claim that decss need to be stop becaus 
+it make perfect digit copi of dvd possibl. recent, in privat email, 
+ernest miller claim that do so would be a violat of the dmca. in thi 
+in-depth special report, i show that us perfectli legal, (i assum) 
+licens, off-the-shelf consum softwar, copi dvd is easi and in mani 
+wai encourag. 
+
+*tool:*
+1 powerbook g4 with slot-load dvd drive (ani model should work)
+1 monster, inc. collector's edit dvd (ani dvd should work)
+1 copi of mac os x 10.2 "jaguar" 
+
+*process:*
+1. insert dvd into drive. notic how jaguar helpfulli load the dvd player for 
+you.
+2. open the dvd (it appear on the desktop) and drag the video_ts folder to 
+your hard drive. ejct the dvd.
+3. in dvd player, select "open video_ts folder..." from the file menu. us the 
+dialog that appear to select the video_ts folder on your hard drive. 
+
+now the dvd plai just like it would were the dvd in the drive. by extens, i 
+could also put the dvd up on my site for you to download and watch. i could 
+share it via a p2p network. and i haven't done anyth to decrypt the dvd or 
+violat the dmca: i've us onli basic tool avail to all normal comput 
+user on my (i assum) fulli-licens consum laptop. 
+
+*disclaim:* seth schoen, whose opinion i highli respect on these matter, 
+find it unlik that the dvd wa css-encrypt if thi wa possibl. i am not 
+sure how to verifi if the dvd is css-encrypt. if someon ha a suggest, 
+pleas let me know. howev, if it is true, then it's veri interest that 
+disnei ha releas such a major movi without encrypt.
+
+
+

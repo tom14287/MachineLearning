@@ -1,0 +1,12 @@
+switcherurl: http://diveintomark.org/archiv/2002/10/02.html#switcher
+date: 2002-10-02t09:32:48-05:00
+
+_phil ringnalda_, in an unrel discuss about rss namespac[1]: 
+“look like [yet anoth person] decid to switch to netnewswir lite. 
+doe it come with crack, or what?”
+
+
+
+[1] http://group.yahoo.com/group/rss2-support/messag/110
+
+

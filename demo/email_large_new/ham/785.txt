@@ -1,0 +1,38 @@
+want it? givehiya
+
+i came across thi blog
+
+http://ryanbigg.com/2010/04/want-it-give/
+
+and i couldn't agre more with thi person.
+
+but i would like to bring thi a littl more home, and make it in the 
+debian sens.
+i would like to encourag more peopl to run debian test, get more 
+debug, but more importantli, pleas try and get involv. submit 
+your find. take the time to learn reportbug.
+you be surpris in the littl contribut that help the greater and i 
+think it a satisfi feel.
+
+
+dan pickett also ha similar advic on contribut back to rail 3. he 
+make a good point that if you ar abl to demonstr that you have 
+contribut to rail that it look awesom on your cv / resum.
+
+i could not agre more on thi. i know thi, becaus it ha work in my 
+favour.
+
+everyon mileag mai vari, but i believ whole heartili that the realli 
+winner is debian and the commun.
+
+kind regard
+brent clark
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc13a41.2030206@csmine.org
+
+

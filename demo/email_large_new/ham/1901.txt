@@ -1,0 +1,28 @@
+re: go wireless1st of all, thank everyon that respond. 
+
+on fri, 09 apr 2010 16:16:57 +0200, wolodja wentland wrote:
+
+> check http://wiki.debian.org/wifi/howtous
+> 
+> i am particularli fond of wpa_supplic in roam mode [1] but you
+> might want to take a look at wicd or network-mangler as well.
+
+i've read mani good word about wicd, an am plan to go for it. 
+
+just to be 100% sure, with wpa_supplic (from the wpasupplic 
+packag) in roam mode, on doesn't necessarili need wicd, correct?
+
+thank
+
+-- 
+tong (remov underscor(s) to repli)
+  http://xpt.sourceforg.net/techdoc/
+  http://xpt.sourceforg.net/tool/
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/hpnfir$gon$1@dough.gmane.org
+
+

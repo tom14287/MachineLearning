@@ -1,0 +1,11 @@
+plai by plai: effect memori managementurl: http://www.newsisfre.com/click/-6,6503039,159/
+date: 2002-08-03t08:11:17+01:00
+
+back when 64kb wa more memori than ani comput would ever need, there wa a 
+time when memori manag didn’t exist. but gradual, new comput system 
+came out with larger amount of memori and design discov wai to eat up 
+ram faster than ani system could dish it out. thi discuss is base on 
+tiburon's experi in write and rewrit the memori manag for madden 
+nfl 97 to madden nfl 2002.
+
+

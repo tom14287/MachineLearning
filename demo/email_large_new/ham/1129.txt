@@ -1,0 +1,48 @@
+how can i initi a qtmovi object with certain attribut us
+ writabl data?hello all,
+
+i'm try to creat an empti qtmovi object that i can add segment to, 
+and then plai. thi is easi to do with someth like:
+
+movi = [[qtmovi alloc] inittowritabledata:[nsmutabledata 
+datawithcapac:1048576] error:&error;];
+
+i can then us -insertsegmentofmovi to insert segment from other 
+movi into thi on so i can plai it back. the problem is that i also 
+need to set a certain attribut when creat the qtmovi object. in 
+particular, i need to set the qtmovieratechangespreservepitchattribut 
+attribut, so that i can alter playback speed dure playback without 
+chang pitch. thi attribut cannot be written after the movi is 
+initi.
+
+so, i can creat the qtmovi object like thi:
+
+movi = [[qtmovi alloc] initwithattribut:[nsdictionari 
+dictionarywithobjectsandkei:[nsnumber numberwithbool:ye], 
+qtmovieratechangespreservepitchattribut, nil] error:&error;];
+
+unfortun, thi is not edit. i've tri set the 
+qtmovieeditableattribut as well on creation, but it doe not help. i 
+still get an except when i try to insert anyth into thi movi. i 
+presum thi is becaus there is no writabl file or data refer 
+associ with the qtmovi.
+
+ani idea on how to solv thi?
+
+thank veri much,
+chad seller
+
+
+
+
+chad seller
+us fruit softwar
+http://www.usefulfruit.com/
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+quicktim-api mail list      (quicktim-api@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/quicktim-api/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

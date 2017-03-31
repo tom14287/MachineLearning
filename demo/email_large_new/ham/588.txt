@@ -1,0 +1,32 @@
+re: how to trick my debian in think that a packag is not
+ installedfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=us-ascii
+content-transfer-encod: quot-printabl
+
+on tue, 20 apr 2010 15:22:00 +0000 (utc)
+t o n g  wrote:
+
+hello t,
+
+> how can i trick my debian into think that a packag is not
+> instal?
+
+your best option is, as other have said, to us pin.  if that
+doesn't work, or you prefer not to us that method, you could
+
+1) simpli uninstal durep us the packag manag you usual us,
+then d/l the packag from the repo, and instal, by hand, from your
+local copi.
+
+or
+
+2) build and instal from sourc as the packag manag will know
+noth about it that wai.
+
+--=20
+ regard  _
+         / )           "the blindingli obviou is
+        / _)rad        never immedi appar"
+
+i must be hallucin, watch angel celebr
+there must be an angel (plai with my heart) - eurythm

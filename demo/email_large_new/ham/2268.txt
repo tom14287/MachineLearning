@@ -1,0 +1,23 @@
+re: autom updat in lennyon sat, apr 10, 2010 at 01:09:58pm +0300, andrei popescu wrote:
+> on sat,10.apr.10, 11:38:08, merciadri luca wrote:
+> > andrei popescu wrote:
+> > >
+> > > it doesn't matter. mix apt-get and aptitud is not a problem anymor.
+> > >   
+> > sure? how can you state thi? ani proof? i alwai thought that thei were
+> > incompat.
+> 
+> i'm not sure what i can do to prove that someth doesn't exist. i 
+> could for exampl post the consol output of:
+
+i guess thi wa the big headach
+ http://bug.debian.org/cgi-bin/bugreport.cgi?bug=411123
+ 
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100410104329.ga366@osamu.debian.net
+
+

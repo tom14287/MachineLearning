@@ -1,0 +1,21 @@
+re: [sadev] 2.40: readi for releas?
+> t/db_base_whitelist.us of bare << to mean <<"" is deprec at
+> ../lib/mail/spamassassin/html.pm line 1. us of bare << to mean <<"" is
+> deprec at ../lib/mail/spamassassin/html.pm line 6. unquot string
+
+hmm, could you check your instal?  those char aren't in my
+version at all.
+
+--j.
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by: jabber - the world's fastest grow 
+real-time commun platform! don't just im. build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+spamassassin-devel mail list
+spamassassin-devel@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-devel
+

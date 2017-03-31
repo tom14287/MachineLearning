@@ -1,0 +1,27 @@
+re: attach gdb to program?from nobodi sun sep 18 20:45:32 2016
+content-type: text/plain;
+  charset="iso-8859-15"
+content-transfer-encod: quot-printabl
+
+am donnerstag, 8. april 2010 schrieb adrian von bidder:
+
+> given a debian packag (kmail, in thi case, with instal kdepim-dbg
+> packag) and an extract sourc packag: how do i properli start gdb (or
+> ddd or ...) so that it find both the debug symbol and the sourc
+> code?
+>=20
+> just gdb -p  /usr/bin/kmail doesn't work :-(
+>=20
+> (i've onli ever us gdb on local compil simpl project, i've never
+> work with the separ symbol file as deliv in -dbg packag.)
+
+not sure if thi is the same as your exampl, but i usual us
+
+gdb kmail
+attach 
+
+but check the output of ps aux | grep kmail -- if kmail is launch via=20
+kdeinit or kdeinit4, you need to run "gdb kdeinit" or kdeinit4.
+
+cheer,
+carsten

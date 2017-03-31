@@ -1,0 +1,51 @@
+batteri monitor tool?
+i'm look for a good batteri charg/discharg profil tool for my=20
+ubuntu laptop. i'm awar that there's the "power histori" tool, but it=20
+doesn't seem to do what i'm after. i'll explain....
+
+a coupl of year ago, i came across a realli neat tool for window for=20
+estim the time remain until the batteri is complet charg or =
+
+discharg. it wa pretti clever about how it went about it. it would=20
+constantli record thing like: how much charg the batteri said it still =
+
+had, how much the batteri said it wa charg/discharg at, etc. the=20
+tool would us thi info to estim the time to charg/discharg...=20
+/but/ it also went on step further. it could account for error in the=20
+batteri's report. for exampl, if the batteri report that it had=20
+80% charg left, and then, a few minut later, report that it had=20
+just 20% left, then thi tool would learn thi, and realiz that the=20
+batteri wa old/problemat. so, the /next/ time the batteri wa=20
+report 80% charg left, the tool would know not to give too=20
+optimist of an estim for the remain time. in other word, the=20
+tool wa learn what "80%" /realli/ meant to that batteri.
+
+it also did someth els which wa realli cool. becaus the batteri=20
+drain at differ rate depend upon what you're do with your=20
+laptop (ie, plai a dvd on a bright screen versu just read some=20
+text on a dimmer screen), thi tool would actual show you "best case"=20
+and "worst case" predict of your remain batteri life (or time to=20
+charg back up) base upon /actual/ discharg rate from /that level/ of =
+
+batteri charg remain that it had experienc on /that/ laptop. so,=20
+you'd open up the littl power-discharg graph tool and you'd see three=20
+line: a best, a worst, and on in-between which wa what rate you're=20
+current at.
+
+so, two question:
+1 - doe anyon know what tool that wa? (ye, i know thi is a linux=20
+forum but, as long as i'm describ the tool, i figur i'd ask. it's=20
+not the passmark on. i thought it wa call batmon or someth, but=20
+now i can't find it anywher).
+2 - doe anybodi know of a tool that doe thi in linux? or, is there=20
+some wai to get the gnome power-histori tool to show thi kind of stuff?
+
+- joe
+
+
+-- 
+to unsubscrib, email to debian-laptop-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bccbc32.8090706@emenak.com
+
+

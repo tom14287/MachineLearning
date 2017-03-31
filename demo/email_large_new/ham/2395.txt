@@ -1,0 +1,21 @@
+netatalk-1.5.5-1rh7hi folk, i just upload rpm of the new netatalk 1.5.5 releas 
+yesterdai, thought folk here might be interest.  thi releas fix a 
+nastygram in save file via illustr that i person have been 
+wait for....
+
+   http://ftp.falsehop.com/home/tengel/netatalk/
+
+(will be mirror on rpmfind.net by tomorrow, usual).
+
+-te
+
+-- 
+troi engel, system engin
+cool as the other side of the pillow
+
+
+_______________________________________________
+rpm-list mail list 
+http://list.freshrpm.net/mailman/listinfo/rpm-list
+
+

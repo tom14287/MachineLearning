@@ -1,0 +1,27 @@
+re: move to debian: updat softwareon 2010-04-22, dotan cohen  wrote:
+---snip---
+>from where to acquir kde 4.4.2 in a reason safe manner?
+
+i don't know of ani backport binari, so you would have to compil it
+yourself. that, howev, would be a major undertak, and presuppos
+that the latest kde4 even compil against the version of the variou
+librari includ in lenni.
+
+an altern is to upgrad to test/unstabl, but then you would no
+longer have the uncompl life of a lenni user :-)
+
+or you could wait for the next stabl releas, or at least for the
+freez announc.
+
+-- 
+liam o'tool
+birmingham, unit kingdom
+
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/slrnht0bc.bu7.liam.p.otool@dipsi.selfip.org
+
+

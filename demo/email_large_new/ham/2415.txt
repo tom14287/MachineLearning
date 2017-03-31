@@ -1,0 +1,33 @@
+re: 64 bit-flash fail site (wa: what to choos for core i5 64 
+	bit?)on tue, mai 11, 2010 at 10:02 am, camal=f3n  wrote:
+> on tue, 11 mai 2010 09:56:49 -0400, jordan metzmeier wrote:
+>
+> (...)
+>
+>> there ar still minor issu with 64bit desktop. for exampl,
+>> adob's 64bit flash player doe not function on all the site that the
+>> 32bit plugin will.
+>
+> first time i hear such statement.
+>
+> can you pleas provid a sampl of fail site?
+>
+> greet,
+>
+> --
+> camal=f3n
+>
+
+http://hulu.com is an exampl. afaik it onli avail to peopl with
+u.s. ip.
+
+--=20
+jordan metzmeier
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/aanlktin9u3dmww3x0et8i9crpfwp-hp7lefe9ltoptlj@mail.csmine.org
+
+

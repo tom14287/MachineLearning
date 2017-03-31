@@ -1,0 +1,28 @@
+re: new sequenc window
+>>>chri garrigu said:
+
+ > done.  i also elimin the msg variabl on the theori that simpler is
+ > 
+ > better (i spent a lot of time hack out the underbrush in exmh while 
+ > work on the sequenc window).
+
+just a big *thank you* to chri for be will to dive in and get
+veri messi.  the sequenc manag code is some of the veri oldest
+in exmh, and sure suffer as featur were ad over sever year.
+when thi stabil, it will be a great excus for a 2.6 releas.
+
+--
+brent welch
+softwar architect, panasa inc
+pioneer the world's most scalabl and agil storag network
+www.panasa.com
+welch@panasa.com
+
+
+
+
+_______________________________________________
+exmh-worker mail list
+exmh-worker@redhat.com
+http://listman.redhat.com/mailman/listinfo/exmh-worker
+

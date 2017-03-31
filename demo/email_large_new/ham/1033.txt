@@ -1,0 +1,34 @@
+re: autom updat in lennychri hiestand wrote:
+> on apr 7, 2010, at 12:27 pm, ron johnson wrote:
+> 
+>> on 2010-04-07 13:52, jozsi vadkan wrote:
+>>> [snip]
+>> that's a foolish thing to do, sinc blind accept can lead to a broken system.
+> 
+> mayb so, but i've been us automat upgrad for the last 2-3 year on mani stabl system without a problem. the nice thing about stai within the stabl distribut is that typic the onli updat ar secur updat which ar gener veri small chang.
+> 
+> when you get to the scale of manag ten or hundr of debian system it's easier to automat upgrad and fix ani problem in the off-chanc thei happen. if you want to be more care, on solut is to setup your system in such a wai that a small group of comput get updat befor the rest, as an earli warn system.
+> 
+> the major packag chang happen between inter-distribut (eg etch -> lenni), which alwai need a human supervisor. thi is accept on a larger scale becaus that onli happen everi 1.5 - 2 year.
+> 
+> also if you have other manag softwar (eg cfengin, puppet) in place, it help mitig problem when upgrad debian packag or distribut - decreas the cost of a packag upgrad mishap across mani system.
+
+as nice put in the refer (2.7.5):
+
+"if the risk of break an exist stabl system by the automat upgrad 
+is smaller than that of the system broken by the intrud us it secur 
+hole which ha been close by the secur updat, you should consid us 
+[the] automat upgrad [...]"
+
+in other word, us automat secur upgrad if you can't maintain the 
+system activ and have enemi.
+
+-thib
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bbfcf53.4050901@stam.net
+
+

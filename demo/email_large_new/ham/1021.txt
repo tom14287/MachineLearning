@@ -1,0 +1,56 @@
+re: usb raid1 pendriv booton fridai 07 mai 2010 08:22:00 delopt wrote:
+> jozsi vadkan wrote:
+> > did anyon manag to boot from raid1?
+> >
+> > lenni give thi error messag:
+> >
+> > "mdadm: no devic found for /dev/md0"
+> >
+
+> you'll need a small i.e. 20-30mb partit out of raid to boot from with
+> i.e. initrd which load the md driver and your raid devic becom visibl.
+
+  just for the record, it actual *is* possibl to boot off a partit
+that's in raid1, but you might have to us grub.  the reason it work
+is becaus grub can read past the md-raid1 metadata without get
+confus -- sinc the raid is not run when grub is look at the
+disk, it onli see on of the two, but sinc thei're mirror, and
+sinc grub doesn't *write* to the partit, everyth work.
+
+  i have sever product system that do thi.
+
+  it's a bit complic to set up, but gener, it goe
+someth like:
+
+  - instal a basic system onto on drive, with the correct
+      size of partit (call thi /dev/sda1).
+  - set up an "incomplet" raid1 arrai, with on devic and
+      on miss, with the second drive -- thi is /dev/md0,
+      consist of /dev/sdb1 and an empti slot.
+  - configur /etc/mdadm/mdadm.conf, and re-build your initramf
+      so that it ha the md modul and know about the arrai.
+  - mount /dev/md0 somewher and copi all the data off /dev/sda1 to it.
+      it's veri import to get the *new* initramf onto the arrai.
+  - instal grub in the bootload of the 2nd drive. (the instal
+      alreadi did thi for the first on). thi actual isn't
+      essenti, but you mai need it if/when /dev/sda fail.
+  - boot on to the incomplet raid arrai -- root=/dev/md0.
+  - add /dev/sda1 to the arrai, and sync.
+
+  now you have a bootabl softwar raid-1 system.
+
+  i'm not sai thi solv the op's problem, necessarili,
+but it's perfectli possibl.  i've never tri it with lilo
+or grub2, but i would think it would work.
+
+                                -- a.
+-- 
+andrew reid / reidac@bellatlant.net
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/201005071303.20994.reidac@bellatlant.net
+
+

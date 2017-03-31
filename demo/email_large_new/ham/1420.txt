@@ -1,0 +1,46 @@
+[us perl] stori for 2002-09-13us perl daili newslett
+
+in thi issu:
+    * the perl journal return onlin
+
++--------------------------------------------------------------------+
+| the perl journal return onlin                                    |
+|   post by pudg on wednesdai septemb 11, @21:59 (link)        |
+|   http://us.perl.org/articl.pl?sid=02/09/12/026254               |
++--------------------------------------------------------------------+
+
+cmp, owner of [0]the perl journal, have brought the journal back, in the
+form of an onlin monthli magazin, in pdf form. the subscript rate is
+$12 a year. thei need 3,000 subscript to move forward (no word if
+exist subscript will be honor, or includ in the 3,000).
+[0]read the site for more detail.
+
+i think some of the more interest note ar that it will includ "a
+healthi dose of opinion", as well a broaden of coverag includ
+languag other than perl (will thi mean a name chang?) and platform
+other than unix (i'd alwai thought on of tpj's strength wa that it
+cover a wide varieti of platform).
+
+discuss thi stori at:
+    http://us.perl.org/comment.pl?sid=02/09/12/026254
+
+link:
+    0. http://www.tpj.com/
+
+
+
+copyright 1997-2002 pudg.  all right reserv.
+
+
+======================================================================
+
+you have receiv thi messag becaus you subscrib to it
+on us perl.  to stop receiv thi and other
+messag from us perl, or to add more messag
+or chang your prefer, pleas go to your user page.
+
+	http://us.perl.org/my/messag/
+
+you can log in and chang your prefer from there.
+
+

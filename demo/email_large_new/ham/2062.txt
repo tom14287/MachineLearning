@@ -1,0 +1,350 @@
+debian gnu/linux 4.0 updat-------------------------------------------------------------------------
+the debian project                                 http://www.debian.org/
+debian gnu/linux 4.0 updat                             press@debian.org
+mai 22nd, 2010                   http://www.debian.org/new/2010/20100522
+-------------------------------------------------------------------------
+
+debian gnu/linux 4.0 updat
+
+the debian project is pleas to announc the ninth and final updat of
+it oldstabl distribut debian gnu/linux 4.0 (codenam "etch").
+
+thi updat incorpor all secur updat which have been releas
+for the oldstabl releas sinc the previou point releas, with on
+except which it wa unfortun not possibl to includ, togeth
+with a few adjust to seriou problem.
+
+pleas note: secur support for the oldstabl distribut end in
+februari 2010 [1] and no updat have been releas sinc that point.
+
+  1: http://www.debian.org/new/2010/20100121
+
+those who frequent instal updat from secur.debian.org won't
+have to updat mani packag and most updat from secur.debian.org
+ar includ in thi updat.
+
+new cd and dvd imag contain updat packag and the regular
+instal media accompani with the packag archiv respect
+will be avail soon at the regular locat.
+
+upgrad to thi revis onlin is usual done by point the
+aptitud (or apt) packag tool (see the sourc.list(5) manual page) to
+on of debian's mani ftp or http mirror.  a comprehens list of
+mirror is avail at:
+
+    
+
+pleas note that the oldstabl distribut will be move from the main
+archiv to the archiv.debian.org repositori after june 6th 2010.
+after thi move, it will no longer be avail from the main mirror
+network.  more inform about the distribut archiv and a list of
+mirror is avail at:
+
+    
+
+
+miscellan bugfix
+----------------------
+
+thi oldstabl updat add a few import correct to the follow
+packag:
+
+    packag                                      reason
+
+    backup-manag         fix disclosur of mysql password to local user
+    binutil               add mip support for ".set symbol,valu" ga syntax
+    fam                    fix 100% cpu usag in famd
+    fetchmail              fix potenti mitm against apop and potenti do
+    freedoom               remov copyright-violat materi
+    glibc                  fix incorrect libc6-amd64 depend
+    gnupg                  fix memori leak and cleanup termin on interrupt
+    irssi                  fix out of bound access
+    kazehakas             disallow ad bookmark for data:/javascript: uri
+    linux-2.6              sever vulner
+    linux-2.6.24           sever vulner
+    mksh                   fix unauthent local privileg escal
+    mt-daapd               updat the embed prototyp.js to fix secur issu
+    openaf                don't creat invalid pointer to kernel memori when handl error
+    openssl                deprec md2 hash signatur and fix sever do vulner
+    serveez                fix remot buffer overflow
+    tetex-bin              don't fail when latex is more than five year old
+    texliv-bin            don't fail when latex is more than five year old
+    texliv-extra          don't fail when latex is more than five year old
+    texliv-lang           don't fail when latex is more than five year old
+    wordpress              fix do via long titl and special construct charset paramet
+    xcftool               fix crash with file contain neg co-ordin
+
+
+debian instal
+----------------
+
+the debian instal ha been updat in thi point releas to offer
+better support for instal of the "oldstabl" distribut and
+from archiv.debian.org and to resolv issu with check the gpg
+signatur of some file on mirror server.
+
+the kernel imag us by the instal ha been updat to incorpor
+a number of import and secur-relat fix.
+
+
+secur updat
+----------------
+
+thi revis add the follow secur updat to the oldstabl
+releas.  the secur team ha alreadi releas an advisori for each
+of these updat:
+
+    advisori id    packag                 correct(s)
+
+    dsa-1617       refpolici               incompat polici from previou dsa
+    dsa-1622       newsx                   arbitrari code execut
+    dsa-1748       libsoup                 arbitrari code execut
+    dsa-1754       roundup                 privileg escal
+    dsa-1761       moodl                  file disclosur
+    dsa-1762       icu                     cross site script
+    dsa-1763       openssl                 denial of servic
+    dsa-1763       openssl097              denial of servic
+    dsa-1765       hord3                  sever vulner
+    dsa-1766       krb5                    sever vulner
+    dsa-1767       multipath-tool         denial of servic
+    dsa-1768       openaf                 arbitrari code execut
+    dsa-1770       imp4                    cross-site script
+    dsa-1771       clamav                  sever vulner
+    dsa-1772       udev                    privileg escal
+    dsa-1773       cupsi                  arbitrari code execut
+    dsa-1775       php-json-ext            denial of servic
+    dsa-1777       git-core                privileg escal
+    dsa-1779       apt                     sever vulner
+    dsa-1780       libdbd-pg-perl          arbitrari code execut
+    dsa-1781       ffmpeg                  arbitrari code execut
+    dsa-1782       mplayer                 arbitrari code execut
+    dsa-1783       mysql-dfsg-5.0          sever vulner
+    dsa-1784       freetyp                arbitrari code execut
+    dsa-1786       acpid                   denial of servic
+    dsa-1787       linux-2.6.24            sever vulner
+    dsa-1789       php5                    sever vulner
+    dsa-1790       xpdf                    sever vulner
+    dsa-1793       kdegraph             sever vulner
+    dsa-1794       user-mode-linux         sever vulner
+    dsa-1794       fai-kernel             sever vulner
+    dsa-1794       linux-2.6               sever vulner
+    dsa-1796       libwmf                  denial of servic
+    dsa-1798       pango1.0                arbitrari code execut
+    dsa-1799       qemu                    sever vulnerabilit
+    dsa-1801       ntp                     buffer overflow allow do or code execut
+    dsa-1802       squirrelmail            code execut vulner in map_yp_alia function
+    dsa-1803       nsd                     denial of servic
+    dsa-1804       ipsec-tool             denial of servic
+    dsa-1805       gaim                    sever vulner
+    dsa-1806       cscope                  arbitrari code execut
+    dsa-1807       cyru-sasl2             fix arbirari code execut
+    dsa-1810       cupsi                  denial of servic
+    dsa-1810       libapach-mod-jk        inform disclosur
+    dsa-1812       apr-util                sever vulner
+    dsa-1813       evolut-data-server   regress in previou secur updat
+    dsa-1814       libsndfil              arbitrari code execut
+    dsa-1816       apach2                 privileg escal
+    dsa-1816       apach2-mpm-itk         rebuild against apach2 2.2.3-4+etch8
+    dsa-1818       gforg                  insuffici input sanitis
+    dsa-1819       vlc                     sever vulner
+    dsa-1824       phpmyadmin              sever vulner
+    dsa-1825       nagio2                 arbitrari code execut
+    dsa-1826       eggdrop                 sever vulner
+    dsa-1829       sork-passwd-h3          regress in previou secur updat
+    dsa-1832       camlimag              arbitrari code execut
+    dsa-1833       dhcp3                   arbitrari code execut
+    dsa-1834       apach2                 denial of servic
+    dsa-1834       apach2-mpm-itk         denial of servic
+    dsa-1835       tiff                    sever vulner
+    dsa-1837       dbu                    denial of servic
+    dsa-1839       gst-plugin-good0.10    arbitrari code execut
+    dsa-1841       git-core                denial of servic
+    dsa-1842       openexr                 sever vulner
+    dsa-1847       bind9                   denial of servic
+    dsa-1848       znc                     remot code execut
+    dsa-1849       xml-secur-c          signatur forgeri
+    dsa-1850       libmodplug              arbitrari code execut
+    dsa-1851       gst-plugin-bad0.10     arbitrari code execut
+    dsa-1852       fetchmail               ssl certif verif weak
+    dsa-1853       memcach               arbitrari code execut
+    dsa-1854       apr-util                arbitrari code execut
+    dsa-1854       apr                     arbitrari code execut
+    dsa-1855       subvers              arbitrari code execut
+    dsa-1857       camlimag              arbitrari code execut
+    dsa-1858       imagemagick             sever vulner
+    dsa-1859       libxml2                 sever issu
+    dsa-1860       rubi1.8                 sever issu
+    dsa-1860       rubi1.9                 sever issu
+    dsa-1861       libxml                  sever issu
+    dsa-1863       zope2.9                 arbitrari code execut
+    dsa-1865       fai-kernel             sever vulner
+    dsa-1865       user-mode-linux         sever vulner
+    dsa-1866       kdegraph             sever vulner
+    dsa-1867       kdelib                 sever vulner
+    dsa-1869       curl                    ssl certif verif weak
+    dsa-1871       wordpress               regress fix
+    dsa-1872       fai-kernel             sever vulner
+    dsa-1872       user-mode-linux         sever vulner
+    dsa-1877       mysql-dfsg-5.0          arbitrari code
+    dsa-1878       devscript              remot code execut
+    dsa-1880       openoffic.org          arbitrari code execut
+    dsa-1882       xapian-omega            cross-site script
+    dsa-1883       nagio2                 sever cross-site script
+    dsa-1884       nginx                   arbitrari code execut
+    dsa-1888       openssl                 deprec md2 hash signatur and fix sever do vulner
+    dsa-1888       openssl097              deprec md2 hash signatur
+    dsa-1889       icu                     secur bypass due to multibyt sequenc pars
+    dsa-1890       wxwindow2.4            arbitrari code execut
+    dsa-1890       wxwidget2.6            arbitrari code execut
+    dsa-1891       changetrack             arbitrari code execut
+    dsa-1892       dovecot                 arbitrari code execut
+    dsa-1893       cyru-imapd-2.2         arbitrari code execut
+    dsa-1893       kolab-cyru-imapd       arbitrari code execut
+    dsa-1894       newt                    arbitrari code execut
+    dsa-1896       opensaml                potenti code execut
+    dsa-1896       shibboleth-sp           potenti code execut
+    dsa-1897       hord3                  arbitrari code execut
+    dsa-1898       openswan                denial of servic
+    dsa-1899       strongswan              denial of servic
+    dsa-1900       postgresql-7.4          variou problem
+    dsa-1900       postgresql-8.1          variou problem
+    dsa-1901       mediawiki1.7            sever vulner
+    dsa-1902       elink                  arbitrari code execut
+    dsa-1903       graphicsmagick          sever vulner
+    dsa-1904       wget                    ssl certif verif weak
+    dsa-1909       postgresql-ocaml        miss escap function
+    dsa-1910       mysql-ocaml             miss escap function
+    dsa-1911       pygresql                miss escap function
+    dsa-1912       camlimag              arbitrari code execut
+    dsa-1912       advi                    arbitrari code execut
+    dsa-1914       mapserv               server vulner
+    dsa-1916       kdelib                 ssl certif verif weak
+    dsa-1917       mimetex                 sever vulner
+    dsa-1918       phpmyadmin              sever vulner
+    dsa-1919       smarti                  sever vulner
+    dsa-1920       nginx                   denial of servic
+    dsa-1921       expat                   denial of servic
+    dsa-1923       libhtml-parser-perl     denial of servic
+    dsa-1925       proftpd-dfsg            ssl certif verif weak
+    dsa-1926       typo3-src               sever vulner
+    dsa-1928       linux-2.6.24            sever vulner
+    dsa-1929       linux-2.6               sever vulner
+    dsa-1933       cupsi                  cross-site script
+    dsa-1934       apach2                 sever issu
+    dsa-1934       apach2-mpm-itk         sever issu
+    dsa-1935       gnutl13                ssl certif
+    dsa-1936       libgd2                  sever vulner
+    dsa-1937       gforg                  cross-site script
+    dsa-1938       php-mail                insuffici input sanitis
+    dsa-1939       libvorbi               sever vulner
+    dsa-1940       php5                    multipl issu
+    dsa-1942       wireshark               sever vulner
+    dsa-1943       openldap2.3             ssl certif
+    dsa-1944       request-tracker3.6      session hijack vulner
+    dsa-1944       request-tracker3.4      session hijack vulner
+    dsa-1945       gforg                  denial of servic
+    dsa-1946       belpic                  cryptograph weak
+    dsa-1947       shibboleth-sp           cross-site script
+    dsa-1948       ntp                     denial of servic
+    dsa-1951       firefox-sage            insuffici input sanit
+    dsa-1953       expat                   regress fix
+    dsa-1954       cacti                   insuffici input sanitis
+    dsa-1955       network-manag         inform disclosur
+    dsa-1958       libtool                 privileg escal
+    dsa-1960       acpid                   weak file permiss
+    dsa-1961       bind9                   cach poison
+    dsa-1964       postgresql-8.1          sever vulner
+    dsa-1964       postgresql-7.4          sever vulner
+    dsa-1966       hord3                  cross-site script
+    dsa-1968       pdn-recursor           cach poison
+    dsa-1969       krb5                    denial of servic
+    dsa-1971       libthai                 arbitrari code execut
+    dsa-1972       audiofil               buffer overflow
+    dsa-1973       glibc                   inform disclosur
+    dsa-1974       gzip                    arbitrari code execut
+    dsa-1977       python2.4               sever vulner
+    dsa-1977       python2.5               sever vulner
+    dsa-1979       lintian                 multipl vulner
+    dsa-1980       ircd-hybrid             arbitrari code execut
+    dsa-1981       maildrop                privileg escal
+    dsa-1982       hybserv                 denial of servic
+    dsa-1984       libxerc2-java         denial of servic
+    dsa-1985       sendmail                insuffici input valid
+    dsa-1987       lighttpd                denial of servic
+    dsa-1989       fuse                    denial of servic
+    dsa-1991       squid3                  denial of servic
+    dsa-1991       squid                   denial of servic
+    dsa-1992       chroni                  denial of servic
+    dsa-1994       ajaxterm                session hijack
+    dsa-1995       openoffic.org          sever vulner
+    dsa-1997       mysql-dfsg-5.0          sever vulner
+    dsa-2003       fai-kernel             sever vulner
+    dsa-2003       user-mode-linux         sever vulner
+    dsa-2003       linux-2.6               sever vulner
+    dsa-2004       linux-2.6.24            sever vulner
+
+
+unfortun it wa not possibl to includ the secur updat for
+the lcm packag in thi point releas due to a mismatch between the
+upstream tarbal us for the secur updat and that alreadi present
+in the oldstabl distribut.
+
+
+remov packag
+----------------
+
+the follow packag were remov due to circumst beyond our
+control:
+
+    packag                                reason
+
+    destar                                 secur issu
+    libclass-dbi-loader-relationship-perl  licens problem
+    libhdat-pascal                        [sourc:hdate] licens issu
+    loop-ae-modul-2.6-sparc32           [sourc:loop-ae] correspond sourc / kernel no longer in the archiv
+    loop-ae-modul-2.6-sparc64           [sourc:loop-ae] correspond sourc / kernel no longer in the archiv
+    loop-ae-modul-2.6-sparc64-smp       [sourc:loop-ae] correspond sourc / kernel no longer in the archiv
+    loop-ae-modul-2.6-vserver-sparc64   [sourc:loop-ae] correspond sourc / kernel no longer in the archiv
+    rail                                  secur and usabl issu
+
+a few further packag were remov as a result, as thei depend on
+libclass-dbi-loader-relationship-perl; these packag ar:
+
+    maypol
+    maypol-authent-usersess-cooki
+    maypol-plugin-upload
+    memori
+
+
+addition those part of the libwww-search-perl and
+libperl4caml-ocaml-dev packag which reli on the googl soap search
+api (provid by libnet-googl-perl) ar no longer function as the
+api ha been retir by googl.  the remain portion of the packag
+will continu to function as befor.
+
+
+about debian
+------------
+
+the debian project is an organis of free softwar develop who
+volunt their time and effort, collabor via the internet.  their
+task includ maintain and updat debian gnu/linux which is a free
+distribut of the gnu/linux oper system.  debian's dedic to
+free softwar, it non-profit natur, and it open develop model
+make it uniqu among gnu/linux distribut.
+
+
+contact
+-------
+
+for further inform, pleas visit the debian web page at
+, send mail to , or contact
+the oldstabl releas team at 
+
+
+-- 
+to unsubscrib, email to debian-announc-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100523065640.gb3233@melusin.alphascorpii.net
+
+

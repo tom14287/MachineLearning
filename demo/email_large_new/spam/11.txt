@@ -1,0 +1,6 @@
+[spam]  you gonna be the 1stfrom nobodi sun sep 18 20:45:27 2016
+content-type: text/plain;
+	charset="iso-8859-1"
+content-transfer-encod: quot-printabl
+
+thi is a multi-part messag in mime format.

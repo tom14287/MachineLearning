@@ -1,0 +1,35 @@
+re: recompil the kernel with a differ version nameon thu, 8 apr 2010 08:09:09 -0400 (edt)
+stephen powel  wrote:
+
+> on thu, 8 apr 2010 05:56:58 -0400 (edt), lorenzo bettini wrote:
+> > ... 
+> > --revis actual took effect sinc the 
+> > gener .deb is now (note the 'lore01')
+> > 
+> > linux-imag-2.6.32.10+drm33.1-recompil_lore01_i386.deb
+> > 
+> > but what i need to do is to get rid of '+drm33.1' which seem to be 
+> > automat ad...
+> > 
+> > the kernel sourc ar from the ubuntu lucid packag
+> > 'linux-sourc-2.6.32'.
+> 
+> i never have thi troubl when us offici *debian* sourc
+> packag. if you're run ubuntu, i suggest you seek help from the
+> ubuntu forum. my web page, and my advic, ar base on the
+> assumpt that you ar run *debian*.
+> 
+> btw, doe anyon know why ubuntu user seem to want to us the debian
+> forum?  don't thei have forum of their own?
+> 
+
+ye thei do, and in fact i find them help even though i'm run
+debian :-)
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100408065717.697f2861@windi.deldotd.com
+
+

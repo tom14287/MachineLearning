@@ -1,0 +1,39 @@
+re: authent unsuccess relai from postfix to
+	microsoft esmtp mail serviceon thu, 13 mai 2010 11:59:20 +0100, clive standbridg wrote:
+
+> the attach contain the line written to /var/log/auth.log and
+> /var/log/mail.log when the attempt to mail via newserv:587 fail,
+> also my /etc/postfix/main.cf (without comment).
+
+i see noth about the failur. all seem to go fine, postfix 
+establish a connect with remot server and silent fail :-/
+
+put postfix into a more verbos log. in "main.cf":
+
+***
+debug_peer_level = 2
+debug_peer_list = newserv
+***
+
+reload postfix and try again.
+
+p.s. 1 - check the more basic here: saslauth mechan be us for 
+authent and of cours, a correct password in "/etc/postfix/
+sasl_passwd" o:-)
+
+p.s. 2 - rememb that "535 5.7.3 authent unsuccess" is a 
+messag come from exchang server -not postfix- so it would be great if 
+you could review the log from the ms server side.
+
+greet,
+
+-- 
+camalón
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/pan.2010.05.13.12.11.39@csmine.org
+
+

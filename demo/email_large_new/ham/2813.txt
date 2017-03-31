@@ -1,0 +1,105 @@
+[spambay] understand high fals neg rate>   tp> i'm read thi now as that you train on about 220 spam and
+>   tp> about 220 ham.  that's less than 10% of the size of the
+>   tp> train set i've been us.  pleas try an experi: train
+>   tp> on 550 of each, and test onc against the other 550 of each.
+
+[jeremi]
+> thi help a lot!
+
+possibl.  i check in a chang to classifi.py overnight (get rid of
+mincount) that gave a major improv in the f-n rate too, independ of
+token.
+
+> here ar result with the stock token:
+
+unsur what "stock token" mean to you.  for exampl, it might mean
+token.token, or mboxtest.mytoken.token.
+
+> train on  &  /home/jeremi/mail/spam 8>
+>  ... 644 ham & 557 spam
+>       0.000  10.413
+>       1.398   6.104
+>       1.398   5.027
+> train on  &  /home/jeremi/mail/spam 0>
+>  ... 644 ham & 557 spam
+>       0.000   8.259
+>       1.242   2.873
+>       1.242   5.745
+> train on  &  /home/jeremi/mail/spam 3>
+>  ... 644 ham & 557 spam
+>       1.398   5.206
+>       1.398   4.488
+>       0.000   9.336
+> train on  &  /home/jeremi/mail/spam 0>
+>  ... 644 ham & 557 spam
+>       1.553   5.206
+>       1.553   5.027
+>       0.000   9.874
+> total fals po 139 5.39596273292
+> total fals neg 970 43.5368043088
+
+note that those rate remain much higher than i got us just 220 of ham
+and 220 of spam.  that remain a mysteri.
+
+> and result from the token that look at all header except date,
+> receiv, and x-from_:
+
+unsur what that mean too.  for exampl, "look at" might mean you enabl
+anthoni's count-them gimmick, and/or that you're token them yourself,
+and/or ...?
+
+> train on  &  /home/jeremi/mail/spam 8>
+>  ... 644 ham & 557 spam
+>       0.000   7.540
+>       0.932   4.847
+>       0.932   3.232
+> train on  &  /home/jeremi/mail/spam 0>
+>  ... 644 ham & 557 spam
+>       0.000   7.181
+>       0.621   2.873
+>       0.621   4.847
+> train on  &  /home/jeremi/mail/spam 3>
+>  ... 644 ham & 557 spam
+>       1.087   4.129
+>       1.087   3.052
+>       0.000   6.822
+> train on  &  /home/jeremi/mail/spam 0>
+>  ... 644 ham & 557 spam
+>       0.776   3.411
+>       0.776   3.411
+>       0.000   6.463
+> total fals po 97 3.76552795031
+> total fals neg 738 33.1238779174
+>
+> is it safe to conclud that avoid ani clever with header is a
+> good thing?
+
+sinc i don't know what you did, exactli, i can't guess.  what you seem to
+show is that you did *someth* clever with header and that do so
+help (the "after" number ar better than the "befor" number, right?).
+assum that what you did wa overrid what's now
+token.token.token_header with some other routin, and didn't
+call the base token.token_header at all, then you're miss
+carefulli test treatment of just a few header field, but ad mani
+dozen of other header field.  there's no question that ad more header
+field should help; token.token.token_header doesn't do so onli
+becaus my test corpora ar such that i can't add more header without
+get major benefit for bogu reason.
+
+apart from all that, you said you're skip receiv.  by sever
+account, that mai be the most valuabl of all the header field.  i'm
+(mean token.token.token_header) skip them too for the
+reason explain abov.  offlin a week or two ago, neil schemenau
+report good result from thi scheme:
+
+    ip_re = re.compil(r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})')
+
+    for header in msg.get_all("receiv", ()):
+        for ip in ip_re.findal(header):
+            part = ip.split(".")
+            for n in rang(1, 5):
+                yield 'receiv:' + '.'.join(part[:n])
+
+thi make a lot of sens to me; i just check it in, but left it disabl
+for now.
+

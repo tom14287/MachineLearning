@@ -1,0 +1,77 @@
+re: [satalk] 2.41/2.50 spamd/spamc problemheh. rtfm.. sorri about that.
+
+yep, that did the trick.
+
+thank for the help!
+
+regard,
+paul fri
+paul@cwie.net
+
+-----origin messag-----
+from: spamassassin-talk-admin@exampl.sourceforg.net
+[mailto:spamassassin-talk-admin@list.sourceforg.net] on behalf of
+vinc puzzella
+sent: thursdai, septemb 12, 2002 11:23 am
+to: paul fri; spamassassin-talk@exampl.sourceforg.net
+subject: re: [satalk] 2.41/2.50 spamd/spamc problem
+
+defang_mime 0
+
+-----origin messag-----
+from: paul fri [mailto:paul@cwie.net] 
+sent: thursdai, septemb 12, 2002 2:12 pm
+to: spamassassin-talk@exampl.sourceforg.net
+subject: [satalk] 2.41/2.50 spamd/spamc problem
+
+
+i notic that after upgrad to 2.41 (or 2.50) from 2.31, the -f
+option wa remov from spamd. 
+
+thi is fine becaus all of the html format mail seem to arriv
+properli. howev, messag that get tag as spam arriv as just html
+sourc.
+
+is there ani wai around thi? i would like all html/rtf messag to
+retain their format even if thei ar flag as spam. i would
+accomplish thi on 2.31 by us the "-f 0" flag when start spamd.
+
+thank!
+
+regard,
+paul fri
+paul@cwie.net
+cwie llc 
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf _______________________________________________
+spamassassin-talk mail list spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+

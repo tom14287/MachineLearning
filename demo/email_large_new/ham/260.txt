@@ -1,0 +1,13 @@
+re: [satalk] http://www.spamassassin.orgfrom nobodi sun sep 18 20:45:28 2016
+content-type: text/plain; charset=us-ascii
+content-disposit: inlin
+
+> http://www.spamassassin.org
+> is anyon besid me have problem get to the site?
+
+what site is that on?  isn't thi site on sourceforg the offici
+home page?
+
+  http://spamassassin.sourceforg.net/
+
+bob

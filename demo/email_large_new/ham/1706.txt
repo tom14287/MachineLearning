@@ -1,0 +1,24 @@
+how to improv font-us in kde4?hi,
+
+im comparison to anoth comput, work still with lenni, the
+displai of font in konsol is bad:-(
+without antialias on squeez (as in lenni) the font ar angular,
+with activ antialias the font ar too spongi. so, where do i
+have to search to resolv thi problem? on my lenni-desktop font in
+konsol without antialias look perfect. in squeez not:-(
+ah: anoth on: in lenni the us font is "fix [misc]" and it can
+displai an "¤". us "fix [misc]" in squeez cannot show me the "¤"
+anymor:-(
+
+ani hint?
+
+
+ciao, dirk
+
+
+-- 
+to unsubscrib, email to debian-kde-request@list.debian.org
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100518170123.gb8060@dserver.dnetz
+
+

@@ -1,0 +1,43 @@
+re: pdf is block for print, etc. ok for acroread (it behav
+ as expect), but kpdf allow me to print it, even if it is	protect! why?from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=utf-8
+content-transfer-encod: quot-printabl
+
+gunnar wolf wrote:
+> merciadri luca dijo [mon, apr 19, 2010 at 05:32:51pm +0200]:
+>  =20
+>
+> thing is, pdf is a print-orient format. it is a close descend
+> of postscript, a full-fledg program languag, but gear toward
+> printer. the main point that make pdf a more conveni format is
+> that acrobat made a big campaign to distribut it pdf reader program.
+>  =20
+as you sai.
+> as you quot, other have told you the pdf-provid secur is
+> fake. it is just a flag flip to tell the reader program to pretti
+> pleas make life miser for the user.
+>  =20
+ye, but it is often suffici to prevent _beginn_ from hack the
+whole stuff.
+> what do you want to achiev with thi _real_ protect you sai?
+>  =20
+see my other messag. i am/wa encount a special situat.
+> whatev can be displai on screen can be captur (i.e. with the
+> common "prtscr" keybind in mani environ). if you want to
+> distribut materi and make it hellish to your user to print it,
+> copi from it or us it in ani us wai, why don't you send the
+> document as a .jpg file?
+>  =20
+with such file (.jpg on) thei can print it directli, can't thei?
+
+
+--=20
+merciadri luca
+see http://www.student.montefior.ulg.ac.be/~merciadri/
+i us pgp. if there is an incompat problem with your mail
+client, pleas contact me.
+
+
+when make your choic in life, do not forget to live. (samuel johnson)=
+
+

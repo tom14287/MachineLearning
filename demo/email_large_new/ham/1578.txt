@@ -1,0 +1,27 @@
+re: kde 3.5 ...from nobodi sun sep 18 20:45:30 2016
+content-type: text/plain; charset=utf-8
+content-disposit: inlin
+content-transfer-encod: quot-printabl
+
+on tue,11.mai.10, 20:58:33, dotan cohen wrote:
+> > said in a nice wai, dotan could you put thi on your list and pass it t=
+o kde
+> > develop. i'm miss for sure the old bulgarian phonet layout where
+> > w=3d"=d0=b2" and v=3d"=d0=b6" and thi is a showstopp for me.
+> >
+>=20
+> i can't, as i am not bulgarian and i cannot triag. it might even be a
+> debian issu, not a kde issu. if your debian instal ha the proper
+> layout instal and kde is not find it, then pleas file the issu
+> here:
+> http://bug.kde.org/wizard.cgi
+>=20
+
+i'd rather think it's an xorg issu (specif the packag xkb-data,=20
+which contain all keyboard map).
+
+regard,
+andrei
+--=20
+offtop discuss among debian user and develop:
+http://list.alioth.debian.org/mailman/listinfo/d-commun-offtop

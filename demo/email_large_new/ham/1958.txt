@@ -1,0 +1,24 @@
+re: realtek ethernet (wa re: recent mobo recommend)on 2010-04-14 23:29, stan hoeppner wrote:
+[snip]
+> 
+> you mention you had problem build 2.6.32 and .33 kernel sourc.  do
+> you us the debian kernel sourc or kernel.org sourc?  i've been us the
+> kernel.org sourc for quit some time and have never had ani real problem
+> with it (knock on wood).  i had a build problem with .33 a while back but
+> that turn out to be due to a slight bit too much overclock on my machin
+> in thi warmer weather.  ;)
+> 
+
+debian sourc.  it's the first kernel build problem i'm had sinc 
+the 2.4 dai, and i've been us 2.6 sinc .0.
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc6a4bf.50504@cox.net
+
+

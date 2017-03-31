@@ -1,0 +1,28 @@
+re: [ilug] how to copi some fileson juli 19, niall@linux.ie said:
+> 
+> there ar lot of benefit to us hard link, for all sort of reason. in
+
+"...but there is insuffici room in the margin of thi email to
+ describ them..." :)
+
+> thi case, thei ar be us to provid two quit differ namespac
+> for the same set of file.
+
+sure, but soft link would do the same. to be honest, i'm try to
+think of a us us of hard link right now, and i'm a littl
+stump. there's gotta be some benefit that i'm miss that's
+immedi obviou to everyon.
+
+cheer,
+waider.
+-- 
+waider@waider.ie / ye, it /is/ veri person of me.
+
+merd sai, "in other new, our mini-blimp blew awai."
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

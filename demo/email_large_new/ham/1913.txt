@@ -1,0 +1,47 @@
+re: migrat os to smaller =?utf-8?q?drive=3f?=on sun, 11 apr 2010 19:30:14 -0500, ron johnson 
+wrote:
+> on 2010-04-11 18:49, thib wrote:
+>> ron johnson wrote:
+>>> ye, "wire" is slang for network cabl, but sata cabl ar actual 
+>>> wire too and order of magnitud slower than cpu/ram transfer.
+>> 
+>> thi is true, but isn't relev to what you suggest.
+>> think about it some more.
+>> 
+>> ...
+>> 
+>> oh ye.
+>> 
+>> we'll never talk about thi again, i promis.
+>> 
+>> -thib
+>> 
+>> ps  i'll tell you someth embarrass about me if you find a sata 
+>> control that can inflat.
+>> 
+> 
+> you're absolut correct.  thi time...
+> 
+
+i've us dd to push a copi of a work system onto larger drive in the
+past. so my misus of the term "migrat" is me actual do a copi of the
+work system to a new, larger devic and then zap the origin.
+
+i'd hope there wa a block by block wai to do it so i didn't have to set
+up the partit & filesystem ahead of time but i suppos that part won't
+be too pain.
+
+the system is rel idl dure these type of surgeri becaus i
+boot from a live cd so the data on disk isn't churn.
+
+thank to all who respond, it gave me a lot to consid for thi type of
+project. like do proper diff afterward to make sure everyth land
+on the new devic properli!
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/f6af5a3f47ea48bd1e0f695949793313@192.168.0.66
+
+

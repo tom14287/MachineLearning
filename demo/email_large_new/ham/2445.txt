@@ -1,0 +1,38 @@
+re: snow leopard, java 6 and netbean
+on mon, apr 26, 2010 at 9:14 pm, raymond martin  =
+wrote:
+
+>> raymond,
+>>=20
+>> take a look at mike's post.
+>=20
+> which basic sai that the wrong thing is be chosen in the =
+program.
+
+what i read wa that there is a differ between how java 6 and java 5 =
+handl glyph render. that mean that there is a not backward =
+compat modif in java 6 that trigger that problem. no need to =
+have a bs in comput scienc to pars that.
+
+> anywai, the main thread here realli is about slow perform, not =
+about glyph render.
+
+and glyph render affect perform. and it is like that other =
+modif in java 6 similarli affect perform for other area. =
+ar you be a troll ?
+
+
+jean-christoph helari
+----------------------------------------
+fun: http://mac4translat.blogspot.com
+work: http://www.doublet.jp (ja/en > fr)
+tweet: http://twitter.com/brandelun
+
+ _______________________________________________
+do not post admin request to the list. thei will be ignor.
+java-dev mail list      (java-dev@list.appl.com)
+help/unsubscrib/updat your subscript:
+http://list.appl.com/mailman/option/java-dev/mlsubscrib.tech%40csmine.org
+
+thi email sent to mlsubscrib.tech@csmine.org
+

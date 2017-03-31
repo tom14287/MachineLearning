@@ -1,0 +1,44 @@
+re: re[2]: java is for kiddi
+
+> -----origin messag-----
+> from: fork-admin@xent.com [mailto:fork-admin@xent.com]on behalf of karl
+> anderson
+> sent: thursdai, septemb 05, 2002 3:50 am
+> to: bitbitch@magnesium.net
+> cc: 'fork@spamassassin.taint.org'
+> subject: re: re[2]: java is for kiddi
+>
+>
+> bitbitch@magnesium.net write:
+>
+> > sl> 
+> > sl> misc rant about find job, java vs c, what make a good
+> programm, etc.
+> > sl> 
+> > 
+> > sl> okai, hmm, i thought twice about thi, but what the hei,
+> job ar hard to
+> > sl> come by. there's a compani hire in mountain view, look
+> for a few good
+> > 
+> >
+> > i give adam an hour or so to come up with an adequ number of
+> > excus as to why -thi- job isn't worth it.  :)
+>
+> http://www.netli.com/career/index.htm
+>
+> >* along with your resum, pleas answer thi question: what doe
+> thi c statement do? #defin xy(s, m) (&((s *)0)->m)
+>
+> besid provid job secur?
+
+thi is more us...
+
+#defin contain_record(address, type, field) ((type *)( \
+                                                  (pchar)(address) - \
+                                                  (pchar)(&((type
+*)0)->field)))
+
+bill
+
+

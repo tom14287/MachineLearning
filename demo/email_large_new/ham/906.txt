@@ -1,0 +1,28 @@
+re: [ilug] re: remov lilo
+"fdisk /mbr" will not destroi the os, it will simpli restor the window
+mbr as it wa.  run fdisk and delet a partit would howev
+destroi the os (bu even then onli if you format the disc afterward).
+
+
+sure wasn't it solocdm  
+sometim around wed, 31 jul 2002 10:48:16 -0600 said:
+ 
+> i need to ask a question concern thi issu.
+> 
+> what if i don't want to get rid of the mbr -- it will destroi the os
+> on that drive.  how do i remov lilo without the abov fdisk
+> procedur?
+> 
+-- 
+paul askin <:)
+email:  paul askin 
+
+behind everi great man, there is a woman -- urg him on.
+		-- harri mudd, "i, mudd", stardat 4513.3
+
+-- 
+irish linux user' group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscript inform.
+list maintain: listmast@linux.ie
+
+

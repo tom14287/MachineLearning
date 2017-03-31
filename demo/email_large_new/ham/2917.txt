@@ -1,0 +1,25 @@
+re: temporari deconnect from the internet when too much page
+ ar loadedon 2010-04-15 09:07, matthew moor wrote:
+[snip]
+> 
+> i also experienc thi problem, and found that liber us of noscript and 
+> flashblock realli help.
+
+good point.  while i got sick of creat noscript except, i'm a 
+great fan of flashblock and abp.
+
+>                           i final got fed up and just start us chrome. 
+> chrome isn't perfect, but it is certainli a lot faster than firefox/iceweasel.
+
+how effect is ad block with chrome addon?
+
+-- 
+dissent is patriot, rememb?
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/4bc7202d.7010700@cox.net
+
+

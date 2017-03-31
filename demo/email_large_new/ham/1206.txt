@@ -1,0 +1,35 @@
+re: list issu?on tue, 20 apr 2010 23:20:56 +0000 (utc)
+t o n g  wrote:
+
+> on tue, 20 apr 2010 17:37:36 -0500, chri wrote:
+> 
+> > ... oddli enough. last email from thi list to me wa at 11:22 am
+> > cdt it's now 5:37 pm cdt
+> 
+> no, it's not the list but you. 
+> 
+> when in doubt, check 
+> 
+> offici debian-user mail list archiv
+> http://list.debian.org/debian-user/
+> 
+
+ye - netsol had issu. my apolog to the list.
+
+-- 
+regard,
+
+chri
+
+"when the peopl fear their govern, there is tyranni; when the
+govern fear the peopl, there is liberti."
+
+           -- thoma jefferson
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100420195111.75302248@makeworld.com
+
+

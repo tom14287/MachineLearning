@@ -1,0 +1,50 @@
+re: pygrub is fail to boot cento domu on debian lenni dom0pleas don't top post!
+
+> on sat, mai 22, 2010 at 7:25 pm, chri bannist
+>  wrote:
+> > on fri, mai 21, 2010 at 08:32:00pm +0530, tapa mishra wrote:
+> >> on fri, mai 21, 2010 at 7:23 pm, =a0 wrot=
+e:
+> >> > on fri, mai 21, 2010 at 04:10:55pm +0530, tapa mishra wrote:
+> >> >> bootload =3d "/usr/lib/xen-3.2-1/bin/pygryb"
+> >> > =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0 =a0=
+ =a0 =a0^^^^^^^^
+> >> > shouldn't that be pygrub?
+> >> sorri that wa a type error i mean the same.
+> >
+> > pleas copi n past error messag!
+
+on sat, mai 22, 2010 at 06:56:01pm +0530, tapa mishra wrote:
+> i have wipe out all debian instanc from my server.
+> thank for your messag  i struggl for 2 month.
+> here is a snapshot if some on think i am a newbi and have not done
+> my homework
+> http://farm4.static.flickr.com/3356/4617619327_7f4bfcdb05_o.png
+> thi is not exact thing as my problem wa but thank for your
+> respons.
+> i have wipe out debian from my server for ever.
+> i do not have ani grudg with debian but my experi ha been more
+> than frustrat.
+> i fail to have a cento domu on debian dom0 i realli realli need
+> cento as on of the guest os.there were more guest run with
+> debian but now none of them ar there.
+> you can go through more snapshot here
+> http://www.flickr.com/photo/48996087@n07/
+> all of them ar on a debian server.i have final fail.
+> thank for your respons.
+
+i believ you have misunderstood me. i mean that instead of *type* the
+error out by long hand copi the error us the mous and past it into
+your email/bug report. you could instead us the "script" command. thi
+elimin the problem which type out error can caus.=20
+
+"religion is excel stuff for keep common peopl quiet."
+   -- napoleon bonapart
+
+
+-- 
+to unsubscrib, email to debian-user-request@list.debian.org 
+with a subject of "unsubscrib". troubl? contact listmast@list.debian.org
+archiv: http://list.debian.org/20100523115232.ga18258@fischer
+
+

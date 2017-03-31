@@ -1,0 +1,59 @@
+re: [satalk] separ inbound and outbound
+no i wa just a littl confus becaus i'm run procmail on a gatewai
+and sit between the extern sendmail box and intern exchang bridgehead
+server.  so there isn't ani deliveri to the local system.
+
+the onli email it get is inbound at the moment and we're look to get rid
+of complic and go back to two box.  i did a test which look like
+you gui ar right about procmail, but test is veri limit due to the
+config i current have.  it's just confus when set up as a gatewai.
+
+-jason
+
+-----origin messag-----
+from: stephan lentz [mailto:stephan.lentz@ansf.alcatel.fr]
+sent: mondai, septemb 23, 2002 2:50 pm
+to: spamassassin-talk@exampl.sourceforg.net
+subject: re: [satalk] separ inbound and outbound
+
+
+on mon, sep 23, 2002 at 02:26:34pm -0700, jason qualkenbush wrote:
+> 
+> is there is wai to separ inbound and outbound email so that i onli
+check
+> for spam on inbound mail and ignor the outbound?
+> 
+> i'm us sendmail and run procmail on the gatewai to call
+spamassassin.
+> i know it more of a sendmail question, but my googl search have onli
+> turn up peopl try to log all inbound and outbound email.
+> 
+us procmail, spamassassin doesn't get call for outgo email
+(messag sent to other machin). 
+procmail=local deliveri agent => inbound traffic to local machin.
+
+sl/
+---
+stephan lentz / alcanet intern - internet servic
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+
+-------------------------------------------------------
+thi sf.net email is sponsor by:thinkgeek
+welcom to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+spamassassin-talk mail list
+spamassassin-talk@list.sourceforg.net
+http://list.sourceforg.net/list/listinfo/spamassassin-talk
+
+
